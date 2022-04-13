@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Wnt signaling" Data-Source="WikiPathways" Version="WP428_Dr" Organism="Danio rerio">
+  <Comment Source="WikiPathways-description">Wnt proteins are secreted morphogens that are required for basic developmental processes, such as cell-fate specification, progenitor-cell proliferation and the control of asymmetric cell division, in many different species and organs. There are at least three different Wnt pathways: the canonical pathway, the planar cell polarity (PCP) pathway and the Wnt/Ca2+ pathway. In the canonical Wnt pathway, the major effect of Wnt ligand binding to its receptor is the stabilization of cytoplasmic beta-catenin through inhibition of the bea-catenin degradation complex. Beta-catenin is then free to enter the nucleus and activate Wnt-regulated genes through its interaction with TCF (T-cell factor) family transcription factors and concomitant recruitment of coactivators. Planar cell polarity (PCP) signaling leads to the activation of the small GTPases RHOA (RAS homologue gene-family member A) and RAC1, which activate the stress kinase JNK (Jun N-terminal kinase) and ROCK (RHO-associated coiled-coil-containing protein kinase 1) and leads to remodelling of the cytoskeleton and changes in cell adhesion and motility. WNT-Ca2+ signalling is mediated through G proteins and phospholipases and leads to transient increases in cytoplasmic free calcium that subsequently activate the kinase PKC (protein kinase C) and CAMKII (calcium calmodulin mediated kinase II) and the phosphatase calcineurin.
+
+Source: [http://www.genome.jp/kegg/pathway/hsa/hsa04310.html KEGG].
+
+Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP428 CPTAC Assay Portal]</Comment>
+  <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP428.gpml (WP428_r116549) with a 87.0% conversion rate.</Comment>
+  <BiopaxRef>a7b</BiopaxRef>
+  <Graphics BoardWidth="1553.5792019347036" BoardHeight="1155.3333333333333" />
+  <DataNode TextLabel="dvl3a" GraphId="a09" Type="GeneProduct" GroupRef="a2cf1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1857</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="DVL3 | dishevelled dsh homolog 3 (Drosophila)" />
+    <Graphics CenterX="707.0791247239673" CenterY="502.8476870572724" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000015707" />
+  </DataNode>
+  <DataNode TextLabel="RHOA" GraphId="a0a" Type="GeneProduct">
+    <Comment Source="HomologyMapper">No homologues found for original id L:387</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RHOA | ras homolog gene family member A" />
+    <Graphics CenterX="1231.7457913906344" CenterY="662.9903469066429" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="rac1a" GraphId="a14" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:5879</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RAC1 | ras-related C3 botulinum toxin substrate..." />
+    <Graphics CenterX="1345.524757216187" CenterY="664.3559253024519" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000074849" />
+  </DataNode>
+  <DataNode TextLabel="plaub" GraphId="a19" Type="GeneProduct" GroupRef="ee291">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:5328</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="PLAU | plasminogen activator urokinase" />
+    <Graphics CenterX="1008.9761123885935" CenterY="1006.3901017950656" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000039145" />
+  </DataNode>
+  <DataNode TextLabel="prkcbb" GraphId="a24" Type="GeneProduct" GroupRef="b3808">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000166501</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="PRKCB1 | protein kinase C beta 1" />
+    <Graphics CenterX="173.00805873411983" CenterY="749.0608850268148" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000022254" />
+  </DataNode>
+  <DataNode TextLabel="camk2d1" GraphId="a2529" Type="GeneProduct" GroupRef="a84f0">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000145349</Comment>
+    <Graphics CenterX="348.0000000000002" CenterY="779.9999999999995" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000043010" />
+  </DataNode>
+  <DataNode TextLabel="FRAT1" GraphId="a58" Type="GeneProduct" GroupRef="dc508">
+    <Comment Source="HomologyMapper">No homologues found for original id L:10023</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FRAT1 | frequently rearranged in advanced T-cel..." />
+    <Graphics CenterX="767.7271788694825" CenterY="511.83922682038497" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="gsk3ba" GraphId="a7e" Type="GeneProduct" GroupRef="a4649">
+    <Comment Source="GenMAPP remarks">MOUSE:KG38 MOUSE</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:2932</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="GSK3B | glycogen synthase kinase 3 beta" />
+    <Graphics CenterX="707.7457913906338" CenterY="651.7800051621782" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000017803" />
+  </DataNode>
+  <DataNode TextLabel="csnk2b" GraphId="a8cad" Type="GeneProduct" GroupRef="e4f70">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000204435</Comment>
+    <Graphics CenterX="672.3095525997586" CenterY="536.9770253929846" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000077776" />
+  </DataNode>
+  <DataNode TextLabel="apc" GraphId="a97" Type="GeneProduct" GroupRef="a4649">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:324</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="APC | adenomatosis polyposis coli" />
+    <Graphics CenterX="710.2838624566241" CenterY="693.3536092230914" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000058868" />
+  </DataNode>
+  <DataNode TextLabel="wnt3a" GraphId="aa0" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:89780</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT3A | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="675.996054695981" CenterY="114.79770405968468" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000058822" />
+  </DataNode>
+  <DataNode TextLabel="ppp3r1b" GraphId="ab6f6" Type="GeneProduct" GroupRef="be9e8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000221823</Comment>
+    <Graphics CenterX="260.0" CenterY="792.0000000000002" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000069360" />
+  </DataNode>
+  <DataNode TextLabel="PPP3R2" GraphId="ac963" Type="GeneProduct" GroupRef="be9e8">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000188386</Comment>
+    <Graphics CenterX="260.0" CenterY="812.0000000000002" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="fzd3a" GraphId="af4" Type="GeneProduct" GroupRef="d0abd">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7976</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD3 | frizzled homolog 3 (Drosophila)" />
+    <Graphics CenterX="754.5882817358377" CenterY="314.9862883434834" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000021664" />
+  </DataNode>
+  <DataNode TextLabel="mapk9" GraphId="afc" Type="GeneProduct" GroupRef="b6625">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:5601</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="MAPK9 | mitogen-activated protein kinase 9" />
+    <Graphics CenterX="1345.524757216187" CenterY="756.1946999900773" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000077364" />
+  </DataNode>
+  <DataNode TextLabel="lef1" GraphId="b013d" Type="GeneProduct" GroupRef="a3802">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000138795</Comment>
+    <Graphics CenterX="722.1208857626839" CenterY="1037.424842985473" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000031894" />
+  </DataNode>
+  <DataNode TextLabel="CSNK1E" GraphId="b37" Type="GeneProduct">
+    <Comment Source="HomologyMapper">No homologues found for original id L:1454</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CSNK1E | casein kinase 1 epsilon" />
+    <Graphics CenterX="645.5613582265063" CenterY="458.43821159195835" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="ccnd1" GraphId="b43" Type="GeneProduct" GroupRef="ee291">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:595</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CCND1 | cyclin D1 (PRAD1: parathyroid adenomato..." />
+    <Graphics CenterX="948.9761123885936" CenterY="986.3901017950652" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000101637" />
+  </DataNode>
+  <DataNode TextLabel="fzd8a" GraphId="b4d" Type="GeneProduct" GroupRef="d0abd">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8325</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD8 | frizzled homolog 8 (Drosophila)" />
+    <Graphics CenterX="658.0940778176017" CenterY="334.9862883434838" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000045444" />
+  </DataNode>
+  <DataNode TextLabel="tcf7l1b" GraphId="b5c92" Type="GeneProduct" GroupRef="a3802">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000152284</Comment>
+    <Graphics CenterX="722.1208857626839" CenterY="1017.424842985473" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000007369" />
+  </DataNode>
+  <DataNode TextLabel="wnt7ab" GraphId="b8f" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7476</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT7A | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="735.996054695981" CenterY="134.79770405968458" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000002483" />
+  </DataNode>
+  <DataNode TextLabel="tcf7l2" GraphId="b933c" Type="GeneProduct" GroupRef="a3802">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000148737</Comment>
+    <Graphics CenterX="722.1208857626833" CenterY="997.4248429854716" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000004415" />
+  </DataNode>
+  <DataNode TextLabel="wnt11" GraphId="b9f" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7481</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT11 | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="795.996054695981" CenterY="134.79770405968458" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000014796" />
+  </DataNode>
+  <DataNode TextLabel="wnt1" GraphId="be6" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7471</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT1 | wingless-type MMTV integration site fami..." />
+    <Graphics CenterX="615.996054695981" CenterY="114.79770405968468" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000055554" />
+  </DataNode>
+  <DataNode TextLabel="prkcaa" GraphId="c04" Type="GeneProduct" GroupRef="b3808">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:5578</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="PRKCA | protein kinase C alpha" />
+    <Graphics CenterX="173.00805873411983" CenterY="729.060885026815" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000115657" />
+  </DataNode>
+  <DataNode TextLabel="jun" GraphId="c0d" Type="GeneProduct" GroupRef="ee291">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:3725</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="JUN | v-jun sarcoma virus 17 oncogene homolog (..." />
+    <Graphics CenterX="1008.9761123885935" CenterY="986.390101795065" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000043531" />
+  </DataNode>
+  <DataNode TextLabel="lrp5" GraphId="c13ca" Type="GeneProduct" GroupRef="f6798">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:4041</Comment>
+    <Graphics CenterX="560.5706048710078" CenterY="309.9826929219378" Width="45.757378657214474" Height="27.287209311833756" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000006921" />
+  </DataNode>
+  <DataNode TextLabel="fzd10" GraphId="c22" Type="GeneProduct" GroupRef="d0abd">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:11211</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD10 | frizzled homolog 10 (Drosophila)" />
+    <Graphics CenterX="706.3411797767197" CenterY="334.9862883434838" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000068213" />
+  </DataNode>
+  <DataNode TextLabel="fzd7a" GraphId="c3d" Type="GeneProduct" GroupRef="d0abd">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8324</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD7 | frizzled homolog 7 (Drosophila)" />
+    <Graphics CenterX="658.0940778176017" CenterY="314.9862883434834" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060004" />
+  </DataNode>
+  <DataNode TextLabel="ppp3ccb" GraphId="c54ec" Type="GeneProduct" GroupRef="be9e8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000120910</Comment>
+    <Graphics CenterX="260.0" CenterY="772.0000000000001" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000057456" />
+  </DataNode>
+  <DataNode TextLabel="wnt5b" GraphId="c6d" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:81029</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT5B | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="675.996054695981" CenterY="174.79770405968438" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000102464" />
+  </DataNode>
+  <DataNode TextLabel="PPP3CA" GraphId="c72cf" Type="GeneProduct" GroupRef="be9e8">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000138814</Comment>
+    <Graphics CenterX="260.0" CenterY="732.0000000000002" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="ctnnb2" GraphId="c75" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1499</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CTNNB1 | catenin (cadherin-associated protein)..." />
+    <Graphics CenterX="722.2731700266434" CenterY="714.0349293883263" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000023472" />
+  </DataNode>
+  <DataNode TextLabel="wnt2" GraphId="c7c" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7472</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT2 | wingless-type MMTV integration site fami..." />
+    <Graphics CenterX="615.996054695981" CenterY="134.79770405968458" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000041117" />
+  </DataNode>
+  <DataNode TextLabel="csnk1a1" GraphId="cc4c6" Type="GeneProduct" GroupRef="d9721">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000113712</Comment>
+    <Graphics CenterX="673.5187424425616" CenterY="752.7690447400241" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000052674" />
+  </DataNode>
+  <DataNode TextLabel="wnt2bb" GraphId="cc6" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7482</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT2B | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="615.996054695981" CenterY="154.7977040596844" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000032234" />
+  </DataNode>
+  <DataNode TextLabel="FZD4" GraphId="cdf" Type="GeneProduct" GroupRef="d0abd">
+    <Comment Source="HomologyMapper">No homologues found for original id L:6424</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="SFRP4 | secreted frizzled-related protein 4" />
+    <Graphics CenterX="802.8353836949556" CenterY="314.9862883434834" Width="48.24710195911797" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="prkcg" GraphId="cef" Type="GeneProduct" GroupRef="b3808">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:5582</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="PRKCG | protein kinase C gamma" />
+    <Graphics CenterX="173.00805873411983" CenterY="769.0608850268148" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000004561" />
+  </DataNode>
+  <DataNode TextLabel="camk2b2" GraphId="cf2a9" Type="GeneProduct" GroupRef="a84f0">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000058404</Comment>
+    <Graphics CenterX="348.0000000000002" CenterY="759.9999999999995" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000100089" />
+  </DataNode>
+  <DataNode TextLabel="dvl2" GraphId="cfb" Type="GeneProduct" GroupRef="a2cf1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1856</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="DVL2 | dishevelled dsh homolog 2 (Drosophila)" />
+    <Graphics CenterX="707.0791247239673" CenterY="482.8476870572724" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000056184" />
+  </DataNode>
+  <DataNode TextLabel="wnt6b" GraphId="d06" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7475</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT6 | wingless-type MMTV integration site fami..." />
+    <Graphics CenterX="735.996054695981" CenterY="114.79770405968468" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000073935" />
+  </DataNode>
+  <DataNode TextLabel="ccndx" GraphId="d07" Type="GeneProduct" GroupRef="ee291">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:896</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CCND3 | cyclin D3" />
+    <Graphics CenterX="948.9761123885936" CenterY="1026.3901017950652" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000019741" />
+  </DataNode>
+  <DataNode TextLabel="wnt5a" GraphId="d33" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7474</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT5A | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="675.996054695981" CenterY="154.7977040596844" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000104973" />
+  </DataNode>
+  <DataNode TextLabel="ror1" GraphId="d3f05" Type="GeneProduct" GroupRef="c01d2">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:4919</Comment>
+    <Graphics CenterX="888.8374760690479" CenterY="313.7851429199635" Width="43.3060858098392" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000015176" />
+  </DataNode>
+  <DataNode TextLabel="fzd1" GraphId="d4b" Type="GeneProduct" GroupRef="d0abd">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8321</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD1 | frizzled homolog 1 (Drosophila)" />
+    <Graphics CenterX="609.8469758584837" CenterY="314.9862883434834" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000106062" />
+  </DataNode>
+  <DataNode TextLabel="lrp6" GraphId="d4ce7" Type="GeneProduct" GroupRef="f6798">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:4040</Comment>
+    <Graphics CenterX="560.5706048710078" CenterY="337.2699022337716" Width="45.757378657214474" Height="27.28720931183374" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000100143" />
+  </DataNode>
+  <DataNode TextLabel="kremen1" GraphId="d5f4d" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:83999</Comment>
+    <Graphics CenterX="487.33450290385656" CenterY="324.5422101167841" Width="45.88341158059477" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000062579" />
+  </DataNode>
+  <DataNode TextLabel="wnt16" GraphId="d63" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:51384</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT16 | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="795.996054695981" CenterY="154.7977040596844" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000094973" />
+  </DataNode>
+  <DataNode TextLabel="fzd6" GraphId="d64" Type="GeneProduct" GroupRef="d0abd">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8323</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="802.8353836949557" CenterY="334.9862883434838" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000104874" />
+  </DataNode>
+  <DataNode TextLabel="CAMK2G" GraphId="d68c5" Type="GeneProduct" GroupRef="a84f0">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000148660</Comment>
+    <Graphics CenterX="348.0000000000002" CenterY="799.9999999999995" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="ryk" GraphId="d7828" Type="GeneProduct" GroupRef="c01d2">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6259</Comment>
+    <Graphics CenterX="848.2114582588597" CenterY="323.4685799512246" Width="38.19618216915691" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000007231" />
+  </DataNode>
+  <DataNode TextLabel="wnt4" GraphId="d7f" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:54361</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT4 | wingless-type MMTV integration site fami..." />
+    <Graphics CenterX="675.996054695981" CenterY="134.79770405968458" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000071208" />
+  </DataNode>
+  <DataNode TextLabel="camk2a" GraphId="d8cec" Type="GeneProduct" GroupRef="a84f0">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000070808</Comment>
+    <Graphics CenterX="348.0000000000002" CenterY="739.9999999999995" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000053617" />
+  </DataNode>
+  <DataNode TextLabel="wnt3" GraphId="d98" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7473</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT3 | wingless-type MMTV integration site fami..." />
+    <Graphics CenterX="615.996054695981" CenterY="174.79770405968438" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000038990" />
+  </DataNode>
+  <DataNode TextLabel="CSNK2A1" GraphId="da75f" Type="GeneProduct" GroupRef="e4f70">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000101266</Comment>
+    <Graphics CenterX="614.2684401451032" CenterY="536.8802902055611" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="axin1" GraphId="db1" Type="GeneProduct" GroupRef="a4649">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8312</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="AXIN1 | axin 1" />
+    <Graphics CenterX="677.2889385987554" CenterY="673.2267056697928" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000102964" />
+  </DataNode>
+  <DataNode TextLabel="wnt10b" GraphId="dda" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7480</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT10B | wingless-type MMTV integration site fa..." />
+    <Graphics CenterX="795.996054695981" CenterY="114.79770405968469" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000040925" />
+  </DataNode>
+  <DataNode TextLabel="fzd5" GraphId="dfc" Type="GeneProduct" GroupRef="d0abd">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7855</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD5 | frizzled homolog 5 (Drosophila)" />
+    <Graphics CenterX="754.5882817358378" CenterY="334.9862883434838" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000025420" />
+  </DataNode>
+  <DataNode TextLabel="wnt7ba" GraphId="e07" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7477</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT7B | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="735.996054695981" CenterY="154.7977040596844" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000022858" />
+  </DataNode>
+  <DataNode TextLabel="dvl1b" GraphId="e15" Type="GeneProduct" GroupRef="a2cf1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1855</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="DVL1 | dishevelled dsh homolog 1 (Drosophila)" />
+    <Graphics CenterX="707.0791247239673" CenterY="462.84768705727237" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000055552" />
+  </DataNode>
+  <DataNode TextLabel="chd8" GraphId="e183b" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000100888</Comment>
+    <Graphics CenterX="610.6408706166869" CenterY="892.3821039903257" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000075543" />
+  </DataNode>
+  <DataNode TextLabel="PPP3CB" GraphId="e34dd" Type="GeneProduct" GroupRef="be9e8">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000107758</Comment>
+    <Graphics CenterX="260.0" CenterY="752.0000000000001" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="wnt10a" GraphId="e3f" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:80326</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT10A | wingless-type MMTV integration site fa..." />
+    <Graphics CenterX="735.996054695981" CenterY="174.79770405968438" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000017155" />
+  </DataNode>
+  <DataNode TextLabel="ttbk2b" GraphId="e55fa" Type="GeneProduct" GroupRef="d9721">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000180138</Comment>
+    <Graphics CenterX="673.5187424425616" CenterY="732.7690447400241" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000043026" />
+  </DataNode>
+  <DataNode TextLabel="CSNK2A3" GraphId="e6b50" Type="GeneProduct" GroupRef="e4f70">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000254598</Comment>
+    <Graphics CenterX="672.3095525997586" CenterY="556.9770253929845" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="fosl1b" GraphId="e7c" Type="GeneProduct" GroupRef="ee291">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8061</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FOSL1 | FOS-like antigen 1" />
+    <Graphics CenterX="1008.9761123885935" CenterY="966.3901017950651" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000079373" />
+  </DataNode>
+  <DataNode TextLabel="Focal Adhesion" GraphId="e8729" Type="Pathway">
+    <Graphics CenterX="1180.169286577992" CenterY="822.2490931076177" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
+    <Xref Database="WikiPathways" ID="WP306" />
+  </DataNode>
+  <DataNode TextLabel="mapk9" GraphId="e95" Type="GeneProduct" GroupRef="b6625">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000050748</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="MAPK10 | mitogen-activated protein kinase 10" />
+    <Graphics CenterX="1345.524757216187" CenterY="776.1946999900773" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000077364" />
+  </DataNode>
+  <DataNode TextLabel="26S Proteasome &#xA;Degradation" GraphId="ee328" Type="Pathway">
+    <Graphics CenterX="1061.8883880565445" CenterY="715.3911197006394" Width="115.09604519773961" Height="36.316384180791744" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
+    <Xref Database="WikiPathways" ID="WP183" />
+  </DataNode>
+  <DataNode TextLabel="mycb" GraphId="f11" Type="GeneProduct" GroupRef="ee291">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:4609</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="MYC | v-myc myelocytomatosis viral oncogene hom..." />
+    <Graphics CenterX="948.9761123885936" CenterY="966.3901017950652" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000007241" />
+  </DataNode>
+  <DataNode TextLabel="csnk2a2a" GraphId="f1985" Type="GeneProduct" GroupRef="e4f70">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000070770</Comment>
+    <Graphics CenterX="614.2684401451032" CenterY="556.8802902055611" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000012818" />
+  </DataNode>
+  <DataNode TextLabel="ccnd2b" GraphId="f2d" Type="GeneProduct" GroupRef="ee291">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:894</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CCND2 | cyclin D2" />
+    <Graphics CenterX="948.9761123885936" CenterY="1006.3901017950652" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000070408" />
+  </DataNode>
+  <DataNode TextLabel="fzd9b" GraphId="f93" Type="GeneProduct" GroupRef="d0abd">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8326</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD9 | frizzled homolog 9 (Drosophila)" />
+    <Graphics CenterX="706.3411797767197" CenterY="314.9862883434834" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000014673" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="fa595" Type="Metabolite">
+    <Graphics CenterX="261.1666666666682" CenterY="609.75" Width="63.66666666666666" Height="25.8333333333332" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB0000464" />
+  </DataNode>
+  <DataNode TextLabel="map3k7" GraphId="fc06e" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000135341</Comment>
+    <Graphics CenterX="1440.1451027811358" CenterY="814.993954050786" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000020469" />
+  </DataNode>
+  <DataNode TextLabel="tcf7" GraphId="fd4" Type="GeneProduct" GroupRef="a3802">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000081059</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="TCF-1/LEF" />
+    <Graphics CenterX="722.120885762684" CenterY="976.924842985473" Width="70.90395480226064" Height="21.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000038672" />
+  </DataNode>
+  <DataNode TextLabel="wnt16" GraphId="fe4" Type="GeneProduct" GroupRef="b0118">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:51384</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT16 | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="795.996054695981" CenterY="174.79770405968435" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000094973" />
+  </DataNode>
+  <DataNode TextLabel="fzd2" GraphId="ff1" Type="GeneProduct" GroupRef="d0abd">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:2535</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD2 | frizzled homolog 2 (Drosophila)" />
+    <Graphics CenterX="609.8469758584837" CenterY="334.9862883434838" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000054438" />
+  </DataNode>
+  <DataNode TextLabel="ror2" GraphId="d073e" Type="GeneProduct" GroupRef="c01d2">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:4920</Comment>
+    <Graphics CenterX="888.8374760690476" CenterY="338.7851429199636" Width="43.30608580983918" Height="24.99999999999999" ZOrder="32769" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000076227" />
+  </DataNode>
+  <DataNode TextLabel="ctnnb2" GraphId="acb73" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1499</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CTNNB1 | catenin (cadherin-associated protein)..." />
+    <Graphics CenterX="827.5007084557615" CenterY="714.0349293883258" Width="60.0" Height="20.0" ZOrder="32770" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000023472" />
+  </DataNode>
+  <DataNode TextLabel="ctnnb2" GraphId="fbd36" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1499</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CTNNB1 | catenin (cadherin-associated protein)..." />
+    <Graphics CenterX="930.7697439887569" CenterY="714.882645124366" Width="60.0" Height="20.0" ZOrder="32772" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000023472" />
+  </DataNode>
+  <DataNode TextLabel="DKK1" GraphId="d9ec1" Type="GeneProduct" GroupRef="f5129">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000107984</Comment>
+    <Graphics CenterX="512.4927706916457" CenterY="177.16374199131155" Width="45.757378657214474" Height="25.0" ZOrder="32774" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="DKK2" GraphId="b4e57" Type="GeneProduct" GroupRef="f5129">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000155011</Comment>
+    <Graphics CenterX="512.4927706916493" CenterY="202.16374199131147" Width="45.75737865721452" Height="25.000000000000007" ZOrder="32775" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="DKK4" GraphId="b61c4" Type="GeneProduct" GroupRef="f5129">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000104371</Comment>
+    <Graphics CenterX="512.4927706916493" CenterY="227.16374199131135" Width="45.75737865721452" Height="25.000000000000007" ZOrder="32776" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="sost" GraphId="eb80c" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000167941</Comment>
+    <Graphics CenterX="589.7516539403817" CenterY="231.52730246773714" Width="45.75737865721444" Height="25.000000000000007" ZOrder="32778" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000061259" />
+  </DataNode>
+  <DataNode TextLabel="serpinf1" GraphId="b45bf" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000132386</Comment>
+    <Graphics CenterX="652.3400356053792" CenterY="235.2464226031009" Width="63.64480188568781" Height="25.000000000000007" ZOrder="32779" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000069048" />
+  </DataNode>
+  <DataNode TextLabel="FRAT2" GraphId="d2661" Type="GeneProduct" GroupRef="dc508">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000181274</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FRAT1 | frequently rearranged in advanced T-cel..." />
+    <Graphics CenterX="767.7271788694825" CenterY="531.8392268203843" Width="60.0" Height="20.0" ZOrder="32780" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="ctnnb2" GraphId="f0b3b" Type="GeneProduct" GroupRef="a3802">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1499</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CTNNB1 | catenin (cadherin-associated protein)..." />
+    <Graphics CenterX="722.1208857626839" CenterY="956.424842985473" Width="60.0" Height="20.0" ZOrder="32781" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000023472" />
+  </DataNode>
+  <DataNode TextLabel="sfrp1b" GraphId="b127e" Type="GeneProduct" GroupRef="bf3e5">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000104332</Comment>
+    <Graphics CenterX="822.8578021028414" CenterY="223.6085207418487" Width="63.64480188568781" Height="25.000000000000007" ZOrder="32782" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000057678" />
+  </DataNode>
+  <DataNode TextLabel="sfrp2" GraphId="a49be" Type="GeneProduct" GroupRef="bf3e5">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000145423</Comment>
+    <Graphics CenterX="822.8578021028417" CenterY="246.29887607179802" Width="63.64480188568781" Height="25.000000000000007" ZOrder="32783" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000070050" />
+  </DataNode>
+  <DataNode TextLabel="SFRP4" GraphId="ed66e" Type="GeneProduct" GroupRef="bf3e5">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000106483</Comment>
+    <Graphics CenterX="886.5026039885296" CenterY="223.60852074184868" Width="63.64480188568781" Height="25.000000000000007" ZOrder="32784" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="sfrp5" GraphId="f94bc" Type="GeneProduct" GroupRef="bf3e5">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000120057</Comment>
+    <Graphics CenterX="886.5026039885295" CenterY="246.298876071798" Width="63.64480188568781" Height="25.000000000000007" ZOrder="32785" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000039041" />
+  </DataNode>
+  <DataNode TextLabel="notum1a" GraphId="fd0b0" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000185269</Comment>
+    <Graphics CenterX="953.5922824995283" CenterY="133.35471363524968" Width="63.64480188568781" Height="25.000000000000007" ZOrder="32786" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000031126" />
+  </DataNode>
+  <DataNode TextLabel="CER1" GraphId="fb46b" Type="GeneProduct">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000147869</Comment>
+    <Graphics CenterX="953.5922824995283" CenterY="170.00445982814307" Width="63.64480188568781" Height="25.000000000000007" ZOrder="32787" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="wif1" GraphId="e65bf" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000156076</Comment>
+    <Graphics CenterX="953.5922824995284" CenterY="94.97907911748317" Width="63.64480188568781" Height="25.000000000000007" ZOrder="32789" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000005541" />
+  </DataNode>
+  <DataNode TextLabel="porcnl" GraphId="cf09c" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000102312</Comment>
+    <Graphics CenterX="504.2014195553665" CenterY="86.09583038651873" Width="63.64480188568781" Height="25.000000000000007" ZOrder="32790" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000052455" />
+  </DataNode>
+  <DataNode TextLabel="wnt5b" GraphId="c878b" Type="GeneProduct" GroupRef="ed9f0">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:81029</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT5B | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="259.3293880293137" CenterY="239.46437072635104" Width="60.0" Height="20.0" ZOrder="32793" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000102464" />
+  </DataNode>
+  <DataNode TextLabel="wnt5a" GraphId="a8753" Type="GeneProduct" GroupRef="ed9f0">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7474</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT5A | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="259.3293880293137" CenterY="219.46437072635123" Width="60.0" Height="20.0" ZOrder="32794" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000104973" />
+  </DataNode>
+  <DataNode TextLabel="fzd3a" GraphId="edaf0" Type="GeneProduct" GroupRef="c47c8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7976</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD3 | frizzled homolog 3 (Drosophila)" />
+    <Graphics CenterX="307.2549484025033" CenterY="316.98628834348335" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32795" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000021664" />
+  </DataNode>
+  <DataNode TextLabel="fzd8a" GraphId="ceaca" Type="GeneProduct" GroupRef="c47c8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8325</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD8 | frizzled homolog 8 (Drosophila)" />
+    <Graphics CenterX="210.76074448426758" CenterY="336.98628834348375" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32796" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000045444" />
+  </DataNode>
+  <DataNode TextLabel="fzd10" GraphId="db594" Type="GeneProduct" GroupRef="c47c8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:11211</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD10 | frizzled homolog 10 (Drosophila)" />
+    <Graphics CenterX="259.0078464433856" CenterY="336.98628834348375" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32797" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000068213" />
+  </DataNode>
+  <DataNode TextLabel="fzd7a" GraphId="b17c5" Type="GeneProduct" GroupRef="c47c8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8324</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD7 | frizzled homolog 7 (Drosophila)" />
+    <Graphics CenterX="210.76074448426758" CenterY="316.98628834348335" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32798" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060004" />
+  </DataNode>
+  <DataNode TextLabel="FZD4" GraphId="e0de2" Type="GeneProduct" GroupRef="c47c8">
+    <Comment Source="HomologyMapper">No homologues found for original id L:6424</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="SFRP4 | secreted frizzled-related protein 4" />
+    <Graphics CenterX="355.5020503616157" CenterY="316.98628834348335" Width="48.24710195911797" Height="19.99999999999999" ZOrder="32799" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="fzd1" GraphId="f8e5b" Type="GeneProduct" GroupRef="c47c8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8321</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD1 | frizzled homolog 1 (Drosophila)" />
+    <Graphics CenterX="162.51364252514878" CenterY="316.98628834348335" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32800" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000106062" />
+  </DataNode>
+  <DataNode TextLabel="fzd6" GraphId="a4d89" Type="GeneProduct" GroupRef="c47c8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8323</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="355.50205036162214" CenterY="336.98628834348375" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32801" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000104874" />
+  </DataNode>
+  <DataNode TextLabel="fzd5" GraphId="f84b6" Type="GeneProduct" GroupRef="c47c8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7855</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD5 | frizzled homolog 5 (Drosophila)" />
+    <Graphics CenterX="307.25494840250343" CenterY="336.98628834348375" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32802" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000025420" />
+  </DataNode>
+  <DataNode TextLabel="fzd9b" GraphId="e71f1" Type="GeneProduct" GroupRef="c47c8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8326</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD9 | frizzled homolog 9 (Drosophila)" />
+    <Graphics CenterX="259.0078464433856" CenterY="316.98628834348335" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32803" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000014673" />
+  </DataNode>
+  <DataNode TextLabel="fzd2" GraphId="da6bb" Type="GeneProduct" GroupRef="c47c8">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:2535</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD2 | frizzled homolog 2 (Drosophila)" />
+    <Graphics CenterX="162.51364252514878" CenterY="336.98628834348375" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32804" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000054438" />
+  </DataNode>
+  <DataNode TextLabel="PLCB1" GraphId="e0975" Type="GeneProduct" GroupRef="f2716">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000182621</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="PRKCA | protein kinase C alpha" />
+    <Graphics CenterX="260.34139206745215" CenterY="433.7275516934813" Width="60.0" Height="20.0" ZOrder="32805" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000109726" />
+  </DataNode>
+  <DataNode TextLabel="PLCB2" GraphId="ad6a5" Type="GeneProduct" GroupRef="f2716">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000137841</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="PRKCA | protein kinase C alpha" />
+    <Graphics CenterX="260.34139206745215" CenterY="453.7275516934812" Width="60.0" Height="20.0" ZOrder="32806" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000090381" />
+  </DataNode>
+  <DataNode TextLabel="plcb3" GraphId="c7d98" Type="GeneProduct" GroupRef="f2716">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000149782</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="PRKCA | protein kinase C alpha" />
+    <Graphics CenterX="260.34139206745215" CenterY="473.7275516934812" Width="60.0" Height="20.0" ZOrder="32807" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000068246" />
+  </DataNode>
+  <DataNode TextLabel="PLCB4" GraphId="f33f8" Type="GeneProduct" GroupRef="f2716">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000101333</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="PRKCA | protein kinase C alpha" />
+    <Graphics CenterX="260.34139206745215" CenterY="493.7275516934817" Width="60.0" Height="20.0" ZOrder="32808" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000100786" />
+  </DataNode>
+  <DataNode TextLabel="nfatc1" GraphId="b826b" Type="GeneProduct" GroupRef="e8bb1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000131196</Comment>
+    <Graphics CenterX="173.37928254736008" CenterY="944.6666666666669" Width="65.33333333333356" Height="20.0" ZOrder="32813" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000036168" />
+  </DataNode>
+  <DataNode TextLabel="nfatc2a" GraphId="a3990" Type="GeneProduct" GroupRef="e8bb1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000101096</Comment>
+    <Graphics CenterX="173.37928254736008" CenterY="964.6666666666669" Width="65.33333333333356" Height="20.0" ZOrder="32814" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000100927" />
+  </DataNode>
+  <DataNode TextLabel="nfatc3a" GraphId="f0975" Type="GeneProduct" GroupRef="e8bb1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000072736</Comment>
+    <Graphics CenterX="173.37928254736008" CenterY="984.6666666666669" Width="65.33333333333356" Height="20.0" ZOrder="32815" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000076297" />
+  </DataNode>
+  <DataNode TextLabel="nfatc4" GraphId="da31c" Type="GeneProduct" GroupRef="e8bb1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000100968</Comment>
+    <Graphics CenterX="173.3792825473601" CenterY="1004.6666666666669" Width="65.33333333333356" Height="20.0" ZOrder="32816" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000054162" />
+  </DataNode>
+  <DataNode TextLabel="nfatc1" GraphId="a6ad1" Type="GeneProduct" GroupRef="c9a6c">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000131196</Comment>
+    <Graphics CenterX="341.3333333333338" CenterY="945.085046352277" Width="60.0" Height="20.0" ZOrder="32817" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000036168" />
+  </DataNode>
+  <DataNode TextLabel="nfatc2a" GraphId="c5f70" Type="GeneProduct" GroupRef="c9a6c">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000101096</Comment>
+    <Graphics CenterX="341.33333333333377" CenterY="965.085046352277" Width="60.0" Height="20.0" ZOrder="32818" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000100927" />
+  </DataNode>
+  <DataNode TextLabel="nfatc3a" GraphId="ac1fd" Type="GeneProduct" GroupRef="c9a6c">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000072736</Comment>
+    <Graphics CenterX="341.33333333333377" CenterY="985.085046352277" Width="60.0" Height="20.0" ZOrder="32819" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000076297" />
+  </DataNode>
+  <DataNode TextLabel="nfatc4" GraphId="ca83c" Type="GeneProduct" GroupRef="c9a6c">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000100968</Comment>
+    <Graphics CenterX="341.33333333333377" CenterY="1005.085046352277" Width="60.0" Height="20.0" ZOrder="32820" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000054162" />
+  </DataNode>
+  <DataNode TextLabel="fzd3a" GraphId="e1e18" Type="GeneProduct" GroupRef="e5dc9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7976</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD3 | frizzled homolog 3 (Drosophila)" />
+    <Graphics CenterX="1279.92161506917" CenterY="317.65295501015027" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32821" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000021664" />
+  </DataNode>
+  <DataNode TextLabel="fzd8a" GraphId="a7082" Type="GeneProduct" GroupRef="e5dc9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8325</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD8 | frizzled homolog 8 (Drosophila)" />
+    <Graphics CenterX="1183.4274111509344" CenterY="337.65295501015066" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32822" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000045444" />
+  </DataNode>
+  <DataNode TextLabel="fzd10" GraphId="a3a02" Type="GeneProduct" GroupRef="e5dc9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:11211</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD10 | frizzled homolog 10 (Drosophila)" />
+    <Graphics CenterX="1231.674513110052" CenterY="337.65295501015066" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32823" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000068213" />
+  </DataNode>
+  <DataNode TextLabel="fzd7a" GraphId="f0d74" Type="GeneProduct" GroupRef="e5dc9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8324</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD7 | frizzled homolog 7 (Drosophila)" />
+    <Graphics CenterX="1183.4274111509344" CenterY="317.65295501015027" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32824" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060004" />
+  </DataNode>
+  <DataNode TextLabel="FZD4" GraphId="f1fee" Type="GeneProduct" GroupRef="e5dc9">
+    <Comment Source="HomologyMapper">No homologues found for original id L:6424</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="SFRP4 | secreted frizzled-related protein 4" />
+    <Graphics CenterX="1328.1687170282814" CenterY="317.65295501015027" Width="48.24710195911797" Height="19.99999999999999" ZOrder="32825" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="fzd1" GraphId="cc8c9" Type="GeneProduct" GroupRef="e5dc9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8321</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD1 | frizzled homolog 1 (Drosophila)" />
+    <Graphics CenterX="1135.1803091918155" CenterY="317.65295501015027" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32826" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000106062" />
+  </DataNode>
+  <DataNode TextLabel="fzd6" GraphId="a03a6" Type="GeneProduct" GroupRef="e5dc9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8323</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="1328.1687170282887" CenterY="337.65295501015066" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32827" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000104874" />
+  </DataNode>
+  <DataNode TextLabel="fzd5" GraphId="fc201" Type="GeneProduct" GroupRef="e5dc9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7855</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD5 | frizzled homolog 5 (Drosophila)" />
+    <Graphics CenterX="1279.92161506917" CenterY="337.65295501015066" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32828" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000025420" />
+  </DataNode>
+  <DataNode TextLabel="fzd9b" GraphId="c44fc" Type="GeneProduct" GroupRef="e5dc9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:8326</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD9 | frizzled homolog 9 (Drosophila)" />
+    <Graphics CenterX="1231.674513110052" CenterY="317.65295501015027" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32829" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000014673" />
+  </DataNode>
+  <DataNode TextLabel="fzd2" GraphId="b23d7" Type="GeneProduct" GroupRef="e5dc9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:2535</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD2 | frizzled homolog 2 (Drosophila)" />
+    <Graphics CenterX="1135.1803091918155" CenterY="337.65295501015066" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32830" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000054438" />
+  </DataNode>
+  <DataNode TextLabel="gpc4" GraphId="be802" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000076716</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="1408.8353836949548" CenterY="327.65295501015095" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32831" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000015472" />
+  </DataNode>
+  <DataNode TextLabel="vangl1" GraphId="e92e4" Type="GeneProduct" GroupRef="aa7e0">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000173218</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="1050.8353836949552" CenterY="321.6529550101511" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32832" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000004305" />
+  </DataNode>
+  <DataNode TextLabel="vangl2" GraphId="c0a9d" Type="GeneProduct" GroupRef="aa7e0">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000162738</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="1050.8353836949552" CenterY="341.6529550101511" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32833" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000027397" />
+  </DataNode>
+  <DataNode TextLabel="wnt11" GraphId="a6ec7" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7481</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="WNT11 | wingless-type MMTV integration site fam..." />
+    <Graphics CenterX="1231.3293880293138" CenterY="242.13103739301792" Width="60.0" Height="20.0" ZOrder="32834" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000014796" />
+  </DataNode>
+  <DataNode TextLabel="dvl3a" GraphId="f5da7" Type="GeneProduct" GroupRef="ee95b">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1857</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="DVL3 | dishevelled dsh homolog 3 (Drosophila)" />
+    <Graphics CenterX="1231.7457913906344" CenterY="503.51435372393877" Width="60.0" Height="20.0" ZOrder="32835" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000015707" />
+  </DataNode>
+  <DataNode TextLabel="dvl2" GraphId="ccfff" Type="GeneProduct" GroupRef="ee95b">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1856</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="DVL2 | dishevelled dsh homolog 2 (Drosophila)" />
+    <Graphics CenterX="1231.7457913906344" CenterY="483.51435372393877" Width="60.0" Height="20.0" ZOrder="32836" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000056184" />
+  </DataNode>
+  <DataNode TextLabel="dvl1b" GraphId="b04d5" Type="GeneProduct" GroupRef="ee95b">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1855</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="DVL1 | dishevelled dsh homolog 1 (Drosophila)" />
+    <Graphics CenterX="1231.7457913906344" CenterY="463.5143537239387" Width="60.0" Height="20.0" ZOrder="32837" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000055552" />
+  </DataNode>
+  <DataNode TextLabel="invs" GraphId="a76f4" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000119509</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="1261.5020503616215" CenterY="390.98628834348403" Width="48.247101959117956" Height="19.99999999999999" ZOrder="32838" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000002213" />
+  </DataNode>
+  <DataNode TextLabel="prickle1a" GraphId="f8b76" Type="GeneProduct" GroupRef="caab9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000139174</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="1105.8128006705895" CenterY="412.98628834348415" Width="59.62560134118051" Height="19.99999999999999" ZOrder="32839" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000040649" />
+  </DataNode>
+  <DataNode TextLabel="prickle2a" GraphId="ca1e5" Type="GeneProduct" GroupRef="caab9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000163637</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="1105.8128006705895" CenterY="432.9862883434841" Width="59.62560134118045" Height="20.0" ZOrder="32840" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000020982" />
+  </DataNode>
+  <DataNode TextLabel="nkd1" GraphId="f0c62" Type="GeneProduct" GroupRef="decb5">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000140807</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="973.146134003923" CenterY="473.65295501015106" Width="59.62560134118045" Height="20.0" ZOrder="32841" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000020053" />
+  </DataNode>
+  <DataNode TextLabel="nkd3" GraphId="d4db4" Type="GeneProduct" GroupRef="decb5">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000145506</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FZD6 | frizzled homolog 6 (Drosophila)" />
+    <Graphics CenterX="973.146134003923" CenterY="493.6529550101511" Width="59.62560134118045" Height="20.0" ZOrder="32842" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000013174" />
+  </DataNode>
+  <DataNode TextLabel="daam1a" GraphId="c75aa" Type="GeneProduct" GroupRef="ea12f">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000100592</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="DVL3 | dishevelled dsh homolog 3 (Drosophila)" />
+    <Graphics CenterX="1231.7457913906344" CenterY="581.5143537239394" Width="60.0" Height="20.0" ZOrder="32843" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000015059" />
+  </DataNode>
+  <DataNode TextLabel="daam2" GraphId="b409e" Type="GeneProduct" GroupRef="ea12f">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000146122</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="DVL3 | dishevelled dsh homolog 3 (Drosophila)" />
+    <Graphics CenterX="1231.7457913906344" CenterY="601.5143537239394" Width="60.0" Height="20.0" ZOrder="32844" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000028393" />
+  </DataNode>
+  <DataNode TextLabel="rock2a" GraphId="cd785" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000134318</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RHOA | ras homolog gene family member A" />
+    <Graphics CenterX="1231.7457913906344" CenterY="724.985510147272" Width="60.0" Height="20.0" ZOrder="32848" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000017500" />
+  </DataNode>
+  <DataNode TextLabel="mapk8a" GraphId="b1c89" Type="GeneProduct" GroupRef="b6625">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000107643</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RHOA | ras homolog gene family member A" />
+    <Graphics CenterX="1345.5247572161873" CenterY="736.1946999900773" Width="60.0" Height="20.0" ZOrder="32851" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000031888" />
+  </DataNode>
+  <DataNode TextLabel="MAPK Signaling&#xA;Pathway" GraphId="a51ba" Type="Pathway">
+    <Graphics CenterX="1438.3645707376054" CenterY="758.4885126964932" Width="100.29625151148815" Height="25.0" ZOrder="32854" FontWeight="Bold" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
+    <Xref Database="WikiPathways" ID="WP382" />
+  </DataNode>
+  <DataNode TextLabel="cxxc4" GraphId="c408f" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000168772</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CSNK1E | casein kinase 1 epsilon" />
+    <Graphics CenterX="551.5710317452485" CenterY="482.9484897056223" Width="60.0" Height="20.0" ZOrder="32856" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000077817" />
+  </DataNode>
+  <DataNode TextLabel="SENP2" GraphId="a1f65" Type="GeneProduct">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000163904</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CSNK1E | casein kinase 1 epsilon" />
+    <Graphics CenterX="618.4029543570983" CenterY="502.6220084480649" Width="60.0" Height="20.0" ZOrder="32857" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="nlk2" GraphId="f8c52" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000087095</Comment>
+    <Graphics CenterX="1440.1451027811358" CenterY="1075.296251511485" Width="60.0" Height="20.0" ZOrder="32859" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000028793" />
+  </DataNode>
+  <DataNode TextLabel="ctnnbip1" GraphId="b1287" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000178585</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="CTNNB1 | catenin (cadherin-associated protein)..." />
+    <Graphics CenterX="808.4801522284334" CenterY="828.0252558695838" Width="60.0" Height="20.0" ZOrder="32861" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000038954" />
+  </DataNode>
+  <DataNode TextLabel="sox17" GraphId="b16bc" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000164736</Comment>
+    <Graphics CenterX="610.6408706166869" CenterY="918.4280532043525" Width="60.0" Height="20.0" ZOrder="32862" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000101717" />
+  </DataNode>
+  <DataNode TextLabel="CTBP1" GraphId="afcb1" Type="GeneProduct" GroupRef="f4760">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000159692</Comment>
+    <Graphics CenterX="596.4570737605804" CenterY="986.4691656590074" Width="60.0" Height="20.0" ZOrder="32864" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000019213" />
+  </DataNode>
+  <DataNode TextLabel="ctbp2a" GraphId="eddde" Type="GeneProduct" GroupRef="f4760">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000175029</Comment>
+    <Graphics CenterX="596.4570737605804" CenterY="1006.4691656590078" Width="60.0" Height="20.0" ZOrder="32865" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000044062" />
+  </DataNode>
+  <State GraphRef="b933c" TextLabel="P" GraphId="f3c38">
+    <Comment>parent=Q9NQB0; position=thr212; ptm=p; direction=d</Comment>
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="b933c" TextLabel="P" GraphId="fae2e">
+    <Comment>parent=Q9NQB0; position=thr201; ptm=p; direction=d</Comment>
+    <Graphics RelX="1.0" RelY="-0.6" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="b013d" TextLabel="P" GraphId="fb322">
+    <Comment>parent=Q9UJU2; position=ser166; ptm=p; direction=d</Comment>
+    <Graphics RelX="1.0" RelY="-0.7333333333333485" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="b013d" TextLabel="P" GraphId="fc151">
+    <Comment>parent=Q9UJU2; position=thr155; ptm=p; direction=d</Comment>
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="acb73" TextLabel="P" GraphId="e9c4e">
+    <Comment>parent=P35222; position=ser29; ptm=p; direction=d</Comment>
+    <Graphics RelX="1.0" RelY="-0.7333333333333372" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="acb73" TextLabel="P" GraphId="f600e">
+    <Comment>parent=P35222; position=thr41; ptm=p; direction=d</Comment>
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="fbd36" TextLabel="P" GraphId="a19b1">
+    <Graphics RelX="1.0" RelY="-0.7333333333333372" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="fbd36" TextLabel="Ub" GraphId="d55ea">
+    <Graphics RelX="1.0" RelY="1.0" Width="18.0" Height="18.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="b826b" TextLabel="P" GraphId="e0ef3">
+    <Graphics RelX="1.0" RelY="-0.5999999999999887" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="a3990" TextLabel="P" GraphId="ec631">
+    <Graphics RelX="1.0" RelY="-0.5999999999999887" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="f0975" TextLabel="P" GraphId="eda3b">
+    <Graphics RelX="1.0" RelY="-0.8666666666666629" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="da31c" TextLabel="P" GraphId="e372f">
+    <Graphics RelX="1.0" RelY="-0.7333333333333372" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="f8c52" TextLabel="P" GraphId="be558">
+    <Graphics RelX="1.0" RelY="-0.9347037484885163" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <Interaction GraphId="ae9d1">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="960.7697439887569" Y="714.882645124366" GraphRef="fbd36" RelX="1.0" RelY="0.0" />
+      <Point X="1004.3403654576746" Y="715.3911197006394" GraphRef="ee328" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="b4e4f">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="707.0791247239673" Y="520.8476870572724" GraphRef="c4741" RelX="0.0" RelY="1.0" />
+      <Point X="707.7457913906338" Y="641.7800051621782" GraphRef="a7e" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="c7c40">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="765.5728631638143" Y="996.9248429854731" GraphRef="f312e" RelX="1.0" RelY="0.0" />
+      <Point X="910.9761123885935" Y="996.3901017950652" GraphRef="e1a64" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ce9b8">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="260.34139206745215" Y="511.7275516934817" GraphRef="bef14" RelX="0.0" RelY="1.0" />
+      <Point X="173.00805873411983" Y="711.060885026815" GraphRef="d664f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="d387b">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="706.3411797767196" Y="352.9862883434838" GraphRef="febcf" RelX="0.0" RelY="1.0" />
+      <Point X="707.0791247239673" Y="444.8476870572724" GraphRef="c4741" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ddea2">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="752.2731700266434" Y="714.0349293883263" GraphRef="c75" RelX="1.0" RelY="0.0" />
+      <Point X="797.5007084557615" Y="714.0349293883258" GraphRef="acb73" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Anchor Position="0.5289150112953525" Shape="None" GraphId="db825" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e7891">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="857.5007084557615" Y="714.0349293883258" GraphRef="acb73" RelX="1.0" RelY="0.0" />
+      <Point X="900.7697439887569" Y="714.882645124366" GraphRef="fbd36" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="f4ba0">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1231.7457913906344" Y="619.5143537239394" GraphRef="a2f25" RelX="0.0" RelY="1.0" />
+      <Point X="1231.7457913906344" Y="652.9903469066429" GraphRef="a0a" RelX="0.0" RelY="-1.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id10c4fbe6">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="634.4570737605804" Y="996.4691656590076" GraphRef="bd7bd" RelX="1.0" RelY="0.0" />
+      <Point X="678.6689083615537" Y="996.9248429854731" GraphRef="f312e" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id12dd8ddf">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="589.7516539403816" Y="244.02730246773714" GraphRef="eb80c" RelX="0.0" RelY="1.0" />
+      <Point X="560.5706048710078" Y="288.33908826602095" GraphRef="c0eb3" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id1540e66e">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="504.2014195553665" Y="98.59583038651874" GraphRef="cf09c" RelX="0.0" RelY="1.0" />
+      <Point X="577.996054695981" Y="132.9834062593461" GraphRef="ae554" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id23998ab8">
+    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
+      <Point X="1410.1451027811358" Y="1075.296251511485" GraphRef="f8c52" RelX="-1.0" RelY="0.0" />
+      <Point X="722.120885762684" Y="1055.424842985473" GraphRef="f312e" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id240f1c6d">
+    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
+      <Point X="737.7457913906338" Y="651.7800051621782" GraphRef="a7e" RelX="1.0" RelY="0.0" />
+      <Point X="776.1946940257413" Y="714.0349293883261" GraphRef="db825" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id630e5689">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="684.162436548223" Y="235.2464226031009" GraphRef="b45bf" RelX="1.0" RelY="0.0" />
+      <Point X="706.1341047282765" Y="234.47313777320397" GraphRef="cd2b8" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id7c2e0bc2">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="214.0459492140269" Y="974.6666666666669" GraphRef="ec741" RelX="1.0" RelY="0.0" />
+      <Point X="303.3333333333338" Y="975.085046352277" GraphRef="b7c65" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Anchor Position="0.5227840521326252" Shape="None" GraphId="c4d57" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id7f0846cc">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="778.4801522284334" Y="828.0252558695838" GraphRef="b1287" RelX="-1.0" RelY="0.0" />
+      <Point X="722.1993198886355" Y="828.0031549619447" GraphRef="f8008" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id8f6ed728">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="722.2731700266434" Y="724.0349293883263" GraphRef="c75" RelX="0.0" RelY="1.0" />
+      <Point X="722.120885762684" Y="938.4248429854731" GraphRef="f312e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.48494923958494507" Shape="None" GraphId="f8008" />
+      <Anchor Position="0.824720184354541" Shape="None" GraphId="f3395" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id95c08269">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1440.1451027811358" Y="824.993954050786" GraphRef="fc06e" RelX="0.0" RelY="1.0" />
+      <Point X="1440.1451027811358" Y="1065.296251511485" GraphRef="f8c52" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id9c190d9">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="640.6408706166869" Y="892.3821039903257" GraphRef="e183b" RelX="1.0" RelY="0.0" />
+      <Point X="722.1475781203965" Y="900.8466184539193" GraphRef="f3395" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ida74b3118">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="705.996054695981" Y="192.7977040596844" GraphRef="ae554" RelX="0.0" RelY="1.0" />
+      <Point X="706.3411797767196" Y="296.98628834348335" GraphRef="febcf" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Anchor Position="0.4" Shape="None" GraphId="cd2b8" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idac7dfaf7">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1231.674513110052" Y="355.65295501015066" GraphRef="afaa7" RelX="0.0" RelY="1.0" />
+      <Point X="1231.7457913906344" Y="445.5143537239387" GraphRef="fbffe" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idac8c7230">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="935.3333333333328" Y="483.6529550101511" GraphRef="f61e3" RelX="-1.0" RelY="0.0" />
+      <Point X="745.0791247239673" Y="482.8476870572724" GraphRef="c4741" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idaf56bebf">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="921.7698815566844" Y="133.35471363524968" GraphRef="fd0b0" RelX="-1.0" RelY="0.0" />
+      <Point X="833.996054695981" Y="132.9834062593461" GraphRef="ae554" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idb203da70">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="259.00784644338546" Y="354.9862883434838" GraphRef="bdb7b" RelX="0.0" RelY="1.0" />
+      <Point X="260.34139206745215" Y="415.72755169348125" GraphRef="bef14" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idb32b993c">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="259.9999999999999" Y="830.0000000000002" GraphRef="c806f" RelX="0.0" RelY="1.0" />
+      <Point X="260.7239696882404" Y="974.8853888940401" GraphRef="c4d57" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idba3bfb2e">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="921.7698815566846" Y="94.97907911748317" GraphRef="e65bf" RelX="-1.0" RelY="0.0" />
+      <Point X="833.996054695981" Y="132.9834062593461" GraphRef="ae554" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idba9ec382">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="259.3293880293137" Y="257.46437072635104" GraphRef="e9fb1" RelX="0.0" RelY="1.0" />
+      <Point X="259.00784644338546" Y="298.98628834348335" GraphRef="bdb7b" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idc97cc450">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="581.5710317452485" Y="482.9484897056223" GraphRef="c408f" RelX="1.0" RelY="0.0" />
+      <Point X="669.0791247239673" Y="482.8476870572724" GraphRef="c4741" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idca7dcdb4">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1384.7118327153958" Y="327.65295501015095" GraphRef="be802" RelX="-1.0" RelY="0.0" />
+      <Point X="1360.2922680078477" Y="327.65295501015044" GraphRef="afaa7" RelX="1.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idcaf58113">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="783.0354011599975" Y="234.95369840682335" GraphRef="fc757" RelX="-1.0" RelY="0.0" />
+      <Point X="706.1341047282765" Y="234.47313777320397" GraphRef="cd2b8" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idda8a8884">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1050.8353836949552" Y="359.6529550101511" GraphRef="da51a" RelX="0.0" RelY="1.0" />
+      <Point X="1231.7457913906344" Y="445.5143537239387" GraphRef="fbffe" RelX="0.0" RelY="-1.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ide98d6bac">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1231.3293880293138" Y="252.13103739301792" GraphRef="a6ec7" RelX="0.0" RelY="1.0" />
+      <Point X="1231.674513110052" Y="299.6529550101502" GraphRef="afaa7" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idfed02707">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="512.4927706916475" Y="247.66374199131133" GraphRef="f83a9" RelX="0.0" RelY="1.0" />
+      <Point X="560.5706048710078" Y="288.33908826602095" GraphRef="c0eb3" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idfedb7b39">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1010.9589346745131" Y="483.6529550101511" GraphRef="f61e3" RelX="1.0" RelY="0.0" />
+      <Point X="1193.7457913906344" Y="483.5143537239387" GraphRef="fbffe" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="aaa48">
+    <Graphics ZOrder="32777" LineThickness="1.0">
+      <Point X="510.276208694154" Y="324.5422101167841" GraphRef="d5f4d" RelX="1.0" RelY="0.0" />
+      <Point X="529.6919155424007" Y="323.6262975778547" GraphRef="c0eb3" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="b3e20">
+    <Graphics ZOrder="32788" LineThickness="1.0">
+      <Point X="921.7698815566844" Y="170.00445982814307" GraphRef="fb46b" RelX="-1.0" RelY="0.0" />
+      <Point X="833.996054695981" Y="132.9834062593461" GraphRef="ae554" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e56cc">
+    <Graphics ZOrder="32809" LineThickness="1.0">
+      <Point X="260.34139206745215" Y="511.7275516934817" GraphRef="bef14" RelX="0.0" RelY="1.0" />
+      <Point X="261.1666666666682" Y="596.8333333333335" GraphRef="fa595" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e4926">
+    <Graphics ZOrder="32810" LineThickness="1.0">
+      <Point X="261.1666666666682" Y="622.6666666666665" GraphRef="fa595" RelX="0.0" RelY="1.0" />
+      <Point X="173.00805873411983" Y="711.060885026815" GraphRef="d664f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="d1003">
+    <Graphics ZOrder="32811" LineThickness="1.0">
+      <Point X="261.1666666666682" Y="622.6666666666665" GraphRef="fa595" RelX="0.0" RelY="1.0" />
+      <Point X="259.9999999999999" Y="691.4999999999995" GraphRef="c806f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="b8c03">
+    <Graphics ZOrder="32812" LineThickness="1.0">
+      <Point X="261.1666666666682" Y="622.6666666666665" GraphRef="fa595" RelX="0.0" RelY="1.0" />
+      <Point X="348.0000000000002" Y="721.9999999999995" GraphRef="adddd" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ceb60">
+    <Graphics ZOrder="32845" LineThickness="1.0">
+      <Point X="1231.7457913906344" Y="521.5143537239387" GraphRef="fbffe" RelX="0.0" RelY="1.0" />
+      <Point X="1231.7457913906344" Y="563.5143537239394" GraphRef="a2f25" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e9bd1">
+    <Graphics ZOrder="32846" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1231.7457913906344" Y="619.5143537239394" GraphRef="a2f25" RelX="0.0" RelY="1.0" />
+      <Point X="1345.524757216187" Y="654.3559253024519" GraphRef="a14" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="f8525">
+    <Graphics ZOrder="32847" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1261.7457913906344" Y="662.9903469066429" GraphRef="a0a" RelX="1.0" RelY="0.0" />
+      <Point X="1315.524757216187" Y="664.3559253024519" GraphRef="a14" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="a8697">
+    <Graphics ZOrder="32849" LineThickness="1.0">
+      <Point X="1231.7457913906344" Y="672.9903469066429" GraphRef="a0a" RelX="0.0" RelY="1.0" />
+      <Point X="1231.7457913906344" Y="714.985510147272" GraphRef="cd785" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e3524">
+    <Graphics ZOrder="32850" LineThickness="1.0">
+      <Point X="1231.7457913906344" Y="734.985510147272" GraphRef="cd785" RelX="0.0" RelY="1.0" />
+      <Point X="1231.7457913906346" Y="962.1070133010882" GraphRef="dc1df" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e3134">
+    <Graphics ZOrder="32852" LineThickness="1.0">
+      <Point X="1345.524757216187" Y="674.3559253024519" GraphRef="a14" RelX="0.0" RelY="1.0" />
+      <Point X="1345.524757216187" Y="718.1946999900773" GraphRef="dcc08" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="a8721">
+    <Graphics ZOrder="32855" LineThickness="1.0">
+      <Point X="1345.524757216187" Y="794.1946999900773" GraphRef="dcc08" RelX="0.0" RelY="1.0" />
+      <Point X="1345.524757216187" Y="962.4334945586454" GraphRef="aa353" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="f344c">
+    <Graphics ZOrder="32858" LineThickness="1.0">
+      <Point X="648.4029543570983" Y="502.6220084480649" GraphRef="a1f65" RelX="1.0" RelY="0.0" />
+      <Point X="669.0791247239673" Y="482.8476870572724" GraphRef="c4741" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="a6ea5">
+    <Graphics ZOrder="32863" LineThickness="1.0">
+      <Point X="640.6408706166869" Y="918.4280532043525" GraphRef="b16bc" RelX="1.0" RelY="0.0" />
+      <Point X="722.1475781203965" Y="900.8466184539193" GraphRef="f3395" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <GraphicalLine GraphId="bba78">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="341.3333333333338" Y="975.085046352277" GraphRef="b7c65" RelX="0.0" RelY="0.0" />
+      <Point X="458.6666666666667" Y="975.7517130189441" ArrowHead="mim-transcription-translation" />
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Calcinuerin" GraphId="aedfd" GroupRef="be9e8">
+    <Graphics CenterX="259.9999999999999" CenterY="711.9999999999995" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Transcriptional Activation" GraphId="b65">
+    <Graphics CenterX="832.9504431910158" CenterY="901.7970586263742" Width="150.33333333333334" Height="15.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Canonical Wnt pathway" GraphId="d4357">
+    <Graphics CenterX="735.0" CenterY="25.0" Width="160.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Cytoskeletal change" GraphId="dc1df">
+    <Graphics CenterX="1231.7457913906346" CenterY="974.6070133010882" Width="135.68923821039903" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Frizzled Ligands" GraphId="f1c" GroupRef="b0118">
+    <Graphics CenterX="706.1821799074861" CenterY="90.66910845900782" Width="132.33333333333334" Height="19.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Wnt/Ca2+ pathway" GraphId="ad549">
+    <Graphics CenterX="262.33333333333314" CenterY="137.66666666666669" Width="160.0" Height="25.0" ZOrder="32791" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Planar cell polarity pathway" GraphId="f87e1">
+    <Graphics CenterX="1235.4999999999986" CenterY="146.24999999999986" Width="177.0000000000001" Height="19.500000000000057" ZOrder="32792" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Transcription" GraphId="aa353">
+    <Graphics CenterX="1345.524757216187" CenterY="974.9334945586454" Width="135.68923821039903" Height="25.0" ZOrder="32853" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Shape TextLabel="Scaffold" GraphId="aaf60">
+    <Graphics CenterX="680.5290205562268" CenterY="604.5949214026602" Width="150.42926239419603" Height="338.57315598548985" ZOrder="-2" FillColor="f5f4f4" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="cef0e">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="776.4562676340186" CenterY="726.5124864277957" Width="1494.2458686013701" Height="797.6416938110751" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape TextLabel="Nucleus" GraphId="e4ad7">
+    <Graphics CenterX="792.2402257154373" CenterY="984.6277495769856" Width="1419.1471180975411" Height="230.7445008460288" ZOrder="16384" FontSize="10" Align="Left" ShapeType="RoundedRectangle" LineStyle="Broken" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="c01d2" Style="Group" />
+  <Group GroupId="a4649" Style="Group" />
+  <Group GroupId="caab9" Style="Group" />
+  <Group GroupId="e4f70" Style="Group" />
+  <Group GroupId="d9721" Style="Group" />
+  <Group GroupId="ea12f" GraphId="a2f25" Style="Group" />
+  <Group GroupId="dc508" GraphId="a71c7" Style="Group" />
+  <Group GroupId="a84f0" GraphId="adddd" Style="Group" />
+  <Group GroupId="b0118" GraphId="ae554" Style="Group" />
+  <Group GroupId="e5dc9" GraphId="afaa7" Style="Group" />
+  <Group GroupId="c9a6c" GraphId="b7c65" Style="Group" />
+  <Group GroupId="f4760" GraphId="bd7bd" Style="Group" />
+  <Group GroupId="c47c8" GraphId="bdb7b" Style="Group" />
+  <Group GroupId="f2716" GraphId="bef14" Style="Group" />
+  <Group GroupId="f6798" GraphId="c0eb3" Style="Group" />
+  <Group GroupId="a2cf1" GraphId="c4741" Style="Group" />
+  <Group GroupId="be9e8" GraphId="c806f" Style="Group" />
+  <Group GroupId="b3808" GraphId="d664f" Style="Group" />
+  <Group GroupId="aa7e0" GraphId="da51a" Style="Group" />
+  <Group GroupId="b6625" GraphId="dcc08" Style="Group" />
+  <Group GroupId="ee291" GraphId="e1a64" Style="Group" />
+  <Group GroupId="ed9f0" GraphId="e9fb1" Style="Group" />
+  <Group GroupId="e8bb1" GraphId="ec741" Style="Group" />
+  <Group GroupId="a3802" GraphId="f312e" Style="Group" />
+  <Group GroupId="decb5" GraphId="f61e3" Style="Group" />
+  <Group GroupId="f5129" GraphId="f83a9" Style="Group" />
+  <Group GroupId="ee95b" GraphId="fbffe" Style="Group" />
+  <Group GroupId="bf3e5" GraphId="fc757" Style="Group" />
+  <Group GroupId="d0abd" GraphId="febcf" Style="Group" />
+  <InfoBox CenterX="664.0" CenterY="258.1666666666667" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15686623</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt signaling in disease and in development.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nusse R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt signaling, canonical pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000201</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000008</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+  </Biopax>
+</Pathway>
+
