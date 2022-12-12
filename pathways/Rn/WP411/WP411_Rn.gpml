@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="mRNA processing" Data-Source="WikiPathways" Version="WP411_Rn" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="mRNA processing" Data-Source="WikiPathways" Version="WP411_Rn" Last-Modified="20220518021154" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">This process describes the conversion of precursor messenger RNA into mature messenger RNA (mRNA). 
 The pre-mRNA molecule undergoes three main modifications. These modifications are 5' capping, 3' polyadenylation, and RNA splicing, which occur in the cell nucleus before the RNA is translated.
 
@@ -15,7 +15,7 @@ Pathway adapted from http://www.reactome.org.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP411 CPTAC Assay Portal].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP411.gpml (WP411_r117160) with a 93.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP411.gpml (WP411_r122796) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>e35</BiopaxRef>
   <Graphics BoardWidth="2106.6666666666665" BoardHeight="1057.5" />
   <DataNode TextLabel="Prpf4" GraphId="a07" Type="GeneProduct" GroupRef="c1423">
@@ -24,7 +24,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="597.2811059907831" CenterY="663.3333333333334" Width="73.33333333333333" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000014777" />
   </DataNode>
-  <DataNode TextLabel="U4 snRNA" GraphId="a0e" Type="Rna" GroupRef="c1423">
+  <DataNode TextLabel="U4 snRNA" GraphId="a0e" Type="RNA" GroupRef="c1423">
     <Comment Source="GenMAPP remarks">GenBank sequence: M10328, M18004</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="U4 snRNA" />
     <Graphics CenterX="597.2811059907831" CenterY="623.3333333333334" Width="73.33333333333333" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -90,7 +90,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1999.0" CenterY="671.0" Width="60.52876666666657" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000011785" />
   </DataNode>
-  <DataNode TextLabel="Rnu6" GraphId="ab6" Type="Rna" GroupRef="ba685">
+  <DataNode TextLabel="Rnu6" GraphId="ab6" Type="RNA" GroupRef="ba685">
     <Comment Source="GenMAPP remarks">GenBank sequence: M10329</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="U6 snRNA" />
     <Graphics CenterX="701.643625192012" CenterY="623.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -378,13 +378,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="701.643625192012" CenterY="643.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000025154" />
   </DataNode>
-  <DataNode TextLabel="U5 snRNA" GraphId="cb9" Type="Rna" GroupRef="fba81">
+  <DataNode TextLabel="U5 snRNA" GraphId="cb9" Type="RNA" GroupRef="fba81">
     <Comment Source="GenMAPP remarks">GenBank sequence: AB021173</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="U5 snRNA" />
     <Graphics CenterX="796.6666666666666" CenterY="623.3333333333334" Width="73.33333333333333" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="U1 snRNA" GraphId="cc6" Type="Rna" GroupRef="cf404">
+  <DataNode TextLabel="U1 snRNA" GraphId="cc6" Type="RNA" GroupRef="cf404">
     <Comment Source="GenMAPP remarks">GenBank sequence: J00645</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="U1 snRNA" />
     <Graphics CenterX="620.0" CenterY="183.33333333333334" Width="73.33333333333333" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -805,17 +805,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSRNOG00000020772" />
   </DataNode>
   <DataNode TextLabel="Clk1" GraphId="fab" Type="GeneProduct">
-    <Comment Source="GenMAPP remarks">PMID: 15010457: Inhibitor                                    John C. Bell, PhD
-
-Professor, Depts. of Medicine and Biochemistry, Microbiology &amp;amp;amp; Immunology
-University of Ottawa
-Career Scientist, Ottawa Regional Cancer Centre
-Associate Scientist, The Ottawa Hospital Research Institute
-Telephone:    613-737-7700 ext 6893
-Fax:              613-247-3524
-Email:           John.Bell@orcc.on.ca
-The control of pre-mRNA splicing by the Clk kinase family
-We are studying a family of kinases which we believe provide an interface between intracellular signaling networks and the post-transcriptional mechanism of mRNA splicing. We are performing a structure:function analysis of the three Clk family members to identify domains in the three proteins which are involved in regulating splicing. Using homologous recombination we are generating null strains of mice which are lacking one, two or all three Clk genes. The Clk kinases all possess dual specificity kinase activity and yeast expression systems are being used to produce large amounts of the kinase to perform a detailed analysis of the sites of serine, threonine and tyrosine autophosphorylation within the kinase.</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:1195</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="CLK1 | CDC-like kinase 1" />
     <Graphics CenterX="1616.6666666666667" CenterY="546.6666666666666" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -935,7 +924,7 @@ We are studying a family of kinases which we believe provide an interface betwee
   </Interaction>
   <Interaction GraphId="c300c">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0" Color="0000ff">
-      <Point X="597.2811059907831" Y="681.3333333333334" GraphRef="af667" RelX="0.0" RelY="1.0" />
+      <Point X="597.2811059907831" Y="681.3333333333334" GraphRef="c1423" RelX="0.0" RelY="1.0" />
       <Point X="670.2534562211977" Y="721.2478115249703" />
       <Point X="743.2258064516122" Y="729.557603686636" GraphRef="f75" RelX="0.0" RelY="-1.0" />
     </Graphics>
@@ -943,15 +932,15 @@ We are studying a family of kinases which we believe provide an interface betwee
   </Interaction>
   <Interaction GraphId="c505e">
     <Graphics ZOrder="12288" LineThickness="1.0" Color="8f8f8f">
-      <Point X="1720.833333333333" Y="343.3333333333333" GraphRef="d983a" RelX="1.0" RelY="0.0" />
-      <Point X="1772.5" Y="343.3333333333333" GraphRef="fc768" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1720.833333333333" Y="343.3333333333333" GraphRef="f056f" RelX="1.0" RelY="0.0" />
+      <Point X="1772.5" Y="343.3333333333333" GraphRef="da87b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c6b17">
     <Graphics ZOrder="12288" LineThickness="1.0" Color="8f8f8f">
-      <Point X="199.33333333333331" Y="506.0" GraphRef="d808d" RelX="0.5" RelY="1.0" />
-      <Point X="222.83333333333331" Y="554.5" GraphRef="cb902" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="199.33333333333331" Y="506.0" GraphRef="a92ba" RelX="0.5" RelY="1.0" />
+      <Point X="222.83333333333331" Y="554.5" GraphRef="e1cf9" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -971,7 +960,7 @@ We are studying a family of kinases which we believe provide an interface betwee
   </Interaction>
   <Interaction GraphId="ce02d">
     <Graphics ZOrder="12288" LineThickness="1.0" Color="8f8f8f">
-      <Point X="341.49999999999994" Y="646.0" GraphRef="cb902" RelX="0.5" RelY="1.0" />
+      <Point X="341.49999999999994" Y="646.0" GraphRef="e1cf9" RelX="0.5" RelY="1.0" />
       <Point X="416.6666666666667" Y="720.0" GraphRef="fe3" RelX="-1.7391304347826086" RelY="-2.2222222222222223" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -992,7 +981,7 @@ We are studying a family of kinases which we believe provide an interface betwee
   </Interaction>
   <Interaction GraphId="ddd3d">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0" Color="0000ff">
-      <Point X="701.643625192012" Y="701.3333333333334" GraphRef="a3130" RelX="0.0" RelY="1.0" />
+      <Point X="701.643625192012" Y="701.3333333333334" GraphRef="ba685" RelX="0.0" RelY="1.0" />
       <Point X="722.4347158218121" Y="721.2478115249703" />
       <Point X="743.2258064516122" Y="729.557603686636" GraphRef="f75" RelX="0.0" RelY="-1.0" />
     </Graphics>
@@ -1022,7 +1011,7 @@ We are studying a family of kinases which we believe provide an interface betwee
   <Interaction GraphId="f9184">
     <Graphics ZOrder="12288" LineThickness="1.0" Color="8f8f8f">
       <Point X="1493.3333333333328" Y="343.3333333333333" GraphRef="a4b" RelX="4.864864864864865" RelY="0.0" />
-      <Point X="1562.5" Y="343.3333333333333" GraphRef="d983a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1562.5" Y="343.3333333333333" GraphRef="f056f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1035,14 +1024,14 @@ We are studying a family of kinases which we believe provide an interface betwee
   </Interaction>
   <Interaction GraphId="ce507">
     <Graphics ConnectorType="Elbow" ZOrder="32770" LineThickness="1.0" Color="0000ff">
-      <Point X="796.6666666666667" Y="701.3333333333334" GraphRef="fe15f" RelX="0.0" RelY="1.0" />
+      <Point X="796.6666666666667" Y="701.3333333333334" GraphRef="fba81" RelX="0.0" RelY="1.0" />
       <Point X="743.2258064516122" Y="729.557603686636" GraphRef="f75" RelX="0.0" RelY="-1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ba13c">
     <Graphics ConnectorType="Elbow" ZOrder="32771" LineThickness="1.0" Color="0000ff">
-      <Point X="906.6666666666666" Y="701.3333333333334" GraphRef="a09f9" RelX="0.0" RelY="1.0" />
+      <Point X="906.6666666666666" Y="701.3333333333334" GraphRef="fc3a4" RelX="0.0" RelY="1.0" />
       <Point X="743.2258064516122" Y="729.557603686636" GraphRef="f75" RelX="0.0" RelY="-1.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1300,8 +1289,7 @@ The capping reaction usually occurs very rapidly on nascent transcripts; after t
     <Comment Source="GenMAPP remarks">Endonucleolytic cleavage separates the pre-mRNA into an upstream fragment destined to become the mature mRNA, and a downstream fragment that is rapidly degraded. Cleavage depends on two signals in the RNA, a highly conserved hexanucleotide, AAUAAA, 10 to 30 nucleotides upstream of the cleavage site, and a poorly conserved GU- or U-rich downstream element. Additional sequences, often upstream of AAUAAA, can enhance the efficiency of the reaction. Cleavage occurs most often after a CA dinucleotide. A single gene can have more than one 3' processing site.
 Cleavage is preceded by the assembly of a large processing complex, the composition of which is poorly defined. ATP, but not its hydrolysis, is required for assembly. Cleavage at the 3'-end of mRNAs depends on a number of protein factors. CPSF, a heterotetramer, binds specifically to the AAUAAA sequence. The heterotrimer CstF binds the downstream element. CF I, which appears to be composed of two subunits, one of several related larger polypeptides and a common smaller one, also binds RNA, but with unknown specificity. RNA recognition by these proteins is cooperative. Cleavage also requires CF II, composed of at least two subunits, and poly(A) polymerase, the enzyme synthesizing the poly(A) tail in the second step of the reaction. The polypeptide catalyzing the hydrolysis of the phosphodiester bond remains to be identified.
 
-Cleavage produces a 3'-OH on the upstream fragment and a 5'-phosphate on the downstream fragment. At some unknown point after cleavage, the downstream RNA fragment, CstF, CF I and CF II are thought to be released, whereas CPSF and poly(A) polymerase remain to carry out polyadenylation.
-</Comment>
+Cleavage produces a 3'-OH on the upstream fragment and a 5'-phosphate on the downstream fragment. At some unknown point after cleavage, the downstream RNA fragment, CstF, CF I and CF II are thought to be released, whereas CPSF and poly(A) polymerase remain to carry out polyadenylation.</Comment>
     <Graphics CenterX="1586.6666666666667" CenterY="230.0" Width="201.33333333333334" Height="16.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="10" Valign="Middle" Color="0000ff" />
   </Label>
   <Label TextLabel="P-" GraphId="a79">
@@ -1327,8 +1315,7 @@ Cleavage produces a 3'-OH on the upstream fragment and a 5'-phosphate on the dow
   </Label>
   <Label TextLabel="mRNA 3'-end processing" GraphId="aae">
     <Comment Source="GenMAPP remarks">The 3' ends of eukaryotic mRNAs are generated by posttranscriptional processing of an extended primary transcript. For almost all RNAs, 3'-end processing consists of two steps: (i) the mRNA is first cleaved at a particular phosphodiester bond downstream of the coding sequence, (ii) the upstream fragment then receives a poly(A) tail of approximately 250 adenylate residues, whereas the downstream fragment is degraded. The two partial reactions are coupled so that reaction intermediates are usually undetectable. While 3' processing can be studied as an isolated event in vitro, it appears to be connected to transcription, splicing, and transcription termination in vivo.
-The only known exception to the rule of cleavage followed by polyadenylation are the major histone mRNAs, which are cleaved but not polyadenylated.
-</Comment>
+The only known exception to the rule of cleavage followed by polyadenylation are the major histone mRNAs, which are cleaved but not polyadenylated.</Comment>
     <Graphics CenterX="1383.3333333333333" CenterY="80.0" Width="195.33333333333334" Height="19.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" Color="0000ff" />
   </Label>
   <Label TextLabel="Pi" GraphId="ac0">
@@ -1512,8 +1499,7 @@ The only known exception to the rule of cleavage followed by polyadenylation are
     <Comment Source="GenMAPP remarks">The upstream fragment generated by 3' cleavage of the pre-mRNA receives a poly(A) tail of approximately 250 AMP residues in a reaction depending on the AAUAAA sequence 10 to 30 nucleotides upstream of the 3' end. Polyadenylation is carried out by three proteins: Poly(A) polymerase carries the catalytic activity. The enzyme has no specificity for any particular RNA sequence, and it also has a very low affinity for the RNA.
 Under physiological conditions, the activity of poly(A) polymerase thus depends on two auxiliary factors, both of which bind to specific RNA sequences and recruit the enzyme by a direct contact. One of these proteins is the heterotetrameric CPSF, which binds the AAUAAA sequence and is also essential for 3' cleavage. The second is the nuclear poly(A) binding protein (PABPN1), which binds the growing poly(A) tails once this has reached a length of about ten nucleotides. Stimulation of poly(A) polymerase by both proteins is synergistic and results in processive elongation of the RNA, i.e. the polymerase adds AMP residues without dissociating from the RNA. The processive reaction is terminated when the tail has reached a length of about 250 nucleotides.
 
-Cleavage produces a 3'-OH on the upstream fragment and a 5'-phosphate on the downstream fragment. At some unknown point after cleavage, the downstream RNA fragment, CstF, CF I and CF II are thought to be released, whereas CPSF and poly(A) polymerase remain to carry out polyadenylation.
-</Comment>
+Cleavage produces a 3'-OH on the upstream fragment and a 5'-phosphate on the downstream fragment. At some unknown point after cleavage, the downstream RNA fragment, CstF, CF I and CF II are thought to be released, whereas CPSF and poly(A) polymerase remain to carry out polyadenylation.</Comment>
     <Graphics CenterX="1816.6666666666667" CenterY="226.66666666666666" Width="148.33333333333334" Height="16.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="10" Valign="Middle" Color="0000ff" />
   </Label>
   <Label TextLabel="exon 1" GraphId="ce7">
@@ -2032,28 +2018,33 @@ Cleavage produces a 3'-OH on the upstream fragment and a 5'-phosphate on the dow
   <Shape GraphId="ffc">
     <Graphics CenterX="830.0" CenterY="866.6666666666666" Width="66.66666666666667" Height="13.333333333333334" ZOrder="16384" FillColor="efefef" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="fc3a4" GraphId="a09f9" />
-  <Group GroupId="b3a45" GraphId="a209b" />
-  <Group GroupId="ba685" GraphId="a3130" />
-  <Group GroupId="c1423" GraphId="af667" />
-  <Group GroupId="bc1c1" GraphId="b1fd6" />
-  <Group GroupId="c1819" GraphId="b299c" />
-  <Group GroupId="f45ea" GraphId="b6aa6" />
-  <Group GroupId="fa057" GraphId="ba3a8" />
-  <Group GroupId="be34c" GraphId="c11b6" />
-  <Group GroupId="fdff6" GraphId="c1655" />
-  <Group GroupId="e3b6e" GraphId="c18ba" />
-  <Group GroupId="e1cf9" GraphId="cb902" Style="Group" />
-  <Group GroupId="a05f7" GraphId="d2216" />
-  <Group GroupId="a92ba" GraphId="d808d" Style="Group" />
-  <Group GroupId="f056f" GraphId="d983a" Style="Group" />
-  <Group GroupId="a8900" GraphId="e6c20" />
-  <Group GroupId="cb8ec" GraphId="eb1fd" />
-  <Group GroupId="cf404" GraphId="fb145" />
-  <Group GroupId="da87b" GraphId="fc768" Style="Group" />
-  <Group GroupId="fba81" GraphId="fe15f" />
+  <Group GroupId="fc3a4" GraphId="fc3a4" />
+  <Group GroupId="b3a45" GraphId="b3a45" />
+  <Group GroupId="ba685" GraphId="ba685" />
+  <Group GroupId="c1423" GraphId="c1423" />
+  <Group GroupId="bc1c1" GraphId="bc1c1" />
+  <Group GroupId="c1819" GraphId="c1819" />
+  <Group GroupId="f45ea" GraphId="f45ea" />
+  <Group GroupId="fa057" GraphId="fa057" />
+  <Group GroupId="be34c" GraphId="be34c" />
+  <Group GroupId="fdff6" GraphId="fdff6" />
+  <Group GroupId="e3b6e" GraphId="e3b6e" />
+  <Group GroupId="e1cf9" GraphId="e1cf9" Style="Group" />
+  <Group GroupId="a05f7" GraphId="a05f7" />
+  <Group GroupId="a92ba" GraphId="a92ba" Style="Group" />
+  <Group GroupId="f056f" GraphId="f056f" Style="Group" />
+  <Group GroupId="a8900" GraphId="a8900" />
+  <Group GroupId="cb8ec" GraphId="cb8ec" />
+  <Group GroupId="cf404" GraphId="cf404" />
+  <Group GroupId="da87b" GraphId="da87b" Style="Group" />
+  <Group GroupId="fba81" GraphId="fba81" />
   <InfoBox CenterX="5.0" CenterY="1.6666666666666667" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spliceosome pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001073</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000100</bp:ID>
@@ -2068,11 +2059,6 @@ Cleavage produces a 3'-OH on the upstream fragment and a 5'-phosphate on the dow
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carmody SR</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wente SR</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spliceosome pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001073</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

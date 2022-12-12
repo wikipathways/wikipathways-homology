@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PDGF pathway" Data-Source="WikiPathways" Version="WP2526_Qc" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PDGF pathway" Data-Source="WikiPathways" Version="WP2526_Qc" Last-Modified="20220623042002" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">PDGF belongs to the PDGF/VEGF (vascular endothelial growth factor) family, which is characterized by eight strictly conserved cysteine residues with similar spacing in between (Joukov et al., 1997; Heldin and Westermark, 1999). The A-, B-, C-, and D-chain genes of PDGF are localized to the chromosomes 7p22, 22q13, 4q31, and 11q22, respectively, and their expression is independently regulated. Two forms of the PDGF A-chain, containing 196 and 211 amino acid residues resulting from differential splicing of the transcript, are synthesized, dimerized, proteolytically processed in the Nterminus, and secreted from the cell as a ~30 kDa dimer. The PDGF B chain encoding 241 amino acid residues is dimerized, processed by additional proteolysis, and secreted as a 24 kDa dimer. The homodimers PDGF AA, BB, and the heterodimer AB contain three intrachain disulfide bonds made between the 1st.
 
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2526 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2526.gpml (WP2526_r121697) with a 92.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2526.gpml (WP2526_r123068) with a 92.0% conversion rate.</Comment>
   <Graphics BoardWidth="1625.4106059895714" BoardHeight="1171.943549882923" />
   <DataNode TextLabel="GRB2" GraphId="a29c7" Type="Protein" GroupRef="ec31a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = S:P62993</Comment>
@@ -307,7 +307,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="Actin,&#xA;Stress Fibers&#xA;and Adhesion" GraphId="a7a2c" Type="Pathway">
-    <Graphics CenterX="120.26060935747168" CenterY="889.9205983727954" Width="101.09368811735482" Height="49.73258143582757" ZOrder="32892" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="120.26060935747168" CenterY="889.9205983727954" Width="101.09368811735482" Height="49.73258143582757" ZOrder="32892" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP306" />
   </DataNode>
   <DataNode TextLabel="Lamellipodia&#xA;Formation" GraphId="f1a94" Type="Pathway">
@@ -338,7 +338,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <Interaction GraphId="id5e3d61b9">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="787.9454844951226" Y="206.62647749346934" GraphRef="f51ed" RelX="0.0" RelY="1.0" />
+      <Point X="787.9454844951226" Y="206.62647749346934" GraphRef="ec31a" RelX="0.0" RelY="1.0" />
       <Point X="859.0982012438888" Y="215.443279313632" />
       <Point X="930.250917992655" Y="153.8011695906431" GraphRef="f1bc5" RelX="-0.5" RelY="1.0" />
     </Graphics>
@@ -347,7 +347,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id61a4459e">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="706.4521243578674" Y="441.14635429257584" GraphRef="efacb" RelX="-0.5" RelY="1.0" />
-      <Point X="759.2243090112028" Y="541.145381983644" GraphRef="cfdb4" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="759.2243090112028" Y="541.145381983644" GraphRef="fb8d4" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -378,7 +378,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="758.6036859325117" Y="373.34503159625393" GraphRef="ceee5" RelX="0.0" RelY="1.0" />
       <Point X="794.3001876339379" Y="407.8303425774878" />
-      <Point X="829.9966893353642" Y="502.7182240492302" GraphRef="cfdb4" RelX="0.5" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="829.9966893353642" Y="502.7182240492302" GraphRef="fb8d4" RelX="0.5" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -447,9 +447,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idd7318159">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="806.405895893977" Y="579.5725399180578" GraphRef="cfdb4" RelX="0.0" RelY="1.0" />
+      <Point X="806.405895893977" Y="579.5725399180578" GraphRef="fb8d4" RelX="0.0" RelY="1.0" />
       <Point X="776.1431435215242" Y="688.0856760374833" />
-      <Point X="745.8803911490713" Y="864.8332435007712" GraphRef="ab944" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="745.8803911490713" Y="864.8332435007712" GraphRef="a2628" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -568,7 +568,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="e8287">
     <Graphics ConnectorType="Curved" ZOrder="32846" LineThickness="1.0">
-      <Point X="1265.8119658119695" Y="722.2735042735039" GraphRef="b1aaf" RelX="0.0" RelY="1.0" />
+      <Point X="1265.8119658119695" Y="722.2735042735039" GraphRef="ce852" RelX="0.0" RelY="1.0" />
       <Point X="1035.4668078119828" Y="903.4412428507095" GraphRef="fb4f9" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -576,7 +576,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="c4214">
     <Graphics ConnectorType="Curved" ZOrder="32847" LineThickness="1.0">
       <Point X="950.8327633378917" Y="369.7485505830243" GraphRef="e97a4" RelX="0.5" RelY="1.0" />
-      <Point X="1265.8119658119695" Y="636.4444444444441" GraphRef="b1aaf" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="1265.8119658119695" Y="636.4444444444441" GraphRef="ce852" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
       <Anchor Position="0.8314805492937621" Shape="None" GraphId="b3ab5" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -886,73 +886,45 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="d2468" GroupRef="bbb3c">
     <Graphics CenterX="619.6808665240115" CenterY="699.9233886550606" Width="20.5" Height="21.5" ZOrder="32901" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="a47cb" GraphId="a3482" Style="Group" />
-  <Group GroupId="ee2b9" GraphId="a4e59" Style="Group" />
-  <Group GroupId="a2628" GraphId="ab944" Style="Complex" />
-  <Group GroupId="f1d22" GraphId="ac9a4" Style="Group" />
-  <Group GroupId="d5783" GraphId="afec9" Style="Group" />
-  <Group GroupId="ce852" GraphId="b1aaf" />
-  <Group GroupId="bbb3c" GraphId="b63ec" Style="Group" />
-  <Group GroupId="ac6c5" GraphId="b9b84" Style="Group" />
-  <Group GroupId="e6db0" GraphId="b9d3b" Style="Group" />
-  <Group GroupId="ff7b7" GraphId="c38a8" Style="Group" />
-  <Group GroupId="b85a6" GraphId="ce79c" Style="Group" />
-  <Group GroupId="fb8d4" GraphId="cfdb4" Style="Complex" />
-  <Group GroupId="a2be2" GraphId="d011c" Style="Group" />
-  <Group GroupId="a9d5a" GraphId="e58a9" Style="Group" />
-  <Group GroupId="e88e8" GraphId="eaf94" Style="Group" />
-  <Group GroupId="b4360" GraphId="ec959" Style="Group" />
-  <Group GroupId="d7d95" GraphId="ecb91" Style="Group" />
-  <Group GroupId="cea31" GraphId="ef1dd" Style="Group" />
-  <Group GroupId="ec31a" GraphId="f51ed" Style="Complex" />
-  <Group GroupId="db648" GraphId="f7ff6" Style="Group" />
-  <Group GroupId="d87e6" GraphId="f8375" Style="Group" />
-  <Group GroupId="dbaa7" GraphId="f8964" Style="Complex" />
-  <Group GroupId="b25c2" GraphId="f9ad3" Style="Group" />
-  <Group GroupId="b39f9" GraphId="ff35f" Style="Group" />
+  <Group GroupId="a47cb" GraphId="a47cb" Style="Group" />
+  <Group GroupId="a2628" GraphId="a2628" Style="Complex" />
+  <Group GroupId="d5783" GraphId="d5783" Style="Group" />
+  <Group GroupId="ce852" GraphId="ce852" />
+  <Group GroupId="bbb3c" GraphId="bbb3c" Style="Group" />
+  <Group GroupId="ff7b7" GraphId="ff7b7" Style="Group" />
+  <Group GroupId="fb8d4" GraphId="fb8d4" Style="Complex" />
+  <Group GroupId="b4360" GraphId="b4360" Style="Group" />
+  <Group GroupId="d7d95" GraphId="d7d95" Style="Group" />
+  <Group GroupId="cea31" GraphId="cea31" Style="Group" />
+  <Group GroupId="ec31a" GraphId="ec31a" Style="Complex" />
+  <Group GroupId="d87e6" GraphId="d87e6" Style="Group" />
+  <Group GroupId="b25c2" GraphId="b25c2" Style="Group" />
+  <Group GroupId="b39f9" GraphId="b39f9" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d53">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18483217</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1755382</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of platelet-derived growth factors in physiology and medicine.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genes Dev</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrae J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gallini R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betsholtz C</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDGF and the small inducible gene (SIG) family: roles in the inflammatory response.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adv Exp Med Biol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kawahara RS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deng ZW</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deuel TF</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a00">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2545232</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Platelet-derived growth factor. Three isoforms that bind to two distinct cell surface receptors.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acta Oncol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Claesson-Welsh L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heldin CH</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jak-Stat signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000209</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platelet-derived growth factor signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000297</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b74">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1661577</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2557116</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDGF: a multifunctional growth factor.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baillieres Clin Endocrinol Metab</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antoniades HN</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Platelet-derived growth factors: a family of isoforms that bind to two distinct receptors.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Br Med Bull</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heldin CH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Westermark B</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc2">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20657170</bp:ID>
@@ -963,23 +935,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smith CL</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tallquist MD</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2557116</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d53">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18483217</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Platelet-derived growth factors: a family of isoforms that bind to two distinct receptors.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Br Med Bull</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heldin CH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Westermark B</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3a">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2546599</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure and function of platelet-derived growth factor (PDGF) and related proteins.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hannink M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Donoghue DJ</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of platelet-derived growth factors in physiology and medicine.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genes Dev</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrae J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gallini R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betsholtz C</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd5">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22512244</bp:ID>
@@ -989,6 +953,28 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heldin CH</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a00">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2545232</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Platelet-derived growth factor. Three isoforms that bind to two distinct cell surface receptors.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acta Oncol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Claesson-Welsh L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heldin CH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b74">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1661577</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDGF: a multifunctional growth factor.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baillieres Clin Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antoniades HN</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c89">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2841963</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1000,16 +986,11 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nistأ©r M</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Westermark B</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4a">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1755382</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDGF and the small inducible gene (SIG) family: roles in the inflammatory response.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adv Exp Med Biol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kawahara RS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deng ZW</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deuel TF</bp:AUTHORS>
-    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jak-Stat signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000209</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c65">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21769672</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1027,6 +1008,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malik BA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nawaz A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bhatti S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2546599</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure and function of platelet-derived growth factor (PDGF) and related proteins.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1989</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hannink M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Donoghue DJ</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

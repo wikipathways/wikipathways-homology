@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MFAP5-mediated ovarian cancer cell motility and invasiveness" Data-Source="WikiPathways" Version="WP3301_Cf" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MFAP5-mediated ovarian cancer cell motility and invasiveness" Data-Source="WikiPathways" Version="WP3301_Cf" Last-Modified="20211015231945" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">A graphical summary of the molecular signaling events involved in MFAP5-mediated ovarian cancer cell motility and invasiveness. 
 Based on figure 6c in [https://www.ncbi.nlm.nih.gov/pubmed/25277212 Leung et al].
 
@@ -176,37 +176,37 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e2883" TextLabel="P" GraphId="f3ae2">
-    <Comment>parent=Q05397; parentsymbol=FAK; site=PIGNQHIyQPVGKPD; position=tyr861; sitegrpid=447965; ptm=p; direction=u</Comment>
+    <Comment>parentid=Q05397; parentsymbol=FAK; site=PIGNQHIyQPVGKPD; position=tyr861; ptm=p; direction=u; sitegrpid=447965</Comment>
     <Graphics RelX="0.9568619524730748" RelY="-0.9" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
+    <Xref Database="phosphositeplus" ID="447965" />
   </State>
   <State GraphRef="be7bf" TextLabel="P" GraphId="f3c0a">
-    <Comment>parent=Q04759; parentsymbol=PRKCQ; site=LGDAktNtFCGtPDy; position=thr538; sitegrpid=447907; ptm=p; direction=u</Comment>
+    <Comment>parentid=Q04759; parentsymbol=PRKCQ; site=LGDAktNtFCGtPDy; position=thr538; ptm=p; direction=u; sitegrpid=447907</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
+    <Xref Database="phosphositeplus" ID="447907" />
   </State>
   <State GraphRef="a6bf7" TextLabel="P" GraphId="f3ff8">
-    <Comment>parent=P19174; parentsymbol=PLCG1; site=EGRNPGFyVEANPMP; position=tyr783; sitegrpid=447667; ptm=p; direction=u</Comment>
+    <Comment>parentid=P19174; parentsymbol=PLCG1; site=EGRNPGFyVEANPMP; position=tyr783; ptm=p; direction=u; sitegrpid=447667</Comment>
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
+    <Xref Database="phosphositeplus" ID="447667" />
   </State>
   <State GraphRef="e2f2e" TextLabel="P" GraphId="a681f">
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="a58a5" TextLabel="P" GraphId="a3ac3">
-    <Comment>parent=P27361; parentsymbol=MAPK3; site=HtGFLtEyVAtRWyr; position=tyr204; sitegrpid=447543; ptm=p; direction=u</Comment>
+    <Comment>parentid=P27361; parentsymbol=MAPK3; site=HtGFLtEyVAtRWyr; position=tyr204; ptm=p; direction=u; sitegrpid=447543</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
+    <Xref Database="phosphositeplus" ID="447543" />
   </State>
   <State GraphRef="a58a5" TextLabel="P" GraphId="d1b1f">
-    <Comment>parent=P27361; parentsymbol=MAPK3; site=HDHtGFLtEyVAtRW; position=thr202; sitegrpid=447542; ptm=p; direction=u</Comment>
+    <Comment>parentid=P27361; parentsymbol=MAPK3; site=HDHtGFLtEyVAtRW; position=thr202; ptm=p; direction=u; sitegrpid=447542</Comment>
     <Graphics RelX="1.0" RelY="-0.6806722689075684" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
+    <Xref Database="phosphositeplus" ID="447542" />
   </State>
   <Interaction GraphId="id13d59668">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="119.44957983193278" Y="457.5882352941178" GraphRef="fe0f2" RelX="0.0" RelY="1.0" />
+      <Point X="119.44957983193278" Y="457.5882352941178" GraphRef="a9c7c" RelX="0.0" RelY="1.0" />
       <Point X="119.57142857142857" Y="484.0" GraphRef="c2d99" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -221,7 +221,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id2b5402f4">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="146.0" Y="598.0" GraphRef="ce904" RelX="1.0" RelY="0.0" />
+      <Point X="146.0" Y="598.0" GraphRef="ad16b" RelX="1.0" RelY="0.0" />
       <Point X="186.68067226890747" Y="598.5966386554612" GraphRef="c4843" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -266,14 +266,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id5d3b9009">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="837.2869292295234" Y="114.91298527443104" GraphRef="b7eea" RelX="0.0" RelY="1.0" />
-      <Point X="838.0" Y="151.0" GraphRef="d046d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="838.0" Y="151.0" GraphRef="b680b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id61312efe">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="228.68067226890747" Y="598.5966386554612" GraphRef="c4843" RelX="1.0" RelY="0.0" />
-      <Point X="342.0" Y="598.0" GraphRef="e0815" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="342.0" Y="598.0" GraphRef="b1e44" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -303,8 +303,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id74e9738">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="195.99999999999991" Y="428.9915966386559" GraphRef="c981f" RelX="-1.0" RelY="0.0" />
-      <Point X="150.9495798319328" Y="429.5882352941178" GraphRef="fe0f2" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="195.99999999999991" Y="428.9915966386559" GraphRef="f6235" RelX="-1.0" RelY="0.0" />
+      <Point X="150.9495798319328" Y="429.5882352941178" GraphRef="a9c7c" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.4002399040383847" Shape="None" GraphId="bffcd" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -332,7 +332,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id966d3807">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="835.0" Y="448.0" GraphRef="e7e86" RelX="1.0" RelY="0.0" />
+      <Point X="835.0" Y="448.0" GraphRef="b25b4" RelX="1.0" RelY="0.0" />
       <Point X="861.0" Y="423.0" GraphRef="adf1d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -347,7 +347,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="ida20212b4">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="838.0" Y="195.0" GraphRef="d046d" RelX="0.0" RelY="1.0" />
+      <Point X="838.0" Y="195.0" GraphRef="b680b" RelX="0.0" RelY="1.0" />
       <Point X="837.5451137884872" Y="242.05890227576975" GraphRef="fdccb" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -362,7 +362,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idc053788d">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="648.6302521008403" Y="447.94117647058846" GraphRef="a7bcb" RelX="1.0" RelY="0.0" />
-      <Point X="732.0" Y="448.0" GraphRef="e7e86" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="732.0" Y="448.0" GraphRef="b25b4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -376,8 +376,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idc618f2ed">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="174.22444961920516" Y="408.0776439089692" GraphRef="b2dde" RelX="0.0" RelY="1.0" />
-      <Point X="177.96902415504383" Y="429.23039523686356" GraphRef="bffcd" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="174.22444961920516" Y="408.0776439089692" GraphRef="a1d2b" RelX="0.0" RelY="1.0" />
+      <Point X="177.9690241550438" Y="429.23039523686356" GraphRef="bffcd" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -421,14 +421,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="e3478">
     <Graphics ZOrder="32788" LineThickness="1.0">
-      <Point X="835.0" Y="448.0" GraphRef="e7e86" RelX="1.0" RelY="0.0" />
+      <Point X="835.0" Y="448.0" GraphRef="b25b4" RelX="1.0" RelY="0.0" />
       <Point X="861.0" Y="469.0" GraphRef="d6592" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e3382">
     <Graphics ZOrder="32803" LineThickness="1.0">
-      <Point X="451.0" Y="598.0" GraphRef="e0815" RelX="1.0" RelY="0.0" />
+      <Point X="451.0" Y="598.0" GraphRef="b1e44" RelX="1.0" RelY="0.0" />
       <Point X="484.2436974789906" Y="598.7394957983191" GraphRef="c359a" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -512,23 +512,27 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="ef470">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="361.0" CenterY="584.0" Width="668.0" Height="150.0" ZOrder="16384" FontWeight="Bold" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="361.0" CenterY="584.0" Width="668.0" Height="150.0" ZOrder="16384" FontWeight="Bold" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="f85d7">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="495.5" CenterY="445.5" Width="977.0" Height="535.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="a1d2b" GraphId="b2dde" Style="Group" />
-  <Group GroupId="f6235" GraphId="c981f" Style="Group" />
-  <Group GroupId="ad16b" GraphId="ce904" Style="Group" />
-  <Group GroupId="b680b" GraphId="d046d" Style="Complex" />
-  <Group GroupId="b1e44" GraphId="e0815" Style="Group" />
-  <Group GroupId="b25b4" GraphId="e7e86" Style="Group" />
-  <Group GroupId="d348f" GraphId="f3b2d" Style="Group" />
-  <Group GroupId="a9c7c" GraphId="fe0f2" Style="Group" />
+  <Group GroupId="a1d2b" GraphId="a1d2b" Style="Group" />
+  <Group GroupId="f6235" GraphId="f6235" Style="Group" />
+  <Group GroupId="ad16b" GraphId="ad16b" Style="Group" />
+  <Group GroupId="b680b" GraphId="b680b" Style="Complex" />
+  <Group GroupId="b1e44" GraphId="b1e44" Style="Group" />
+  <Group GroupId="b25b4" GraphId="b25b4" Style="Group" />
+  <Group GroupId="a9c7c" GraphId="a9c7c" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cellular proliferation</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14566</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25277212</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -555,19 +559,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cellular proliferation</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14566</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2394</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2394</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

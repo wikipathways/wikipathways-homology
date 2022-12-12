@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Prostaglandin and leukotriene metabolism in senescence " Data-Source="WikiPathways" Version="WP5122_Bt" Organism="Bos taurus">
-  <Comment Source="WikiPathways-description">Prostaglandins are active lipid molecules that are shown to have a great impact on cellular senescence (Wiley et al., 2021). Prostaglandins are derived from arachidonic acid, which is cleaved by the enzyme cytosolic phospholipase A2 (cPLA2) from the membrane phospholipids (Yang et al., 2011). 
-
-The cyclooxygenase 2 (COX-2)-prostaglandin E2 (PGE2) pathway takes part in the induction, as well as the maintenance of senescence. COX-2 is the inducing enzyme which causes the conversion of AA into PGH2 and PGG2, which are then readily converted into PGF2⍺, PGD2, PGE2, PGI2, and TxA2 through prostaglandin synthases (Cormenier et al., 2017; Martien et al., 2013). The produced active prostaglandins can then act on intracellular receptors and trigger a downward signalling cascade, leading to the stimulation or inhibition of cAMP or the stimulation of Ca2+. The cAMP-dependent pathway leads to the stimulation of the insulin-like growth factor binding protein 5 (IGFBP5) production, which then also activates p53. P53 activation reinforces senescence by stimulating the expression of COX mRNA, thus creating a positive feedback loop (Yang et al., 2011).
-
-Two important active prostaglandins, namely dihomo-15d-PGJ2 and 15d-PGJ2 are highly elevated in senescent cells and induce COX-1 and 2, PTGES and PTGDS production through the activation of RAS and subsequently p53, reinforcing the positive feedback loop. Dihomo-15d-PGJ2 is the most highly elevated senescence-associated prostaglandin and is produced by the elongation of arachidonic acid into adrenic acid, which is then enzymatically converted to yield the prostaglandin. 15d-PGJ2 on the other hand is produced through the dehydration of the active prostaglandin PGD2. In addition, RAS stimulates the secretion of SASP factors, which can consequently affect surrounding cells (Wiley et al., 2021).
-
-Leukotrienes play an important role in the pathogenesis of inflammation. Just like prostaglandins, leukotrienes are synthesized from arachidonic acid that was cleaved from the membrane phospholipids (Wiley et al., 2019). ALOX12, ALOX15, ALOX5AP, LTC4S, LTA4H, ALOX15B and ALOX5, which are enzymes that conversion of arachidonic acid to either leukotriene A4 (LT4A) or Arachidonic acid 5-hydroperoxide (5-HPETE), are upregulated in senescence (Wiley et al., 2019; HÃƒÆ’Ã‚Â¤fner et al., 2019). The produced LTA4 can be converted into LTB4 or LTC4. LTC4 can then be consecutively cleaved into LTD4 and LTE4 (Suryadevara et al., 2020). All the mentioned leukotrienes are increased in cellular senescence and are thought to be part of the SASP (Lin &amp; Xu, 2020).
-
-LTD4 is of particular importance in cellular senescence due to its increased interaction with the cysteinyl leukotriene receptor 1 (CysLT1R) (Wei et al., 2018; Song et al., 2019). This interaction has various consequences, such as the release of intracellular Ca2+, an increase of p21 and it also inhibits sirtuin 1 (SIRT1). SIRT1 regulates the cell cycle by inhibiting the phosphorylation of p53 and the release of various cytokines (Wei et al., 2018). Therefore, it increases the release of pro-inflammatory cytokines and induce cellular senescence via the activation of p53 (Song et al., 2019).
-
-ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et al., 2005; Menna et al., 2010). These ROS are thought to activate p53 which binds to ALOX5 and further increases its action (HÃƒÆ’Ã‚Â¤fner et al., 2019). Moreover, ALOX5 uses Ca2+ as a cofactor and its increased intracellular concentration further promotes ALOX5's action (Menna et al., 2010). LTB4 is also stimulates the production of ROS. ALOX5 then stimulates the phosphorylation of p53 and activates p21 (Menna et al., 2010; Catalano et al., 2005). This then causes the dephosphorylation of the retinoblastoma protein (RB1). As a consequence, senescence is induced (Catalano et al., 2005).
-</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Prostaglandin and leukotriene metabolism in senescence " Data-Source="WikiPathways" Version="WP5122_Bt" Last-Modified="20210702084107" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">Prostaglandin pathway in senescence.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5122.gpml (WP5122_r119484) with a 100.0% conversion rate.</Comment>
@@ -332,7 +320,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
   <Interaction GraphId="id1396edad">
     <BiopaxRef>bf3</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="655.5503469246436" Y="729.3458471647855" GraphRef="cde07" RelX="1.0" RelY="0.0" />
+      <Point X="655.5503469246436" Y="729.3458471647855" GraphRef="cf664" RelX="1.0" RelY="0.0" />
       <Point X="771.1915237802144" Y="729.3869015621724" GraphRef="df54d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -356,7 +344,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
   <Interaction GraphId="id248b94f9">
     <BiopaxRef>ea3</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="433.37779578102095" Y="527.3406629117922" GraphRef="b1910" RelX="1.0" RelY="-0.5" />
+      <Point X="433.37779578102095" Y="527.3406629117922" GraphRef="ccdce" RelX="1.0" RelY="-0.5" />
       <Point X="772.0348682728654" Y="527.4776268202751" GraphRef="f1b39" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -373,7 +361,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
     <BiopaxRef>ea3</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="201.04670512390325" Y="527.1663532801622" GraphRef="beda5" RelX="1.0" RelY="0.0" />
-      <Point X="327.37779578102095" Y="527.3406629117922" GraphRef="b1910" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="327.37779578102095" Y="527.3406629117922" GraphRef="ccdce" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -413,7 +401,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
     <BiopaxRef>bf3</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="815.6279801499146" Y="915.3150412657039" GraphRef="c3391" RelX="1.0" RelY="0.0" />
-      <Point X="884.7236119800887" Y="915.877539046793" GraphRef="f1774" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
+      <Point X="884.7236119800887" Y="915.877539046793" GraphRef="be4f3" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -453,7 +441,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
     <BiopaxRef>b68</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="772.5420828766745" Y="291.65783327917507" GraphRef="f160f" RelX="0.0" RelY="1.0" />
-      <Point X="772.5420828766745" Y="437.3624591741043" GraphRef="dfd6f" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
+      <Point X="772.5420828766745" Y="437.3624591741043" GraphRef="dfd6f" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.45762702392014054" Shape="None" GraphId="a2b54" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -488,7 +476,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="808.5420828766745" Y="437.3624591741043" GraphRef="dfd6f" RelX="0.5" RelY="-1.0" />
       <Point X="1141.342273060315" Y="303.9609083069848" />
-      <Point X="1474.1424632439553" Y="444.4274546116448" GraphRef="efda8" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="1474.1424632439553" Y="444.4274546116448" GraphRef="c4b7e" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.9497496861553639" Shape="None" GraphId="bc92c" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -504,7 +492,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
   <Interaction GraphId="ida64e6963">
     <BiopaxRef>ea3</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="380.37779578102095" Y="498.34066291179215" GraphRef="b1910" RelX="0.0" RelY="-1.0" />
+      <Point X="380.37779578102095" Y="498.34066291179215" GraphRef="ccdce" RelX="0.0" RelY="-1.0" />
       <Point X="380.37779578102095" Y="462.3624591741049" GraphRef="b199d" RelX="0.0" RelY="1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -513,7 +501,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
     <BiopaxRef>bf3</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="772.5420828766745" Y="462.3624591741043" GraphRef="dfd6f" RelX="0.0" RelY="1.0" />
-      <Point X="771.5531105039094" Y="589.324698365232" GraphRef="d8e8a" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="771.5531105039094" Y="589.324698365232" GraphRef="bad6f" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.512870346813489" Shape="None" GraphId="f1b39" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -537,8 +525,8 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
   <Interaction GraphId="idd39f1cf">
     <BiopaxRef>bf3</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="771.5531105039094" Y="655.324698365232" GraphRef="d8e8a" RelX="0.0" RelY="1.0" />
-      <Point X="770.6279801499146" Y="844.8150412657046" GraphRef="df52d" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="771.5531105039094" Y="655.324698365232" GraphRef="bad6f" RelX="0.0" RelY="1.0" />
+      <Point X="770.6279801499146" Y="844.8150412657046" GraphRef="bb550" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.3908494863816917" Shape="None" GraphId="df54d" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -573,7 +561,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
     <BiopaxRef>ea3</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="380.3777957810209" Y="872.4512152278751" GraphRef="fd8ad" RelX="0.0" RelY="-1.0" />
-      <Point X="380.37779578102095" Y="614.3406629117922" GraphRef="b1910" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="380.37779578102095" Y="614.3406629117922" GraphRef="ccdce" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -613,7 +601,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
     <BiopaxRef>fa0</BiopaxRef>
     <Graphics ZOrder="32814" LineThickness="1.0">
       <Point X="1474.1424632439553" Y="648.0941212783114" GraphRef="e54ef" RelX="0.0" RelY="1.0" />
-      <Point X="1474.1424632439553" Y="693.4274546116447" GraphRef="cab0c" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
+      <Point X="1474.1424632439553" Y="693.4274546116447" GraphRef="cab0c" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -621,7 +609,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
     <BiopaxRef>fa0</BiopaxRef>
     <Graphics ZOrder="32816" LineThickness="1.0">
       <Point X="1474.1424632439553" Y="579.4274546116449" GraphRef="f138f" RelX="0.0" RelY="1.0" />
-      <Point X="1474.1424632439553" Y="623.0941212783114" GraphRef="e54ef" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
+      <Point X="1474.1424632439553" Y="623.0941212783114" GraphRef="e54ef" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -647,7 +635,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
     <BiopaxRef>b68</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32819" LineThickness="1.0">
       <Point X="530.5184618555858" Y="212.11798569192942" GraphRef="e8cba" RelX="1.0" RelY="-0.5" />
-      <Point X="1638.6115174076926" Y="314.8083427441426" GraphRef="fdc7d" RelX="0.5" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="1638.6115174076926" Y="314.8083427441426" GraphRef="acfbb" RelX="0.5" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -712,7 +700,7 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
     <BiopaxRef>a6d</BiopaxRef>
     <Graphics ZOrder="32830" LineThickness="1.0">
       <Point X="1298.3636683832083" Y="397.115135572098" GraphRef="be659" RelX="1.0" RelY="0.0" />
-      <Point X="1494.1424632439553" Y="426.60578325746155" GraphRef="bc92c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+      <Point X="1494.1424632439553" Y="426.60578325746167" GraphRef="bc92c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -745,8 +733,8 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
   <Interaction GraphId="d12f1">
     <BiopaxRef>b68</BiopaxRef>
     <Graphics ZOrder="32835" LineThickness="1.0">
-      <Point X="1559.1115174076922" Y="397.8083427441428" GraphRef="fdc7d" RelX="-1.0" RelY="0.0" />
-      <Point X="1494.1424632439553" Y="426.60578325746155" GraphRef="bc92c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+      <Point X="1559.1115174076922" Y="397.8083427441428" GraphRef="acfbb" RelX="-1.0" RelY="0.0" />
+      <Point X="1494.1424632439553" Y="426.60578325746167" GraphRef="bc92c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -871,15 +859,14 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
   <Label TextLabel="?" GraphId="bda2e" GroupRef="db913">
     <Graphics CenterX="200.90612426830467" CenterY="539.8819746856311" Width="27.488861036609066" Height="25.0" ZOrder="32896" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="db913" Style="Group" />
-  <Group GroupId="f71ee" GraphId="a819b" Style="Group" />
-  <Group GroupId="ccdce" GraphId="b1910" Style="Group" />
-  <Group GroupId="cf664" GraphId="cde07" Style="Group" />
-  <Group GroupId="bad6f" GraphId="d8e8a" Style="Group" />
-  <Group GroupId="bb550" GraphId="df52d" Style="Group" />
-  <Group GroupId="c4b7e" GraphId="efda8" Style="Group" />
-  <Group GroupId="be4f3" GraphId="f1774" Style="Group" />
-  <Group GroupId="acfbb" GraphId="fdc7d" Style="Group" />
+  <Group GroupId="db913" GraphId="db913" Style="Group" />
+  <Group GroupId="ccdce" GraphId="ccdce" Style="Group" />
+  <Group GroupId="cf664" GraphId="cf664" Style="Group" />
+  <Group GroupId="bad6f" GraphId="bad6f" Style="Group" />
+  <Group GroupId="bb550" GraphId="bb550" Style="Group" />
+  <Group GroupId="c4b7e" GraphId="c4b7e" Style="Group" />
+  <Group GroupId="be4f3" GraphId="be4f3" Style="Group" />
+  <Group GroupId="acfbb" GraphId="acfbb" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3d">
@@ -890,21 +877,6 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lin Y</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu Z</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b51">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30930090</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beyond leukotriene formation-The noncanonical functions of 5-lipoxygenase.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prostaglandins Other Lipid Mediat</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30930090</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beyond leukotriene formation-The noncanonical functions of 5-lipoxygenase.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prostaglandins Other Lipid Mediat</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤fner AK</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kahnt AS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steinhilber D</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf3">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28803844</bp:ID>
@@ -920,6 +892,49 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abbadie C</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pluquet O</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15616590</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-Lipoxygenase regulates senescence-like growth arrest by promoting ROS-dependent p53 activation.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMBO J</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalano A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rodilossi S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caprari P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coppola V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procopio A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukotriene metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000464</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a33">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21191810</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involvement of IGF binding protein 5 in prostaglandin E(2)-induced cellular senescence in human fibroblasts.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biogerontology</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang HH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jung B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim KS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim JR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29587204</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukotriene D4 induces cellular senescence in osteoblasts.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int Immunopharmacol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wei J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guo W</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feng B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huang C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chu J</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa0">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32549377</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -931,32 +946,17 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kamp DW</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natarajan V</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b68">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31687975</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e0e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20388082</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secretion of leukotrienes by senescent lung fibroblasts promotes pulmonary fibrosis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JCI Insight</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiley CD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brumwell AN</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Davis SS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jackson JR</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valdovinos A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calhoun C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alimirah F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castellanos CA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruan R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wei Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chapman HA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramanathan A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campisi J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jourdan Le Saux C</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoxygenase inhibitors for cancer prevention: promises and risks.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curr Pharm Des</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Menna C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olivieri F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalano A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procopio A</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aging pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000651</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea3">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33811820</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -981,65 +981,47 @@ ALOX5 contributes to an increase in reactive oxygen species (ROS) (Catalano et a
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramanathan A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campisi J</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6d">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15616590</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-Lipoxygenase regulates senescence-like growth arrest by promoting ROS-dependent p53 activation.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMBO J</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalano A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rodilossi S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caprari P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coppola V</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procopio A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efe">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29587204</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukotriene D4 induces cellular senescence in osteoblasts.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int Immunopharmacol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wei J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guo W</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feng B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huang C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chu J</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostaglandin metabolic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000156</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a33">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21191810</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involvement of IGF binding protein 5 in prostaglandin E(2)-induced cellular senescence in human fibroblasts.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biogerontology</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang HH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jung B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim KS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim JR</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e0e">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20388082</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoxygenase inhibitors for cancer prevention: promises and risks.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curr Pharm Des</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Menna C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olivieri F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalano A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procopio A</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukotriene metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000464</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aging pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000651</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b68">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31687975</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secretion of leukotrienes by senescent lung fibroblasts promotes pulmonary fibrosis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JCI Insight</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiley CD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brumwell AN</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Davis SS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jackson JR</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valdovinos A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calhoun C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alimirah F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castellanos CA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruan R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wei Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chapman HA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramanathan A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campisi J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jourdan Le Saux C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30930090</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beyond leukotriene formation-The noncanonical functions of 5-lipoxygenase.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prostaglandins Other Lipid Mediat</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤fner AK</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kahnt AS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steinhilber D</bp:AUTHORS>
+    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 

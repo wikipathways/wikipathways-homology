@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Thyroid stimulating hormone (TSH) signaling pathway" Data-Source="WikiPathways" Version="WP2032_Dr" Maintainer="Institute of Bioinformatics" Organism="Danio rerio">
-  <Comment Source="WikiPathways-description">Human thyroid stimulating hormone (TSH) is a glycoprotein hormone secreted from the anterior pituitary lobe, which plays an important physiological role in regulation of the hypothalamus-pituitary-thyroid by stimulating production and secretion of the thyroid hormone from the thyroid gland. TSH binds to TSH receptor which is a member of the G protein-coupled receptor superfamily of integral membrane proteins. TSH exerts its action through various signaling cascades such as cAMP cascade and the phospholipase C beta-mediated inositol phosphate generation. Further, it will give signaling to NF-kappa B, mitogen activated protein kinases, protein kinase C modules. 
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Thyroid stimulating hormone (TSH) signaling pathway" Data-Source="WikiPathways" Version="WP2032_Dr" Last-Modified="20220512170910" Organism="Danio rerio">
+  <Comment Source="WikiPathways-description">Human thyroid-stimulating hormone (TSH) is a glycoprotein hormone secreted from the anterior pituitary lobe, which plays an important physiological role in the regulation of the hypothalamus-pituitary-thyroid axis by stimulating production and secretion of the thyroid hormone from the thyroid gland and – on a longer time scale – growth and differentiation of thyrocytes. TSH binds to TSH receptor which is a member of the G protein-coupled receptor superfamily of integral membrane proteins. TSH exerts its action through various signaling cascades such as cAMP cascade and the phospholipase C beta-mediated inositol phosphate generation. Further, it will give signaling to NF-kappa B, mitogen activated protein kinases, protein kinase C modules. 
 
 
 NetPath (http://www.netpath.org) is a collaborative project between PandeyLab at Johns Hopkins University (http://pandeylab.igm.jhmi.edu) and the Institute of Bioinformatics (http://www.ibioinformatics.org).  If you use this pathway, please cite the NetPath website until the pathway is published.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2032 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2032.gpml (WP2032_r120723) with a 91.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2032.gpml (WP2032_r122774) with a 93.0% conversion rate.</Comment>
   <BiopaxRef>ea7</BiopaxRef>
   <BiopaxRef>d83</BiopaxRef>
   <Attribute Key="org.pathvisio.model.WindowHeight" Value="11190.0" />
@@ -43,20 +43,18 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="634.9308863870508" CenterY="838.5546218487402" Width="60.0" Height="20.0" ZOrder="34533" FillColor="99ffff" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000017661" />
   </DataNode>
-  <DataNode TextLabel="EGR1" GraphId="aa04e" Type="Rna">
-    <Comment Source="HomologyMapper">No homologues found for original id L:1958</Comment>
+  <DataNode TextLabel="EGR1" GraphId="aa04e" Type="RNA">
     <Graphics CenterX="272.95973928304363" CenterY="1289.6901017094804" Width="44.08052143391279" Height="20.0" ZOrder="34534" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="" ID="" />
+    <Xref Database="Entrez Gene" ID="1958" />
   </DataNode>
   <DataNode TextLabel="stat1a" GraphId="f4aed" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6772</Comment>
     <Graphics CenterX="938.8853260368046" CenterY="662.1593213566128" Width="60.0" Height="20.0" ZOrder="34535" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000006266" />
   </DataNode>
-  <DataNode TextLabel="pax8" GraphId="dcf05" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7849</Comment>
+  <DataNode TextLabel="PAX8" GraphId="dcf05" Type="RNA">
     <Graphics CenterX="437.6850518354396" CenterY="1288.7216409541" Width="46.62989632912081" Height="20.0" ZOrder="34536" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000015879" />
+    <Xref Database="Entrez Gene" ID="7849" />
   </DataNode>
   <DataNode TextLabel="CGA" GraphId="ea0fe" Type="GeneProduct" GroupRef="a7d03">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1081</Comment>
@@ -68,40 +66,36 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="634.546218487395" CenterY="816.8571428571416" Width="60.0" Height="20.0" ZOrder="34539" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000096415" />
   </DataNode>
-  <DataNode TextLabel="mycb" GraphId="f4593" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:4609</Comment>
+  <DataNode TextLabel="MYC" GraphId="f4593" Type="RNA">
     <Graphics CenterX="688.117346938775" CenterY="1289.3469387755101" Width="46.63" Height="20.0" ZOrder="34540" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000007241" />
+    <Xref Database="Entrez Gene" ID="4609" />
   </DataNode>
   <DataNode TextLabel="scrib" GraphId="a312d" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:23513</Comment>
     <Graphics CenterX="164.0" CenterY="566.0" Width="58.0" Height="20.0" ZOrder="34541" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000000861" />
   </DataNode>
-  <DataNode TextLabel="jun" GraphId="a04da" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:3725</Comment>
+  <DataNode TextLabel="JUN" GraphId="a04da" Type="RNA">
     <Graphics CenterX="634.2829434477828" CenterY="1288.7323605151635" Width="39.43411310443446" Height="20.0" ZOrder="34542" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000043531" />
+    <Xref Database="Entrez Gene" ID="3725" />
   </DataNode>
   <DataNode TextLabel="hrasb" GraphId="dea31" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:3265</Comment>
     <Graphics CenterX="634.5985170333768" CenterY="700.1722816971717" Width="60.0" Height="20.0" ZOrder="34543" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000005651" />
   </DataNode>
-  <DataNode TextLabel="TTF2" GraphId="c6bbd" Type="Rna">
-    <Comment Source="HomologyMapper">No homologues found for original id L:8458</Comment>
+  <DataNode TextLabel="TTF2" GraphId="c6bbd" Type="RNA">
     <Graphics CenterX="488.0119159964986" CenterY="1288.1128822692701" Width="43.9761680070028" Height="20.0" ZOrder="34544" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="" ID="" />
+    <Xref Database="Entrez Gene" ID="8458" />
   </DataNode>
   <DataNode TextLabel="kcnip3b" GraphId="f571e" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:30818</Comment>
     <Graphics CenterX="628.5" CenterY="414.0" Width="57.0" Height="20.0" ZOrder="34545" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000017880" />
   </DataNode>
-  <DataNode TextLabel="si:ch73-376l24.3" GraphId="bb9a2" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7270</Comment>
+  <DataNode TextLabel="TTF1" GraphId="bb9a2" Type="RNA">
     <Graphics CenterX="536.7516534391539" CenterY="1288.4920634920634" Width="40.496693121692374" Height="20.0" ZOrder="34546" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000094043" />
+    <Xref Database="Entrez Gene" ID="7270" />
   </DataNode>
   <DataNode TextLabel="gnb1b" GraphId="c956b" Type="GeneProduct" GroupRef="fcef4">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:2782</Comment>
@@ -118,18 +112,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="521.962053029355" CenterY="299.72748371379225" Width="60.0" Height="20.0" ZOrder="34549" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000033726" />
   </DataNode>
-  <DataNode TextLabel="e2f1" GraphId="a0b0d" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:1869</Comment>
+  <DataNode TextLabel="E2F1" GraphId="a0b0d" Type="RNA">
     <Graphics CenterX="170.13101983421532" CenterY="1289.710540573181" Width="41.71101926026739" Height="20.0" ZOrder="34550" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000103868" />
+    <Xref Database="Entrez Gene" ID="1869" />
   </DataNode>
-  <DataNode TextLabel="fosab" GraphId="c0c56" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:2353</Comment>
+  <DataNode TextLabel="FOS" GraphId="c0c56" Type="RNA">
     <Graphics CenterX="585.0900902992079" CenterY="1288.3877665049263" Width="46.63" Height="20.0" ZOrder="34551" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000031683" />
+    <Xref Database="Entrez Gene" ID="2353" />
   </DataNode>
   <DataNode TextLabel="tshr" GraphId="adb47" Type="GeneProduct">
-    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7253</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="IL6R" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -137,7 +128,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSDARG00000037195" />
   </DataNode>
   <DataNode TextLabel="stat3" GraphId="f7da2" Type="GeneProduct">
-    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6774</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -521,7 +511,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </State>
   <Interaction GraphId="ef94a">
     <Graphics ConnectorType="Elbow" ZOrder="34458" LineThickness="1.0">
-      <Point X="633.6745510146677" Y="1050.053759022263" GraphRef="a9447" RelX="0.0" RelY="1.0" />
+      <Point X="633.6745510146677" Y="1050.053759022263" GraphRef="db056" RelX="0.0" RelY="1.0" />
       <Point X="585.0900902992078" Y="1278.3877665049263" GraphRef="c0c56" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -535,7 +525,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="fd394">
     <Graphics ConnectorType="Elbow" ZOrder="34460" LineThickness="1.0">
-      <Point X="633.6745510146677" Y="1050.053759022263" GraphRef="a9447" RelX="0.0" RelY="1.0" />
+      <Point X="633.6745510146677" Y="1050.053759022263" GraphRef="db056" RelX="0.0" RelY="1.0" />
       <Point X="688.117346938775" Y="1279.3469387755101" GraphRef="f4593" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1088,7 +1078,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <GraphicalLine GraphId="a3042">
     <Graphics ZOrder="34510" LineThickness="2.0">
       <Point X="1039.3333333333328" Y="692.6666666666661" />
-      <Point X="1060.3333333333321" Y="692.6666666666661" ArrowHead="TBar" />
+      <Point X="1060.3333333333321" Y="692.6666666666661" ArrowHead="mim-inhibition" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="a8462">
@@ -1506,16 +1496,40 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="dd7d3">
     <Graphics CenterX="1101.18734793187" CenterY="1027.693430656933" Width="14.0" Height="14.0" ZOrder="34749" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="d76d3" GraphId="a1491" Style="Group" />
-  <Group GroupId="db056" GraphId="a9447" Style="Group" />
-  <Group GroupId="c91d2" GraphId="c30bf" Style="Group" />
-  <Group GroupId="fc15c" GraphId="d9364" Style="Group" />
-  <Group GroupId="fcef4" GraphId="e9cec" Style="Group" />
-  <Group GroupId="f52c3" GraphId="eae9c" Style="Group" />
-  <Group GroupId="a7d03" GraphId="fb429" Style="Group" />
-  <Group GroupId="c8ed0" GraphId="fe839" Style="Group" />
+  <Group GroupId="d76d3" GraphId="d76d3" Style="Group" />
+  <Group GroupId="db056" GraphId="db056" Style="Group" />
+  <Group GroupId="c91d2" GraphId="c91d2" Style="Group" />
+  <Group GroupId="fc15c" GraphId="fc15c" Style="Group" />
+  <Group GroupId="fcef4" GraphId="fcef4" Style="Group" />
+  <Group GroupId="f52c3" GraphId="f52c3" Style="Group" />
+  <Group GroupId="a7d03" GraphId="a7d03" Style="Group" />
+  <Group GroupId="c8ed0" GraphId="c8ed0" Style="Group" />
   <InfoBox CenterX="15.0" CenterY="8.333333333333334" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid-stimulating hormone signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001200</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21996254</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comprehensive curated resource for follicle stimulating hormone signaling.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMC Res Notes</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telikicherla D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambekar A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palapetta SM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dwivedi SB</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raju R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharma J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prasad TsK</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramachandra Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mohan SS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maharudraiah J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mukherjee S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey A</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d83">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20067622</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1563,30 +1577,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonard WJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey A</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea7">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21996254</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comprehensive curated resource for follicle stimulating hormone signaling.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMC Res Notes</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telikicherla D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambekar A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palapetta SM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dwivedi SB</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raju R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharma J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prasad TsK</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramachandra Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mohan SS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maharudraiah J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mukherjee S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid-stimulating hormone signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001200</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

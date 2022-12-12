@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cell-type dependent selectivity of CCK2R signaling" Data-Source="WikiPathways" Version="WP3679_Qc" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cell-type dependent selectivity of CCK2R signaling" Data-Source="WikiPathways" Version="WP3679_Qc" Last-Modified="20210522120402" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">This pathway is based on Figure 7 of "Cell-Type Specific CCK2 Receptor Signaling Underlies the Cholecystokinin-Mediated Selective Excitation of Hippocampal Parvalbumin-Positive Fast-Spiking Basket Cells."(See Bibliography).The neuropeptide cholecystokinin (CCK) acts through its receptor CCK2R to achieve largely different functions in different types of cells. CCK, CCK2R, and CB1R have all been known to have substantial effects on anxiety and other mood disorders, and the PV+ interneurons have also been shown to be involved i na variety of cognitive functions. However,  In PV+ basket cells and CCK+ basket cells, the CCK2 receptor uses different pathways to exert different effects on the two types of basket cells. For CCK+ basket cells, CCK2 receptors in neighboring pyramidal cells act through the Gq pathway to form endocannabinoids, which, through the cannabinoid receptor type 1 on the CCK+ basket cell, inhibit the release of the neurotransmitter GABA. In contrast, for PV+ basket cells, CCK2 receptors act through the pertussin-toxin sensitive Gi pathway to regulate the intracellular Ca2+ through ryanodine receptors. This pathway ultimately leads to activation of a non-selective cationic conductance to depolarize the PV+ basket cells.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3679.gpml (WP3679_r117678) with a 94.0% conversion rate.</Comment>
@@ -53,8 +53,7 @@
   </DataNode>
   <DataNode TextLabel="GABA&#xA;" GraphId="c1e19" Type="Metabolite">
     <Comment>gamma-Aminobutyric acid</Comment>
-    <Comment>inhibitory neurotransmitter in mammalian CNS
-</Comment>
+    <Comment>inhibitory neurotransmitter in mammalian CNS</Comment>
     <Graphics CenterX="566.6669156836582" CenterY="157.5" Width="80.0" Height="19.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="Chemspider" ID="116" />
   </DataNode>
@@ -217,14 +216,14 @@
   <Interaction GraphId="id21f3c3e5">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="966.1687810352554" Y="380.72122762148337" GraphRef="aaded" RelX="1.0" RelY="0.0" />
-      <Point X="1060.8235294117649" Y="381.3908133528081" GraphRef="f91d2" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="1060.8235294117649" Y="381.3908133528081" GraphRef="fed94" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id22cfa4be">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="926.4974359678301" Y="116.94242280590527" GraphRef="aea1d" RelX="0.0" RelY="1.0" />
-      <Point X="926.4974359678303" Y="162.94242280590527" GraphRef="f4f1f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="926.4974359678303" Y="162.94242280590527" GraphRef="c1989" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -258,7 +257,7 @@
   </Interaction>
   <Interaction GraphId="id6aaf4812">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1060.8235294117649" Y="400.5202890561329" GraphRef="f91d2" RelX="-1.0" RelY="0.0" />
+      <Point X="1060.8235294117649" Y="400.5202890561329" GraphRef="fed94" RelX="-1.0" RelY="0.0" />
       <Point X="1098.1481754582858" Y="409.0816792946026" GraphRef="d830b" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -272,21 +271,21 @@
   </Interaction>
   <Interaction GraphId="id7549ed51">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="352.92116727809037" Y="572.6797929996023" GraphRef="e200a" RelX="-1.0" RelY="0.0" />
+      <Point X="352.92116727809037" Y="572.6797929996023" GraphRef="e42f6" RelX="-1.0" RelY="0.0" />
       <Point X="392.33631713554985" Y="591.2493606138094" GraphRef="c8fbf" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id78943fe3">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1210.289002557544" Y="146.0460358056265" GraphRef="a3602" RelX="1.0" RelY="0.0" />
+      <Point X="1210.289002557544" Y="146.0460358056265" GraphRef="e3d69" RelX="1.0" RelY="0.0" />
       <Point X="1266.369792772112" Y="173.0035698379408" GraphRef="d1efb" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id7f5a66ae">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="926.4974359678303" Y="226.38160573178084" GraphRef="f4f1f" RelX="0.0" RelY="1.0" />
+      <Point X="926.4974359678303" Y="226.38160573178084" GraphRef="c1989" RelX="0.0" RelY="1.0" />
       <Point X="926.1687810352554" Y="370.72122762148337" GraphRef="aaded" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.4" Shape="None" GraphId="a201a" />
     </Graphics>
@@ -303,7 +302,7 @@
   <Interaction GraphId="id9213e38e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1196.2915601023024" Y="322.0792838874679" GraphRef="dcf80" RelX="0.0" RelY="1.0" />
-      <Point X="1133.3324808184143" Y="381.3908133528081" GraphRef="f91d2" RelX="1.0" RelY="-0.5" ArrowHead="TBar" />
+      <Point X="1133.3324808184143" Y="381.3908133528081" GraphRef="fed94" RelX="1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -331,9 +330,9 @@
   </Interaction>
   <Interaction GraphId="ida3f005a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1284.9424552429696" Y="135.12915601023008" GraphRef="ad481" RelX="0.0" RelY="1.0" />
-      <Point X="1284.7122762148351" Y="247.58184143222476" GraphRef="abf33" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" />
+      <Point X="1284.9424552429696" Y="135.12915601023008" GraphRef="e8f4d" RelX="0.0" RelY="1.0" />
+      <Point X="1284.7122762148351" Y="247.58184143222476" GraphRef="e3f9e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="a929a" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -348,7 +347,7 @@
   <Interaction GraphId="idbace4c4a">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="191.09946938683373" Y="270.92043318950977" GraphRef="e6f9a" RelX="0.0" RelY="1.0" />
-      <Point X="191.5175024741879" Y="314.7153615246806" GraphRef="bcc43" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="191.5175024741879" Y="314.7153615246806" GraphRef="d0fdd" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -362,13 +361,13 @@
   <Interaction GraphId="idbfce5b97">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1040.568008978194" Y="295.97024563144856" GraphRef="b9df2" RelX="0.0" RelY="1.0" />
-      <Point X="1078.9507672634272" Y="362.26133764948327" GraphRef="f91d2" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="1078.9507672634272" Y="362.26133764948327" GraphRef="fed94" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc7a052ad">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="996.872122762149" Y="242.47262341492828" GraphRef="bd67c" RelX="-1.0" RelY="0.0" />
+      <Point X="996.872122762149" Y="242.47262341492828" GraphRef="fa2d6" RelX="-1.0" RelY="0.0" />
       <Point X="958.0063873744797" Y="214.38160573178087" GraphRef="b0440" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -472,40 +471,28 @@
   <Shape GraphId="fb95a" GroupRef="cb798">
     <Graphics CenterX="415.31329923273717" CenterY="273.3695652173911" Width="86.61125319693083" Height="61.03580562659846" ZOrder="32785" FontSize="12" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b1c9d" Style="Group" />
-  <Group GroupId="d99be" Style="Group" />
-  <Group GroupId="e3d69" GraphId="a3602" Style="Group" />
-  <Group GroupId="e3f9e" GraphId="abf33" Style="Group" />
-  <Group GroupId="e8f4d" GraphId="ad481" Style="Group" />
-  <Group GroupId="d0688" GraphId="b93c2" Style="Group" />
-  <Group GroupId="d0fdd" GraphId="bcc43" Style="Complex" />
-  <Group GroupId="fa2d6" GraphId="bd67c" Style="Group" />
-  <Group GroupId="e42f6" GraphId="e200a" Style="Group" />
-  <Group GroupId="cb798" GraphId="ec137" Style="Group" />
-  <Group GroupId="c1989" GraphId="f4f1f" Style="Complex" />
-  <Group GroupId="fed94" GraphId="f91d2" Style="Group" />
+  <Group GroupId="b1c9d" GraphId="b1c9d" Style="Group" />
+  <Group GroupId="d99be" GraphId="d99be" Style="Group" />
+  <Group GroupId="e3d69" GraphId="e3d69" Style="Group" />
+  <Group GroupId="e3f9e" GraphId="e3f9e" Style="Group" />
+  <Group GroupId="e8f4d" GraphId="e8f4d" Style="Group" />
+  <Group GroupId="d0fdd" GraphId="d0fdd" Style="Complex" />
+  <Group GroupId="fa2d6" GraphId="fa2d6" Style="Group" />
+  <Group GroupId="e42f6" GraphId="e42f6" Style="Group" />
+  <Group GroupId="cb798" GraphId="cb798" Style="Group" />
+  <Group GroupId="c1989" GraphId="c1989" Style="Complex" />
+  <Group GroupId="fed94" GraphId="fed94" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyramidal neuron</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000598</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c18">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21795548</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell-type-specific CCK2 receptor signaling underlies the cholecystokinin-mediated selective excitation of hippocampal parvalbumin-positive fast-spiking basket cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurosci</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee SY</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Földy C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Szabadics J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soltesz I</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basket cell</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000118</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
@@ -515,7 +502,7 @@
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pertussis</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1116</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba3">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21173082</bp:ID>
@@ -524,6 +511,17 @@
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Physiol</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee SH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soltesz I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c18">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21795548</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell-type-specific CCK2 receptor signaling underlies the cholecystokinin-mediated selective excitation of hippocampal parvalbumin-positive fast-spiking basket cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurosci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee SY</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Földy C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Szabadics J</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soltesz I</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>

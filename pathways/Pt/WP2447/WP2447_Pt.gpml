@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Amyotrophic lateral sclerosis (ALS)" Data-Source="WikiPathways" Version="WP2447_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Amyotrophic lateral sclerosis (ALS)" Data-Source="WikiPathways" Version="WP2447_Pt" Last-Modified="20201124090736" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Amyotrophic lateral sclerosis (ALS) is a progressive, lethal, degenerative disorder of motor neurons. The hallmark of this disease is the selective death of motor neurons in the brain and spinal cord, leading to paralysis of voluntary muscles. Mutant superoxide dismutase 1 (SOD1), as seen in some familial ALS (FALS) cases, is unstable, forming aggregates in the motor neuron cytoplasm, axoplasm and mitochondria. Within mitochondria, mutant SOD1 may interfere with the anti-apoptotic function of Bcl-2, affect mitochondrial import by interfering with the translocation machinery (TOM/TIM), and generate toxic free radicals (ROS). Reactive oxygen species (ROS), produced within mitochondria, inhibit the function of EAAT2, the main glial glutamate transporter protein, responsible for most of the reuptake of synaptically released glutamate. Glutamate excess increases intracellular calcium, which enhances oxidative stress and mitochondrial damage. Mutant SOD1 can also trigger oxidative reactions , which can then cause damage through the formation of hydroxyl radicals or via nitration of tyrosine residues on proteins. Nitration may target neurofilament proteins, affecting axonal transport. Collectively, these mechanisms are predicted to disturb cellular homeostasis, ultimately triggering motor neuron death.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2447 CPTAC Assay Portal]</Comment>
@@ -182,7 +182,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="SLC1A2" GraphId="c93d3" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = S:P43004</Comment>
-    <BiopaxRef>ea2</BiopaxRef>
     <Graphics CenterX="152.371335504886" CenterY="254.42996742671014" Width="46.0" Height="20.0" ZOrder="32775" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000003502" />
   </DataNode>
@@ -327,12 +326,12 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="731.8333333333329" CenterY="1079.5398329002144" Width="44.33333333333417" Height="20.0" ZOrder="32837" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000013847" />
   </DataNode>
-  <State GraphRef="d1b7a" TextLabel="" GraphId="d042e">
-    <Graphics RelX="-0.937984496124011" RelY="-0.8449612403100673" Width="15.0" Height="15.0" ShapeType="Triangle" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="c4c17" TextLabel="" GraphId="da777">
     <Graphics RelX="-1.0" RelY="-0.8604651162790333" Width="15.0" Height="15.0" ShapeType="Triangle" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="d1b7a" TextLabel="" GraphId="d042e">
+    <Graphics RelX="-0.937984496124011" RelY="-0.8449612403100673" Width="15.0" Height="15.0" ShapeType="Triangle" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="fefdb" TextLabel="" GraphId="cb758">
@@ -373,7 +372,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id17b01402">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="733.5503875968992" Y="367.5891472868224" GraphRef="e7ea6" RelX="0.0" RelY="1.0" />
-      <Point X="838.6666666666666" Y="547.7692024990812" GraphRef="b69ab" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="838.6666666666666" Y="547.7692024990812" GraphRef="b69ab" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -570,7 +569,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id751c8da1">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="625.6657464725891" Y="367.45736434108517" GraphRef="fefdb" RelX="0.0" RelY="1.0" />
-      <Point X="738.1007751937984" Y="692.9263873647719" GraphRef="a1e19" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="738.1007751937984" Y="692.9263873647719" GraphRef="a1e19" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -764,7 +763,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idb6b478c0">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="831.6190476190475" Y="415.357142857143" GraphRef="f30d3" RelX="-1.0" RelY="0.0" />
+      <Point X="831.6190476190475" Y="415.357142857143" GraphRef="f64e8" RelX="-1.0" RelY="0.0" />
       <Point X="442.0" Y="721.0357142857144" GraphRef="ff83a" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -839,7 +838,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idd75808de">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="855.1999999999994" Y="872.1398329002153" GraphRef="f68e5" RelX="0.0" RelY="0.0" />
-      <Point X="876.416666666667" Y="842.6231662335483" GraphRef="b3274" RelX="0.0" RelY="-1.0" />
+      <Point X="876.416666666667" Y="842.6231662335483" GraphRef="faf2f" RelX="0.0" RelY="-1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -923,7 +922,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="f9f96">
     <Graphics ZOrder="32791" LineThickness="1.0">
       <Point X="479.59800664451825" Y="184.74363233665557" GraphRef="de780" RelX="1.0" RelY="0.0" />
-      <Point X="806.4817275747502" Y="184.98338870431908" GraphRef="d820d" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="806.4817275747502" Y="184.98338870431908" GraphRef="d8f19" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
       <Anchor Position="0.5090559156605083" Shape="None" GraphId="a899e" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1077,21 +1076,21 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="1070.8648697385186" CenterY="662.3134024251248" Width="1408.361344537815" Height="1231.3731951497505" ZOrder="32771" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="e7d4a" Style="Group" />
-  <Group GroupId="faf2f" GraphId="b3274" Style="Complex" />
-  <Group GroupId="d8f19" GraphId="d820d" Style="Complex" />
-  <Group GroupId="f64e8" GraphId="f30d3" Style="Group" />
+  <Group GroupId="e7d4a" GraphId="e7d4a" Style="Group" />
+  <Group GroupId="faf2f" GraphId="faf2f" Style="Complex" />
+  <Group GroupId="d8f19" GraphId="d8f19" Style="Complex" />
+  <Group GroupId="f64e8" GraphId="f64e8" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyotrophic lateral sclerosis</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:332</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyotrophic lateral sclerosis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:332</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9c">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21569822</bp:ID>

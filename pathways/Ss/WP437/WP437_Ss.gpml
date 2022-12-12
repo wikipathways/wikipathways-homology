@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="EGF/EGFR signaling pathway" Data-Source="WikiPathways" Version="WP437_Ss" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="EGF/EGFR signaling pathway" Data-Source="WikiPathways" Version="WP437_Ss" Last-Modified="20211223124701" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">Epidermal growth factor receptor (EGFR) also known as ErbB1/HER1 is a member of the ErbB family of receptor tyrosine kinases 
 which also includes ErbB2 (Neu, HER2), ErbB3 (HER3) and ErbB4 (HER4). Several ligands such as epidermal growth factor, transforming growth factor-alpha, epigen, 
 amphiregulin, betacellulin, heparin-binding EGF and epiregulin are known to specifically bind to EGFR. Epidermal growth factor (EGF) is one of the high affinity 
@@ -32,7 +32,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP437 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP437.gpml (WP437_r120689) with a 94.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP437.gpml (WP437_r120689) with a 95.0% conversion rate.</Comment>
   <Graphics BoardWidth="1966.0" BoardHeight="1967.0" />
   <DataNode TextLabel="SHC1" GraphId="ead70" Type="Protein" GroupRef="b62b7">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:6464</Comment>
@@ -346,10 +346,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1401.4882531659957" CenterY="794.9139163361792" Width="53.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000006785" />
   </DataNode>
-  <DataNode TextLabel="TWIST1" GraphId="c4ff8" Type="Rna" GroupRef="e1acf">
-    <Comment Source="HomologyMapper">No homologues found for original id L:7291</Comment>
+  <DataNode TextLabel="TWIST1" GraphId="c4ff8" Type="RNA" GroupRef="e1acf">
     <Graphics CenterX="867.3809523809525" CenterY="1567.619047619047" Width="45.23809523809507" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="" ID="" />
+    <Xref Database="Entrez Gene" ID="7291" />
   </DataNode>
   <DataNode TextLabel="JAK1" GraphId="c5cfb" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:3716</Comment>
@@ -415,10 +414,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="214.5491005232122" CenterY="520.0" Width="39.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000039670" />
   </DataNode>
-  <DataNode TextLabel="MYBL2" GraphId="cc4dd" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:4605</Comment>
+  <DataNode TextLabel="MYBL2" GraphId="cc4dd" Type="RNA">
     <Graphics CenterX="728.3095238095239" CenterY="1563.7142857142853" Width="46.61904761904769" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSSSCG00000007366" />
+    <Xref Database="Entrez Gene" ID="4605" />
   </DataNode>
   <DataNode TextLabel="NCK1" GraphId="ced64" Type="Protein" GroupRef="ba2c7">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:4690</Comment>
@@ -495,10 +493,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1079.4305044093173" CenterY="503.5371739976644" Width="48.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000014811" />
   </DataNode>
-  <DataNode TextLabel="AURKA" GraphId="d71a3" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:6790</Comment>
+  <DataNode TextLabel="AURKA" GraphId="d71a3" Type="RNA">
     <Graphics CenterX="907.1428571428571" CenterY="1604.7619047619046" Width="44.76190476190481" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSSSCG00000001776" />
+    <Xref Database="Entrez Gene" ID="6790" />
   </DataNode>
   <DataNode TextLabel="EIF4EBP1" GraphId="d90ca" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:1978</Comment>
@@ -1139,15 +1136,31 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1360.5897882463373" CenterY="1275.1580381471388" Width="63.0" Height="20.0" ZOrder="32985" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000004943" />
   </DataNode>
-  <State GraphRef="e182c" TextLabel="P" GraphId="a2ba3">
+  <State GraphRef="a0fb8" TextLabel="GTP" GraphId="ccf44">
+    <Graphics RelX="0.6956521739130435" RelY="1.0" Width="24.433389565171638" Height="14.5" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="a2f68" TextLabel="P" GraphId="e9f17">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="c451b" TextLabel="P" GraphId="a603d">
-    <Graphics RelX="0.875" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+  <State GraphRef="a62d5" TextLabel="P" GraphId="dd912">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="d90ca" TextLabel="P" GraphId="a6b9d">
+  <State GraphRef="abe3a" TextLabel="P" GraphId="c23b0">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="af0cc" TextLabel="P" GraphId="fd6dc">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="af6af" TextLabel="P" GraphId="f7d17">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="af7a1" TextLabel="P" GraphId="cf79a">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -1155,187 +1168,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics RelX="1.0" RelY="1.0" Width="24.856309420914474" Height="14.679127052721924" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="eb033" TextLabel="P" GraphId="a761b">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="f7925" TextLabel="P" GraphId="a8b20">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="fe590" TextLabel="P" GraphId="a8fc1">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="e6ff4" TextLabel="P" GraphId="abcf2">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="fdce0" TextLabel="P" GraphId="abd0c">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="e6ca8" TextLabel="P" GraphId="ad7e4">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="b4089" TextLabel="P" GraphId="b0a43">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="d6a14" TextLabel="P" GraphId="b0c34">
-    <Graphics RelX="1.0" RelY="0.9999999999998834" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="f060a" TextLabel="P" GraphId="b12a6">
-    <Graphics RelX="1.0" RelY="0.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="c9e0e" TextLabel="P" GraphId="b2717">
-    <Graphics RelX="0.8271956390065544" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="da454" TextLabel="P" GraphId="b89dd">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="d57d9" TextLabel="P" GraphId="b8a99">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="d0c40" TextLabel="P" GraphId="b916b">
-    <Graphics RelX="1.0" RelY="0.2" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="c7e74" TextLabel="P" GraphId="bbf5d">
-    <Graphics RelX="0.9215686274509803" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="f0962" TextLabel="Ub" GraphId="bd0d2">
-    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" FillColor="ff00cc" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="e7960" TextLabel="P" GraphId="bfd46">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff33" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="abe3a" TextLabel="P" GraphId="c23b0">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="daa21" TextLabel="P" GraphId="c4735">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="d0527" TextLabel="P" GraphId="c6e95">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff33" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="e8643" TextLabel="P" GraphId="c7010">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="fe508" TextLabel="p" GraphId="c7726">
-    <Graphics RelX="-1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="b9d9e" TextLabel="P" GraphId="c77bd">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="ca068" TextLabel="P" GraphId="c8131">
-    <Graphics RelX="1.0" RelY="1.0" Width="14.77380952381236" Height="14.392857142860521" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="f37e6" TextLabel="GTP" GraphId="cafb8">
-    <Graphics RelX="0.68" RelY="1.0" Width="24.851123595507776" Height="14.958729472774422" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="dd25b" TextLabel="P" GraphId="cb7d6">
-    <Graphics RelX="0.89558614143332" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff33" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="f66a2" TextLabel="P" GraphId="cc515">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="a0fb8" TextLabel="GTP" GraphId="ccf44">
-    <Graphics RelX="0.6956521739130435" RelY="1.0" Width="24.433389565171638" Height="14.5" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="af7a1" TextLabel="P" GraphId="cf79a">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="c68fc" TextLabel="GTP" GraphId="d0683">
-    <Graphics RelX="1.0" RelY="1.0" Width="23.630066492610798" Height="16.492639327025216" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="bc6dd" TextLabel="P" GraphId="d0b0e">
-    <Graphics RelX="0.6818181818181818" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="c3344" TextLabel="P" GraphId="d27be">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="d31e5" TextLabel="P" GraphId="d5b88">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="c4d73" TextLabel="GTP" GraphId="d8680">
-    <Graphics RelX="1.0" RelY="1.0" Width="24.433389565171638" Height="14.5" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="b2d22" TextLabel="P" GraphId="d8753">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff33" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="a62d5" TextLabel="P" GraphId="dd912">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+  <State GraphRef="b3345" TextLabel="GTP" GraphId="f330c">
+    <Graphics RelX="1.0" RelY="1.0" Width="24.5" Height="17.5" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="b6747" TextLabel="P" GraphId="df4c1">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="bbb56" TextLabel="P" GraphId="dffdd">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="ddabb" TextLabel="GTP" GraphId="e62ef">
-    <Graphics RelX="1.0" RelY="1.0" Width="23.63006649261069" Height="14.2560462670882" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="c4c70" TextLabel="P" GraphId="e672c">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff33" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="bf231" TextLabel="P" GraphId="e8972">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="f81cd" TextLabel="P" GraphId="e8a20">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="a2f68" TextLabel="P" GraphId="e9f17">
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="d31e5" TextLabel="Ub" GraphId="ea09a">
-    <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" FillColor="ff00ff" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="e976d" TextLabel="GTP" GraphId="ee5dc">
-    <Graphics RelX="1.0" RelY="1.0" Width="24.38186485434153" Height="14.345425867507856" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="f0962" TextLabel="P" GraphId="eeadb">
-    <Graphics RelX="0.673469387755102" RelY="0.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="eb9bb" TextLabel="P" GraphId="eeffb">
+  <State GraphRef="b4089" TextLabel="P" GraphId="b0a43">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -1343,19 +1184,175 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
+  <State GraphRef="b6747" TextLabel="P" GraphId="df4c1">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="b9d9e" TextLabel="P" GraphId="c77bd">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="bbb56" TextLabel="P" GraphId="dffdd">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="bc6dd" TextLabel="P" GraphId="d0b0e">
+    <Graphics RelX="0.6818181818181818" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="bd850" TextLabel="P" GraphId="f90d9">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="bf231" TextLabel="P" GraphId="e8972">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="c3344" TextLabel="P" GraphId="d27be">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="c451b" TextLabel="P" GraphId="a603d">
+    <Graphics RelX="0.875" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="c4c70" TextLabel="P" GraphId="e672c">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff33" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="c4d73" TextLabel="GTP" GraphId="d8680">
+    <Graphics RelX="1.0" RelY="1.0" Width="24.433389565171638" Height="14.5" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="c68fc" TextLabel="GTP" GraphId="d0683">
+    <Graphics RelX="1.0" RelY="1.0" Width="23.630066492610798" Height="16.492639327025216" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="c7e74" TextLabel="P" GraphId="bbf5d">
+    <Graphics RelX="0.9215686274509803" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="c9e0e" TextLabel="P" GraphId="b2717">
+    <Graphics RelX="0.8271956390065544" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="ca068" TextLabel="P" GraphId="c8131">
+    <Graphics RelX="1.0" RelY="1.0" Width="14.77380952381236" Height="14.392857142860521" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="d0527" TextLabel="P" GraphId="c6e95">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff33" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="d0c40" TextLabel="P" GraphId="b916b">
+    <Graphics RelX="1.0" RelY="0.2" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="d31e5" TextLabel="P" GraphId="d5b88">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="d31e5" TextLabel="Ub" GraphId="ea09a">
+    <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" FillColor="ff00ff" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="d46b4" TextLabel="P" GraphId="f2cfc">
     <Graphics RelX="1.0" RelY="1.0" Width="16.0" Height="14.666666666666288" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="b3345" TextLabel="GTP" GraphId="f330c">
-    <Graphics RelX="1.0" RelY="1.0" Width="24.5" Height="17.5" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="af6af" TextLabel="P" GraphId="f7d17">
+  <State GraphRef="d57d9" TextLabel="P" GraphId="b8a99">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="bd850" TextLabel="P" GraphId="f90d9">
+  <State GraphRef="d6a14" TextLabel="P" GraphId="b0c34">
+    <Graphics RelX="1.0" RelY="0.9999999999998834" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="d90ca" TextLabel="P" GraphId="a6b9d">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="da2b0" TextLabel="P" GraphId="ff0a8">
+    <Graphics RelX="1.0" RelY="1.0" Width="14.868180507938735" Height="13.648809523809419" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="da454" TextLabel="P" GraphId="b89dd">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="daa21" TextLabel="P" GraphId="c4735">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="dd25b" TextLabel="P" GraphId="cb7d6">
+    <Graphics RelX="0.89558614143332" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff33" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="ddabb" TextLabel="GTP" GraphId="e62ef">
+    <Graphics RelX="1.0" RelY="1.0" Width="23.63006649261069" Height="14.2560462670882" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="e182c" TextLabel="P" GraphId="a2ba3">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="e6ca8" TextLabel="P" GraphId="ad7e4">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="e6ff4" TextLabel="P" GraphId="abcf2">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="e74e5" TextLabel="P" GraphId="fac66">
+    <Graphics RelX="1.0" RelY="1.0" Width="14.67857142857075" Height="16.718003240174994" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="e7960" TextLabel="P" GraphId="bfd46">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff33" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="e8643" TextLabel="P" GraphId="c7010">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="e976d" TextLabel="GTP" GraphId="ee5dc">
+    <Graphics RelX="1.0" RelY="1.0" Width="24.38186485434153" Height="14.345425867507856" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="eb033" TextLabel="P" GraphId="a761b">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="eb9bb" TextLabel="P" GraphId="eeffb">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="f060a" TextLabel="P" GraphId="b12a6">
+    <Graphics RelX="1.0" RelY="0.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="f0962" TextLabel="Ub" GraphId="bd0d2">
+    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" FillColor="ff00cc" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="f0962" TextLabel="P" GraphId="eeadb">
+    <Graphics RelX="0.673469387755102" RelY="0.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="f37e6" TextLabel="GTP" GraphId="cafb8">
+    <Graphics RelX="0.68" RelY="1.0" Width="24.851123595507776" Height="14.958729472774422" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="f66a2" TextLabel="P" GraphId="cc515">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="f7925" TextLabel="P" GraphId="a8b20">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="f81cd" TextLabel="P" GraphId="e8a20">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -1363,20 +1360,20 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics RelX="1.0" RelY="0.6" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="e74e5" TextLabel="P" GraphId="fac66">
-    <Graphics RelX="1.0" RelY="1.0" Width="14.67857142857075" Height="16.718003240174994" FillColor="ffff00" ShapeType="Oval" />
+  <State GraphRef="fdce0" TextLabel="P" GraphId="abd0c">
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="af0cc" TextLabel="P" GraphId="fd6dc">
+  <State GraphRef="fe508" TextLabel="p" GraphId="c7726">
+    <Graphics RelX="-1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="fe590" TextLabel="P" GraphId="a8fc1">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="fec3a" TextLabel="P" GraphId="fdf46">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="da2b0" TextLabel="P" GraphId="ff0a8">
-    <Graphics RelX="1.0" RelY="1.0" Width="14.868180507938735" Height="13.648809523809419" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="a2271" TextLabel="P" GraphId="d488f">
@@ -1686,8 +1683,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="da89c">
-    <Comment>INPPL1 interacts with EGFR upon stimulation of EGFR with EGF in COS7 cells.
-</Comment>
+    <Comment>INPPL1 interacts with EGFR upon stimulation of EGFR with EGF in COS7 cells.</Comment>
     <Graphics ZOrder="12288" LineThickness="2.0" Color="00cc00">
       <Point X="1079.8548094373864" Y="374.77313974591647" />
       <Point X="1079.4305044093173" Y="493.53717399766447" GraphRef="d6a14" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1725,7 +1721,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e6b02">
-    <Comment> EGFR interacts with STAT5B upon stimulation of EGFR with EGF in human hepatocytes.</Comment>
+    <Comment>EGFR interacts with STAT5B upon stimulation of EGFR with EGF in human hepatocytes.</Comment>
     <Comment>EGFR phosphorylates STAT5B at Tyr-699, Tyr-725, Tyr-740 and Tyr-743 in HEK293 cells.</Comment>
     <Graphics ZOrder="12288" LineThickness="2.0" Color="0000ff">
       <Point X="907.0" Y="342.0" />
@@ -1790,7 +1786,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="f175c">
     <Graphics ZOrder="12288" LineThickness="2.0" Color="ff0000">
       <Point X="-142.0" Y="1712.3333333333326" />
-      <Point X="-80.0" Y="1713.0" ArrowHead="TBar" />
+      <Point X="-80.0" Y="1713.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -2018,7 +2014,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id2c54284e">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="2.0" Color="00cc00">
-      <Point X="1273.9648121528535" Y="543.0" GraphRef="dc967" RelX="-0.5" RelY="1.0" />
+      <Point X="1273.9648121528535" Y="543.0" GraphRef="e0258" RelX="-0.5" RelY="1.0" />
       <Point X="1198.1089121005239" Y="607.0" />
       <Point X="1122.2530120481943" Y="707.666666666667" GraphRef="df896" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -2311,7 +2307,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id7134ab9d">
     <Graphics ZOrder="12288" LineThickness="2.0" Color="00cc00">
-      <Point X="1253.2148121528535" Y="528.7500000000001" GraphRef="dc967" RelX="-1.0" RelY="0.5" />
+      <Point X="1253.2148121528535" Y="528.7500000000001" GraphRef="e0258" RelX="-1.0" RelY="0.5" />
       <Point X="1063.8095238095239" Y="676.6870748299327" GraphRef="d46b4" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -2755,7 +2751,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idecb0bc85">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="2.0" Color="00cc00">
-      <Point X="1253.2148121528535" Y="528.7500000000001" GraphRef="dc967" RelX="-1.0" RelY="0.5" />
+      <Point X="1253.2148121528535" Y="528.7500000000001" GraphRef="e0258" RelX="-1.0" RelY="0.5" />
       <Point X="1144.5583341770464" Y="550.0000000000026" GraphRef="e182c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.1754758351120703" Shape="None" GraphId="d2116" />
     </Graphics>
@@ -2848,7 +2844,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="fca54">
     <Comment>RAF1 phosphorylates MEK1 at Ser-218 ans Ser-222 upon stimulation of EGF receptor in NIH3T3 and HeLa cells respectively.</Comment>
-    <Comment> RAF1 interacts with MAP2K1 upon stimulation of EGFR with EGF in 293T cells.</Comment>
+    <Comment>RAF1 interacts with MAP2K1 upon stimulation of EGFR with EGF in 293T cells.</Comment>
     <Graphics ZOrder="32769" LineThickness="2.0" Color="0000ff">
       <Point X="1295.2759000887072" Y="932.0925589836661" GraphRef="cbcae" RelX="0.0" RelY="1.0" />
       <Point X="1295.5318414774863" Y="1023.0" GraphRef="cbc55" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -3142,7 +3138,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c161a">
-    <Comment>PAK1 phosphorylates NCOA3 and this phosphorylation is critical for its interaction with EGFR and FAK in HeLa and 293T cells. </Comment>
+    <Comment>PAK1 phosphorylates NCOA3 and this phosphorylation is critical for its interaction with EGFR and FAK in HeLa and 293T cells.</Comment>
     <Graphics ZOrder="32890" LineThickness="2.0" Color="0000ff">
       <Point X="1631.6629139777217" Y="613.2727622551164" GraphRef="b397f" RelX="-0.5" RelY="-1.0" />
       <Point X="1631.6953195259568" Y="568.8873262063332" GraphRef="c7e74" RelX="0.5" RelY="1.0" ArrowHead="Arrow" />
@@ -3504,7 +3500,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <GraphicalLine GraphId="b1102">
     <Graphics ZOrder="33671" LineThickness="2.0">
       <Point X="114.99999999999704" Y="1108.465288035446" />
-      <Point X="135.99999999999636" Y="1108.465288035446" ArrowHead="TBar" />
+      <Point X="135.99999999999636" Y="1108.465288035446" ArrowHead="mim-inhibition" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="e9e8e">
@@ -3930,7 +3926,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1404.1475930350518" CenterY="624.0799158780231" Width="44.16403785488959" Height="70.4521556256573" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape GraphId="c0cca" GroupRef="f77a9">
-    <Comment>3494473, 8639530, 2783412, 3257758, 1988447, 1856216, 19531499  </Comment>
+    <Comment>3494473, 8639530, 2783412, 3257758, 1988447, 1856216, 19531499</Comment>
     <Graphics CenterX="1340.9305103148747" CenterY="202.33333333333326" Width="28.0" Height="28.0" ZOrder="16384" FillColor="ff3399" FontSize="10" Valign="Middle" ShapeType="Oval" Color="ff0066" Rotation="0.0" />
   </Shape>
   <Shape GraphId="c8211" GroupRef="b3205">
@@ -4009,49 +4005,48 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="bf54c">
     <Graphics CenterX="172.66666666666424" CenterY="1444.79862136878" Width="14.0" Height="14.0" ZOrder="33750" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b21f6" GraphId="aa801" Style="Group" />
-  <Group GroupId="f9d8d" GraphId="af211" Style="Group" />
-  <Group GroupId="e28da" GraphId="b27f6" Style="Group" />
-  <Group GroupId="dec3d" GraphId="b78e2" Style="Group" />
-  <Group GroupId="b2a62" GraphId="b8f86" Style="Group" />
-  <Group GroupId="b73a0" GraphId="b9ef7" Style="Group" />
-  <Group GroupId="a877c" GraphId="ba197" Style="Group" />
-  <Group GroupId="e5cf5" GraphId="bf33c" Style="Group" />
-  <Group GroupId="c1c90" GraphId="c0c83" Style="Group" />
-  <Group GroupId="ba72c" GraphId="c2b4d" Style="Group" />
-  <Group GroupId="ba2c7" GraphId="c469d" Style="Group" />
-  <Group GroupId="a7227" GraphId="c53b7" Style="Group" />
-  <Group GroupId="f83a1" GraphId="c5e5e" Style="Group" />
-  <Group GroupId="b7970" GraphId="c6c39" Style="Group" />
-  <Group GroupId="fbeb7" GraphId="c9d52" Style="Group" />
-  <Group GroupId="caeae" GraphId="cccd3" Style="Group" />
-  <Group GroupId="d5a7b" GraphId="cd894" Style="Group" />
-  <Group GroupId="d6d6b" GraphId="d0b8b" Style="Group" />
-  <Group GroupId="a8017" GraphId="d1d51" Style="Group" />
-  <Group GroupId="f755e" GraphId="d3771" Style="Group" />
-  <Group GroupId="d9c00" GraphId="d4779" Style="Group" />
-  <Group GroupId="e8ecc" GraphId="d5521" Style="Group" />
-  <Group GroupId="d1684" GraphId="d57bc" Style="Group" />
-  <Group GroupId="e1acf" GraphId="d5d15" Style="Group" />
-  <Group GroupId="b6c60" GraphId="d881b" Style="Group" />
-  <Group GroupId="c77ba" GraphId="d9507" Style="Group" />
-  <Group GroupId="e0258" GraphId="dc967" Style="Group" />
-  <Group GroupId="bdea5" GraphId="dcb89" Style="Group" />
-  <Group GroupId="cae71" GraphId="e0373" Style="Group" />
-  <Group GroupId="cdd4b" GraphId="e06f7" Style="Group" />
-  <Group GroupId="df2c8" GraphId="e4684" Style="Group" />
-  <Group GroupId="b0973" GraphId="e6b4a" Style="Group" />
-  <Group GroupId="dc2cd" GraphId="e708b" Style="Group" />
-  <Group GroupId="aca83" GraphId="e969b" Style="Group" />
-  <Group GroupId="a63a5" GraphId="e9a65" Style="Group" />
-  <Group GroupId="c1b56" GraphId="ebc5e" Style="Group" />
-  <Group GroupId="df672" GraphId="f0752" Style="Group" />
-  <Group GroupId="e7a39" GraphId="f0a56" Style="Group" />
-  <Group GroupId="f77a9" GraphId="f1c14" Style="Group" />
-  <Group GroupId="e9112" GraphId="f5ee5" Style="Group" />
-  <Group GroupId="e909b" GraphId="f911c" Style="Group" />
-  <Group GroupId="b3205" GraphId="fab69" Style="Group" />
-  <Group GroupId="b62b7" GraphId="feca4" Style="Group" />
+  <Group GroupId="b21f6" GraphId="b21f6" Style="Group" />
+  <Group GroupId="f9d8d" GraphId="f9d8d" Style="Group" />
+  <Group GroupId="e28da" GraphId="e28da" Style="Group" />
+  <Group GroupId="dec3d" GraphId="dec3d" Style="Group" />
+  <Group GroupId="b2a62" GraphId="b2a62" Style="Group" />
+  <Group GroupId="b73a0" GraphId="b73a0" Style="Group" />
+  <Group GroupId="a877c" GraphId="a877c" Style="Group" />
+  <Group GroupId="e5cf5" GraphId="e5cf5" Style="Group" />
+  <Group GroupId="c1c90" GraphId="c1c90" Style="Group" />
+  <Group GroupId="ba72c" GraphId="ba72c" Style="Group" />
+  <Group GroupId="ba2c7" GraphId="ba2c7" Style="Group" />
+  <Group GroupId="a7227" GraphId="a7227" Style="Group" />
+  <Group GroupId="f83a1" GraphId="f83a1" Style="Group" />
+  <Group GroupId="b7970" GraphId="b7970" Style="Group" />
+  <Group GroupId="fbeb7" GraphId="fbeb7" Style="Group" />
+  <Group GroupId="caeae" GraphId="caeae" Style="Group" />
+  <Group GroupId="d5a7b" GraphId="d5a7b" Style="Group" />
+  <Group GroupId="d6d6b" GraphId="d6d6b" Style="Group" />
+  <Group GroupId="a8017" GraphId="a8017" Style="Group" />
+  <Group GroupId="f755e" GraphId="f755e" Style="Group" />
+  <Group GroupId="d9c00" GraphId="d9c00" Style="Group" />
+  <Group GroupId="e8ecc" GraphId="e8ecc" Style="Group" />
+  <Group GroupId="d1684" GraphId="d1684" Style="Group" />
+  <Group GroupId="e1acf" GraphId="e1acf" Style="Group" />
+  <Group GroupId="b6c60" GraphId="b6c60" Style="Group" />
+  <Group GroupId="c77ba" GraphId="c77ba" Style="Group" />
+  <Group GroupId="e0258" GraphId="e0258" Style="Group" />
+  <Group GroupId="bdea5" GraphId="bdea5" Style="Group" />
+  <Group GroupId="cae71" GraphId="cae71" Style="Group" />
+  <Group GroupId="cdd4b" GraphId="cdd4b" Style="Group" />
+  <Group GroupId="b0973" GraphId="b0973" Style="Group" />
+  <Group GroupId="dc2cd" GraphId="dc2cd" Style="Group" />
+  <Group GroupId="aca83" GraphId="aca83" Style="Group" />
+  <Group GroupId="a63a5" GraphId="a63a5" Style="Group" />
+  <Group GroupId="c1b56" GraphId="c1b56" Style="Group" />
+  <Group GroupId="df672" GraphId="df672" Style="Group" />
+  <Group GroupId="e7a39" GraphId="e7a39" Style="Group" />
+  <Group GroupId="f77a9" GraphId="f77a9" Style="Group" />
+  <Group GroupId="e9112" GraphId="e9112" Style="Group" />
+  <Group GroupId="e909b" GraphId="e909b" Style="Group" />
+  <Group GroupId="b3205" GraphId="b3205" Style="Group" />
+  <Group GroupId="b62b7" GraphId="b62b7" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">

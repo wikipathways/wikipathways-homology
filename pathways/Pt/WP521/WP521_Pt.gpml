@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Amino acid conjugation of benzoic acid" Data-Source="WikiPathways" Version="WP521_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Amino acid conjugation of benzoic acid" Data-Source="WikiPathways" Version="WP521_Pt" Last-Modified="20200702044352" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Despite being the first conjugation reaction demonstrated in humans, amino acid conjugation as a route of metabolism of xenobiotic carboxylic acids is not well characterised. This is principally due to the small number and limited structural diversity of xenobiotic substrates for amino acid conjugation. Unlike CYP and uridine 5′-diphosphate glucuronosyltransferase, which are localised in the endoplasmic reticulum, the enzymes of amino acid conjugation reside in mitochondria. Unique among drug metabolism pathways, amino acid conjugation involves initial formation of a xenobiotic acyl-CoA thioester that is then conjugated principally with glycine in humans. 
 
 Exogenously administered benzoic acid is metabolised to hippuric acid with a conjugation reaction in humans (as discovered in the first metabolism study in humans).</Comment>
@@ -89,7 +89,7 @@ Exogenously administered benzoic acid is metabolised to hippuric acid with a con
   </Interaction>
   <Interaction GraphId="be749">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="143.93862959564217" Y="371.4136189602226" GraphRef="d1438" RelX="1.0" RelY="0.0" />
+      <Point X="143.93862959564217" Y="371.4136189602226" GraphRef="fcfe4" RelX="1.0" RelY="0.0" />
       <Point X="194.04469664741154" Y="371.68028562688926" GraphRef="cc1d5" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -141,7 +141,7 @@ Exogenously administered benzoic acid is metabolised to hippuric acid with a con
   <Interaction GraphId="id27720882">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="193.0" Y="113.66666666666666" GraphRef="c23c2" RelX="0.0" RelY="0.0" />
-      <Point X="233.0985009627567" Y="134.95530335258846" GraphRef="a39e2" RelX="-1.0" RelY="-0.5" ArrowHead="mim-conversion" />
+      <Point X="233.0985009627567" Y="134.95530335258846" GraphRef="bfd6f" RelX="-1.0" RelY="-0.5" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -152,8 +152,8 @@ Exogenously administered benzoic acid is metabolised to hippuric acid with a con
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Group GroupId="bfd6f" GraphId="a39e2" Style="Group" />
-  <Group GroupId="fcfe4" GraphId="d1438" Style="Complex" />
+  <Group GroupId="bfd6f" GraphId="bfd6f" Style="Group" />
+  <Group GroupId="fcfe4" GraphId="fcfe4" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2f">
@@ -167,13 +167,13 @@ Exogenously administered benzoic acid is metabolised to hippuric acid with a con
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miners JO</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xenobiotic metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001229</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycine metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000440</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycine metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000440</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xenobiotic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001229</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>

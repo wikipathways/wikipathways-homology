@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inflammatory bowel disease signaling" Data-Source="WikiPathways" Version="WP5198_Mm" Organism="Mus musculus">
-  <Comment Source="WikiPathways-description">Pathway representing the inflammatory bowel disease showing steps leading to Crohn's disease and ulcerative colitis.  </Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inflammatory bowel disease signaling" Data-Source="WikiPathways" Version="WP5198_Mm" Last-Modified="20220819061342" Organism="Mus musculus">
+  <Comment Source="WikiPathways-description">Pathway representing the inflammatory bowel disease showing steps leading to Crohn's disease and ulcerative colitis.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5198.gpml (WP5198_r121626) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5198.gpml (WP5198_r123858) with a 100.0% conversion rate.</Comment>
   <Graphics BoardWidth="2473.3617539585875" BoardHeight="1898.8669360874117" />
-  <DataNode TextLabel="NF-kB" GraphId="a0a00">
+  <DataNode TextLabel="Nfkb1" GraphId="a0a00" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000109320</Comment>
     <Graphics CenterX="238.2207500000015" CenterY="862.7594375000017" Width="81.5337499999979" Height="27.12537499999928" ZOrder="32768" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSG00000109320" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000028163" />
   </DataNode>
   <DataNode TextLabel="Il18rap" GraphId="a2943" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000115607</Comment>
@@ -98,7 +99,7 @@
     <Xref Database="Ensembl" ID="ENSMUSG00000002603" />
   </DataNode>
   <DataNode TextLabel="T-cell receptor signalling pathway" GraphId="c0893" Type="Pathway">
-    <Graphics CenterX="362.8275786445016" CenterY="1077.1793272058749" Width="225.58950000000004" Height="53.01687500000003" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="362.8275786445016" CenterY="1077.1793272058749" Width="225.58950000000004" Height="53.01687500000003" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP69" />
   </DataNode>
   <DataNode TextLabel="Ifng" GraphId="c0e01" Type="GeneProduct">
@@ -325,9 +326,10 @@
     <Graphics CenterX="272.5416666666665" CenterY="206.62500000000003" Width="34.25" Height="18.75" ZOrder="32774" FontSize="12" Valign="Middle" ShapeType="Oval" />
     <Xref Database="ChEBI" ID="CHEBI:183049" />
   </DataNode>
-  <DataNode TextLabel="NF-kB" GraphId="fe413">
+  <DataNode TextLabel="Nfkb1" GraphId="fe413" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000109320</Comment>
     <Graphics CenterX="501.0" CenterY="271.31974904580255" Width="81.5337499999979" Height="22.245998091600985" ZOrder="32796" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSG00000109320" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000028163" />
   </DataNode>
   <Interaction GraphId="id10b2e2dc">
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -346,7 +348,7 @@
   <Interaction GraphId="id16395615">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1523.8450176686347" Y="752.4457901835984" GraphRef="c0e01" RelX="1.0" RelY="-0.5" />
-      <Point X="1594.6306196840808" Y="755.7715674362084" GraphRef="beb81" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="1594.6306196840808" Y="755.7715674362084" GraphRef="f5464" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -360,7 +362,7 @@
   <Interaction GraphId="id18d34938">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="299.1518395140665" Y="824.8904776214835" GraphRef="e78a8" RelX="1.0" RelY="-0.5" />
-      <Point X="774.6325665859559" Y="917.4104116222762" GraphRef="e4c28" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="774.6325665859559" Y="917.4104116222762" GraphRef="aafff" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -389,13 +391,13 @@
   <Interaction GraphId="id216451e8">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1084.3699718126425" Y="1519.2726188387583" GraphRef="cff42" RelX="1.0" RelY="0.0" />
-      <Point X="1119.582053875149" Y="1516.013147007447" GraphRef="a557e" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="1119.582053875149" Y="1516.013147007447" GraphRef="e3f73" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id22d8f98b">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1944.8590522478737" Y="762.5455650060762" GraphRef="af283" RelX="1.0" RelY="0.0" />
+      <Point X="1944.8590522478737" Y="762.5455650060762" GraphRef="d30cd" RelX="1.0" RelY="0.0" />
       <Point X="2121.677360852221" Y="923.325086426888" GraphRef="be544" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -404,7 +406,7 @@
     <BiopaxRef>a9e</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="879.2039951573853" Y="1131.4279101835864" GraphRef="b9b19" RelX="1.0" RelY="0.0" />
-      <Point X="926.8111380145277" Y="1171.452525416419" GraphRef="ee372" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="926.8111380145277" Y="1171.452525416419" GraphRef="cc22c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -431,8 +433,8 @@
   </Interaction>
   <Interaction GraphId="id34956100">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="851.1325665859559" Y="917.4104116222762" GraphRef="e4c28" RelX="1.0" RelY="0.0" />
-      <Point X="1108.5283000471331" Y="990.4287481515188" GraphRef="b2689" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="851.1325665859559" Y="917.4104116222762" GraphRef="aafff" RelX="1.0" RelY="0.0" />
+      <Point X="1108.5283000471331" Y="990.4287481515188" GraphRef="e8e3e" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
       <Anchor Position="0.0776675329729451" Shape="None" GraphId="eb444" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -455,7 +457,7 @@
     <BiopaxRef>a9e</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="794.3533842907879" Y="612.3019040756548" GraphRef="bebf3" RelX="1.0" RelY="-0.5" />
-      <Point X="819.3237917620352" Y="619.7904009720537" GraphRef="da62d" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="819.3237917620352" Y="619.7904009720537" GraphRef="ce211" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -489,14 +491,14 @@
   </Interaction>
   <Interaction GraphId="id4698ada6">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1700.6306196840808" Y="755.7715674362084" GraphRef="beb81" RelX="1.0" RelY="0.0" />
-      <Point X="1838.8590522478737" Y="762.5455650060762" GraphRef="af283" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="1700.6306196840808" Y="755.7715674362084" GraphRef="f5464" RelX="1.0" RelY="0.0" />
+      <Point X="1838.8590522478737" Y="762.5455650060762" GraphRef="d30cd" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4995a891">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="925.3237917620352" Y="619.7904009720537" GraphRef="da62d" RelX="1.0" RelY="0.0" />
+      <Point X="925.3237917620352" Y="619.7904009720537" GraphRef="ce211" RelX="1.0" RelY="0.0" />
       <Point X="1172.1134589300832" Y="668.7349179270718" GraphRef="ba005" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -560,7 +562,7 @@
   </Interaction>
   <Interaction GraphId="id59cb229d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1351.150423728817" Y="1180.5122683989157" GraphRef="d8fa4" RelX="1.0" RelY="0.0" />
+      <Point X="1351.150423728817" Y="1180.5122683989157" GraphRef="f2a1f" RelX="1.0" RelY="0.0" />
       <Point X="1390.3111380145313" Y="1178.0734532091917" GraphRef="b439e" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -568,7 +570,7 @@
   <Interaction GraphId="id5e3f216d">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1936.7471511812223" Y="1550.1758774255252" GraphRef="dace6" RelX="1.0" RelY="0.0" />
-      <Point X="2055.0872483221483" Y="1559.0604026845638" GraphRef="cf18a" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="2055.0872483221483" Y="1559.0604026845638" GraphRef="a629e" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -616,14 +618,14 @@
   </Interaction>
   <Interaction GraphId="id6df79b3a">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="973.7470212627717" Y="1817.1691829547565" GraphRef="f222e" RelX="1.0" RelY="0.0" />
+      <Point X="973.7470212627717" Y="1817.1691829547565" GraphRef="cf7b1" RelX="1.0" RelY="0.0" />
       <Point X="1033.7426283490508" Y="1812.3192261637482" GraphRef="cd10a" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id6fc2016d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1634.7067021353896" Y="1437.0192772859523" GraphRef="ceda8" RelX="1.0" RelY="0.0" />
+      <Point X="1634.7067021353896" Y="1437.0192772859523" GraphRef="cbc4c" RelX="1.0" RelY="0.0" />
       <Point X="1703.0779009451157" Y="1434.4589262221564" GraphRef="d73df" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -638,27 +640,27 @@
   <Interaction GraphId="id70cfa134">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1227.5032794345245" Y="565.4444591765249" GraphRef="b50d0" RelX="0.0" RelY="1.0" />
-      <Point X="925.3237917620352" Y="603.2904009720537" GraphRef="da62d" RelX="1.0" RelY="-0.5" ArrowHead="mim-conversion" />
+      <Point X="925.3237917620352" Y="603.2904009720537" GraphRef="ce211" RelX="1.0" RelY="-0.5" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id76125f57">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="925.3237917620352" Y="619.7904009720537" GraphRef="da62d" RelX="1.0" RelY="0.0" />
+      <Point X="925.3237917620352" Y="619.7904009720537" GraphRef="ce211" RelX="1.0" RelY="0.0" />
       <Point X="1182.5032794345243" Y="619.5094167679222" GraphRef="dc4f3" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id789064e1">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1225.582053875149" Y="1516.013147007447" GraphRef="a557e" RelX="1.0" RelY="0.0" />
+      <Point X="1225.582053875149" Y="1516.013147007447" GraphRef="e3f73" RelX="1.0" RelY="0.0" />
       <Point X="1282.891512598395" Y="1514.9398815576958" GraphRef="b52ba" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id7fac436f">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1180.7783000471331" Y="990.4287481515188" GraphRef="b2689" RelX="1.0" RelY="0.0" />
+      <Point X="1180.7783000471331" Y="990.4287481515188" GraphRef="e8e3e" RelX="1.0" RelY="0.0" />
       <Point X="1247.2891163655731" Y="959.9675560998497" GraphRef="c8ad6" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -703,7 +705,7 @@
   <Interaction GraphId="id97611111">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1222.7754237288168" Y="1175.2893757976599" GraphRef="bde68" RelX="1.0" RelY="0.0" />
-      <Point X="1270.150423728817" Y="1180.5122683989157" GraphRef="d8fa4" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="1270.150423728817" Y="1180.5122683989157" GraphRef="f2a1f" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -731,7 +733,7 @@
   <Interaction GraphId="ida63ea88d">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1501.3450176686347" Y="771.1957901835984" GraphRef="c0e01" RelX="0.5" RelY="1.0" />
-      <Point X="1646.8784933171328" Y="879.3696840826253" GraphRef="dfd0e" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
+      <Point X="1646.8784933171328" Y="879.3696840826253" GraphRef="a10cc" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -754,14 +756,14 @@
     <BiopaxRef>c01</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1428.9188463841153" Y="1178.0734532091917" GraphRef="b439e" RelX="1.0" RelY="0.0" />
-      <Point X="1469.617982712483" Y="1178.3925544794147" GraphRef="aa9bd" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="1469.617982712483" Y="1178.3925544794147" GraphRef="a431e" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idb4d801d0">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="800.4640023948541" Y="1819.725714713366" GraphRef="ab01a" RelX="1.0" RelY="0.0" />
-      <Point X="867.7470212627717" Y="1817.1691829547565" GraphRef="f222e" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="867.7470212627717" Y="1817.1691829547565" GraphRef="cf7b1" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -775,7 +777,7 @@
   <Interaction GraphId="idbcae7fce">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1272.5032794345245" Y="552.9444591765249" GraphRef="b50d0" RelX="1.0" RelY="0.0" />
-      <Point X="1425.8450176686347" Y="553.2166123778495" GraphRef="ff7ee" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1425.8450176686347" Y="553.2166123778495" GraphRef="a754a" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -796,7 +798,7 @@
   <Interaction GraphId="idc6a2df63">
     <BiopaxRef>a9e</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1012.0611380145277" Y="1171.452525416419" GraphRef="ee372" RelX="1.0" RelY="0.0" />
+      <Point X="1012.0611380145277" Y="1171.452525416419" GraphRef="cc22c" RelX="1.0" RelY="0.0" />
       <Point X="1078.132566585958" Y="1180.713624469298" GraphRef="e3c2b" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -811,7 +813,7 @@
   <Interaction GraphId="idccacf977">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1195.3468523002462" Y="1105.600858812115" GraphRef="a449d" RelX="-0.5" RelY="1.0" />
-      <Point X="1012.0611380145277" Y="1151.3687892285743" GraphRef="ee372" RelX="1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
+      <Point X="1012.0611380145277" Y="1151.3687892285743" GraphRef="cc22c" RelX="1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -932,7 +934,7 @@
   <Interaction GraphId="idfec2a335">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1311.0715129927803" Y="1084.592724133152" GraphRef="c3122" RelX="0.0" RelY="1.0" />
-      <Point X="1310.650423728817" Y="1143.8247683989161" GraphRef="d8fa4" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="1310.650423728817" Y="1143.8247683989161" GraphRef="f2a1f" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1255,27 +1257,41 @@
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
     <Graphics CenterX="501.34934414154844" CenterY="325.4269444636432" Width="35.11643776731658" Height="33.75885020004125" ZOrder="32795" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="e3f73" GraphId="a557e" Style="Group" />
-  <Group GroupId="a431e" GraphId="aa9bd" Style="Group" />
-  <Group GroupId="d30cd" GraphId="af283" Style="Group" />
-  <Group GroupId="e8e3e" GraphId="b2689" Style="Group" />
-  <Group GroupId="c8723" GraphId="b9abb" Style="Group" />
-  <Group GroupId="f5464" GraphId="beb81" Style="Group" />
-  <Group GroupId="cbc4c" GraphId="ceda8" Style="Group" />
-  <Group GroupId="a629e" GraphId="cf18a" Style="Group" />
-  <Group GroupId="f2a1f" GraphId="d8fa4" Style="Group" />
-  <Group GroupId="ce211" GraphId="da62d" Style="Group" />
-  <Group GroupId="a10cc" GraphId="dfd0e" Style="Group" />
-  <Group GroupId="aafff" GraphId="e4c28" Style="Group" />
-  <Group GroupId="cc22c" GraphId="ee372" Style="Group" />
-  <Group GroupId="cf7b1" GraphId="f222e" Style="Group" />
-  <Group GroupId="a754a" GraphId="ff7ee" Style="Group" />
+  <Group GroupId="e3f73" GraphId="e3f73" Style="Group" />
+  <Group GroupId="a431e" GraphId="a431e" Style="Group" />
+  <Group GroupId="d30cd" GraphId="d30cd" Style="Group" />
+  <Group GroupId="e8e3e" GraphId="e8e3e" Style="Group" />
+  <Group GroupId="f5464" GraphId="f5464" Style="Group" />
+  <Group GroupId="cbc4c" GraphId="cbc4c" Style="Group" />
+  <Group GroupId="a629e" GraphId="a629e" Style="Group" />
+  <Group GroupId="f2a1f" GraphId="f2a1f" Style="Group" />
+  <Group GroupId="ce211" GraphId="ce211" Style="Group" />
+  <Group GroupId="a10cc" GraphId="a10cc" Style="Group" />
+  <Group GroupId="aafff" GraphId="aafff" Style="Group" />
+  <Group GroupId="cc22c" GraphId="cc22c" Style="Group" />
+  <Group GroupId="cf7b1" GraphId="cf7b1" Style="Group" />
+  <Group GroupId="a754a" GraphId="a754a" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune system disease</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2914</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-12 family mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000913</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonic disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5353</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8778</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a9e">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33859636</bp:ID>
@@ -1287,38 +1303,20 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurath MF</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atreya R</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050589</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e72">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31886308</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17332878</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Comprehensive Review and Update on the Pathogenesis of Inflammatory Bowel Disease.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Immunol Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guan Q</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The fundamental basis of inflammatory bowel disease.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Clin Invest</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strober W</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuss I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mannon P</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8778</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway involving second messengers</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000541</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toll-like receptor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000814</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050589</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colitis</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060180</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c01">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18653729</bp:ID>
@@ -1339,40 +1337,38 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isobe K</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hibi T</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab5">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17332878</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The fundamental basis of inflammatory bowel disease.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Clin Invest</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strober W</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuss I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mannon P</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonic disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5353</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-12 family mediated signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000913</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toll-like receptor signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000814</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered cytokine mediated signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000617</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e72">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31886308</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Comprehensive Review and Update on the Pathogenesis of Inflammatory Bowel Disease.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Immunol Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guan Q</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-2 signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000907</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050589</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway involving second messengers</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000541</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colitis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060180</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

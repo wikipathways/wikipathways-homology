@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Endochondral ossification with skeletal dysplasias" Data-Source="WikiPathways" Version="WP4808_Cf" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Endochondral ossification with skeletal dysplasias" Data-Source="WikiPathways" Version="WP4808_Cf" Last-Modified="20210522122700" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">Taken from existing [[Pathway:WP474|Endochondral Ossification pathway]].
 
-Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow indicates what diseases are caused by mutation in the respective genes.
-</Comment>
-  <Comment></Comment>
+Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow indicates what diseases are caused by mutation in the respective genes.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4808.gpml (WP4808_r117708) with a 97.0% conversion rate.</Comment>
   <BiopaxRef>e1e</BiopaxRef>
@@ -339,7 +337,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   </DataNode>
   <DataNode TextLabel="Carminerin" GraphId="f5e" Type="GeneProduct">
     <Comment>Taken as human homologue of mouse Cst10</Comment>
-    <Comment>PMID: 13679380 </Comment>
+    <Comment>PMID: 13679380</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:1473</Comment>
     <Graphics CenterX="1176.2902494331067" CenterY="478.09523809523813" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845026671" />
@@ -382,7 +380,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="a003f">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1239.2902494331067" Y="921.0952380952381" GraphRef="e99" RelX="-0.5" RelY="-1.0" />
-      <Point X="1047.7902494331065" Y="700.0952380952384" GraphRef="b7a" RelX="0.5" RelY="1.0" ArrowHead="TBar" />
+      <Point X="1047.7902494331065" Y="700.0952380952384" GraphRef="b7a" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -409,7 +407,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   </Interaction>
   <Interaction GraphId="a622c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1457.290249433107" Y="703.0952380952381" GraphRef="a522c" RelX="-0.5" RelY="1.0" />
+      <Point X="1457.290249433107" Y="703.0952380952381" GraphRef="ec282" RelX="-0.5" RelY="1.0" />
       <Point X="1379.4615992129734" Y="757.3134984294923" GraphRef="c98e8" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -424,7 +422,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="a6c10">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="614.2902494331065" Y="723.095238095238" GraphRef="dc3" RelX="0.0" RelY="-1.0" />
-      <Point X="956.2902494331065" Y="652.8911241711877" GraphRef="b7a" RelX="-1.0" RelY="0.5" ArrowHead="TBar" />
+      <Point X="956.2902494331065" Y="652.8911241711877" GraphRef="b7a" RelX="-1.0" RelY="0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -488,7 +486,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="af5d4">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="818.2902494331065" Y="607.0952380952381" GraphRef="c68ba" RelX="-1.0" RelY="0.0" />
-      <Point X="789.5560722179166" Y="607.4053646775166" GraphRef="d5f" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="789.5560722179166" Y="607.4053646775166" GraphRef="d5f" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -558,7 +556,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="b7d43">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="878.2902494331065" Y="617.0952380952381" GraphRef="c68ba" RelX="0.5" RelY="1.0" />
-      <Point X="897.1510089267774" Y="765.4496684749848" GraphRef="a59" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="897.1510089267774" Y="765.4496684749848" GraphRef="a59" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -572,7 +570,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="b946e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="634.2902494331065" Y="950.0952380952381" GraphRef="c6f46" RelX="1.0" RelY="0.0" />
-      <Point X="1123.2902494331067" Y="987.0952380952381" GraphRef="fba0c" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1123.2902494331067" Y="987.0952380952381" GraphRef="fba0c" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -628,7 +626,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   </Interaction>
   <Interaction GraphId="be40d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1278.2902494331067" Y="987.0952380952381" GraphRef="b6514" RelX="-1.0" RelY="0.0" />
+      <Point X="1278.2902494331067" Y="987.0952380952381" GraphRef="efb39" RelX="-1.0" RelY="0.0" />
       <Point X="1218.2902494331067" Y="987.0952380952381" GraphRef="fba0c" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -693,7 +691,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="cc48b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="568.2902494331064" Y="833.6648583484024" GraphRef="bc9e9" RelX="1.0" RelY="0.0" />
-      <Point X="687.2143000660178" Y="800.9686558167571" GraphRef="fb5" RelX="-0.5" RelY="1.0" ArrowHead="TBar" />
+      <Point X="687.2143000660178" Y="800.9686558167571" GraphRef="fb5" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -714,7 +712,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="cdeae">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="898.2902494331065" Y="557.0952380952381" GraphRef="c91" RelX="1.0" RelY="0.0" />
-      <Point X="956.2902494331065" Y="558.4828963230865" GraphRef="b7a" RelX="-1.0" RelY="-0.5" ArrowHead="TBar" />
+      <Point X="956.2902494331065" Y="558.4828963230865" GraphRef="b7a" RelX="-1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -742,20 +740,20 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="d1a11">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="803.2902494331065" Y="457.09523809523813" GraphRef="dcd11" RelX="0.0" RelY="1.0" />
-      <Point X="728.0560722179166" Y="537.4053646775166" GraphRef="d5f" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="728.0560722179166" Y="537.4053646775166" GraphRef="d5f" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d28eb">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="999.290249433107" Y="815.0952380952381" GraphRef="c83" RelX="-1.0" RelY="0.0" />
-      <Point X="890.2902494331065" Y="823.0952380952381" GraphRef="d15" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="890.2902494331065" Y="823.0952380952381" GraphRef="d15" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d6258">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1433.290249433107" Y="675.0952380952381" GraphRef="a522c" RelX="-1.0" RelY="0.0" />
+      <Point X="1433.290249433107" Y="675.0952380952381" GraphRef="ec282" RelX="-1.0" RelY="0.0" />
       <Point X="1380.1408868401668" Y="633.0462204850447" GraphRef="d6145" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -763,7 +761,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="d6d85">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="942.4168317115875" Y="385.91802290536464" GraphRef="f8442" RelX="1.0" RelY="0.0" />
-      <Point X="996.236451964752" Y="407.06992163954186" GraphRef="bed" RelX="0.5" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="996.236451964752" Y="407.06992163954186" GraphRef="bed" RelX="0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -805,7 +803,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="e0a3a">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="654.2902494331065" Y="733.095238095238" GraphRef="dc3" RelX="1.0" RelY="0.0" />
-      <Point X="855.2902494331065" Y="865.0952380952381" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="855.2902494331065" Y="865.0952380952381" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -819,7 +817,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="e241c">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="838.2902494331065" Y="617.0952380952381" GraphRef="c68ba" RelX="-0.5" RelY="1.0" />
-      <Point X="707.2143000660178" Y="780.9686558167571" GraphRef="fb5" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="707.2143000660178" Y="780.9686558167571" GraphRef="fb5" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -861,14 +859,14 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="e79de">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="696.2902494331065" Y="899.0952380952381" GraphRef="f22e4" RelX="1.0" RelY="0.0" />
-      <Point X="855.2902494331065" Y="865.0952380952381" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="855.2902494331065" Y="865.0952380952381" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e9be1">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="850.2902494331065" Y="813.0952380952381" GraphRef="d15" RelX="0.0" RelY="-1.0" />
-      <Point X="696.2902494331065" Y="852.0952380952381" GraphRef="fb3" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="696.2902494331065" Y="852.0952380952381" GraphRef="fb3" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -903,7 +901,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="eea28">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="727.2143000660178" Y="780.9686558167571" GraphRef="fb5" RelX="0.5" RelY="-1.0" />
-      <Point X="956.2902494331065" Y="652.8911241711877" GraphRef="b7a" RelX="-1.0" RelY="0.5" ArrowHead="TBar" />
+      <Point X="956.2902494331065" Y="652.8911241711877" GraphRef="b7a" RelX="-1.0" RelY="0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -917,7 +915,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="f05e8">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="634.2902494331065" Y="970.0952380952381" GraphRef="fb8bf" RelX="1.0" RelY="0.0" />
-      <Point X="1123.2902494331067" Y="987.0952380952381" GraphRef="fba0c" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1123.2902494331067" Y="987.0952380952381" GraphRef="fba0c" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -953,7 +951,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="f154e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1156.2902494331067" Y="431.09523809523813" GraphRef="c89" RelX="-1.0" RelY="0.0" />
-      <Point X="1117.2902494331067" Y="410.5003013863774" GraphRef="e4d" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+      <Point X="1117.2902494331067" Y="410.5003013863774" GraphRef="e4d" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -967,14 +965,14 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="f2b53">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1176.2902494331067" Y="468.09523809523813" GraphRef="f5e" RelX="0.0" RelY="-1.0" />
-      <Point X="1176.2902494331067" Y="441.09523809523813" GraphRef="c89" RelX="-0.5" RelY="1.0" ArrowHead="TBar" />
+      <Point X="1176.2902494331067" Y="441.09523809523813" GraphRef="c89" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f2d82">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="810.2902494331065" Y="823.0952380952381" GraphRef="d15" RelX="-1.0" RelY="0.0" />
-      <Point X="728.0560722179166" Y="677.4053646775166" GraphRef="d5f" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+      <Point X="728.0560722179166" Y="677.4053646775166" GraphRef="d5f" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -988,7 +986,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="f5201">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1078.2902494331065" Y="652.8911241711877" GraphRef="b7a" RelX="1.0" RelY="0.5" />
-      <Point X="1165.2902494331067" Y="684.0952380952381" GraphRef="b1c58" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1165.2902494331067" Y="684.0952380952381" GraphRef="b1c58" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1016,13 +1014,13 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="f6713">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1035.290249433107" Y="945.0952380952381" GraphRef="fa835" RelX="0.0" RelY="-1.0" />
-      <Point X="915.2902494331065" Y="875.0952380952381" GraphRef="dcd" RelX="0.5" RelY="1.0" ArrowHead="TBar" />
+      <Point X="915.2902494331065" Y="875.0952380952381" GraphRef="dcd" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f6950">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1426.290249433107" Y="567.0952380952381" GraphRef="eb451" RelX="-1.0" RelY="0.0" />
+      <Point X="1426.290249433107" Y="567.0952380952381" GraphRef="fb73f" RelX="-1.0" RelY="0.0" />
       <Point X="1380.1408868401668" Y="633.0462204850447" GraphRef="d6145" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1045,7 +1043,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="faea2">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1059.2902494331065" Y="875.0952380952381" GraphRef="cf8" RelX="1.0" RelY="0.0" />
-      <Point X="1088.2902494331067" Y="874.0952380952381" GraphRef="bd4" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1088.2902494331067" Y="874.0952380952381" GraphRef="bd4" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1067,7 +1065,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="fc455">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="506.2902494331066" Y="784.0952380952381" GraphRef="b68" RelX="1.0" RelY="0.0" />
-      <Point X="855.2902494331065" Y="865.0952380952381" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="855.2902494331065" Y="865.0952380952381" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1082,28 +1080,28 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="fe1b2">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="858.2902494331065" Y="640.0952380952381" GraphRef="b2d" RelX="0.0" RelY="-1.0" />
-      <Point X="858.2902494331065" Y="617.0952380952381" GraphRef="c68ba" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+      <Point X="858.2902494331065" Y="617.0952380952381" GraphRef="c68ba" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a26b6">
     <Graphics ZOrder="32894" LineStyle="Broken" LineThickness="1.0">
       <Point X="763.2902494331065" Y="411.09523809523813" GraphRef="a3044" RelX="-1.0" RelY="0.0" />
-      <Point X="376.1182229251674" Y="421.70413922859836" GraphRef="a1157" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="376.1182229251674" Y="421.70413922859836" GraphRef="ed75f" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c24db">
     <Graphics ZOrder="32899" LineStyle="Broken" LineThickness="1.0">
       <Point X="817.1510089267774" Y="765.4496684749848" GraphRef="a59" RelX="-1.0" RelY="0.0" />
-      <Point X="362.72635488844685" Y="759.255580130798" GraphRef="f101b" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="362.72635488844685" Y="759.255580130798" GraphRef="c6d3a" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f0089">
     <Graphics ZOrder="32904" LineStyle="Broken" LineThickness="1.0">
       <Point X="830.2902494331065" Y="833.0952380952381" GraphRef="d15" RelX="-0.5" RelY="1.0" />
-      <Point X="773.9319595132181" Y="1108.630711648445" GraphRef="f4179" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="773.9319595132181" Y="1108.630711648445" GraphRef="c8c26" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1124,7 +1122,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="cfd32">
     <Graphics ZOrder="32913" LineStyle="Broken" LineThickness="1.0">
       <Point X="667.2143000660178" Y="790.9686558167571" GraphRef="fb5" RelX="-1.0" RelY="0.0" />
-      <Point X="458.4981363984499" Y="1075.9888998800857" GraphRef="ca464" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="458.4981363984499" Y="1075.9888998800857" GraphRef="fdcf5" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1138,14 +1136,14 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="f9562">
     <Graphics ZOrder="32919" LineStyle="Broken" LineThickness="1.0">
       <Point X="1326.2902494331067" Y="1007.0952380952381" GraphRef="bdd89" RelX="0.0" RelY="1.0" />
-      <Point X="1100.7596366809223" Y="1100.8405474648634" GraphRef="a932a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1100.7596366809223" Y="1100.8405474648634" GraphRef="e6ea2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="df93f">
     <Graphics ZOrder="32920" LineStyle="Broken" LineThickness="1.0">
       <Point X="935.2902494331065" Y="865.0952380952381" GraphRef="dcd" RelX="1.0" RelY="0.0" />
-      <Point X="1036.7588412369205" Y="1100.8405474648634" GraphRef="a932a" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1036.7588412369205" Y="1100.8405474648634" GraphRef="e6ea2" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1160,7 +1158,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
     <Graphics ConnectorType="Elbow" ZOrder="32928" LineStyle="Broken" LineThickness="1.0">
       <Point X="1551.290249433107" Y="975.0952380952381" GraphRef="a61f3" RelX="1.0" RelY="0.0" />
       <Point X="1576.7634854771784" Y="1012.8262668417863" />
-      <Point X="1603.9155844633137" Y="1050.5572955883345" GraphRef="ee065" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1603.9155844633137" Y="1050.5572955883345" GraphRef="deb1f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1188,21 +1186,21 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Interaction GraphId="b43b1">
     <Graphics ZOrder="32937" LineStyle="Broken" LineThickness="1.0">
       <Point X="1521.290249433107" Y="685.0952380952381" GraphRef="a3d96" RelX="1.0" RelY="0.0" />
-      <Point X="1594.8839565088429" Y="722.1894944014929" GraphRef="d8f09" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1594.8839565088429" Y="722.1894944014929" GraphRef="e9af4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c62c4">
     <Graphics ZOrder="32951" LineStyle="Broken" LineThickness="1.0">
       <Point X="1225.2902494331067" Y="674.0952380952381" GraphRef="b1c58" RelX="0.5" RelY="-1.0" />
-      <Point X="1839.979706056134" Y="496.92334464932736" GraphRef="c0403" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="1839.979706056134" Y="496.92334464932736" GraphRef="ba8bc" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a7b1f">
     <Graphics ConnectorType="Elbow" ZOrder="32952" LineStyle="Broken" LineThickness="1.0">
       <Point X="1511.290249433107" Y="473.09523809523813" GraphRef="ced75" RelX="1.0" RelY="0.0" />
-      <Point X="1694.5801489097807" Y="396.8951986785903" GraphRef="f3b8b" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="1694.5801489097807" Y="396.8951986785903" GraphRef="f6b91" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1296,35 +1294,35 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Label TextLabel="Bone" GraphId="fda">
     <Graphics CenterX="1511.040249433107" CenterY="297.09523809523813" Width="30.5" Height="22.5" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
   </Label>
-  <Label TextLabel="OMIM:100800&#xA;Achondroplasia" Href="https://omim.org/entry/100800" GroupRef="ed75f">
+  <Label TextLabel="OMIM:100800&#xA;Achondroplasia" GraphId="e421d" Href="https://omim.org/entry/100800" GroupRef="ed75f">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="233.28088945961053" CenterY="402.3786453433683" Width="206.28740629038566" Height="39.0" ZOrder="32886" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:612247&#xA;Crouzon Syndrome With Acanthosis Nigricans" Href="https://omim.org/entry/612247" GroupRef="ed75f">
+  <Label TextLabel="OMIM:612247&#xA;Crouzon Syndrome With Acanthosis Nigricans" GraphId="f14e8" Href="https://omim.org/entry/612247" GroupRef="ed75f">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="233.28088945961053" CenterY="529.7609927746832" Width="269.67466693111373" Height="39.0" ZOrder="32887" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:616482&#xA;Achondroplasia, Severe, With Developmental &#xA;Delay And Acanthosis Nigricans" Href="https://omim.org/entry/616482" GroupRef="ed75f">
+  <Label TextLabel="OMIM:616482&#xA;Achondroplasia, Severe, With Developmental &#xA;Delay And Acanthosis Nigricans" GraphId="d8a53" Href="https://omim.org/entry/616482" GroupRef="ed75f">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="233.28088945961053" CenterY="358.01296551294087" Width="263.40545625587964" Height="49.73135966085477" ZOrder="32888" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:187601&#xA;Thanatophoric Dysplasia, Type II" Href="https://omim.org/entry/187601" GroupRef="ed75f">
+  <Label TextLabel="OMIM:187601&#xA;Thanatophoric Dysplasia, Type II" GraphId="b904b" Href="https://omim.org/entry/187601" GroupRef="ed75f">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="233.2808894596105" CenterY="313.6472856825134" Width="206.28740629038566" Height="39.0" ZOrder="32889" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:187600&#xA;Thanatophoric Dysplasia, Type I" Href="https://omim.org/entry/187600" GroupRef="ed75f">
+  <Label TextLabel="OMIM:187600&#xA;Thanatophoric Dysplasia, Type I" GraphId="df751" Href="https://omim.org/entry/187600" GroupRef="ed75f">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="233.2808894596105" CenterY="274.6472856825134" Width="206.28740629038566" Height="39.0" ZOrder="32890" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:602849&#xA;Muenke Syndrome" Href="https://omim.org/entry/602849" GroupRef="ed75f">
+  <Label TextLabel="OMIM:602849&#xA;Muenke Syndrome" GraphId="f0d71" Href="https://omim.org/entry/602849" GroupRef="ed75f">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="233.2808894596105" CenterY="568.7609927746832" Width="206.28740629038566" Height="39.0" ZOrder="32891" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:146000&#xA;Hypochondroplasia" Href="https://omim.org/entry/146000" GroupRef="ed75f">
+  <Label TextLabel="OMIM:146000&#xA;Hypochondroplasia" GraphId="f110c" Href="https://omim.org/entry/146000" GroupRef="ed75f">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="233.28088945961053" CenterY="441.3786453433683" Width="206.28740629038566" Height="39.0" ZOrder="32892" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:610474&#xA;Camptodactyly, Tall Stature, &#xA;And Hearing Loss Syndrome" Href="https://omim.org/entry/610474" GroupRef="ed75f">
+  <Label TextLabel="OMIM:610474&#xA;Camptodactyly, Tall Stature, &#xA;And Hearing Loss Syndrome" GraphId="f38c1" Href="https://omim.org/entry/610474" GroupRef="ed75f">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="233.28088945961053" CenterY="485.5698190590258" Width="192.53449759903486" Height="49.38234743131488" ZOrder="32893" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1344,7 +1342,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
     <Comment>DISEASE</Comment>
     <Graphics CenterX="649.87406203509" CenterY="1102.880711648445" Width="206.28740629038566" Height="39.0" ZOrder="32901" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:146510&#xA;Pallister-Hall Syndrome" Href="https://omim.org/entry/146510" GroupRef="c8c26">
+  <Label TextLabel="OMIM:146510&#xA;Pallister-Hall Syndrome" GraphId="e9889" Href="https://omim.org/entry/146510" GroupRef="c8c26">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="649.87406203509" CenterY="1180.880711648445" Width="206.28740629038566" Height="39.0" ZOrder="32902" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1360,11 +1358,11 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
     <Comment>DISEASE</Comment>
     <Graphics CenterX="203.14121571886324" CenterY="1015.0952380952381" Width="329.9941316934397" Height="49.617810199596065" ZOrder="32907" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:600002&#xA;Eiken Syndrome" Href="https://omim.org/entry/600002" GroupRef="fdcf5">
+  <Label TextLabel="OMIM:600002&#xA;Eiken Syndrome" GraphId="c3701" Href="https://omim.org/entry/600002" GroupRef="fdcf5">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="389.5372191374281" CenterY="1181.4888998800857" Width="206.28740629038566" Height="39.0" ZOrder="32910" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:215045&#xA;Chondrodysplasia, Blomstrand Type" Href="https://omim.org/entry/215045" GroupRef="fdcf5">
+  <Label TextLabel="OMIM:215045&#xA;Chondrodysplasia, Blomstrand Type" GraphId="c82f3" Href="https://omim.org/entry/215045" GroupRef="fdcf5">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="389.5372191374281" CenterY="1142.4888998800857" Width="206.28740629038566" Height="39.0" ZOrder="32911" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1372,7 +1370,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
     <Comment>DISEASE</Comment>
     <Graphics CenterX="389.5372191374281" CenterY="1103.4888998800857" Width="259.84366904408705" Height="39.0" ZOrder="32912" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:119600&#xA;Cleidocranial Dysplasia" Href="https://omim.org/entry/119600" GroupRef="e6ea2">
+  <Label TextLabel="OMIM:119600&#xA;Cleidocranial Dysplasia" GraphId="e8c34" Href="https://omim.org/entry/119600" GroupRef="e6ea2">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1100.7596366809375" CenterY="1183.0024788758838" Width="153.2166297822613" Height="39.0" ZOrder="32915" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1400,7 +1398,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1695.5990578060278" CenterY="1050.5572955883342" Width="165.4943900005191" Height="39.0" ZOrder="32926" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:166250&#xA;Osteoglophonic Dysplasia" Href="https://omim.org/entry/166250" GroupRef="deb1f">
+  <Label TextLabel="OMIM:166250&#xA;Osteoglophonic Dysplasia" GraphId="a3f8b" Href="https://omim.org/entry/166250" GroupRef="deb1f">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1695.5990578060282" CenterY="1011.5572955883347" Width="167.36694668542876" Height="39.0" ZOrder="32927" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1420,7 +1418,7 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1745.2609387675564" CenterY="743.0350621138914" Width="210.60052772683724" Height="39.0" ZOrder="32935" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:151210&#xA;Platyspondylic Lethal Skeletal &#xA;Dysplasia, Torrance Type" Href="https://omim.org/entry/151210" GroupRef="ba8bc">
+  <Label TextLabel="OMIM:151210&#xA;Platyspondylic Lethal Skeletal &#xA;Dysplasia, Torrance Type" GraphId="c2f6e" Href="https://omim.org/entry/151210" GroupRef="ba8bc">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1996.6581615173552" CenterY="284.6433697965784" Width="206.28740629038566" Height="53.119899410994215" ZOrder="32940" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1432,35 +1430,35 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1694.5801489097798" CenterY="369.3951986785903" Width="206.28740629038566" Height="39.0" ZOrder="32942" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:183900&#xA;Spondyloepiphyseal Dysplasia Congenita" Href="https://omim.org/entry/183900" GroupRef="ba8bc">
+  <Label TextLabel="OMIM:183900&#xA;Spondyloepiphyseal Dysplasia Congenita" GraphId="acb47" Href="https://omim.org/entry/183900" GroupRef="ba8bc">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1996.6581615173552" CenterY="330.70331950207503" Width="244.45234660708866" Height="39.0" ZOrder="32943" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:609162&#xA;Czech Dysplasia" Href="https://omim.org/entry/609162" GroupRef="ba8bc">
+  <Label TextLabel="OMIM:609162&#xA;Czech Dysplasia" GraphId="c7b01" Href="https://omim.org/entry/609162" GroupRef="ba8bc">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1996.6581615173552" CenterY="486.7033195020752" Width="206.28740629038566" Height="39.0" ZOrder="32944" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:184250&#xA;Spondyloepimetaphyseal Dysplasia, Strudwick Type" Href="https://omim.org/entry/184250" GroupRef="ba8bc">
+  <Label TextLabel="OMIM:184250&#xA;Spondyloepimetaphyseal Dysplasia, Strudwick Type" GraphId="fe411" Href="https://omim.org/entry/184250" GroupRef="ba8bc">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1996.6581615173552" CenterY="369.70331950207503" Width="292.1701889307401" Height="39.0" ZOrder="32945" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:108300&#xA;Stickler Syndrome, Type I" Href="https://omim.org/entry/108300" GroupRef="ba8bc">
+  <Label TextLabel="OMIM:108300&#xA;Stickler Syndrome, Type I" GraphId="a8008" Href="https://omim.org/entry/108300" GroupRef="ba8bc">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1996.6581615173552" CenterY="525.703319502076" Width="206.28740629038566" Height="39.0" ZOrder="32946" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:271700&#xA;Spondyloperipheral Dysplasia" Href="https://omim.org/entry/271700" GroupRef="ba8bc">
+  <Label TextLabel="OMIM:271700&#xA;Spondyloperipheral Dysplasia" GraphId="a1ef2" Href="https://omim.org/entry/271700" GroupRef="ba8bc">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1996.6581615173552" CenterY="447.7033195020748" Width="206.28740629038566" Height="39.0" ZOrder="32947" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:200610&#xA;Achondrogenesis, Type II" Href="https://omim.org/entry/200610" GroupRef="ba8bc">
+  <Label TextLabel="OMIM:200610&#xA;Achondrogenesis, Type II" GraphId="ff111" Href="https://omim.org/entry/200610" GroupRef="ba8bc">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1996.6581615173552" CenterY="238.58342009108054" Width="206.28740629038566" Height="39.0" ZOrder="32948" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:608805&#xA;Avascular Necrosis Of Femoral Head, Primary, 1" Href="https://omim.org/entry/608805" GroupRef="ba8bc">
+  <Label TextLabel="OMIM:608805&#xA;Avascular Necrosis Of Femoral Head, Primary, 1" GraphId="e7823" Href="https://omim.org/entry/608805" GroupRef="ba8bc">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1996.6581615173552" CenterY="564.7033195020763" Width="297.35691092244224" Height="39.0" ZOrder="32949" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:156550&#xA;Kniest Dysplasia" Href="https://omim.org/entry/156550" GroupRef="ba8bc">
+  <Label TextLabel="OMIM:156550&#xA;Kniest Dysplasia" GraphId="a757f" Href="https://omim.org/entry/156550" GroupRef="ba8bc">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1996.6581615173552" CenterY="408.70331950207486" Width="206.28740629038566" Height="39.0" ZOrder="32950" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1488,25 +1486,30 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
   <Shape GraphId="fc863">
     <Graphics CenterX="1510.290249433107" CenterY="297.09523784092494" Width="74.0" Height="44.03333333333333" ZOrder="16384" FillColor="cccc00" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="ed75f" GraphId="a1157" Style="Group" />
-  <Group GroupId="ec282" GraphId="a522c" Style="Group" />
-  <Group GroupId="e6ea2" GraphId="a932a" Style="Group" />
-  <Group GroupId="efb39" GraphId="b6514" Style="Group" />
-  <Group GroupId="ba8bc" GraphId="c0403" Style="Group" />
-  <Group GroupId="fdcf5" GraphId="ca464" Style="Group" />
-  <Group GroupId="f843e" GraphId="cd3fe" />
-  <Group GroupId="e9af4" GraphId="d8f09" Style="Group" />
-  <Group GroupId="c2c7c" GraphId="d9936" />
-  <Group GroupId="ffa49" GraphId="df77c" Style="Group" />
-  <Group GroupId="a615c" GraphId="e4385" />
-  <Group GroupId="fb73f" GraphId="eb451" Style="Group" />
-  <Group GroupId="deb1f" GraphId="ee065" Style="Group" />
-  <Group GroupId="c6d3a" GraphId="f101b" Style="Group" />
-  <Group GroupId="c0f4c" GraphId="f3845" />
-  <Group GroupId="f6b91" GraphId="f3b8b" Style="Group" />
-  <Group GroupId="c8c26" GraphId="f4179" Style="Group" />
+  <Group GroupId="ed75f" GraphId="ed75f" Style="Group" />
+  <Group GroupId="ec282" GraphId="ec282" Style="Group" />
+  <Group GroupId="e6ea2" GraphId="e6ea2" Style="Group" />
+  <Group GroupId="efb39" GraphId="efb39" Style="Group" />
+  <Group GroupId="ba8bc" GraphId="ba8bc" Style="Group" />
+  <Group GroupId="fdcf5" GraphId="fdcf5" Style="Group" />
+  <Group GroupId="f843e" GraphId="f843e" />
+  <Group GroupId="e9af4" GraphId="e9af4" Style="Group" />
+  <Group GroupId="c2c7c" GraphId="c2c7c" />
+  <Group GroupId="ffa49" GraphId="ffa49" Style="Group" />
+  <Group GroupId="a615c" GraphId="a615c" />
+  <Group GroupId="fb73f" GraphId="fb73f" Style="Group" />
+  <Group GroupId="deb1f" GraphId="deb1f" Style="Group" />
+  <Group GroupId="c6d3a" GraphId="c6d3a" Style="Group" />
+  <Group GroupId="c0f4c" GraphId="c0f4c" />
+  <Group GroupId="f6b91" GraphId="f6b91" Style="Group" />
+  <Group GroupId="c8c26" GraphId="c8c26" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1e">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17659995</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1520,24 +1523,14 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirams M</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteoclast</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000092</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondrocyte</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000138</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteochondroclast</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000093</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteoclast</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000092</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fee">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18374667</bp:ID>
@@ -1550,6 +1543,11 @@ Added diseases linked with a dotted arrow to GeneProduct nodes, dotted arrow ind
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rowley L</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bateman JF</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteochondroclast</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000093</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfe">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23977373</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL-9 signaling pathway" Data-Source="WikiPathways" Version="WP22_Bt" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL-9 signaling pathway" Data-Source="WikiPathways" Version="WP22_Bt" Last-Modified="20211224012247" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">IL-9 is a multifunctional cytokine, belonging to a family of cytokines. IL-9 was initially reported as a T cell growth factor in mice. It is now known to target multiple cell types. It plays an important role in the expansion and recruitment of mast cells in response to intestinal nematode infection or during autoimmune encephalomyelitis. It is also known to act on various cell types known to be involved in asthma including T cells, B cells, mast cells, eosinophils, neutrophils, and epithelial cells. IL-9 can promote the expression of TGF-beta in lipopolysaccharide-induced monocytes and macrophages. IL-9 is also known to play important roles in conditions including airway inflammation, EAE and parasitic infections. Mitogen-activated protein kinase pathway is activated transiently by IL-9, which in turn leads to the growth stimulation of hematopoietic cell lines. IL-9 signals through the heterodimeric receptor composed of a specific chain (IL-9R) and a gamma chain (IL2RG), which is shared between IL-2, IL-4, IL-7, IL15 and IL-21. The IL-9R and IL-2RG associates with JAK1 and JAK3 respectively. Receptor engagement results in JAK1- JAK3 cross phosphorylation and activation of the JAK proteins which leads to the activation of Signal transducer and activator of transcription (STAT-1, STAT-3 and STAT-5) and Insulin receptor substrate 1 and 2 (IRS1 and IRS2)/PI3K cascades. IL-9 stimulation also results in the activation of MEK/ERK signaling cascade.
 
 Please access this pathway at [http://www.netpath.org/netslim/IL_9_pathway.html NetSlim] database.
@@ -181,7 +181,6 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSBTAG00000007558" />
   </DataNode>
   <DataNode TextLabel="MAP2K1" GraphId="fbbe4" Type="Protein" GroupRef="f94a1">
-    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:5604</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="MAP2K1" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -310,7 +309,6 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="fa7d0">
-    <Comment></Comment>
     <Graphics ZOrder="33294" LineStyle="Broken" LineThickness="2.0">
       <Point X="399.6666666666697" Y="571.0" />
       <Point X="399.6666666666697" Y="744.6666666666666" GraphRef="fbbe4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -332,7 +330,6 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a1cb6">
-    <Comment></Comment>
     <Graphics ZOrder="33297" LineStyle="Broken" LineThickness="2.0">
       <Point X="216.0" Y="570.0" />
       <Point X="215.33333333332848" Y="630.6666666666667" GraphRef="a08fa" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -389,7 +386,6 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b6e9d">
-    <Comment></Comment>
     <Graphics ZOrder="33305" LineStyle="Broken" LineThickness="2.0">
       <Point X="326.6666666666665" Y="571.0" />
       <Point X="326.333333333331" Y="715.6666666666667" GraphRef="d9dbe" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -397,7 +393,6 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b3e08">
-    <Comment></Comment>
     <Graphics ZOrder="33306" LineStyle="Broken" LineThickness="2.0">
       <Point X="399.8333333333362" Y="786.6666666666666" GraphRef="d2866" RelX="0.0" RelY="1.0" />
       <Point X="399.66666666666765" Y="850.6666666666665" GraphRef="c747f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -447,7 +442,6 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="af4c1">
-    <Comment></Comment>
     <Graphics ZOrder="33313" LineStyle="Broken" LineThickness="2.0">
       <Point X="284.6666666666647" Y="572.0" />
       <Point X="284.6666666666647" Y="802.0" GraphRef="dc750" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -587,7 +581,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
   <GraphicalLine GraphId="f6d74">
     <Graphics ZOrder="33421" LineThickness="2.0">
       <Point X="564.0" Y="636.0" />
-      <Point X="589.0" Y="636.0" ArrowHead="TBar" />
+      <Point X="589.0" Y="636.0" ArrowHead="mim-inhibition" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="b7122">
@@ -813,25 +807,25 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
   <Shape GraphId="ebfb3">
     <Graphics CenterX="623.5" CenterY="972.5" Width="15.0" Height="15.0" ZOrder="33427" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="cdaa9" GraphId="a8288" Style="Group" />
-  <Group GroupId="da350" GraphId="b41d4" Style="Group" />
-  <Group GroupId="c97f2" GraphId="b460b" Style="Group" />
-  <Group GroupId="a4e60" GraphId="bf3fd" Style="Group" />
-  <Group GroupId="c3b41" GraphId="c8cda" Style="Group" />
-  <Group GroupId="a9979" GraphId="e0d1f" Style="Group" />
-  <Group GroupId="f94a1" GraphId="e29b3" Style="Group" />
-  <Group GroupId="f3d62" GraphId="e6a47" Style="Group" />
-  <Group GroupId="f9d52" GraphId="fd37e" Style="Group" />
+  <Group GroupId="cdaa9" GraphId="cdaa9" Style="Group" />
+  <Group GroupId="da350" GraphId="da350" Style="Group" />
+  <Group GroupId="c97f2" GraphId="c97f2" Style="Group" />
+  <Group GroupId="a4e60" GraphId="a4e60" Style="Group" />
+  <Group GroupId="c3b41" GraphId="c3b41" Style="Group" />
+  <Group GroupId="a9979" GraphId="a9979" Style="Group" />
+  <Group GroupId="f94a1" GraphId="f94a1" Style="Group" />
+  <Group GroupId="f3d62" GraphId="f3d62" Style="Group" />
+  <Group GroupId="f9d52" GraphId="f9d52" Style="Group" />
   <InfoBox CenterX="15.0" CenterY="8.333333333333334" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin mediated signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000512</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-9 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000909</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-9 signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000909</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000512</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c42">

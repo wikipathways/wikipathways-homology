@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Estrogen metabolism" Data-Source="WikiPathways" Version="WP697_Mm" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Estrogen metabolism" Data-Source="WikiPathways" Version="WP697_Mm" Last-Modified="20190917133038" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Estrogens are metabolized via hydroxylation by cytochrome P450 enzymes such as CYP1A1 and CYP3A4 and via conjugation by estrogen sulfotransferases (sulfation) and UDP-glucuronyltransferases (glucuronidation). In addition, estradiol is dehydrogenated by 17β-Hydroxysteroid dehydrogenase into the much less potent estrogen estrone. These reactions occur primarily in the liver, but also in other tissues.
 Description source: [https://en.wikipedia.org/wiki/Estrogen#Metabolism Wikipedia].
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP697 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP697.gpml (WP697_r106826) with a 81.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP697.gpml (WP697_r106826) with a 83.0% conversion rate.</Comment>
   <BiopaxRef>d4e</BiopaxRef>
   <BiopaxRef>e6e</BiopaxRef>
   <BiopaxRef>aa4</BiopaxRef>
@@ -307,10 +307,10 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="720.4337349397591" CenterY="223.67737617135208" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000054545" />
   </DataNode>
-  <DataNode TextLabel="UGT1A3" GraphId="e8421" Type="GeneProduct" GroupRef="a5d88">
-    <Comment Source="HomologyMapper">No homologues found for original id L:54659</Comment>
+  <DataNode TextLabel="Ugt1a5" GraphId="e8421" Type="GeneProduct" GroupRef="a5d88">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:54659</Comment>
     <Graphics CenterX="448.433734939759" CenterY="484.6773761713521" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="" ID="" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000089943" />
   </DataNode>
   <DataNode TextLabel="Estrone-17-glucuronide" GraphId="e8b90" Type="Metabolite">
     <Graphics CenterX="280.43373493975906" CenterY="407.6773761713521" Width="120.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
@@ -422,7 +422,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>aef</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="1067.9337349397592" Y="596.6773761713521" GraphRef="eeee5" RelX="0.0" RelY="1.0" />
-      <Point X="1216.4337349397592" Y="733.6773761713521" GraphRef="b828c" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="1216.4337349397592" Y="733.6773761713521" GraphRef="ee6bc" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -445,7 +445,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="aa545">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="397.433734939759" Y="446.6773761713521" GraphRef="eca69" RelX="0.0" RelY="1.0" />
+      <Point X="397.433734939759" Y="446.6773761713521" GraphRef="d0795" RelX="0.0" RelY="1.0" />
       <Point X="397.43373493975906" Y="586.6773761713521" GraphRef="b1115" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -477,7 +477,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="b25cf">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="188.43373493975906" Y="270.6773761713521" GraphRef="ba831" RelX="0.5" RelY="-1.0" />
+      <Point X="188.43373493975906" Y="270.6773761713521" GraphRef="a564e" RelX="0.5" RelY="-1.0" />
       <Point X="187.3042743588462" Y="256.6773761713521" GraphRef="e0e15" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -645,7 +645,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="c5f71">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="457.433734939759" Y="652.6773761713521" GraphRef="fb236" RelX="1.0" RelY="0.0" />
+      <Point X="457.433734939759" Y="652.6773761713521" GraphRef="c4d4d" RelX="1.0" RelY="0.0" />
       <Point X="539.933734939759" Y="652.6773761713521" GraphRef="e319d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -680,14 +680,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="c8eca">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="705.4337349397591" Y="872.6773761713521" GraphRef="fb6fe" RelX="-1.0" RelY="0.0" />
+      <Point X="705.4337349397591" Y="872.6773761713521" GraphRef="aaac7" RelX="-1.0" RelY="0.0" />
       <Point X="535.5845818581064" Y="869.7447419618352" GraphRef="cad77" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c9119">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="242.43373493975906" Y="604.6773761713521" GraphRef="abaee" RelX="1.0" RelY="0.0" />
+      <Point X="242.43373493975906" Y="604.6773761713521" GraphRef="f4994" RelX="1.0" RelY="0.0" />
       <Point X="274.93373493975906" Y="605.4219000582549" GraphRef="f9f8a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -752,7 +752,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="d07a2">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="437.433734939759" Y="225.67737617135208" GraphRef="f3564" RelX="0.0" RelY="-1.0" />
+      <Point X="437.433734939759" Y="225.67737617135208" GraphRef="ff51f" RelX="0.0" RelY="-1.0" />
       <Point X="437.5688700748942" Y="144.67737617135208" GraphRef="a8fde" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -903,7 +903,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="e3b76">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="450.433734939759" Y="745.1773761713521" GraphRef="a61f9" RelX="1.0" RelY="0.0" />
+      <Point X="450.433734939759" Y="745.1773761713521" GraphRef="e5d21" RelX="1.0" RelY="0.0" />
       <Point X="535.7019877278631" Y="744.6806475468168" GraphRef="f76e9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -927,7 +927,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="e917a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="500.433734939759" Y="484.6773761713521" GraphRef="e606f" RelX="1.0" RelY="0.0" />
+      <Point X="500.433734939759" Y="484.6773761713521" GraphRef="a5d88" RelX="1.0" RelY="0.0" />
       <Point X="539.677628310767" Y="484.6788633260533" GraphRef="e8be5" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -976,7 +976,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="f3d18">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="437.433734939759" Y="288.6773761713521" GraphRef="f3564" RelX="0.0" RelY="1.0" />
+      <Point X="437.433734939759" Y="288.6773761713521" GraphRef="ff51f" RelX="0.0" RelY="1.0" />
       <Point X="437.6864039789049" Y="354.6773761713521" GraphRef="f6284" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1044,7 +1044,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="fea57">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="736.4337349397591" Y="649.6773761713521" GraphRef="c460e" RelX="-1.0" RelY="0.0" />
+      <Point X="736.4337349397591" Y="649.6773761713521" GraphRef="dbebc" RelX="-1.0" RelY="0.0" />
       <Point X="661.6211991303649" Y="649.8564606954707" GraphRef="e2b2e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1061,18 +1061,23 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="DNA adducts" GraphId="c2bf5">
     <Graphics CenterX="1258.4337349397592" CenterY="822.6773761713521" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
   </Label>
-  <Group GroupId="e5d21" GraphId="a61f9" Style="Complex" />
-  <Group GroupId="f4994" GraphId="abaee" Style="Complex" />
-  <Group GroupId="ee6bc" GraphId="b828c" Style="Complex" />
-  <Group GroupId="a564e" GraphId="ba831" Style="Complex" />
-  <Group GroupId="dbebc" GraphId="c460e" Style="Complex" />
-  <Group GroupId="a5d88" GraphId="e606f" Style="Complex" />
-  <Group GroupId="d0795" GraphId="eca69" Style="Complex" />
-  <Group GroupId="ff51f" GraphId="f3564" Style="Complex" />
-  <Group GroupId="c4d4d" GraphId="fb236" Style="Complex" />
-  <Group GroupId="aaac7" GraphId="fb6fe" Style="Complex" />
+  <Group GroupId="e5d21" GraphId="e5d21" Style="Complex" />
+  <Group GroupId="f4994" GraphId="f4994" Style="Complex" />
+  <Group GroupId="ee6bc" GraphId="ee6bc" Style="Complex" />
+  <Group GroupId="a564e" GraphId="a564e" Style="Complex" />
+  <Group GroupId="dbebc" GraphId="dbebc" Style="Complex" />
+  <Group GroupId="a5d88" GraphId="a5d88" Style="Complex" />
+  <Group GroupId="d0795" GraphId="d0795" Style="Complex" />
+  <Group GroupId="ff51f" GraphId="ff51f" Style="Complex" />
+  <Group GroupId="c4d4d" GraphId="c4d4d" Style="Complex" />
+  <Group GroupId="aaac7" GraphId="aaac7" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18-steroid hormone biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000780</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6e">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12587805</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1083,6 +1088,30 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarkar MA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Venitz J</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Figg WD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aef">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15607759</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estradiol metabolites as isoform-specific inhibitors of human glutathione S-transferases.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chem Biol Interact</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abel EL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyon RP</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bammler TK</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verlinde CL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lau SS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monks TJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eaton DL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15535854</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic inactivation of estrogens in breast tissue by UDP-glucuronosyltransferase enzymes: an overview.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breast Cancer Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillemette C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belanger A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lepine J</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa4">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12727798</bp:ID>
@@ -1099,15 +1128,17 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Higginbotham SM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cavalieri EL</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2e">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15535854</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16280036</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic inactivation of estrogens in breast tissue by UDP-glucuronosyltransferase enzymes: an overview.</bp:TITLE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic polymorphisms in human SULT1A1 and UGT1A1 genes associate with breast tumor characteristics: a case-series study.</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breast Cancer Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillemette C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belanger A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lepine J</bp:AUTHORS>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shatalova EG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walther SE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Favorova OO</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rebbeck TR</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blanchard RL</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d4e">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10963623</bp:ID>
@@ -1120,11 +1151,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weinshilboum R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weisz J</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18-steroid hormone biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000780</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4d">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9380738</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1156,32 +1182,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smith MA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Templeton DJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montano MM</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aef">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15607759</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estradiol metabolites as isoform-specific inhibitors of human glutathione S-transferases.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chem Biol Interact</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abel EL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyon RP</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bammler TK</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verlinde CL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lau SS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monks TJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eaton DL</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16280036</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic polymorphisms in human SULT1A1 and UGT1A1 genes associate with breast tumor characteristics: a case-series study.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breast Cancer Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shatalova EG</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walther SE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Favorova OO</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rebbeck TR</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blanchard RL</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

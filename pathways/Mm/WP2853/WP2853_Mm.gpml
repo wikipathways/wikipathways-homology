@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Endoderm differentiation" Data-Source="WikiPathways" Version="WP2853_Mm" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Endoderm differentiation" Data-Source="WikiPathways" Version="WP2853_Mm" Last-Modified="20210507125443" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Model depicting endoderm specification based on the literature and highly enriched gene expression profiles via comparison across dozens of independent induced and embryonic pluripotent stem cell lines, following differentiation to multiple lineages (ectoderm, mesoderm, endoderm, embryoid body). The underlying genomic data can be obtained from: 
 https://www.synapse.org/#!Synapse:syn1773109
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2853 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2853.gpml (WP2853_r116557) with a 95.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2853.gpml (WP2853_r116557) with a 96.0% conversion rate.</Comment>
   <Graphics BoardWidth="1741.6857280914523" BoardHeight="937.5611189122586" />
   <DataNode TextLabel="Stat1" GraphId="c897f" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000115415</Comment>
@@ -811,9 +811,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1145.1050587360699" CenterY="331.1018355246382" Width="65.0" Height="20.0" ZOrder="33877" FontSize="10" Valign="Middle" Color="990099" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="MIR132" GraphId="b6452" Type="Rna">
+  <DataNode TextLabel="MIR132" GraphId="b6452" Type="RNA">
     <Graphics CenterX="1145.1050587360699" CenterY="303.41453910769997" Width="65.0" Height="20.0" ZOrder="33880" FontSize="10" Valign="Middle" Color="990099" />
-    <Xref Database="" ID="" />
+    <Xref Database="miRBase mature sequence" ID="MIMAT0000426" />
   </DataNode>
   <DataNode TextLabel="Nr3c1" GraphId="a6dd3" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000113580</Comment>
@@ -909,7 +909,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="ed05d">
     <Graphics ConnectorType="Elbow" ZOrder="33589" LineStyle="Broken" LineThickness="1.0" Color="ff0033">
       <Point X="522.6428571428569" Y="544.5714285714299" GraphRef="a8da4" RelX="0.0" RelY="1.0" />
-      <Point X="476.94707828004414" Y="501.4612274898885" GraphRef="b8d66" RelX="0.5" RelY="1.0" ArrowHead="mim-necessary-stimulation" />
+      <Point X="476.94707828004414" Y="501.4612274898885" GraphRef="b8d66" RelX="0.5" RelY="1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -980,7 +980,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="cce75">
     <Graphics ZOrder="33601" LineThickness="1.0" Color="0000ff">
       <Point X="617.9470782800439" Y="688.4612274899083" GraphRef="fe902" RelX="0.0" RelY="1.0" />
-      <Point X="617.9470782800439" Y="711.127894156579" GraphRef="cf4f8" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="617.9470782800439" Y="711.127894156579" GraphRef="cf4f8" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1375,7 +1375,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="bc4f0">
     <Graphics ZOrder="33655" LineThickness="1.0" Color="0000ff">
       <Point X="617.9470782800439" Y="668.4612274899083" GraphRef="fe902" RelX="0.0" RelY="-1.0" />
-      <Point X="617.9470782800439" Y="652.4612274898935" GraphRef="f3549" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+      <Point X="617.9470782800439" Y="652.4612274898935" GraphRef="f3549" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1728,7 +1728,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="33864" LineThickness="1.0" Color="0000ff">
       <Point X="1177.6050587360699" Y="224.1278941565601" GraphRef="d9f5e" RelX="1.0" RelY="0.0" />
       <Point X="1263.0526782737118" Y="180.10150015845258" />
-      <Point X="1495.6857280914523" Y="136.07510616034506" GraphRef="f4b08" RelX="-1.0" RelY="0.5" ArrowHead="TBar" />
+      <Point X="1495.6857280914523" Y="136.07510616034506" GraphRef="db3f3" RelX="-1.0" RelY="0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1736,7 +1736,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="33865" LineThickness="1.0" Color="0000ff">
       <Point X="1177.6050587360699" Y="224.1278941565601" GraphRef="d9f5e" RelX="1.0" RelY="0.0" />
       <Point X="1243.3489827856024" Y="148.0992481476605" />
-      <Point X="1274.6857280914523" Y="72.07060213876089" GraphRef="d572b" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1274.6857280914523" Y="72.07060213876089" GraphRef="e1819" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1745,7 +1745,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <Point X="1177.6050587360699" Y="250.1278941565601" GraphRef="b6fc3" RelX="1.0" RelY="0.0" />
       <Point X="1244.2337232311838" Y="285.28261728359587" />
       <Point X="1390.8746709833138" Y="320.43734041063163" />
-      <Point X="1537.5156187354437" Y="289.9440232781877" GraphRef="b1fcb" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+      <Point X="1537.5156187354437" Y="289.9440232781877" GraphRef="b1fcb" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1753,7 +1753,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="33870" LineThickness="1.0" Color="0000ff">
       <Point X="1177.6050587360699" Y="250.1278941565601" GraphRef="b6fc3" RelX="1.0" RelY="0.0" />
       <Point X="1244.2337232311838" Y="251.05459444170583" />
-      <Point X="1262.1870670575067" Y="251.98129472685156" GraphRef="e8e01" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1262.1870670575067" Y="251.98129472685156" GraphRef="c891d" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1762,7 +1762,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <Point X="1177.6050587360699" Y="277.1278941565601" GraphRef="a2e6f" RelX="1.0" RelY="0.0" />
       <Point X="1238.6702053158747" Y="396.80365381719423" />
       <Point X="1389.7639345475936" Y="516.4794134778283" />
-      <Point X="1540.8576637793126" Y="496.47941347782825" GraphRef="a8601" RelX="-0.5" RelY="1.0" ArrowHead="TBar" />
+      <Point X="1540.8576637793126" Y="496.47941347782825" GraphRef="bec4c" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1770,7 +1770,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="33875" LineThickness="1.0" Color="0000ff">
       <Point X="1177.6050587360699" Y="277.1278941565601" GraphRef="a2e6f" RelX="1.0" RelY="0.0" />
       <Point X="1238.6702053158747" Y="353.75772828507803" />
-      <Point X="1266.4812802344427" Y="430.38756241359596" GraphRef="a884f" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1266.4812802344427" Y="430.38756241359596" GraphRef="a8ece" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1778,7 +1778,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="33878" LineThickness="1.0" Color="0000ff">
       <Point X="1177.6050587360699" Y="331.1018355246382" GraphRef="efaeb" RelX="1.0" RelY="0.0" />
       <Point X="1225.6408893549626" Y="546.4928407890741" />
-      <Point X="1280.3281857719026" Y="761.8838460535101" GraphRef="b4190" RelX="-1.0" RelY="-0.5" ArrowHead="TBar" />
+      <Point X="1280.3281857719026" Y="761.8838460535101" GraphRef="d6146" RelX="-1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1786,7 +1786,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="33881" LineThickness="1.0" Color="0000ff">
       <Point X="1177.6050587360699" Y="303.41453910769997" GraphRef="b6452" RelX="1.0" RelY="0.0" />
       <Point X="1232.1555473354185" Y="440.04740104966083" />
-      <Point X="1263.4020507708628" Y="576.6802629916217" GraphRef="eb938" RelX="-1.0" RelY="-0.5" ArrowHead="TBar" />
+      <Point X="1263.4020507708628" Y="576.6802629916217" GraphRef="bf9bd" RelX="-1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1795,7 +1795,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <Point X="1177.6050587360699" Y="303.41453910769997" GraphRef="b6452" RelX="1.0" RelY="0.0" />
       <Point X="1232.1555473354185" Y="507.0643762412506" />
       <Point X="1394.6394227369706" Y="710.7142133748013" />
-      <Point X="1557.1232981385224" Y="670.0366889448337" GraphRef="b9a79" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+      <Point X="1557.1232981385224" Y="670.0366889448337" GraphRef="e44ce" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1854,7 +1854,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="e725c">
     <Graphics ConnectorType="Elbow" ZOrder="33901" LineStyle="Broken" LineThickness="1.0" Color="ff0033">
       <Point X="522.6428571428569" Y="544.5714285714299" GraphRef="a8da4" RelX="0.0" RelY="1.0" />
-      <Point X="492.613744946711" Y="596.7945608232204" GraphRef="f2592" RelX="1.0" RelY="0.0" ArrowHead="mim-necessary-stimulation" />
+      <Point X="492.613744946711" Y="596.7945608232204" GraphRef="f2592" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1907,107 +1907,17 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="621.2085638843103" CenterY="488.7945608232268" Width="1182.7258378016968" Height="631.3333333333334" ZOrder="33599" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="0000ff" Rotation="0.0" />
   </Shape>
-  <Group GroupId="bec4c" GraphId="a8601" Style="Group" />
-  <Group GroupId="a8ece" GraphId="a884f" Style="Group" />
-  <Group GroupId="d6146" GraphId="b4190" Style="Group" />
-  <Group GroupId="bc950" GraphId="b65b0" Style="Group" />
-  <Group GroupId="c565f" GraphId="b8bf6" Style="Group" />
-  <Group GroupId="e44ce" GraphId="b9a79" Style="Group" />
-  <Group GroupId="a5026" GraphId="c9f88" Style="Group" />
-  <Group GroupId="e74d8" GraphId="ca246" Style="Group" />
-  <Group GroupId="e1819" GraphId="d572b" Style="Group" />
-  <Group GroupId="dcf88" GraphId="df103" Style="Group" />
-  <Group GroupId="d63e1" GraphId="e460c" Style="Group" />
-  <Group GroupId="bc882" GraphId="e69d6" Style="Group" />
-  <Group GroupId="c891d" GraphId="e8e01" Style="Group" />
-  <Group GroupId="bf9bd" GraphId="eb938" Style="Group" />
-  <Group GroupId="aebee" GraphId="ebe6e" Style="Group" />
-  <Group GroupId="acd5a" GraphId="edd02" Style="Group" />
-  <Group GroupId="db3f3" GraphId="f4b08" Style="Group" />
-  <Group GroupId="d0a57" GraphId="fba64" Style="Group" />
+  <Group GroupId="bec4c" GraphId="bec4c" Style="Group" />
+  <Group GroupId="d6146" GraphId="d6146" Style="Group" />
+  <Group GroupId="a8ece" GraphId="a8ece" Style="Group" />
+  <Group GroupId="bf9bd" GraphId="bf9bd" Style="Group" />
+  <Group GroupId="e44ce" GraphId="e44ce" Style="Group" />
+  <Group GroupId="c891d" GraphId="c891d" Style="Group" />
+  <Group GroupId="d63e1" GraphId="d63e1" Style="Group" />
+  <Group GroupId="db3f3" GraphId="db3f3" Style="Group" />
+  <Group GroupId="e1819" GraphId="e1819" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fff">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15542856</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sox7 plays crucial roles in parietal endoderm differentiation in F9 embryonal carcinoma cells through regulating Gata-4 and Gata-6 expression.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Cell Biol.</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futaki</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayashi</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emoto</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weber</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sekiguchi</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dde">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20805471</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repression of Wnt signaling by a Fer-type nonreceptor tyrosine kinase.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci USA</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Putzke</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rothman</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c8d">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18403408</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dkk1 and Wnt3 interact to control head morphogenesis in the mouse.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Development</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lewis SL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khoo PL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De Young RA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steiner K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wilcock C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mukhopadhyay M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Westphal H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamieson RV</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robb L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tam PP</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edb">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23154981</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The SMAD2/3 corepressor SNON maintains pluripotency through selective repression of mesendodermal genes in human ES cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genes Dev.</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tsuneyoshi</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tan</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poobalan</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sumi</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakatsuji</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suemori</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dunn</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e26">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21741376</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromatin and transcriptional signatures for Nodal signaling during endoderm formation in hESCs</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developmental Biology</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yoon</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chuong</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyolu</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wills</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gupta</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baker</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19544440</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Novel STAT3 target genes exert distinct roles in the inhibition of mesoderm and endoderm differentiation in cooperation with Nanog.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stem Cells</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bourillot</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aksoy</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schreiber</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wianny</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schulz</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hummel</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hubner</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Savatier</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aef">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23592794</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -2034,6 +1944,58 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Won</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhee</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ro</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c8d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18403408</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dkk1 and Wnt3 interact to control head morphogenesis in the mouse.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Development</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lewis SL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khoo PL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De Young RA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steiner K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wilcock C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mukhopadhyay M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Westphal H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamieson RV</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robb L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tam PP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e26">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21741376</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromatin and transcriptional signatures for Nodal signaling during endoderm formation in hESCs</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developmental Biology</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yoon</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chuong</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyolu</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wills</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gupta</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baker</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dde">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20805471</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repression of Wnt signaling by a Fer-type nonreceptor tyrosine kinase.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci USA</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Putzke</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rothman</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15542856</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sox7 plays crucial roles in parietal endoderm differentiation in F9 embryonal carcinoma cells through regulating Gata-4 and Gata-6 expression.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Cell Biol.</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futaki</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayashi</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emoto</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weber</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sekiguchi</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c12">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22960178</bp:ID>

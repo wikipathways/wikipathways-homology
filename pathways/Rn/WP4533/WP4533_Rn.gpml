@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transcription co-factors SKI and SKIL protein partners" Data-Source="WikiPathways" Version="WP4533_Rn" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transcription co-factors SKI and SKIL protein partners" Data-Source="WikiPathways" Version="WP4533_Rn" Last-Modified="20190225090857" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">Several proteins are partners of SKI and / or SKIL. The interacting domains are often not identified.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4533.gpml (WP4533_r103380) with a 85.0% conversion rate.</Comment>
   <BiopaxRef>a19</BiopaxRef>
   <Graphics BoardWidth="620.3625" BoardHeight="547.69" />
-  <DataNode TextLabel="Tead1" Type="GeneProduct" GroupRef="f29cb">
+  <DataNode TextLabel="Tead1" GraphId="a6474" Type="GeneProduct" GroupRef="f29cb">
     <Comment Source="OCR">Tead1-4</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:7003</Comment>
     <Graphics CenterX="119.1424999999999" CenterY="166.2575000000002" Width="90.00000000000004" Height="25.00000000000002" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000015488" />
   </DataNode>
-  <DataNode TextLabel="Tead2" Type="GeneProduct" GroupRef="f29cb">
+  <DataNode TextLabel="Tead2" GraphId="c4f06" Type="GeneProduct" GroupRef="f29cb">
     <Comment Source="OCR">Tead1-4</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:8463</Comment>
     <Graphics CenterX="119.1424999999999" CenterY="191.25750000000022" Width="90.00000000000004" Height="25.00000000000002" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000020695" />
   </DataNode>
-  <DataNode TextLabel="Tead3" Type="GeneProduct" GroupRef="f29cb">
+  <DataNode TextLabel="Tead3" GraphId="a2659" Type="GeneProduct" GroupRef="f29cb">
     <Comment Source="OCR">Tead1-4</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:7005</Comment>
     <Graphics CenterX="119.1424999999999" CenterY="216.25750000000025" Width="90.00000000000004" Height="25.00000000000002" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000000506" />
   </DataNode>
-  <DataNode TextLabel="Tead4" Type="GeneProduct" GroupRef="f29cb">
+  <DataNode TextLabel="Tead4" GraphId="e702c" Type="GeneProduct" GroupRef="f29cb">
     <Comment Source="OCR">Tead1-4</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:7004</Comment>
     <Graphics CenterX="119.1424999999999" CenterY="241.25750000000028" Width="90.00000000000004" Height="25.00000000000002" ZOrder="32768" FontSize="12" Valign="Middle" />
@@ -219,7 +219,7 @@
   </Interaction>
   <Interaction GraphId="idf897efcd">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="172.14249999999993" Y="203.75750000000025" GraphRef="cd054" RelX="1.0" RelY="0.0" />
+      <Point X="172.14249999999993" Y="203.75750000000025" GraphRef="f29cb" RelX="1.0" RelY="0.0" />
       <Point X="308.97500000000025" Y="264.2074999999994" GraphRef="e7b6b" RelX="-1.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -238,15 +238,15 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Group GroupId="f29cb" GraphId="cd054" />
+  <Group GroupId="f29cb" GraphId="f29cb" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a19">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29892481</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transcriptional cofactors Ski and SnoN are major regulators of the TGF-β/Smad signaling pathway in health and disease.</bp:TITLE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signal Transduct Target Ther</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tecalco-Cruz AC</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ríos-López DG</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vázquez-Victorio G</bp:AUTHORS>

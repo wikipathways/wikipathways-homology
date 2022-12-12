@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ATR signaling" Data-Source="WikiPathways" Version="WP3875_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ATR signaling" Data-Source="WikiPathways" Version="WP3875_Pt" Last-Modified="20210522115200" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">This pathway is modeled after Figure 1 in the article " ATR signalling: more than meeting at the fork" (See Bibliography). This pathway details the ATR signaling which commences when there is a gap in the single strand DNA. It details the usage of several independent checkpoint proteins which then cause TOPBP1 dependent activation of the phosphorylation and kinase of a large number of substrates including CHK1 to commence regulation of cellular response to DNA damage and replication stress. 
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3875 CPTAC Assay Portal]</Comment>
@@ -162,6 +162,10 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="638.9285714285716" CenterY="385.4033613445379" Width="80.0" Height="20.0" ZOrder="32826" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000016783" />
   </DataNode>
+  <State GraphRef="a7f39" TextLabel="P" GraphId="f5daa">
+    <Graphics RelX="-0.8907563025210095" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="ae025" TextLabel="P" GraphId="b0312">
     <Graphics RelX="1.0" RelY="-0.4705882352941103" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
@@ -170,17 +174,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="a7f39" TextLabel="P" GraphId="f5daa">
-    <Graphics RelX="-0.8907563025210095" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="b0c75" TextLabel="P" GraphId="bb81d">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <Interaction GraphId="id230f7f96">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="453.9383753501397" Y="126.56582633053259" GraphRef="dfe1a" RelX="-1.0" RelY="0.0" />
+      <Point X="453.9383753501397" Y="126.56582633053259" GraphRef="b6da9" RelX="-1.0" RelY="0.0" />
       <Point X="304.0" Y="166.99696308382676" />
       <Point X="307.3178924575912" Y="207.4280998371209" GraphRef="aa3d6" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
@@ -188,7 +188,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id25b152e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="616.5679271708682" Y="537.5238095238101" GraphRef="c3b11" RelX="0.0" RelY="1.0" />
+      <Point X="616.5679271708682" Y="537.5238095238101" GraphRef="ae77c" RelX="0.0" RelY="1.0" />
       <Point X="613.8347338935583" Y="680.3053221288519" GraphRef="ae025" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -202,7 +202,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id70b63e4d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="616.5679271708682" Y="537.5238095238101" GraphRef="c3b11" RelX="0.0" RelY="1.0" />
+      <Point X="616.5679271708682" Y="537.5238095238101" GraphRef="ae77c" RelX="0.0" RelY="1.0" />
       <Point X="482.49859943977617" Y="776.8515406162471" GraphRef="c740a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -216,8 +216,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id7a55ea95">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="255.37394957983273" Y="124.6638655462184" GraphRef="accc1" RelX="0.0" RelY="1.0" />
-      <Point X="325.2500000000002" Y="235.9999999999998" GraphRef="bf948" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="255.37394957983273" Y="124.6638655462184" GraphRef="ebbe2" RelX="0.0" RelY="1.0" />
+      <Point X="325.2500000000002" Y="235.9999999999998" GraphRef="b051f" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.7433726228860598" Shape="None" GraphId="aa3d6" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -238,7 +238,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idc3613f1d">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="590.1512605042019" Y="315.4390756302521" GraphRef="dd3fb" RelX="-1.0" RelY="-0.5" />
+      <Point X="590.1512605042019" Y="315.4390756302521" GraphRef="b130a" RelX="-1.0" RelY="-0.5" />
       <Point X="464.2857142857143" Y="349.3735966805193" />
       <Point X="473.8312017623016" Y="383.3081177307865" GraphRef="f2abc" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
@@ -246,15 +246,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idca5217b2">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="616.5679271708682" Y="537.5238095238101" GraphRef="c3b11" RelX="0.0" RelY="1.0" />
+      <Point X="616.5679271708682" Y="537.5238095238101" GraphRef="ae77c" RelX="0.0" RelY="1.0" />
       <Point X="773.7717086834735" Y="778.3053221288519" GraphRef="eb3a5" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="iddc744e4d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="427.16666666666737" Y="324.6666666666674" GraphRef="bf948" RelX="0.0" RelY="1.0" />
-      <Point X="495.52626050420145" Y="410.5714285714282" GraphRef="c3b11" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="427.16666666666737" Y="324.6666666666674" GraphRef="b051f" RelX="0.0" RelY="1.0" />
+      <Point X="495.52626050420145" Y="410.5714285714282" GraphRef="ae77c" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.6826332995268939" Shape="None" GraphId="f2abc" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -328,21 +328,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="9-1-1 Complex" GraphId="c7817" GroupRef="b130a">
     <Graphics CenterX="638.1512605042019" CenterY="304.1176470588235" Width="80.0" Height="20.0" ZOrder="32822" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="ebbe2" GraphId="accc1" Style="Group" />
-  <Group GroupId="da45a" GraphId="bf570" Style="Group" />
-  <Group GroupId="b051f" GraphId="bf948" Style="Group" />
-  <Group GroupId="ae77c" GraphId="c3b11" Style="Group" />
-  <Group GroupId="b130a" GraphId="dd3fb" Style="Group" />
-  <Group GroupId="b6da9" GraphId="dfe1a" Style="Group" />
-  <Group GroupId="cd579" GraphId="e5c1e" Style="Group" />
-  <Group GroupId="d775f" GraphId="e6ae7" Style="Complex" />
+  <Group GroupId="ebbe2" GraphId="ebbe2" Style="Group" />
+  <Group GroupId="b051f" GraphId="b051f" Style="Group" />
+  <Group GroupId="ae77c" GraphId="ae77c" Style="Group" />
+  <Group GroupId="b130a" GraphId="b130a" Style="Group" />
+  <Group GroupId="b6da9" GraphId="b6da9" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA replication pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000098</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA damage response pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001360</bp:ID>
@@ -357,6 +349,11 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nam EA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cortez D</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA replication pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000098</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

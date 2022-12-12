@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Unfolded protein response" Data-Source="WikiPathways" Version="WP4925_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Unfolded protein response" Data-Source="WikiPathways" Version="WP4925_Pt" Last-Modified="20220727043805" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">The Unfolded Protein Response (UPR) pathway regulates and protects the cell from improperly folded protein overload in the Endoplasmic Reticulum (ER). The UPR can result in the slowing of protein synthesis, which gives the cell time to translate more chaperones to help process the proteins. If the stress is too high, the UPR can eventually trigger apoptosis.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4925.gpml (WP4925_r112845) with a 87.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4925.gpml (WP4925_r123438) with a 84.0% conversion rate.</Comment>
   <BiopaxRef>f66</BiopaxRef>
   <Graphics BoardWidth="1200.3521126760663" BoardHeight="928.0734590245489" />
   <DataNode TextLabel="BCL2" GraphId="a2e15" Type="GeneProduct">
@@ -11,7 +11,7 @@
     <Xref Database="Ensembl" ID="ENSPTRG00000042753" />
   </DataNode>
   <DataNode TextLabel="ROS" GraphId="a3c55" Type="Pathway">
-    <Graphics CenterX="908.4507042253516" CenterY="523.9436619718306" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="908.4507042253516" CenterY="523.9436619718306" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP3941" />
   </DataNode>
   <DataNode TextLabel="NFE2L2" GraphId="a5e9c" Type="GeneProduct">
@@ -44,10 +44,9 @@
     <Graphics CenterX="243.60535931790463" CenterY="330.8541412911093" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000014398" />
   </DataNode>
-  <DataNode TextLabel="CASP8" GraphId="c562d" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = S:A0A0A0MS31</Comment>
+  <DataNode TextLabel="Caspase-8" GraphId="c562d" Type="Protein">
     <Graphics CenterX="522.5352112676039" CenterY="539.436619718309" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSPTRG00000012801" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="BBC3" GraphId="c5925" Type="GeneProduct">
     <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000105327</Comment>
@@ -120,7 +119,7 @@
     <Xref Database="Ensembl" ID="ENSPTRG00000001596" />
   </DataNode>
   <DataNode TextLabel="Apoptosis" GraphId="fc521" Type="Pathway">
-    <Graphics CenterX="871.8309859154929" CenterY="781.6901408450693" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="871.8309859154929" CenterY="781.6901408450693" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP254" />
   </DataNode>
   <DataNode TextLabel="BCL2L11" GraphId="fdad8" Type="GeneProduct">
@@ -432,15 +431,15 @@
   </Interaction>
   <Interaction GraphId="ide6826a4a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1069.427527405602" Y="408.47198538368093" GraphRef="ea698" RelX="0.0" RelY="1.0" />
-      <Point X="1069.6833130328866" Y="546.8300852618751" GraphRef="b76fd" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
+      <Point X="1069.427527405602" Y="408.47198538368093" GraphRef="b48e3" RelX="0.0" RelY="1.0" />
+      <Point X="1069.6833130328866" Y="546.8300852618751" GraphRef="b76fd" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ide7294b9a">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1069.427527405602" Y="176.93361753958587" GraphRef="f9f27" RelX="0.0" RelY="1.0" />
-      <Point X="1069.427527405602" Y="342.47198538368" GraphRef="ea698" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="1069.427527405602" Y="342.47198538368" GraphRef="b48e3" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -500,7 +499,7 @@
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Golgi Apparatus" />
     <Graphics CenterX="1086.479902557859" CenterY="376.3702801461631" Width="100.0" Height="200.0" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Golgi Apparatus" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b48e3" GraphId="ea698" Style="Group" />
+  <Group GroupId="b48e3" GraphId="b48e3" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">

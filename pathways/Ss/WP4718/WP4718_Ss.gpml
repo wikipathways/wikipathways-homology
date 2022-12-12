@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cholesterol metabolism with Bloch and Kandutsch-Russell pathways" Data-Source="WikiPathways" Version="WP4718_Ss" Organism="Sus scrofa">
-  <Comment Source="WikiPathways-description">This pathway is inspired by the Lipidmaps&gt;Sterol lipids expended pathway display [https://lipidmaps.org/resources/pathways/vanted.php] and extended with Scheme 1 from Acimovic et al (2013 [https://www.ncbi.nlm.nih.gov/pubmed/23558541]).
-Literature suggests that cholesterol synthesis preferentially starts with the Bloch pathway, however there is a shift to the Kandutsch-Russell part via lathosterol (Bae et al, 1997[https://www.ncbi.nlm.nih.gov/pubmed/9291139]).
-
-Dashed lines indicate that multiple steps are involved to create the final product. Several regulatory effects concerning the metabolites of cholesterol have been indicated as well.
-The content from the Bloch and Kandutsch-Russel pathways have been checked against literature, and differences compared to the original LipidMaps pathway have been coloured turquoise.
-</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4346_106325.gpml] with a 94.0% conversion rate.</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cholesterol metabolism with Bloch and Kandutsch-Russell pathways" Data-Source="WikiPathways" Version="WP4718_Ss" Last-Modified="20210819001226" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4346_106325.gpml] with a 94.0% conversion rate.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4718.gpml (WP4718_r119764) with a 88.0% conversion rate.</Comment>
   <BiopaxRef>ee1</BiopaxRef>
@@ -43,7 +37,6 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
     <Xref Database="LIPID MAPS" ID="LMFA07050281" />
   </DataNode>
   <DataNode TextLabel="CH25H" GraphId="bd6fe" Type="GeneProduct">
-    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:12642</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000138135</Comment>
     <Graphics CenterX="777.348803330767" CenterY="947.4201050713681" Width="64.03938115330558" Height="24.999999999999968" ZOrder="32768" FontSize="12" Valign="Middle" />
@@ -175,7 +168,6 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
     <Xref Database="LIPID MAPS" ID="LMST01010066" />
   </DataNode>
   <DataNode TextLabel="4-alpha-methyl-cholest-8-enone" GraphId="ae3c8" Type="Metabolite">
-    <Comment></Comment>
     <Graphics CenterX="1211.0473376412233" CenterY="577.1087108156903" Width="201.0" Height="24.5" ZOrder="32790" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="LIPID MAPS" ID="LMST01010236" />
   </DataNode>
@@ -526,29 +518,28 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
     <Xref Database="Wikidata" ID="Q207688" />
   </DataNode>
   <DataNode TextLabel="4-methyl zymostenol" GraphId="e68a6" Type="Metabolite">
-    <Comment></Comment>
     <Graphics CenterX="1402.482904987696" CenterY="575.6583291363012" Width="133.56579118149773" Height="24.5" ZOrder="32874" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="009999" />
     <Xref Database="PubChem-compound" ID="22212495" />
   </DataNode>
   <DataNode TextLabel="4-methyl zymostenone" GraphId="cabd2" Type="Metabolite">
     <Comment>C12CC[C@@]3([H])C(C)[C](=O)CC[C@]3(C)C=1CC[C@]1(C)[C@@]([H])([C@@](C)([H])CC/CC(\C)/C)CC[C]21H</Comment>
     <Graphics CenterX="1402.482904987696" CenterY="525.8946682866001" Width="133.56579118149773" Height="24.5" ZOrder="32875" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="009999" />
-    <Xref Database="LIPID MAPS" ID="" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="4-methyl-4-carboxy&#xA;zymostenone" GraphId="dfc66" Type="Metabolite">
     <Comment>C12CC[C@@]3([H])C(C)(COOH)[C@@H](O)CC[C@]3(C)C=1CC[C@]1(C)[C@@]([H])([C@@](C)([H])CC/CC(\C)/C)CC[C]21H</Comment>
     <Graphics CenterX="1402.482904987696" CenterY="466.6383225135639" Width="133.56579118149773" Height="30.141289184308924" ZOrder="32877" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="009999" />
-    <Xref Database="LIPID MAPS" ID="" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="dihydro-FF-MAS" GraphId="de222" Type="Metabolite">
     <Comment>C12CC[C@@]3([H])C(C)(C)[C@@H](O)CC[C@]3(C)C=1CC[C@]1(C)[C@@]([H])([C@@](C)([H])CC/CC(\C)/C)CC=[C@@]21C</Comment>
     <Graphics CenterX="1402.482904987696" CenterY="364.4645338670388" Width="133.5657911814977" Height="24.499999999999986" ZOrder="32879" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="009999" />
-    <Xref Database="LIPID MAPS" ID="" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="dihydro-T-MAS" GraphId="e7de2" Type="Metabolite">
     <Comment>C12CC[C@@]3([H])C(C)(C)[C@@H](O)CC[C@]3(C)C=1CC[C@]1(C)[C@@]([H])([C@@](C)([H])CC/CC(\C)/C)CC[C]21H</Comment>
     <Graphics CenterX="1402.482904987696" CenterY="413.792722604356" Width="133.56579118149776" Height="24.500000000000043" ZOrder="32880" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="009999" />
-    <Xref Database="LIPID MAPS" ID="" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="CYP51A1" GraphId="fc99e" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:Q8K0C4</Comment>
@@ -583,17 +574,17 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   <DataNode TextLabel="4-methyl zymosterol" GraphId="f5d6b" Type="Metabolite">
     <Comment>C12CC[C@@]3([H])C(C)[C@@H](O)CC[C@]3(C)C=1CC[C@]1(C)[C@@]([H])([C@@](C)([H])CC/C=C(\C)/C)CC[C]21H</Comment>
     <Graphics CenterX="661.0634706276694" CenterY="575.6583291363012" Width="133.56579118149773" Height="24.5" ZOrder="32893" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="009999" />
-    <Xref Database="PubChem-compound" ID="" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="4-methyl zymosterone" GraphId="a40ba" Type="Metabolite">
     <Comment>C12CC[C@@]3([H])C(C)[C](=O)CC[C@]3(C)C=1CC[C@]1(C)[C@@]([H])([C@@](C)([H])CC/C=C(\C)/C)CC[C]21H</Comment>
     <Graphics CenterX="661.0634706276694" CenterY="525.8946682866001" Width="133.56579118149773" Height="24.5" ZOrder="32894" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="009999" />
-    <Xref Database="LIPID MAPS" ID="" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="4-methyl-4-carboxy&#xA;zymosterone" GraphId="fffd1" Type="Metabolite">
     <Comment>C12CC[C@@]3([H])C(C)(COOH)[C@@H](O)CC[C@]3(C)C=1CC[C@]1(C)[C@@]([H])([C@@](C)([H])CC/C=C(\C)/C)CC[C]21H</Comment>
     <Graphics CenterX="661.0634706276694" CenterY="466.63832251356376" Width="133.56579118149773" Height="30.141289184308924" ZOrder="32895" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="009999" />
-    <Xref Database="LIPID MAPS" ID="" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="FF-MAS" GraphId="b2096" Type="Metabolite">
     <Comment>aka 14-demethyl-14-dehydrolanosterol</Comment>
@@ -604,7 +595,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   <DataNode TextLabel="T-MAS" GraphId="f7a7a" Type="Metabolite">
     <Comment>C12CC[C@@]3([H])C(C)(C)[C@@H](O)CC[C@]3(C)C=1CC[C@]1(C)[C@@]([H])([C@@](C)([H])CC/C=C(\C)/C)CC[C]21H SMILES</Comment>
     <Graphics CenterX="661.0634706276712" CenterY="413.792722604356" Width="133.56579118149776" Height="24.500000000000043" ZOrder="32897" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="009999" />
-    <Xref Database="LIPID MAPS" ID="" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="TM7SF2" GraphId="ce460" Type="Protein" GroupRef="bd81d">
     <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:73166</Comment>
@@ -682,7 +673,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="id118aacac">
     <Comment>multi-step process</Comment>
-    <BiopaxRef>d66</BiopaxRef>
+    <BiopaxRef>ee1</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1402.4829049876957" Y="587.9083291363012" GraphRef="e68a6" RelX="0.0" RelY="1.0" />
       <Point X="1293.5473376412233" Y="657.3725997045777" GraphRef="bd2e7" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
@@ -691,8 +682,8 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="id1586f5fd">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="278.14173170734426" Y="1305.41037118051" GraphRef="b666f" RelX="1.0" RelY="0.5" />
-      <Point X="332.76875768757725" Y="1305.430504305045" GraphRef="e711d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="278.14173170734426" Y="1305.41037118051" GraphRef="c86a4" RelX="1.0" RelY="0.5" />
+      <Point X="332.76875768757725" Y="1305.430504305045" GraphRef="f4bff" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -729,7 +720,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="id26f4efb8">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="601.7834617959634" Y="387.7095126788662" GraphRef="ebd54" RelX="1.0" RelY="0.0" />
+      <Point X="601.7834617959634" Y="387.7095126788662" GraphRef="bd81d" RelX="1.0" RelY="0.0" />
       <Point X="661.0634706276712" Y="388.5189282471843" GraphRef="b65bd" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -797,7 +788,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   <Interaction GraphId="id469a490c">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="247.32564499318391" Y="995.5409356725155" GraphRef="aa220" RelX="0.0" RelY="1.0" />
-      <Point X="322.4397545017657" Y="1092.982456140351" GraphRef="c1a72" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="322.4397545017657" Y="1092.982456140351" GraphRef="f46e6" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -857,7 +848,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="id5468365a">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="1060.6254374978193" Y="570.0308275526802" GraphRef="ef561" RelX="0.5" RelY="-1.0" />
+      <Point X="1060.6254374978193" Y="570.0308275526802" GraphRef="b180c" RelX="0.5" RelY="-1.0" />
       <Point X="1211.0473376412233" Y="455.62259970458" GraphRef="be483" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1019,28 +1010,28 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="id8c808d63">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="217.12459170689868" Y="201.40038101854904" GraphRef="c731c" RelX="1.0" RelY="0.0" />
+      <Point X="217.12459170689868" Y="201.40038101854904" GraphRef="afa33" RelX="1.0" RelY="0.0" />
       <Point X="270.1995799757554" Y="201.68067226890756" GraphRef="c43bc" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id91f4cea8">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="217.12459170689863" Y="274.8083989501308" GraphRef="a0779" RelX="1.0" RelY="0.0" />
+      <Point X="217.12459170689863" Y="274.8083989501308" GraphRef="e48eb" RelX="1.0" RelY="0.0" />
       <Point X="270.1995799757554" Y="276.26050420168065" GraphRef="cc986" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id99716213">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="363.06306161830514" Y="625.2960365248439" GraphRef="bf311" RelX="0.0" RelY="-1.0" />
+      <Point X="363.06306161830514" Y="625.2960365248439" GraphRef="caab0" RelX="0.0" RelY="-1.0" />
       <Point X="362.2741482850916" Y="599.0" GraphRef="addfa" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ida1c96ec8">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="694.8559022396169" Y="1090.1617105743333" GraphRef="b4b55" RelX="-1.0" RelY="0.0" />
+      <Point X="694.8559022396169" Y="1090.1617105743333" GraphRef="ddde4" RelX="-1.0" RelY="0.0" />
       <Point X="597.3261636250879" Y="1083.0563984659557" GraphRef="b2f18" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1055,7 +1046,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="ida2f78071">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="634.7936422836558" Y="675.7848569663622" GraphRef="e58e8" RelX="1.0" RelY="0.0" />
+      <Point X="634.7936422836558" Y="675.7848569663622" GraphRef="a24ae" RelX="1.0" RelY="0.0" />
       <Point X="689.0905779653867" Y="615.6940373636118" GraphRef="dd250" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1138,7 +1129,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="idc0f88a18">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="362.7378792236856" Y="557.3532655812648" GraphRef="b514b" RelX="0.0" RelY="1.0" />
+      <Point X="362.7378792236856" Y="557.3532655812648" GraphRef="fbff3" RelX="0.0" RelY="1.0" />
       <Point X="477.88600074909596" Y="570.1603064843523" GraphRef="a2df4" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1184,7 +1175,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="idc7299d04">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="904.6169548277586" Y="533.6581130660429" GraphRef="cf9f1" RelX="-1.0" RelY="0.0" />
+      <Point X="904.6169548277586" Y="533.6581130660429" GraphRef="ae052" RelX="-1.0" RelY="0.0" />
       <Point X="813.2069865213283" Y="534.5907552044445" GraphRef="a7393" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1215,7 +1206,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="idcf574b49">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="981.1254374978193" Y="615.5308275526801" GraphRef="ef561" RelX="-1.0" RelY="0.0" />
+      <Point X="981.1254374978193" Y="615.5308275526801" GraphRef="b180c" RelX="-1.0" RelY="0.0" />
       <Point X="813.6312389719627" Y="616.0388821385177" GraphRef="fd234" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1231,7 +1222,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="idd4ddcb4a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="362.7378792236856" Y="509.5540529828398" GraphRef="b514b" RelX="0.0" RelY="-1.0" />
+      <Point X="362.7378792236856" Y="509.5540529828398" GraphRef="fbff3" RelX="0.0" RelY="-1.0" />
       <Point X="477.88600074909596" Y="502.7" GraphRef="ba2c1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1239,7 +1230,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   <Interaction GraphId="idd5b4b329">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="905.2491660519163" Y="1013.361462728551" GraphRef="d8c85" RelX="-1.0" RelY="0.5" />
-      <Point X="597.3261636250879" Y="1192.499074690947" GraphRef="c3e0a" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="597.3261636250879" Y="1192.499074690947" GraphRef="c1e92" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.7752996793587327" Shape="None" GraphId="b2f18" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1254,7 +1245,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   <Interaction GraphId="idd9f102da">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="217.42805859533303" Y="983.0409356725155" GraphRef="aa220" RelX="-1.0" RelY="0.0" />
-      <Point X="199.97822179316805" Y="1199.6603711805096" GraphRef="b666f" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="199.97822179316805" Y="1199.6603711805096" GraphRef="c86a4" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
       <Anchor Position="0.4" Shape="None" GraphId="a892b" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1294,8 +1285,8 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="idee42014b">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="366.12146371463746" Y="1272.2429274292763" GraphRef="e711d" RelX="-0.5" RelY="-1.0" />
-      <Point X="459.80928598795754" Y="1225.249074690947" GraphRef="c3e0a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="366.12146371463746" Y="1272.2429274292763" GraphRef="f4bff" RelX="-0.5" RelY="-1.0" />
+      <Point X="459.80928598795754" Y="1225.249074690947" GraphRef="c1e92" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1319,7 +1310,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="130.33353552726487" Y="989.2909356725154" GraphRef="f84f3" RelX="-1.0" RelY="0.5" />
       <Point X="40.60324825986079" Y="595.3456583455322" />
-      <Point X="130.940208504799" Y="201.40038101854904" GraphRef="c731c" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="130.940208504799" Y="201.40038101854904" GraphRef="afa33" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1340,7 +1331,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="e44c5">
     <Graphics ConnectorType="Elbow" ZOrder="32838" LineThickness="1.0">
-      <Point X="984.1169548277586" Y="501.3613479464934" GraphRef="cf9f1" RelX="0.5" RelY="-1.0" />
+      <Point X="984.1169548277586" Y="501.3613479464934" GraphRef="ae052" RelX="0.5" RelY="-1.0" />
       <Point X="1211.0473376412233" Y="390.07776020205523" GraphRef="eb698" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1371,14 +1362,14 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   <Interaction GraphId="a101d">
     <Graphics ZOrder="32846" LineThickness="1.0">
       <Point X="693.8935989162533" Y="983.0409356725155" GraphRef="a2216" RelX="-1.0" RelY="0.0" />
-      <Point X="435.2117305054263" Y="983.0409356725155" GraphRef="be5a1" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="435.2117305054263" Y="983.0409356725155" GraphRef="b48a1" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e4ff7">
     <Graphics ConnectorType="Elbow" ZOrder="32848" LineThickness="1.0">
       <Point X="731.6614616654938" Y="897.903364656834" GraphRef="e9838" RelX="-1.0" RelY="0.5" />
-      <Point X="377.4988805413201" Y="962.5409356725155" GraphRef="be5a1" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="377.4988805413201" Y="962.5409356725155" GraphRef="b48a1" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1415,12 +1406,12 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
     <Graphics ConnectorType="Elbow" ZOrder="32857" LineThickness="1.0">
       <Point X="130.33353552726487" Y="976.7909356725154" GraphRef="f84f3" RelX="-1.0" RelY="-0.5" />
       <Point X="76.56612529002321" Y="625.7996673113231" />
-      <Point X="130.94020850479893" Y="274.8083989501308" GraphRef="a0779" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="130.94020850479893" Y="274.8083989501308" GraphRef="e48eb" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="cbdab">
-    <BiopaxRef>d66</BiopaxRef>
+    <BiopaxRef>ee1</BiopaxRef>
     <Graphics ZOrder="32876" LineThickness="1.0">
       <Point X="1402.4829049876957" Y="538.1446682866001" GraphRef="cabd2" RelX="0.0" RelY="1.0" />
       <Point X="1402.4829049876957" Y="563.4083291363012" GraphRef="e68a6" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1429,7 +1420,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a958f">
-    <BiopaxRef>d66</BiopaxRef>
+    <BiopaxRef>ee1</BiopaxRef>
     <Graphics ZOrder="32878" LineThickness="1.0">
       <Point X="1402.4829049876957" Y="481.70896710571833" GraphRef="dfc66" RelX="0.0" RelY="1.0" />
       <Point X="1402.4829049876957" Y="513.6446682866001" GraphRef="cabd2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1438,7 +1429,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a4192">
-    <BiopaxRef>d66</BiopaxRef>
+    <BiopaxRef>ee1</BiopaxRef>
     <Graphics ZOrder="32881" LineThickness="1.0">
       <Point X="1402.482904987696" Y="426.0427226043561" GraphRef="e7de2" RelX="0.0" RelY="1.0" />
       <Point X="1402.4829049876957" Y="451.5676779214094" GraphRef="dfc66" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1447,7 +1438,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e98b2">
-    <BiopaxRef>d66</BiopaxRef>
+    <BiopaxRef>ee1</BiopaxRef>
     <Graphics ZOrder="32882" LineThickness="1.0">
       <Point X="1402.4829049876957" Y="376.7145338670388" GraphRef="de222" RelX="0.0" RelY="1.0" />
       <Point X="1402.482904987696" Y="401.5427226043561" GraphRef="e7de2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1456,7 +1447,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e1293">
-    <BiopaxRef>d66</BiopaxRef>
+    <BiopaxRef>ee1</BiopaxRef>
     <Graphics ZOrder="32883" LineThickness="1.0">
       <Point X="1293.5473376412233" Y="358.3395338670387" GraphRef="f09d4" RelX="1.0" RelY="-0.5" />
       <Point X="1335.7000093969468" Y="358.3395338670388" GraphRef="de222" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
@@ -1475,7 +1466,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   <Interaction GraphId="fd40a">
     <BiopaxRef>ee1</BiopaxRef>
     <Graphics ZOrder="32887" LineThickness="1.0">
-      <Point X="1472.6216894863066" Y="388.23972217781" GraphRef="a19bf" RelX="-1.0" RelY="0.0" />
+      <Point X="1472.6216894863066" Y="388.23972217781" GraphRef="b1f6a" RelX="-1.0" RelY="0.0" />
       <Point X="1402.482904987696" Y="389.53818791389966" GraphRef="ef4d4" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1555,7 +1546,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   </Interaction>
   <Interaction GraphId="a92d2">
     <Comment>multi-step process</Comment>
-    <BiopaxRef>d66</BiopaxRef>
+    <BiopaxRef>ee1</BiopaxRef>
     <Graphics ZOrder="32912" LineStyle="Broken" LineThickness="1.0">
       <Point X="661.0634706276694" Y="587.9083291363012" GraphRef="f5d6b" RelX="0.0" RelY="1.0" />
       <Point X="731.1312389719626" Y="657.3725997045776" GraphRef="f3008" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
@@ -1714,74 +1705,23 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
   <Label TextLabel="Sterol biosynthesis" GraphId="fc25d">
     <Graphics CenterX="73.32485547370204" CenterY="982.0668647643848" Width="110.89089230085582" Height="25.0" ZOrder="32858" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="b6286" Style="Group" />
-  <Group GroupId="a7a65" Style="Group" />
-  <Group GroupId="e48eb" GraphId="a0779" Style="Group" />
-  <Group GroupId="b1f6a" GraphId="a19bf" Style="Group" />
-  <Group GroupId="c804b" GraphId="ae0aa" Style="Group" />
-  <Group GroupId="ddde4" GraphId="b4b55" Style="Group" />
-  <Group GroupId="fbff3" GraphId="b514b" Style="Group" />
-  <Group GroupId="c86a4" GraphId="b666f" Style="Group" />
-  <Group GroupId="b48a1" GraphId="be5a1" Style="Group" />
-  <Group GroupId="caab0" GraphId="bf311" Style="Group" />
-  <Group GroupId="f46e6" GraphId="c1a72" Style="Group" />
-  <Group GroupId="c1e92" GraphId="c3e0a" Style="Group" />
-  <Group GroupId="afa33" GraphId="c731c" Style="Group" />
-  <Group GroupId="ae052" GraphId="cf9f1" Style="Group" />
-  <Group GroupId="a24ae" GraphId="e58e8" Style="Group" />
-  <Group GroupId="f4bff" GraphId="e711d" Style="Group" />
-  <Group GroupId="bd81d" GraphId="ebd54" Style="Group" />
-  <Group GroupId="b180c" GraphId="ef561" Style="Group" />
+  <Group GroupId="e48eb" GraphId="e48eb" Style="Group" />
+  <Group GroupId="b1f6a" GraphId="b1f6a" Style="Group" />
+  <Group GroupId="ddde4" GraphId="ddde4" Style="Group" />
+  <Group GroupId="fbff3" GraphId="fbff3" Style="Group" />
+  <Group GroupId="c86a4" GraphId="c86a4" Style="Group" />
+  <Group GroupId="b48a1" GraphId="b48a1" Style="Group" />
+  <Group GroupId="caab0" GraphId="caab0" Style="Group" />
+  <Group GroupId="f46e6" GraphId="f46e6" Style="Group" />
+  <Group GroupId="c1e92" GraphId="c1e92" Style="Group" />
+  <Group GroupId="afa33" GraphId="afa33" Style="Group" />
+  <Group GroupId="ae052" GraphId="ae052" Style="Group" />
+  <Group GroupId="a24ae" GraphId="a24ae" Style="Group" />
+  <Group GroupId="f4bff" GraphId="f4bff" Style="Group" />
+  <Group GroupId="bd81d" GraphId="bd81d" Style="Group" />
+  <Group GroupId="b180c" GraphId="b180c" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000454</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000959</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001304</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbb">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 23558541</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steroidal triterpenes of cholesterol synthesis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecules</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23558541</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steroidal triterpenes of cholesterol synthesis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecules</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ačimovič J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rozman D</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3d">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22156476</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liver x receptor modulation of gene expression leading to proluteolytic effects in primate luteal cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biol Reprod</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogan RL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Debarber AE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hennebold JD</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee1">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23558541</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steroidal triterpenes of cholesterol synthesis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecules</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ačimovič J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rozman D</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4e">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20923771</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1817,17 +1757,7 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fahy E</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subramaniam S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d66">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steroidal triterpenes of cholesterol synthesis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecules</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23558541</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steroidal triterpenes of cholesterol synthesis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecules</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbb">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23558541</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steroidal triterpenes of cholesterol synthesis.</bp:TITLE>
@@ -1836,12 +1766,12 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ačimovič J</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rozman D</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000454</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb8">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9291139</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9291139</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholesterol biosynthesis from lanosterol: development of a novel assay method and characterization of rat liver microsomal lanosterol delta 24-reductase.</bp:TITLE>
@@ -1849,6 +1779,35 @@ The content from the Bloch and Kandutsch-Russel pathways have been checked again
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bae SH</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paik YK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000959</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22156476</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liver x receptor modulation of gene expression leading to proluteolytic effects in primate luteal cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biol Reprod</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogan RL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Debarber AE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hennebold JD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001304</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23558541</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steroidal triterpenes of cholesterol synthesis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecules</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ačimovič J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rozman D</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

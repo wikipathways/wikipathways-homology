@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NAD+ biosynthetic pathways" Data-Source="WikiPathways" Version="WP3645_Cf" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NAD+ biosynthetic pathways" Data-Source="WikiPathways" Version="WP3645_Cf" Last-Modified="20220830124120" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">NAD+ biosynthetic pathways. NAD+ levels are maintained by three independent pathways. First, the Preiss-Handler pathway uses dietary nicotinic acid and the enzyme nicotinic acid phosphoribosyltransferase (NAPRT) to generate NAMN, which is then transformed into NAAD by NAMN transferase (NMNAT). Three forms of this enzyme (NMNAT1, -2, and -3) have distinct subcellular localizations. The process is completed by the transformation of NAAD into NAD+ by NAD+ synthase (NADS). Second, the de novo synthesis pathway of NAD from tryptophan occurs through the kinurenine pathway (5). The first step in this pathway is the rate-limiting conversion of tryptophan to N-formylkinurenine (N-formylkin) by either IDO or TDO. Formylkinurenine is transformed into L-kinurenine (L-kin), 3-hydroxykinurenine, and 3-hydroxyanthranilic acid (3-HAA) and finally to ACMS. This compound can spontaneously condense and rearrange into quinolinic acid, which is transformed into NAMN, at which point it converges with the Preiss-Handler pathway. ACMS can also be decarboxylated into AMS by ACMS decarboxylase (ACMSD), leading to its oxidation into acetyl-CoA via the TCA cycle. Third, the NAD+ salvage pathway recycles the nicotinamide generated as a by-product of the enzymatic activities of NAD+-consuming enzymes: sirtuins, PARPs, and the cADPR synthases (CD38 and CD157). Initially, NAMPT recycles nicotinamide into NMN, which is then converted into NAD+ via the different NMNATs.
 
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3645 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3645.gpml (WP3645_r118940) with a 95.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3645.gpml (WP3645_r123910) with a 95.0% conversion rate.</Comment>
   <BiopaxRef>ccb</BiopaxRef>
   <BiopaxRef>d27</BiopaxRef>
-  <Graphics BoardWidth="979.579831932773" BoardHeight="794.7058823529411" />
+  <Graphics BoardWidth="982.884480374429" BoardHeight="794.7058823529411" />
   <DataNode TextLabel="SIRT1" GraphId="a231b" Type="GeneProduct" GroupRef="fbdf9">
     <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000096717</Comment>
     <Graphics CenterX="735.5" CenterY="537.0" Width="55.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -108,7 +108,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="AMS" GraphId="ed4af" Type="Metabolite">
     <Graphics CenterX="821.4285714285716" CenterY="346.6386554621848" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="HMDB" ID="HMDB0001330" />
+    <Xref Database="ChEBI" ID="CHEBI:77634" />
   </DataNode>
   <DataNode TextLabel="Quinolinic acid" GraphId="ed524" Type="Metabolite">
     <Graphics CenterX="636.0" CenterY="276.3949579831932" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
@@ -268,16 +268,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id4b4d6e1e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="820.9453781512595" Y="286.3949579831932" GraphRef="a4d35" RelX="0.0" RelY="1.0" />
-      <Point X="821.4285714285716" Y="336.6386554621848" GraphRef="ed4af" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="821.4285714285716" Y="336.6386554621848" GraphRef="ed4af" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.4" Shape="None" GraphId="b0d2f" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref Database="Rhea" ID="16558" />
   </Interaction>
   <Interaction GraphId="id57a7eeb5">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="508.68067226890753" Y="457.69957983193274" GraphRef="ff105" RelX="0.5" RelY="1.0" />
       <Point X="604.2153361344538" Y="494.7478991596638" />
-      <Point X="699.75" Y="518.0" GraphRef="c15d5" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="699.75" Y="518.0" GraphRef="fbdf9" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -362,7 +362,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idd5d71491">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="699.75" Y="695.0" GraphRef="c15d5" RelX="0.0" RelY="1.0" />
+      <Point X="699.75" Y="695.0" GraphRef="fbdf9" RelX="0.0" RelY="1.0" />
       <Point X="700.1025358324146" Y="729.6485607536966" GraphRef="a663b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -438,7 +438,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="470.57143477775094" CenterY="582.6989809217632" Width="130.55460943609316" Height="20.0" ZOrder="32774" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" />
   </Label>
   <Shape GraphId="aee9e">
-    <Graphics CenterX="720.5483459206474" CenterY="227.32067510548524" Width="430.67226890756297" Height="378.6919831223628" ZOrder="-8" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
+    <Graphics CenterX="737.5483459206475" CenterY="226.32067510548524" Width="430.67226890756297" Height="378.6919831223628" ZOrder="-8" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
   </Shape>
   <Shape GraphId="e0800">
     <Graphics CenterX="257.8781512605042" CenterY="225.92011488139556" Width="393.90756302521" Height="375.89086267418355" ZOrder="-6" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
@@ -446,12 +446,12 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="aea97">
     <Graphics CenterX="502.62605042016804" CenterY="618.5504201680671" Width="893.9075630252099" Height="292.3109243697479" ZOrder="-2" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="999999" Rotation="0.0" />
   </Shape>
-  <Group GroupId="fbdf9" GraphId="c15d5" Style="Group" />
+  <Group GroupId="fbdf9" GraphId="fbdf9" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine dinucleotide biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000219</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d27">
@@ -463,19 +463,19 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogan KL</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brenner C</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine dinucleotide biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000219</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ccb">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26785480</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAD⁺ in aging, metabolism, and neurodegeneration.</bp:TITLE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NADâ�º in aging, metabolism, and neurodegeneration.</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdin E</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

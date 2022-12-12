@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Modulators of TCR signaling and T cell activation" Data-Source="WikiPathways" Version="WP5072_Rn" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Modulators of TCR signaling and T cell activation" Data-Source="WikiPathways" Version="WP5072_Rn" Last-Modified="20210311001705" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">Modulators of TCR signaling and T cell activation from a genome-wide screen, with positive regulators on the left and negative regulators on the right (known and unknown). 
 Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut et al.], and originally adapted from [http://www.ncbi.nlm.nih.gov/pubmed/20067622 NetPath].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
@@ -339,11 +339,11 @@ Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut e
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="fca8f" TextLabel="P" GraphId="c07c1">
+  <State GraphRef="ee70d" TextLabel="P" GraphId="d2104">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="ee70d" TextLabel="P" GraphId="d2104">
+  <State GraphRef="fca8f" TextLabel="P" GraphId="c07c1">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -481,7 +481,7 @@ Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut e
   <Interaction GraphId="ided1e986d">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="253.66666666666674" Y="309.5" GraphRef="f5c29" RelX="0.5" RelY="-1.0" />
-      <Point X="693.5833333333333" Y="281.16666666666674" GraphRef="ed814" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="693.5833333333333" Y="281.16666666666674" GraphRef="bfc3a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -504,7 +504,7 @@ Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut e
   <Interaction GraphId="d11d2">
     <Comment>TCR stimulation leads to tyrosine phosphorylation of CD3E and its binding to the SH2 domains of ZAP-70 in Jurkat T cells.</Comment>
     <Graphics ZOrder="33245" LineThickness="1.0">
-      <Point X="422.75" Y="140.5" GraphRef="e5af7" RelX="0.0" RelY="1.0" />
+      <Point X="422.75" Y="140.5" GraphRef="f0321" RelX="0.0" RelY="1.0" />
       <Point X="423.5" Y="194.75" GraphRef="fefd0" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.24399291199054945" Shape="None" GraphId="ddb6e" />
     </Graphics>
@@ -513,7 +513,7 @@ Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut e
   <Interaction GraphId="a00e8">
     <Graphics ZOrder="33255" LineStyle="Broken" LineThickness="1.0">
       <Point X="471.3333333333334" Y="547.8333333333311" GraphRef="bbad2" RelX="0.0" RelY="1.0" />
-      <Point X="470.8333333333334" Y="578.8333333333301" GraphRef="e1fa1" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="470.8333333333334" Y="578.8333333333301" GraphRef="ea0f7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -630,11 +630,10 @@ Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut e
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="cc4f6">
-    <Comment>TCR stimulation induces the oligomerization of MALT1 Oligomerized MALT1 associates with TRAF6 in human Jurkat T cells.
-</Comment>
+    <Comment>TCR stimulation induces the oligomerization of MALT1 Oligomerized MALT1 associates with TRAF6 in human Jurkat T cells.</Comment>
     <Comment>The interaction enhances oligomerization and subsequent ubiquitination of TRAF6 and NEMO, thereby resulting in the activation of TAK1 and IKK.</Comment>
     <Graphics ZOrder="33601" LineThickness="1.0">
-      <Point X="470.8333333333334" Y="669.8333333333301" GraphRef="e1fa1" RelX="0.0" RelY="1.0" />
+      <Point X="470.8333333333334" Y="669.8333333333301" GraphRef="ea0f7" RelX="0.0" RelY="1.0" />
       <Point X="471.00000000000017" Y="689.499999999998" GraphRef="c5e20" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -749,8 +748,8 @@ Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut e
   </Interaction>
   <Interaction GraphId="a6a11">
     <Graphics ZOrder="34000" LineThickness="1.0" Color="ff3333">
-      <Point X="1105.5" Y="184.5" GraphRef="a26ca" RelX="0.0" RelY="-1.0" />
-      <Point X="1105.5" Y="121.00121506682852" GraphRef="e7145" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="1105.5" Y="184.5" GraphRef="f9aa0" RelX="0.0" RelY="-1.0" />
+      <Point X="1105.5" Y="121.00121506682852" GraphRef="dcd46" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -767,8 +766,7 @@ Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut e
       <Point X="783.3333333333339" Y="1016.1666666666662" />
     </Graphics>
   </GraphicalLine>
-  <GraphicalLine GraphId="idf47c2853" GroupRef="dcd46">
-    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+  <GraphicalLine GraphId="af115" GroupRef="dcd46">
     <Graphics ZOrder="34004" LineThickness="2.0" Color="0033cc">
       <Point X="1106.925880923451" Y="86.68894289185897" GraphRef="f4243" RelX="0.0" RelY="1.0" />
       <Point X="1106.9258809234507" Y="113.00121506682852" />
@@ -784,7 +782,7 @@ Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut e
   <Shape TextLabel="Nucleus" GraphId="b1d99">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="694.6666666666704" CenterY="898.9999999999982" Width="647.9999999999959" Height="170.00000000000182" ZOrder="16384" FontSize="12" Align="Right" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="694.6666666666704" CenterY="898.9999999999982" Width="647.9999999999959" Height="170.00000000000182" ZOrder="16384" FontSize="12" Align="Right" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="d01f6">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
@@ -794,16 +792,48 @@ Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut e
   <Shape GraphId="f4243" GroupRef="dcd46">
     <Graphics CenterX="1106.925880923451" CenterY="71.68894289185897" Width="30.0" Height="30.0" ZOrder="34005" FontSize="12" Valign="Middle" ShapeType="Arc" LineThickness="2.0" Color="0033cc" Rotation="0.0" />
   </Shape>
-  <Group GroupId="c45b1" Style="Complex" />
-  <Group GroupId="f9aa0" GraphId="a26ca" Style="Group" />
-  <Group GroupId="fa1e8" GraphId="a8c25" Style="Group" />
-  <Group GroupId="bbc96" GraphId="aa9a2" Style="Group" />
-  <Group GroupId="ea0f7" GraphId="e1fa1" Style="Group" />
-  <Group GroupId="f0321" GraphId="e5af7" Style="Group" />
-  <Group GroupId="dcd46" GraphId="e7145" Style="Group" />
-  <Group GroupId="bfc3a" GraphId="ed814" Style="Group" />
+  <Group GroupId="c45b1" GraphId="c45b1" Style="Complex" />
+  <Group GroupId="f9aa0" GraphId="f9aa0" Style="Group" />
+  <Group GroupId="fa1e8" GraphId="fa1e8" Style="Group" />
+  <Group GroupId="bbc96" GraphId="bbc96" Style="Group" />
+  <Group GroupId="ea0f7" GraphId="ea0f7" Style="Group" />
+  <Group GroupId="f0321" GraphId="f0321" Style="Group" />
+  <Group GroupId="dcd46" GraphId="dcd46" Style="Group" />
+  <Group GroupId="bfc3a" GraphId="bfc3a" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e59">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30449619</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome-wide CRISPR Screens in Primary Human T Cells Reveal Key Regulators of Immune Function.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shifrut E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carnevale J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tobin V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roth TL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woo JM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bui CT</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li PJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diolaiti ME</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ashworth A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marson A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000084</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell receptor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000821</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cdc">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20067622</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -850,38 +880,6 @@ Adapted from figure 2F from [https://pubmed.ncbi.nlm.nih.gov/30449619/ Shifrut e
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sander C</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonard WJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell receptor signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000821</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000084</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e59">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30449619</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome-wide CRISPR Screens in Primary Human T Cells Reveal Key Regulators of Immune Function.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shifrut E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carnevale J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tobin V</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roth TL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woo JM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bui CT</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li PJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diolaiti ME</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ashworth A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marson A</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

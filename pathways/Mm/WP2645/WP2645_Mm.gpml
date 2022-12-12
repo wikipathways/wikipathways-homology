@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Heroin metabolism" Data-Source="WikiPathways" Version="WP2645_Mm" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Heroin metabolism" Data-Source="WikiPathways" Version="WP2645_Mm" Last-Modified="20220703145540" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Pathway complementing the morphine metabolism pathway around heroin. The catalytic efficiency is substantially greater for CES2 (a.k.a. hCE-2) compared to other esterases.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2645.gpml (WP2645_r95179) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2645.gpml (WP2645_r123107) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>cca</BiopaxRef>
   <Graphics BoardWidth="538.6268211124266" BoardHeight="356.32211287607515" />
   <DataNode TextLabel="morphine metabolism" GraphId="a7fb5" Type="Pathway">
-    <Graphics CenterX="362.4334054745662" CenterY="316.32211287607515" Width="151.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="362.4334054745662" CenterY="316.32211287607515" Width="151.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP1604" />
   </DataNode>
   <DataNode TextLabel="Bche" GraphId="b4932" Type="Protein">
@@ -56,7 +56,41 @@
     <Graphics CenterX="463.6268211124266" CenterY="164.75483323578385" Width="80.0" Height="20.0" ZOrder="32770" FontSize="10" Valign="Middle" Color="00cc00" />
     <Xref Database="Ensembl" ID="ENSMUSG00000062826" />
   </DataNode>
-  <Interaction GraphId="id1add93cf">
+  <Interaction GraphId="c693b">
+    <BiopaxRef>db5</BiopaxRef>
+    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
+      <Point X="146.79554539226234" Y="123.21573858557792" GraphRef="cdf04" RelX="0.0" RelY="-1.0" />
+      <Point X="254.61447543341427" Y="58.0" />
+      <Point X="362.4334054745662" Y="123.21573858557792" GraphRef="cfe59" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.48088684919065844" Shape="None" GraphId="db077" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e047a">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="248.62682111242663" Y="34.5" GraphRef="b4932" RelX="0.0" RelY="1.0" />
+      <Point X="248.0" Y="58.0" GraphRef="db077" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="b2a47">
+    <BiopaxRef>db5</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="418.6268211124266" Y="223.0" GraphRef="a5b38" RelX="-1.0" RelY="0.0" />
+      <Point X="362.4334054745662" Y="196.89475093125708" GraphRef="fb7ba" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ba6b3">
+    <Comment>Catalysis can take place nonenzymatically in the serum as well.</Comment>
+    <BiopaxRef>db5</BiopaxRef>
+    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
+      <Point X="146.79554539226234" Y="143.21573858557792" GraphRef="cdf04" RelX="0.0" RelY="1.0" />
+      <Point X="322.4334054745662" Y="247.21573858557804" GraphRef="be981" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ab19c">
     <BiopaxRef>db5</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="423.6268211124266" Y="164.75483323578385" GraphRef="fe3b3" RelX="-1.0" RelY="0.0" />
@@ -90,16 +124,6 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="id4ec3ed81">
-    <BiopaxRef>db5</BiopaxRef>
-    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="146.79554539226234" Y="123.21573858557792" GraphRef="cdf04" RelX="0.0" RelY="-1.0" />
-      <Point X="254.61447543341427" Y="58.0" />
-      <Point X="362.4334054745662" Y="123.21573858557792" GraphRef="cfe59" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
-      <Anchor Position="0.48088684919065844" Shape="None" GraphId="db077" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
   <Interaction GraphId="id827ed290">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="246.62682111242663" Y="100.75483323578388" GraphRef="ec2c5" RelX="0.0" RelY="-1.0" />
@@ -121,22 +145,6 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="idea2d6b2a">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="248.62682111242663" Y="34.5" GraphRef="b4932" RelX="0.0" RelY="1.0" />
-      <Point X="248.0" Y="58.0" GraphRef="db077" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="ided3a768c">
-    <Comment>Catalysis can take place nonenzymatically in the serum as well.</Comment>
-    <BiopaxRef>db5</BiopaxRef>
-    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="146.79554539226234" Y="143.21573858557792" GraphRef="cdf04" RelX="0.0" RelY="1.0" />
-      <Point X="322.4334054745662" Y="247.21573858557804" GraphRef="be981" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
   <Interaction GraphId="idee25ceb0">
     <BiopaxRef>ca0</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -146,31 +154,8 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="idf683b8ee">
-    <BiopaxRef>db5</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="418.6268211124266" Y="223.0" GraphRef="a5b38" RelX="-1.0" RelY="0.0" />
-      <Point X="362.4334054745662" Y="196.89475093125708" GraphRef="fb7ba" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xenobiotic metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001229</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db5">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16778732</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toxicokinetics of drugs of abuse: current knowledge of the isoenzymes involved in the human metabolism of tetrahydrocannabinol, cocaine, heroin, morphine, and codeine.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ther Drug Monit</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maurer HH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauer C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theobald DS</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cca">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2420426</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -178,6 +163,26 @@
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Can J Physiol Pharmacol</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1986</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sawynok J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000754</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heroin drug pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002558</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c81">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12773168</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human carboxylesterase 1: from drug metabolism to drug discovery.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Soc Trans</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redinbo MR</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bencharit S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potter PM</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca0">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20649590</bp:ID>
@@ -194,24 +199,19 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wadkins RM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potter PM</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c81">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12773168</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16778732</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human carboxylesterase 1: from drug metabolism to drug discovery.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Soc Trans</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redinbo MR</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bencharit S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potter PM</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toxicokinetics of drugs of abuse: current knowledge of the isoenzymes involved in the human metabolism of tetrahydrocannabinol, cocaine, heroin, morphine, and codeine.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ther Drug Monit</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maurer HH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauer C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theobald DS</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heroin drug pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002558</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000754</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xenobiotic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001229</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hereditary leiomyomatosis and renal cell carcinoma pathway" Data-Source="WikiPathways" Version="WP4206_Rn" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hereditary leiomyomatosis and renal cell carcinoma pathway" Data-Source="WikiPathways" Version="WP4206_Rn" Last-Modified="20220728050711" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">Hereditary leiomyomatosis and renal cell carcinoma (HLRCC) is an autosomal dominant hereditary cancer syndrome in which affected individuals are at risk for the development of cutaneous and uterine leiomyomas and kidney cancer. HLRCC is characterized by germline mutation of the tricarboxylic acid cycle (TCA) enzyme, fumarate hydratase (FH). FH-deficient kidney cancer is characterized by impaired oxidative phosphorylation and a metabolic shift to aerobic glycolysis, a form of metabolic reprogramming referred to as the Warburg effect. 
 
 
-AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficient kidney cancer. Fumarate hydratase (FH)-deficient kidney cancer, characterized by impaired oxidative phosphorylation, and undergoes a metabolic shift to aerobic glycolysis to generate ATP required for the increased energetic demands of rapidly proliferating cells. The increased glycolysis suppresses expression and activation of AMPK which results in increased S6 and ACC activity, promoting anabolic growth and proliferation. Decreased AMPK results in decreased p53 and the iron transporter, DMT1. The iron responsive proteins, IRP1 and IRP2, as well as the IRP target, transferrin receptor protein 1 (TFRC) are elevated, indicating that cytosolic iron concentrations decrease secondary to decreased DMT1 activity. Prolyl hydroxylase, which is sensitive to iron levels, would be inhibited by decreased cytosolic iron levels, stabilizing HIF1α. Fumarate, which increases in FH- deficient cells, has been shown to inhibit prolyl hydroxylase, which would lead to further stabilization of HIF1α, increasing transcription of factors such as vascular endothelial growth factor (VEGF) and the glucose transporter, GLUT1. Increased fumarate has been shown to succinate KEAP1, thus altering it's conformation and disrupting its ability to induce degradation of Nrf2. Nrf2 transcription is increased activating anti-oxidant response and protecting against oxidative stress. Increased HIF1α would stimulate LDHA, increasing lactate production, and would stimulate PDK1, which inhibits PDH and would decrease entry of pyruvate into the TCA cycle. FH-deficient kidney cancer use a glutamine- dependent reductive carboxylation rather than rather than oxidative metabolism for citrate formation (red arrows). Glutamine is the major source for the increased fatty acid synthesis required for rapid proliferation in these cells with disabled normal oxidative phosphorylation. Potential approaches for treatment of this aggressive form of kidney cancer include agents that stimulate AMPK, agents that target the tumor vasculature and glucose transport, agents that inhibit LDHA and agents that target the critical glutamine-dependent reductive fatty acid/lipid synthetic pathway. (Linehan and Rouault, Clin Cancer Res, 2013)
-</Comment>
+AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficient kidney cancer. Fumarate hydratase (FH)-deficient kidney cancer, characterized by impaired oxidative phosphorylation, and undergoes a metabolic shift to aerobic glycolysis to generate ATP required for the increased energetic demands of rapidly proliferating cells. The increased glycolysis suppresses expression and activation of AMPK which results in increased S6 and ACC activity, promoting anabolic growth and proliferation. Decreased AMPK results in decreased p53 and the iron transporter, DMT1. The iron responsive proteins, IRP1 and IRP2, as well as the IRP target, transferrin receptor protein 1 (TFRC) are elevated, indicating that cytosolic iron concentrations decrease secondary to decreased DMT1 activity. Prolyl hydroxylase, which is sensitive to iron levels, would be inhibited by decreased cytosolic iron levels, stabilizing HIF1α. Fumarate, which increases in FH- deficient cells, has been shown to inhibit prolyl hydroxylase, which would lead to further stabilization of HIF1α, increasing transcription of factors such as vascular endothelial growth factor (VEGF) and the glucose transporter, GLUT1. Increased fumarate has been shown to succinate KEAP1, thus altering it's conformation and disrupting its ability to induce degradation of Nrf2. Nrf2 transcription is increased activating anti-oxidant response and protecting against oxidative stress. Increased HIF1α would stimulate LDHA, increasing lactate production, and would stimulate PDK1, which inhibits PDH and would decrease entry of pyruvate into the TCA cycle. FH-deficient kidney cancer use a glutamine- dependent reductive carboxylation rather than rather than oxidative metabolism for citrate formation (red arrows). Glutamine is the major source for the increased fatty acid synthesis required for rapid proliferation in these cells with disabled normal oxidative phosphorylation. Potential approaches for treatment of this aggressive form of kidney cancer include agents that stimulate AMPK, agents that target the tumor vasculature and glucose transport, agents that inhibit LDHA and agents that target the critical glutamine-dependent reductive fatty acid/lipid synthetic pathway. (Linehan and Rouault, Clin Cancer Res, 2013)</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4206.gpml (WP4206_r119286) with a 84.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4206.gpml (WP4206_r123458) with a 84.0% conversion rate.</Comment>
   <BiopaxRef>cfd</BiopaxRef>
   <BiopaxRef>e58</BiopaxRef>
   <BiopaxRef>d76</BiopaxRef>
@@ -83,7 +82,7 @@ AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficie
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="Glycolysis" GraphId="f12ea" Type="Pathway">
-    <Graphics CenterX="611.274274904397" CenterY="234.01341290638456" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="611.274274904397" CenterY="234.01341290638456" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP534" />
   </DataNode>
   <DataNode TextLabel="CO2" GraphId="fed73" Type="Metabolite" GroupRef="f9908">
@@ -286,7 +285,7 @@ AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficie
   </State>
   <Interaction GraphId="id11a76f7a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="316.8546247652804" Y="1106.4346442019937" GraphRef="e9fa1" RelX="1.0" RelY="0.0" />
+      <Point X="316.8546247652804" Y="1106.4346442019937" GraphRef="c5d36" RelX="1.0" RelY="0.0" />
       <Point X="381.07289009177885" Y="1106.9104331774192" GraphRef="fd5ba" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.4" Shape="None" GraphId="cc826" />
     </Graphics>
@@ -301,7 +300,7 @@ AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficie
   </Interaction>
   <Interaction GraphId="id1c7b006f">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="928.4852796330945" Y="318.31405295943233" GraphRef="e8c0a" RelX="1.0" RelY="0.0" />
+      <Point X="928.4852796330945" Y="318.31405295943233" GraphRef="a8e81" RelX="1.0" RelY="0.0" />
       <Point X="996.6280215200431" Y="319.04379113166823" GraphRef="fff23" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -379,8 +378,8 @@ AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficie
   </Interaction>
   <Interaction GraphId="id4f64e66c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="141.88584413033414" Y="930.0125015900405" GraphRef="a8224" RelX="1.0" RelY="0.0" />
-      <Point X="234.16230651506194" Y="930.110775583152" GraphRef="b1419" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="141.88584413033414" Y="930.0125015900405" GraphRef="c45af" RelX="1.0" RelY="0.0" />
+      <Point X="234.16230651506194" Y="930.110775583152" GraphRef="f9908" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.4236476097114898" Shape="None" GraphId="b9c51" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -394,7 +393,7 @@ AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficie
   </Interaction>
   <Interaction GraphId="id63bc8943">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="129.9419059768236" Y="199.87696593772966" GraphRef="ff9b1" RelX="-0.5" RelY="1.0" />
+      <Point X="129.9419059768236" Y="199.87696593772966" GraphRef="fc844" RelX="-0.5" RelY="1.0" />
       <Point X="69.53507728832307" Y="318.6455977739463" GraphRef="a0372" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -459,7 +458,7 @@ AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficie
   </Interaction>
   <Interaction GraphId="id814ceeb1">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="546.0421429965387" Y="589.8065407409691" GraphRef="b303b" RelX="1.0" RelY="0.0" />
+      <Point X="546.0421429965387" Y="589.8065407409691" GraphRef="fd0c4" RelX="1.0" RelY="0.0" />
       <Point X="611.5687666052011" Y="590.7896001423537" GraphRef="e0664" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -519,7 +518,7 @@ AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficie
   <Interaction GraphId="ida55f6ec3">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="436.5260958582844" Y="695.3886731923423" GraphRef="a4a6e" RelX="0.0" RelY="-1.0" />
-      <Point X="465.0421429965387" Y="589.8065407409691" GraphRef="b303b" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="465.0421429965387" Y="589.8065407409691" GraphRef="fd0c4" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -597,21 +596,21 @@ AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficie
   <Interaction GraphId="idef47dd3e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="336.56460816963886" Y="151.06676118905045" GraphRef="b06da" RelX="-1.0" RelY="0.0" />
-      <Point X="198.30490719189038" Y="150.37696593772972" GraphRef="ff9b1" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="198.30490719189038" Y="150.37696593772972" GraphRef="fc844" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="db959">
     <Graphics ZOrder="32776" LineThickness="1.0">
-      <Point X="152.72957304851252" Y="199.87696593772966" GraphRef="ff9b1" RelX="0.0" RelY="1.0" />
+      <Point X="152.72957304851252" Y="199.87696593772966" GraphRef="fc844" RelX="0.0" RelY="1.0" />
       <Point X="152.95032645500993" Y="276.1968821836039" GraphRef="fe543" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e1094">
     <Graphics ConnectorType="Elbow" ZOrder="32777" LineThickness="1.0">
-      <Point X="175.51724012020145" Y="199.87696593772966" GraphRef="ff9b1" RelX="0.5" RelY="1.0" />
-      <Point X="203.73932333674773" Y="313.14253261982276" GraphRef="ff36f" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="175.51724012020145" Y="199.87696593772966" GraphRef="fc844" RelX="0.5" RelY="1.0" />
+      <Point X="203.73932333674773" Y="313.14253261982276" GraphRef="d18d2" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -644,41 +643,17 @@ AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficie
   <Shape TextLabel="Mitochondrion" GraphId="f9160">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Mitochondria" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="649.6163682864449" CenterY="789.2413644347209" Width="641.9437340153452" Height="614.2883554679073" ZOrder="16384" FontSize="12" Valign="Bottom" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="649.6163682864449" CenterY="789.2413644347209" Width="641.9437340153452" Height="614.2883554679073" ZOrder="16384" FontSize="12" Valign="Bottom" ShapeType="Mitochondria" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="c45af" GraphId="a8224" Style="Group" />
-  <Group GroupId="f9908" GraphId="b1419" Style="Group" />
-  <Group GroupId="f5514" GraphId="b1e65" Style="Complex" />
-  <Group GroupId="fd0c4" GraphId="b303b" Style="Group" />
-  <Group GroupId="a8e81" GraphId="e8c0a" Style="Complex" />
-  <Group GroupId="c5d36" GraphId="e9fa1" Style="Group" />
-  <Group GroupId="d18d2" GraphId="ff36f" Style="Group" />
-  <Group GroupId="fc844" GraphId="ff9b1" Style="Complex" />
+  <Group GroupId="c45af" GraphId="c45af" Style="Group" />
+  <Group GroupId="f9908" GraphId="f9908" Style="Group" />
+  <Group GroupId="fd0c4" GraphId="fd0c4" Style="Group" />
+  <Group GroupId="a8e81" GraphId="a8e81" Style="Complex" />
+  <Group GroupId="c5d36" GraphId="c5d36" Style="Group" />
+  <Group GroupId="d18d2" GraphId="d18d2" Style="Group" />
+  <Group GroupId="fc844" GraphId="fc844" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d76">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25018647</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hereditary leiomyomatosis and renal cell carcinoma</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DovePress</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schmidt L, Linehan W</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell cancer pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001017</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leiomyomatosis</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5138</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cfd">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23633457</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -689,10 +664,33 @@ AMPK is a negative regulator of the Warburg effect in Fumarate hydratase-deficie
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rouault TA</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001017</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leiomyomatosis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5138</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell carcinoma</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:4450</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d76">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25018647</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hereditary leiomyomatosis and renal cell carcinoma</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DovePress</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schmidt L, Linehan W</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e58">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25564569</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>

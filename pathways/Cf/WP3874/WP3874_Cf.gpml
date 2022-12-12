@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Canonical and non-canonical TGF-B signaling" Data-Source="WikiPathways" Version="WP3874_Cf" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Canonical and non-canonical TGF-B signaling" Data-Source="WikiPathways" Version="WP3874_Cf" Last-Modified="20210507100520" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">This pathway is modeled after Figure 9 in the article "Gremlin utilizes canonical and non-canonical TGFB signaling to induce lysyl oxidase (LOX) genes in human trabecular meshwork cells". Gremlin is enables the TGF-B signaling pathways to oversee LOX and LOXL proteins and also demonstrates that the non-canonical JNK1/2 complex, canonical SMAD, and P38 signaling pathways are involved in this pathway. TGF-B signaling is possible through Gremlin's ability to bock the BMP signaling pathway which inhibits TGF-B receptors.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3874 CPTAC Assay Portal]</Comment>
@@ -7,10 +7,40 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3874.gpml (WP3874_r116461) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>f2f</BiopaxRef>
   <Graphics BoardWidth="998.0" BoardHeight="782.0" />
-  <DataNode TextLabel="SMAD3" GraphId="a576a" Type="GeneProduct" GroupRef="f13b5">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000166949</Comment>
-    <Graphics CenterX="369.0" CenterY="338.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845016639" />
+  <DataNode TextLabel="TGFBR1" GraphId="afc44" Type="GeneProduct" GroupRef="b607f">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000106799</Comment>
+    <Graphics CenterX="544.0" CenterY="196.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845007708" />
+  </DataNode>
+  <DataNode TextLabel="B9D2" GraphId="c21db" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000105329</Comment>
+    <Graphics CenterX="544.0" CenterY="37.25" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845002395" />
+  </DataNode>
+  <DataNode TextLabel="TGFBR2" GraphId="e52e0" Type="GeneProduct" GroupRef="b607f">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000163513</Comment>
+    <Graphics CenterX="544.0" CenterY="176.0" Width="80.00000000000004" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845022794" />
+  </DataNode>
+  <DataNode TextLabel="GREM1" GraphId="bc9bf" Type="GeneProduct" GroupRef="e6021">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000166923</Comment>
+    <Graphics CenterX="751.0" CenterY="37.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845031113" />
+  </DataNode>
+  <DataNode TextLabel="BMP1" GraphId="ad3ab" Type="GeneProduct" GroupRef="e6021">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000168487</Comment>
+    <Graphics CenterX="751.0" CenterY="57.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845025214" />
+  </DataNode>
+  <DataNode TextLabel="BMPR2" GraphId="bd599" Type="GeneProduct" GroupRef="d2ae1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000204217</Comment>
+    <Graphics CenterX="751.0" CenterY="163.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845015459" />
+  </DataNode>
+  <DataNode TextLabel="BMPR1A" GraphId="e2038" Type="GeneProduct" GroupRef="d2ae1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000107779</Comment>
+    <Graphics CenterX="751.0" CenterY="183.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845006910" />
   </DataNode>
   <DataNode TextLabel="SMAD4" GraphId="a57f4" Type="GeneProduct" GroupRef="f13b5">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000141646</Comment>
@@ -22,35 +52,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="369.0" CenterY="318.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845002338" />
   </DataNode>
-  <DataNode TextLabel="BMP1" GraphId="ad3ab" Type="GeneProduct" GroupRef="e6021">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000168487</Comment>
-    <Graphics CenterX="751.0" CenterY="57.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845025214" />
+  <DataNode TextLabel="SMAD3" GraphId="a576a" Type="GeneProduct" GroupRef="f13b5">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000166949</Comment>
+    <Graphics CenterX="369.0" CenterY="338.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845016639" />
   </DataNode>
-  <DataNode TextLabel="TGFBR1" GraphId="afc44" Type="GeneProduct" GroupRef="b607f">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000106799</Comment>
-    <Graphics CenterX="544.0" CenterY="196.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007708" />
-  </DataNode>
-  <DataNode TextLabel="GREM1" GraphId="bc9bf" Type="GeneProduct" GroupRef="e6021">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000166923</Comment>
-    <Graphics CenterX="751.0" CenterY="37.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845031113" />
-  </DataNode>
-  <DataNode TextLabel="BMPR2" GraphId="bd599" Type="GeneProduct" GroupRef="d2ae1">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000204217</Comment>
-    <Graphics CenterX="751.0" CenterY="163.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845015459" />
-  </DataNode>
-  <DataNode TextLabel="LOXL4" GraphId="bef3e" Type="GeneProduct" GroupRef="aefa4">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000138131</Comment>
-    <Graphics CenterX="218.0" CenterY="478.0" Width="81.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845030491" />
-  </DataNode>
-  <DataNode TextLabel="B9D2" GraphId="c21db" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000105329</Comment>
-    <Graphics CenterX="544.0" CenterY="37.25" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845002395" />
+  <DataNode TextLabel="MAPK8" GraphId="ce8a3" Type="GeneProduct" GroupRef="f0dbf">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000107643</Comment>
+    <Graphics CenterX="544.0" CenterY="404.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845019380" />
   </DataNode>
   <DataNode TextLabel="MAPK9" GraphId="c3be4" Type="GeneProduct" GroupRef="f0dbf">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000050748</Comment>
@@ -62,35 +72,25 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="791.0" CenterY="370.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845008249" />
   </DataNode>
-  <DataNode TextLabel="MAPK8" GraphId="ce8a3" Type="GeneProduct" GroupRef="f0dbf">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000107643</Comment>
-    <Graphics CenterX="544.0" CenterY="404.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845019380" />
-  </DataNode>
-  <DataNode TextLabel="BMPR1A" GraphId="e2038" Type="GeneProduct" GroupRef="d2ae1">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000107779</Comment>
-    <Graphics CenterX="751.0" CenterY="183.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845006910" />
+  <DataNode TextLabel="LOX" GraphId="e8f44" Type="GeneProduct" GroupRef="aefa4">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000113083</Comment>
+    <Graphics CenterX="218.0" CenterY="438.0" Width="80.99999999999999" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845007914" />
   </DataNode>
   <DataNode TextLabel="LOXL1" GraphId="e3b6a" Type="GeneProduct" GroupRef="aefa4">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000129038</Comment>
     <Graphics CenterX="218.0" CenterY="458.0" Width="80.99999999999999" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845028254" />
   </DataNode>
-  <DataNode TextLabel="TGFBR2" GraphId="e52e0" Type="GeneProduct" GroupRef="b607f">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000163513</Comment>
-    <Graphics CenterX="544.0" CenterY="176.0" Width="80.00000000000004" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845022794" />
-  </DataNode>
-  <DataNode TextLabel="LOX" GraphId="e8f44" Type="GeneProduct" GroupRef="aefa4">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000113083</Comment>
-    <Graphics CenterX="218.0" CenterY="438.0" Width="80.99999999999999" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007914" />
-  </DataNode>
   <DataNode TextLabel="LOXL2" GraphId="ec137" Type="GeneProduct" GroupRef="aefa4">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000134013</Comment>
     <Graphics CenterX="218.0" CenterY="498.0" Width="80.99999999999999" Height="19.99999999999999" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845017019" />
+  </DataNode>
+  <DataNode TextLabel="LOXL4" GraphId="bef3e" Type="GeneProduct" GroupRef="aefa4">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000138131</Comment>
+    <Graphics CenterX="218.0" CenterY="478.0" Width="81.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845030491" />
   </DataNode>
   <DataNode TextLabel="LOXL4" GraphId="e74dc" Type="GeneProduct" GroupRef="f8406">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000138131</Comment>
@@ -152,12 +152,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="898.0" CenterY="521.0" Width="81.0" Height="20.0" ZOrder="32787" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845030491" />
   </DataNode>
-  <State GraphRef="ce8a3" TextLabel="P" GraphId="aa6cd">
-    <Comment>Phosphate</Comment>
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="c78cf" TextLabel="P" GraphId="b89db">
+  <State GraphRef="a74fe" TextLabel="P" GraphId="e9b07">
     <Comment>Phosphate</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
@@ -167,91 +162,25 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
+  <State GraphRef="ce8a3" TextLabel="P" GraphId="aa6cd">
+    <Comment>Phosphate</Comment>
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="c3be4" TextLabel="P" GraphId="dc956">
     <Comment>Phosphate</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="a74fe" TextLabel="P" GraphId="e9b07">
+  <State GraphRef="c78cf" TextLabel="P" GraphId="b89db">
     <Comment>Phosphate</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <Interaction GraphId="id20882ef">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="592.0" Y="571.0" GraphRef="d662f" RelX="0.5" RelY="-1.0" />
-      <Point X="683.5" Y="492.0" GraphRef="cc87b" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
   <Interaction GraphId="id218f5cd6">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="544.0" Y="47.25" GraphRef="c21db" RelX="0.0" RelY="1.0" />
-      <Point X="544.0" Y="154.0" GraphRef="c03f5" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id5b613527">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="369.0" Y="380.0" GraphRef="a0718" RelX="0.0" RelY="1.0" />
-      <Point X="369.0" Y="592.2330363412922" GraphRef="fa150" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id62ca76e3">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="711.0" Y="57.0" GraphRef="ad3ab" RelX="-1.0" RelY="0.0" />
-      <Point X="584.0" Y="176.0" GraphRef="e52e0" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
-      <Anchor Position="0.4" Shape="None" GraphId="be1b4" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id66d7839">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="544.0" Y="446.0" GraphRef="d66b6" RelX="0.0" RelY="1.0" />
-      <Point X="544.0" Y="571.0" GraphRef="d662f" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id6bd09f0">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="791.0" Y="380.0" GraphRef="c78cf" RelX="0.0" RelY="1.0" />
-      <Point X="791.0" Y="596.0" GraphRef="c36c5" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id871f9ef1">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="344.75" Y="592.2330363412922" GraphRef="fa150" RelX="-0.5" RelY="-1.0" />
-      <Point X="218.0" Y="516.0" GraphRef="e761a" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id9cc894c9">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="660.2" Y="37.1" GraphRef="a8e7e" RelX="0.0" RelY="0.0" />
-      <Point X="660.2" Y="104.6" GraphRef="be1b4" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="ida4d3e0a3">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="544.0" Y="218.0" GraphRef="c03f5" RelX="0.0" RelY="1.0" />
-      <Point X="395.0" Y="296.0" GraphRef="a0718" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="idbe6977b8">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="839.5" Y="624.0" GraphRef="c36c5" RelX="1.0" RelY="0.0" />
-      <Point X="898.0" Y="539.0" GraphRef="cf14e" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="idc5e2b5f3">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="751.0" Y="67.0" GraphRef="ad3ab" RelX="0.0" RelY="1.0" />
-      <Point X="751.0" Y="153.0" GraphRef="bd599" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="544.0" Y="154.0" GraphRef="b607f" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -263,16 +192,87 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="idc5e2b5f3">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="751.0" Y="67.0" GraphRef="ad3ab" RelX="0.0" RelY="1.0" />
+      <Point X="751.0" Y="153.0" GraphRef="bd599" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id62ca76e3">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="711.0" Y="57.0" GraphRef="ad3ab" RelX="-1.0" RelY="0.0" />
+      <Point X="584.0" Y="176.0" GraphRef="e52e0" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Anchor Position="0.4" Shape="None" GraphId="be1b4" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id9cc894c9">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="660.2" Y="37.1" GraphRef="a8e7e" RelX="0.0" RelY="0.0" />
+      <Point X="660.2" Y="104.6" GraphRef="be1b4" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id5b613527">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="369.0" Y="380.0" GraphRef="f13b5" RelX="0.0" RelY="1.0" />
+      <Point X="369.0" Y="592.2330363412922" GraphRef="f8406" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id871f9ef1">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="344.75" Y="592.2330363412922" GraphRef="f8406" RelX="-0.5" RelY="-1.0" />
+      <Point X="218.0" Y="516.0" GraphRef="aefa4" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id66d7839">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="544.0" Y="446.0" GraphRef="f0dbf" RelX="0.0" RelY="1.0" />
+      <Point X="544.0" Y="571.0" GraphRef="c3bdc" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id20882ef">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="592.0" Y="571.0" GraphRef="c3bdc" RelX="0.5" RelY="-1.0" />
+      <Point X="683.5" Y="492.0" GraphRef="a7ada" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id6bd09f0">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="791.0" Y="380.0" GraphRef="c78cf" RelX="0.0" RelY="1.0" />
+      <Point X="791.0" Y="596.0" GraphRef="f6f9d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idbe6977b8">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="839.5" Y="624.0" GraphRef="f6f9d" RelX="1.0" RelY="0.0" />
+      <Point X="898.0" Y="539.0" GraphRef="d304e" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ea377">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="544.0" Y="218.0" GraphRef="b607f" RelX="0.0" RelY="1.0" />
+      <Point X="395.0" Y="296.0" GraphRef="f13b5" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="bde14">
     <Graphics ZOrder="32788" LineThickness="1.0">
-      <Point X="544.0" Y="218.0" GraphRef="c03f5" RelX="0.0" RelY="1.0" />
-      <Point X="544.0" Y="382.0" GraphRef="d66b6" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="544.0" Y="218.0" GraphRef="b607f" RelX="0.0" RelY="1.0" />
+      <Point X="544.0" Y="382.0" GraphRef="f0dbf" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="dca9c">
     <Graphics ZOrder="32789" LineThickness="1.0">
-      <Point X="544.0" Y="218.0" GraphRef="c03f5" RelX="0.0" RelY="1.0" />
+      <Point X="544.0" Y="218.0" GraphRef="b607f" RelX="0.0" RelY="1.0" />
       <Point X="791.0" Y="360.0" GraphRef="c78cf" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -293,22 +293,24 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="575.5" CenterY="626.5" Width="749.0" Height="191.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="f8d36" Style="Group" />
-  <Group GroupId="c60d3" Style="Group" />
-  <Group GroupId="f13b5" GraphId="a0718" Style="Complex" />
-  <Group GroupId="d2ae1" GraphId="b1598" Style="Complex" />
-  <Group GroupId="b607f" GraphId="c03f5" Style="Complex" />
-  <Group GroupId="f6f9d" GraphId="c36c5" Style="Group" />
-  <Group GroupId="a7ada" GraphId="cc87b" Style="Group" />
-  <Group GroupId="d304e" GraphId="cf14e" Style="Group" />
-  <Group GroupId="c3bdc" GraphId="d662f" Style="Group" />
-  <Group GroupId="f0dbf" GraphId="d66b6" Style="Complex" />
-  <Group GroupId="a4373" GraphId="e75f9" Style="Group" />
-  <Group GroupId="aefa4" GraphId="e761a" Style="Group" />
-  <Group GroupId="e6021" GraphId="f2e88" Style="Complex" />
-  <Group GroupId="f8406" GraphId="fa150" Style="Group" />
+  <Group GroupId="b607f" GraphId="b607f" Style="Complex" />
+  <Group GroupId="e6021" GraphId="e6021" Style="Complex" />
+  <Group GroupId="d2ae1" GraphId="d2ae1" Style="Complex" />
+  <Group GroupId="f13b5" GraphId="f13b5" Style="Complex" />
+  <Group GroupId="f0dbf" GraphId="f0dbf" Style="Complex" />
+  <Group GroupId="aefa4" GraphId="aefa4" Style="Group" />
+  <Group GroupId="f8406" GraphId="f8406" Style="Group" />
+  <Group GroupId="c3bdc" GraphId="c3bdc" Style="Group" />
+  <Group GroupId="a7ada" GraphId="a7ada" Style="Group" />
+  <Group GroupId="f6f9d" GraphId="f6f9d" Style="Group" />
+  <Group GroupId="d304e" GraphId="d304e" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone morphogenetic proteins signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000330</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23748100</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -320,14 +322,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clark AF</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone morphogenetic proteins signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000330</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary angle-closure glaucoma</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1405</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

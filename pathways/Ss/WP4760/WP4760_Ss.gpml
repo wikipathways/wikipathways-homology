@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PKC-gamma calcium signaling pathway in ataxia" Data-Source="WikiPathways" Version="WP4760_Ss" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PKC-gamma calcium signaling pathway in ataxia" Data-Source="WikiPathways" Version="WP4760_Ss" Last-Modified="20191217001328" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">PKC-gamma calcium-signaling pathway in Ataxia. 
 Upon ligand binding, the mGluR1 receptor is followed by activation of Gq causing PLC-mediated hydrolysis of PIP2 into IP3 and DAG. Binding of IP3 to the IP3R1 induces Ca2+ release from the endoplasmic reticulum to the cytoplasm. This step is controlled by CAR8, which can inhibit binding of IP3 to the IP3R1. Simultaneous binding of Ca2+ to PKC-gamma C2 domain and of DAG to the C1 domain of PKC-gamma  induce translocation of PKC-gamma to the plasma membrane. There, the pseudosubstrate is released from the kinase domain, allowing phosphorylation of downstream target proteins, including GRIA1. PKC exerts an inhibitory effect on TRPC3 channel either directly through phosphorylation or indirectly. 
 A rise of the intracellular calcium concentration can also be mediated by the voltage-gated Ca2+ channel Cav2.1 or TRPC3. Conversely, PMCA2 can efficiently remove Ca2+ from the cytoplasm.
@@ -13,7 +13,7 @@ Mutations:
 * TRPC3: spinocerebellar ataxia type 41
 * ATP2B2: Ataxia
 
-This pathway is based on fig 1B from [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5883377/ Shimobayashi and Kapfhammer]. </Comment>
+This pathway is based on fig 1B from [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5883377/ Shimobayashi and Kapfhammer].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4760.gpml (WP4760_r108400) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>e66</BiopaxRef>
@@ -204,16 +204,33 @@ This pathway is based on fig 1B from [https://www.ncbi.nlm.nih.gov/pmc/articles/
     <Graphics CenterX="188.5" CenterY="242.0" Width="47.0" Height="25.0" ZOrder="32795" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29101" />
   </DataNode>
-  <State GraphRef="ffa74" TextLabel="P" GraphId="f0f29">
-    <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+  <State GraphRef="e704b" TextLabel="P" GraphId="f0a4a">
+    <Comment>S831</Comment>
+    <Graphics RelX="-0.9649122807017544" RelY="0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="e7abb" TextLabel="" GraphId="d7e99">
+    <Graphics RelX="-0.9696969696969697" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Triangle" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e9662" TextLabel="" GraphId="f4099">
     <Graphics RelX="-1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Hexagon" />
     <Xref Database="" ID="" />
   </State>
+  <State GraphRef="fc8da" TextLabel="" GraphId="eda1d">
+    <Graphics RelX="-0.9310344827586207" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="ffa74" TextLabel="" GraphId="a4fed">
     <Graphics RelX="-0.9944152886424408" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="ffa74" TextLabel="P" GraphId="f0f29">
+    <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="cdf25" TextLabel="" GraphId="e14a1">
+    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b6716" TextLabel="P" GraphId="af1c5">
@@ -225,30 +242,13 @@ This pathway is based on fig 1B from [https://www.ncbi.nlm.nih.gov/pmc/articles/
     <Graphics RelX="-1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Triangle" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="e704b" TextLabel="P" GraphId="be520">
-    <Comment>S818? </Comment>
-    <Graphics RelX="-0.9649122807017544" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="e7abb" TextLabel="" GraphId="d7e99">
-    <Graphics RelX="-0.9696969696969697" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Triangle" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="e086b" TextLabel="" GraphId="e6c9c">
     <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Triangle" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="fc8da" TextLabel="" GraphId="eda1d">
-    <Graphics RelX="-0.9310344827586207" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="e704b" TextLabel="P" GraphId="f0a4a">
-    <Comment>S831</Comment>
-    <Graphics RelX="-0.9649122807017544" RelY="0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="cdf25" TextLabel="" GraphId="e14a1">
-    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
+  <State GraphRef="e704b" TextLabel="P" GraphId="be520">
+    <Comment>S818?</Comment>
+    <Graphics RelX="-0.9649122807017544" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <Interaction GraphId="id17eea993">
@@ -260,7 +260,7 @@ This pathway is based on fig 1B from [https://www.ncbi.nlm.nih.gov/pmc/articles/
   </Interaction>
   <Interaction GraphId="id1afa65cc">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="459.0" Y="246.5" GraphRef="f2216" RelX="-1.0" RelY="0.0" />
+      <Point X="459.0" Y="246.5" GraphRef="a1bf3" RelX="-1.0" RelY="0.0" />
       <Point X="448.42272174099793" Y="212.22779010666477" GraphRef="c7697" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -334,7 +334,7 @@ This pathway is based on fig 1B from [https://www.ncbi.nlm.nih.gov/pmc/articles/
   </Interaction>
   <Interaction GraphId="id7cd2d4a4">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="123.0" Y="167.5" GraphRef="da83e" RelX="-1.0" RelY="0.0" />
+      <Point X="123.0" Y="167.5" GraphRef="d8818" RelX="-1.0" RelY="0.0" />
       <Point X="188.5" Y="158.0" GraphRef="d6d04" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -350,7 +350,7 @@ This pathway is based on fig 1B from [https://www.ncbi.nlm.nih.gov/pmc/articles/
   <Interaction GraphId="id8f552a9d">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="234.0" Y="499.2754895340986" GraphRef="ffa74" RelX="-1.0" RelY="0.0" />
-      <Point X="155.5" Y="200.5" GraphRef="da83e" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="155.5" Y="200.5" GraphRef="d8818" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -430,7 +430,7 @@ This pathway is based on fig 1B from [https://www.ncbi.nlm.nih.gov/pmc/articles/
   </Interaction>
   <Interaction GraphId="c87db">
     <Graphics ZOrder="32773" LineThickness="1.0">
-      <Point X="459.0" Y="246.5" GraphRef="f2216" RelX="-1.0" RelY="0.0" />
+      <Point X="459.0" Y="246.5" GraphRef="a1bf3" RelX="-1.0" RelY="0.0" />
       <Point X="409.72549019607845" Y="173.0" GraphRef="a8517" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -463,21 +463,16 @@ This pathway is based on fig 1B from [https://www.ncbi.nlm.nih.gov/pmc/articles/
   <Shape GraphId="cd051" GroupRef="ef362">
     <Graphics CenterX="1146.0" CenterY="103.0" Width="15.0" Height="15.0" ZOrder="32796" FontSize="12" Valign="Middle" ShapeType="Hexagon" Rotation="0.0" />
   </Shape>
-  <Group GroupId="a5a0d" Style="Group" />
-  <Group GroupId="ef362" Style="Group" />
-  <Group GroupId="d8818" GraphId="da83e" Style="Group" />
-  <Group GroupId="a1bf3" GraphId="f2216" Style="Group" />
+  <Group GroupId="a5a0d" GraphId="a5a0d" Style="Group" />
+  <Group GroupId="ef362" GraphId="ef362" Style="Group" />
+  <Group GroupId="d8818" GraphId="d8818" Style="Group" />
+  <Group GroupId="a1bf3" GraphId="a1bf3" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hereditary ataxia</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050951</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered calcium homeostasis pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000372</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e66">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28554312</bp:ID>
@@ -491,7 +486,12 @@ This pathway is based on fig 1B from [https://www.ncbi.nlm.nih.gov/pmc/articles/
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurodegenerative disease</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1289</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered calcium homeostasis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000372</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

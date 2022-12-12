@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Metabolism of alpha-linolenic acid" Data-Source="WikiPathways" Version="WP4586_Cf" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Metabolism of alpha-linolenic acid" Data-Source="WikiPathways" Version="WP4586_Cf" Last-Modified="20210623075544" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">Metabolism of alpha-linolenic acid and linoleic acid to their respective acids. Both of these processes are catalyzed primarily
 by FADS1 and FADS2. The conversion of arachidonic acid to prostanoids is catalysed by prostaglandin G/H synthase 2 and the conversion of arachidonic acid to lipoxins is catalysed by different types of lipoxygenases.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
@@ -190,7 +190,7 @@ by FADS1 and FADS2. The conversion of arachidonic acid to prostanoids is catalys
   </Interaction>
   <Interaction GraphId="id5dcbeacf">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1028.3424435501865" Y="362.75488646162717" GraphRef="c34fe" RelX="-1.0" RelY="0.0" />
+      <Point X="1028.3424435501865" Y="362.75488646162717" GraphRef="dec60" RelX="-1.0" RelY="0.0" />
       <Point X="875.4019673597129" Y="362.5048864616275" GraphRef="db8fc" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -233,7 +233,7 @@ by FADS1 and FADS2. The conversion of arachidonic acid to prostanoids is catalys
   </Interaction>
   <Interaction GraphId="idaf69903">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1028.3424435501865" Y="210.50488646162694" GraphRef="e9814" RelX="-1.0" RelY="0.0" />
+      <Point X="1028.3424435501865" Y="210.50488646162694" GraphRef="ef809" RelX="-1.0" RelY="0.0" />
       <Point X="875.4019673597141" Y="210.81441027115102" GraphRef="df8e5" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -422,8 +422,8 @@ by FADS1 and FADS2. The conversion of arachidonic acid to prostanoids is catalys
   <Shape GraphId="e99e1">
     <Graphics CenterX="1105.1162530739987" CenterY="207.0048864616269" Width="137.0" Height="108.0" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="dec60" GraphId="c34fe" Style="Group" />
-  <Group GroupId="ef809" GraphId="e9814" Style="Group" />
+  <Group GroupId="dec60" GraphId="dec60" Style="Group" />
+  <Group GroupId="ef809" GraphId="ef809" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -431,14 +431,6 @@ by FADS1 and FADS2. The conversion of arachidonic acid to prostanoids is catalys
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001158</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c2c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9780813546773</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Fats of Life: Essential Fatty Acids in Health and Disease</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0-8135-4677-3</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glen D. Lawrence</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linoleic acid metabolic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000523</bp:ID>
@@ -449,6 +441,14 @@ by FADS1 and FADS2. The conversion of arachidonic acid to prostanoids is catalys
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000485</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c2c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9780813546773</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Fats of Life: Essential Fatty Acids in Health and Disease</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0-8135-4677-3</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glen D. Lawrence</bp:AUTHORS>
+    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 

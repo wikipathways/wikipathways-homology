@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Homologous recombination" Data-Source="WikiPathways" Version="WP186_Rn" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Homologous recombination" Data-Source="WikiPathways" Version="WP186_Rn" Last-Modified="20210527141925" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">Homologous recombination, also known as general recombination, is a type of genetic recombination in which nucleotide sequences are exchanged between two similar or identical strands of DNA.
 
 Source: [[wikipedia:Homologous_recombination|Wikipedia]]
@@ -7,10 +7,6 @@ Source: [[wikipedia:Homologous_recombination|Wikipedia]]
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP186 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP186.gpml (WP186_r118416) with a 96.0% conversion rate.</Comment>
-  <BiopaxRef>fc6</BiopaxRef>
-  <BiopaxRef>f41</BiopaxRef>
-  <BiopaxRef>af4</BiopaxRef>
-  <BiopaxRef>def</BiopaxRef>
   <BiopaxRef>ec1</BiopaxRef>
   <Graphics BoardWidth="1020.0" BoardHeight="896.0" />
   <DataNode TextLabel="POLD3" GraphId="fb8b0" Type="GeneProduct" GroupRef="aaf36">
@@ -146,7 +142,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <Interaction GraphId="f22ea">
     <Graphics ZOrder="32772" LineThickness="1.0">
-      <Point X="270.0" Y="577.975" GraphRef="bb28c" RelX="1.0" RelY="-0.5" />
+      <Point X="270.0" Y="577.975" GraphRef="aaf36" RelX="1.0" RelY="-0.5" />
       <Point X="395.0" Y="559.0" GraphRef="ace80" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -175,7 +171,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="aef5d">
     <Graphics ZOrder="32776" LineThickness="1.0">
-      <Point X="256.48077020833335" Y="191.70705177083335" GraphRef="c9a3a" RelX="1.0" RelY="0.0" />
+      <Point X="256.48077020833335" Y="191.70705177083335" GraphRef="aa46e" RelX="1.0" RelY="0.0" />
       <Point X="395.0" Y="192.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -189,7 +185,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="d0807">
     <Graphics ZOrder="32778" LineThickness="1.0">
-      <Point X="257.0333333333333" Y="382.5" GraphRef="fd010" RelX="1.0" RelY="0.0" />
+      <Point X="257.0333333333333" Y="382.5" GraphRef="f6a02" RelX="1.0" RelY="0.0" />
       <Point X="395.0" Y="382.0" GraphRef="e90e5" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -508,9 +504,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="fb583">
     <Graphics CenterX="533.9833333333333" CenterY="628.0" Width="96.03333333333333" Height="24.0" ZOrder="32830" FillColor="66ff66" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="aaf36" GraphId="bb28c" Style="Group" />
-  <Group GroupId="aa46e" GraphId="c9a3a" Style="Group" />
-  <Group GroupId="f6a02" GraphId="fd010" Style="Group" />
+  <Group GroupId="aa46e" GraphId="aa46e" Style="Group" />
+  <Group GroupId="f6a02" GraphId="f6a02" Style="Group" />
+  <Group GroupId="aaf36" GraphId="aaf36" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec1">

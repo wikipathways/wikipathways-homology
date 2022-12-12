@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NAD metabolism, sirtuins and aging" Data-Source="WikiPathways" Version="WP3630_Cf" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NAD metabolism, sirtuins and aging" Data-Source="WikiPathways" Version="WP3630_Cf" Last-Modified="20220226140306" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">A model for DNA damage, inflammation, NAD+, and aging.
 Two key events, the activation of PARP by DNA damage and the decreased NAMPT expression associated with inflammation, lead to decreased SIRT1 and SIRT3 activity in the nucleus and mitochondria, respectively. Decreased SIRT1 activity is associated with further PARP activation and increased DNA damage. Decreased SIRT1 also leads to NF-kB activation and decreased FOXO3a activity, two factors that lead to increased inflammation. These contribute to the establishment of two parallel feed-forward self reinforcing loops that further accelerate the aging process. This process is initiated earlier and faster in patients with DNA damage repair defects (such as CS, XPA, and AT). Mitochondrial function is diminished as a result of decreased SIRT3 activity, leading to mitochondrial protein hyperacetylation, whereas decreased SIRT1 is associated with decreased TFAM (necessary for mitochondrial DNA replication and transcription) and decreased PGC-1a (necessary for mitochondrial biogenesis). Possible therapeutic interventions to restore NAD+ levels are illustrated for each of the key enzymes (red arrows). Based on fig 4 from http://science.sciencemag.org/content/350/6265/1208.long.
 
@@ -120,7 +120,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0" Color="ff9900">
       <Point X="628.1316751149351" Y="260.2038194035123" GraphRef="d9366" RelX="1.0" RelY="0.0" />
       <Point X="664.3286573146293" Y="212.15207212067116" />
-      <Point X="694.4561718844093" Y="164.10032483783007" GraphRef="b1532" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="694.4561718844093" Y="164.10032483783007" GraphRef="b1532" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -167,7 +167,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0" Color="ff9900">
       <Point X="568.1316751149351" Y="270.2038194035123" GraphRef="d9366" RelX="-0.5" RelY="1.0" />
       <Point X="507.2507115070471" Y="460.08403361344534" />
-      <Point X="446.36974789915905" Y="420.9339350970843" GraphRef="a1e1d" RelX="0.5" RelY="1.0" ArrowHead="TBar" />
+      <Point X="446.36974789915905" Y="420.9339350970843" GraphRef="a1e1d" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -211,7 +211,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="b1f69">
     <Graphics ZOrder="32772" LineThickness="1.0">
       <Point X="284.2773109243704" Y="189.53781512605036" GraphRef="f5a65" RelX="1.0" RelY="0.0" />
-      <Point X="386.1890756302514" Y="189.4789915966383" GraphRef="b74eb" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="386.1890756302514" Y="189.4789915966383" GraphRef="b74eb" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -225,7 +225,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="e2982">
     <Graphics ZOrder="32791" LineThickness="1.0" Color="cc0066">
       <Point X="426.7352941176475" Y="536.7647058823536" GraphRef="d367c" RelX="0.0" RelY="-1.0" />
-      <Point X="426.36974789915905" Y="420.9339350970843" GraphRef="a1e1d" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+      <Point X="426.36974789915905" Y="420.9339350970843" GraphRef="a1e1d" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -249,7 +249,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="32801" LineThickness="1.0" Color="ff9900">
       <Point X="628.1316751149351" Y="260.2038194035123" GraphRef="d9366" RelX="1.0" RelY="0.0" />
       <Point X="664.3286573146293" Y="255.3671974599693" />
-      <Point X="686.6579359417424" Y="250.53057551642632" GraphRef="aa34f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="686.6579359417424" Y="250.53057551642632" GraphRef="e3706" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -257,7 +257,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="32802" LineThickness="1.0" Color="ff9900">
       <Point X="628.0832589548863" Y="389.1992893349725" GraphRef="bdb6e" RelX="1.0" RelY="0.0" />
       <Point X="659.3186372745491" Y="380.13630950299927" />
-      <Point X="686.4561718844093" Y="371.07332967102604" GraphRef="bdc90" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="686.4561718844093" Y="371.07332967102604" GraphRef="b6348" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -349,12 +349,25 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="e4ccf" GroupRef="f00ca">
     <Graphics CenterX="862.2052382075083" CenterY="292.2635102137048" Width="145.58952358498345" Height="270.52702042740964" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="ddc74" Style="Group" />
-  <Group GroupId="e3706" GraphId="aa34f" Style="Group" />
-  <Group GroupId="f00ca" GraphId="ac809" Style="Group" />
-  <Group GroupId="b6348" GraphId="bdc90" Style="Group" />
+  <Group GroupId="ddc74" GraphId="ddc74" Style="Group" />
+  <Group GroupId="e3706" GraphId="e3706" Style="Group" />
+  <Group GroupId="f00ca" GraphId="f00ca" Style="Group" />
+  <Group GroupId="b6348" GraphId="b6348" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26785480</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAD⁺ in aging, metabolism, and neurodegeneration.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdin E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a72">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16628003</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -367,11 +380,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Murcia G</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sassone-Corsi P</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c17">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19470756</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -397,14 +405,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000651</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26785480</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAD⁺ in aging, metabolism, and neurodegeneration.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdin E</bp:AUTHORS>
-    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 

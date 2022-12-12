@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Somatic sex determination" Data-Source="WikiPathways" Version="WP4814_Qc" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Somatic sex determination" Data-Source="WikiPathways" Version="WP4814_Qc" Last-Modified="20210507125148" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">This pathway describes the sex determination in a fetus. 
 For the male development the SRY gene plays an important role, leading to the SOX9 expression which will then stimulate AMH expression and testis development.
 In adults DMRT1 and SOX9 inhibit the FOXL2 gene, maintaining the male sex determination. 
 For the female development the WNT4 and RSPO1 signaling pathways lead to beta-catenin accumulation which inhibits SOX9 and the development of ovaries.
-In adults, Foxl2 repress Sox9 expression to maintain ovarian identity.
-</Comment>
+In adults, Foxl2 repress Sox9 expression to maintain ovarian identity.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4814.gpml (WP4814_r116554) with a 88.0% conversion rate.</Comment>
   <BiopaxRef>ef1</BiopaxRef>
@@ -136,8 +135,8 @@ In adults, Foxl2 repress Sox9 expression to maintain ovarian identity.
   </DataNode>
   <Interaction GraphId="fb377">
     <Graphics ZOrder="32774" LineThickness="1.0">
-      <Point X="396.25" Y="178.25" GraphRef="f7c82" RelX="1.0" RelY="0.0" />
-      <Point X="464.0" Y="202.5" GraphRef="f30c9" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="396.25" Y="178.25" GraphRef="bbd70" RelX="1.0" RelY="0.0" />
+      <Point X="464.0" Y="202.5" GraphRef="bcbe4" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -164,7 +163,7 @@ In adults, Foxl2 repress Sox9 expression to maintain ovarian identity.
   </Interaction>
   <Interaction GraphId="c0e77">
     <Graphics ZOrder="32778" LineThickness="1.0">
-      <Point X="586.605042016807" Y="45.752100840336134" GraphRef="cc08b" RelX="-1.0" RelY="0.0" />
+      <Point X="586.605042016807" Y="45.752100840336134" GraphRef="ed4ca" RelX="-1.0" RelY="0.0" />
       <Point X="557.25" Y="82.75" GraphRef="aea4f" RelX="0.5" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -250,7 +249,7 @@ In adults, Foxl2 repress Sox9 expression to maintain ovarian identity.
   </Interaction>
   <Interaction GraphId="b63cb">
     <Graphics ZOrder="32790" LineThickness="1.0">
-      <Point X="121.0" Y="121.5" GraphRef="ec6b5" RelX="1.0" RelY="0.0" />
+      <Point X="121.0" Y="121.5" GraphRef="e4409" RelX="1.0" RelY="0.0" />
       <Point X="160.0" Y="123.0" GraphRef="b66ad" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -325,17 +324,22 @@ In adults, Foxl2 repress Sox9 expression to maintain ovarian identity.
   <Label TextLabel="Leydig cell" GraphId="c9e34">
     <Graphics CenterX="674.0" CenterY="207.0" Width="90.0" Height="25.0" ZOrder="32806" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="ed4ca" GraphId="cc08b" Style="Group" />
-  <Group GroupId="a9203" GraphId="df381" Style="Group" />
-  <Group GroupId="e4409" GraphId="ec6b5" Style="Group" />
-  <Group GroupId="bcbe4" GraphId="f30c9" Style="Group" />
-  <Group GroupId="bbd70" GraphId="f7c82" Style="Group" />
+  <Group GroupId="ed4ca" GraphId="ed4ca" Style="Group" />
+  <Group GroupId="a9203" GraphId="a9203" Style="Group" />
+  <Group GroupId="e4409" GraphId="e4409" Style="Group" />
+  <Group GroupId="bcbe4" GraphId="bcbe4" Style="Group" />
+  <Group GroupId="bbd70" GraphId="bbd70" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sex differentiation disease</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1923</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef1">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27915330</bp:ID>
@@ -346,11 +350,6 @@ In adults, Foxl2 repress Sox9 expression to maintain ovarian identity.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bashamboo A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McElreavey K</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="DNA damage response" Data-Source="WikiPathways" Version="WP707_Gg" Organism="Gallus gallus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="DNA damage response" Data-Source="WikiPathways" Version="WP707_Gg" Last-Modified="20220923125218" Organism="Gallus gallus">
   <Comment Source="WikiPathways-description">This is the first pathway out of two pathways which deals with DNA damage response. It has two central gene products (ATM and ATR) which are connected to the sources of DNA damage (in blue). The two central genes can be divides furthermore into their most important genes. In the ATM pathway are the most important genes TP53 and CHEK2 and on the other hand in the ATR pathway is this CHEK1. 
 If it is not mentioned different, the processes take place in the cell cytoplasm.
 The goal of this first pathway is to give an overview of the most important gene products, processes and changes in the cell condition through the DNA damage response pathway and at the same time to keep it clearly arranged.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP707 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP707.gpml (WP707_r116541) with a 82.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP707.gpml (WP707_r124174) with a 82.0% conversion rate.</Comment>
   <BiopaxRef>efb</BiopaxRef>
   <Graphics BoardWidth="1950.0" BoardHeight="944.6666666666665" />
   <DataNode TextLabel="RB1" GraphId="a35cb" Type="GeneProduct" GroupRef="edcc5">
@@ -21,6 +21,12 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <DataNode TextLabel="DNA repair and&#xA;damage prevention" GraphId="aaf72" Type="Pathway">
     <Graphics CenterX="560.0" CenterY="425.0" Width="130.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="AKT1" GraphId="c8793" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Gallus gallus: Original ID = En:ENSG00000142208</Comment>
+    <BiopaxRef>e09</BiopaxRef>
+    <Graphics CenterX="872.7500000000003" CenterY="302.41666666666646" Width="51.83333333333302" Height="19.166666666666956" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSGALG00000011620" />
   </DataNode>
   <DataNode TextLabel="DNA damage &#xA;ATM dependent" GraphId="eb900" Type="Pathway">
     <Graphics CenterX="748.0" CenterY="380.0" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
@@ -427,6 +433,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="ida902b91c">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="898.9890643985416" Y="456.5000000000008" GraphRef="e15c3" RelX="-0.5" RelY="-1.0" />
+      <Point X="872.7500000000003" Y="311.99999999999994" GraphRef="c8793" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="c21f5">
     <BiopaxRef>efb</BiopaxRef>
     <Graphics ZOrder="12290" LineThickness="1.0">
@@ -439,7 +452,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>d5f</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12292" LineThickness="1.0">
       <Point X="922.3952004860269" Y="360.71506682867613" GraphRef="c1266" RelX="-1.0" RelY="0.0" />
-      <Point X="643.8438639125151" Y="754.1452004860254" GraphRef="ac23e" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="643.8438639125151" Y="754.1452004860254" GraphRef="ac23e" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -453,7 +466,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="ae3d8">
     <BiopaxRef>e6f</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12296" LineThickness="1.0">
-      <Point X="890.5" Y="160.99999999999997" GraphRef="c79c1" RelX="-0.5" RelY="-1.0" />
+      <Point X="890.5" Y="160.99999999999997" GraphRef="bcb51" RelX="-0.5" RelY="-1.0" />
       <Point X="737.75" Y="148.75" />
       <Point X="585.0" Y="175.87499999999994" />
       <Point X="427.6666666666663" Y="202.99999999999986" GraphRef="df713" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
@@ -470,7 +483,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="a9f8e">
     <Graphics ZOrder="12300" LineStyle="Broken" LineThickness="1.0">
-      <Point X="947.0" Y="821.4999999999985" GraphRef="d2f96" RelX="-1.0" RelY="0.0" />
+      <Point X="947.0" Y="821.4999999999985" GraphRef="edcc5" RelX="-1.0" RelY="0.0" />
       <Point X="856.0" Y="821.4999999999985" GraphRef="f5b8a" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -485,7 +498,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="f1f10">
     <Graphics ZOrder="12304" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1593.0" Y="513.5000000000008" GraphRef="a24bf" RelX="1.0" RelY="0.0" />
+      <Point X="1593.0" Y="513.5000000000008" GraphRef="a5395" RelX="1.0" RelY="0.0" />
       <Point X="1626.5" Y="513.5000000000007" GraphRef="f1e53" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -493,7 +506,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="d5b3d">
     <BiopaxRef>d5f</BiopaxRef>
     <Graphics ConnectorType="Curved" ZOrder="12306" LineThickness="1.0">
-      <Point X="889.9945321992707" Y="730.9999999999985" GraphRef="edd98" RelX="0.5" RelY="1.0" />
+      <Point X="889.9945321992707" Y="730.9999999999985" GraphRef="a1373" RelX="0.5" RelY="1.0" />
       <Point X="1009.9031606789572" Y="773.75" />
       <Point X="1129.8117891586437" Y="783.3153044363575" GraphRef="de5f4" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
@@ -510,13 +523,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>df4</BiopaxRef>
     <Graphics ZOrder="12308" LineThickness="1.0">
       <Point X="1398.0" Y="380.00000000000074" GraphRef="d4c23" RelX="-1.0" RelY="0.0" />
-      <Point X="1267.0" Y="380.00000000000074" GraphRef="dde4a" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1267.0" Y="380.00000000000074" GraphRef="dde4a" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="fcab6">
     <Graphics ConnectorType="Elbow" ZOrder="12310" LineThickness="1.0">
-      <Point X="1779.0" Y="564.5000000000005" GraphRef="c44fe" RelX="-1.0" RelY="0.0" />
+      <Point X="1779.0" Y="564.5000000000005" GraphRef="bb98d" RelX="-1.0" RelY="0.0" />
       <Point X="1714.5" Y="468.00000000000074" GraphRef="ac4da" RelX="0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -542,20 +555,20 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="abd75">
     <Graphics ZOrder="12316" LineThickness="1.0">
       <Point X="898.9890643985416" Y="456.5000000000008" GraphRef="e15c3" RelX="-0.5" RelY="-1.0" />
-      <Point X="798.0" Y="305.49999999999994" GraphRef="cf93b" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="798.0" Y="305.49999999999994" GraphRef="daebd" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b08c3">
     <Graphics ConnectorType="Elbow" ZOrder="12318" LineThickness="1.0">
       <Point X="1198.6948663426488" Y="470.43013365735186" GraphRef="b87d6" RelX="0.5" RelY="1.0" />
-      <Point X="1571.0" Y="647.4999999999985" GraphRef="f456b" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1571.0" Y="647.4999999999985" GraphRef="f456b" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="aa065">
     <Graphics ZOrder="12320" LineThickness="1.0">
-      <Point X="1771.0" Y="458.35753341433815" GraphRef="edf4a" RelX="-1.0" RelY="0.0" />
+      <Point X="1771.0" Y="458.35753341433815" GraphRef="a68ac" RelX="-1.0" RelY="0.0" />
       <Point X="1732.0" Y="458.00000000000074" GraphRef="ac4da" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -574,7 +587,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <Point X="978.0" Y="485.00000000000074" GraphRef="a606d" RelX="-1.0" RelY="0.0" />
       <Point X="960.0" Y="522.0000000000002" />
       <Point X="984.9696992709598" Y="558.9999999999998" />
-      <Point X="1009.9393985419197" Y="637.7095990279448" GraphRef="c6210" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1009.9393985419197" Y="637.7095990279448" GraphRef="aad6d" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -588,7 +601,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="a5c34">
     <Graphics ZOrder="12328" LineThickness="1.0">
       <Point X="898.9890643985416" Y="456.5000000000008" GraphRef="e15c3" RelX="-0.5" RelY="-1.0" />
-      <Point X="914.0" Y="266.99999999999966" GraphRef="c79c1" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="914.0" Y="266.99999999999966" GraphRef="bcb51" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -601,14 +614,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="c2c95">
     <Graphics ZOrder="12332" LineThickness="1.0">
-      <Point X="852.139732685298" Y="583.3683373835555" GraphRef="e4792" RelX="-1.0" RelY="0.0" />
-      <Point X="801.7041312272172" Y="583.680133657351" GraphRef="f107a" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="852.139732685298" Y="583.3683373835555" GraphRef="f92af" RelX="-1.0" RelY="0.0" />
+      <Point X="801.7041312272172" Y="583.680133657351" GraphRef="f107a" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e9309">
     <Graphics ZOrder="12334" LineStyle="Broken" LineThickness="1.0">
-      <Point X="623.0" Y="327.25000000000006" GraphRef="cf93b" RelX="-1.0" RelY="0.5" />
+      <Point X="623.0" Y="327.25000000000006" GraphRef="daebd" RelX="-1.0" RelY="0.5" />
       <Point X="560.0" Y="412.5" GraphRef="aaf72" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -639,7 +652,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>df4</BiopaxRef>
     <Graphics ZOrder="12342" LineThickness="1.0">
       <Point X="1478.0" Y="380.00000000000074" GraphRef="d4c23" RelX="1.0" RelY="0.0" />
-      <Point X="1657.0" Y="380.00000000000074" GraphRef="a7c42" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1657.0" Y="380.00000000000074" GraphRef="a7c42" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -653,7 +666,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="de8ad">
     <Graphics ZOrder="12350" LineThickness="1.0">
       <Point X="1037.0625" Y="515.0000000000007" GraphRef="d7209" RelX="0.5" RelY="-1.0" />
-      <Point X="1153.3198663426488" Y="460.43013365735186" GraphRef="b87d6" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1153.3198663426488" Y="460.43013365735186" GraphRef="b87d6" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -666,9 +679,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="e070b">
     <Graphics ConnectorType="Elbow" ZOrder="12354" LineThickness="1.0">
-      <Point X="1009.9393985419197" Y="722.7095990279448" GraphRef="c6210" RelX="-0.5" RelY="1.0" />
+      <Point X="1009.9393985419197" Y="722.7095990279448" GraphRef="aad6d" RelX="-0.5" RelY="1.0" />
       <Point X="926.4669653705952" Y="754.4799513973254" />
-      <Point X="842.9945321992707" Y="730.9999999999985" GraphRef="edd98" RelX="-0.5" RelY="1.0" ArrowHead="TBar" />
+      <Point X="842.9945321992707" Y="730.9999999999985" GraphRef="a1373" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -676,14 +689,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>d5f</BiopaxRef>
     <Graphics ZOrder="12356" LineThickness="1.0">
       <Point X="1081.0" Y="446.50000000000074" GraphRef="cff96" RelX="-1.0" RelY="0.0" />
-      <Point X="1038.0" Y="475.00000000000074" GraphRef="a606d" RelX="0.5" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="1038.0" Y="475.00000000000074" GraphRef="a606d" RelX="0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b1fad">
     <BiopaxRef>e6f</BiopaxRef>
     <Graphics ZOrder="12358" LineThickness="1.0">
-      <Point X="761.0" Y="223.99999999999974" GraphRef="df4de" RelX="-1.0" RelY="0.0" />
+      <Point X="761.0" Y="223.99999999999974" GraphRef="c8bd3" RelX="-1.0" RelY="0.0" />
       <Point X="726.25" Y="223.99999999999974" GraphRef="d81c9" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -728,7 +741,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="12368" LineThickness="1.0">
       <Point X="718.75" Y="431.50000000000074" GraphRef="a6028" RelX="-1.0" RelY="0.0" />
       <Point X="666.1676792223573" Y="570.3749999999997" />
-      <Point X="819.4945321992707" Y="709.2499999999985" GraphRef="edd98" RelX="-1.0" RelY="0.5" ArrowHead="TBar" />
+      <Point X="819.4945321992707" Y="709.2499999999985" GraphRef="a1373" RelX="-1.0" RelY="0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -750,7 +763,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="bdf6b">
     <Graphics ZOrder="12372" LineStyle="Broken" LineThickness="1.0">
       <Point X="769.6020656136086" Y="593.680133657351" GraphRef="f107a" RelX="0.0" RelY="1.0" />
-      <Point X="768.7041312272173" Y="626.1746658566209" GraphRef="df6d7" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="768.7041312272173" Y="626.1746658566209" GraphRef="df6d7" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -766,7 +779,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="deb55">
     <Graphics ConnectorType="Elbow" ZOrder="12376" LineStyle="Broken" LineThickness="1.0">
       <Point X="1273.5" Y="477.93013365735186" GraphRef="b969a" RelX="0.0" RelY="1.0" />
-      <Point X="1286.0" Y="588.9999999999992" GraphRef="b65ce" RelX="0.5" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="1286.0" Y="588.9999999999992" GraphRef="b65ce" RelX="0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -780,7 +793,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="c5561">
     <Graphics ConnectorType="Elbow" ZOrder="12380" LineThickness="1.0">
       <Point X="1662.0" Y="458.00000000000074" GraphRef="ac4da" RelX="-1.0" RelY="0.0" />
-      <Point X="1572.0" Y="481.0000000000008" GraphRef="a24bf" RelX="0.5" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="1572.0" Y="481.0000000000008" GraphRef="a5395" RelX="0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -803,7 +816,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>ff4</BiopaxRef>
     <Graphics ZOrder="12386" LineThickness="1.0" Color="ff0033">
       <Point X="787.0" Y="406.50000000000074" GraphRef="d838c" RelX="1.0" RelY="0.0" />
-      <Point X="878.9890643985416" Y="466.5000000000008" GraphRef="e15c3" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="878.9890643985416" Y="466.5000000000008" GraphRef="e15c3" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -832,7 +845,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="a8322">
     <BiopaxRef>d5f</BiopaxRef>
     <Graphics ZOrder="12394" LineThickness="1.0">
-      <Point X="1031.0" Y="821.4999999999985" GraphRef="d2f96" RelX="1.0" RelY="0.0" />
+      <Point X="1031.0" Y="821.4999999999985" GraphRef="edcc5" RelX="1.0" RelY="0.0" />
       <Point X="1153.5698663426488" Y="822.2627987039269" GraphRef="c9e7c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -862,14 +875,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="c9103">
     <Graphics ZOrder="12400" LineStyle="Broken" LineThickness="1.0">
       <Point X="1246.8128797083841" Y="540.4301336573519" GraphRef="df6f2" RelX="0.0" RelY="1.0" />
-      <Point X="1246.0" Y="588.9999999999992" GraphRef="b65ce" RelX="-0.5" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="1246.0" Y="588.9999999999992" GraphRef="b65ce" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="eaa05">
     <BiopaxRef>d5f</BiopaxRef>
     <Graphics ZOrder="12404" LineThickness="1.0">
-      <Point X="1031.0" Y="821.4999999999985" GraphRef="d2f96" RelX="1.0" RelY="0.0" />
+      <Point X="1031.0" Y="821.4999999999985" GraphRef="edcc5" RelX="1.0" RelY="0.0" />
       <Point X="1153.5698663426488" Y="774.1342648845667" GraphRef="ea834" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.8061670629746109" Shape="None" GraphId="de5f4" />
     </Graphics>
@@ -885,7 +898,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="fc3b6">
     <Graphics ZOrder="12408" LineThickness="1.0">
       <Point X="1792.0" Y="374.00000000000074" GraphRef="ebffe" RelX="-0.5" RelY="1.0" />
-      <Point X="1714.5" Y="448.00000000000074" GraphRef="ac4da" RelX="0.5" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="1714.5" Y="448.00000000000074" GraphRef="ac4da" RelX="0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -906,7 +919,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="d3036">
     <Graphics ZOrder="12414" LineThickness="1.0">
-      <Point X="753.8383961117852" Y="541.8657351154319" GraphRef="c2038" RelX="0.0" RelY="1.0" />
+      <Point X="753.8383961117852" Y="541.8657351154319" GraphRef="fd657" RelX="0.0" RelY="1.0" />
       <Point X="753.5510328068043" Y="573.680133657351" GraphRef="f107a" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -914,7 +927,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="e4ebe">
     <Graphics ZOrder="12416" LineThickness="1.0">
       <Point X="1141.3198663426488" Y="608.4301336573507" GraphRef="ff5a8" RelX="0.0" RelY="1.0" />
-      <Point X="1096.6893985419197" Y="637.7095990279448" GraphRef="c6210" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1096.6893985419197" Y="637.7095990279448" GraphRef="aad6d" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -968,7 +981,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>d5f</BiopaxRef>
     <Graphics ZOrder="12428" LineThickness="1.0">
       <Point X="1108.0" Y="560.2150668286757" GraphRef="e86b6" RelX="1.0" RelY="0.0" />
-      <Point X="1151.2406278315852" Y="560.722444765173" GraphRef="ecfb3" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1151.2406278315852" Y="560.722444765173" GraphRef="ecfb3" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -984,7 +997,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="dd381">
     <Graphics ZOrder="12432" LineThickness="1.0">
       <Point X="878.9890643985416" Y="466.5000000000008" GraphRef="e15c3" RelX="-1.0" RelY="0.0" />
-      <Point X="805.8383961117852" Y="497.8657351154319" GraphRef="c2038" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="805.8383961117852" Y="497.8657351154319" GraphRef="fd657" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1028,7 +1041,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="ea297">
     <Graphics ConnectorType="Elbow" ZOrder="12442" LineThickness="1.0">
       <Point X="1697.0" Y="468.00000000000074" GraphRef="ac4da" RelX="0.0" RelY="1.0" />
-      <Point X="1651.0" Y="647.4999999999985" GraphRef="f456b" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1651.0" Y="647.4999999999985" GraphRef="f456b" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1043,7 +1056,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="aaefc">
     <Graphics ZOrder="12446" LineThickness="1.0">
       <Point X="898.9890643985416" Y="476.5000000000008" GraphRef="e15c3" RelX="-0.5" RelY="1.0" />
-      <Point X="899.139732685298" Y="540.1100040502226" GraphRef="e4792" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="899.139732685298" Y="540.1100040502226" GraphRef="f92af" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1073,7 +1086,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="fd685">
     <Graphics ZOrder="12454" LineThickness="1.0">
       <Point X="1187.0" Y="380.00000000000074" GraphRef="dde4a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-      <Point X="1112.0" Y="334.00000000000034" GraphRef="c870e" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1112.0" Y="334.00000000000034" GraphRef="f1382" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1086,7 +1099,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="12456" LineThickness="1.0">
       <Point X="1697.0" Y="468.00000000000074" GraphRef="ac4da" RelX="0.0" RelY="1.0" />
       <Point X="1426.9898997569867" Y="690.9999999999985" />
-      <Point X="1156.9797995139731" Y="608.4301336573507" GraphRef="ff5a8" RelX="0.5" RelY="1.0" ArrowHead="TBar" />
+      <Point X="1156.9797995139731" Y="608.4301336573507" GraphRef="ff5a8" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1108,7 +1121,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="12462" LineThickness="1.0">
       <Point X="718.75" Y="431.50000000000074" GraphRef="a6028" RelX="-1.0" RelY="0.0" />
       <Point X="683.1786148238153" Y="507.59006682867584" />
-      <Point X="737.5" Y="583.680133657351" GraphRef="f107a" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="737.5" Y="583.680133657351" GraphRef="f107a" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1169,14 +1182,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="d2c14">
     <Graphics ZOrder="12478" LineThickness="1.0">
       <Point X="878.9890643985416" Y="466.5000000000008" GraphRef="e15c3" RelX="-1.0" RelY="0.0" />
-      <Point X="769.6020656136086" Y="573.680133657351" GraphRef="f107a" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="769.6020656136086" Y="573.680133657351" GraphRef="f107a" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c5dc6">
     <Graphics ZOrder="12480" LineThickness="1.0">
       <Point X="898.9890643985416" Y="456.5000000000008" GraphRef="e15c3" RelX="-0.5" RelY="-1.0" />
-      <Point X="813.0" Y="266.99999999999966" GraphRef="df4de" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="813.0" Y="266.99999999999966" GraphRef="c8bd3" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1209,7 +1222,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <GraphicalLine GraphId="id8998b6e1" GroupRef="c89ca">
     <Graphics ZOrder="12336" LineThickness="1.0">
       <Point X="31.44013634506566" Y="217.55782312925174" />
-      <Point X="101.59319756955563" Y="217.55782312925174" ArrowHead="TBar" />
+      <Point X="101.59319756955563" Y="217.55782312925174" ArrowHead="mim-inhibition" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="id4ff1b311" GroupRef="c89ca">
@@ -1308,58 +1321,53 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="1082.6666666666667" CenterY="521.0833333333333" Width="1674.6666666666665" Height="787.1666666666665" ZOrder="16390" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="cccccc" Rotation="0.0" />
   </Shape>
-  <Group GroupId="c89ca" Style="Group" />
-  <Group GroupId="a5395" GraphId="a24bf" Style="Complex" />
-  <Group GroupId="fd657" GraphId="c2038" Style="Complex" />
-  <Group GroupId="bb98d" GraphId="c44fe" Style="Complex" />
-  <Group GroupId="aad6d" GraphId="c6210" Style="Complex" />
-  <Group GroupId="bcb51" GraphId="c79c1" Style="Complex" />
-  <Group GroupId="f1382" GraphId="c870e" Style="Complex" />
-  <Group GroupId="daebd" GraphId="cf93b" Style="Complex" />
-  <Group GroupId="edcc5" GraphId="d2f96" Style="Complex" />
-  <Group GroupId="c8bd3" GraphId="df4de" Style="Complex" />
-  <Group GroupId="f92af" GraphId="e4792" Style="Complex" />
-  <Group GroupId="a1373" GraphId="edd98" Style="Complex" />
-  <Group GroupId="a68ac" GraphId="edf4a" Style="Complex" />
+  <Group GroupId="c89ca" GraphId="c89ca" Style="Group" />
+  <Group GroupId="a5395" GraphId="a5395" Style="Complex" />
+  <Group GroupId="fd657" GraphId="fd657" Style="Complex" />
+  <Group GroupId="bb98d" GraphId="bb98d" Style="Complex" />
+  <Group GroupId="aad6d" GraphId="aad6d" Style="Complex" />
+  <Group GroupId="bcb51" GraphId="bcb51" Style="Complex" />
+  <Group GroupId="f1382" GraphId="f1382" Style="Complex" />
+  <Group GroupId="daebd" GraphId="daebd" Style="Complex" />
+  <Group GroupId="edcc5" GraphId="edcc5" Style="Complex" />
+  <Group GroupId="c8bd3" GraphId="c8bd3" Style="Complex" />
+  <Group GroupId="f92af" GraphId="f92af" Style="Complex" />
+  <Group GroupId="a1373" GraphId="a1373" Style="Complex" />
+  <Group GroupId="a68ac" GraphId="a68ac" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53 signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000718</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d50">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16805667</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surviving the breakup: the DNA damage checkpoint.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annu Rev Genet</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harrison JC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haber JE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c48">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15343279</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transcription - guarding the genome by sensing DNA damage.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ljungman M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lane DP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17380161</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53 in health and disease.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vousden KH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lane DP</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stress response pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000237</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15719025</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of BH3-only proteins in the immune system.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Immunol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strasser A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac5">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15688066</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53: traffic cop at the crossroads of DNA repair and recombination.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Mol Cell Biol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sengupta S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harris CC</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e48">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17568790</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDC25 phosphatases in cancer cells: key players? Good targets?</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boutros R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobjois V</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ducommun B</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff4">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14730303</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1374,6 +1382,46 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elowitz MB</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alon U</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17768402</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emergence of a DNA-damage response network consisting of Fanconi anaemia and BRCA proteins.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Genet</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang W</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000718</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b66">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17943134</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The impact of a negligent G2/M checkpoint on genomic instability and cancer induction.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LÃ¶brich M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeggo PA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15688066</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53: traffic cop at the crossroads of DNA repair and recombination.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sengupta S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harris CC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15339658</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wagging the dogma; tissue-specific cell cycle control in the mouse embryo.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pagano M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jackson PK</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efb">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14993903</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1383,14 +1431,78 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhou BB</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bartek J</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1b">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17380161</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15545627</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53 in health and disease.</bp:TITLE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with or without cyclins and cyclin-dependent kinases.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genes Dev</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sherr CJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roberts JM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15719025</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of BH3-only proteins in the immune system.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Immunol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strasser A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dab">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16921403</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of the INK4b-ARF-INK4a tumour suppressor locus: all for one or one for all.</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gil J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peters G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e09">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28339062</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53/microRNA-374b/AKT1 regulates colorectal cancer cell apoptosis in response to DNA damage</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.3892/ijo.2017.3922</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gong H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cao Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Han G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">You Q</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA damage response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001360</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e48">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17568790</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDC25 phosphatases in cancer cells: key players? Good targets?</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vousden KH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lane DP</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boutros R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobjois V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ducommun B</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15668327</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosomal instability in oral cancer cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Dent Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reshmi SC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gollin SM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17128209</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulating the p53 pathway: in vitro hypotheses, in vivo veritas.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toledo F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wahl GM</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c56">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18004398</bp:ID>
@@ -1403,20 +1515,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collins I</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garrett MD</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dab">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16921403</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of the INK4b-ARF-INK4a tumour suppressor locus: all for one or one for all.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Mol Cell Biol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gil J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peters G</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA damage response pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001360</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c04">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17060944</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1425,87 +1523,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparmann A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">van Lohuizen M</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c48">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15343279</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transcription - guarding the genome by sensing DNA damage.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ljungman M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lane DP</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf4">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15668327</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosomal instability in oral cancer cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Dent Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reshmi SC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gollin SM</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d50">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16805667</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surviving the breakup: the DNA damage checkpoint.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annu Rev Genet</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harrison JC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haber JE</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da1">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15545627</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living with or without cyclins and cyclin-dependent kinases.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genes Dev</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sherr CJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roberts JM</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a35">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14634621</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Bcl-2 family: roles in cell survival and oncogenesis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogene</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cory S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huang DC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adams JM</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17128209</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulating the p53 pathway: in vitro hypotheses, in vivo veritas.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toledo F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wahl GM</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af9">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15339658</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wagging the dogma; tissue-specific cell cycle control in the mouse embryo.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pagano M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jackson PK</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b66">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17943134</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The impact of a negligent G2/M checkpoint on genomic instability and cancer induction.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LÃ¶brich M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeggo PA</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df4">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17768402</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emergence of a DNA-damage response network consisting of Fanconi anaemia and BRCA proteins.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Genet</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang W</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19111245</bp:ID>
@@ -1518,6 +1535,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macdermed D</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castadot P</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MagnÃ© N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a35">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14634621</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Bcl-2 family: roles in cell survival and oncogenesis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogene</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cory S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huang DC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adams JM</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

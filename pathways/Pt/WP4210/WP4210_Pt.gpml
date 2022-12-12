@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Tryptophan catabolism leading to NAD+ production" Data-Source="WikiPathways" Version="WP4210_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Tryptophan catabolism leading to NAD+ production" Data-Source="WikiPathways" Version="WP4210_Pt" Last-Modified="20220729050044" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Scheme of mammalian tryptophan catabolism. Briefly, in mammalian cells, tryptophan is used mostly for protein synthesis. In a second quantitatively important pathway (driven by IDO in most cell types and by TDO more specifically in liver cells), it is the starting point of the kynurenine pathway. The kynurenine pathway gives birth to several metabolites, providing the appropriate enzymes that metabolize the various kynurenine intermediates are expressed. The main route of the kynurenine pathway leads to the formation of N -formyl kynurenine, L -kynurenine, 3-hydroxykynurenine, 3-hydroxyanthra- nilic acid, quinolinic acid, nicotinic acid, and in fine nicotinamine adenine dinucleotides. Additional lateral branches of the kynurenine pathway lead to the formation of other terminal kynurenines, such as KA, xanthurenic acid, and anthranilic acid. Kynurenines indicated in boldface type ( i.e. L -kynurenine and KA) correspond to the most abundant kynurenines found in caput epididymal tissue. Outside the kynurenine pathway, tryptophan is also the precursor of serotonin and melatonin. A very small proportion of tryptophan is also transformed into indol derivatives, such as indoxyl acetic acid. Conversion of Trp to N -formyl kynurenine is achieved via IDO and/or TDO. 
 
 The kynurenine pathway can lead to the intracellular NAD+ production and consumption. De novo synthesis begins with the conversion of tryptophan to quinolate, which is converted to NaMN. NaMN is then adenylylated to form nicotinic acid adenine dinucleotide (NaAD+), which is converted to NAD+. NAD+-consuming enzymes break the bond between the Nam and ADP-ribosyl moieties. Nam, which is also provided in the diet, is salvaged to NMN, which is adenylylated to form NAD+. Na, which is provided in the diet and, potentially, by bacterial degradative pathways in vertebrates, is salvaged to form NaMN. NR, which occurs extracellularly in blood and milk and can be provided in the diet, is salvaged to NMN. Na and Nam are also converted to nicotinuric acid and N-methylnicotinamide elimination products.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4210.gpml (WP4210_r95880) with a 89.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4210.gpml (WP4210_r123510) with a 89.0% conversion rate.</Comment>
   <BiopaxRef>ed8</BiopaxRef>
   <BiopaxRef>da4</BiopaxRef>
   <Graphics BoardWidth="936.0386740331494" BoardHeight="877.8591160220994" />
@@ -19,7 +19,7 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
   </DataNode>
   <DataNode TextLabel="NAD+-consuming &#xA;enzymes" GraphId="ac0ba" Type="Protein">
     <Graphics CenterX="470.5662983425414" CenterY="730.5593922651933" Width="110.19337016574578" Height="31.284530386740258" ZOrder="32768" FontSize="12" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="NMRK1" GraphId="acf9c" Type="Protein" GroupRef="a3e3b">
     <Comment>nicotinamide riboside kinases</Comment>
@@ -61,7 +61,7 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="NAPRT" GraphId="ca082" Type="Protein">
-    <Comment>Na phosphoribosyltransferase </Comment>
+    <Comment>Na phosphoribosyltransferase</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = S:Q6XQN6</Comment>
     <Graphics CenterX="510.34530386740323" CenterY="584.5303867403314" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000020659" />
@@ -100,7 +100,7 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
     <Xref Database="Ensembl" ID="ENSPTRG00000000124" />
   </DataNode>
   <DataNode TextLabel="Serotonin/melatonin &#xA;production" GraphId="e70cc" Type="Pathway">
-    <Graphics CenterX="746.7724237489252" CenterY="155.85578655724248" Width="140.04685408299883" Height="29.90294511378849" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="746.7724237489252" CenterY="155.85578655724248" Width="140.04685408299883" Height="29.90294511378849" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP3298" />
   </DataNode>
   <DataNode TextLabel="ADP-ribosyl" GraphId="ef436" Type="Metabolite">
@@ -230,6 +230,15 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
     <Graphics CenterX="853.0386740331494" CenterY="752.0718232044203" Width="90.0" Height="25.0" ZOrder="32800" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
+  <Interaction GraphId="c3c2e">
+    <Comment>hydrolase in cytosol [PMID: 4400078]</Comment>
+    <BiopaxRef>e9c</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="295.7927382014328" Y="312.2268932060601" GraphRef="f826c" RelX="0.0" RelY="0.0" />
+      <Point X="126.0" Y="312.0" GraphRef="e0d88" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id162a77ae">
     <BiopaxRef>da4</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -264,7 +273,6 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id205bb254">
-    <Comment></Comment>
     <BiopaxRef>da4</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="481.13453887610046" Y="480.85467098383845" GraphRef="c1de9" RelX="1.0" RelY="0.0" />
@@ -289,7 +297,7 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
   </Interaction>
   <Interaction GraphId="id44160a2a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="753.6363636363634" Y="628.9029085081356" GraphRef="a2815" RelX="0.0" RelY="1.0" />
+      <Point X="753.6363636363634" Y="628.9029085081356" GraphRef="e2b4d" RelX="0.0" RelY="1.0" />
       <Point X="683.0215971873429" Y="691.3159216474148" GraphRef="aa16b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -315,7 +323,7 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
   </Interaction>
   <Interaction GraphId="id524996ff">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="800.0386740331494" Y="739.5718232044203" GraphRef="bb561" RelX="-1.0" RelY="0.0" />
+      <Point X="800.0386740331494" Y="739.5718232044203" GraphRef="a3e3b" RelX="-1.0" RelY="0.0" />
       <Point X="753.6363636363636" Y="740.3314917127071" GraphRef="ece13" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -413,15 +421,6 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="idabecb194">
-    <Comment>hydrolase in cytosol [PMID: 4400078]</Comment>
-    <BiopaxRef>e9c</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="295.7927382014328" Y="312.2268932060601" GraphRef="f826c" RelX="0.0" RelY="0.0" />
-      <Point X="126.0" Y="312.0" GraphRef="e0d88" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
   <Interaction GraphId="idac47fc93">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="644.9033149171271" Y="742.8867403314918" GraphRef="e206b" RelX="0.0" RelY="1.0" />
@@ -500,7 +499,7 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="iddd667f86">
-    <Comment>spontaneous condensation and rearrangement </Comment>
+    <Comment>spontaneous condensation and rearrangement</Comment>
     <BiopaxRef>da4</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="299.57276045293725" Y="480.85467098383845" GraphRef="e546e" RelX="1.0" RelY="0.0" />
@@ -533,7 +532,7 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
   </Interaction>
   <Interaction GraphId="idf3c8ba09">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="700.6363636363634" Y="583.4029085081356" GraphRef="a2815" RelX="-1.0" RelY="0.0" />
+      <Point X="700.6363636363634" Y="583.4029085081356" GraphRef="e2b4d" RelX="-1.0" RelY="0.0" />
       <Point X="599.5994475138116" Y="583.6762781745047" GraphRef="b5082" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -624,65 +623,10 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Group GroupId="e2b4d" GraphId="a2815" Style="Group" />
-  <Group GroupId="a3e3b" GraphId="bb561" Style="Group" />
+  <Group GroupId="e2b4d" GraphId="e2b4d" Style="Group" />
+  <Group GroupId="a3e3b" GraphId="a3e3b" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de novo nicotinamide adenine dinucleotide biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001276</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine nucleotide utilization pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002581</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine dinucleotide metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002580</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kynurenine metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001282</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da4">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17161604</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAD+ metabolism in health and disease.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trends Biochem Sci</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belenky P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogan KL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brenner C</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine dinucleotide biosynthesis, the salvage pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001375</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tryptophan degradation pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001281</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine dinucleotide biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000219</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4400078</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kynurenine metabolism in hyperthyroidism. A biochemical basis for the low NAD(P) level in hyperthyroid rat liver.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1971</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okamoto H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okada F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayaishi O</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed8">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21189261</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -708,6 +652,61 @@ The kynurenine pathway can lead to the intracellular NAD+ production and consump
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aitken RJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drevet JR</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine dinucleotide metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002580</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine dinucleotide biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000219</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17161604</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAD+ metabolism in health and disease.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trends Biochem Sci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belenky P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogan KL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brenner C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4400078</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kynurenine metabolism in hyperthyroidism. A biochemical basis for the low NAD(P) level in hyperthyroid rat liver.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1971</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okamoto H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okada F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayaishi O</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kynurenine metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001282</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine dinucleotide biosynthesis, the salvage pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001375</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de novo nicotinamide adenine dinucleotide biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001276</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine nucleotide utilization pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002581</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tryptophan degradation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001281</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

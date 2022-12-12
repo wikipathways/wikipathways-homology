@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL1 and megakaryocytes in obesity" Data-Source="WikiPathways" Version="WP2865_Rn" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL1 and megakaryocytes in obesity" Data-Source="WikiPathways" Version="WP2865_Rn" Last-Modified="20220703145753" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">Schematic of the effects of interleukin (IL)1-beta/IL1R1 on megakaryocyte and platelet function. A high fat diet will cause megakaryocytes to produce platelets with an increase in both inflammatory and thrombotic genes. 
 IL1-beta in circulation as a result of increased body weight will bind IL1R1 on megakaryocytes. This interaction leads to the activation of the nuclear factor (NF)kB, PI3K/Akt, and mitogen activated protein kinase (MAPK) (ERK and p38) pathways. As a result, there is an increase in megakarycoyte maturation, including increased adhesion, increases in ploidy, and increases in mRNA production of inflammatory and thrombotic genes. IL1-beta can also bind IL1R1 on platelets and either enhance aggregation induced by agonists or promote adhesion and heterotypic aggregate formation.
 
@@ -7,11 +7,11 @@ Some of the data used to create the pathway was generated in mouse (noted in pat
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2865 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2865.gpml (WP2865_r120807) with a 93.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2865.gpml (WP2865_r123108) with a 93.0% conversion rate.</Comment>
   <BiopaxRef>b30</BiopaxRef>
   <Graphics BoardWidth="973.8632855567802" BoardHeight="770.4079382579935" />
   <DataNode TextLabel="p38/MAPK &#xA;pathway" GraphId="af450" Type="Pathway" GroupRef="b940e">
-    <Graphics CenterX="241.5" CenterY="233.5" Width="73.0" Height="29.0" ZOrder="32820" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="241.5" CenterY="233.5" Width="73.0" Height="29.0" ZOrder="32820" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP400" />
   </DataNode>
   <DataNode TextLabel="Il1r1" GraphId="bb1fb" Type="GeneProduct">
@@ -165,7 +165,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <Interaction GraphId="e562f">
     <Graphics ZOrder="32801" LineThickness="1.0">
-      <Point X="235.25" Y="301.0" GraphRef="f8631" RelX="0.5" RelY="1.0" />
+      <Point X="235.25" Y="301.0" GraphRef="b940e" RelX="0.5" RelY="1.0" />
       <Point X="293.25578831312026" Y="325.1797133406835" GraphRef="b5f3a" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -208,7 +208,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="ad9e0">
     <Graphics ZOrder="32807" LineThickness="1.0">
       <Point X="594.4148627093806" Y="632.2442553935439" GraphRef="c6902" RelX="1.0" RelY="0.0" />
-      <Point X="718.8632855567803" Y="627.8566703417862" GraphRef="ae93f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="718.8632855567803" Y="627.8566703417862" GraphRef="b7e5e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -242,14 +242,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="a6c43">
     <Graphics ZOrder="32861" LineThickness="1.0">
-      <Point X="235.25" Y="301.0" GraphRef="f8631" RelX="0.5" RelY="1.0" />
+      <Point X="235.25" Y="301.0" GraphRef="b940e" RelX="0.5" RelY="1.0" />
       <Point X="288.3329658213893" Y="290.35942668136704" GraphRef="d519f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e30f3">
     <Graphics ZOrder="32862" LineThickness="1.0">
-      <Point X="235.25" Y="301.0" GraphRef="f8631" RelX="0.5" RelY="1.0" />
+      <Point X="235.25" Y="301.0" GraphRef="b940e" RelX="0.5" RelY="1.0" />
       <Point X="457.73557515619257" Y="454.9919147372291" GraphRef="d4fb2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -295,15 +295,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Label>
   <Shape GraphId="c6902">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Graphics CenterX="494.4148627093806" CenterY="632.2442553935439" Width="200.0" Height="100.0" ZOrder="-2" FillColor="5a92f0" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="0066cc" Rotation="0.0" />
+    <Graphics CenterX="494.4148627093806" CenterY="632.2442553935439" Width="200.0" Height="100.0" ZOrder="-2" FillColor="5a92f0" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="0066cc" Rotation="0.0" />
   </Shape>
   <Shape GraphId="fac2c">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Graphics CenterX="281.0" CenterY="258.0" Width="398.0" Height="246.0" ZOrder="32796" FillColor="ccdbeb" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="2.0" Color="0066cc" Rotation="0.0" />
+    <Graphics CenterX="281.0" CenterY="258.0" Width="398.0" Height="246.0" ZOrder="32796" FillColor="ccdbeb" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="0066cc" Rotation="0.0" />
   </Shape>
   <Shape GraphId="bdbb2" GroupRef="b7e5e">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Graphics CenterX="853.3632855567802" CenterY="644.4079382579935" Width="114.0" Height="114.0" ZOrder="32811" FillColor="cccccc" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="2.0" Rotation="0.0" />
+    <Graphics CenterX="853.3632855567802" CenterY="644.4079382579935" Width="114.0" Height="114.0" ZOrder="32811" FillColor="cccccc" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="b5f3a" GroupRef="fe47f">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
@@ -317,27 +317,27 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Shape>
   <Shape GraphId="d8889" GroupRef="b7e5e">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Graphics CenterX="808.8632855567803" CenterY="600.4079382579935" Width="76.0" Height="64.0" ZOrder="32851" FillColor="5a92f0" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="0066cc" Rotation="0.0" />
+    <Graphics CenterX="808.8632855567803" CenterY="600.4079382579935" Width="76.0" Height="64.0" ZOrder="32851" FillColor="5a92f0" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="0066cc" Rotation="0.0" />
   </Shape>
   <Shape GraphId="c7ec2" GroupRef="b7e5e">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Graphics CenterX="860.8632855567802" CenterY="579.4079382579935" Width="76.0" Height="64.0" ZOrder="32852" FillColor="5a92f0" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="0066cc" Rotation="0.0" />
+    <Graphics CenterX="860.8632855567802" CenterY="579.4079382579935" Width="76.0" Height="64.0" ZOrder="32852" FillColor="5a92f0" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="0066cc" Rotation="0.0" />
   </Shape>
-  <Group GroupId="df81e" GraphId="a1615" Style="Group">
-    <Comment>From Framingham Heart Study</Comment>
-  </Group>
-  <Group GroupId="b7e5e" GraphId="ae93f" Style="Group" />
-  <Group GroupId="fe47f" GraphId="d2e20" Style="Group" />
-  <Group GroupId="b940e" GraphId="f8631" Style="Group" />
-  <Group GroupId="d11f8" GraphId="fdd05" Style="Group">
+  <Group GroupId="fe47f" GraphId="fe47f" Style="Group" />
+  <Group GroupId="d11f8" GraphId="d11f8" Style="Group">
     <Comment>From mouse data</Comment>
   </Group>
+  <Group GroupId="df81e" GraphId="df81e" Style="Group">
+    <Comment>From Framingham Heart Study</Comment>
+  </Group>
+  <Group GroupId="b940e" GraphId="b940e" Style="Group" />
+  <Group GroupId="b7e5e" GraphId="b7e5e" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1 signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000883</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obesity</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9970</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b30">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24458711</bp:ID>
@@ -358,19 +358,19 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freedman JE</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overnutrition</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:654</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obesity disease pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000540</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obesity</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9970</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overnutrition</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:654</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000883</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

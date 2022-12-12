@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Interactions between immune cells and microRNAs in tumor microenvironment" Data-Source="WikiPathways" Version="WP4559_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Interactions between immune cells and microRNAs in tumor microenvironment" Data-Source="WikiPathways" Version="WP4559_Pt" Last-Modified="20190516200026" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">The interplay between immune cells and microRNAs in the tumor microenvironment (TME). MRX34 and MRG‐106 (cobomarsen) are miRNA therapeutic agents.
 Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et al].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4559.gpml (WP4559_r104316) with a 82.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4559.gpml (WP4559_r104316) with a 81.0% conversion rate.</Comment>
   <BiopaxRef>d3b</BiopaxRef>
   <Graphics BoardWidth="1373.6273795058726" BoardHeight="1033.166666666667" />
   <DataNode TextLabel="MHC" GraphId="a828d" Type="GeneProduct">
@@ -14,10 +14,9 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
     <Graphics CenterX="457.1666666666667" CenterY="471.9999999999994" Width="63.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="ptr-mir-155" GraphId="c17a8" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000283904</Comment>
+  <DataNode TextLabel="MIR155" GraphId="c17a8" Type="RNA">
     <Graphics CenterX="238.0" CenterY="185.33333333333348" Width="68.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="Ensembl" ID="ENSPTRG00000027690" />
+    <Xref Database="Ensembl" ID="ENSG00000283904" />
   </DataNode>
   <DataNode TextLabel="TLR4" GraphId="cb85b" Type="GeneProduct" GroupRef="ce4ee">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000136869</Comment>
@@ -131,10 +130,9 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
     <Graphics CenterX="174.33333333333334" CenterY="681.0000000000009" Width="68.0" Height="25.0" ZOrder="32786" FontSize="12" Valign="Middle" Color="990099" />
     <Xref Database="Ensembl" ID="ENSPTRG00000039790" />
   </DataNode>
-  <DataNode TextLabel="ptr-mir-155" GraphId="ca5d1" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000283904</Comment>
+  <DataNode TextLabel="MIR155" GraphId="ca5d1" Type="RNA">
     <Graphics CenterX="234.6666666666668" CenterY="754.9999999999999" Width="68.0" Height="25.0" ZOrder="32787" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="Ensembl" ID="ENSPTRG00000027690" />
+    <Xref Database="Ensembl" ID="ENSG00000283904" />
   </DataNode>
   <DataNode TextLabel="ptr-mir-21" GraphId="af59c" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000284190</Comment>
@@ -328,28 +326,28 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   <Interaction GraphId="id231342a9">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="533.4166666666667" Y="508.9999999999982" GraphRef="b90d2" RelX="0.5" RelY="-1.0" />
-      <Point X="580.6101660591257" Y="449.3333333333318" GraphRef="a9e14" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="580.6101660591257" Y="449.3333333333318" GraphRef="dd11a" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id2452d38c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="805.0093808630392" Y="532.6654158849273" GraphRef="bbf2f" RelX="0.5" RelY="-1.0" />
+      <Point X="805.0093808630392" Y="532.6654158849273" GraphRef="a2a16" RelX="0.5" RelY="-1.0" />
       <Point X="835.1760475297057" Y="502.3320825515953" GraphRef="b47f0" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id2bfb1348">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1117.6296724790798" Y="535.1153956338129" GraphRef="b6477" RelX="0.0" RelY="-1.0" />
-      <Point X="1116.6666666666658" Y="424.83333333333354" GraphRef="bebb8" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="1117.6296724790798" Y="535.1153956338129" GraphRef="df3fe" RelX="0.0" RelY="-1.0" />
+      <Point X="1116.6666666666658" Y="424.83333333333354" GraphRef="e79a0" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id2c9bb3b5">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1152.999999999999" Y="253.4801539084658" GraphRef="ba785" RelX="1.0" RelY="0.0" />
-      <Point X="1196.7869582827072" Y="252.7954637505066" GraphRef="d4a82" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1152.999999999999" Y="253.4801539084658" GraphRef="efd2d" RelX="1.0" RelY="0.0" />
+      <Point X="1196.7869582827072" Y="252.7954637505066" GraphRef="f5580" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -362,7 +360,7 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   </Interaction>
   <Interaction GraphId="id3de9651a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="643.3144997974814" Y="320.3333333333318" GraphRef="a9e14" RelX="0.5" RelY="-1.0" />
+      <Point X="643.3144997974814" Y="320.3333333333318" GraphRef="dd11a" RelX="0.5" RelY="-1.0" />
       <Point X="660.1666666666664" Y="294.66666666666646" GraphRef="f84f8" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -376,29 +374,29 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   </Interaction>
   <Interaction GraphId="id4560db9c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="576.6666666666666" Y="629.1666666666677" GraphRef="c979b" RelX="0.0" RelY="-1.0" />
-      <Point X="668.342714196373" Y="555.4987492182602" GraphRef="aad61" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="576.6666666666666" Y="629.1666666666677" GraphRef="be66d" RelX="0.0" RelY="-1.0" />
+      <Point X="668.342714196373" Y="555.4987492182602" GraphRef="fe0ea" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4a308600">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="238.0" Y="250.16666666666674" GraphRef="f403f" RelX="0.0" RelY="1.0" />
-      <Point X="188.33333333333337" Y="280.6666666666665" GraphRef="fb7cf" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="188.33333333333337" Y="280.6666666666665" GraphRef="fb524" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4e5caba8">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="972.9999999999998" Y="235.64682057513244" GraphRef="dd515" RelX="1.0" RelY="-0.5" />
+      <Point X="972.9999999999998" Y="235.64682057513244" GraphRef="ce4ee" RelX="1.0" RelY="-0.5" />
       <Point X="1050.4536249493738" Y="181.44997974888608" GraphRef="b2a9a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4edab5b7">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="972.9999999999998" Y="252.14682057513247" GraphRef="dd515" RelX="1.0" RelY="0.0" />
-      <Point X="1082.1287970838384" Y="253.4801539084658" GraphRef="ba785" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="972.9999999999998" Y="252.14682057513247" GraphRef="ce4ee" RelX="1.0" RelY="0.0" />
+      <Point X="1082.1287970838384" Y="253.4801539084658" GraphRef="efd2d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -419,14 +417,14 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   <Interaction GraphId="id591c3ed4">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="675.6666666666667" Y="671.9999999999982" GraphRef="b90d2" RelX="1.0" RelY="0.0" />
-      <Point X="1017.1296724790798" Y="672.7942129687651" GraphRef="b0d06" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1017.1296724790798" Y="672.7942129687651" GraphRef="dc878" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id5b3342c8">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="861.674330569138" Y="785.6915934073727" GraphRef="d2379" RelX="1.0" RelY="0.0" />
-      <Point X="917.009380863039" Y="786.1373591858555" GraphRef="c4d41" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="917.009380863039" Y="786.1373591858555" GraphRef="b2299" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -439,8 +437,8 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   </Interaction>
   <Interaction GraphId="id63cf7197">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1116.6666666666658" Y="383.83333333333354" GraphRef="bebb8" RelX="0.0" RelY="-1.0" />
-      <Point X="1117.5643985419188" Y="286.4801539084659" GraphRef="ba785" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="1116.6666666666658" Y="383.83333333333354" GraphRef="e79a0" RelX="0.0" RelY="-1.0" />
+      <Point X="1117.5643985419188" Y="286.4801539084659" GraphRef="efd2d" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -454,7 +452,7 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   <Interaction GraphId="id6b955a56">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1232.6666666666665" Y="342.49999999999926" GraphRef="d40df" RelX="0.0" RelY="-1.0" />
-      <Point X="1232.7869582827072" Y="298.29546375050677" GraphRef="d4a82" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="1232.7869582827072" Y="298.29546375050677" GraphRef="f5580" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -476,13 +474,13 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   <Interaction GraphId="id748fecf9">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="359.8333333333333" Y="496.1666666666665" GraphRef="a828d" RelX="0.0" RelY="-1.0" />
-      <Point X="358.5" Y="441.4999999999995" GraphRef="a780b" RelX="0.0" RelY="1.0" ArrowHead="mim-binding" />
+      <Point X="358.5" Y="441.4999999999995" GraphRef="aa1a8" RelX="0.0" RelY="1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id7e52a7d1">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="309.99999999999994" Y="912.1666666666672" GraphRef="b8a32" RelX="0.0" RelY="-1.0" />
+      <Point X="309.99999999999994" Y="912.1666666666672" GraphRef="d0ed4" RelX="0.0" RelY="-1.0" />
       <Point X="310.0" Y="839.5000000000009" GraphRef="ed956" RelX="0.0" RelY="1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -503,7 +501,7 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   </Interaction>
   <Interaction GraphId="id8d3cc61b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="240.0" Y="619.833333333333" GraphRef="c785b" RelX="0.0" RelY="-1.0" />
+      <Point X="240.0" Y="619.833333333333" GraphRef="f80dd" RelX="0.0" RelY="-1.0" />
       <Point X="240.0" Y="541.1666666666661" GraphRef="b7ed1" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -531,7 +529,7 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   </Interaction>
   <Interaction GraphId="ida275acca">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1120.1296724790798" Y="672.7942129687651" GraphRef="b0d06" RelX="1.0" RelY="0.0" />
+      <Point X="1120.1296724790798" Y="672.7942129687651" GraphRef="dc878" RelX="1.0" RelY="0.0" />
       <Point X="1159.6667320173522" Y="672.4524959648954" GraphRef="b88de" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -552,7 +550,7 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   </Interaction>
   <Interaction GraphId="idc345c1b5">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="728.342714196373" Y="522.4987492182609" GraphRef="aad61" RelX="1.0" RelY="0.0" />
+      <Point X="728.342714196373" Y="522.4987492182609" GraphRef="fe0ea" RelX="1.0" RelY="0.0" />
       <Point X="786.6760475297057" Y="483.08208255159525" GraphRef="b47f0" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -560,13 +558,13 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   <Interaction GraphId="idc4a76811">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="675.6666666666667" Y="671.9999999999982" GraphRef="b90d2" RelX="1.0" RelY="0.0" />
-      <Point X="719.0093808630393" Y="622.6654158849273" GraphRef="bbf2f" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="719.0093808630393" Y="622.6654158849273" GraphRef="a2a16" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc9cbd755">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="351.33333333333337" Y="341.4999999999997" GraphRef="e0a75" RelX="0.0" RelY="1.0" />
+      <Point X="351.33333333333337" Y="341.4999999999997" GraphRef="e5a06" RelX="0.0" RelY="1.0" />
       <Point X="256.00000000000006" Y="414.4999999999993" GraphRef="bb053" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -580,7 +578,7 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   </Interaction>
   <Interaction GraphId="ide01cca9f">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="351.33333333333337" Y="275.4999999999996" GraphRef="e0a75" RelX="0.0" RelY="-1.0" />
+      <Point X="351.33333333333337" Y="275.4999999999996" GraphRef="e5a06" RelX="0.0" RelY="-1.0" />
       <Point X="377.3333333333338" Y="231.66666666666654" GraphRef="cf2a9" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -589,13 +587,13 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="479.6666666666667" Y="697.1666666666677" GraphRef="e0b3f" RelX="0.0" RelY="1.0" />
       <Point X="528.1666666666666" Y="728.6666666666672" />
-      <Point X="576.6666666666666" Y="695.1666666666677" GraphRef="c979b" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="576.6666666666666" Y="695.1666666666677" GraphRef="be66d" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idf5e670f9">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1012.3780976304784" Y="786.1373591858555" GraphRef="c4d41" RelX="1.0" RelY="0.0" />
+      <Point X="1012.3780976304784" Y="786.1373591858555" GraphRef="b2299" RelX="1.0" RelY="0.0" />
       <Point X="1040.6760475297062" Y="785.7539459656186" GraphRef="e989a" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -603,7 +601,7 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   <Interaction GraphId="idfc0fc566">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="675.6666666666667" Y="671.9999999999982" GraphRef="b90d2" RelX="1.0" RelY="0.0" />
-      <Point X="1066.1296724790798" Y="583.1153956338129" GraphRef="b6477" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1066.1296724790798" Y="583.1153956338129" GraphRef="df3fe" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -643,22 +641,22 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   <Shape TextLabel="Macrophage" GraphId="a8545">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="1109.9803564196027" CenterY="272.0935601458078" Width="467.29404617253977" Height="265.06682867557714" ZOrder="16384" FontSize="14" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="1109.9803564196027" CenterY="272.0935601458078" Width="467.29404617253977" Height="265.06682867557714" ZOrder="16384" FontSize="14" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Lymphocyte" GraphId="b47f0">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="835.1760475297057" CenterY="463.83208255159525" Width="97.0" Height="77.00000000000011" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="835.1760475297057" CenterY="463.83208255159525" Width="97.0" Height="77.00000000000011" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Cancer cell" GraphId="b90d2">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="391.1666666666667" CenterY="671.9999999999982" Width="569.0" Height="326.0" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="391.1666666666667" CenterY="671.9999999999982" Width="569.0" Height="326.0" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="T cell" GraphId="bd964">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="308.0812116349107" CenterY="276.8397523429161" Width="315.49575660315526" Height="303.6795046858323" ZOrder="16384" FontSize="14" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="308.0812116349107" CenterY="276.8397523429161" Width="315.49575660315526" Height="303.6795046858323" ZOrder="16384" FontSize="14" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="EV" GraphId="cd3a7" GroupRef="b2299">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
@@ -667,7 +665,7 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   <Shape TextLabel="Regulatory&#xA;T cell" GraphId="d2379">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="808.3418557160885" CenterY="785.6915934073727" Width="106.6649497060989" Height="64.71902171155844" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="808.3418557160885" CenterY="785.6915934073727" Width="106.6649497060989" Height="64.71902171155844" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="EV" GraphId="d3e69" GroupRef="dc878">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
@@ -683,17 +681,17 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
   <Shape TextLabel="APC" GraphId="f84f8">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="660.1666666666664" CenterY="228.16666666666646" Width="231.66666666666652" Height="133.0" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="660.1666666666664" CenterY="228.16666666666646" Width="231.66666666666652" Height="133.0" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Th1 cell" GraphId="e989a">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="1091.176047529706" CenterY="785.7539459656186" Width="100.99999999999955" Height="60.84372682805075" ZOrder="32807" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="1091.176047529706" CenterY="785.7539459656186" Width="100.99999999999955" Height="60.84372682805075" ZOrder="32807" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="NK" GraphId="b88de">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="1205.9284221851603" CenterY="672.4524959648954" Width="92.52338033561641" Height="66.5632245584809" ZOrder="32814" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="1205.9284221851603" CenterY="672.4524959648954" Width="92.52338033561641" Height="66.5632245584809" ZOrder="32814" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="EV" GraphId="b411b" GroupRef="df3fe">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
@@ -703,28 +701,57 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
     <Graphics CenterX="639.468070649051" CenterY="86.53808400884333" Width="40.0" Height="40.0" ZOrder="32838" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="a4c4cf" Rotation="0.0" />
   </Shape>
-  <Group GroupId="fea6b" Style="Group" />
-  <Group GroupId="e275c" Style="Group" />
-  <Group GroupId="f32c9" Style="Group" />
-  <Group GroupId="aa1a8" GraphId="a780b" Style="Group" />
-  <Group GroupId="dd11a" GraphId="a9e14" Style="Group" />
-  <Group GroupId="fe0ea" GraphId="aad61" Style="Group" />
-  <Group GroupId="dc878" GraphId="b0d06" Style="Group" />
-  <Group GroupId="df3fe" GraphId="b6477" Style="Group" />
-  <Group GroupId="d0ed4" GraphId="b8a32" Style="Group" />
-  <Group GroupId="efd2d" GraphId="ba785" Style="Group" />
-  <Group GroupId="a2a16" GraphId="bbf2f" Style="Group" />
-  <Group GroupId="e79a0" GraphId="bebb8" Style="Group" />
-  <Group GroupId="b2299" GraphId="c4d41" Style="Group" />
-  <Group GroupId="f80dd" GraphId="c785b" Style="Group" />
-  <Group GroupId="be66d" GraphId="c979b" Style="Group" />
-  <Group GroupId="f5580" GraphId="d4a82" Style="Group" />
-  <Group GroupId="ce4ee" GraphId="dd515" Style="Group" />
-  <Group GroupId="e5a06" GraphId="e0a75" Style="Group" />
-  <Group GroupId="fa47b" GraphId="ec34a" Style="Group" />
-  <Group GroupId="fb524" GraphId="fb7cf" Style="Group" />
+  <Group GroupId="fea6b" GraphId="fea6b" Style="Group" />
+  <Group GroupId="e275c" GraphId="e275c" Style="Group" />
+  <Group GroupId="f32c9" GraphId="f32c9" Style="Group" />
+  <Group GroupId="aa1a8" GraphId="aa1a8" Style="Group" />
+  <Group GroupId="dd11a" GraphId="dd11a" Style="Group" />
+  <Group GroupId="fe0ea" GraphId="fe0ea" Style="Group" />
+  <Group GroupId="dc878" GraphId="dc878" Style="Group" />
+  <Group GroupId="df3fe" GraphId="df3fe" Style="Group" />
+  <Group GroupId="d0ed4" GraphId="d0ed4" Style="Group" />
+  <Group GroupId="efd2d" GraphId="efd2d" Style="Group" />
+  <Group GroupId="a2a16" GraphId="a2a16" Style="Group" />
+  <Group GroupId="e79a0" GraphId="e79a0" Style="Group" />
+  <Group GroupId="b2299" GraphId="b2299" Style="Group" />
+  <Group GroupId="f80dd" GraphId="f80dd" Style="Group" />
+  <Group GroupId="be66d" GraphId="be66d" Style="Group" />
+  <Group GroupId="f5580" GraphId="f5580" Style="Group" />
+  <Group GroupId="ce4ee" GraphId="ce4ee" Style="Group" />
+  <Group GroupId="e5a06" GraphId="e5a06" Style="Group" />
+  <Group GroupId="fb524" GraphId="fb524" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000023</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural killer cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000623</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural T-regulatory cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000903</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000235</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000084</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3b">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30578699</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -741,44 +768,14 @@ Adapted from figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/30578699 Cortez et
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calin GA</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000084</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000235</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000542</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antigen processing and presentation pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000825</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural T-regulatory cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000903</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune response pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000023</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural killer cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000623</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000542</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

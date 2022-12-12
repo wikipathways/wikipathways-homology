@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Non-small cell lung cancer" Data-Source="WikiPathways" Version="WP4255_Mm" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Non-small cell lung cancer" Data-Source="WikiPathways" Version="WP4255_Mm" Last-Modified="20220717104227" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Non-small cell lung cancer (NSCLC) represents 85% of lung cancer and is defined as any type of epithelial lung cancer that is NOT small cell carcinoma, including squamous cell (SCC), adeno (AC) and large-cell carcinoma. 
 Mutations in NSCLC:
 
@@ -8,9 +8,9 @@ Mutations in NSCLC:
 * The abnormal fusion of EML4-ALK (~5% of NSCLC patients) leads to constitutive ALK activation, which causes cell proliferation, invasion, and inhibition of apoptosis. 
 * Inactivating mutation of p53 (~50% of NSCLC patients) leads to reduced apoptosis and proliferation. 
 * The protein encoded by the p16INK4a, CDKN2A, inhibits formation of CDK-cyclin-D complexes by competitive binding of CDK4 and CDK6. p16INK4a is mutated in ~12% of NSCLC patients, which leads to a loss of this inhibitory effect.
-* RARB is a nuclear retinoic acid receptor whose function is often lost in NSCLC, leading to a loss of cell growth control. </Comment>
+* RARB is a nuclear retinoic acid receptor whose function is often lost in NSCLC, leading to a loss of cell growth control.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4255.gpml (WP4255_r119279) with a 98.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4255.gpml (WP4255_r123348) with a 98.0% conversion rate.</Comment>
   <BiopaxRef>f51</BiopaxRef>
   <BiopaxRef>ea7</BiopaxRef>
   <Graphics BoardWidth="1452.0" BoardHeight="1222.0" />
@@ -293,7 +293,7 @@ Mutations in NSCLC:
     <Xref Database="Ensembl" ID="ENSMUSG00000048756" />
   </DataNode>
   <DataNode TextLabel="PI3K-Akt Signaling &#xA;Pathway" GraphId="e820c" Type="Pathway">
-    <Graphics CenterX="254.5" CenterY="712.75" Width="123.0" Height="36.5" ZOrder="32805" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="254.5" CenterY="712.75" Width="123.0" Height="36.5" ZOrder="32805" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4172" />
   </DataNode>
   <DataNode TextLabel="Alk" GraphId="cbd14" Type="GeneProduct" GroupRef="c9717">
@@ -343,7 +343,7 @@ Mutations in NSCLC:
     <Xref Database="Ensembl" ID="ENSMUSG00000028698" />
   </DataNode>
   <DataNode TextLabel="Ras Signaling &#xA;Pathway" GraphId="e38e7" Type="Pathway">
-    <Graphics CenterX="1015.5" CenterY="196.75" Width="123.0" Height="36.5" ZOrder="32819" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="1015.5" CenterY="196.75" Width="123.0" Height="36.5" ZOrder="32819" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4223" />
   </DataNode>
   <DataNode TextLabel="Ccnd1" GraphId="d4031" Type="GeneProduct">
@@ -397,15 +397,15 @@ Mutations in NSCLC:
     <Xref Database="Ensembl" ID="ENSMUSG00000016477" />
   </DataNode>
   <DataNode TextLabel="p53 Signaling &#xA;Pathway" GraphId="edb61" Type="Pathway">
-    <Graphics CenterX="363.8333333333333" CenterY="1003.0833333333328" Width="123.0" Height="36.5" ZOrder="32835" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="363.8333333333333" CenterY="1003.0833333333328" Width="123.0" Height="36.5" ZOrder="32835" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP707" />
   </DataNode>
   <DataNode TextLabel="Cell Cycle" GraphId="ef039" Type="Pathway">
-    <Graphics CenterX="362.33333333333314" CenterY="1042.0833333333342" Width="82.0" Height="26.5" ZOrder="32836" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="362.33333333333314" CenterY="1042.0833333333342" Width="82.0" Height="26.5" ZOrder="32836" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP179" />
   </DataNode>
   <DataNode TextLabel="Cell Cycle" GraphId="a7484" Type="Pathway">
-    <Graphics CenterX="1007.3333333333334" CenterY="1009.7500000000014" Width="82.0" Height="26.5" ZOrder="32837" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="1007.3333333333334" CenterY="1009.7500000000014" Width="82.0" Height="26.5" ZOrder="32837" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP179" />
   </DataNode>
   <DataNode TextLabel="Bax" GraphId="c39a7" Type="GeneProduct" GroupRef="e112a">
@@ -478,35 +478,13 @@ Mutations in NSCLC:
     <Graphics CenterX="1144.0" CenterY="825.0" Width="64.0" Height="25.0" ZOrder="33339" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000004885" />
   </DataNode>
-  <State GraphRef="cc883" TextLabel="P" GraphId="a1a59">
-    <Comment>parent=P06400; position=ser249; ptm=p; direction=u</Comment>
-    <Graphics RelX="1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="ec14d" TextLabel="" GraphId="b138e">
-    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="cfd51" TextLabel="" GraphId="b5ee5">
-    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="bc676" TextLabel="P" GraphId="bf16b">
-    <Comment>parent=P31749; position=thr308; ptm=p; direction=u</Comment>
-    <Graphics RelX="1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="cc883" TextLabel="P" GraphId="c958b">
-    <Comment>parent=P06400; position=thr252; ptm=p; direction=u</Comment>
-    <Graphics RelX="-0.9591836734693877" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="a5d6d" TextLabel="" GraphId="c97ab">
     <Graphics RelX="-0.9647266313932987" RelY="-0.8476190476190459" Width="15.0" Height="15.0" ShapeType="Triangle" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="ce782" TextLabel="" GraphId="d9ff2">
-    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
+  <State GraphRef="bc676" TextLabel="P" GraphId="bf16b">
+    <Comment>parentid=P31749; position=thr308; ptm=p; direction=u</Comment>
+    <Graphics RelX="1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="c74da" TextLabel="" GraphId="e4b29">
@@ -514,12 +492,34 @@ Mutations in NSCLC:
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="caa11" TextLabel="P" GraphId="ecb4f">
-    <Comment>parent=Q92934; position=ser75; ptm=p; direction=d</Comment>
+    <Comment>parentid=Q92934; position=ser75; ptm=p; direction=d</Comment>
     <Graphics RelX="1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="cc883" TextLabel="P" GraphId="a1a59">
+    <Comment>parentid=P06400; position=ser249; ptm=p; direction=u</Comment>
+    <Graphics RelX="1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="cc883" TextLabel="P" GraphId="c958b">
+    <Comment>parentid=P06400; position=thr252; ptm=p; direction=u</Comment>
+    <Graphics RelX="-0.9591836734693877" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="ce782" TextLabel="" GraphId="d9ff2">
+    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="cfd51" TextLabel="" GraphId="b5ee5">
+    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d1936" TextLabel="" GraphId="f99d1">
     <Graphics RelX="-0.9615384615384616" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Triangle" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="ec14d" TextLabel="" GraphId="b138e">
+    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ffc98" TextLabel="" GraphId="fb37f">
@@ -535,72 +535,72 @@ Mutations in NSCLC:
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ff402" TextLabel="P" GraphId="d28f8">
-    <Comment>parent=Q02750; position=ser222; ptm=p; direction=u</Comment>
+    <Comment>parentid=Q02750; position=ser222; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ff402" TextLabel="P" GraphId="fb4ff">
-    <Comment>parent=Q02750; position=ser218; ptm=p; direction=u</Comment>
+    <Comment>parentid=Q02750; position=ser218; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="dd9ad" TextLabel="P" GraphId="a946b">
-    <Comment>parent=P36507; position=ser226; ptm=p; direction=u</Comment>
+    <Comment>parentid=P36507; position=ser226; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="dd9ad" TextLabel="P" GraphId="b87bc">
-    <Comment>parent=P36507; position=ser222; ptm=p; direction=u</Comment>
+    <Comment>parentid=P36507; position=ser222; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="f96f7" TextLabel="P" GraphId="d8605">
-    <Comment>parent=P28482; position=tyr187; ptm=p; direction=u</Comment>
+    <Comment>parentid=P28482; position=tyr187; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="f96f7" TextLabel="P" GraphId="dae1e">
-    <Comment>parent=P28482; position=thr185; ptm=p; direction=u</Comment>
+    <Comment>parentid=P28482; position=thr185; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="dafc8" TextLabel="P" GraphId="a7216">
-    <Comment>parent=P27361; position=thr202; ptm=p; direction=u</Comment>
+    <Comment>parentid=P27361; position=thr202; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-0.68" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="dafc8" TextLabel="P" GraphId="d2f00">
-    <Comment>parent=P27361; position=tyr204; ptm=p; direction=u</Comment>
+    <Comment>parentid=P27361; position=tyr204; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.68" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b644b" TextLabel="P" GraphId="c2820">
-    <Comment>parent=P19174; position=tyr1253; ptm=p; direction=u</Comment>
+    <Comment>parentid=P19174; position=tyr1253; ptm=p; direction=u</Comment>
     <Graphics RelX="0.9615384615384616" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b644b" TextLabel="P" GraphId="d5e13">
-    <Comment>parent=P19174; position=tyr783; ptm=p; direction=u</Comment>
+    <Comment>parentid=P19174; position=tyr783; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d3a0e" TextLabel="P" GraphId="c9fb7">
-    <Comment>parent=P31751; position=thr309; ptm=p; direction=u</Comment>
+    <Comment>parentid=P31751; position=thr309; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.6" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="aae4d" TextLabel="P" GraphId="abd38">
-    <Comment>parent=P55211; position=ser196; ptm=p; direction=d</Comment>
+    <Comment>parentid=P55211; position=ser196; ptm=p; direction=d</Comment>
     <Graphics RelX="1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b83c7" TextLabel="P" GraphId="be27b">
-    <Comment>parent=O43524; position=ser253; ptm=p; direction=d</Comment>
+    <Comment>parentid=O43524; position=ser253; ptm=p; direction=d</Comment>
     <Graphics RelX="-1.0" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b83c7" TextLabel="P" GraphId="ee61a">
-    <Comment>parent=O43524; position=thr32; ptm=p; direction=d</Comment>
+    <Comment>parentid=O43524; position=thr32; ptm=p; direction=d</Comment>
     <Graphics RelX="1.0" RelY="-0.68" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -609,12 +609,12 @@ Mutations in NSCLC:
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="a1058" TextLabel="P" GraphId="c5bba">
-    <Comment>parent=P42229; position=tyr694; ptm=p; direction=u</Comment>
+    <Comment>parentid=P42229; position=tyr694; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.6" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="f7f2a" TextLabel="P" GraphId="a815e">
-    <Comment>parent=P51692; position=tyr699; ptm=p; direction=u</Comment>
+    <Comment>parentid=P51692; position=tyr699; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.6" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -622,6 +622,20 @@ Mutations in NSCLC:
     <Graphics RelX="-0.9285714285714286" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Hexagon" />
     <Xref Database="" ID="" />
   </State>
+  <Interaction GraphId="e431a">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="718.7273576097056" Y="669.4262890341332" GraphRef="a0b28" RelX="-1.0" RelY="0.0" />
+      <Point X="696.5" Y="669.5" GraphRef="e924c" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="b1311">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="878.7448559670756" Y="517.695473251028" GraphRef="cc004" RelX="1.0" RelY="0.0" />
+      <Point X="902.1769547325101" Y="517.9341563786004" GraphRef="d4031" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id15d33a28">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="358.0" Y="433.0" GraphRef="c2ceb" RelX="-1.0" RelY="0.0" />
@@ -631,8 +645,8 @@ Mutations in NSCLC:
   </Interaction>
   <Interaction GraphId="id1971caac">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="505.0" Y="161.5" GraphRef="c9788" RelX="-0.5" RelY="1.0" />
-      <Point X="383.5" Y="310.5" GraphRef="a179f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="505.0" Y="161.5" GraphRef="f3acf" RelX="-0.5" RelY="1.0" />
+      <Point X="383.5" Y="310.5" GraphRef="c082b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -645,7 +659,7 @@ Mutations in NSCLC:
   </Interaction>
   <Interaction GraphId="id2562953b">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="723.0" Y="215.25" GraphRef="beeef" RelX="-1.0" RelY="-0.5" />
+      <Point X="723.0" Y="215.25" GraphRef="f33dd" RelX="-1.0" RelY="-0.5" />
       <Point X="445.0" Y="324.125" />
       <Point X="409.0" Y="433.0" GraphRef="c2ceb" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
@@ -660,7 +674,7 @@ Mutations in NSCLC:
   </Interaction>
   <Interaction GraphId="id300b6505">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="571.0" Y="161.5" GraphRef="c9788" RelX="0.5" RelY="1.0" />
+      <Point X="571.0" Y="161.5" GraphRef="f3acf" RelX="0.5" RelY="1.0" />
       <Point X="662.0" Y="261.5" GraphRef="c12ca" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -674,22 +688,15 @@ Mutations in NSCLC:
   </Interaction>
   <Interaction GraphId="id40517857">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="196.21875" Y="440.9855707883835" GraphRef="f984e" RelX="0.0" RelY="-1.0" />
-      <Point X="346.0" Y="356.0" GraphRef="a179f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="196.21875" Y="440.9855707883835" GraphRef="c9717" RelX="0.0" RelY="-1.0" />
+      <Point X="346.0" Y="356.0" GraphRef="c082b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4266956">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1205.5" Y="881.5" GraphRef="cc06f" RelX="0.0" RelY="1.0" />
-      <Point X="1205.5" Y="908.8333333333331" GraphRef="facf9" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id428cf657">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="878.7448559670756" Y="517.695473251028" GraphRef="cc004" RelX="1.0" RelY="0.0" />
-      <Point X="902.1769547325101" Y="517.9341563786004" GraphRef="d4031" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1205.5" Y="908.8333333333331" GraphRef="d46b2" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -703,13 +710,13 @@ Mutations in NSCLC:
   <Interaction GraphId="id53d2f5e6">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="396.25" Y="445.5" GraphRef="c2ceb" RelX="0.5" RelY="1.0" />
-      <Point X="396.5" Y="523.5" GraphRef="e610d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="396.5" Y="523.5" GraphRef="fc148" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id54cb43">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="538.0" Y="319.5" GraphRef="e8f79" RelX="0.0" RelY="1.0" />
+      <Point X="538.0" Y="319.5" GraphRef="fb818" RelX="0.0" RelY="1.0" />
       <Point X="503.0" Y="342.5" GraphRef="dd770" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -732,14 +739,14 @@ Mutations in NSCLC:
   </Interaction>
   <Interaction GraphId="id670058be">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="972.3333333333335" Y="931.9999999999992" GraphRef="d5803" RelX="-1.0" RelY="0.0" />
+      <Point X="972.3333333333335" Y="931.9999999999992" GraphRef="f5662" RelX="-1.0" RelY="0.0" />
       <Point X="921.3333333333334" Y="931.9999999999993" GraphRef="cc883" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id797b2019">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1184.0" Y="812.5" GraphRef="f4a4b" RelX="1.0" RelY="0.0" />
+      <Point X="1184.0" Y="812.5" GraphRef="a192f" RelX="1.0" RelY="0.0" />
       <Point X="1205.5" Y="814.0" GraphRef="a4d1b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -747,13 +754,13 @@ Mutations in NSCLC:
   <Interaction GraphId="id7d76a348">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="496.0" Y="86.16666666666669" GraphRef="b4fea" RelX="0.0" RelY="1.0" />
-      <Point X="538.0" Y="120.5" GraphRef="c9788" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="538.0" Y="120.5" GraphRef="f3acf" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id85b92985">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="896.8333333333334" Y="1041.5000000000014" GraphRef="ca5ad" RelX="0.0" RelY="1.0" />
+      <Point X="896.8333333333334" Y="1041.5000000000014" GraphRef="dfcc6" RelX="0.0" RelY="1.0" />
       <Point X="896.8333333333334" Y="1076.5000000000014" GraphRef="cf80a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -761,27 +768,27 @@ Mutations in NSCLC:
   <Interaction GraphId="id89f7a57c">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="493.0" Y="941.1666666666662" GraphRef="ffc98" RelX="0.0" RelY="1.0" />
-      <Point X="492.4999999999999" Y="968.1666666666661" GraphRef="b2798" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="492.4999999999999" Y="968.1666666666661" GraphRef="e112a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id8f2f0bc">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="662.0" Y="802.5" GraphRef="ddab2" RelX="0.0" RelY="1.0" />
+      <Point X="662.0" Y="802.5" GraphRef="d6c99" RelX="0.0" RelY="1.0" />
       <Point X="980.3333333333335" Y="906.9999999999993" GraphRef="ee43a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id9604bcd8">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="596.0" Y="572.0" GraphRef="a1a6e" RelX="1.0" RelY="0.0" />
-      <Point X="627.5" Y="572.0" GraphRef="e6b03" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="596.0" Y="572.0" GraphRef="b608c" RelX="1.0" RelY="0.0" />
+      <Point X="627.5" Y="572.0" GraphRef="ce8be" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id9649f697">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="196.21875" Y="506.9855707883835" GraphRef="f984e" RelX="0.0" RelY="1.0" />
+      <Point X="196.21875" Y="506.9855707883835" GraphRef="c9717" RelX="0.0" RelY="1.0" />
       <Point X="196.0" Y="548.5" GraphRef="d1a63" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -789,49 +796,42 @@ Mutations in NSCLC:
   <Interaction GraphId="id982926d2">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="340.5" Y="509.5" GraphRef="cb3f3" RelX="0.0" RelY="1.0" />
-      <Point X="365.0" Y="569.0" GraphRef="e610d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="365.0" Y="569.0" GraphRef="fc148" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id9b4becb5">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="930.6769547325102" Y="183.5" GraphRef="c74da" RelX="0.0" RelY="1.0" />
-      <Point X="679.25" Y="526.5" GraphRef="e6b03" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="679.25" Y="526.5" GraphRef="ce8be" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id9e5444fa">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="662.0" Y="493.5" GraphRef="af772" RelX="0.0" RelY="1.0" />
-      <Point X="662.0" Y="526.5" GraphRef="e6b03" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="662.0" Y="493.5" GraphRef="a46ae" RelX="0.0" RelY="1.0" />
+      <Point X="662.0" Y="526.5" GraphRef="ce8be" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ida6998344">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="196.21875" Y="440.9855707883835" GraphRef="f984e" RelX="0.0" RelY="-1.0" />
-      <Point X="504.0" Y="270.0" GraphRef="e8f79" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="196.21875" Y="440.9855707883835" GraphRef="c9717" RelX="0.0" RelY="-1.0" />
+      <Point X="504.0" Y="270.0" GraphRef="fb818" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idab34d86b">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="502.5" Y="505.5" GraphRef="ce6e9" RelX="0.0" RelY="1.0" />
-      <Point X="525.0" Y="572.0" GraphRef="a1a6e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="525.0" Y="572.0" GraphRef="b608c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idabf806cc">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="662.0" Y="617.5" GraphRef="e6b03" RelX="0.0" RelY="1.0" />
-      <Point X="662.0" Y="636.5" GraphRef="ec4d2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="idaee0ce3b">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="718.7273576097056" Y="669.4262890341332" GraphRef="c9bad" RelX="-1.0" RelY="0.0" />
-      <Point X="696.5" Y="669.5" GraphRef="ec4d2" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="662.0" Y="617.5" GraphRef="ce8be" RelX="0.0" RelY="1.0" />
+      <Point X="662.0" Y="636.5" GraphRef="e924c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -844,7 +844,7 @@ Mutations in NSCLC:
   </Interaction>
   <Interaction GraphId="idb6bdd1ca">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="896.8333333333334" Y="950.4999999999995" GraphRef="ca5ad" RelX="0.0" RelY="-1.0" />
+      <Point X="896.8333333333334" Y="950.4999999999995" GraphRef="dfcc6" RelX="0.0" RelY="-1.0" />
       <Point X="896.8333333333334" Y="944.4999999999993" GraphRef="cc883" RelX="0.0" RelY="1.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -858,14 +858,14 @@ Mutations in NSCLC:
   </Interaction>
   <Interaction GraphId="idc0688fbd">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="402.0" Y="690.5" GraphRef="ede22" RelX="0.0" RelY="1.0" />
+      <Point X="402.0" Y="690.5" GraphRef="d4878" RelX="0.0" RelY="1.0" />
       <Point X="402.0" Y="757.5000000000002" GraphRef="f113c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc2fbe16d">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="196.0" Y="690.5" GraphRef="de1c4" RelX="0.0" RelY="1.0" />
+      <Point X="196.0" Y="690.5" GraphRef="fa0a1" RelX="0.0" RelY="1.0" />
       <Point X="196.0" Y="743.5" GraphRef="b1d8f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -873,91 +873,91 @@ Mutations in NSCLC:
   <Interaction GraphId="idc3c913eb">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="196.0" Y="573.5" GraphRef="d1a63" RelX="0.0" RelY="1.0" />
-      <Point X="196.0" Y="599.5" GraphRef="de1c4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="196.0" Y="599.5" GraphRef="fa0a1" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc64da77f">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="578.5" Y="367.5" GraphRef="a8065" RelX="0.0" RelY="1.0" />
-      <Point X="578.25" Y="526.5" GraphRef="a1a6e" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="578.25" Y="526.5" GraphRef="b608c" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idd4d5b281">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1008.8333333333333" Y="855.4999999999993" GraphRef="ce782" RelX="0.0" RelY="1.0" />
-      <Point X="1008.8333333333335" Y="886.4999999999993" GraphRef="d5803" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="1008.8333333333335" Y="886.4999999999993" GraphRef="f5662" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idd731f656">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="662.0" Y="702.5" GraphRef="ec4d2" RelX="0.0" RelY="1.0" />
-      <Point X="662.0" Y="736.5" GraphRef="ddab2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="662.0" Y="702.5" GraphRef="e924c" RelX="0.0" RelY="1.0" />
+      <Point X="662.0" Y="736.5" GraphRef="d6c99" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ide8d2955c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="383.5" Y="401.5" GraphRef="a179f" RelX="0.0" RelY="1.0" />
+      <Point X="383.5" Y="401.5" GraphRef="c082b" RelX="0.0" RelY="1.0" />
       <Point X="383.5" Y="420.5" GraphRef="c2ceb" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idec303e34">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="396.5" Y="614.5" GraphRef="e610d" RelX="0.0" RelY="1.0" />
+      <Point X="396.5" Y="614.5" GraphRef="fc148" RelX="0.0" RelY="1.0" />
       <Point X="341.5" Y="657.5" GraphRef="caa11" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ided66e6a6">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="538.0" Y="319.5" GraphRef="e8f79" RelX="0.0" RelY="1.0" />
+      <Point X="538.0" Y="319.5" GraphRef="fb818" RelX="0.0" RelY="1.0" />
       <Point X="578.5" Y="342.5" GraphRef="a8065" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idf2849660">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="231.21875" Y="473.9855707883835" GraphRef="f984e" RelX="1.0" RelY="0.0" />
-      <Point X="627.5" Y="448.0" GraphRef="af772" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="231.21875" Y="473.9855707883835" GraphRef="c9717" RelX="1.0" RelY="0.0" />
+      <Point X="627.5" Y="448.0" GraphRef="a46ae" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idf4a3a413">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="907.1769547325102" Y="171.0" GraphRef="c74da" RelX="-1.0" RelY="0.0" />
-      <Point X="779.75" Y="192.5" GraphRef="beeef" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="779.75" Y="192.5" GraphRef="f33dd" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b7b99">
     <Graphics ZOrder="32770" LineThickness="1.0">
       <Point X="580.5" Y="86.16666666666669" GraphRef="a0bdd" RelX="0.0" RelY="1.0" />
-      <Point X="538.0" Y="120.5" GraphRef="c9788" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="538.0" Y="120.5" GraphRef="f3acf" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b1ce5">
     <Graphics ZOrder="32776" LineThickness="1.0">
       <Point X="662.0" Y="286.5" GraphRef="c12ca" RelX="0.0" RelY="1.0" />
-      <Point X="662.0" Y="311.5" GraphRef="f39fb" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="662.0" Y="311.5" GraphRef="f9775" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b1a49">
     <Graphics ZOrder="32777" LineThickness="1.0">
-      <Point X="662.0" Y="377.5" GraphRef="f39fb" RelX="0.0" RelY="1.0" />
-      <Point X="662.0" Y="402.5" GraphRef="af772" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="662.0" Y="377.5" GraphRef="f9775" RelX="0.0" RelY="1.0" />
+      <Point X="662.0" Y="402.5" GraphRef="a46ae" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f32c2">
     <Graphics ZOrder="32791" LineThickness="1.0">
-      <Point X="538.0" Y="161.5" GraphRef="c9788" RelX="0.0" RelY="1.0" />
-      <Point X="538.0" Y="253.5" GraphRef="e8f79" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="538.0" Y="161.5" GraphRef="f3acf" RelX="0.0" RelY="1.0" />
+      <Point X="538.0" Y="253.5" GraphRef="fb818" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -970,14 +970,14 @@ Mutations in NSCLC:
   </Interaction>
   <Interaction GraphId="a1bd1">
     <Graphics ZOrder="32803" LineThickness="1.0">
-      <Point X="396.5" Y="614.5" GraphRef="e610d" RelX="0.0" RelY="1.0" />
+      <Point X="396.5" Y="614.5" GraphRef="fc148" RelX="0.0" RelY="1.0" />
       <Point X="396.5" Y="657.5" GraphRef="aae4d" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="dc523">
     <Graphics ConnectorType="Elbow" ZOrder="32804" LineThickness="1.0">
-      <Point X="396.5" Y="614.5" GraphRef="e610d" RelX="0.0" RelY="1.0" />
+      <Point X="396.5" Y="614.5" GraphRef="fc148" RelX="0.0" RelY="1.0" />
       <Point X="462.5" Y="657.5" GraphRef="b83c7" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -990,7 +990,7 @@ Mutations in NSCLC:
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a49fb">
-    <BiopaxRef>d67</BiopaxRef>
+    <BiopaxRef>d76</BiopaxRef>
     <Graphics ZOrder="33320" LineThickness="1.0">
       <Point X="1303.5" Y="238.56933684104922" GraphRef="e8b06" RelX="0.0" RelY="1.0" />
       <Point X="1303.5" Y="281.5" GraphRef="caca3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1034,14 +1034,14 @@ Mutations in NSCLC:
   </Interaction>
   <Interaction GraphId="adcab">
     <Graphics ConnectorType="Elbow" ZOrder="33349" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1205.5" Y="1024.833333333333" GraphRef="facf9" RelX="0.0" RelY="1.0" />
+      <Point X="1205.5" Y="1024.833333333333" GraphRef="d46b2" RelX="0.0" RelY="1.0" />
       <Point X="1247.0" Y="1072.75" GraphRef="f97d0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d3169">
     <Graphics ZOrder="33351" LineStyle="Broken" LineThickness="1.0">
-      <Point X="567.9999999999998" Y="1045.1666666666667" GraphRef="b2798" RelX="1.0" RelY="0.0" />
+      <Point X="567.9999999999998" Y="1045.1666666666667" GraphRef="e112a" RelX="1.0" RelY="0.0" />
       <Point X="616.9495798319326" Y="1044.6113445378148" GraphRef="bcbf7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1082,7 +1082,7 @@ Mutations in NSCLC:
   <Shape GraphId="a6fe8">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="838.3333333333331" CenterY="979.6666666666665" Width="1121.3333333333337" Height="329.3333333333335" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="838.3333333333331" CenterY="979.6666666666665" Width="1121.3333333333337" Height="329.3333333333335" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="b2846">
     <Graphics CenterX="764.5000002070476" CenterY="68.49999940321578" Width="15.0" Height="15.0" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Hexagon" Rotation="0.0" />
@@ -1100,79 +1100,45 @@ Mutations in NSCLC:
   </Shape>
   <Shape TextLabel="ER" GraphId="fa767">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Endoplasmic Reticulum" />
-    <Graphics CenterX="502.5" CenterY="421.0" Width="51.0" Height="50.0" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="502.5" CenterY="421.0" Width="51.0" Height="50.0" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Endoplasmic Reticulum" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="f7979">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Mitochondria" />
     <Graphics CenterX="1148.5" CenterY="370.7776817862598" Width="157.0" Height="96.44463642748042" ZOrder="33330" FontSize="12" Valign="Middle" ShapeType="Mitochondria" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="c082b" GraphId="a179f" Style="Group" />
-  <Group GroupId="b608c" GraphId="a1a6e" Style="Group" />
-  <Group GroupId="e5ece" GraphId="a339a" Style="Group" />
-  <Group GroupId="a46ae" GraphId="af772" Style="Group" />
-  <Group GroupId="e112a" GraphId="b2798" Style="Pathway" />
-  <Group GroupId="f33dd" GraphId="beeef" Style="Group" />
-  <Group GroupId="f3acf" GraphId="c9788" Style="Group" />
-  <Group GroupId="a0b28" GraphId="c9bad" Style="Group" />
-  <Group GroupId="dfcc6" GraphId="ca5ad" Style="Group" />
-  <Group GroupId="f5662" GraphId="d5803" Style="Group" />
-  <Group GroupId="d6c99" GraphId="ddab2" Style="Group" />
-  <Group GroupId="fa0a1" GraphId="de1c4" Style="Group" />
-  <Group GroupId="fc148" GraphId="e610d" Style="Group" />
-  <Group GroupId="ce8be" GraphId="e6b03" Style="Group" />
-  <Group GroupId="fb818" GraphId="e8f79" Style="Group" />
-  <Group GroupId="e924c" GraphId="ec4d2" Style="Group" />
-  <Group GroupId="d4878" GraphId="ede22" Style="Group" />
-  <Group GroupId="a8c10" GraphId="f28d8" Style="Group" />
-  <Group GroupId="f9775" GraphId="f39fb" Style="Group" />
-  <Group GroupId="a192f" GraphId="f4a4b" Style="Group" />
-  <Group GroupId="c9717" GraphId="f984e" Style="Group" />
-  <Group GroupId="d46b2" GraphId="facf9" Style="Group" />
+  <Group GroupId="c082b" GraphId="c082b" Style="Group" />
+  <Group GroupId="b608c" GraphId="b608c" Style="Group" />
+  <Group GroupId="a46ae" GraphId="a46ae" Style="Group" />
+  <Group GroupId="e112a" GraphId="e112a" Style="Pathway" />
+  <Group GroupId="f33dd" GraphId="f33dd" Style="Group" />
+  <Group GroupId="f3acf" GraphId="f3acf" Style="Group" />
+  <Group GroupId="a0b28" GraphId="a0b28" Style="Group" />
+  <Group GroupId="dfcc6" GraphId="dfcc6" Style="Group" />
+  <Group GroupId="f5662" GraphId="f5662" Style="Group" />
+  <Group GroupId="d6c99" GraphId="d6c99" Style="Group" />
+  <Group GroupId="fa0a1" GraphId="fa0a1" Style="Group" />
+  <Group GroupId="fc148" GraphId="fc148" Style="Group" />
+  <Group GroupId="ce8be" GraphId="ce8be" Style="Group" />
+  <Group GroupId="fb818" GraphId="fb818" Style="Group" />
+  <Group GroupId="e924c" GraphId="e924c" Style="Group" />
+  <Group GroupId="d4878" GraphId="d4878" Style="Group" />
+  <Group GroupId="f9775" GraphId="f9775" Style="Group" />
+  <Group GroupId="a192f" GraphId="a192f" Style="Group" />
+  <Group GroupId="c9717" GraphId="c9717" Style="Group" />
+  <Group GroupId="d46b2" GraphId="d46b2" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b72">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23322901</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular pathways: current role and future directions of the retinoic acid pathway in cancer prevention and treatment.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clin Cancer Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connolly RM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyen NK</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sukumar S</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung cancer pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000703</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d67">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17328863</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28572459</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Induction of apoptosis by tumor suppressor FHIT via death receptor signaling pathway in human lung cancer cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Biophys Res Commun</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deng WG</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nishizaki M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fang B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roth JA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ji L</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1324</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f51">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">map05223</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Pathway</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Non-small cell lung cancer</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.kegg.jp/dbget-bin/www_bget?pathway+map05223</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AACR Project GENIE: Powering Precision Medicine through an International Consortium.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Discov</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff3">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20418096</bp:ID>
@@ -1186,8 +1152,28 @@ Mutations in NSCLC:
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jänne PA</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchial epithelial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0002328</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1324</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b72">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23322901</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular pathways: current role and future directions of the retinoic acid pathway in cancer prevention and treatment.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clin Cancer Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connolly RM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyen NK</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sukumar S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d76">
@@ -1202,18 +1188,18 @@ Mutations in NSCLC:
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roth JA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ji L</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchial epithelial cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0002328</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea7">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28572459</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AACR Project GENIE: Powering Precision Medicine through an International Consortium.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Discov</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">map05223</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Pathway</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Non-small cell lung cancer</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.kegg.jp/dbget-bin/www_bget?pathway+map05223</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

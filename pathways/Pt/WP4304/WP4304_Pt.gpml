@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Oligodendrocyte specification and differentiation, leading to myelin components for CNS" Data-Source="WikiPathways" Version="WP4304_Pt" Organism="Pan troglodytes">
-  <Comment Source="WikiPathways-description">Overview of synthesis of components for myelin sheath of the CNS in oligodendrocytes. "Multi-potent neural stem cells are specified into oligodendrocyte progenitor cells. OPCs can differentiate into multiple cell types including astrocytes, neurons, and Schwann cells. Differentiation along the oligodendroglial lineage to pre-oligodendrocytes/immature oligodendrocytes is potentiated by the growth factor IGF-1, the cytokine CNTF, and the thyroid hormone T3, and requires several transcription factors. BMPs can inhibit this step, as well as the previous one. Differentiation into mature oligodendrocytes is associated with acquisition of myelin-related proteins." Rephrased from [Miron et al, 2011, Figure 1C+D]. </Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Oligodendrocyte specification and differentiation, leading to myelin components for CNS" Data-Source="WikiPathways" Version="WP4304_Pt" Last-Modified="20220725111249" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Oligodendrocyte differentiation and specification.  Also the composition of the myelin sheaths.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4304.gpml (WP4304_r119229) with a 95.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4304.gpml (WP4304_r123411) with a 95.0% conversion rate.</Comment>
   <BiopaxRef>c1c</BiopaxRef>
   <BiopaxRef>d58</BiopaxRef>
   <Graphics BoardWidth="2145.094339622641" BoardHeight="1063.6633663366335" />
@@ -12,7 +11,7 @@
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="Glycerophospholipid Biosynthetic Pathway" GraphId="a39f0" Type="Pathway">
-    <Graphics CenterX="1956.0" CenterY="843.210757752942" Width="304.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="1956.0" CenterY="843.210757752942" Width="304.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP2533" />
   </DataNode>
   <DataNode TextLabel="FGF" GraphId="abcef" Type="Protein" GroupRef="c10ec">
@@ -88,7 +87,7 @@
     <Xref Database="Ensembl" ID="ENSPTRG00000008971" />
   </DataNode>
   <DataNode TextLabel="Cholesterol synthesis" GraphId="fed73" Type="Pathway">
-    <Graphics CenterX="1700.5278233981637" CenterY="743.2107577529416" Width="155.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="1700.5278233981637" CenterY="743.2107577529416" Width="155.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP197" />
   </DataNode>
   <DataNode TextLabel="MAG" GraphId="a8dc9" Type="Protein" GroupRef="d06af">
@@ -132,7 +131,7 @@
     <Xref Database="ChEBI" ID="CHEBI:17636" />
   </DataNode>
   <DataNode TextLabel="Sphingolipid metabolism" GraphId="b3ca0" Type="Pathway">
-    <Graphics CenterX="1697.527823398164" CenterY="798.2107577529421" Width="155.0" Height="25.0" ZOrder="32781" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="1697.527823398164" CenterY="798.2107577529421" Width="155.0" Height="25.0" ZOrder="32781" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP1422" />
   </DataNode>
   <DataNode TextLabel="phosphatidylinositol" GraphId="f02a5" Type="Metabolite" GroupRef="b8ee9">
@@ -300,15 +299,15 @@
   </DataNode>
   <Interaction GraphId="id11b3173f">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="321.90154988890254" Y="209.95095516409108" GraphRef="aa3c8" RelX="0.0" RelY="1.0" />
-      <Point X="474.50234285531764" Y="345.00018021963996" GraphRef="b2740" RelX="0.0" RelY="0.0" ArrowHead="mim-necessary-stimulation" />
+      <Point X="321.90154988890254" Y="209.95095516409108" GraphRef="c10ec" RelX="0.0" RelY="1.0" />
+      <Point X="474.50234285531764" Y="345.00018021963996" GraphRef="b2740" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id270aa8d8">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="638.3240498539575" Y="793.6477439567743" GraphRef="a727c" RelX="-1.0" RelY="0.0" />
-      <Point X="601.6198162864162" Y="859.2680772779057" GraphRef="c144a" RelX="0.0" RelY="0.0" ArrowHead="mim-necessary-stimulation" />
+      <Point X="638.3240498539575" Y="793.6477439567743" GraphRef="d57e2" RelX="-1.0" RelY="0.0" />
+      <Point X="601.6198162864162" Y="859.2680772779057" GraphRef="c144a" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -331,7 +330,7 @@
   </Interaction>
   <Interaction GraphId="id3b64949d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1766.0" Y="890.6001217506389" GraphRef="f01bc" RelX="1.0" RelY="-0.5" />
+      <Point X="1766.0" Y="890.6001217506389" GraphRef="b8ee9" RelX="1.0" RelY="-0.5" />
       <Point X="1804.0" Y="849.460757752942" GraphRef="a39f0" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -381,15 +380,15 @@
   </Interaction>
   <Interaction GraphId="id6f85ba96">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1722.6459434732344" Y="266.0792757079278" GraphRef="d4be9" RelX="0.0" RelY="1.0" />
+      <Point X="1722.6459434732344" Y="266.0792757079278" GraphRef="d06af" RelX="0.0" RelY="1.0" />
       <Point X="1722.5594167282802" Y="344.39940892050254" GraphRef="c9bee" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id6fc31b95">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1007.4049740620599" Y="236.5007208785592" GraphRef="b83a7" RelX="0.0" RelY="1.0" />
-      <Point X="1143.4705794436463" Y="345.00018021964" GraphRef="d1c34" RelX="0.0" RelY="0.0" ArrowHead="mim-necessary-stimulation" />
+      <Point X="1007.4049740620599" Y="236.5007208785592" GraphRef="d3981" RelX="0.0" RelY="1.0" />
+      <Point X="1143.4705794436463" Y="345.00018021964" GraphRef="d1c34" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -439,21 +438,21 @@
   </Interaction>
   <Interaction GraphId="idaba61066">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="682.5270363135503" Y="205.95095516409108" GraphRef="bea76" RelX="0.0" RelY="1.0" />
+      <Point X="682.5270363135503" Y="205.95095516409108" GraphRef="d03c7" RelX="0.0" RelY="1.0" />
       <Point X="474.50234285531764" Y="345.00018021963996" GraphRef="b2740" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc9582664">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1282.5270363135503" Y="220.95095516409108" GraphRef="fe480" RelX="0.0" RelY="1.0" />
+      <Point X="1282.5270363135503" Y="220.95095516409108" GraphRef="d7dd5" RelX="0.0" RelY="1.0" />
       <Point X="1143.4705794436463" Y="345.00018021964" GraphRef="d1c34" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idd80702ad">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="312.8311785376127" Y="835.8312094550596" GraphRef="c1f7c" RelX="0.0" RelY="1.0" />
+      <Point X="312.8311785376127" Y="835.8312094550596" GraphRef="bb120" RelX="0.0" RelY="1.0" />
       <Point X="294.66357308584685" Y="859.2680772779057" GraphRef="c1bf4" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -477,7 +476,7 @@
   <Interaction GraphId="idf9cfa2a9">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1513.9167350972493" Y="868.2107577529416" GraphRef="a59d5" RelX="1.0" RelY="0.0" />
-      <Point X="1571.6267663547287" Y="890.6001217506389" GraphRef="f01bc" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="1571.6267663547287" Y="890.6001217506389" GraphRef="b8ee9" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -497,8 +496,8 @@
   </Interaction>
   <Interaction GraphId="e2660">
     <Graphics ZOrder="32820" LineThickness="1.0">
-      <Point X="644.9746492689753" Y="931.105549210476" GraphRef="fa08a" RelX="-1.0" RelY="0.0" />
-      <Point X="601.6198162864162" Y="859.2680772779057" GraphRef="c144a" RelX="0.0" RelY="0.0" ArrowHead="mim-necessary-stimulation" />
+      <Point X="644.9746492689753" Y="931.105549210476" GraphRef="a0739" RelX="-1.0" RelY="0.0" />
+      <Point X="601.6198162864162" Y="859.2680772779057" GraphRef="c144a" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -512,7 +511,7 @@
   <GraphicalLine GraphId="d4e3a">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1070.1468189233278" Y="739.8724603292301" />
-      <Point X="1135.3996737357259" Y="739.8724603292301" ArrowHead="mim-necessary-stimulation" />
+      <Point X="1135.3996737357259" Y="739.8724603292301" ArrowHead="mim-stimulation" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="ee932">
@@ -621,72 +620,67 @@
     <Comment>oligodendrocyte progenitor cells (OPC)</Comment>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="880.8703851985687" CenterY="345.00018021964" Width="214.5" Height="156.5" ZOrder="32785" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="880.8703851985687" CenterY="345.00018021964" Width="214.5" Height="156.5" ZOrder="32785" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Mature oligodendrocyte &#xA;(capable of Myelination)" GraphId="ee0fc">
     <Comment>Myelinating oligodendrocyte</Comment>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="1980.4493872775683" CenterY="343.92117814063795" Width="213.5" Height="156.5" ZOrder="32786" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="1980.4493872775683" CenterY="343.92117814063795" Width="213.5" Height="156.5" ZOrder="32786" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Pre- &amp; Immature- oligodendrocyte&#xA;(O4+,GalC+)" GraphId="f67dd">
     <Comment>Pre-myelinating oligodendrocyte</Comment>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="1425.4417622786707" CenterY="345.00018021964" Width="214.5" Height="156.5" ZOrder="32787" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="1425.4417622786707" CenterY="345.00018021964" Width="214.5" Height="156.5" ZOrder="32787" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Multi-potent neural stem cell&#xA;(nestin+)" GraphId="af36e">
     <Comment>Multi-potent neural stem cell (Nestin+)</Comment>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="179.11687091559185" CenterY="345.00018021963996" Width="214.5" Height="156.5" ZOrder="32788" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="179.11687091559185" CenterY="345.00018021963996" Width="214.5" Height="156.5" ZOrder="32788" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Oligodendrocyte progenitor cells&#xA;(A2B5+, PDGF-alpha-R+)" GraphId="b6ce6">
     <Comment>oligodendrocyte progenitor cells (OPC)</Comment>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="882.2782596221276" CenterY="859.2680772779056" Width="214.5" Height="156.5" ZOrder="32805" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="882.2782596221276" CenterY="859.2680772779056" Width="214.5" Height="156.5" ZOrder="32805" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Pre- &amp; Immature- oligodendrocyte&#xA;" GraphId="bf526">
     <Comment>Pre-myelinating oligodendrocyte</Comment>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="475.7896411642348" CenterY="859.2680772779057" Width="214.5" Height="156.5" ZOrder="32821" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="475.7896411642348" CenterY="859.2680772779057" Width="214.5" Height="156.5" ZOrder="32821" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Mature oligodendrocyte &#xA;(capable of Myelination)" GraphId="a00b1">
     <Comment>The new myelin sheath has shorter internodes and thinner myelin loops, and may act as a physical barrier to protect from injurious inflammatory molecules, or provide trophic support anew to the axon</Comment>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="150.75473078902007" CenterY="859.2680772779057" Width="213.5" Height="156.5" ZOrder="32822" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="150.75473078902007" CenterY="859.2680772779057" Width="213.5" Height="156.5" ZOrder="32822" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="d3723">
     <Graphics CenterX="1653.1312949640208" CenterY="866.3366336633662" Width="880.7877697841718" Height="334.65346534653463" ZOrder="32826" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="00ffff" Rotation="0.0" />
   </Shape>
-  <Group GroupId="be945" Style="Group" />
-  <Group GroupId="d57e2" GraphId="a727c" Style="Group" />
-  <Group GroupId="c10ec" GraphId="aa3c8" Style="Group" />
-  <Group GroupId="d3981" GraphId="b83a7" Style="Group" />
-  <Group GroupId="d03c7" GraphId="bea76" Style="Group">
+  <Group GroupId="be945" GraphId="be945" Style="Group" />
+  <Group GroupId="d57e2" GraphId="d57e2" Style="Group" />
+  <Group GroupId="c10ec" GraphId="c10ec" Style="Group" />
+  <Group GroupId="d3981" GraphId="d3981" Style="Group" />
+  <Group GroupId="d03c7" GraphId="d03c7" Style="Group">
     <BiopaxRef>bc0</BiopaxRef>
   </Group>
-  <Group GroupId="bb120" GraphId="c1f7c" Style="Group" />
-  <Group GroupId="d06af" GraphId="d4be9" Style="Group" />
-  <Group GroupId="b8ee9" GraphId="f01bc" Style="Group" />
-  <Group GroupId="a0739" GraphId="fa08a" Style="Group" />
-  <Group GroupId="d7dd5" GraphId="fe480" Style="Group" />
+  <Group GroupId="bb120" GraphId="bb120" Style="Group" />
+  <Group GroupId="d06af" GraphId="d06af" Style="Group" />
+  <Group GroupId="b8ee9" GraphId="b8ee9" Style="Group" />
+  <Group GroupId="a0739" GraphId="a0739" Style="Group" />
+  <Group GroupId="d7dd5" GraphId="d7dd5" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligodendrocyte precursor cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0002453</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d58">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20887785</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20887785</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cells of the oligodendroglial lineage, myelination, and remyelination.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20887785</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cells of the oligodendroglial lineage, myelination, and remyelination.</bp:TITLE>
@@ -696,6 +690,11 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuhlmann T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antel JP</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelin accumulating cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000328</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1c">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9780397518203</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN</bp:DB>
@@ -709,21 +708,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albers RW</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">et al.,</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glial cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000125</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelin accumulating cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000328</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glial cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000125</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc0">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17872503</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -738,19 +722,14 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cao Q</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligodendrocyte precursor cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0002453</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelin accumulating cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000328</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000125</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligodendrocyte</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000128</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

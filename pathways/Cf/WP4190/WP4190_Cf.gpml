@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Mevalonate arm of cholesterol biosynthesis pathway" Data-Source="WikiPathways" Version="WP4190_Cf" Organism="Canis familiaris">
-  <Comment Source="WikiPathways-description">The mevalonate arm of the cholesterol biosynthesis pathway within different cellular regions.
-
-View more details on which drugs are related to these reactions at [https://www.wikipathways.org/index.php/Pathway:WP4189 WP4189]. View the broader scope of cholesterol metabolism at [https://www.wikipathways.org/index.php/Pathway:WP430 WP430].</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Mevalonate arm of cholesterol biosynthesis pathway" Data-Source="WikiPathways" Version="WP4190_Cf" Last-Modified="20220914051059" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">he mevalonate arm of the cholesterol biosynthesis pathway for different cellular regions.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4190.gpml (WP4190_r118431) with a 94.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4190.gpml (WP4190_r124024) with a 94.0% conversion rate.</Comment>
   <BiopaxRef>bcd</BiopaxRef>
   <BiopaxRef>cab</BiopaxRef>
   <Graphics BoardWidth="1190.9577300161216" BoardHeight="1071.6718206682322" />
   <DataNode TextLabel="dimethylallyl-PP" GraphId="aaf7c" Type="Metabolite">
+    <Comment>AKA Dimethylallyl diphosphate</Comment>
     <Graphics CenterX="402.2033520862637" CenterY="684.1186685488855" Width="104.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="ChEBI" ID="57623" />
   </DataNode>
@@ -51,7 +49,7 @@ View more details on which drugs are related to these reactions at [https://www.
   </DataNode>
   <DataNode TextLabel="Mitochondrial &#xA;beta-oxidation of &#xA;fatty acids" GraphId="e47cb" Type="Pathway">
     <Graphics CenterX="68.8760887161555" CenterY="80.7169141154595" Width="135.09453720020264" Height="62.531333849386954" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
-    <Xref Database="" ID="" />
+    <Xref Database="WikiPathways" ID="WP5241" />
   </DataNode>
   <DataNode TextLabel="HMGCS1" GraphId="ed3ae" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:Q01581</Comment>
@@ -89,7 +87,7 @@ View more details on which drugs are related to these reactions at [https://www.
     <Xref Database="Wikidata" ID="Q2639429" />
   </DataNode>
   <DataNode TextLabel="mevaldyl-CoA" GraphId="dfef9" Type="Metabolite">
-    <Comment>Annotated through ChemSpider API [https://www.chemspider.com/InChI.asmx], starting from SMILES: C[C@](O)(CC([O-])=O)CC(O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP([O-])(=O)OP([O-])(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1OP([O-])([O-])=O)n1cnc2c(N)ncnc12 ; converted to InCHI and then to InCHIKey </Comment>
+    <Comment>Annotated through ChemSpider API [https://www.chemspider.com/InChI.asmx], starting from SMILES: C[C@](O)(CC([O-])=O)CC(O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP([O-])(=O)OP([O-])(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1OP([O-])([O-])=O)n1cnc2c(N)ncnc12 ; converted to InCHI and then to InCHIKey</Comment>
     <Comment>"hemithioacetal, most likely the prominent reaction intermediate" [PMID:23898905]</Comment>
     <Graphics CenterX="260.20335208626364" CenterY="431.2410314180838" Width="90.0" Height="25.0" ZOrder="32769" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="InChIKey" ID="RGCJQGNQJYHPPZ-FMMSQWOCSA-I" />
@@ -100,10 +98,12 @@ View more details on which drugs are related to these reactions at [https://www.
     <Xref Database="ChEBI" ID="CHEBI:36464" />
   </DataNode>
   <DataNode TextLabel="mevalonate-P" GraphId="df3ad" Type="Metabolite">
+    <Comment>AKA (R)-5-phosphomevalonate</Comment>
     <Graphics CenterX="260.20335208626364" CenterY="578.9334833636999" Width="90.0" Height="25.0" ZOrder="32771" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="ChEBI" ID="58146" />
   </DataNode>
   <DataNode TextLabel="mevalonate-PP" GraphId="f89b9" Type="Metabolite">
+    <Comment>AKA (R)-5-diphosphomevalonate</Comment>
     <Graphics CenterX="260.20335208626364" CenterY="638.9334833637014" Width="90.0" Height="25.0" ZOrder="32772" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:57557" />
   </DataNode>
@@ -117,7 +117,7 @@ View more details on which drugs are related to these reactions at [https://www.
     <Xref Database="Ensembl" ID="ENSCAFG00845014186" />
   </DataNode>
   <DataNode TextLabel="MVD" GraphId="ed464" Type="Protein">
-    <Comment>EC 4.1.1.33 </Comment>
+    <Comment>EC 4.1.1.33</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:P53602</Comment>
     <Graphics CenterX="143.18331611985846" CenterY="659.1440495589541" Width="90.0" Height="25.0" ZOrder="32776" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845003495" />
@@ -169,6 +169,7 @@ View more details on which drugs are related to these reactions at [https://www.
   </DataNode>
   <DataNode TextLabel="3-hydroxy-3-methylglutaryl-CoA" GraphId="ded89" Type="Metabolite">
     <Comment>Annotated with (3S) ID</Comment>
+    <Comment>aka HMG-CoA</Comment>
     <Graphics CenterX="693.1765041372088" CenterY="383.70200188221804" Width="206.15017462867195" Height="25.0" ZOrder="32793" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:43074" />
   </DataNode>
@@ -213,7 +214,7 @@ View more details on which drugs are related to these reactions at [https://www.
   </DataNode>
   <DataNode TextLabel="ACAT2" GraphId="a42f5" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:Q9BWD1</Comment>
-    <Graphics CenterX="693.1765041372087" CenterY="208.22732904694936" Width="90.0" Height="25.0" ZOrder="32807" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="698.1147757421472" CenterY="211.51951011690815" Width="90.0" Height="25.0" ZOrder="32807" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845001848" />
   </DataNode>
   <DataNode TextLabel="HMGCS1" GraphId="d4d61" Type="Protein">
@@ -231,19 +232,17 @@ View more details on which drugs are related to these reactions at [https://www.
     <Comment>Annotated through ChemSpider API [https://www.chemspider.com/InChI.asmx], starting from SMILES: C[C@@](O)(CC=O)CC([O-])=O ; converted to InCHI and then to InCHIKey</Comment>
     <Comment>"aldehyde intermediate, which has never been detected experimentally" [PMID:23898905]</Comment>
     <Graphics CenterX="260.20335208626364" CenterY="473.8435374101219" Width="90.0" Height="25.0" ZOrder="32895" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
-    <Xref Database="InChIKey" ID="CWCYSIIDJAVQSK-ZCFIWIBFSA-M" />
+    <Xref Database="Wikidata" ID="Q113961354" />
   </DataNode>
   <DataNode TextLabel="NAD(P)+" GraphId="fc3ed" Type="Metabolite">
     <Graphics CenterX="348.14488138508" CenterY="424.99089062514753" Width="41.53280390020069" Height="13.553138352290016" ZOrder="32898" FontSize="8" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:18009" />
   </DataNode>
   <DataNode TextLabel="HS-CoA" GraphId="c3b11" Type="Metabolite">
-    <Comment></Comment>
     <Graphics CenterX="348.14488138508" CenterY="453.29518601317835" Width="41.53280390020067" Height="13.553138352290016" ZOrder="32900" FontSize="8" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="ChEBI" ID="57287" />
   </DataNode>
   <DataNode TextLabel="H+" GraphId="fb647" Type="Metabolite">
-    <Comment></Comment>
     <Graphics CenterX="348.14488138508" CenterY="470.16646407089723" Width="41.53280390020067" Height="13.553138352290016" ZOrder="32904" FontSize="8" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="ChEBI" ID="15378" />
   </DataNode>
@@ -256,12 +255,10 @@ View more details on which drugs are related to these reactions at [https://www.
     <Xref Database="ChEBI" ID="CHEBI:18009" />
   </DataNode>
   <DataNode TextLabel="H+" GraphId="d6755" Type="Metabolite">
-    <Comment></Comment>
     <Graphics CenterX="178.7431719833706" CenterY="414.52543842987114" Width="41.53280390020067" Height="13.553138352290016" ZOrder="32910" FontSize="8" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="ChEBI" ID="15378" />
   </DataNode>
   <DataNode TextLabel="H+" GraphId="ed46c" Type="Metabolite">
-    <Comment></Comment>
     <Graphics CenterX="178.74317198337056" CenterY="498.7134726179051" Width="41.53280390020067" Height="13.553138352290016" ZOrder="32913" FontSize="8" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="ChEBI" ID="15378" />
   </DataNode>
@@ -402,7 +399,7 @@ View more details on which drugs are related to these reactions at [https://www.
   </Interaction>
   <Interaction GraphId="id40fb1754">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="693.1765041372087" Y="220.72732904694936" GraphRef="a42f5" RelX="0.0" RelY="1.0" />
+      <Point X="698.1147757421472" Y="224.01951011690815" GraphRef="a42f5" RelX="0.0" RelY="1.0" />
       <Point X="696.896438503824" Y="252.0353352155509" GraphRef="c9198" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1005,7 +1002,6 @@ View more details on which drugs are related to these reactions at [https://www.
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Extracellular region" />
     <Graphics CenterX="1048.7077300161216" CenterY="220.18683634160527" Width="224.5" Height="263.80055599192553" ZOrder="32883" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b7ce2" GraphId="e50d1" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -1013,21 +1009,18 @@ View more details on which drugs are related to these reactions at [https://www.
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000454</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered cholesterol biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000752</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondria transport pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002061</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000454</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23583456</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comprehensive machine-readable view of the mammalian cholesterol biosynthesis pathway.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Pharmacol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mazein A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watterson S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsieh WY</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Griffiths WJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghazal P</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cab">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28910500</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1044,22 +1037,30 @@ View more details on which drugs are related to these reactions at [https://www.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghazal P</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondria transport pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002061</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isoprenoid biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000453</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered cholesterol biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000752</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolising cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000181</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000000</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcd">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23583456</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comprehensive machine-readable view of the mammalian cholesterol biosynthesis pathway.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Pharmacol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mazein A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watterson S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsieh WY</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Griffiths WJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghazal P</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd7">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23898905</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1070,11 +1071,6 @@ View more details on which drugs are related to these reactions at [https://www.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiest O</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stauffacher CV</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolising cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000181</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

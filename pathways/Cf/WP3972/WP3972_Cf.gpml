@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PDGFR-beta pathway" Data-Source="WikiPathways" Version="WP3972_Cf" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PDGFR-beta pathway" Data-Source="WikiPathways" Version="WP3972_Cf" Last-Modified="20191129104150" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">Simplified PDGFR-beta pathway, based on figure 7B from Zhang et al: https://www.ncbi.nlm.nih.gov/pubmed/27372738
 
 Platelet-derived growth factor receptors (PDGFR) are cell surface tyrosine kinase receptors for members of the platelet-derived growth factor (PDGF) family. PDGF subunits -A and -B are important factors regulating cell proliferation, cellular differentiation, cell growth, development and many diseases including cancer. There are two forms of the PDGFR, alpha and beta each encoded by a different gene. Depending on which growth factor is bound, PDGFR homo- or heterodimerizes. 
@@ -237,7 +237,14 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
     <Graphics RelX="-1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <Interaction GraphId="id10461062">
+  <Interaction GraphId="e1d60">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="289.3697478991595" Y="495.18487394958" GraphRef="c639d" RelX="1.0" RelY="0.0" />
+      <Point X="332.76470588235384" Y="480.47899159663865" GraphRef="de93f" RelX="-1.0" RelY="0.0" ArrowHead="mim-binding" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e01e8">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="540.764705882351" Y="495.1848739495799" GraphRef="d0205" RelX="-1.0" RelY="0.0" />
       <Point X="501.4705882352953" Y="480.47899159663865" GraphRef="d9db6" RelX="1.0" RelY="0.0" ArrowHead="mim-binding" />
@@ -304,13 +311,6 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="165.05042016806723" Y="309.9873949579837" GraphRef="e5fef" RelX="0.0" RelY="1.0" />
       <Point X="166.10084033613444" Y="360.7773109243681" GraphRef="a5890" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id5579d5e0">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="289.3697478991595" Y="495.18487394958" GraphRef="c639d" RelX="1.0" RelY="0.0" />
-      <Point X="332.76470588235384" Y="480.47899159663865" GraphRef="de93f" RelX="-1.0" RelY="0.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -497,13 +497,13 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2394</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac5">
@@ -559,9 +559,9 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rodland KD</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2394</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Aspirin and miRNAs" Data-Source="WikiPathways" Version="WP4707_Mm" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Aspirin and miRNAs" Data-Source="WikiPathways" Version="WP4707_Mm" Last-Modified="20210508111542" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Aspirin effects on miRNAs.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4707.gpml (WP4707_r116586) with a 85.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4707.gpml (WP4707_r116586) with a 100.0% conversion rate.</Comment>
   <Graphics BoardWidth="992.4001354096141" BoardHeight="567.2122545700747" />
   <DataNode TextLabel="Ppara" GraphId="b4864" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000186951</Comment>
     <Graphics CenterX="806.6808813077477" CenterY="326.2260127931772" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000022383" />
   </DataNode>
-  <DataNode TextLabel="Mir32" GraphId="b4d0e" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = Mb:MI0000090</Comment>
+  <DataNode TextLabel="hsa-miR-32" GraphId="b4d0e" Type="RNA">
     <Graphics CenterX="202.94699804331256" CenterY="326.75528785931715" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="Ensembl" ID="ENSMUSG00000065544" />
+    <Xref Database="miRBase Sequence" ID="MI0000090" />
   </DataNode>
   <DataNode TextLabel="Abcc4" GraphId="bf299" Type="GeneProduct">
     <Comment>MRP4</Comment>
@@ -76,49 +75,50 @@
     <Graphics CenterX="481.988272921109" CenterY="326.2260127931771" Width="109.67661691542335" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="15365" />
   </DataNode>
-  <DataNode TextLabel="Mir26b" GraphId="c75a7" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = Mb:MI0000084</Comment>
+  <DataNode TextLabel="hsa-miR-26b" GraphId="c75a7" Type="RNA">
     <Graphics CenterX="266.9289501648983" CenterY="266.32544654456376" Width="90.0" Height="25.0" ZOrder="32769" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="Ensembl" ID="ENSMUSG00000065468" />
+    <Xref Database="miRBase Sequence" ID="MI0000084" />
   </DataNode>
-  <DataNode TextLabel="Mir155" GraphId="b2276" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = Mb:MI0000681</Comment>
+  <DataNode TextLabel="hsa-miR-155" GraphId="b2276" Type="RNA">
     <Graphics CenterX="387.8031505913376" CenterY="266.32544654456376" Width="90.0" Height="25.0" ZOrder="32770" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="Ensembl" ID="ENSMUSG00000065397" />
+    <Xref Database="miRBase Sequence" ID="MI0000681" />
   </DataNode>
-  <DataNode TextLabel="Mir126a" GraphId="ebcb2" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = Mb:MI0000471</Comment>
+  <DataNode TextLabel="hsa-miR-126" GraphId="ebcb2" Type="RNA">
     <Graphics CenterX="482.38026501919836" CenterY="228.7561501692972" Width="90.0" Height="25.0" ZOrder="32771" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="Ensembl" ID="ENSMUSG00000065540" />
+    <Xref Database="miRBase Sequence" ID="MI0000471" />
   </DataNode>
-  <DataNode TextLabel="hsa-miR-4670-5p" GraphId="c55e0" Type="Rna">
+  <DataNode TextLabel="hsa-miR-4670-5p" GraphId="c55e0" Type="RNA">
     <Graphics CenterX="606.0639775700068" CenterY="230.22736552110956" Width="102.72634478890424" Height="25.0" ZOrder="32772" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="" ID="" />
+    <Xref Database="miRBase mature sequence" ID="MIMAT0019750" />
   </DataNode>
-  <DataNode TextLabel="hsa-miR-21-5p" GraphId="f514b" Type="Rna">
+  <DataNode TextLabel="hsa-miR-21-5p" GraphId="f514b" Type="RNA">
     <Graphics CenterX="658.5423119275114" CenterY="326.73767113589287" Width="90.0" Height="25.0" ZOrder="32773" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="" ID="" />
+    <Xref Database="miRBase mature sequence" ID="MIMAT0000076" />
   </DataNode>
-  <DataNode TextLabel="Mir1a-1" GraphId="fc9b9" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = Mb:MI0000651</Comment>
+  <DataNode TextLabel="hsa-miR-1" GraphId="fc9b9" Type="RNA">
     <Graphics CenterX="587.5188577697294" CenterY="381.51379053887797" Width="90.0" Height="25.0" ZOrder="32774" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="Ensembl" ID="ENSMUSG00000070144" />
+    <Xref Database="miRBase Sequence" ID="MI0000651" />
   </DataNode>
-  <DataNode TextLabel="Mir15b" GraphId="f9ad5" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = Mb:MI0000438</Comment>
+  <DataNode TextLabel="hsa-miR-15b" GraphId="f9ad5" Type="RNA">
     <Graphics CenterX="494.46270993746424" CenterY="382.2742738366746" Width="90.0" Height="25.0" ZOrder="32775" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="Ensembl" ID="ENSMUSG00000065580" />
+    <Xref Database="miRBase Sequence" ID="MI0000438" />
   </DataNode>
-  <DataNode TextLabel="Mir98" GraphId="cccd0" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = Mb:MI0000100</Comment>
+  <DataNode TextLabel="hsa-miR-98" GraphId="cccd0" Type="RNA">
     <Graphics CenterX="397.14216978110306" CenterY="381.61329302644015" Width="90.0" Height="25.0" ZOrder="32776" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="Ensembl" ID="ENSMUSG00000065536" />
+    <Xref Database="miRBase Sequence" ID="MI0000100" />
   </DataNode>
-  <DataNode TextLabel="H19" GraphId="a5c4c" Type="Rna">
-    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000130600</Comment>
+  <DataNode TextLabel="H19" GraphId="a5c4c" Type="RNA">
     <Graphics CenterX="777.8784663987133" CenterY="265.95519219680307" Width="102.72634478890424" Height="25.0" ZOrder="32778" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="" ID="" />
+    <Xref Database="Ensembl" ID="ENSG00000130600" />
   </DataNode>
+  <Interaction GraphId="b589e">
+    <BiopaxRef>e4d</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="703.5423119275114" Y="326.73767113589287" GraphRef="f514b" RelX="1.0" RelY="0.0" />
+      <Point X="761.6808813077477" Y="326.2260127931772" GraphRef="b4864" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id1ad1b7dc">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="536.8265813788207" Y="326.2260127931771" GraphRef="ffab3" RelX="1.0" RelY="0.0" />
@@ -329,14 +329,6 @@
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="681.0423119275114" Y="339.23767113589287" GraphRef="f514b" RelX="0.5" RelY="1.0" />
       <Point X="784.1808813077477" Y="338.7260127931772" GraphRef="b4864" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="idf5ce475d">
-    <BiopaxRef>e4d</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="703.5423119275114" Y="326.73767113589287" GraphRef="f514b" RelX="1.0" RelY="0.0" />
-      <Point X="761.6808813077477" Y="326.2260127931772" GraphRef="b4864" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Direct reversal repair" Data-Source="WikiPathways" Version="WP4931_Cf" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Direct reversal repair" Data-Source="WikiPathways" Version="WP4931_Cf" Last-Modified="20210522122107" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">Direct reversal repair is a mechanism of repair where the damaged area or lesion is repaired directly by specialized proteins. It does not involve breakage of the phosphodiester backbone and doesn't require a reference template unlike the other single-strand repair mechanism.  Methylation of guanine bases is directly reversed by the protein methyl guanine methyl transferase (MGMT). This is an expensive process because each MGMT molecule can be used only once. Methylation of the bases cytosine and adenine  is repaired by ALKBH2 and ALKBH3.
 
-This pathway is based on information from [http://repairtoire.genesilico.pl/Pathway/4/ REPAIRtoire] and [https://en.wikipedia.org/wiki/Base_excision_repair Wikipedia]. </Comment>
+This pathway is based on information from [http://repairtoire.genesilico.pl/Pathway/4/ REPAIRtoire] and [https://en.wikipedia.org/wiki/Base_excision_repair Wikipedia].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4931.gpml (WP4931_r117699) with a 100.0% conversion rate.</Comment>
   <Graphics BoardWidth="707.0" BoardHeight="398.43647912885854" />
@@ -21,17 +21,17 @@ This pathway is based on information from [http://repairtoire.genesilico.pl/Path
     <Graphics CenterX="570.5" CenterY="240.0" Width="61.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845028222" />
   </DataNode>
-  <Interaction GraphId="id911008a0">
+  <Interaction GraphId="c860e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="243.5" Y="180.5" GraphRef="e2eea" RelX="0.0" RelY="1.0" />
-      <Point X="401.4872958257704" Y="309.06624319419325" GraphRef="c8045" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="243.5" Y="180.5" GraphRef="cd8b3" RelX="0.0" RelY="1.0" />
+      <Point X="401.4872958257704" Y="309.06624319419325" GraphRef="e42ac" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.495413222830183" Shape="None" GraphId="a5481" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="ida9fc76a5">
+  <Interaction GraphId="c7f4e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="249.0" Y="243.5" GraphRef="fa5ac" RelX="1.0" RelY="0.0" />
+      <Point X="249.0" Y="243.5" GraphRef="d1a7d" RelX="1.0" RelY="0.0" />
       <Point X="321.76899539127044" Y="244.19341688800438" GraphRef="a5481" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -45,8 +45,8 @@ This pathway is based on information from [http://repairtoire.genesilico.pl/Path
   </Interaction>
   <Interaction GraphId="af20a">
     <Graphics ZOrder="33092" LineThickness="1.0">
-      <Point X="563.5" Y="177.5" GraphRef="ffdfd" RelX="0.0" RelY="1.0" />
-      <Point X="401.4872958257704" Y="309.06624319419325" GraphRef="c8045" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="563.5" Y="177.5" GraphRef="e6427" RelX="0.0" RelY="1.0" />
+      <Point X="401.4872958257704" Y="309.06624319419325" GraphRef="e42ac" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.4" Shape="None" GraphId="a1191" />
       <Anchor Position="0.47843948054884694" Shape="None" GraphId="b8101" />
     </Graphics>
@@ -250,11 +250,10 @@ This pathway is based on information from [http://repairtoire.genesilico.pl/Path
   <Shape GraphId="b8cd8" GroupRef="e42ac">
     <Graphics CenterX="386.39156079854524" CenterY="339.5186025408368" Width="4.0" Height="18.0" ZOrder="33086" FillColor="666666" FontSize="12" Valign="Middle" ShapeType="Rectangle" Color="666666" Rotation="0.0" />
   </Shape>
-  <Group GroupId="e42ac" GraphId="c8045" Style="Group" />
-  <Group GroupId="cd8b3" GraphId="e2eea" Style="Group" />
-  <Group GroupId="d1a7d" GraphId="fa5ac" Style="Group" />
-  <Group GroupId="be0d9" GraphId="fbabb" Style="Group" />
-  <Group GroupId="e6427" GraphId="ffdfd" Style="Group" />
+  <Group GroupId="d1a7d" GraphId="d1a7d" Style="Group" />
+  <Group GroupId="cd8b3" GraphId="cd8b3" Style="Group" />
+  <Group GroupId="e6427" GraphId="e6427" Style="Group" />
+  <Group GroupId="e42ac" GraphId="e42ac" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">

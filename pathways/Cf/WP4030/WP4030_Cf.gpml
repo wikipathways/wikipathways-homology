@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SCFA and skeletal muscle substrate metabolism" Data-Source="WikiPathways" Version="WP4030_Cf" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SCFA and skeletal muscle substrate metabolism" Data-Source="WikiPathways" Version="WP4030_Cf" Last-Modified="20220723064210" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">The short-chain fatty acids (SCFA) acetate, propionate and butyrate can alter skeletal muscle metabolism both via direct and indirect mechanisms. Indirect mechanisms include the stimulation of glucagon like peptide 1 (GLP-1) and peptide YY (PYY) release via G-protein coupled receptor 41 (GPR41) and GPR43 signalling. Increased peripheral levels of these gut-derived satiety hormones induce the recruitment of microvasculature in skeletal muscle tissue and thereby contribute to improved insulin signalling. Furthermore SCFA induce a reduction in lipolysis in white adipose tissue (WAT), resulting in enhanced WAT lipid buffering capacity and decreased levels ectopic fat accumulation in skeletal muscle tissue. 
 
-SCFA are also suggested to have direct effects on skeletal muscle metabolism, possibly via GPR41 and GPR43 signalling. SCFA  induce the activation of  adenosine monophosphate-activated protein kinase (AMPK), a key regulator in skeletal muscle cell metabolism. Activated AMPK induces several metabolic pathways including fatty acid oxidation and the synthesis of glycogen. Active AMPK also stimulates glucose uptake via translocation of glucose transporter type 4 (GLUT4) and decreases glycolysis. In addition to AMPK activation, SCFA might also induce peroxisome proliferator activated receptor delta (PPARD) expression, another process contributing to enhanced fat oxidation levels.  
-
-</Comment>
+SCFA are also suggested to have direct effects on skeletal muscle metabolism, possibly via GPR41 and GPR43 signalling. SCFA  induce the activation of  adenosine monophosphate-activated protein kinase (AMPK), a key regulator in skeletal muscle cell metabolism. Activated AMPK induces several metabolic pathways including fatty acid oxidation and the synthesis of glycogen. Active AMPK also stimulates glucose uptake via translocation of glucose transporter type 4 (GLUT4) and decreases glycolysis. In addition to AMPK activation, SCFA might also induce peroxisome proliferator activated receptor delta (PPARD) expression, another process contributing to enhanced fat oxidation levels.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4030.gpml (WP4030_r93221) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4030.gpml (WP4030_r123403) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>bbd</BiopaxRef>
   <Graphics BoardWidth="1033.5258676886149" BoardHeight="1285.5659475604066" />
   <DataNode TextLabel="FFAR3" GraphId="a2cbf" Type="GeneProduct" GroupRef="e7f88">
@@ -15,7 +13,7 @@ SCFA are also suggested to have direct effects on skeletal muscle metabolism, po
     <Xref Database="Ensembl" ID="ENSCAFG00845003060" />
   </DataNode>
   <DataNode TextLabel="Glycolysis" GraphId="a3283" Type="Pathway">
-    <Graphics CenterX="352.602126137844" CenterY="678.7576157432433" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="352.602126137844" CenterY="678.7576157432433" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP534" />
   </DataNode>
   <DataNode TextLabel="PPARD" GraphId="a8d5f" Type="GeneProduct">
@@ -28,11 +26,11 @@ SCFA are also suggested to have direct effects on skeletal muscle metabolism, po
     <Xref Database="ChEBI" ID="CHEBI:17272" />
   </DataNode>
   <DataNode TextLabel="Glycogen synthesis" GraphId="c065d" Type="Pathway">
-    <Graphics CenterX="369.33564292888894" CenterY="533.042284586525" Width="114.11940298507375" Height="25.074626865671004" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="369.33564292888894" CenterY="533.042284586525" Width="114.11940298507375" Height="25.074626865671004" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP500" />
   </DataNode>
   <DataNode TextLabel="AMPK activation" GraphId="c922c" Type="Pathway">
-    <Graphics CenterX="431.0013518841124" CenterY="605.5490593066752" Width="105.72292910447746" Height="28.119920708955206" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="431.0013518841124" CenterY="605.5490593066752" Width="105.72292910447746" Height="28.119920708955206" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP1403" />
   </DataNode>
   <DataNode TextLabel="Butyrate" GraphId="ce714" Type="Metabolite" GroupRef="df6f8">
@@ -68,15 +66,15 @@ SCFA are also suggested to have direct effects on skeletal muscle metabolism, po
     <Xref Database="ChEBI" ID="CHEBI:35366" />
   </DataNode>
   <DataNode TextLabel="FA oxidation" GraphId="eaf12" Type="Pathway">
-    <Graphics CenterX="571.8057921826207" CenterY="475.5891525195882" Width="158.4790334044062" Height="70.69651741293484" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="571.8057921826207" CenterY="475.5891525195882" Width="158.4790334044062" Height="70.69651741293484" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP143" />
   </DataNode>
   <DataNode TextLabel="Insulin action" GraphId="ebbc4" Type="Pathway">
-    <Graphics CenterX="571.805792182621" CenterY="731.7549711536899" Width="104.70149253731348" Height="28.917910447761187" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="571.805792182621" CenterY="731.7549711536899" Width="104.70149253731348" Height="28.917910447761187" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP481" />
   </DataNode>
   <DataNode TextLabel="Lipolysis" GraphId="f99a4" Type="Pathway">
-    <Graphics CenterX="852.0893742721719" CenterY="669.7512398104063" Width="101.0" Height="35.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="852.0893742721719" CenterY="669.7512398104063" Width="101.0" Height="35.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP3965" />
   </DataNode>
   <DataNode TextLabel="FFAR3" GraphId="d6375" Type="GeneProduct" GroupRef="c7b1f">
@@ -99,7 +97,7 @@ SCFA are also suggested to have direct effects on skeletal muscle metabolism, po
   </DataNode>
   <Interaction GraphId="id4ca22192">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="852.0893742721719" Y="792.9932704806201" GraphRef="c4ccf" RelX="0.0" RelY="-1.0" />
+      <Point X="852.0893742721719" Y="792.9932704806201" GraphRef="e9221" RelX="0.0" RelY="-1.0" />
       <Point X="852.0893742721719" Y="687.2512398104063" GraphRef="f99a4" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -120,7 +118,7 @@ SCFA are also suggested to have direct effects on skeletal muscle metabolism, po
   </Interaction>
   <Interaction GraphId="idb1bbea51">
     <Graphics ConnectorType="Curved" ZOrder="12292" LineStyle="Broken" LineThickness="2.0">
-      <Point X="477.9050459139613" Y="826.2993741387639" GraphRef="b2201" RelX="0.0" RelY="-1.0" />
+      <Point X="477.9050459139613" Y="826.2993741387639" GraphRef="f0fa1" RelX="0.0" RelY="-1.0" />
       <Point X="524.8554190482912" Y="800.8781054820481" />
       <Point X="571.805792182621" Y="746.2139263775705" GraphRef="ebbc4" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -156,7 +154,7 @@ SCFA are also suggested to have direct effects on skeletal muscle metabolism, po
   </Interaction>
   <Interaction GraphId="idb2fa453">
     <Graphics ZOrder="12306" LineThickness="2.0">
-      <Point X="244.41289736773822" Y="790.4806502573597" GraphRef="ae840" RelX="0.0" RelY="-1.0" />
+      <Point X="244.41289736773822" Y="790.4806502573597" GraphRef="c7b1f" RelX="0.0" RelY="-1.0" />
       <Point X="250.29040329200564" Y="495.46015430087425" GraphRef="e392b" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -177,7 +175,7 @@ SCFA are also suggested to have direct effects on skeletal muscle metabolism, po
   </Interaction>
   <Interaction GraphId="id62c65eb6">
     <Graphics ConnectorType="Curved" ZOrder="12314" LineThickness="2.0">
-      <Point X="244.41289736773822" Y="790.4806502573597" GraphRef="ae840" RelX="0.0" RelY="-1.0" />
+      <Point X="244.41289736773822" Y="790.4806502573597" GraphRef="c7b1f" RelX="0.0" RelY="-1.0" />
       <Point X="378.13988733187364" Y="605.5490593066752" GraphRef="c922c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -247,22 +245,22 @@ SCFA are also suggested to have direct effects on skeletal muscle metabolism, po
   </Interaction>
   <Interaction GraphId="id5c1a597b">
     <Graphics ZOrder="29286" LineStyle="Broken" LineThickness="2.0">
-      <Point X="300.4241749596723" Y="1229.1909475604066" GraphRef="d2b01" RelX="-1.0" RelY="0.0" />
-      <Point X="244.41289736773822" Y="849.4616026383114" GraphRef="ae840" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="300.4241749596723" Y="1229.1909475604066" GraphRef="df6f8" RelX="-1.0" RelY="0.0" />
+      <Point X="244.41289736773822" Y="849.4616026383114" GraphRef="c7b1f" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d572b">
     <Graphics ZOrder="29296" LineThickness="2.0">
-      <Point X="504.97417495966624" Y="1202.8159475604066" GraphRef="d2b01" RelX="0.0" RelY="-1.0" />
-      <Point X="436.4015349864572" Y="1148.181710048499" GraphRef="b214c" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="504.97417495966624" Y="1202.8159475604066" GraphRef="df6f8" RelX="0.0" RelY="-1.0" />
+      <Point X="436.4015349864572" Y="1148.181710048499" GraphRef="e7f88" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idf8c6b22d">
     <Graphics ZOrder="29351" LineThickness="2.0">
-      <Point X="709.5241749596602" Y="1229.1909475604066" GraphRef="d2b01" RelX="1.0" RelY="0.0" />
-      <Point X="852.0893742721719" Y="882.4932704806201" GraphRef="c4ccf" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="709.5241749596602" Y="1229.1909475604066" GraphRef="df6f8" RelX="1.0" RelY="0.0" />
+      <Point X="852.0893742721719" Y="882.4932704806201" GraphRef="e9221" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -296,8 +294,8 @@ SCFA are also suggested to have direct effects on skeletal muscle metabolism, po
   </Interaction>
   <Interaction GraphId="d1e28">
     <Graphics ConnectorType="Curved" ZOrder="32842" LineStyle="Broken" LineThickness="2.0">
-      <Point X="436.4015349864572" Y="1090.7412338580239" GraphRef="b214c" RelX="0.0" RelY="-1.0" />
-      <Point X="477.9050459139613" Y="896.8993741387609" GraphRef="b2201" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="436.4015349864572" Y="1090.7412338580239" GraphRef="e7f88" RelX="0.0" RelY="-1.0" />
+      <Point X="477.9050459139613" Y="896.8993741387609" GraphRef="f0fa1" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1248,44 +1246,28 @@ SCFA are also suggested to have direct effects on skeletal muscle metabolism, po
   <Shape GraphId="ac1ec">
     <Graphics CenterX="445.9698020006486" CenterY="1075.9113897414823" Width="2.0075058517911724" Height="28.01198179518888" ZOrder="32841" FillColor="9999ff" FontSize="12" Valign="Middle" ShapeType="Rectangle" Color="3333ff" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b6403" Style="Group" />
-  <Group GroupId="c7b1f" GraphId="ae840" Style="Group" />
-  <Group GroupId="e7f88" GraphId="b214c" Style="Group" />
-  <Group GroupId="f0fa1" GraphId="b2201" Style="Group" />
-  <Group GroupId="e9221" GraphId="c4ccf" Style="Group" />
-  <Group GroupId="df6f8" GraphId="d2b01" Style="Group" />
+  <Group GroupId="c7b1f" GraphId="c7b1f" Style="Group" />
+  <Group GroupId="e7f88" GraphId="e7f88" Style="Group" />
+  <Group GroupId="f0fa1" GraphId="f0fa1" Style="Group" />
+  <Group GroupId="e9221" GraphId="e9221" Style="Group" />
+  <Group GroupId="df6f8" GraphId="df6f8" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered energy metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001118</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbd">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26260141</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short-chain fatty acids in control of body weight and insulin sensitivity</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Endocrinol.</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26260141</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short-chain fatty acids in control of body weight and insulin sensitivity</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Endocrinol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26260141</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short-chain fatty acids in control of body weight and insulin sensitivity</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Endocrinol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26260141</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short-chain fatty acids in control of body weight and insulin sensitivity.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Endocrinol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canfora EE</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jocken JW</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blaak EE</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered energy metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001118</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="mir-124 predicted interactions with cell cycle and differentiation " Data-Source="WikiPathways" Version="WP3595_Dr" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="mir-124 predicted interactions with cell cycle and differentiation " Data-Source="WikiPathways" Version="WP3595_Dr" Last-Modified="20161006125942" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">Schematic of predicted interactions of miR-124 with cell cycle and cell differentiation machinery.
 
 A genomewide miRNA mimic toxicity screen indicates common and selective vulnerabilities of epithelial ovarian cancer cells. miR-124 is selectively toxic, mainly by inducing terminal cell differentiation via its target SIX4.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3595.gpml (WP3595_r89883) with a 85.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3595.gpml (WP3595_r89883) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>b9a</BiopaxRef>
   <Graphics BoardWidth="666.695018226003" BoardHeight="359.2831105710818" />
-  <DataNode TextLabel="stk11" GraphId="a31c9" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000118046</Comment>
-    <Graphics CenterX="270.9599027946532" CenterY="308.626974483597" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000046074" />
-  </DataNode>
-  <DataNode TextLabel="hsa-miR-124a" GraphId="b55db" Type="Rna">
+  <DataNode TextLabel="hsa-miR-124a" GraphId="b55db" Type="RNA">
     <Graphics CenterX="280.6804374240579" CenterY="70.47387606318351" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="990099" />
-    <Xref Database="" ID="" />
-  </DataNode>
-  <DataNode TextLabel="ptbp1b" GraphId="bae25" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000011304</Comment>
-    <Graphics CenterX="403.4021871202922" CenterY="134.87241798298902" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000031907" />
+    <Xref Database="miRBase mature sequence" ID="MIMAT0000422" />
   </DataNode>
   <DataNode TextLabel="six4b" GraphId="bc31c" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000100625</Comment>
@@ -31,69 +21,30 @@ A genomewide miRNA mimic toxicity screen indicates common and selective vulnerab
     <Graphics CenterX="139.7326852976915" CenterY="308.6269744835973" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000088225" />
   </DataNode>
-  <DataNode TextLabel="ctdsp1" GraphId="f3d26" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000144579</Comment>
-    <Graphics CenterX="549.1616038882157" CenterY="190.7654921020656" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000040674" />
+  <DataNode TextLabel="stk11" GraphId="a31c9" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000118046</Comment>
+    <Graphics CenterX="270.9599027946532" CenterY="308.626974483597" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000046074" />
   </DataNode>
   <DataNode TextLabel="prkaa1" GraphId="fc27e" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000132356</Comment>
     <Graphics CenterX="411.90765492102037" CenterY="308.62697448359705" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000060596" />
   </DataNode>
-  <Interaction GraphId="id161fdcb7">
+  <DataNode TextLabel="ptbp1b" GraphId="bae25" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000011304</Comment>
+    <Graphics CenterX="403.4021871202922" CenterY="134.87241798298902" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000031907" />
+  </DataNode>
+  <DataNode TextLabel="ctdsp1" GraphId="f3d26" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000144579</Comment>
+    <Graphics CenterX="549.1616038882157" CenterY="190.7654921020656" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000040674" />
+  </DataNode>
+  <Interaction GraphId="idd3d3bd2a">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="280.6804374240579" Y="80.47387606318351" GraphRef="b55db" RelX="0.0" RelY="1.0" />
-      <Point X="139.7326852976915" Y="192.91616038882105" GraphRef="bc31c" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id1ba64a9a">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="179.7326852976915" Y="202.91616038882105" GraphRef="bc31c" RelX="1.0" RelY="0.0" />
-      <Point X="205.90522478736284" Y="203.0558930741189" GraphRef="f62cb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id2426cd12">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="451.90765492102037" Y="308.62697448359705" GraphRef="fc27e" RelX="1.0" RelY="0.0" />
-      <Point X="502.1020656136102" Y="309.23450789793475" GraphRef="a6137" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id31b81667">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="443.4021871202922" Y="134.87241798298902" GraphRef="bae25" RelX="1.0" RelY="0.0" />
-      <Point X="549.1616038882157" Y="134.87900117454234" GraphRef="b722e" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id3afb19d">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="179.7326852976915" Y="308.6269744835973" GraphRef="ccbb3" RelX="1.0" RelY="0.0" />
-      <Point X="230.9599027946532" Y="308.626974483597" GraphRef="a31c9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id4b2a4814">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="549.1616038882157" Y="200.7654921020656" GraphRef="f3d26" RelX="0.0" RelY="1.0" />
-      <Point X="549.1616038882157" Y="230.58323207776414" GraphRef="b7afc" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id5279fbc9">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="310.9599027946532" Y="308.626974483597" GraphRef="a31c9" RelX="1.0" RelY="0.0" />
-      <Point X="371.90765492102037" Y="308.62697448359705" GraphRef="fc27e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="idb879810a">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="139.7326852976915" Y="212.91616038882105" GraphRef="bc31c" RelX="0.0" RelY="1.0" />
-      <Point X="139.7326852976915" Y="298.6269744835973" GraphRef="ccbb3" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="403.4021871202922" Y="124.87241798298902" GraphRef="bae25" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -105,10 +56,59 @@ A genomewide miRNA mimic toxicity screen indicates common and selective vulnerab
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="idd3d3bd2a">
+  <Interaction GraphId="id31b81667">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="443.4021871202922" Y="134.87241798298902" GraphRef="bae25" RelX="1.0" RelY="0.0" />
+      <Point X="549.1616038882157" Y="134.87900117454234" GraphRef="b722e" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id4b2a4814">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="549.1616038882157" Y="200.7654921020656" GraphRef="f3d26" RelX="0.0" RelY="1.0" />
+      <Point X="549.1616038882157" Y="230.58323207776414" GraphRef="b7afc" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id161fdcb7">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="280.6804374240579" Y="80.47387606318351" GraphRef="b55db" RelX="0.0" RelY="1.0" />
-      <Point X="403.4021871202922" Y="124.87241798298902" GraphRef="bae25" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="139.7326852976915" Y="192.91616038882105" GraphRef="bc31c" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idb879810a">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="139.7326852976915" Y="212.91616038882105" GraphRef="bc31c" RelX="0.0" RelY="1.0" />
+      <Point X="139.7326852976915" Y="298.6269744835973" GraphRef="ccbb3" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id3afb19d">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="179.7326852976915" Y="308.6269744835973" GraphRef="ccbb3" RelX="1.0" RelY="0.0" />
+      <Point X="230.9599027946532" Y="308.626974483597" GraphRef="a31c9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id5279fbc9">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="310.9599027946532" Y="308.626974483597" GraphRef="a31c9" RelX="1.0" RelY="0.0" />
+      <Point X="371.90765492102037" Y="308.62697448359705" GraphRef="fc27e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id2426cd12">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="451.90765492102037" Y="308.62697448359705" GraphRef="fc27e" RelX="1.0" RelY="0.0" />
+      <Point X="502.1020656136102" Y="309.23450789793475" GraphRef="a6137" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id1ba64a9a">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="179.7326852976915" Y="202.91616038882105" GraphRef="bc31c" RelX="1.0" RelY="0.0" />
+      <Point X="205.90522478736284" Y="203.0558930741189" GraphRef="f62cb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>

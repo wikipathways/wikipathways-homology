@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Prion disease pathway" Data-Source="WikiPathways" Version="WP3995_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Prion disease pathway" Data-Source="WikiPathways" Version="WP3995_Pt" Last-Modified="20210623130618" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Prion diseases are rare, genetic, transmissible and sporadic diseases, which are caused by mutations in the PRNP gene. This gene is located on chromosome 20p13 and is composed of two exons. Mutations in the PRNP gene cause conformational changes in the prion protein (PRNP). The normal PRNP (protein) changes into the pathologic PRNP. A molecular pathway can give a better understanding in prion diseases.
 
 
@@ -264,15 +264,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id1461a80d">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="711.0" Y="163.5" GraphRef="e750a" RelX="0.0" RelY="1.0" />
+      <Point X="711.0" Y="163.5" GraphRef="a0fba" RelX="0.0" RelY="1.0" />
       <Point X="690.0" Y="230.16666666666663" GraphRef="bcc1f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1ee6ed76">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="854.6666666666656" Y="402.50000000000034" GraphRef="c34cc" RelX="0.0" RelY="1.0" />
-      <Point X="854.6666666666656" Y="427.5" GraphRef="faa24" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="854.6666666666656" Y="402.50000000000034" GraphRef="ec81c" RelX="0.0" RelY="1.0" />
+      <Point X="854.6666666666656" Y="427.5" GraphRef="a9845" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -373,13 +373,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idc6b66933">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="734.3333333333326" Y="368.33333333333337" GraphRef="b6ad1" RelX="1.0" RelY="0.0" />
-      <Point X="801.6666666666656" Y="370.0000000000001" GraphRef="c34cc" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="801.6666666666656" Y="370.0000000000001" GraphRef="ec81c" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc96a7001">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="587.6666666666672" Y="369.0000000000001" GraphRef="d48db" RelX="1.0" RelY="0.0" />
+      <Point X="587.6666666666672" Y="369.0000000000001" GraphRef="cdb0d" RelX="1.0" RelY="0.0" />
       <Point X="644.3333333333326" Y="368.33333333333337" GraphRef="b6ad1" RelX="-1.0" RelY="0.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -422,30 +422,39 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Endoplasmic Reticulum" />
     <Graphics CenterX="270.0" CenterY="439.0" Width="150.0" Height="148.0" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Endoplasmic Reticulum" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="da7d8" Style="Group" />
-  <Group GroupId="ec81c" GraphId="c34cc" Style="Group" />
-  <Group GroupId="cdb0d" GraphId="d48db" Style="Group" />
-  <Group GroupId="edf91" GraphId="db5ff" Style="Complex" />
-  <Group GroupId="a0fba" GraphId="e750a" Style="Group">
+  <Group GroupId="da7d8" GraphId="da7d8" Style="Group" />
+  <Group GroupId="ec81c" GraphId="ec81c" Style="Group" />
+  <Group GroupId="cdb0d" GraphId="cdb0d" Style="Group" />
+  <Group GroupId="a0fba" GraphId="a0fba" Style="Group">
     <Comment>Regulators of PRNP</Comment>
   </Group>
-  <Group GroupId="a9845" GraphId="faa24" Style="Group" />
+  <Group GroupId="a9845" GraphId="a9845" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000540</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prion diseases pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000019</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e59">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WP1866</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WikiPathways</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCAM signaling for neurite out-growth (Homo sapiens)</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipathways</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome team</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bohler A</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prion disease</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:649</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000540</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
@@ -464,21 +473,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castilla J</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soto C</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e59">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WP1866</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WikiPathways</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCAM signaling for neurite out-growth (Homo sapiens)</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipathways</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome team</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bohler A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prion diseases pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000019</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

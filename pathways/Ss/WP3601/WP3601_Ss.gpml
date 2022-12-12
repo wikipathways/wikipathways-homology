@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Lipid particles composition" Data-Source="WikiPathways" Version="WP3601_Ss" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Lipid particles composition" Data-Source="WikiPathways" Version="WP3601_Ss" Last-Modified="20210522120913" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">This particle describes the chemical composition of various lipid particles. See also [https://www.wikipathways.org/index.php/Pathway:WP430] for a basic overview of cholesterol synthesis, and for the disease related to the lipoproteins in this pathway see [https://www.wikipathways.org/index.php/Pathway:WP4522].
 
 Additional sources
@@ -193,8 +193,8 @@ Additional sources
   <Interaction GraphId="id5bbe403b">
     <BiopaxRef>d00</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="936.0" Y="170.9523809523808" GraphRef="aafaa" RelX="0.0" RelY="1.0" />
-      <Point X="936.0" Y="258.9523809523808" GraphRef="acbd2" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="936.0" Y="170.9523809523808" GraphRef="d9fbb" RelX="0.0" RelY="1.0" />
+      <Point X="936.0" Y="258.9523809523808" GraphRef="d6679" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.4" Shape="None" GraphId="f3e55" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -216,7 +216,7 @@ Additional sources
   </Interaction>
   <Interaction GraphId="ida77e0f70">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="988.0" Y="148.9523809523808" GraphRef="aafaa" RelX="1.0" RelY="0.0" />
+      <Point X="988.0" Y="148.9523809523808" GraphRef="d9fbb" RelX="1.0" RelY="0.0" />
       <Point X="1018.0" Y="148.0" GraphRef="d8f6c" RelX="-1.0" RelY="0.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -232,7 +232,7 @@ Additional sources
   <Interaction GraphId="ideaf9b77c">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="193.0" Y="362.0" GraphRef="ffd78" RelX="1.0" RelY="0.0" />
-      <Point X="340.0" Y="362.0" GraphRef="a6d31" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="340.0" Y="362.0" GraphRef="cb6c7" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.673469387755102" Shape="None" GraphId="ae77e" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -262,23 +262,15 @@ Additional sources
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="347.25" CenterY="295.25" Width="147.5" Height="67.5" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="cb6c7" GraphId="a6d31" Style="Group" />
-  <Group GroupId="d9fbb" GraphId="aafaa" Style="Complex" />
-  <Group GroupId="d6679" GraphId="acbd2" Style="Complex" />
-  <Group GroupId="ce536" GraphId="cd43d" Style="Complex" />
-  <Group GroupId="b8989" GraphId="d92c4" Style="Complex" />
-  <Group GroupId="d1474" GraphId="d9618" Style="Complex" />
-  <Group GroupId="dd3c1" GraphId="e8006" Style="Complex" />
+  <Group GroupId="cb6c7" GraphId="cb6c7" Style="Group" />
+  <Group GroupId="d9fbb" GraphId="d9fbb" Style="Complex" />
+  <Group GroupId="d6679" GraphId="d6679" Style="Complex" />
+  <Group GroupId="ce536" GraphId="ce536" Style="Complex" />
+  <Group GroupId="b8989" GraphId="b8989" Style="Complex" />
+  <Group GroupId="d1474" GraphId="d1474" Style="Complex" />
+  <Group GroupId="dd3c1" GraphId="dd3c1" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3283935</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apolipoprotein E: cholesterol transport protein with expanding role in cell biology.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mahley RW</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid metabolic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000010</bp:ID>
@@ -291,6 +283,14 @@ Additional sources
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circulation</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steinberg D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3283935</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apolipoprotein E: cholesterol transport protein with expanding role in cell biology.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1988</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mahley RW</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

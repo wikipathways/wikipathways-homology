@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glycerolipids and glycerophospholipids" Data-Source="WikiPathways" Version="WP4722_Cf" Organism="Canis familiaris">
-  <Comment Source="WikiPathways-description">This pathway is inspired by the Lipidmaps&gt;Glycerolipids and Glycerophospholipids Pathways expended pathway display [https://lipidmaps.org/resources/pathways/vanted.php].
-Glycerolipids are composed of mono-, di-, and tri-substituted glycerols, which all function as energy storage. 
-Glycerophospholipids are also based on glycerol phospholipids, and serve as the main component of biological membranes.</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4345_106451.gpml] with a 95.0% conversion rate.</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glycerolipids and glycerophospholipids" Data-Source="WikiPathways" Version="WP4722_Cf" Last-Modified="20210518094124" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4345_106451.gpml] with a 95.0% conversion rate.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4722.gpml (WP4722_r117144) with a 91.0% conversion rate.</Comment>
   <BiopaxRef>fdb</BiopaxRef>
@@ -563,7 +560,7 @@ Glycerophospholipids are also based on glycerol phospholipids, and serve as the 
   </Interaction>
   <Interaction GraphId="d33c3">
     <Graphics ZOrder="32814" LineThickness="1.0">
-      <Point X="808.5417633410682" Y="72.2018561484918" GraphRef="c58bf" RelX="-1.0" RelY="0.0" />
+      <Point X="808.5417633410682" Y="72.2018561484918" GraphRef="bbe65" RelX="-1.0" RelY="0.0" />
       <Point X="762.5000000000001" Y="72.47736642269591" GraphRef="fe19a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -578,7 +575,7 @@ Glycerophospholipids are also based on glycerol phospholipids, and serve as the 
   <Interaction GraphId="bf999">
     <BiopaxRef>fdb</BiopaxRef>
     <Graphics ZOrder="32816" LineThickness="1.0">
-      <Point X="112.54333597724843" Y="354.7044624099537" GraphRef="f89c3" RelX="1.0" RelY="0.0" />
+      <Point X="112.54333597724843" Y="354.7044624099537" GraphRef="d8325" RelX="1.0" RelY="0.0" />
       <Point X="162.72241572980676" Y="355.4736193520553" GraphRef="e12f0" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1032,17 +1029,17 @@ Glycerophospholipids are also based on glycerol phospholipids, and serve as the 
   <Shape GraphId="f3bc4">
     <Graphics CenterX="850.4267642685861" CenterY="685.384928300576" Width="136.61971830985914" Height="60.563380281690144" ZOrder="32947" FillColor="ff9999" FontSize="16" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="f4d0f" Style="Group" />
-  <Group GroupId="cd5a3" Style="Group" />
-  <Group GroupId="e20e9" Style="Group" />
-  <Group GroupId="a0c16" Style="Group" />
-  <Group GroupId="a6fee" Style="Group" />
-  <Group GroupId="c3662" Style="Group" />
-  <Group GroupId="ef4dd" Style="Group" />
-  <Group GroupId="aec1f" Style="Group" />
-  <Group GroupId="fdb6f" Style="Group" />
-  <Group GroupId="bbe65" GraphId="c58bf" Style="Group" />
-  <Group GroupId="d8325" GraphId="f89c3" Style="Group" />
+  <Group GroupId="f4d0f" GraphId="f4d0f" Style="Group" />
+  <Group GroupId="cd5a3" GraphId="cd5a3" Style="Group" />
+  <Group GroupId="e20e9" GraphId="e20e9" Style="Group" />
+  <Group GroupId="a0c16" GraphId="a0c16" Style="Group" />
+  <Group GroupId="a6fee" GraphId="a6fee" Style="Group" />
+  <Group GroupId="c3662" GraphId="c3662" Style="Group" />
+  <Group GroupId="ef4dd" GraphId="ef4dd" Style="Group" />
+  <Group GroupId="aec1f" GraphId="aec1f" Style="Group" />
+  <Group GroupId="fdb6f" GraphId="fdb6f" Style="Group" />
+  <Group GroupId="bbe65" GraphId="bbe65" Style="Group" />
+  <Group GroupId="d8325" GraphId="d8325" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -1085,11 +1082,6 @@ Glycerophospholipids are also based on glycerol phospholipids, and serve as the 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fahy E</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subramaniam S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycerophospholipid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000354</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fdb">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25415055</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1104,6 +1096,11 @@ Glycerophospholipids are also based on glycerol phospholipids, and serve as the 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanikawa T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugiura T</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycerophospholipid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000354</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

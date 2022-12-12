@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Purine metabolism and related disorders" Data-Source="WikiPathways" Version="WP4224_Bt" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Purine metabolism and related disorders" Data-Source="WikiPathways" Version="WP4224_Bt" Last-Modified="20220812133827" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">Overview of purine metabolism and related diseases. Disorders resulting from an enzyme defect are highlighted in pink, metabolic markers are highlighted in red. Arrows indicate the directionality of chemical conversions.
 
 On the right, the biosynthesis of IMP is depicted in more detail (adapted from: https://en.wikipedia.org/wiki/Purine_metabolism).
 The color scheme for this part of the pathway is as follows: enzymes(black), coenzymes(light orange), regular substrates/metabolites(blue), additional substrates(dark green), metal ions(turquoise), inorganic molecules(light purple).
 
-This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (978-3642403361)). A similar version without the disorders and with biomarkers visualised with arrows can be found [https://www.wikipathways.org/instance/WP4792 here].
+This pathway was inspired by Ed. 5, Chapter 13 from the book of Blau (Ed. 4 Chapter 41) (ISBN 9783030677268). A similar version without the disorders and with biomarkers visualised with arrows can be found [https://www.wikipathways.org/instance/WP4792 here].
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP4224 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4224.gpml (WP4224_r120400) with a 92.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4224.gpml (WP4224_r123768) with a 92.0% conversion rate.</Comment>
   <BiopaxRef>c52</BiopaxRef>
   <Graphics BoardWidth="2357.1066152108338" BoardHeight="969.7305447391615" />
   <DataNode TextLabel="PRPP" GraphId="a21c1" Type="Metabolite">
@@ -47,9 +47,11 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1002.6889915505202" CenterY="319.4939379800934" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" LineThickness="2.0" Color="ff6666" />
     <Xref Database="ChEBI" ID="CHEBI:28498" />
   </DataNode>
-  <DataNode TextLabel="6-oxopyrimidine metabolite M1" GraphId="ab8e5" Type="Metabolite">
-    <Graphics CenterX="1662.3459900252394" CenterY="104.5718556813404" Width="181.89095127610258" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+  <DataNode TextLabel="6-oxopyrimidine (M1)" GraphId="ab8e5" Type="Metabolite">
+    <Comment>Oxidize version of auglurant, N-(5-fluoropyridin-2-yl)-6-methyl-4-((6-oxo)1,6-dihydropyrimidin-5-yloxy)picolinamide, aka VU0652922; structure drawn based on Fig. 1 [PMID:28939686]</Comment>
+    <BiopaxRef>e03</BiopaxRef>
+    <Graphics CenterX="1651.7329928665495" CenterY="104.5718556813404" Width="203.11694559348277" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="InChIKey" ID="ORGWVAZZJZJVPV-UHFFFAOYSA-N" />
   </DataNode>
   <DataNode TextLabel="5-PRA" GraphId="acb77" Type="Metabolite">
     <Comment>ChEBI for 5-phospho-ÃŽÂ²-D-ribosylamine that is used in the conversion from 5-PRA to GAR. The ChEBI for 5-PRA in the conversion from PRPP to 5-PRA is 58089 (5-phospho-D-ribosylamine)</Comment>
@@ -101,7 +103,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="ChEBI" ID="CHEBI:52742" />
   </DataNode>
   <DataNode TextLabel="6-methylthiopurine" GraphId="ba8e8" Type="Metabolite">
-    <Graphics CenterX="283.85754029272584" CenterY="106.65014577259535" Width="110.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Graphics CenterX="270.88685034077366" CenterY="106.65014577259535" Width="135.94137990390453" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:28279" />
   </DataNode>
   <DataNode TextLabel="SAICA-riboside" GraphId="bc533" Type="Metabolite">
@@ -173,7 +175,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Wikidata" ID="Q181619" />
   </DataNode>
   <DataNode TextLabel="ITP" GraphId="cbfc0" Type="Metabolite">
-    <Comment> is a nucleoside triphosphate(4ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢)</Comment>
+    <Comment>is a nucleoside triphosphate(4ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢)</Comment>
     <Graphics CenterX="933.1043589075738" CenterY="392.25" Width="73.5" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:61402" />
   </DataNode>
@@ -263,7 +265,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSBTAG00000011548" />
   </DataNode>
   <DataNode TextLabel="Mercaptopurine" GraphId="e5fa9" Type="Metabolite">
-    <Graphics CenterX="283.85754029272584" CenterY="242.2182269733289" Width="110.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Graphics CenterX="270.88685034077366" CenterY="242.2182269733289" Width="110.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:50667" />
   </DataNode>
   <DataNode TextLabel="Urate" GraphId="e6a2e" Type="Metabolite">
@@ -693,7 +695,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id2c45ad48">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="2179.0234069197013" Y="269.50944854096804" GraphRef="a1686" RelX="1.0" RelY="0.0" />
+      <Point X="2179.0234069197013" Y="269.50944854096804" GraphRef="fd830" RelX="1.0" RelY="0.0" />
       <Point X="2188.3093485480686" Y="306.2831121501582" GraphRef="e870f" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -746,7 +748,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id356cb16c">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="412.9289093860869" Y="186.0" GraphRef="d0ce1" RelX="-1.0" RelY="0.0" />
-      <Point X="283.85754029272584" Y="185.4909944930355" GraphRef="b1cd7" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="270.88685034077366" Y="185.4909944930355" GraphRef="b1cd7" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="Rhea" ID="12610" />
   </Interaction>
@@ -837,7 +839,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id603c7a8f">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1749.854882680701" Y="82.34974917565152" GraphRef="d1cfd" RelX="0.0" RelY="1.0" />
+      <Point X="1749.854882680701" Y="82.34974917565152" GraphRef="d0eb9" RelX="0.0" RelY="1.0" />
       <Point X="1811.479475092824" Y="104.5718556813404" GraphRef="b4149" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -866,9 +868,10 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id6bf6855d">
     <Comment>Oxidation</Comment>
+    <BiopaxRef>e03</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1850.2714813791795" Y="104.5718556813404" GraphRef="cf86e" RelX="-1.0" RelY="0.0" />
-      <Point X="1753.291465663291" Y="104.5718556813404" GraphRef="ab8e5" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="1753.2914656632909" Y="104.5718556813404" GraphRef="ab8e5" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.4" Shape="None" GraphId="b4149" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -900,7 +903,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id772cb09e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="243.09880142533166" Y="200.8643505021057" GraphRef="f6b7e" RelX="1.0" RelY="0.0" />
-      <Point X="283.85754029272584" Y="185.4909944930355" GraphRef="b1cd7" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+      <Point X="270.88685034077366" Y="185.4909944930355" GraphRef="b1cd7" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -956,7 +959,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Rhea" ID="30657" />
   </Interaction>
   <Interaction GraphId="id88da3202">
-    <Comment></Comment>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="825.4195292898956" Y="619.0018271054353" GraphRef="b23fd" RelX="0.0" RelY="1.0" />
       <Point X="825.4195292898956" Y="758.7721891544751" GraphRef="ce7d3" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
@@ -1167,8 +1169,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idc580739c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="283.85754029272584" Y="229.7182269733289" GraphRef="e5fa9" RelX="0.0" RelY="-1.0" />
-      <Point X="283.85754029272584" Y="119.15014577259535" GraphRef="ba8e8" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
+      <Point X="270.88685034077366" Y="229.7182269733289" GraphRef="e5fa9" RelX="0.0" RelY="-1.0" />
+      <Point X="270.88685034077366" Y="119.15014577259535" GraphRef="ba8e8" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.4" Shape="None" GraphId="b1cd7" />
     </Graphics>
     <Xref Database="Rhea" ID="12610" />
@@ -1427,21 +1429,21 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="a36db">
     <Graphics ZOrder="32837" LineThickness="1.0">
       <Point X="2188.3093485480686" Y="306.2831121501582" GraphRef="e870f" RelX="0.0" RelY="0.0" />
-      <Point X="2170.9368309578367" Y="337.1661529074802" GraphRef="b5b28" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="2170.9368309578367" Y="337.1661529074802" GraphRef="bed18" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f1323">
     <Graphics ZOrder="32840" LineThickness="1.0">
       <Point X="1782.5730231819093" Y="404.5935510776386" GraphRef="df632" RelX="0.0" RelY="0.0" />
-      <Point X="1841.0495259130007" Y="374.4248102516981" GraphRef="cd747" RelX="-0.5" RelY="1.0" />
+      <Point X="1841.0495259130007" Y="374.4248102516981" GraphRef="c8655" RelX="-0.5" RelY="1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="fc682">
     <Graphics ZOrder="32841" LineThickness="1.0">
       <Point X="1782.5730231819093" Y="404.5935510776386" GraphRef="df632" RelX="0.0" RelY="0.0" />
-      <Point X="1694.0579238283926" Y="377.1522616220909" GraphRef="f2fa9" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
+      <Point X="1694.0579238283926" Y="377.1522616220909" GraphRef="f7dac" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1455,41 +1457,41 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="adc7e">
     <Graphics ZOrder="32845" LineThickness="1.0">
       <Point X="1667.1993027112565" Y="485.88560709470266" GraphRef="ae6b5" RelX="0.0" RelY="0.0" />
-      <Point X="1686.1030711077988" Y="498.4170413323453" GraphRef="fac91" RelX="-1.0" RelY="-0.5" ArrowHead="mim-conversion" />
+      <Point X="1686.1030711077988" Y="498.4170413323453" GraphRef="e5e53" RelX="-1.0" RelY="-0.5" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c86c6">
     <Graphics ZOrder="32848" LineThickness="1.0">
       <Point X="1783.8869890032074" Y="579.3351934788825" GraphRef="ac784" RelX="0.0" RelY="0.0" />
-      <Point X="1697.7932434955999" Y="595.196594654692" GraphRef="f1546" RelX="0.0" RelY="-1.0" />
+      <Point X="1697.7932434955999" Y="595.196594654692" GraphRef="e38dc" RelX="0.0" RelY="-1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b9e5c">
     <Graphics ZOrder="32849" LineThickness="1.0">
       <Point X="1783.8869890032074" Y="579.3351934788825" GraphRef="ac784" RelX="0.0" RelY="0.0" />
-      <Point X="1859.1385458573895" Y="592.4610512943497" GraphRef="dcd59" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="1859.1385458573895" Y="592.4610512943497" GraphRef="a3bd8" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e34de">
     <Graphics ZOrder="32852" LineThickness="1.0">
       <Point X="2022.3434910110918" Y="579.3351934788825" GraphRef="b04ca" RelX="0.0" RelY="0.0" />
-      <Point X="1961.789760558548" Y="590.1339636237509" GraphRef="ebac7" RelX="0.0" RelY="-1.0" />
+      <Point X="1961.789760558548" Y="590.1339636237509" GraphRef="c4aa9" RelX="0.0" RelY="-1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c5e65">
     <Graphics ZOrder="32853" LineThickness="1.0">
       <Point X="2022.3434910110918" Y="579.3351934788825" GraphRef="b04ca" RelX="0.0" RelY="0.0" />
-      <Point X="2090.600989266396" Y="591.043054532842" GraphRef="a7653" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="2090.600989266396" Y="591.043054532842" GraphRef="e4b6b" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c615d">
     <Graphics ZOrder="32855" LineThickness="1.0">
-      <Point X="1989.5104263429466" Y="190.55913261480987" GraphRef="ec0c5" RelX="1.0" RelY="0.5" />
+      <Point X="1989.5104263429466" Y="190.55913261480987" GraphRef="fd847" RelX="1.0" RelY="0.5" />
       <Point X="2026.0278206104413" Y="213.43142847835998" GraphRef="f13f0" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1497,7 +1499,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="c0325">
     <Graphics ZOrder="32856" LineThickness="1.0">
       <Point X="2026.0278206104413" Y="213.43142847835998" GraphRef="f13f0" RelX="0.0" RelY="0.0" />
-      <Point X="2064.208634719628" Y="185.47369019351956" GraphRef="abd49" RelX="-1.0" RelY="0.5" ArrowHead="mim-conversion" />
+      <Point X="2064.208634719628" Y="185.47369019351956" GraphRef="df1af" RelX="-1.0" RelY="0.5" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1554,15 +1556,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ZOrder="32883" LineThickness="1.0">
       <Point X="2005.3412308488919" Y="648.236248074533" GraphRef="db6b9" RelX="0.5" RelY="-1.0" />
       <Point X="2022.3434910110918" Y="579.3351934788825" GraphRef="b04ca" RelX="0.0" RelY="0.0" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="d6302">
-    <Graphics ConnectorType="Elbow" ZOrder="32899" LineStyle="Broken" LineThickness="1.0">
-      <Point X="2143.309348548069" Y="753.448722506795" GraphRef="a01ed" RelX="-1.0" RelY="0.5" />
-      <Point X="1569.8663426488458" Y="520.7180159059643" />
-      <Point X="1206.7912238364147" Y="287.98730930513364" />
-      <Point X="843.7161050239836" Y="307.98730930513364" GraphRef="c7c98" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1729,14 +1722,22 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </GraphicalLine>
   <GraphicalLine GraphId="fa283">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="283.85754029272584" Y="185.4909944930355" GraphRef="b1cd7" RelX="0.0" RelY="0.0" />
-      <Point X="213.83273944498407" Y="132.36921488018254" GraphRef="d8f0b" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="270.88685034077366" Y="185.4909944930355" GraphRef="b1cd7" RelX="0.0" RelY="0.0" />
+      <Point X="221.12314041703752" Y="146.95001682428943" GraphRef="d8f0b" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="bf763">
     <Graphics ZOrder="32897" LineStyle="Broken" LineThickness="1.0">
       <Point X="1298.85" Y="848.3470218687867" GraphRef="ef847" RelX="0.0" RelY="0.0" />
       <Point X="1295.7112484579807" Y="788.1081934734804" GraphRef="b6e0d" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="a26f6">
+    <Graphics ConnectorType="Elbow" ZOrder="32899" LineStyle="Broken" LineThickness="1.0">
+      <Point X="2143.309348548069" Y="747.198722506795" GraphRef="a01ed" RelX="-1.0" RelY="0.0" />
+      <Point X="1569.8663426488458" Y="517.5930159059643" />
+      <Point X="1206.7912238364147" Y="287.98730930513364" />
+      <Point X="843.7161050239836" Y="307.98730930513364" GraphRef="c7c98" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="edd8f">
@@ -1757,7 +1758,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="885.7001379911222" CenterY="212.8202601946881" Width="159.5851798702858" Height="32.46370235934664" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Example reaction with AO and XO involved&#xA;(related to exogeneous metabolism)" GraphId="ead23">
-    <Graphics CenterX="1691.5089547687849" CenterY="18.209614077030622" Width="252.58454263515463" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="1684.8604734271253" CenterY="18.209614077030622" Width="265.8815053184735" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Phosphoribosylpyrophosphate &#xA;synthetase superactivity" GraphId="b08ac" Href="https://omim.org/300661">
     <Comment>DISEASE</Comment>
@@ -1839,39 +1840,49 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Label>
   <Label TextLabel="Thiopurine S-methyltransferase &#xA;deficiency" GraphId="d8f0b" Href="https://omim.org/601465">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="116.4899563195927" CenterY="132.36921488018254" Width="194.68556625078276" Height="31.099524144007546" ZOrder="32926" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="123.78035729164614" CenterY="146.95001682428943" Width="194.68556625078276" Height="31.099524144007546" ZOrder="32926" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Example reaction of thiopurine metabolism&#xA;(related to exogeneous metabolism)" GraphId="f8187">
-    <Graphics CenterX="130.60834172560376" CenterY="86.20961407703061" Width="246.78331654879247" Height="25.0" ZOrder="32933" FillColor="ffffff" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="175.54029798319797" CenterY="70.41374530424812" Width="309.9157588331181" Height="25.0" ZOrder="32933" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Shape GraphId="a56b1">
     <Comment>Adapted from: https://en.wikipedia.org/wiki/Purine_metabolism</Comment>
     <Graphics CenterX="1943.758023661538" CenterY="451.28325013371364" Width="766.6971830985917" Height="646.9788732394368" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
   </Shape>
   <Shape GraphId="e91f2">
-    <Graphics CenterX="1796.130043050084" CenterY="59.12024048096192" Width="470.8279668385497" Height="120.24048096192384" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
+    <Graphics CenterX="1787.5870219606827" CenterY="59.12024048096192" Width="487.91400901735165" Height="120.24048096192384" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
   </Shape>
   <Shape GraphId="b4c4b">
-    <Graphics CenterX="182.1929772910761" CenterY="171.24252361508525" Width="205.81127590664101" Height="332.3852856699624" ZOrder="32932" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="4.716329081488702" />
+    <Graphics CenterX="182.23904381822854" CenterY="159.55087216983824" Width="229.19476030414438" Height="332.3852856699624" ZOrder="32932" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="4.716329081488702" />
   </Shape>
-  <Group GroupId="fd830" GraphId="a1686" Style="Group" />
-  <Group GroupId="e4b6b" GraphId="a7653" Style="Group" />
-  <Group GroupId="df1af" GraphId="abd49" Style="Group" />
-  <Group GroupId="bed18" GraphId="b5b28" Style="Group" />
-  <Group GroupId="c8655" GraphId="cd747" Style="Group" />
-  <Group GroupId="d0eb9" GraphId="d1cfd" Style="Group" />
-  <Group GroupId="a3bd8" GraphId="dcd59" Style="Group" />
-  <Group GroupId="c4aa9" GraphId="ebac7" Style="Group" />
-  <Group GroupId="fd847" GraphId="ec0c5" Style="Group" />
-  <Group GroupId="e38dc" GraphId="f1546" Style="Group" />
-  <Group GroupId="f7dac" GraphId="f2fa9" Style="Group" />
-  <Group GroupId="e5e53" GraphId="fac91" Style="Group" />
+  <Group GroupId="fd830" GraphId="fd830" Style="Group" />
+  <Group GroupId="e4b6b" GraphId="e4b6b" Style="Group" />
+  <Group GroupId="df1af" GraphId="df1af" Style="Group" />
+  <Group GroupId="bed18" GraphId="bed18" Style="Group" />
+  <Group GroupId="c8655" GraphId="c8655" Style="Group" />
+  <Group GroupId="d0eb9" GraphId="d0eb9" Style="Group" />
+  <Group GroupId="a3bd8" GraphId="a3bd8" Style="Group" />
+  <Group GroupId="c4aa9" GraphId="c4aa9" Style="Group" />
+  <Group GroupId="fd847" GraphId="fd847" Style="Group" />
+  <Group GroupId="e38dc" GraphId="e38dc" Style="Group" />
+  <Group GroupId="f7dac" GraphId="f7dac" Style="Group" />
+  <Group GroupId="e5e53" GraphId="e5e53" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purine nucleoside phosphorylase deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001777</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenosine deaminase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5810</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenine phosphoribosyltransferase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060350</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xanthinuria disease pathway, type II</bp:TERM>
@@ -1879,9 +1890,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenylosuccinase lyase deficiency</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050762</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesch-Nyhan syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1919</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0e">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/B978-0-12-405546-9.00005-4</bp:ID>
@@ -1892,10 +1903,31 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Su, H</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lenardo, M.</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c52">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9783642403361</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases, Chapter 41</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN 978-3-642-40337-8,</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blau, N.</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duran, M.</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibson, K.M.</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dionisi-Vici, C.</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenosine deaminase deficiency</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5810</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error purine-pyrimidine metabolism disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001776</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesch-Nyhan syndrome pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001879</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenylosuccinase lyase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050762</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e03">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28939686</bp:ID>
@@ -1910,54 +1942,23 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lindsley CW</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenine phosphoribosyltransferase deficiency</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060350</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c52">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9783642403361</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases, Chapter 41</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN 978-3-642-40337-8,</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blau, N.</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duran, M.</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibson, K.M.</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dionisi-Vici, C.</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error purine-pyrimidine metabolism disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001776</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial DNA depletion syndrome 3</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080121</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesch-Nyhan syndrome pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001879</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesch-Nyhan syndrome</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1919</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenosine monophosphate deaminase deficiency pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001779</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purine metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000031</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial DNA depletion syndrome 3</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080121</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purine nucleoside phosphorylase deficiency pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001777</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purine metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000031</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>

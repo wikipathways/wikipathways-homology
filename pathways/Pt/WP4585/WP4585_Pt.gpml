@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cancer immunotherapy by PD-1 blockade" Data-Source="WikiPathways" Version="WP4585_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cancer immunotherapy by PD-1 blockade" Data-Source="WikiPathways" Version="WP4585_Pt" Last-Modified="20220727043717" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Immune checkpoints are hardwired into the immune system and are crucial for maintaining self-tolerance. Tumors can use these checkpoints to protect themselves from immune system attacks. 
 One such immune checkpoint is PD-1 (programmed cell death 1 protein), which binds to its ligand PD-L1 and inhibits immune cell activity, including T cell activity. By upregulating PD-L1, cancer cells can inhibit T cells that might otherwise attack.  One strategy for cancer immunotherapy is to block this kind of negative feedback, thereby increasing anti-cancer T-cell activity. For the PD-1 checkpoint, cancer immunotherapeutics block either the PD-1 receptor, or the PD-L1 ligand.
 The [https://www.nobelprize.org/prizes/medicine/2018/summary/ 2018 Nobel prize in Physiology or Medicine] was awarded to jointly to James Allison and Tasuku Honjo for their discovery of cancer therapy by inhibition of negative immune regulation.
 
-Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4856023/ Pardoll] and figure 1 in the review by [https://www.ncbi.nlm.nih.gov/pubmed/28990585 Sharpe and Pauken].
-</Comment>
+Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4856023/ Pardoll] and figure 1 in the review by [https://www.ncbi.nlm.nih.gov/pubmed/28990585 Sharpe and Pauken].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4585.gpml (WP4585_r108119) with a 85.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4585.gpml (WP4585_r123436) with a 85.0% conversion rate.</Comment>
   <BiopaxRef>c58</BiopaxRef>
   <BiopaxRef>f89</BiopaxRef>
   <BiopaxRef>bda</BiopaxRef>
@@ -41,7 +40,7 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
     <Xref Database="Ensembl" ID="ENSPTRG00000020756" />
   </DataNode>
   <DataNode TextLabel="Ras signaling" GraphId="ca322" Type="Pathway">
-    <Graphics CenterX="607.0" CenterY="552.0" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="607.0" CenterY="552.0" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4223" />
   </DataNode>
   <DataNode TextLabel="Nivolumab" GraphId="cc867" Type="Metabolite" GroupRef="b5431">
@@ -161,7 +160,7 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
     <Xref Database="Ensembl" ID="ENSPTRG00000016320" />
   </DataNode>
   <DataNode TextLabel="PI3K signaling" GraphId="deab0" Type="Pathway">
-    <Graphics CenterX="701.0" CenterY="516.0" Width="90.0" Height="25.0" ZOrder="32781" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="701.0" CenterY="516.0" Width="90.0" Height="25.0" ZOrder="32781" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4172" />
   </DataNode>
   <DataNode TextLabel="CD8B" GraphId="c5d3d" Type="GeneProduct" GroupRef="d89f0">
@@ -189,29 +188,25 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
     <Graphics CenterX="697.5000000000001" CenterY="725.0" Width="60.99999999999977" Height="25.0" ZOrder="32786" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000008283" />
   </DataNode>
-  <State GraphRef="fb005" TextLabel="P" GraphId="ac39e">
-    <Comment>parentid=Q15116; parentsymbol=PDCD1; site=CVPEQTEyATIVFPS; position=tyr248; sitegrpid=50293001; ptm=p; direction=u
-</Comment>
-    <Graphics RelX="1.0" RelY="-0.68" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="ef0fd" TextLabel="P" GraphId="d4b68">
-    <Comment>parentid=P43403; parentsymbol=ZAP70; site=tsVyEsPysDPEELk; position=tyr319; sitegrpid=447587; ptm=p; direction=u
-</Comment>
+    <Comment>parentid=P43403; parentsymbol=ZAP70; site=tsVyEsPysDPEELk; position=tyr319; ptm=p; direction=u; sitegrpid=447587</Comment>
     <Graphics RelX="1.0" RelY="-0.8113207547169812" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
+    <Xref Database="phosphositeplus" ID="447587" />
   </State>
   <State GraphRef="ef0fd" TextLabel="P" GraphId="e9c50">
-    <Comment>parentid=P43403; parentsymbol=ZAP70; site=VLLVNRHyAkISDFG; position=tyr474; sitegrpid=455368; ptm=p; direction=u
-</Comment>
+    <Comment>parentid=P43403; parentsymbol=ZAP70; site=VLLVNRHyAkISDFG; position=tyr474; ptm=p; direction=u; sitegrpid=455368</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
+    <Xref Database="phosphositeplus" ID="455368" />
+  </State>
+  <State GraphRef="fb005" TextLabel="P" GraphId="ac39e">
+    <Comment>parentid=Q15116; parentsymbol=PDCD1; site=CVPEQTEyATIVFPS; position=tyr248; ptm=p; direction=u; sitegrpid=50293001</Comment>
+    <Graphics RelX="1.0" RelY="-0.68" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="phosphositeplus" ID="50293001" />
   </State>
   <State GraphRef="fb005" TextLabel="P" GraphId="f35c8">
-    <Comment>parentid=Q15116; parentsymbol=PDCD1; site=VPVFSVDyGELDFQW; position=tyr223; sitegrpid=450293000; ptm=p; direction=u
-</Comment>
+    <Comment>parentid=Q15116; parentsymbol=PDCD1; site=VPVFSVDyGELDFQW; position=tyr223; ptm=p; direction=u; sitegrpid=450293000</Comment>
     <Graphics RelX="-0.9661016949152542" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
+    <Xref Database="phosphositeplus" ID="450293000" />
   </State>
   <Interaction GraphId="id12ce76b1">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
@@ -223,14 +218,14 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
   <Interaction GraphId="id165d1846">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="607.0" Y="564.5" GraphRef="ca322" RelX="0.0" RelY="1.0" />
-      <Point X="694.5000000000001" Y="654.5" GraphRef="d0d3d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="694.5000000000001" Y="654.5" GraphRef="ceb71" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1e85e2e8">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="660.0000000000003" Y="161.33333333333334" GraphRef="cf68e" RelX="-1.0" RelY="0.0" />
-      <Point X="589.1666666666664" Y="360.83333333333326" GraphRef="dee64" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="589.1666666666664" Y="360.83333333333326" GraphRef="d89f0" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -250,7 +245,7 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
   </Interaction>
   <Interaction GraphId="id4edd403d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="694.5000000000001" Y="745.5" GraphRef="d0d3d" RelX="0.0" RelY="1.0" />
+      <Point X="694.5000000000001" Y="745.5" GraphRef="ceb71" RelX="0.0" RelY="1.0" />
       <Point X="694.6666666666667" Y="765.5000000000005" GraphRef="d7a36" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -264,7 +259,7 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
   </Interaction>
   <Interaction GraphId="id546b3fb4">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="519.1964351341406" Y="347.6708930540236" GraphRef="d76c9" RelX="0.0" RelY="1.0" />
+      <Point X="519.1964351341406" Y="347.6708930540236" GraphRef="b5431" RelX="0.0" RelY="1.0" />
       <Point X="429.91666666666686" Y="379.2765002362576" GraphRef="fb005" RelX="0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -288,7 +283,7 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
     <BiopaxRef>e61</BiopaxRef>
     <BiopaxRef>ca1</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="310.0211319367875" Y="222.8509739066514" GraphRef="cf802" RelX="0.0" RelY="-1.0" />
+      <Point X="310.0211319367875" Y="222.8509739066514" GraphRef="b6590" RelX="0.0" RelY="-1.0" />
       <Point X="352.34523809523984" Y="195.16666666666669" GraphRef="ae75d" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -296,7 +291,7 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
   <Interaction GraphId="idd2218871">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="684.0000000000003" Y="229.33333333333334" GraphRef="a8e9d" RelX="0.0" RelY="1.0" />
-      <Point X="683.5000000000002" Y="347.8333333333333" GraphRef="ac0b9" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="683.5000000000002" Y="347.8333333333333" GraphRef="e28a1" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -345,7 +340,7 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
   <Interaction GraphId="dcb2a">
     <Graphics ZOrder="32779" LineThickness="1.0">
       <Point X="701.0" Y="528.5" GraphRef="deab0" RelX="0.0" RelY="1.0" />
-      <Point X="694.5000000000001" Y="654.5" GraphRef="d0d3d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="694.5000000000001" Y="654.5" GraphRef="ceb71" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -368,17 +363,97 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
   <Shape TextLabel="Nucleus" GraphId="e6439">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="576.3333333333335" CenterY="731.6666666666667" Width="461.33333333333303" Height="198.66666666666652" ZOrder="16384" FontSize="12" Valign="Bottom" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="576.3333333333335" CenterY="731.6666666666667" Width="461.33333333333303" Height="198.66666666666652" ZOrder="16384" FontSize="12" Valign="Bottom" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="e28a1" GraphId="ac0b9" Style="Complex" />
-  <Group GroupId="fcdac" GraphId="cf5ce" Style="Complex" />
-  <Group GroupId="b6590" GraphId="cf802" Style="Group" />
-  <Group GroupId="ceb71" GraphId="d0d3d" Style="Group" />
-  <Group GroupId="b5431" GraphId="d76c9" Style="Group" />
-  <Group GroupId="d89f0" GraphId="dee64" Style="Group" />
-  <Group GroupId="d0469" GraphId="e03e1" Style="Group" />
+  <Group GroupId="e28a1" GraphId="e28a1" Style="Complex" />
+  <Group GroupId="fcdac" GraphId="fcdac" Style="Complex" />
+  <Group GroupId="b6590" GraphId="b6590" Style="Group" />
+  <Group GroupId="ceb71" GraphId="ceb71" Style="Group" />
+  <Group GroupId="b5431" GraphId="b5431" Style="Group" />
+  <Group GroupId="d89f0" GraphId="d89f0" Style="Group" />
+  <Group GroupId="d0469" GraphId="d0469" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f89">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28990585</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The diverse functions of the PD1 inhibitory pathway.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Immunol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharpe AH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pauken KE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bda">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22437870</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The blockade of immune checkpoints in cancer immunotherapy.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pardoll DM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c58">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30511409</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune checkpoint blockade opens a new way to cancer immunotherapy.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Cell Physiol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sadreddini S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baradaran B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aghebati-Maleki A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shanehbandi D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fotouhi A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aghebati-Maleki L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adaptive immune response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000235</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e61">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29347993</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Updated efficacy of avelumab in patients with previously treated metastatic Merkel cell carcinoma after ≥1 year of follow-up: JAVELIN Merkel 200, a phase 2 clinical trial.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Immunother Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaufman HL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russell JS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamid O</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bhatia S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terheyden P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D'Angelo SP</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shih KC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebbé C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milella M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brownell I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lewis KD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorch JH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">von Heydebreck A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hennessy M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nghiem P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000084</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28643244</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durvalumab: First Global Approval.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drugs</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syed YY</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abc">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30345906</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -403,86 +478,6 @@ Based on and figure 4B in the review by [https://www.ncbi.nlm.nih.gov/pmc/articl
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winer EP</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loi S</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emens LA</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f89">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28990585</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The diverse functions of the PD1 inhibitory pathway.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Immunol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharpe AH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pauken KE</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e61">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29347993</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Updated efficacy of avelumab in patients with previously treated metastatic Merkel cell carcinoma after ≥1 year of follow-up: JAVELIN Merkel 200, a phase 2 clinical trial.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Immunother Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaufman HL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russell JS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamid O</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bhatia S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terheyden P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D'Angelo SP</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shih KC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebbé C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milella M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brownell I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lewis KD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorch JH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">von Heydebreck A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hennessy M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nghiem P</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca1">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28643244</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durvalumab: First Global Approval.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drugs</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syed YY</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adaptive immune response pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000235</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000084</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c58">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30511409</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune checkpoint blockade opens a new way to cancer immunotherapy.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Cell Physiol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sadreddini S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baradaran B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aghebati-Maleki A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shanehbandi D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fotouhi A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aghebati-Maleki L</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bda">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22437870</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The blockade of immune checkpoints in cancer immunotherapy.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pardoll DM</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

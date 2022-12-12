@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Regulation of Wnt / B-catenin signaling by small molecule compounds" Data-Source="WikiPathways" Version="WP3664_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Regulation of Wnt / B-catenin signaling by small molecule compounds" Data-Source="WikiPathways" Version="WP3664_Pt" Last-Modified="20210524103754" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">The Wnt/B-catenin pathway begins with Wnt family activation by MBOAT that allows Wnt proteins to translocate out of a cell and bind to FZD and LRP to form a complex. This complex stimulates B-catenin to bind to the TF/LEF complex to regulate gene expression in the cell. Regulation of this pathway takes place at different levels. The Wnt signaling can be inhibited by DKK3, FZD7, SFRP4, FZD8, V3Nter, and Wnt antibodies or FZD antibodies that inhibit FZD and do not allow formation of FZD/LRP/Wnt complex. Another level of regulation is the destruction complex (TNKS/AXIN/GSK3B/APC/CK1a/CK1e) that is regulated by XAV939, DVL, IC261, and Pyrvinium to catalyze the breakdown of B-catenin, inhibiting its binding to the TCF/LEF complex. Several substances including retinoids, glucocorticoids, and ICG-001 inhibit the TCF/LEF complex to stop Wnt/B-catenin signaling pathways from promoting gene transcription. This pathway is based on figure 4 from White et al.
 
 
@@ -51,7 +51,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSPTRG00000003368" />
   </DataNode>
   <DataNode TextLabel="NC043" GraphId="bd6fe" Type="Metabolite" GroupRef="c010f">
-    <Comment></Comment>
     <Graphics CenterX="118.10084033613447" CenterY="662.9762946792031" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="CAS" ID="1053172-87-4" />
   </DataNode>
@@ -65,7 +64,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSPTRG00000019092" />
   </DataNode>
   <DataNode TextLabel="CGP049090" GraphId="c1e35" Type="Metabolite" GroupRef="c010f">
-    <Comment></Comment>
     <Graphics CenterX="118.10084033613447" CenterY="682.9762946792031" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:3556" />
   </DataNode>
@@ -197,20 +195,20 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id173b67aa">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="238.38154225306442" Y="286.55624322496357" GraphRef="ed8f0" RelX="1.0" RelY="0.0" />
-      <Point X="387.2016806722688" Y="346.0" GraphRef="c31dc" RelX="-1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
+      <Point X="387.2016806722688" Y="346.0" GraphRef="d585f" RelX="-1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id345fcae2">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="672.7592140494565" Y="256.0592288734677" GraphRef="d8db4" RelX="-1.0" RelY="0.0" />
+      <Point X="672.7592140494565" Y="256.0592288734677" GraphRef="e0975" RelX="-1.0" RelY="0.0" />
       <Point X="518.7987246717871" Y="256.80042016806726" GraphRef="c0593" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4cff0114">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="563.64705882353" Y="723.0000000000001" GraphRef="de058" RelX="1.0" RelY="-0.5" />
+      <Point X="563.64705882353" Y="723.0000000000001" GraphRef="fcb57" RelX="1.0" RelY="-0.5" />
       <Point X="593.9495798319331" Y="723.1797133406835" GraphRef="fa2ea" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -224,8 +222,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id5bad619e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="166.10084033613447" Y="742.9762946792031" GraphRef="c2612" RelX="1.0" RelY="0.0" />
-      <Point X="459.64705882352996" Y="744.0000000000001" GraphRef="de058" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="166.10084033613447" Y="742.9762946792031" GraphRef="c010f" RelX="1.0" RelY="0.0" />
+      <Point X="459.64705882352996" Y="744.0000000000001" GraphRef="fcb57" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -239,7 +237,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id603496b4">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="478.7987246717871" Y="266.80042016806726" GraphRef="c0593" RelX="0.0" RelY="1.0" />
-      <Point X="479.2016806722687" Y="335.0" GraphRef="c31dc" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="479.2016806722687" Y="335.0" GraphRef="d585f" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -259,7 +257,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="ida4b0312a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="209.0084033613444" Y="424.4117647058822" GraphRef="d7cea" RelX="1.0" RelY="0.0" />
+      <Point X="209.0084033613444" Y="424.4117647058822" GraphRef="b5d27" RelX="1.0" RelY="0.0" />
       <Point X="332.89746416758544" Y="423.89746416758544" GraphRef="d5509" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -267,7 +265,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idc2038e04">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="372.89746416758544" Y="433.89746416758544" GraphRef="d5509" RelX="0.0" RelY="1.0" />
-      <Point X="457.0" Y="488.0" GraphRef="d1e39" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="457.0" Y="488.0" GraphRef="a1772" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -325,17 +323,27 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="ffac3">
     <Graphics CenterX="645.0" CenterY="589.0" Width="30.0" Height="30.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="mim-degradation" Rotation="0.0" />
   </Shape>
-  <Group GroupId="c010f" GraphId="c2612" Style="Group" />
-  <Group GroupId="d585f" GraphId="c31dc" Style="Complex" />
-  <Group GroupId="a1772" GraphId="d1e39" Style="Complex" />
-  <Group GroupId="b5d27" GraphId="d7cea" Style="Group" />
-  <Group GroupId="e0975" GraphId="d8db4" Style="Group" />
-  <Group GroupId="fcb57" GraphId="de058" Style="Complex" />
+  <Group GroupId="c010f" GraphId="c010f" Style="Group" />
+  <Group GroupId="d585f" GraphId="d585f" Style="Complex" />
+  <Group GroupId="a1772" GraphId="a1772" Style="Complex" />
+  <Group GroupId="b5d27" GraphId="b5d27" Style="Group" />
+  <Group GroupId="e0975" GraphId="e0975" Style="Group" />
+  <Group GroupId="fcb57" GraphId="fcb57" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth factor signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000168</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal carcinoma</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050922</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered Wnt signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000598</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c93">
@@ -348,16 +356,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chien AJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dawson DW</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal carcinoma</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050922</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered Wnt signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000598</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

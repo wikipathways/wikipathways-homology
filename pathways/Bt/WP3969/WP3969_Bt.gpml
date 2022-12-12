@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="H19 action Rb-E2F1 signaling and CDK-Beta-catenin activity" Data-Source="WikiPathways" Version="WP3969_Bt" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="H19 action Rb-E2F1 signaling and CDK-Beta-catenin activity" Data-Source="WikiPathways" Version="WP3969_Bt" Last-Modified="20220723062748" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">In this proposed model, H19 interacts with macroH2A, and this may consequently lead to de-repression of genes including CDK8, CDK4, and CCND1. Increased CDK4-cyclin D1 complex phosphorylates Rb to disrupt Rb-E2F1 interaction, leading to E2F1 activation. The increase of CDK8 expression enhances the function of mediator complex including MED1, and facilitates the gene regulation by β-catenin. These downstream targets could work in a synergistic way of promoting cell proliferation and increasing cell motility in CRC.
 Reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5264449/
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3969 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3969.gpml (WP3969_r106437) with a 94.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3969.gpml (WP3969_r123402) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>cdc</BiopaxRef>
   <Graphics BoardWidth="650.002004008016" BoardHeight="527.5420841683372" />
   <DataNode TextLabel="MACROH2A1" GraphId="aacb8" Type="GeneProduct" GroupRef="d524f">
@@ -18,13 +18,12 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="214.08015267175583" CenterY="132.04580152671755" Width="45.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000047712" />
   </DataNode>
-  <DataNode TextLabel="H19" GraphId="ab411" Type="Rna" GroupRef="d524f">
-    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000130600</Comment>
+  <DataNode TextLabel="H19" GraphId="ab411" Type="RNA" GroupRef="d524f">
     <Graphics CenterX="415.8091603053435" CenterY="157.4254769080145" Width="58.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="" ID="" />
+    <Xref Database="Ensembl" ID="ENSG00000130600" />
   </DataNode>
   <DataNode TextLabel="G1-S transition" GraphId="dea00" Type="Pathway">
-    <Graphics CenterX="160.98196392785573" CenterY="412.0320641282569" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="160.98196392785573" CenterY="412.0320641282569" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP45" />
   </DataNode>
   <DataNode TextLabel="CTNNB1" GraphId="fe54e" Type="GeneProduct">
@@ -106,9 +105,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics RelX="1.0" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
+  <Interaction GraphId="c032c">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="83.57728433967173" Y="251.19323379583577" GraphRef="b99fc" RelX="1.0" RelY="0.0" />
+      <Point X="129.93980327066325" Y="275.6120141045448" GraphRef="df2bb" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id2e7e9608">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="574.5" Y="394.5" GraphRef="d643c" RelX="0.0" RelY="1.0" />
+      <Point X="574.5" Y="394.5" GraphRef="fbbec" RelX="0.0" RelY="1.0" />
       <Point X="575.002004008016" Y="472.5420841683371" GraphRef="c888f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -116,7 +122,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id67204f6c">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="513.5" Y="266.5" GraphRef="fe54e" RelX="-0.5" RelY="1.0" />
-      <Point X="478.5" Y="302.5" GraphRef="f558b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="478.5" Y="302.5" GraphRef="ac7c0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -136,7 +142,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id99c9121f">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="378.8091603053435" Y="144.9254769080145" GraphRef="f11cd" RelX="-1.0" RelY="0.0" />
+      <Point X="378.8091603053435" Y="144.9254769080145" GraphRef="d524f" RelX="-1.0" RelY="0.0" />
       <Point X="316.5" Y="241.5" GraphRef="ca5ca" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -150,14 +156,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idd2f7294d">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="175.58015267175583" Y="144.54580152671755" GraphRef="d955e" RelX="-1.0" RelY="0.0" />
+      <Point X="175.58015267175583" Y="144.54580152671755" GraphRef="bdebf" RelX="-1.0" RelY="0.0" />
       <Point X="108.6252379727425" Y="240.239048267187" GraphRef="d8d56" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idd54b8361">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="83.57728433967173" Y="251.19323379583577" GraphRef="a00f8" RelX="1.0" RelY="0.0" />
+      <Point X="83.57728433967173" Y="251.19323379583577" GraphRef="b99fc" RelX="1.0" RelY="0.0" />
       <Point X="135.92566813015344" Y="228.29979042053571" GraphRef="ad1bc" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.47848571091176906" Shape="None" GraphId="d8d56" />
     </Graphics>
@@ -165,7 +171,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idd975a653">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="316.5" Y="392.5" GraphRef="b827a" RelX="0.0" RelY="1.0" />
+      <Point X="316.5" Y="392.5" GraphRef="c8040" RelX="0.0" RelY="1.0" />
       <Point X="316.0" Y="469.552104208417" GraphRef="f61a0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -173,48 +179,41 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="iddeb3a82e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="316.5" Y="266.5" GraphRef="ca5ca" RelX="0.0" RelY="1.0" />
-      <Point X="316.5" Y="326.5" GraphRef="b827a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="316.5" Y="326.5" GraphRef="c8040" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idedaf9dc2">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="546.5" Y="266.5" GraphRef="fe54e" RelX="0.5" RelY="1.0" />
-      <Point X="574.5" Y="303.5" GraphRef="d643c" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="574.5" Y="303.5" GraphRef="fbbec" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idef46713c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="478.5" Y="393.5" GraphRef="f558b" RelX="0.0" RelY="1.0" />
+      <Point X="478.5" Y="393.5" GraphRef="ac7c0" RelX="0.0" RelY="1.0" />
       <Point X="361.0" Y="475.802104208417" GraphRef="f61a0" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="idf1452b33">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="83.57728433967173" Y="251.19323379583577" GraphRef="a00f8" RelX="1.0" RelY="0.0" />
-      <Point X="129.93980327066325" Y="275.6120141045448" GraphRef="df2bb" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d2ad6">
     <Graphics ZOrder="32785" LineStyle="Broken" LineThickness="1.0">
-      <Point X="378.8091603053435" Y="144.9254769080145" GraphRef="f11cd" RelX="-1.0" RelY="0.0" />
-      <Point X="252.58015267175583" Y="144.54580152671755" GraphRef="d955e" RelX="1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
+      <Point X="378.8091603053435" Y="144.9254769080145" GraphRef="d524f" RelX="-1.0" RelY="0.0" />
+      <Point X="252.58015267175583" Y="144.54580152671755" GraphRef="bdebf" RelX="1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a1939">
     <Graphics ZOrder="32788" LineThickness="1.0">
-      <Point X="574.5" Y="394.5" GraphRef="d643c" RelX="0.0" RelY="1.0" />
+      <Point X="574.5" Y="394.5" GraphRef="fbbec" RelX="0.0" RelY="1.0" />
       <Point X="361.0" Y="475.802104208417" GraphRef="f61a0" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d2dee">
     <Graphics ZOrder="32789" LineThickness="1.0">
-      <Point X="478.5" Y="393.5" GraphRef="f558b" RelX="0.0" RelY="1.0" />
+      <Point X="478.5" Y="393.5" GraphRef="ac7c0" RelX="0.0" RelY="1.0" />
       <Point X="575.002004008016" Y="472.5420841683371" GraphRef="c888f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -232,18 +231,18 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="CRC migration" GraphId="c888f">
     <Graphics CenterX="575.002004008016" CenterY="485.0420841683371" Width="90.0" Height="25.0" ZOrder="32782" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="b99fc" GraphId="a00f8" Style="Group" />
-  <Group GroupId="c8040" GraphId="b827a" Style="Group" />
-  <Group GroupId="fbbec" GraphId="d643c" Style="Group" />
-  <Group GroupId="bdebf" GraphId="d955e" Style="Group" />
-  <Group GroupId="d524f" GraphId="f11cd" Style="Group" />
-  <Group GroupId="ac7c0" GraphId="f558b" Style="Group" />
+  <Group GroupId="b99fc" GraphId="b99fc" Style="Group" />
+  <Group GroupId="c8040" GraphId="c8040" Style="Group" />
+  <Group GroupId="fbbec" GraphId="fbbec" Style="Group" />
+  <Group GroupId="bdebf" GraphId="bdebf" Style="Group" />
+  <Group GroupId="d524f" GraphId="d524f" Style="Group" />
+  <Group GroupId="ac7c0" GraphId="ac7c0" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal cancer</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9256</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cdc">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27789274</bp:ID>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Epithelial to mesenchymal transition in colorectal cancer" Data-Source="WikiPathways" Version="WP4239_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Epithelial to mesenchymal transition in colorectal cancer" Data-Source="WikiPathways" Version="WP4239_Pt" Last-Modified="20210608092947" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Epithelial to mesenchymal transition (EMT) is a process during which cells lose their epithelial characteristics, and gain mesenchymal properties, such as increased motility. In colorectal cancer (CRC), EMT is associated with an invasive or metastatic phenotype. During EMT, tumor cells undergo tight junction dissolution, disruption of apical–basal polarity, and reorganization of the cytoskeletal architecture, which enable cells to develop an invasive phenotype. In cancer cells, EMT is abnormally regulated by extracellular stimuli derived from the tumor microenvironment, including growth factors and inflammatory cytokines, along with intra-tumoral physical stresses such as hypoxia. Therefore, EMT programming allows tumor cells to adapt to the constant changes of the human tumor microenvironment, and thus to successfully metastasize. This pathway summarizes the major signaling pathways and inducers that promote EMT in CRC. 
 A set of core transcription factors regulate EMT: SNAIL family of zinc-finger transcription factors SNAIL/SLUG; the zinc finger E-box binding homeobox (ZEB) family of transcription factors ZEB1/ZEB2, and the TWIST family of basic helix-loop-helix (bHLH) transcription factors TWIST1/TWIST2. 
 (Adapted from Vu et al.)
@@ -968,17 +968,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="802.5" CenterY="418.0" Width="55.0" Height="25.0" ZOrder="32992" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000000685" />
   </DataNode>
-  <State GraphRef="ecd5a" TextLabel="" GraphId="a6aff">
-    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="b3acb" TextLabel="P" GraphId="c0f21">
-    <Comment>parent=P49841 ; position=ser9; ptm=p; direction=d</Comment>
-    <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="b096f" TextLabel="P" GraphId="cc3af">
-    <Comment>parent=Q15672; position=ser68; ptm=p; direction=u</Comment>
+    <Comment>parentid=Q15672; position=ser68; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.6300940438871657" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -986,8 +977,17 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics RelX="-1.0" RelY="-0.9488428745432407" Width="15.0" Height="15.0" ShapeType="Hexagon" />
     <Xref Database="" ID="" />
   </State>
+  <State GraphRef="b3acb" TextLabel="P" GraphId="c0f21">
+    <Comment>parentid=P49841; position=ser9; ptm=p; direction=d</Comment>
+    <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="d205a" TextLabel="" GraphId="fbec9">
     <Graphics RelX="-0.8931378304458442" RelY="-0.8469015795868745" Width="15.0" Height="15.0" ShapeType="Triangle" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="ecd5a" TextLabel="" GraphId="a6aff">
+    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d8680" TextLabel="" GraphId="d14c8">
@@ -999,7 +999,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="aa8cf" TextLabel="P" GraphId="a49ae">
-    <Comment>parent=O95863; position=ser96; ptm=p; direction=d</Comment>
+    <Comment>parentid=O95863; position=ser96; ptm=p; direction=d</Comment>
     <Graphics RelX="0.9999999999999954" RelY="-0.8028169014084415" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -1008,27 +1008,27 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d64d4" TextLabel="P" GraphId="f6e0d">
-    <Comment>parent=O95863; position=ser96; ptm=p; direction=d</Comment>
+    <Comment>parentid=O95863; position=ser96; ptm=p; direction=d</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e57a4" TextLabel="P" GraphId="befd9">
-    <Comment>parent=O95863; position=ser96; ptm=p; direction=d</Comment>
+    <Comment>parentid=O95863; position=ser96; ptm=p; direction=d</Comment>
     <Graphics RelX="0.9999999999999954" RelY="-0.8028169014084415" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b0579" TextLabel="P" GraphId="be0ae">
-    <Comment>parent=O95863; position=ser246; ptm=p; direction=d</Comment>
+    <Comment>parentid=O95863; position=ser246; ptm=p; direction=d</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b0579" TextLabel="P" GraphId="d6a6a">
-    <Comment>parent=O95863; position=thr203; ptm=p; direction=d</Comment>
+    <Comment>parentid=O95863; position=thr203; ptm=p; direction=d</Comment>
     <Graphics RelX="0.9999999999999954" RelY="-0.8028169014084415" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="df211" TextLabel="P" GraphId="be6f7">
-    <Comment>parent=Q15672; position=ser68; ptm=p; direction=u</Comment>
+    <Comment>parentid=Q15672; position=ser68; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-0.6927899686520322" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -1049,7 +1049,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="bca1d" TextLabel="P" GraphId="ee4b3">
-    <Comment>parent=O95863; position=ser11; ptm=p; direction=d</Comment>
+    <Comment>parentid=O95863; position=ser11; ptm=p; direction=d</Comment>
     <Graphics RelX="0.9999999999999954" RelY="-0.8028169014084415" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -1057,6 +1057,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics RelX="-1.0" RelY="-0.7076735688185135" Width="15.0" Height="15.0" ShapeType="Hexagon" />
     <Xref Database="" ID="" />
   </State>
+  <Interaction GraphId="f63cc">
+    <BiopaxRef>a90</BiopaxRef>
+    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
+      <Point X="629.0" Y="422.5" GraphRef="b09a9" RelX="1.0" RelY="0.0" />
+      <Point X="649.8952004860269" Y="445.8418086663271" GraphRef="bba9e" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id10117ddd">
     <BiopaxRef>bd2</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -1075,7 +1083,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id13d574d9">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="528.2370676019746" Y="1106.5096683905495" GraphRef="d1260" RelX="0.0" RelY="-1.0" />
+      <Point X="528.2370676019746" Y="1106.5096683905495" GraphRef="b2f71" RelX="0.0" RelY="-1.0" />
       <Point X="527.89138567543" Y="1043.9075236106407" GraphRef="a375a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1090,29 +1098,29 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id199512d8">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="661.6452004860269" Y="565.996163682865" GraphRef="b881d" RelX="0.0" RelY="1.0" />
-      <Point X="661.6452004860269" Y="598.996163682865" GraphRef="fb9f2" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="661.6452004860269" Y="565.996163682865" GraphRef="a0103" RelX="0.0" RelY="1.0" />
+      <Point X="661.6452004860269" Y="598.996163682865" GraphRef="ba203" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1a701a51">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="228.30751420870035" Y="1510.2252460832765" GraphRef="f89ff" RelX="0.0" RelY="1.0" />
+      <Point X="228.30751420870035" Y="1510.2252460832765" GraphRef="dee99" RelX="0.0" RelY="1.0" />
       <Point X="685.1886792452831" Y="1609.4339622641517" GraphRef="ca985" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1cc39516">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0" Color="ff0033">
-      <Point X="247.1742596349797" Y="1037.179868474778" GraphRef="e4d4c" RelX="0.0" RelY="1.0" />
-      <Point X="322.1274964232375" Y="1355.8895155569417" GraphRef="ccd1b" RelX="-1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
+      <Point X="247.1742596349797" Y="1037.179868474778" GraphRef="bac55" RelX="0.0" RelY="1.0" />
+      <Point X="322.1274964232375" Y="1355.8895155569417" GraphRef="f5d9e" RelX="-1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1e53b93">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="341.98278397858036" Y="836.7243242843933" GraphRef="ed857" RelX="-1.0" RelY="0.0" />
-      <Point X="265.1854388116313" Y="837.0265955143649" GraphRef="cab09" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="341.98278397858036" Y="836.7243242843933" GraphRef="c1fab" RelX="-1.0" RelY="0.0" />
+      <Point X="265.1854388116313" Y="837.0265955143649" GraphRef="bed4e" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.4" Shape="None" GraphId="f96e4" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1180,8 +1188,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id449df339">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="519.5301847339753" Y="376.7164987037168" GraphRef="bfe23" RelX="1.0" RelY="0.0" />
-      <Point X="626.39838652149" Y="376.71649870371704" GraphRef="d1ad3" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="519.5301847339753" Y="376.7164987037168" GraphRef="a66f5" RelX="1.0" RelY="0.0" />
+      <Point X="626.39838652149" Y="376.71649870371704" GraphRef="cbf50" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1195,14 +1203,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id47cd75a3">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="434.0290821981431" Y="255.64347796097667" GraphRef="a9afc" RelX="0.0" RelY="1.0" />
-      <Point X="434.03018473397543" Y="327.7164987037168" GraphRef="bfe23" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="434.03018473397543" Y="327.7164987037168" GraphRef="a66f5" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id495acdfc">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="434.572637867023" Y="178.0911859502872" GraphRef="a9186" RelX="0.0" RelY="1.0" />
-      <Point X="516.9511320135672" Y="225.23686449971206" GraphRef="bf7c9" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="434.572637867023" Y="178.0911859502872" GraphRef="b0c93" RelX="0.0" RelY="1.0" />
+      <Point X="516.9511320135672" Y="225.23686449971206" GraphRef="d29a3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1216,8 +1224,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id5328e970">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="228.84421323126745" Y="1037.179868474778" GraphRef="e4d4c" RelX="-0.5" RelY="1.0" />
-      <Point X="228.30751420870035" Y="1369.2252460832756" GraphRef="f89ff" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+      <Point X="228.84421323126745" Y="1037.179868474778" GraphRef="bac55" RelX="-0.5" RelY="1.0" />
+      <Point X="228.30751420870035" Y="1369.2252460832756" GraphRef="dee99" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1230,14 +1238,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id581bb8e6">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1204.66019919689" Y="115.04211122445611" GraphRef="dcb6a" RelX="0.0" RelY="1.0" />
-      <Point X="1204.6661515778428" Y="186.09525535182246" GraphRef="ece34" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="1204.66019919689" Y="115.04211122445611" GraphRef="beb0e" RelX="0.0" RelY="1.0" />
+      <Point X="1204.6661515778428" Y="186.09525535182246" GraphRef="b15c8" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id5bb0033b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="434.572637867023" Y="178.0911859502872" GraphRef="a9186" RelX="0.0" RelY="1.0" />
+      <Point X="434.572637867023" Y="178.0911859502872" GraphRef="b0c93" RelX="0.0" RelY="1.0" />
       <Point X="434.0290821981431" Y="230.64347796097667" GraphRef="a9afc" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1252,14 +1260,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id603a8849">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="312.36750077626954" Y="509.56066337197944" GraphRef="d6c46" RelX="0.0" RelY="1.0" />
-      <Point X="311.68836384315813" Y="533.9378591599256" GraphRef="c55db" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="312.36750077626954" Y="509.56066337197944" GraphRef="e5251" RelX="0.0" RelY="1.0" />
+      <Point X="311.68836384315813" Y="533.9378591599256" GraphRef="b2cf6" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id60771d3c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="311.68836384315813" Y="649.9378591599256" GraphRef="c55db" RelX="0.0" RelY="1.0" />
+      <Point X="311.68836384315813" Y="649.9378591599256" GraphRef="b2cf6" RelX="0.0" RelY="1.0" />
       <Point X="311.26384591180073" Y="836.845232776382" GraphRef="f96e4" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1267,7 +1275,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id69b100be">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="661.6452004860269" Y="171.6755216777062" GraphRef="be86c" RelX="0.0" RelY="1.0" />
-      <Point X="661.5095651363138" Y="343.71649870371704" GraphRef="d1ad3" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="661.5095651363138" Y="343.71649870371704" GraphRef="cbf50" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1295,22 +1303,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id7ba49692">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="228.52534600420677" Y="870.0265955143649" GraphRef="cab09" RelX="0.0" RelY="1.0" />
-      <Point X="228.84421323126745" Y="971.4561115687077" GraphRef="e4d4c" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id7c10e306">
-    <BiopaxRef>a90</BiopaxRef>
-    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="629.0" Y="422.5" GraphRef="d3d6f" RelX="1.0" RelY="0.0" />
-      <Point X="649.8952004860269" Y="445.8418086663271" GraphRef="bba9e" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="228.52534600420677" Y="870.0265955143649" GraphRef="bed4e" RelX="0.0" RelY="1.0" />
+      <Point X="228.84421323126745" Y="971.4561115687077" GraphRef="bac55" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id7d04bd26">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="378.6428767860049" Y="803.8624458313545" GraphRef="ed857" RelX="0.0" RelY="-1.0" />
+      <Point X="378.6428767860049" Y="803.8624458313545" GraphRef="c1fab" RelX="0.0" RelY="-1.0" />
       <Point X="379.05280768939787" Y="767.8436738420115" GraphRef="f191a" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1328,7 +1328,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1009.9138528208641" Y="952.0926227738818" GraphRef="d0582" RelX="0.0" RelY="-1.0" />
       <Point X="893.1075946971877" Y="698.2055464926591" />
-      <Point X="776.3013365735112" Y="568.9864431482351" GraphRef="f8c74" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="776.3013365735112" Y="568.9864431482351" GraphRef="c9918" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1342,7 +1342,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id88a4febc">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="661.5095651363138" Y="409.71649870371704" GraphRef="d1ad3" RelX="0.0" RelY="1.0" />
+      <Point X="661.5095651363138" Y="409.71649870371704" GraphRef="cbf50" RelX="0.0" RelY="1.0" />
       <Point X="661.6452004860269" Y="445.8418086663271" GraphRef="bba9e" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1366,49 +1366,49 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0" Color="ff0033">
       <Point X="1205.7336540425556" Y="1136.6400851080116" GraphRef="f65f3" RelX="0.0" RelY="1.0" />
       <Point X="1260.6056665849055" Y="1283.4647116953565" />
-      <Point X="1315.4776791272557" Y="1341.3459710989619" GraphRef="d09b8" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="1315.4776791272557" Y="1341.3459710989619" GraphRef="a9051" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id9e9df6db">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="585.634014504813" Y="1033.9724592517655" GraphRef="b520b" RelX="-0.5" RelY="1.0" />
-      <Point X="587.0358817139181" Y="1310.7661648891503" GraphRef="c1138" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+      <Point X="587.0358817139181" Y="1310.7661648891503" GraphRef="e5c4f" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ida41f7043">
     <BiopaxRef>c20</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1204.6661515778428" Y="252.0952553518227" GraphRef="ece34" RelX="0.0" RelY="1.0" />
+      <Point X="1204.6661515778428" Y="252.0952553518227" GraphRef="b15c8" RelX="0.0" RelY="1.0" />
       <Point X="1205.2117263843647" Y="928.380261965453" GraphRef="d33d3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ida48cc3c3">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="806.3013365735112" Y="523.4864431482351" GraphRef="f8c74" RelX="1.0" RelY="0.0" />
+      <Point X="806.3013365735112" Y="523.4864431482351" GraphRef="c9918" RelX="1.0" RelY="0.0" />
       <Point X="824.0" Y="523.4864431482365" GraphRef="b3acb" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ida968dcf4">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="853.5" Y="112.5" GraphRef="eba85" RelX="0.0" RelY="1.0" />
-      <Point X="853.0" Y="125.5" GraphRef="c4728" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="853.5" Y="112.5" GraphRef="bb8c1" RelX="0.0" RelY="1.0" />
+      <Point X="853.0" Y="125.5" GraphRef="d599f" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idaab95f65">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="776.0" Y="438.5" GraphRef="fcbc9" RelX="0.0" RelY="1.0" />
-      <Point X="776.3013365735112" Y="477.98644314823514" GraphRef="f8c74" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="776.0" Y="438.5" GraphRef="cdfd0" RelX="0.0" RelY="1.0" />
+      <Point X="776.3013365735112" Y="477.98644314823514" GraphRef="c9918" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idab31cdad">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="661.6452004860269" Y="664.996163682865" GraphRef="fb9f2" RelX="0.0" RelY="1.0" />
+      <Point X="661.6452004860269" Y="664.996163682865" GraphRef="ba203" RelX="0.0" RelY="1.0" />
       <Point X="486.45452319891376" Y="690.566037735849" />
       <Point X="311.26384591180073" Y="836.845232776382" GraphRef="f96e4" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
@@ -1437,28 +1437,28 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idbdef96b2">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="696.6207437511375" Y="393.21649870371704" GraphRef="d1ad3" RelX="1.0" RelY="0.5" />
-      <Point X="714.0" Y="393.0" GraphRef="fcbc9" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="696.6207437511375" Y="393.21649870371704" GraphRef="cbf50" RelX="1.0" RelY="0.5" />
+      <Point X="714.0" Y="393.0" GraphRef="cdfd0" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idbe11a9b5">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1191.4036076388434" Y="1136.6400851080116" GraphRef="f65f3" RelX="-0.5" RelY="1.0" />
-      <Point X="1190.0209190785351" Y="1376.6687482000616" GraphRef="e1143" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+      <Point X="1190.0209190785351" Y="1376.6687482000616" GraphRef="d29f0" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc6672f33">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="661.6452004860269" Y="470.8418086663271" GraphRef="bba9e" RelX="0.0" RelY="1.0" />
-      <Point X="661.6452004860269" Y="499.996163682865" GraphRef="b881d" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="661.6452004860269" Y="499.996163682865" GraphRef="a0103" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc6cfed64">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="853.0" Y="216.5" GraphRef="c4728" RelX="0.0" RelY="1.0" />
+      <Point X="853.0" Y="216.5" GraphRef="d599f" RelX="0.0" RelY="1.0" />
       <Point X="853.5" Y="510.9864431482365" GraphRef="b3acb" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1467,7 +1467,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>d46</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="543.7593960954598" Y="91.665511462224" GraphRef="b4051" RelX="0.0" RelY="1.0" />
-      <Point X="434.572637867023" Y="137.0911859502872" GraphRef="a9186" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="434.572637867023" Y="137.0911859502872" GraphRef="b0c93" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1483,7 +1483,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>a43</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="573.0426031136494" Y="1021.4724592517655" GraphRef="b520b" RelX="-1.0" RelY="0.0" />
-      <Point X="283.8343524424042" Y="1020.7489292482604" GraphRef="e4d4c" RelX="1.0" RelY="0.5" ArrowHead="mim-transcription-translation" />
+      <Point X="283.8343524424042" Y="1020.7489292482604" GraphRef="bac55" RelX="1.0" RelY="0.5" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1511,8 +1511,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idf3ae732">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="435.19729630982806" Y="63.81384727804182" GraphRef="cdd63" RelX="0.0" RelY="1.0" />
-      <Point X="434.572637867023" Y="137.0911859502872" GraphRef="a9186" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="435.19729630982806" Y="63.81384727804182" GraphRef="b888d" RelX="0.0" RelY="1.0" />
+      <Point X="434.572637867023" Y="137.0911859502872" GraphRef="b0c93" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1533,7 +1533,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idfedba102">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1326.044096107123" Y="1010.2775879251169" GraphRef="d89ef" RelX="-1.0" RelY="0.0" />
+      <Point X="1326.044096107123" Y="1010.2775879251169" GraphRef="ccf6e" RelX="-1.0" RelY="0.0" />
       <Point X="1302.6567632786766" Y="1009.7442143727162" GraphRef="b76a5" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1541,7 +1541,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="be86f">
     <Graphics ZOrder="32787" LineThickness="1.0">
       <Point X="362.16881488344075" Y="389.7941462477331" GraphRef="d1f28" RelX="0.0" RelY="1.0" />
-      <Point X="312.36750077626954" Y="443.56066337197944" GraphRef="d6c46" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="312.36750077626954" Y="443.56066337197944" GraphRef="e5251" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1561,7 +1561,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="d4171">
     <Graphics ZOrder="32804" LineThickness="1.0">
-      <Point X="434.572637867023" Y="178.0911859502872" GraphRef="a9186" RelX="0.0" RelY="1.0" />
+      <Point X="434.572637867023" Y="178.0911859502872" GraphRef="b0c93" RelX="0.0" RelY="1.0" />
       <Point X="362.16881488344075" Y="276.7941462477328" GraphRef="f9364" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1570,7 +1570,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>d46</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32819" LineThickness="1.0" Color="ff0033">
       <Point X="598.2254258959765" Y="1033.9724592517655" GraphRef="b520b" RelX="0.0" RelY="1.0" />
-      <Point X="737.0007684806435" Y="1265.5725240831298" GraphRef="fc75a" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="737.0007684806435" Y="1265.5725240831298" GraphRef="b95ea" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1602,7 +1602,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>afe</BiopaxRef>
     <Graphics ZOrder="32876" LineThickness="1.0" Color="ff0033">
       <Point X="1316.9868096823886" Y="1080.5939504799117" GraphRef="d4622" RelX="0.5" RelY="1.0" />
-      <Point X="1315.4776791272557" Y="1341.3459710989619" GraphRef="d09b8" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="1315.4776791272557" Y="1341.3459710989619" GraphRef="a9051" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1631,7 +1631,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="c7067">
     <Graphics ConnectorType="Elbow" ZOrder="32892" LineThickness="1.0">
       <Point X="1182.7117263843647" Y="928.380261965453" GraphRef="d33d3" RelX="-0.5" RelY="-1.0" />
-      <Point X="265.504306038692" Y="971.4561115687077" GraphRef="e4d4c" RelX="0.5" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+      <Point X="265.504306038692" Y="971.4561115687077" GraphRef="bac55" RelX="0.5" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1661,35 +1661,35 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="e4832">
     <Graphics ConnectorType="Elbow" ZOrder="32926" LineStyle="Broken" LineThickness="1.0">
-      <Point X="361.76269739766167" Y="1461.6395155569421" GraphRef="ccd1b" RelX="0.0" RelY="1.0" />
+      <Point X="361.76269739766167" Y="1461.6395155569421" GraphRef="f5d9e" RelX="0.0" RelY="1.0" />
       <Point X="685.1886792452831" Y="1609.4339622641517" GraphRef="ca985" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c3732">
     <Graphics ConnectorType="Elbow" ZOrder="32927" LineStyle="Broken" LineThickness="1.0">
-      <Point X="587.0358817139181" Y="1551.7661648891512" GraphRef="c1138" RelX="0.0" RelY="1.0" />
+      <Point X="587.0358817139181" Y="1551.7661648891512" GraphRef="e5c4f" RelX="0.0" RelY="1.0" />
       <Point X="685.1886792452831" Y="1609.4339622641517" GraphRef="ca985" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b509a">
     <Graphics ZOrder="32928" LineStyle="Broken" LineThickness="1.0">
-      <Point X="759.8016742551497" Y="1506.5725240831316" GraphRef="fc75a" RelX="0.0" RelY="1.0" />
+      <Point X="759.8016742551497" Y="1506.5725240831316" GraphRef="b95ea" RelX="0.0" RelY="1.0" />
       <Point X="762.0047169811321" Y="1596.9339622641517" GraphRef="ca985" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a0958">
     <Graphics ConnectorType="Elbow" ZOrder="32929" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1190.0209190785351" Y="1467.6687482000625" GraphRef="e1143" RelX="0.0" RelY="1.0" />
+      <Point X="1190.0209190785351" Y="1467.6687482000625" GraphRef="d29f0" RelX="0.0" RelY="1.0" />
       <Point X="992.4528301886794" Y="1609.4339622641517" GraphRef="ca985" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ee85f">
     <Graphics ConnectorType="Elbow" ZOrder="32930" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1315.4776791272557" Y="1482.3459710989628" GraphRef="d09b8" RelX="0.0" RelY="1.0" />
+      <Point X="1315.4776791272557" Y="1482.3459710989628" GraphRef="a9051" RelX="0.0" RelY="1.0" />
       <Point X="992.4528301886794" Y="1609.4339622641517" GraphRef="ca985" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1721,47 +1721,109 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape TextLabel="Nucelus" GraphId="bb634">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="868.8368619008014" CenterY="1277.4193919058675" Width="1392.3499827944086" Height="754.595178452416" ZOrder="16384" FontWeight="Bold" FontSize="12" Align="Right" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="868.8368619008014" CenterY="1277.4193919058675" Width="1392.3499827944086" Height="754.595178452416" ZOrder="16384" FontWeight="Bold" FontSize="12" Align="Right" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Colorectal epithelial cell" GraphId="e5c57">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="868.9074736038522" CenterY="923.4597970419688" Width="1458.26027182499" Height="1526.6653115764393" ZOrder="16384" FontSize="12" Valign="Bottom" Align="Right" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="a3ea0" Style="Group">
+  <Group GroupId="a3ea0" GraphId="a3ea0" Style="Group">
     <BiopaxRef>d46</BiopaxRef>
   </Group>
-  <Group GroupId="dc60c" Style="Group" />
-  <Group GroupId="f1b40" Style="Group" />
-  <Group GroupId="b0c93" GraphId="a9186" Style="Group" />
-  <Group GroupId="a0103" GraphId="b881d" Style="Group" />
-  <Group GroupId="d29a3" GraphId="bf7c9" Style="Group" />
-  <Group GroupId="a66f5" GraphId="bfe23" Style="Complex" />
-  <Group GroupId="e5c4f" GraphId="c1138" Style="Group" />
-  <Group GroupId="d599f" GraphId="c4728" Style="Group" />
-  <Group GroupId="b2cf6" GraphId="c55db" Style="Group" />
-  <Group GroupId="bed4e" GraphId="cab09" Style="Group" />
-  <Group GroupId="f5d9e" GraphId="ccd1b" Style="Group" />
-  <Group GroupId="b888d" GraphId="cdd63" Style="Group" />
-  <Group GroupId="a9051" GraphId="d09b8" Style="Group" />
-  <Group GroupId="b2f71" GraphId="d1260" Style="Group" />
-  <Group GroupId="cbf50" GraphId="d1ad3" Style="Group" />
-  <Group GroupId="b09a9" GraphId="d3d6f" Style="Group" />
-  <Group GroupId="e5251" GraphId="d6c46" Style="Group" />
-  <Group GroupId="ccf6e" GraphId="d89ef" Style="Group" />
-  <Group GroupId="beb0e" GraphId="dcb6a" Style="Group" />
-  <Group GroupId="d29f0" GraphId="e1143" Style="Group" />
-  <Group GroupId="bac55" GraphId="e4d4c" Style="Group" />
-  <Group GroupId="bb8c1" GraphId="eba85" Style="Group" />
-  <Group GroupId="b15c8" GraphId="ece34" Style="Group" />
-  <Group GroupId="c1fab" GraphId="ed857" Style="Group" />
-  <Group GroupId="dee99" GraphId="f89ff" Style="Group" />
-  <Group GroupId="c9918" GraphId="f8c74" Style="Group" />
-  <Group GroupId="ba203" GraphId="fb9f2" Style="Group" />
-  <Group GroupId="b95ea" GraphId="fc75a" Style="Group" />
-  <Group GroupId="cdfd0" GraphId="fcbc9" Style="Group" />
+  <Group GroupId="dc60c" GraphId="dc60c" Style="Group" />
+  <Group GroupId="f1b40" GraphId="f1b40" Style="Group" />
+  <Group GroupId="b0c93" GraphId="b0c93" Style="Group" />
+  <Group GroupId="a0103" GraphId="a0103" Style="Group" />
+  <Group GroupId="d29a3" GraphId="d29a3" Style="Group" />
+  <Group GroupId="a66f5" GraphId="a66f5" Style="Complex" />
+  <Group GroupId="e5c4f" GraphId="e5c4f" Style="Group" />
+  <Group GroupId="d599f" GraphId="d599f" Style="Group" />
+  <Group GroupId="b2cf6" GraphId="b2cf6" Style="Group" />
+  <Group GroupId="bed4e" GraphId="bed4e" Style="Group" />
+  <Group GroupId="f5d9e" GraphId="f5d9e" Style="Group" />
+  <Group GroupId="b888d" GraphId="b888d" Style="Group" />
+  <Group GroupId="a9051" GraphId="a9051" Style="Group" />
+  <Group GroupId="b2f71" GraphId="b2f71" Style="Group" />
+  <Group GroupId="cbf50" GraphId="cbf50" Style="Group" />
+  <Group GroupId="b09a9" GraphId="b09a9" Style="Group" />
+  <Group GroupId="e5251" GraphId="e5251" Style="Group" />
+  <Group GroupId="ccf6e" GraphId="ccf6e" Style="Group" />
+  <Group GroupId="beb0e" GraphId="beb0e" Style="Group" />
+  <Group GroupId="d29f0" GraphId="d29f0" Style="Group" />
+  <Group GroupId="bac55" GraphId="bac55" Style="Group" />
+  <Group GroupId="bb8c1" GraphId="bb8c1" Style="Group" />
+  <Group GroupId="b15c8" GraphId="b15c8" Style="Group" />
+  <Group GroupId="c1fab" GraphId="c1fab" Style="Group" />
+  <Group GroupId="dee99" GraphId="dee99" Style="Group" />
+  <Group GroupId="c9918" GraphId="c9918" Style="Group" />
+  <Group GroupId="ba203" GraphId="ba203" Style="Group" />
+  <Group GroupId="b95ea" GraphId="b95ea" Style="Group" />
+  <Group GroupId="cdfd0" GraphId="cdfd0" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d46">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29258163</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of EMT in Colorectal Cancer: A Culprit in Metastasis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancers (Basel)</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vu T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Datta PK</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23856032</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXM1 promotes the epithelial to mesenchymal transition by stimulating the transcription of Slug in human breast cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Lett</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tan G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gao W</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheng L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiang X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yu L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tan Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18316791</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wild-type KRAS is required for panitumumab efficacy in patients with metastatic colorectal cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Clin Oncol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amado RG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolf M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peeters M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Cutsem E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siena S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freeman DJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juan T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sikorski R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suggs S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radinsky R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patterson SD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chang DD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9256</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23723077</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unraveling the role of FOXQ1 in colorectal cancer metastasis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Cancer Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abba M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patil N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rasheed K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nelson LD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mudduluru G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leupold JH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allgayer H</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd2">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23045246</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1774,29 +1836,45 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen HH</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hung WC</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ade">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12821112</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8898652</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of Smad4 (DPC4) inactivation in human cancer.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Biophys Res Commun</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyaki M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuroki T</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Somatic alterations of the DPC4 gene in human colorectal cancers in vivo.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastroenterology</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takagi Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kohmura H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futamura M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kida H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanemura H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shimokawa K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saji S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac2">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26269761</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d92">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19679400</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overexpression of forkhead Box C2 promotes tumor metastasis and indicates poor prognosis in colon cancer via regulating epithelial-mesenchymal transition.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Am J Cancer Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li Q</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wei P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhuo C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cai S</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frequency and type of KRAS mutations in routine diagnostic analysis of metastatic colorectal cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathol Res Pract</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neumann J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeindl-Eberhart E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kirchner T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jung A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a43">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24556840</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular mechanisms of epithelial-mesenchymal transition.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamouille S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Derynck R</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a90">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32746883</bp:ID>
@@ -1833,38 +1911,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Song W</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhao H</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cellular proliferation</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14566</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23723077</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unraveling the role of FOXQ1 in colorectal cancer metastasis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Cancer Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abba M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patil N</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rasheed K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nelson LD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mudduluru G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leupold JH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allgayer H</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c20">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25656897</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prometastatic NOTCH Signaling in Colon Cancer.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Discov</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kranenburg O</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0c">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21285253</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1881,36 +1927,31 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller F</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu G</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d92">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19679400</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon epithelial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0011108</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26269761</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frequency and type of KRAS mutations in routine diagnostic analysis of metastatic colorectal cancer.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathol Res Pract</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neumann J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeindl-Eberhart E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kirchner T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jung A</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overexpression of forkhead Box C2 promotes tumor metastasis and indicates poor prognosis in colon cancer via regulating epithelial-mesenchymal transition.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Am J Cancer Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li Q</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wei P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhuo C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cai S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1e">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18316791</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wild-type KRAS is required for panitumumab efficacy in patients with metastatic colorectal cancer.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Clin Oncol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amado RG</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolf M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peeters M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Cutsem E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siena S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freeman DJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juan T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sikorski R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suggs S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radinsky R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patterson SD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chang DD</bp:AUTHORS>
-    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cellular proliferation</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14566</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcc">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10479724</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1923,36 +1964,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emi M</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moriyama Y</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a43">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24556840</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular mechanisms of epithelial-mesenchymal transition.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Mol Cell Biol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamouille S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Derynck R</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afe">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23856032</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXM1 promotes the epithelial to mesenchymal transition by stimulating the transcription of Slug in human breast cancer.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Lett</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tan G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gao W</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheng L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiang X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yu L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tan Y</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon epithelial cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0011108</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d47">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14715079</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1963,34 +1974,23 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hill CS</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicolás FJ</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d46">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29258163</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c20">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25656897</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of EMT in Colorectal Cancer: A Culprit in Metastasis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancers (Basel)</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vu T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Datta PK</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prometastatic NOTCH Signaling in Colon Cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Discov</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kranenburg O</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab9">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8898652</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ade">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12821112</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Somatic alterations of the DPC4 gene in human colorectal cancers in vivo.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastroenterology</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takagi Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kohmura H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futamura M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kida H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanemura H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shimokawa K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saji S</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of Smad4 (DPC4) inactivation in human cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyaki M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuroki T</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9256</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

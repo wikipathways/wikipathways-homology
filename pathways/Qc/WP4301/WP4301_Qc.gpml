@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inhibition of exosome biogenesis and secretion by Manumycin A in CRPC cells" Data-Source="WikiPathways" Version="WP4301_Qc" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inhibition of exosome biogenesis and secretion by Manumycin A in CRPC cells" Data-Source="WikiPathways" Version="WP4301_Qc" Last-Modified="20180608191045" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">Schematic representation of inhibition of exosome biogenesis and secretion by Manumycin A (MA) in castration-resistant prostate cancer cells (CRPC) cells. The inhibition of Ras/Raf/ERK1/2 pathway by MA leads to transcriptional down-regulation of hnRNP H1. A decrease in hnRNP H1 transcripts leads to inhibition of exosome biogenesis and secretion by suppressing ALIX and Rab27a. 
 Description from Datta et al.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
@@ -140,9 +140,23 @@ Description from Datta et al.</Comment>
     <Graphics CenterX="777.3333333333339" CenterY="487.41666666666674" Width="67.33333333333348" Height="25.0" ZOrder="32886" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSECAG00000010394" />
   </DataNode>
+  <Interaction GraphId="c5f36">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1083.8333333333335" Y="394.6666666666666" GraphRef="c4d3c" RelX="1.0" RelY="0.0" />
+      <Point X="1117.5" Y="227.5" GraphRef="c01f2" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="c4a6c">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="939.8333333333344" Y="187.99999999999994" GraphRef="e498f" RelX="1.0" RelY="0.0" />
+      <Point X="1040.0" Y="187.5" GraphRef="c01f2" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id1398b704">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="353.91596638655426" Y="754.5833333333342" GraphRef="a52aa" RelX="0.5" RelY="1.0" />
+      <Point X="353.91596638655426" Y="754.5833333333342" GraphRef="d29f7" RelX="0.5" RelY="1.0" />
       <Point X="424.457983193277" Y="772.0833333333331" />
       <Point X="494.9999999999998" Y="729.5833333333331" GraphRef="e4be6" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -166,8 +180,8 @@ Description from Datta et al.</Comment>
   </Interaction>
   <Interaction GraphId="id60307a67">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="399.6638655462182" Y="543.1701680672272" GraphRef="ca10c" RelX="-1.0" RelY="0.0" />
-      <Point X="296.4985994397757" Y="602.090336134454" GraphRef="a52aa" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="399.6638655462182" Y="543.1701680672272" GraphRef="a38b6" RelX="-1.0" RelY="0.0" />
+      <Point X="296.4985994397757" Y="602.090336134454" GraphRef="d29f7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -195,14 +209,7 @@ Description from Datta et al.</Comment>
   <Interaction GraphId="id876f3397">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="496.83333333333326" Y="637.583333333333" GraphRef="d335c" RelX="0.0" RelY="-1.0" />
-      <Point X="496.8319327731091" Y="592.4236694677877" GraphRef="ca10c" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id8ea9c8c6">
-    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1083.8333333333335" Y="394.6666666666666" GraphRef="ad1cc" RelX="1.0" RelY="0.0" />
-      <Point X="1117.5" Y="227.5" GraphRef="c01f2" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="496.8319327731091" Y="592.4236694677877" GraphRef="a38b6" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -215,22 +222,22 @@ Description from Datta et al.</Comment>
   </Interaction>
   <Interaction GraphId="ida0038df7">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="900.5000000000006" Y="395.3333333333332" GraphRef="b76cd" RelX="1.0" RelY="0.0" />
-      <Point X="1012.3333333333343" Y="394.6666666666666" GraphRef="ad1cc" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="900.5000000000006" Y="395.3333333333332" GraphRef="a3ebc" RelX="1.0" RelY="0.0" />
+      <Point X="1012.3333333333343" Y="394.6666666666666" GraphRef="c4d3c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ida9f76e3a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="370.1666666666664" Y="336.91666666666663" GraphRef="f7a2d" RelX="-0.5" RelY="1.0" />
+      <Point X="370.1666666666664" Y="336.91666666666663" GraphRef="f7a7d" RelX="-0.5" RelY="1.0" />
       <Point X="338.5250000000001" Y="368.98333333333335" GraphRef="a2e80" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idab17735c">
     <Graphics ZOrder="12288" LineThickness="1.0" Color="00cccc">
-      <Point X="824.5000000000003" Y="265.9999999999999" GraphRef="f0d8b" RelX="1.0" RelY="0.0" />
-      <Point X="886.2083333333347" Y="223.2500000000001" GraphRef="db92c" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="824.5000000000003" Y="265.9999999999999" GraphRef="f7120" RelX="1.0" RelY="0.0" />
+      <Point X="886.2083333333347" Y="223.2500000000001" GraphRef="e498f" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -244,22 +251,15 @@ Description from Datta et al.</Comment>
   <Interaction GraphId="idbb556591">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="744.0000000000006" Y="395.08333333333326" GraphRef="eb207" RelX="1.0" RelY="0.0" />
-      <Point X="829.0000000000006" Y="395.3333333333332" GraphRef="b76cd" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="829.0000000000006" Y="395.3333333333332" GraphRef="a3ebc" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.4" Shape="None" GraphId="c230f" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="idcb38d5af">
-    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="939.8333333333344" Y="187.99999999999994" GraphRef="db92c" RelX="1.0" RelY="0.0" />
-      <Point X="1040.0" Y="187.5" GraphRef="c01f2" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ided1b6034">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="239.33333333333354" Y="568.5833333333333" GraphRef="c96d2" RelX="0.0" RelY="1.0" />
-      <Point X="239.0812324929972" Y="602.090336134454" GraphRef="a52aa" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="239.0812324929972" Y="602.090336134454" GraphRef="d29f7" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -273,18 +273,18 @@ Description from Datta et al.</Comment>
   <Interaction GraphId="d6f8b">
     <Graphics ZOrder="32869" LineThickness="1.0" Color="00cccc">
       <Point X="491.4999999999997" Y="395.08333333333326" GraphRef="bad39" RelX="1.0" RelY="0.0" />
-      <Point X="563.0000000000003" Y="292.0833333333334" GraphRef="feab5" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="563.0000000000003" Y="292.0833333333334" GraphRef="b26f5" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f22b1">
     <Graphics ZOrder="32870" LineThickness="1.0" Color="00cccc">
-      <Point X="671.0000000000003" Y="265.0833333333334" GraphRef="feab5" RelX="1.0" RelY="0.0" />
-      <Point X="753.000000000001" Y="265.9999999999999" GraphRef="f0d8b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="671.0000000000003" Y="265.0833333333334" GraphRef="b26f5" RelX="1.0" RelY="0.0" />
+      <Point X="753.000000000001" Y="265.9999999999999" GraphRef="f7120" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <GraphicalLine GraphId="id85e0d1b3" GroupRef="b21db">
+  <GraphicalLine GraphId="bcd76" GroupRef="b21db">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="680.0" Y="50.0" />
       <Point X="728.75" Y="50.0" />
@@ -339,7 +339,7 @@ Description from Datta et al.</Comment>
   <Shape GraphId="f8976">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="538.3333333333333" CenterY="507.0833333333333" Width="945.3333333333335" Height="720.0000000000001" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="538.3333333333333" CenterY="507.0833333333333" Width="945.3333333333335" Height="720.0000000000001" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="f8e21" GroupRef="b26f5">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
@@ -433,21 +433,22 @@ Description from Datta et al.</Comment>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
     <Graphics CenterX="897.0833333333339" CenterY="204.5000000000001" Width="21.5" Height="21.5" ZOrder="32902" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="abb4a" Style="Group" />
-  <Group GroupId="b21db" Style="Group" />
-  <Group GroupId="d29f7" GraphId="a52aa" Style="Group" />
-  <Group GroupId="c4d3c" GraphId="ad1cc" Style="Group" />
-  <Group GroupId="a3ebc" GraphId="b76cd" Style="Group" />
-  <Group GroupId="a38b6" GraphId="ca10c" Style="Group" />
-  <Group GroupId="c9c22" GraphId="cadc2" Style="Group" />
-  <Group GroupId="c760c" GraphId="ccf28" Style="Group" />
-  <Group GroupId="ea509" GraphId="ce245" Style="Group" />
-  <Group GroupId="e498f" GraphId="db92c" Style="Group" />
-  <Group GroupId="f7120" GraphId="f0d8b" Style="Group" />
-  <Group GroupId="f7a7d" GraphId="f7a2d" Style="Group" />
-  <Group GroupId="b26f5" GraphId="feab5" Style="Group" />
+  <Group GroupId="b21db" GraphId="b21db" Style="Group" />
+  <Group GroupId="d29f7" GraphId="d29f7" Style="Group" />
+  <Group GroupId="c4d3c" GraphId="c4d3c" Style="Group" />
+  <Group GroupId="a3ebc" GraphId="a3ebc" Style="Group" />
+  <Group GroupId="a38b6" GraphId="a38b6" Style="Group" />
+  <Group GroupId="e498f" GraphId="e498f" Style="Group" />
+  <Group GroupId="f7120" GraphId="f7120" Style="Group" />
+  <Group GroupId="f7a7d" GraphId="f7a7d" Style="Group" />
+  <Group GroupId="b26f5" GraphId="b26f5" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ras family mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000158</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fef">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28844715</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -466,14 +467,9 @@ Description from Datta et al.</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdel-Mageed AB</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ras family mediated signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000158</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate cancer</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10283</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

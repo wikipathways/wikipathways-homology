@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Overview of interferons-mediated signaling pathway" Data-Source="WikiPathways" Version="WP4558_Mm" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Overview of interferons-mediated signaling pathway" Data-Source="WikiPathways" Version="WP4558_Mm" Last-Modified="20191111211728" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Interferons (IFNs) can be devided in three classes, Type I, II and III. Type I IFNs are created when the cell surface or specific receptors recognize microbial products; these are structural homologues of one another which bind the same receptor. Binding to this receptor leads to an activation of kinases which regulate the phosphorylation and therefore activation of some STAT proteins (see PW for details). 
 There is only 1 Type II interferon, INF-gamma, consisting of two subunits (R1 and R2), which associate with Jak 1 and 2, respectively. Activation of Jak1 and Jak2 leads to phosphorylation of STAT1, which ultimately binds to IFN-gamma-activated sequence (GAS) elements, regulating the transcription of genes.  
 Type III interferons are considered a protein family of 4, which bind to a different receptor compared to Type I interferons, however they trigger the same STAT1+2 phosphorylation reactions as TypeI IFNs.</Comment>
@@ -315,7 +315,7 @@ Type III interferons are considered a protein family of 4, which bind to a diffe
   <Interaction GraphId="iddef86f6b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="603.6711471845185" Y="553.4440298507463" GraphRef="d63ec" RelX="0.0" RelY="1.0" />
-      <Point X="604.2688331868964" Y="693.9426166406446" GraphRef="ef41d" RelX="0.0" RelY="-1.0" ArrowHead="mim-modification" />
+      <Point X="604.2688331868964" Y="693.9426166406446" GraphRef="ef41d" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.48086177983556977" Shape="None" GraphId="e1793" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -531,31 +531,18 @@ Type III interferons are considered a protein family of 4, which bind to a diffe
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="853.6480220540907" CenterY="929.1335029962245" Width="27.249488631683107" Height="33.676121969636384" ZOrder="32972" FontSize="12" Valign="Middle" ShapeType="Rectangle" LineThickness="0.0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="ebd1a" Style="Group">
+  <Group GroupId="ebd1a" GraphId="ebd1a" Style="Group">
     <BiopaxRef>e65</BiopaxRef>
     <BiopaxRef>d7e</BiopaxRef>
   </Group>
-  <Group GroupId="f68ec" Style="Group">
+  <Group GroupId="f68ec" GraphId="f68ec" Style="Group">
     <BiopaxRef>aeb</BiopaxRef>
   </Group>
-  <Group GroupId="affe1" Style="Group">
+  <Group GroupId="affe1" GraphId="affe1" Style="Group">
     <BiopaxRef>d7e</BiopaxRef>
   </Group>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7e">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15864272</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanisms of type-I- and type-II-interferon-mediated signalling.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Immunol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Platanias LC</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II interferon signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000896</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aeb">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30936491</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -567,8 +554,8 @@ Type III interferons are considered a protein family of 4, which bind to a diffe
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ploss A</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II interferon signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000896</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -576,6 +563,14 @@ Type III interferons are considered a protein family of 4, which bind to a diffe
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000895</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15864272</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanisms of type-I- and type-II-interferon-mediated signalling.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Immunol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Platanias LC</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e65">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21372217</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -589,6 +584,11 @@ Type III interferons are considered a protein family of 4, which bind to a diffe
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Bon A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melero I</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

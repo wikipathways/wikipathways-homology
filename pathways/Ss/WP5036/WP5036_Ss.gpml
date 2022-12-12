@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Angiotensin II receptor type 1 pathway" Data-Source="WikiPathways" Version="WP5036_Ss" Organism="Sus scrofa">
-  <Comment Source="WikiPathways-description">First setup of pathway. Needs exploration of the links to collagen synthesis, and the link to cell cycle / mitosis. KEGG pathway 05171 was referenced for the pathway development. 
-</Comment>
-  <Comment Source="WikiPathways-description">test angiotensin</Comment>
-  <Comment Source="WikiPathways-description">angiotensin pathway</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Angiotensin II receptor type 1 pathway" Data-Source="WikiPathways" Version="WP5036_Ss" Last-Modified="20210609185055" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">angiotensin test</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5036.gpml (WP5036_r119016) with a 98.0% conversion rate.</Comment>
@@ -333,20 +329,20 @@
   <Interaction GraphId="de3c5">
     <Graphics ZOrder="32927" LineThickness="1.0" Color="ff0033">
       <Point X="2150.5416924974725" Y="336.06560202165844" GraphRef="e6d9d" RelX="0.0" RelY="-1.0" />
-      <Point X="2151.4976475429594" Y="293.6987044823238" GraphRef="a12f1" RelX="0.0" RelY="0.0" ArrowHead="mim-necessary-stimulation" />
+      <Point X="2151.4976475429594" Y="293.6987044823238" GraphRef="a12f1" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ecdd6">
     <Graphics ZOrder="32928" LineThickness="1.0" Color="33cc00">
       <Point X="1039.921868940606" Y="396.5144571578428" GraphRef="e3c7b" RelX="-1.0" RelY="0.5" />
-      <Point X="873.5891662487609" Y="425.1299528527603" GraphRef="c366e" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="873.5891662487609" Y="425.1299528527603" GraphRef="d43e5" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a0e60">
     <Graphics ZOrder="32930" LineStyle="Broken" LineThickness="1.0" Color="999900">
-      <Point X="815.776777357041" Y="479.0881835222806" GraphRef="c366e" RelX="0.0" RelY="1.0" />
+      <Point X="815.776777357041" Y="479.0881835222806" GraphRef="d43e5" RelX="0.0" RelY="1.0" />
       <Point X="852.6845040581893" Y="608.9785172540479" GraphRef="c0f20" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -388,8 +384,8 @@
   </Interaction>
   <Interaction GraphId="c08c7">
     <Graphics ZOrder="32938" LineThickness="1.0" Color="33cc00">
-      <Point X="844.682971802901" Y="479.0881835222806" GraphRef="c366e" RelX="0.5" RelY="1.0" />
-      <Point X="882.5887095423344" Y="526.5963886023656" GraphRef="d4e0c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="844.682971802901" Y="479.0881835222806" GraphRef="d43e5" RelX="0.5" RelY="1.0" />
+      <Point X="882.5887095423344" Y="526.5963886023656" GraphRef="e37c4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -403,14 +399,14 @@
   </Interaction>
   <Interaction GraphId="c403b">
     <Graphics ZOrder="32941" LineStyle="Broken" LineThickness="1.0" Color="999900">
-      <Point X="1521.027487215414" Y="485.3689858957272" GraphRef="d20fd" RelX="-0.5" RelY="1.0" />
-      <Point X="1450.3699084053321" Y="526.939487359876" GraphRef="eb171" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1521.027487215414" Y="485.3689858957272" GraphRef="c2e92" RelX="-0.5" RelY="1.0" />
+      <Point X="1450.3699084053321" Y="526.939487359876" GraphRef="ed720" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f5869">
     <Graphics ZOrder="32943" LineThickness="1.0" Color="00cc00">
-      <Point X="988.5887095423453" Y="526.5963886023656" GraphRef="d4e0c" RelX="1.0" RelY="0.0" />
+      <Point X="988.5887095423453" Y="526.5963886023656" GraphRef="e37c4" RelX="1.0" RelY="0.0" />
       <Point X="1022.216443921845" Y="526.4276575805507" GraphRef="dc71a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -438,7 +434,7 @@
   </Interaction>
   <Interaction GraphId="ef8d9">
     <Graphics ZOrder="32948" LineThickness="1.0" Color="00cc00">
-      <Point X="1600.527487215414" Y="435.8689858957272" GraphRef="d20fd" RelX="1.0" RelY="-0.5" />
+      <Point X="1600.527487215414" Y="435.8689858957272" GraphRef="c2e92" RelX="1.0" RelY="-0.5" />
       <Point X="1666.3526642509287" Y="386.10119361481736" GraphRef="b3672" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -446,7 +442,7 @@
   <Interaction GraphId="f8cad">
     <Graphics ZOrder="32949" LineThickness="1.0" Color="660099">
       <Point X="1317.3564672768648" Y="290.5735570069395" GraphRef="f76a3" RelX="0.0" RelY="1.0" />
-      <Point X="1325.1828415999835" Y="340.924593749076" GraphRef="aad36" RelX="-1.0" RelY="-0.5" ArrowHead="mim-binding" />
+      <Point X="1325.1828415999835" Y="340.924593749076" GraphRef="c5de8" RelX="-1.0" RelY="-0.5" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -459,7 +455,7 @@
   </Interaction>
   <Interaction GraphId="ac101">
     <Graphics ZOrder="32951" LineThickness="1.0" Color="33cc00">
-      <Point X="786.8705829111811" Y="479.0881835222806" GraphRef="c366e" RelX="-0.5" RelY="1.0" />
+      <Point X="786.8705829111811" Y="479.0881835222806" GraphRef="d43e5" RelX="-0.5" RelY="1.0" />
       <Point X="687.9977248131303" Y="557.4377550866907" GraphRef="c24f3" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -516,14 +512,14 @@
   </Interaction>
   <Interaction GraphId="d6c13">
     <Graphics ZOrder="32959" LineThickness="1.0" Color="00cc00">
-      <Point X="1547.527487215414" Y="485.3689858957272" GraphRef="d20fd" RelX="0.0" RelY="1.0" />
-      <Point X="1547.5274872154143" Y="734.1806443542454" GraphRef="d2ba2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1547.527487215414" Y="485.3689858957272" GraphRef="c2e92" RelX="0.0" RelY="1.0" />
+      <Point X="1547.5274872154143" Y="734.1806443542454" GraphRef="da763" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="aa2f0">
     <Graphics ZOrder="32960" LineStyle="Broken" LineThickness="1.0" Color="999900">
-      <Point X="757.9643884653212" Y="425.1299528527603" GraphRef="c366e" RelX="-1.0" RelY="-0.5" />
+      <Point X="757.9643884653212" Y="425.1299528527603" GraphRef="d43e5" RelX="-1.0" RelY="-0.5" />
       <Point X="585.6165561098962" Y="471.8362558057368" GraphRef="ca432" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -560,7 +556,7 @@
   <Interaction GraphId="c0eba">
     <Graphics ZOrder="32965" LineThickness="1.0" Color="00cc00">
       <Point X="1474.0718022852782" Y="404.5731283609495" GraphRef="d6f81" RelX="1.0" RelY="0.5" />
-      <Point X="1521.027487215414" Y="419.3689858957272" GraphRef="d20fd" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1521.027487215414" Y="419.3689858957272" GraphRef="c2e92" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -596,7 +592,7 @@
   <Interaction GraphId="b62fd">
     <Graphics ZOrder="32970" LineThickness="1.0" Color="660099">
       <Point X="1187.3645701547641" Y="290.5735570069395" GraphRef="c230d" RelX="0.0" RelY="1.0" />
-      <Point X="1179.8994158999653" Y="335.512722112847" GraphRef="bb827" RelX="1.0" RelY="-0.5" ArrowHead="mim-binding" />
+      <Point X="1179.8994158999653" Y="335.512722112847" GraphRef="ac815" RelX="1.0" RelY="-0.5" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -638,7 +634,7 @@
   <Interaction GraphId="c0ac6">
     <Graphics ZOrder="32977" LineStyle="Broken" LineThickness="1.0" Color="999900">
       <Point X="540.6165561098962" Y="490.5862558057368" GraphRef="ca432" RelX="0.0" RelY="1.0" />
-      <Point X="382.4061281911135" Y="772.3802619687162" GraphRef="f6e15" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="382.4061281911135" Y="772.3802619687162" GraphRef="c3c44" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -652,28 +648,28 @@
   <Interaction GraphId="cb960">
     <Graphics ZOrder="32979" LineThickness="1.0" Color="33cc00">
       <Point X="439.37297509542975" Y="163.63667225449365" GraphRef="fbeee" RelX="0.0" RelY="1.0" />
-      <Point X="355.9061281911135" Y="772.3802619687162" GraphRef="f6e15" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="355.9061281911135" Y="772.3802619687162" GraphRef="c3c44" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b1ff2">
     <Graphics ZOrder="32980" LineThickness="1.0">
-      <Point X="435.00215170695066" Y="936.1603277532798" GraphRef="c06c5" RelX="1.0" RelY="0.0" />
+      <Point X="435.00215170695066" Y="936.1603277532798" GraphRef="f2900" RelX="1.0" RelY="0.0" />
       <Point X="498.4543600575322" Y="936.2436610866126" GraphRef="c0fa3" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b2de4">
     <Graphics ZOrder="32981" LineStyle="Broken" LineThickness="1.0">
-      <Point X="382.4061281911135" Y="838.3802619687167" GraphRef="f6e15" RelX="0.0" RelY="1.0" />
-      <Point X="382.00215170695066" Y="903.1603277532798" GraphRef="c06c5" RelX="0.0" RelY="-1.0" />
+      <Point X="382.4061281911135" Y="838.3802619687167" GraphRef="c3c44" RelX="0.0" RelY="1.0" />
+      <Point X="382.00215170695066" Y="903.1603277532798" GraphRef="f2900" RelX="0.0" RelY="-1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="befac">
     <Graphics ZOrder="32982" LineThickness="1.0" Color="33cc00">
       <Point X="642.9977248131303" Y="576.1877550866907" GraphRef="c24f3" RelX="0.0" RelY="1.0" />
-      <Point X="408.9061281911135" Y="772.3802619687162" GraphRef="f6e15" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="408.9061281911135" Y="772.3802619687162" GraphRef="c3c44" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -766,7 +762,7 @@
   <GraphicalLine GraphId="a47f3">
     <Graphics ZOrder="33152" LineStyle="Broken" LineThickness="1.0" Color="ff0033">
       <Point X="2138.460228795848" Y="575.5644117303783" />
-      <Point X="2182.5042728398926" Y="575.5644117303783" ArrowHead="mim-necessary-stimulation" />
+      <Point X="2182.5042728398926" Y="575.5644117303783" ArrowHead="mim-stimulation" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="a32b7">
@@ -891,9 +887,6 @@
     <BiopaxRef>cf3</BiopaxRef>
     <BiopaxRef>a34</BiopaxRef>
     <BiopaxRef>e64</BiopaxRef>
-    <BiopaxRef>e45</BiopaxRef>
-    <BiopaxRef>cf4</BiopaxRef>
-    <BiopaxRef>c1b</BiopaxRef>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="1596.8862119453922" CenterY="497.564028346976" Width="436.40125699427745" Height="702.6950434527084" ZOrder="32990" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
@@ -904,9 +897,6 @@
     <BiopaxRef>cf3</BiopaxRef>
     <BiopaxRef>a34</BiopaxRef>
     <BiopaxRef>e64</BiopaxRef>
-    <BiopaxRef>e45</BiopaxRef>
-    <BiopaxRef>cf4</BiopaxRef>
-    <BiopaxRef>c1b</BiopaxRef>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="593.6102190655367" CenterY="499.1216584003686" Width="1067.321033786493" Height="696.8358142007887" ZOrder="32991" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
@@ -914,7 +904,6 @@
   <Shape GraphId="e9a60">
     <BiopaxRef>e7c</BiopaxRef>
     <BiopaxRef>cba</BiopaxRef>
-    <BiopaxRef>ca6</BiopaxRef>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="2179.809036289652" CenterY="343.4577038188419" Width="489.69815560741927" Height="372.534625896857" ZOrder="32992" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
@@ -925,36 +914,21 @@
   <Shape GraphId="cb565">
     <Graphics CenterX="2002.4303497516914" CenterY="846.1635504845742" Width="17.96293613082713" Height="17.462936130827124" ZOrder="33158" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="c5de8" GraphId="aad36" Style="Complex" />
-  <Group GroupId="ac815" GraphId="bb827" Style="Complex" />
-  <Group GroupId="f2900" GraphId="c06c5" Style="Group" />
-  <Group GroupId="d43e5" GraphId="c366e" Style="Group" />
-  <Group GroupId="dde51" GraphId="cd7a6" Style="Group" />
-  <Group GroupId="c7613" GraphId="d13c6" Style="Group" />
-  <Group GroupId="c2e92" GraphId="d20fd" Style="Group" />
-  <Group GroupId="da763" GraphId="d2ba2" Style="Group" />
-  <Group GroupId="e37c4" GraphId="d4e0c" Style="Group" />
-  <Group GroupId="ed720" GraphId="eb171" Style="Group" />
-  <Group GroupId="c3c44" GraphId="f6e15" Style="Group" />
-  <Group GroupId="d29cd" GraphId="fe6f5" Style="Complex" />
-  <Group GroupId="fb75b" GraphId="ff7f6" Style="Group" />
+  <Group GroupId="c5de8" GraphId="c5de8" Style="Complex" />
+  <Group GroupId="ac815" GraphId="ac815" Style="Complex" />
+  <Group GroupId="f2900" GraphId="f2900" Style="Group" />
+  <Group GroupId="d43e5" GraphId="d43e5" Style="Group" />
+  <Group GroupId="dde51" GraphId="dde51" Style="Group" />
+  <Group GroupId="c7613" GraphId="c7613" Style="Group" />
+  <Group GroupId="c2e92" GraphId="c2e92" Style="Group" />
+  <Group GroupId="da763" GraphId="da763" Style="Group" />
+  <Group GroupId="e37c4" GraphId="e37c4" Style="Group" />
+  <Group GroupId="ed720" GraphId="ed720" Style="Group" />
+  <Group GroupId="c3c44" GraphId="c3c44" Style="Group" />
+  <Group GroupId="d29cd" GraphId="d29cd" Style="Complex" />
+  <Group GroupId="fb75b" GraphId="fb75b" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angiotensin II signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000244</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a60">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33262481</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin-11 signaling underlies fibrosis, parenchymal dysfunction, and chronic inflammation of the airway.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exp Mol Med</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ng B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cook SA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schafer S</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf3">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10446062</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -964,79 +938,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ford CM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li S</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickering JG</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1b">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8891199</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytokines and pulmonary fibrosis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biol Signals</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phan SH</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e64">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8891199</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytokines and pulmonary fibrosis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biol Signals</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phan SH</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cba">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16061178</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RACK1 mediates activation of JNK by protein kinase C [corrected].</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Cell</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³pez-Bergami P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habelhah H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bhoumik A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang W</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang LH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ronai Z</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22155301</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiotensin signalling in pulmonary fibrosis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Biochem Cell Biol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uhal BD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piasecki CC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molina-Molina M</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a34">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17785634</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emerging evidence for a functionalangiotensin-converting enzyme 2-angiotensin-(1-7)-MAS receptor axis: more than regulation of blood pressure?</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypertension</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chappell MC</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e45">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10446062</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiotensin II stimulates collagen synthesis in human vascular smooth muscle cells. Involvement of the AT(1) receptor, transforming growth factor-beta, and tyrosine phosphorylation.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arterioscler Thromb Vasc Biol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ford CM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickering JG</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf4">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17785634</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emerging evidence for a functional angiotensin-converting enzyme 2-angiotensin-(1-7)-MAS receptor axis: more than regulation of blood pressure?</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypertension</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chappell MC</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d21">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19372258</bp:ID>
@@ -1055,7 +956,7 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RennÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heemskerk JW</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca6">
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cba">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16061178</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RACK1 mediates activation of JNK by protein kinase C [corrected].</bp:TITLE>
@@ -1067,6 +968,54 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang W</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang LH</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ronai Z</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angiotensin II signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000244</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22155301</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiotensin signalling in pulmonary fibrosis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Biochem Cell Biol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uhal BD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piasecki CC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molina-Molina M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a34">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17785634</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emerging evidence for a functional angiotensin-converting enzyme 2-angiotensin-(1-7)-MAS receptor axis: more than regulation of blood pressure?</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypertension</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chappell MC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e64">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8891199</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytokines and pulmonary fibrosis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biol Signals</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phan SH</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a60">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33262481</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin-11 signaling underlies fibrosis, parenchymal dysfunction, and chronic inflammation of the airway.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exp Mol Med</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ng B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cook SA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schafer S</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

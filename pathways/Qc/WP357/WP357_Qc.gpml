@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Fatty acid biosynthesis" Data-Source="WikiPathways" Version="WP357_Qc" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Fatty acid biosynthesis" Data-Source="WikiPathways" Version="WP357_Qc" Last-Modified="20220307073008" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">Fatty acid synthesis is the creation of fatty acids from acetyl-CoA and NADPH through the action of enzymes called fatty acid synthases. This process takes place in the cytoplasm of the cell. Most of the acetyl-CoA which is converted into fatty acids is derived from carbohydrates via the glycolytic pathway. Source: [https://en.wikipedia.org/wiki/Fatty_acid_synthesis Wikipedia]
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP357 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP357.gpml (WP357_r117722) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP357.gpml (WP357_r121828) with a 96.0% conversion rate.</Comment>
   <Graphics BoardWidth="1180.0" BoardHeight="1135.6000000000001" />
   <DataNode TextLabel="3-L-Hydroxyacyl-CoA" GraphId="a16f2" Type="Metabolite">
     <Graphics CenterX="778.6666666666666" CenterY="209.33333333333331" Width="165.33333333333334" Height="19.2" ZOrder="28672" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -256,7 +256,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSECAG00000015370" />
   </DataNode>
   <DataNode TextLabel="Triacylglyceride Synthesis pathway" GraphId="f589f" Type="Pathway">
-    <Graphics CenterX="905.0" CenterY="984.0" Width="282.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="905.0" CenterY="984.0" Width="282.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="Oval" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP325" />
   </DataNode>
   <DataNode TextLabel="DECR1" GraphId="fb8" Type="GeneProduct" GroupRef="ad0ba">
@@ -336,7 +336,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="b3eca">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="963.1772151898734" Y="456.17862165963436" GraphRef="c2c3d" RelX="0.0" RelY="1.0" />
+      <Point X="963.1772151898734" Y="456.17862165963436" GraphRef="ad0ba" RelX="0.0" RelY="1.0" />
       <Point X="905.3333333333333" Y="514.7679324894515" GraphRef="da318" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -357,7 +357,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="bc9e8">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="373.0" Y="742.3333333333334" GraphRef="ad971" RelX="-1.0" RelY="0.0" />
+      <Point X="373.0" Y="742.3333333333334" GraphRef="cc1f2" RelX="-1.0" RelY="0.0" />
       <Point X="351.9466666666667" Y="748.5866666666666" GraphRef="ca460" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -522,7 +522,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="e8fe7">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="930.6666666666667" Y="793.0" GraphRef="a6886" RelX="-1.0" RelY="0.0" />
+      <Point X="930.6666666666667" Y="793.0" GraphRef="e26ca" RelX="-1.0" RelY="0.0" />
       <Point X="905.3333333333334" Y="792.9999999999999" GraphRef="ddfcc" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -566,7 +566,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="f7a9b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="869.0" Y="239.0" GraphRef="ad87d" RelX="-1.0" RelY="0.0" />
+      <Point X="869.0" Y="239.0" GraphRef="aadaa" RelX="-1.0" RelY="0.0" />
       <Point X="858.923305229856" Y="264.91148763610073" GraphRef="fd54c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -606,12 +606,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="544.0" CenterY="817.6666666666666" Width="109.33333333333333" Height="12.8" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="10" Valign="Middle" />
   </Label>
   <Shape GraphId="fb247">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Mitochondria" />
     <Graphics CenterX="576.75" CenterY="337.0" Width="1146.5" Height="394.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Mitochondria" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="e26ca" GraphId="a6886" Style="Group" />
-  <Group GroupId="aadaa" GraphId="ad87d" Style="Group" />
-  <Group GroupId="cc1f2" GraphId="ad971" Style="Group" />
-  <Group GroupId="ad0ba" GraphId="c2c3d" Style="Group" />
+  <Group GroupId="e26ca" GraphId="e26ca" Style="Group" />
+  <Group GroupId="aadaa" GraphId="aadaa" Style="Group" />
+  <Group GroupId="cc1f2" GraphId="cc1f2" Style="Group" />
+  <Group GroupId="ad0ba" GraphId="ad0ba" Style="Group" />
   <InfoBox CenterX="3.3333333333333335" CenterY="3.3333333333333335" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NAD metabolism in oncogene-induced senescence and mitochondrial dysfunction-associated senescence" Data-Source="WikiPathways" Version="WP5046_Rn" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NAD metabolism in oncogene-induced senescence and mitochondrial dysfunction-associated senescence" Data-Source="WikiPathways" Version="WP5046_Rn" Last-Modified="20210607065215" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">The uppermost part of the pathway includes part of the general NAM salvage pathway in the cytosol as it is relevant to senescence-induced changes to NAD metabolism. In this pathway, NAD levels are maintained through recycling back to NAD from nicotinamide (NAM) and nicotinamide mononucleotide (NMN) (Braidy et al., 2019). The conversion from NAM to NMN is catalyzed by nicotinamide phosphoribosyltransferase (NAMPT), while the conversion from NMN to NAD is catalyzed by nicotinamide mononucleotide adenylyl transferases (NMNATs). Other sources, such as nicotinic acid (NA) and nicotinamid riboside (NR), are not shown here as they are not affected by senescence, at least from current research. OIS-specific interactions are highlighted in orange, while MiDAS-specific interactions are highlighted in purple. General interactions for both (or other senescent types) remain a black color.
 
 The OIS pathway, induced by Ras singalling in this case, results in the upregulation of HMGA1, and stimulation of the NAMPT enzyme (Nacarelli et al., 2019). Resulting increased levels of NMN (the direct metabolite of NAMPT) translate to increased NAD levels, and a high NAD-NADH ratio. This leads to decreased ADP-ATP levels, which causes a decreased phosphorylated AMPK expression (Nacarelli et al., 2019). This interaction causes increased p38 and p65 activation, and increased NF-κB activity. The  NF-κB signalling pathway has been known to play a key role in the promotion of the proinflammatory SASP (Freund et al., 2011). Furthermore, this is correlated with increased expression of interleukins IL1B, IL6 and IL8, all key factors in the proinflammatory wave of the SASP. In addition, Nacarelli et al. (2019) found that the proinflammatory environment created as a result of the increased NAD-NADH ratio leads to acceleration of cancer progression. NAMPT upregulation through HMGA1 also resulted in the expression of senescence markers SA-ß-gal, p16 and p21. The resulting phenotype from this high NAD-NADH ratio is a high proinflammatory SASP.  
@@ -8,15 +8,13 @@ Malate is another important metabolite in redox reactions and in many senescence
 
 Mitochondrial dysfunction-associated senescence (MiDAS), on the other hand, causes a decrease in the NAD-NADH ratio, which induces three main responses: (1) the inhibition of sirtuins, (2) the activation of AMPK and (3) the inhibition of PARP which blocks the NF-kB pathway. First, low levels of NAD+ decrease sirtuin activity. A decrease in the activity of SIRT3 and  SIRT5, located in the mitochondria, is associated with the activation of cell senescence (Wiley et al., 2016)). Second, a decreased NAD+/NADH ratio activates AMPK and p53, which inhibits the RNA binding protein Hu antigen R (HuR) from degrading the mRNAs encoding the cyclin-dependent kinase inhibitors, p21 and p16INK4a. This increases the activity of the pRB tumor suppressor, resulting in cell proliferation and growth arrest ((Wiley et al., 2016)). Additionally, p53 activation leads to the release of SASPs that lack IL-1-dependent factors but include the secretion of anti-inflammatory cytokine IL-10 and high levels of the pro-inflammatory cytokines CCL27 and TNF-α (Wiley et al., 2016). The activation of p53 also reduces glycolysis and promotes mitochondrial respiration, by inhibiting phosphoglycercate mutase (PGM) and inducing the expression of synthesis of cytochrome c oxidase 2 (SCO2). Furthermore, p53 activation inhibits the pentose phosphate pathway (PPP) by binding to glucose-6-phosphate dehydrogenase (G6PDH). Lastly, the low NAD+,NADH ratio inhibits ADP-ribose donor for poly-ADP ribose polymerase (PARP), which consecutively inhibits the NF-kB pathway. A downregulated NF-κB pathway then contributes to the pathogenic processes of various inflammatory diseases as well as the expression of various proinflammatory SASPs (Liu et al., 2017). 
 
-As visible in this pathway, when senescence is induced by either OIS or MiDAS distinguishable effects on NAD metabolism are evident. Not only do these stimuli release distinct SASPs, but they exhibit distinct responses on the NAD-NADH ratio and subsequent related pathways. While MiDAS leads to a decrease in the NAD-NADH ratio, OIS causes an increase in this ratio and the NAD+ levels.
-</Comment>
+As visible in this pathway, when senescence is induced by either OIS or MiDAS distinguishable effects on NAD metabolism are evident. Not only do these stimuli release distinct SASPs, but they exhibit distinct responses on the NAD-NADH ratio and subsequent related pathways. While MiDAS leads to a decrease in the NAD-NADH ratio, OIS causes an increase in this ratio and the NAD+ levels.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5046.gpml (WP5046_r118987) with a 85.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5046.gpml (WP5046_r118987) with a 84.0% conversion rate.</Comment>
   <Graphics BoardWidth="2325.2258971781666" BoardHeight="1741.6059379217274" />
-  <DataNode TextLabel="Rb1" GraphId="a14b5" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000139687</Comment>
+  <DataNode TextLabel="pRB" GraphId="a14b5" Type="RNA">
     <Graphics CenterX="1281.8253659342106" CenterY="1614.477029593197" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000016029" />
+    <Xref Database="Ensembl" ID="ENSG00000139687" />
   </DataNode>
   <DataNode TextLabel="G6PDH" GraphId="a2ded" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000160211</Comment>
@@ -264,7 +262,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
   <Interaction GraphId="id10cca38c">
     <BiopaxRef>c25</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0" Color="cc00ff">
-      <Point X="1522.7286012526115" Y="1091.8580375782894" GraphRef="f900a" RelX="1.0" RelY="0.0" />
+      <Point X="1522.7286012526115" Y="1091.8580375782894" GraphRef="acc64" RelX="1.0" RelY="0.0" />
       <Point X="1489.7153502483914" Y="1485.3828393291774" GraphRef="d4683" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -289,7 +287,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
   <Interaction GraphId="id22bc1550">
     <BiopaxRef>da9</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0" Color="ff6633">
-      <Point X="1020.6114464391225" Y="1471.9579065191208" GraphRef="c8142" RelX="1.0" RelY="0.0" />
+      <Point X="1020.6114464391225" Y="1471.9579065191208" GraphRef="c2134" RelX="1.0" RelY="0.0" />
       <Point X="1123.7847815710388" Y="1395.9252578438332" GraphRef="b3b2f" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -316,7 +314,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
     <BiopaxRef>c5d</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0" Color="cc00ff">
       <Point X="927.985414767548" Y="1095.5493988052278" GraphRef="e41d7" RelX="-1.0" RelY="0.0" />
-      <Point X="602.5873077046595" Y="1095.360824742268" GraphRef="a09de" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="602.5873077046595" Y="1095.360824742268" GraphRef="bee6c" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -499,13 +497,13 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0" Color="cc00ff">
       <Point X="927.985414767548" Y="1101.7993988052278" GraphRef="e41d7" RelX="-1.0" RelY="0.5" />
       <Point X="719.0" Y="1286.8786526621743" />
-      <Point X="914.6114464391225" Y="1471.9579065191208" GraphRef="c8142" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="914.6114464391225" Y="1471.9579065191208" GraphRef="c2134" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id8f6b4692">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="845.3291918560465" Y="398.7322988555438" GraphRef="fa83c" RelX="-1.0" RelY="0.0" />
+      <Point X="845.3291918560465" Y="398.7322988555438" GraphRef="da84a" RelX="-1.0" RelY="0.0" />
       <Point X="817.8133178249502" Y="398.0" GraphRef="b327f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -520,7 +518,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
   <Interaction GraphId="id94c70f7a">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0" Color="cc00ff">
       <Point X="502.90078507224894" Y="1009.1066630490916" GraphRef="c4d9b" RelX="-1.0" RelY="0.0" />
-      <Point X="1066.672024306621" Y="1596.0576356759184" GraphRef="caabf" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="1066.672024306621" Y="1596.0576356759184" GraphRef="d7fcf" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -534,7 +532,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
   </Interaction>
   <Interaction GraphId="ida64b7b">
     <Graphics ZOrder="12288" LineThickness="1.0" Color="cc00ff">
-      <Point X="1172.672024306621" Y="1596.0576356759184" GraphRef="caabf" RelX="1.0" RelY="0.0" />
+      <Point X="1172.672024306621" Y="1596.0576356759184" GraphRef="d7fcf" RelX="1.0" RelY="0.0" />
       <Point X="1236.8253659342106" Y="1614.477029593197" GraphRef="a14b5" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -575,7 +573,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
     <BiopaxRef>da9</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0" Color="ff6633">
       <Point X="967.5146236387941" Y="1342.8642051761453" GraphRef="e0594" RelX="0.0" RelY="1.0" />
-      <Point X="967.6114464391225" Y="1424.9971714713329" GraphRef="c8142" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="967.6114464391225" Y="1424.9971714713329" GraphRef="c2134" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -590,7 +588,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
     <BiopaxRef>da9</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0" Color="ff6633">
       <Point X="1174.0415001114015" Y="1409.2135275246565" GraphRef="b3b2f" RelX="-0.5" RelY="1.0" />
-      <Point X="1119.672024306621" Y="1551.3399042547971" GraphRef="caabf" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1119.672024306621" Y="1551.3399042547971" GraphRef="d7fcf" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -606,7 +604,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
     <BiopaxRef>c25</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0" Color="cc00ff">
       <Point X="1149.9103277674694" Y="800.0015460729752" GraphRef="db94a" RelX="1.0" RelY="0.0" />
-      <Point X="1416.7286012526115" Y="1091.8580375782894" GraphRef="f900a" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1416.7286012526115" Y="1091.8580375782894" GraphRef="acc64" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -695,7 +693,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
     <BiopaxRef>c9e</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1505.8680560189375" Y="760.0867116922601" GraphRef="eb049" RelX="-1.0" RelY="0.0" />
-      <Point X="1149.9103277674694" Y="793.7515460729752" GraphRef="db94a" RelX="1.0" RelY="-0.5" ArrowHead="TBar" />
+      <Point X="1149.9103277674694" Y="793.7515460729752" GraphRef="db94a" RelX="1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -748,7 +746,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
     <BiopaxRef>c25</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0" Color="cc00ff">
       <Point X="502.90078507224894" Y="1009.1066630490916" GraphRef="c4d9b" RelX="-1.0" RelY="0.0" />
-      <Point X="1066.672024306621" Y="1618.416501386479" GraphRef="caabf" RelX="-1.0" RelY="0.5" ArrowHead="mim-conversion" />
+      <Point X="1066.672024306621" Y="1618.416501386479" GraphRef="d7fcf" RelX="-1.0" RelY="0.5" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -868,14 +866,37 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
   <Shape GraphId="c33b0">
     <Graphics CenterX="2273.1418360427956" CenterY="384.05484329946063" Width="44.168122270742266" Height="31.06768558951967" ZOrder="32788" FillColor="000000" FontSize="12" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="bee6c" GraphId="a09de" Style="Group" />
-  <Group GroupId="d0877" GraphId="af0bc" Style="Complex" />
-  <Group GroupId="c2134" GraphId="c8142" Style="Group" />
-  <Group GroupId="d7fcf" GraphId="caabf" Style="Group" />
-  <Group GroupId="acc64" GraphId="f900a" Style="Group" />
-  <Group GroupId="da84a" GraphId="fa83c" Style="Group" />
+  <Group GroupId="bee6c" GraphId="bee6c" Style="Group" />
+  <Group GroupId="c2134" GraphId="c2134" Style="Group" />
+  <Group GroupId="d7fcf" GraphId="d7fcf" Style="Group" />
+  <Group GroupId="acc64" GraphId="acc64" Style="Group" />
+  <Group GroupId="da84a" GraphId="da84a" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30778219</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAD&lt;sup&gt;+&lt;/sup&gt;metabolism governs the proinflammatory senescence-associated secretome.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Cell Biol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nacarelli T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lau L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fukumoto T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zundell J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatkhutdinov N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aird KM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iwasaki O</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kossenkov AV</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schultz D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noma KI</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baur JA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schug Z</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tang HY</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speicher DW</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang R</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5d">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27304503</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -885,16 +906,6 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiley CD</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campisi J</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular senescence pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000277</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine dinucleotide metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002580</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c25">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26686024</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -914,6 +925,28 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gerencser AA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdin E</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campisi J</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d81">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26890602</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK activation protects cells from oxidative stress-induced senescence via autophagic flux restoration and intracellular NAD(+) elevation.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aging Cell</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Han X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tai H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang Z</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhou J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wei X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ding Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gong H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mo C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qin J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ma Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huang N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xiang R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xiao H</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae9">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19052657</bp:ID>
@@ -945,22 +978,7 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narita M</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakao M</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab5">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20725615</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of nicotinamide in DNA damage, mutagenesis, and DNA repair.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Nucleic Acids</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surjana D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halliday GM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damian DL</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9e">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22971926</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytosolic malate dehydrogenase regulates senescence in human fibroblasts.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biogerontology</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22971926</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytosolic malate dehydrogenase regulates senescence in human fibroblasts.</bp:TITLE>
@@ -973,29 +991,25 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim JY</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kwon KS</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da9">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30778219</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinamide adenine dinucleotide metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002580</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular senescence pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000277</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20725615</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAD&lt;sup&gt;+&lt;/sup&gt;metabolism governs the proinflammatory senescence-associated secretome.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Cell Biol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nacarelli T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lau L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fukumoto T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zundell J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatkhutdinov N</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aird KM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iwasaki O</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kossenkov AV</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schultz D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noma KI</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baur JA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schug Z</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tang HY</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speicher DW</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang R</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of nicotinamide in DNA damage, mutagenesis, and DNA repair.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Nucleic Acids</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surjana D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halliday GM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damian DL</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a17">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21646373</bp:ID>
@@ -1018,33 +1032,6 @@ As visible in this pathway, when senescence is induced by either OIS or MiDAS di
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lacour JP</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ballotti R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bertolotto C</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d81">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26890602</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26890602</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPK activation protects cells from oxidative stress-induced senescence via autophagic flux restoration and intracellular NAD(+) elevation.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aging Cell</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Han X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tai H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang Z</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhou J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wei X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ding Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gong H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mo C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qin J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ma Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huang N</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xiang R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xiao H</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

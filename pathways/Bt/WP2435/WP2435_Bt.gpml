@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Quercetin and Nf-kB / AP-1 induced apoptosis" Data-Source="WikiPathways" Version="WP2435_Bt" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Quercetin and Nf-kB / AP-1 induced apoptosis" Data-Source="WikiPathways" Version="WP2435_Bt" Last-Modified="20220102123231" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">Quercetin is a flavonoid that is widely distributed in nature. In this pathway, its dual nature is depicted. On the one hand, it is capable of exerting anti-oxidant and anti-inflammatory effects by inhibiting the PLA2-induced conversion of cell membrane phospholipids to arachidonic acid, reducing the downstream synthesis of pro-inflammatory prostaglandins; furthermore, inhibition of NF-kB and AP-1 transcription factor activation also contribute to these effects.
 
-On the other hand, quercetin itself may - paraxodically - generate ROS, as well as facilitate the activation of NFE2L2, which results in the production of CYP2A6. This isotype of CYP450 was found to be involved in the formation of carcinogenic metabolites. Both of these effects culminate in DNA damage.  It has been observed, however, that these pro-oxidant effects are dominant at higher concentrations, whereas anti-oxidant effects are dominant at lower concentrations. Based on this, it has been suggested that quercetin may have a scavenging effect. </Comment>
+On the other hand, quercetin itself may - paraxodically - generate ROS, as well as facilitate the activation of NFE2L2, which results in the production of CYP2A6. This isotype of CYP450 was found to be involved in the formation of carcinogenic metabolites. Both of these effects culminate in DNA damage.  It has been observed, however, that these pro-oxidant effects are dominant at higher concentrations, whereas anti-oxidant effects are dominant at lower concentrations. Based on this, it has been suggested that quercetin may have a scavenging effect.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2435.gpml (WP2435_r120750) with a 90.0% conversion rate.</Comment>
-  <BiopaxRef>ff4</BiopaxRef>
-  <BiopaxRef>c21</BiopaxRef>
-  <BiopaxRef>f0c</BiopaxRef>
   <BiopaxRef>f35</BiopaxRef>
   <BiopaxRef>ce7</BiopaxRef>
   <BiopaxRef>ca2</BiopaxRef>
@@ -195,8 +192,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e761c">
-    <BiopaxRef>ff4</BiopaxRef>
-    <BiopaxRef>c21</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="-4" LineThickness="1.0">
       <Point X="225.36300063489728" Y="489.4803929180297" GraphRef="a8e97" RelX="0.0" RelY="1.0" />
       <Point X="367.37682260289534" Y="628.4458326785061" GraphRef="aef7b" RelX="-1.0" RelY="0.0" ArrowHead="mim-binding" />
@@ -213,13 +208,13 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
   <Interaction GraphId="id3640f85f">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="805.4395373291268" Y="82.88474538080217" GraphRef="c9d3e" RelX="0.5" RelY="1.0" />
-      <Point X="804.9407374706327" Y="134.11683931199144" GraphRef="f57a5" RelX="-0.5" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="804.9407374706327" Y="134.11683931199144" GraphRef="a5732" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id40de190e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="593.1575028287402" Y="280.1111121341556" GraphRef="ceb1d" RelX="0.0" RelY="1.0" />
+      <Point X="593.1575028287402" Y="280.1111121341556" GraphRef="ed99e" RelX="0.0" RelY="1.0" />
       <Point X="592.8345325317104" Y="318.8688899119298" GraphRef="b6953" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -227,12 +222,11 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
   <Interaction GraphId="id514deb37">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="592.1595325317145" Y="189.6090133687237" GraphRef="a65ad" RelX="0.0" RelY="1.0" />
-      <Point X="593.1575028287402" Y="236.11111213415558" GraphRef="ceb1d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="593.1575028287402" Y="236.11111213415558" GraphRef="ed99e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id5ae1971e">
-    <BiopaxRef>b17</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1544.1589965358032" Y="505.91885148514837" GraphRef="ee40d" RelX="0.0" RelY="-1.0" />
       <Point X="1555.0403796023234" Y="81.85504241050515" GraphRef="d907f" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
@@ -249,14 +243,14 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
   </Interaction>
   <Interaction GraphId="id88bfdb81">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="665.1575028287402" Y="258.1111121341556" GraphRef="ceb1d" RelX="1.0" RelY="0.0" />
+      <Point X="665.1575028287402" Y="258.1111121341556" GraphRef="ed99e" RelX="1.0" RelY="0.0" />
       <Point X="699.6322640131918" Y="258.31861213415834" GraphRef="b7fb7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id8920208c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="309.5493827160491" Y="261.90740740740733" GraphRef="e3604" RelX="-1.0" RelY="0.0" />
+      <Point X="309.5493827160491" Y="261.90740740740733" GraphRef="a30bb" RelX="-1.0" RelY="0.0" />
       <Point X="253.035118403054" Y="262.83855210724494" GraphRef="b611c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -277,13 +271,12 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
   </Interaction>
   <Interaction GraphId="idd140daf2">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="947.4407374706327" Y="169.0379835905982" GraphRef="f57a5" RelX="1.0" RelY="0.0" />
+      <Point X="947.4407374706327" Y="169.0379835905982" GraphRef="a5732" RelX="1.0" RelY="0.0" />
       <Point X="1040.4711991983788" Y="321.74074074074105" GraphRef="bf76f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ide2f8af03">
-    <BiopaxRef>ff4</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="909.9184966485782" Y="463.71698010333444" GraphRef="d39eb" RelX="-1.0" RelY="0.0" />
       <Point X="767.3768226028953" Y="613.9458326785061" GraphRef="aef7b" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
@@ -291,7 +284,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ide3f3d14b">
-    <BiopaxRef>b17</BiopaxRef>
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
       <Point X="1564.1589965358032" Y="505.91885148514837" GraphRef="ee40d" RelX="0.5" RelY="-1.0" />
       <Point X="1681.5367976249563" Y="150.55763933056596" GraphRef="ab6fc" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
@@ -306,15 +298,13 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="acab9">
-    <BiopaxRef>f0c</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32801" LineThickness="1.0">
       <Point X="820.4395373291268" Y="77.88474538080217" GraphRef="c9d3e" RelX="1.0" RelY="0.5" />
-      <Point X="1315.3621107186236" Y="188.1129240656644" GraphRef="c5785" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="1315.3621107186236" Y="188.1129240656644" GraphRef="cf591" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b8f94">
-    <BiopaxRef>f0c</BiopaxRef>
     <Graphics ZOrder="32802" LineThickness="1.0">
       <Point X="1345.3621107186236" Y="220.1129240656644" GraphRef="d06ca" RelX="0.0" RelY="1.0" />
       <Point X="1344.3020807660548" Y="338.5413290910391" GraphRef="e67af" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -322,7 +312,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a3a44">
-    <BiopaxRef>f0c</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32803" LineThickness="1.0">
       <Point X="820.4395373291268" Y="77.88474538080217" GraphRef="c9d3e" RelX="1.0" RelY="0.5" />
       <Point X="1345.3621107186236" Y="200.1129240656644" GraphRef="d06ca" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -330,7 +319,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a1fe3">
-    <BiopaxRef>b17</BiopaxRef>
     <Graphics ZOrder="32805" LineThickness="1.0">
       <Point X="820.4395373291268" Y="67.88474538080217" GraphRef="c9d3e" RelX="1.0" RelY="-0.5" />
       <Point X="1526.6188274500441" Y="66.85504241050515" GraphRef="d907f" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
@@ -338,7 +326,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c604c">
-    <BiopaxRef>f0c</BiopaxRef>
     <Graphics ZOrder="32806" LineThickness="1.0">
       <Point X="1344.3020807660548" Y="358.5413290910391" GraphRef="e67af" RelX="0.0" RelY="1.0" />
       <Point X="1345.0182523832102" Y="486.26787317401937" GraphRef="dd341" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
@@ -346,10 +333,9 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c98fa">
-    <BiopaxRef>f0c</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32807" LineThickness="1.0">
       <Point X="820.4395373291268" Y="77.88474538080217" GraphRef="c9d3e" RelX="1.0" RelY="0.5" />
-      <Point X="1279.3621107186236" Y="188.1129240656644" GraphRef="c5785" RelX="-0.5" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="1279.3621107186236" Y="188.1129240656644" GraphRef="cf591" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -368,7 +354,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="cb8fe">
-    <BiopaxRef>b17</BiopaxRef>
     <Graphics ZOrder="32812" LineThickness="1.0">
       <Point X="1711.6617976249568" Y="130.55763933056596" GraphRef="ab6fc" RelX="0.0" RelY="-1.0" />
       <Point X="1732.1556247854492" Y="77.80346786118054" GraphRef="de0af" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
@@ -376,15 +361,13 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e2cea">
-    <BiopaxRef>b17</BiopaxRef>
     <Graphics ZOrder="32813" LineThickness="1.0">
       <Point X="1610.6694322613105" Y="505.91885148514837" GraphRef="a9854" RelX="-0.5" RelY="-1.0" />
-      <Point X="1611.8834839068818" Y="81.85504241050515" GraphRef="d907f" RelX="0.5" RelY="1.0" ArrowHead="TBar" />
+      <Point X="1611.8834839068818" Y="81.85504241050515" GraphRef="d907f" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e7ae3">
-    <BiopaxRef>f2a</BiopaxRef>
     <Graphics ZOrder="32837" LineThickness="1.0">
       <Point X="760.4395373291268" Y="72.88474538080217" GraphRef="c9d3e" RelX="-1.0" RelY="0.0" />
       <Point X="587.2037037037013" Y="74.41358024691351" GraphRef="c1eb5" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
@@ -399,8 +382,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="da220">
-    <BiopaxRef>ff4</BiopaxRef>
-    <BiopaxRef>c21</BiopaxRef>
     <Graphics ZOrder="32840" LineThickness="1.0">
       <Point X="566.8144192519059" Y="462.36670400319576" GraphRef="ecf51" RelX="0.0" RelY="1.0" />
       <Point X="567.3768226028953" Y="599.4458326785061" GraphRef="aef7b" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
@@ -408,8 +389,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="dccab">
-    <BiopaxRef>ff4</BiopaxRef>
-    <BiopaxRef>c21</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32841" LineThickness="1.0">
       <Point X="302.53018007478147" Y="375.99200657780847" GraphRef="cc355" RelX="1.0" RelY="0.5" />
       <Point X="439.39024066921274" Y="521.3162844420143" GraphRef="ac7ad" RelX="-0.5" RelY="-1.0" ArrowHead="mim-binding" />
@@ -417,7 +396,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="efbdf">
-    <BiopaxRef>ff4</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32843" LineThickness="1.0">
       <Point X="340.1693197044964" Y="428.4914395107728" GraphRef="a55d5" RelX="0.0" RelY="1.0" />
       <Point X="367.37682260289534" Y="613.9458326785061" GraphRef="aef7b" RelX="-1.0" RelY="-0.5" ArrowHead="mim-binding" />
@@ -425,8 +403,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ef66b">
-    <BiopaxRef>ff4</BiopaxRef>
-    <BiopaxRef>c21</BiopaxRef>
     <Graphics ZOrder="32845" LineThickness="1.0">
       <Point X="253.53018007478147" Y="230.38151202262804" GraphRef="fcbc9" RelX="0.0" RelY="1.0" />
       <Point X="252.53018007478147" Y="295.94312169312184" GraphRef="af617" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
@@ -435,7 +411,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="cef54">
-    <BiopaxRef>ff4</BiopaxRef>
     <Graphics ZOrder="32847" LineThickness="1.0">
       <Point X="252.53018007478147" Y="315.94312169312184" GraphRef="af617" RelX="0.0" RelY="1.0" />
       <Point X="252.53018007478147" Y="360.99200657780847" GraphRef="cc355" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
@@ -443,7 +418,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d1ec9">
-    <BiopaxRef>ff4</BiopaxRef>
     <Graphics ZOrder="32849" LineThickness="1.0">
       <Point X="227.53018007478147" Y="380.99200657780847" GraphRef="cc355" RelX="-0.5" RelY="1.0" />
       <Point X="225.36300063489728" Y="469.4803929180297" GraphRef="a8e97" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
@@ -451,7 +425,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="dc15b">
-    <BiopaxRef>ff4</BiopaxRef>
     <Graphics ZOrder="32850" LineThickness="1.0">
       <Point X="464.39024066921274" Y="541.3162844420143" GraphRef="ac7ad" RelX="0.0" RelY="1.0" />
       <Point X="467.37682260289534" Y="599.4458326785061" GraphRef="aef7b" RelX="-0.5" RelY="-1.0" ArrowHead="mim-binding" />
@@ -459,8 +432,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ebafd">
-    <BiopaxRef>f88</BiopaxRef>
-    <BiopaxRef>ff4</BiopaxRef>
     <Graphics ZOrder="32851" LineThickness="1.0">
       <Point X="255.53018007478124" Y="122.90740740740742" GraphRef="a7f4d" RelX="0.0" RelY="1.0" />
       <Point X="253.53018007478147" Y="210.38151202262804" GraphRef="fcbc9" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
@@ -469,7 +440,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="eaf1d">
-    <BiopaxRef>ff4</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32852" LineThickness="1.0">
       <Point X="302.53018007478147" Y="365.99200657780847" GraphRef="cc355" RelX="1.0" RelY="-0.5" />
       <Point X="566.8144192519059" Y="442.36670400319576" GraphRef="ecf51" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
@@ -477,8 +447,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="cfb3f">
-    <BiopaxRef>ff4</BiopaxRef>
-    <BiopaxRef>c21</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32854" LineThickness="1.0">
       <Point X="202.53018007478147" Y="370.99200657780847" GraphRef="cc355" RelX="-1.0" RelY="0.0" />
       <Point X="119.11017262482756" Y="584.6855592746699" GraphRef="d5dc0" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
@@ -503,7 +471,7 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
   <Interaction GraphId="idf174d5e5">
     <Graphics ZOrder="32874" LineThickness="1.0">
       <Point X="775.4395373291268" Y="82.88474538080217" GraphRef="c9d3e" RelX="-0.5" RelY="1.0" />
-      <Point X="592.1595325317145" Y="169.6090133687237" GraphRef="a65ad" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="592.1595325317145" Y="169.6090133687237" GraphRef="a65ad" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -516,20 +484,19 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
   </Interaction>
   <Interaction GraphId="id6ba4ea74">
     <Graphics ZOrder="32887" LineStyle="Broken" LineThickness="1.0">
-      <Point X="854.1865671641808" Y="367.9328038939882" GraphRef="b175d" RelX="0.5" RelY="1.0" />
+      <Point X="854.1865671641808" Y="367.9328038939882" GraphRef="e7b94" RelX="0.5" RelY="1.0" />
       <Point X="939.9184966485782" Y="453.71698010333444" GraphRef="d39eb" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id884dca54">
     <Graphics ZOrder="32888" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1098.6926478717528" Y="369.8546760148662" GraphRef="c4fbe" RelX="0.0" RelY="1.0" />
+      <Point X="1098.6926478717528" Y="369.8546760148662" GraphRef="ebd80" RelX="0.0" RelY="1.0" />
       <Point X="939.9184966485782" Y="453.71698010333444" GraphRef="d39eb" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f7f11">
-    <BiopaxRef>ff4</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32889" LineThickness="1.0">
       <Point X="119.11017262482756" Y="604.6855592746699" GraphRef="d5dc0" RelX="0.0" RelY="1.0" />
       <Point X="367.37682260289534" Y="642.9458326785061" GraphRef="aef7b" RelX="-1.0" RelY="0.5" ArrowHead="mim-binding" />
@@ -598,15 +565,12 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
     <Graphics CenterX="1431.149787368092" CenterY="451.8553775522447" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="10" Valign="Middle" />
   </Label>
   <Label TextLabel="Induces malformation" GraphId="a45b7">
-    <BiopaxRef>f0c</BiopaxRef>
     <Graphics CenterX="1261.2468473910778" CenterY="119.07756500770688" Width="110.0" Height="20.0" ZOrder="32818" FillColor="ffffff" FontWeight="Bold" FontSize="10" Valign="Middle" />
   </Label>
   <Label TextLabel="Inhibits dimerization" GraphId="f13c4">
-    <BiopaxRef>b17</BiopaxRef>
     <Graphics CenterX="1316.7440503484931" CenterY="153.70364945281545" Width="110.0" Height="20.0" ZOrder="32820" FillColor="ffffff" FontWeight="Bold" FontSize="10" Valign="Middle" />
   </Label>
   <Label TextLabel="Inhibits ubiquitination" GraphId="a97e8">
-    <BiopaxRef>f0c</BiopaxRef>
     <Graphics CenterX="1384.765600160148" CenterY="103.01396657435716" Width="110.0" Height="20.0" ZOrder="32821" FillColor="ffffff" FontWeight="Bold" FontSize="10" Valign="Middle" />
   </Label>
   <Label TextLabel="Causes vasoconstriction; &#xA;promotes platelet aggregation" GraphId="b3c25">
@@ -642,16 +606,20 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
   <Shape TextLabel="ROS" GraphId="d907f">
     <Graphics CenterX="1583.4619317546026" CenterY="71.85504241050515" Width="113.68620860911687" Height="20.0" ZOrder="32816" FontSize="10" Valign="Middle" ShapeType="Rectangle" Color="0033ff" Rotation="0.0" />
   </Shape>
-  <Group GroupId="f5de8" Style="Group" />
-  <Group GroupId="a7810" Style="Group" />
-  <Group GroupId="e7b94" GraphId="b175d" Style="Group" />
-  <Group GroupId="ebd80" GraphId="c4fbe" Style="Group" />
-  <Group GroupId="cf591" GraphId="c5785" Style="Complex" />
-  <Group GroupId="ed99e" GraphId="ceb1d" Style="Complex" />
-  <Group GroupId="a30bb" GraphId="e3604" Style="Group" />
-  <Group GroupId="a5732" GraphId="f57a5" Style="Complex" />
+  <Group GroupId="a7810" GraphId="a7810" Style="Group" />
+  <Group GroupId="e7b94" GraphId="e7b94" Style="Group" />
+  <Group GroupId="ebd80" GraphId="ebd80" Style="Group" />
+  <Group GroupId="cf591" GraphId="cf591" Style="Complex" />
+  <Group GroupId="ed99e" GraphId="ed99e" Style="Complex" />
+  <Group GroupId="a30bb" GraphId="a30bb" Style="Group" />
+  <Group GroupId="a5732" GraphId="a5732" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoptotic cell death pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000009</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f35">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11729303</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -659,6 +627,16 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funk CD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.jfca.2006.02.009</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of phytochemicals in inhibition of cancer and inflammation: New directions and perspectives</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Journal of Food Composition and Analysis</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ala Y. Issaa</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suresh R. Volatea</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael J. Wargovich</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce7">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17462537</bp:ID>
@@ -683,21 +661,6 @@ On the other hand, quercetin itself may - paraxodically - generate ROS, as well 
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricciotti E</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FitzGerald GA</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoptotic cell death pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000009</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac2">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.jfca.2006.02.009</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of phytochemicals in inhibition of cancer and inflammation: New directions and perspectives</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Journal of Food Composition and Analysis</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ala Y. Issaa</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suresh R. Volatea</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael J. Wargovich</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

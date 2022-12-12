@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Amino acid metabolism" Data-Source="WikiPathways" Version="WP3925_Gg" Organism="Gallus gallus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Amino acid metabolism" Data-Source="WikiPathways" Version="WP3925_Gg" Last-Modified="20220704185127" Organism="Gallus gallus">
   <Comment Source="WikiPathways-description">A complete overview of the metabolism of all 20 amino acids.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3925 CPTAC Assay Portal]</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway "Amino Acid metabolism", WP662 revision 71177, with a 99.0% conversion rate.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3925.gpml (WP3925_r117062) with a 91.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3925.gpml (WP3925_r123124) with a 91.0% conversion rate.</Comment>
   <Graphics BoardWidth="1498.9811912225707" BoardHeight="1149.2821316614425" />
   <DataNode TextLabel="GSR" GraphId="a0777" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = M:MGI:95804</Comment>
@@ -705,7 +705,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSGALG00000003281" />
   </DataNode>
   <DataNode TextLabel="Fatty acid metabolism" GraphId="df74f" Type="Pathway">
-    <Graphics CenterX="115.57993730407527" CenterY="757.8369905956114" Width="127.77429467084637" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="115.57993730407527" CenterY="757.8369905956114" Width="127.77429467084637" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP357" />
   </DataNode>
   <DataNode TextLabel="Citrulline" GraphId="dfc08" Type="Metabolite">
@@ -761,7 +761,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="ChEBI" ID="CHEBI:17865" />
   </DataNode>
   <DataNode TextLabel="glycolysis &amp; gluconeogenesis" GraphId="e554a" Type="Pathway">
-    <Graphics CenterX="269.18495297805634" CenterY="536.833855799373" Width="176.36363636363637" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="269.18495297805634" CenterY="536.833855799373" Width="176.36363636363637" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP157" />
   </DataNode>
   <DataNode TextLabel="ARG1" GraphId="e66f4" Type="GeneProduct" GroupRef="c18ef">
@@ -1222,7 +1222,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="HMDB" ID="HMDB0003905" />
   </DataNode>
   <DataNode TextLabel="Fatty acid metabolism" GraphId="e0336" Type="Pathway">
-    <Graphics CenterX="1305.8307210031335" CenterY="650.2821316614417" Width="127.77429467084637" Height="20.0" ZOrder="32802" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="1305.8307210031335" CenterY="650.2821316614417" Width="127.77429467084637" Height="20.0" ZOrder="32802" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP357" />
   </DataNode>
   <DataNode TextLabel="2-oxo-glutarate" GraphId="e33f7" Type="Metabolite">
@@ -2447,7 +2447,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id2c1bbfd0">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="753.1051312491755" Y="475.0273051048673" GraphRef="ac221" RelX="0.0" RelY="-1.0" />
+      <Point X="753.1051312491755" Y="475.0273051048673" GraphRef="bfd15" RelX="0.0" RelY="-1.0" />
       <Point X="747.2277847961017" Y="457.03992692526367" GraphRef="b8747" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -2476,7 +2476,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id3332c069">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="339.3333333333333" Y="594.3333333333334" GraphRef="ad170" RelX="1.0" RelY="0.0" />
-      <Point X="352.3333333333333" Y="592.6666666666666" GraphRef="c0cfa" RelX="-1.0" RelY="0.5" ArrowHead="TBar" />
+      <Point X="352.3333333333333" Y="592.6666666666666" GraphRef="cf493" RelX="-1.0" RelY="0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -2519,7 +2519,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id3f4d1db1">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="696.4050916765598" Y="774.9666270940508" GraphRef="ebc77" RelX="1.0" RelY="0.0" />
+      <Point X="696.4050916765598" Y="774.9666270940508" GraphRef="c48de" RelX="1.0" RelY="0.0" />
       <Point X="745.0828369759806" Y="792.7523255226586" GraphRef="f475b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -2652,7 +2652,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id692b738b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="308.83444804343554" Y="666.4512613567709" GraphRef="e9997" RelX="0.0" RelY="1.0" />
+      <Point X="308.83444804343554" Y="666.4512613567709" GraphRef="dc0d8" RelX="0.0" RelY="1.0" />
       <Point X="309.61601154527875" Y="686.2030602391574" GraphRef="adc03" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -2678,7 +2678,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id728cfbd4">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="871.6434979586718" Y="588.708483359145" GraphRef="d69a4" RelX="1.0" RelY="0.0" />
+      <Point X="871.6434979586718" Y="588.708483359145" GraphRef="d834e" RelX="1.0" RelY="0.0" />
       <Point X="900.6174041730061" Y="582.5787677415296" GraphRef="bd489" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -2756,7 +2756,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id8b7da133">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="340.3333333333333" Y="561.6666666666666" GraphRef="bf0c4" RelX="1.0" RelY="0.0" />
-      <Point X="352.3333333333333" Y="571.6666666666666" GraphRef="c0cfa" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="352.3333333333333" Y="571.6666666666666" GraphRef="cf493" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -2815,7 +2815,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id98a4535a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="620.4050916765598" Y="774.9666270940508" GraphRef="ebc77" RelX="-1.0" RelY="0.0" />
+      <Point X="620.4050916765598" Y="774.9666270940508" GraphRef="c48de" RelX="-1.0" RelY="0.0" />
       <Point X="601.7879890757282" Y="778.2996814716505" GraphRef="aabfa" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -2838,7 +2838,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id9fdeefe9">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="436.3333333333333" Y="571.6666666666666" GraphRef="c0cfa" RelX="1.0" RelY="0.0" />
+      <Point X="436.3333333333333" Y="571.6666666666666" GraphRef="cf493" RelX="1.0" RelY="0.0" />
       <Point X="445.83074579774495" Y="581.0114774973238" GraphRef="aba82" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -2962,7 +2962,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idbf4db58a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="223.2671672683986" Y="663.8000915218516" GraphRef="adb70" RelX="0.0" RelY="1.0" />
+      <Point X="223.2671672683986" Y="663.8000915218516" GraphRef="eff45" RelX="0.0" RelY="1.0" />
       <Point X="223.87111361060664" Y="686.1061235611221" GraphRef="bdaa9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -3137,7 +3137,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idf11306c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="265.06964703601545" Y="962.6573947053982" GraphRef="a277e" RelX="1.0" RelY="0.0" />
+      <Point X="265.06964703601545" Y="962.6573947053982" GraphRef="c18ef" RelX="1.0" RelY="0.0" />
       <Point X="276.9150201423814" Y="941.1521537497589" GraphRef="c4511" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -3287,36 +3287,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="proteins" GraphId="fefbd">
     <Graphics CenterX="460.0" CenterY="10.0" Width="62.333333333333336" Height="19.0" ZOrder="28672" FillColor="ffffff" FontStyle="Italic" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="c18ef" GraphId="a277e" Style="Group" />
-  <Group GroupId="bfd15" GraphId="ac221" Style="Group" />
-  <Group GroupId="eff45" GraphId="adb70" Style="Group" />
-  <Group GroupId="cf493" GraphId="c0cfa" Style="Complex" />
-  <Group GroupId="d834e" GraphId="d69a4" Style="Group" />
-  <Group GroupId="dc0d8" GraphId="e9997" Style="Group" />
-  <Group GroupId="c48de" GraphId="ebc77" Style="Group" />
+  <Group GroupId="c18ef" GraphId="c18ef" Style="Group" />
+  <Group GroupId="bfd15" GraphId="bfd15" Style="Group" />
+  <Group GroupId="eff45" GraphId="eff45" Style="Group" />
+  <Group GroupId="cf493" GraphId="cf493" Style="Complex" />
+  <Group GroupId="d834e" GraphId="d834e" Style="Group" />
+  <Group GroupId="dc0d8" GraphId="dc0d8" Style="Group" />
+  <Group GroupId="c48de" GraphId="c48de" Style="Group" />
   <InfoBox CenterX="1431.6666666666667" CenterY="405.0" />
   <Legend CenterX="1423.0446666666664" CenterY="436.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000011</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000011</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000011</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000011</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid metabolic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000011</bp:ID>

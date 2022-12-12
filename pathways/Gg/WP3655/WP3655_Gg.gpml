@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hypothetical craniofacial development pathway" Data-Source="WikiPathways" Version="WP3655_Gg" Organism="Gallus gallus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hypothetical craniofacial development pathway" Data-Source="WikiPathways" Version="WP3655_Gg" Last-Modified="20210522125249" Organism="Gallus gallus">
   <Comment Source="WikiPathways-description">Hypothetical pathway linking cranio-facial development pathway (IRF6, TP63, TFAP2A, and TGFB3) to Rho signaling pathway through ARHGAP29 regulation. Authors of literature suspect that a decrease of ARHGAP29 concentration would result in more active form, Rho-GTP, which would down-regulate cranio-facial development genes. An implication of this active Rho-GTP may be the formation of cleft lip. This pathway is based on figure 4 from Leslie et al.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3655.gpml (WP3655_r117757) with a 88.0% conversion rate.</Comment>
@@ -80,15 +80,15 @@
   </Interaction>
   <Interaction GraphId="id2be573a9">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="533.0" Y="235.0" GraphRef="b236e" RelX="1.0" RelY="0.0" />
+      <Point X="533.0" Y="235.0" GraphRef="b71c2" RelX="1.0" RelY="0.0" />
       <Point X="632.0" Y="234.5" GraphRef="b3278" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4c803e5e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="277.0" Y="218.0" GraphRef="a1bd3" RelX="1.0" RelY="-0.5" />
-      <Point X="429.0" Y="219.0" GraphRef="b236e" RelX="-1.0" RelY="-0.5" ArrowHead="mim-conversion" />
+      <Point X="277.0" Y="218.0" GraphRef="db5cc" RelX="1.0" RelY="-0.5" />
+      <Point X="429.0" Y="219.0" GraphRef="b71c2" RelX="-1.0" RelY="-0.5" ArrowHead="mim-conversion" />
       <Anchor Position="0.5066003029647262" Shape="None" GraphId="ad504" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -123,8 +123,8 @@
   </Interaction>
   <Interaction GraphId="id93d15a46">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="429.0" Y="251.0" GraphRef="b236e" RelX="-1.0" RelY="0.5" />
-      <Point X="277.0" Y="250.0" GraphRef="a1bd3" RelX="1.0" RelY="0.5" ArrowHead="mim-conversion" />
+      <Point X="429.0" Y="251.0" GraphRef="b71c2" RelX="-1.0" RelY="0.5" />
+      <Point X="277.0" Y="250.0" GraphRef="db5cc" RelX="1.0" RelY="0.5" ArrowHead="mim-conversion" />
       <Anchor Position="0.4868210344081369" Shape="None" GraphId="dfa8e" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -150,24 +150,24 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Group GroupId="db5cc" GraphId="a1bd3" Style="Complex" />
-  <Group GroupId="b71c2" GraphId="b236e" Style="Complex" />
+  <Group GroupId="db5cc" GraphId="db5cc" Style="Complex" />
+  <Group GroupId="b71c2" GraphId="b71c2" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to development</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000650</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to development</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000650</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cleft lip</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9296</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4a">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23008150</bp:ID>

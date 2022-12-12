@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL-2 signaling pathway" Data-Source="WikiPathways" Version="WP49_Gg" Organism="Gallus gallus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL-2 signaling pathway" Data-Source="WikiPathways" Version="WP49_Gg" Last-Modified="20211223132001" Organism="Gallus gallus">
   <Comment Source="WikiPathways-description">IL-2 is a multifunctional cytokine with pleiotropic effects on several cells of the immune system. IL-2 was originally discovered as a T cell growth factor, but it was also found to have actions related to B cell proliferation, and cytolytic activity of natural killer cells. IL-2 also activates lymphokine activated killer cells. In contrast to its proliferative effects, IL-2 also has potent activity in a process known as activation-induced cell death. More recently, IL-2 was shown to promote tolerance through its effects on regulatory T cell development. IL-2 clinically has anti-cancer effects as well as utility in supporting T cell numbers in HIV/AIDS. There are three classes of IL-2 receptors, binding IL-2 with low, intermediate, or high-affinity. The low affinity receptor (IL-2RÃŽÂ± alone) is not functional; signaling by IL-2 involves either the high affinity hetero-trimeric receptor containing IL-2RÃŽÂ±, IL-2RÃŽÂ² and the common cytokine receptor gamma chain (originally named IL-2RÃŽÂ³ and now generally denoted as ÃŽÂ³c) or the intermediate affinity heterodimeric receptor composed of IL-2RÃŽÂ² and ÃŽÂ³c. IL-2 stimulation induces the activation of the Janus family tyrosine kinases JAK1 and JAK3, which associate with IL-2RÃŽÂ² and ÃŽÂ³c, respectively. These kinases in turn phosphorylate IL-2RÃŽÂ² and induce tyrosine phosphorylation of STATs (signal transducers and activators of transcription) and various other downstream targets. The downstream signaling pathways activated by IL-2 also involves mitogen-activated protein kinase and phosphoinositide 3-kinase signaling modules, leading to both mitogenic and anti-apoptotic signals.
 Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html NetSlim] database. NetPath is a collaborative project between PandeyLab at Johns Hopkins University (http://pandeylab.igm.jhmi.edu) and the Institute of Bioinformatics (http://www.ibioinformatics.org). If you use this pathway, please cite the NetPath website until the pathway is published.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP49.gpml (WP49_r120703) with a 94.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP49.gpml (WP49_r120703) with a 93.0% conversion rate.</Comment>
   <BiopaxRef>c59</BiopaxRef>
   <Attribute Key="org.pathvisio.model.WindowHeight" Value="11190.0" />
   <Attribute Key="org.pathvisio.model.WindowWidth" Value="15480.0" />
@@ -93,7 +93,6 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="CRKL" GraphId="b3311" Type="Protein">
-    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Gallus gallus: Original ID = L:1399</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="CDK9" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -135,40 +134,35 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Graphics CenterX="320.3333333333335" CenterY="1163.0" Width="50.0" Height="20.0" ZOrder="32822" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSGALG00000015082" />
   </DataNode>
-  <DataNode TextLabel="CCND2" GraphId="c20d9" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Gallus gallus: Original ID = L:894</Comment>
+  <DataNode TextLabel="CCND2" GraphId="c20d9" Type="RNA">
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
     <Graphics CenterX="496.00000000000034" CenterY="1407.0" Width="50.0" Height="20.0" ZOrder="32822" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSGALG00000017283" />
+    <Xref Database="Entrez Gene" ID="894" />
   </DataNode>
-  <DataNode TextLabel="MYC" GraphId="dbbd3" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Gallus gallus: Original ID = L:4609</Comment>
+  <DataNode TextLabel="MYC" GraphId="dbbd3" Type="RNA">
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
     <Graphics CenterX="342.3333333333335" CenterY="1361.0" Width="50.0" Height="20.0" ZOrder="32822" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSGALG00000033631" />
+    <Xref Database="Entrez Gene" ID="4609" />
   </DataNode>
-  <DataNode TextLabel="FOS" GraphId="eb0d4" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Gallus gallus: Original ID = L:2353</Comment>
+  <DataNode TextLabel="FOS" GraphId="eb0d4" Type="RNA">
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
     <Graphics CenterX="69.33333333333348" CenterY="1347.0" Width="50.0" Height="20.0" ZOrder="32822" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSGALG00000028037" />
+    <Xref Database="Entrez Gene" ID="2353" />
   </DataNode>
-  <DataNode TextLabel="JUN" GraphId="f0721" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Gallus gallus: Original ID = L:3725</Comment>
+  <DataNode TextLabel="JUN" GraphId="f0721" Type="RNA">
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
     <Graphics CenterX="129.33333333333348" CenterY="1347.0" Width="50.0" Height="20.0" ZOrder="32822" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSGALG00000010870" />
+    <Xref Database="Entrez Gene" ID="3725" />
   </DataNode>
-  <DataNode TextLabel="BCL2" GraphId="f4d0f" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Gallus gallus: Original ID = L:596</Comment>
+  <DataNode TextLabel="BCL2" GraphId="f4d0f" Type="RNA">
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
     <Graphics CenterX="281.3333333333335" CenterY="1360.0" Width="50.0" Height="20.0" ZOrder="32822" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSGALG00000012885" />
+    <Xref Database="Entrez Gene" ID="596" />
   </DataNode>
   <DataNode TextLabel="IL2RA" GraphId="ce87a" Type="Protein" GroupRef="fe675">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Gallus gallus: Original ID = En:ENSG00000134460</Comment>
@@ -398,7 +392,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ab2ca" TextLabel="P" GraphId="de686">
-    <Comment>Stimulation of IL-2 receptor complex with IL-2 induces Gab2 tyrosine phosphorylation in NK3.3 and mycosis fungoides tumor T cells. </Comment>
+    <Comment>Stimulation of IL-2 receptor complex with IL-2 induces Gab2 tyrosine phosphorylation in NK3.3 and mycosis fungoides tumor T cells.</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -422,7 +416,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="aacc7" TextLabel="P" GraphId="e4304">
-    <Comment>Stimulation with IL-2 induces tyrosine phosphorylation of IL-2 receptor gamma chain in T-lymphocytes. </Comment>
+    <Comment>Stimulation with IL-2 induces tyrosine phosphorylation of IL-2 receptor gamma chain in T-lymphocytes.</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -455,7 +449,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ad218" TextLabel="P" GraphId="f360e">
-    <Comment>Stimulation of IL-2 receptor complex with IL-2 induces STAT1 phosphorylation at Tyr-701 and Ser-727 in T cell blasts, T-lymphocytes and Natural killer cells. </Comment>
+    <Comment>Stimulation of IL-2 receptor complex with IL-2 induces STAT1 phosphorylation at Tyr-701 and Ser-727 in T cell blasts, T-lymphocytes and Natural killer cells.</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -474,7 +468,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="fcef5" TextLabel="P" GraphId="eb9c5">
-    <Comment>Stimulation of IL-2 receptor complex with IL-2 induces tyrosine phosphorylation of SHP2 in F7 and Kit 225 cells. Both A and S regions od IL-2 receptor beta are required for SHP2 phosphorylation. </Comment>
+    <Comment>Stimulation of IL-2 receptor complex with IL-2 induces tyrosine phosphorylation of SHP2 in F7 and Kit 225 cells. Both A and S regions od IL-2 receptor beta are required for SHP2 phosphorylation.</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -497,7 +491,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="fc51d" TextLabel="P" GraphId="a9ca2">
-    <Comment>Stimulation of IL-2 receptor complex with IL-2 induces phosphorylation of p85 subunit of PI3K in A49 cells. </Comment>
+    <Comment>Stimulation of IL-2 receptor complex with IL-2 induces phosphorylation of p85 subunit of PI3K in A49 cells.</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -655,7 +649,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id90a3c6bd">
-    <Comment>Stimulation with IL-2 induces the interaction of STAT1 and STAT3 with A domain of IL-2 receptor beta in Kit 225 cells. </Comment>
+    <Comment>Stimulation with IL-2 induces the interaction of STAT1 and STAT3 with A domain of IL-2 receptor beta in Kit 225 cells.</Comment>
     <Comment>Type your comment here</Comment>
     <Graphics ZOrder="12288" LineThickness="2.0" Color="00cc32">
       <Point X="503.62976406533573" Y="497.09255898366604" GraphRef="fad96" RelX="0.0" RelY="0.0" />
@@ -733,7 +727,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idb8216a4c">
-    <Comment>Stimulation with IL-2 induces phosphorylation of FYN and its interaction with IL-2 receptor beta in COS and mouse pro-B cellline </Comment>
+    <Comment>Stimulation with IL-2 induces phosphorylation of FYN and its interaction with IL-2 receptor beta in COS and mouse pro-B cellline</Comment>
     <Graphics ZOrder="12294" LineThickness="2.0" Color="00cc32">
       <Point X="237.74954627949182" Y="497.09255898366604" GraphRef="f3921" RelX="0.0" RelY="0.0" />
       <Point X="237.0" Y="549.0" GraphRef="d96bc" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -741,7 +735,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idf98292a8">
-    <Comment>Stimulation of IL-2 receptor complex with IL-2 induces heteromerization of STAT5A and STAT5B and thus leading to their translocation to the nucleus in COS-7 cells and peripherial blood lymphocytes. </Comment>
+    <Comment>Stimulation of IL-2 receptor complex with IL-2 induces heteromerization of STAT5A and STAT5B and thus leading to their translocation to the nucleus in COS-7 cells and peripherial blood lymphocytes.</Comment>
     <Graphics ZOrder="12298" LineThickness="2.0" Color="00cc00">
       <Point X="444.3333333333336" Y="755.6666666666667" GraphRef="d6dad" RelX="0.0" RelY="1.0" />
       <Point X="444.0000000000001" Y="866.6666666666667" GraphRef="ad8e4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -758,10 +752,8 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id12418c64">
-    <Comment>Stimulation with IL-2 induces phosphorylation of STAT5A on Tyr 694 residue and  association of SH2 domains of STAT5 with Tyr-364, Tyr-418 and Tyr-536 residues of IL-2 receptor beta chain Kit 255 cells.
-</Comment>
-    <Comment>Stimulation with IL-2 induces phosphorylation of STAT5B on Tyr 699 residue and its association with IL-2 receptor beta chain Kit 255 cells.
-</Comment>
+    <Comment>Stimulation with IL-2 induces phosphorylation of STAT5A on Tyr 694 residue and  association of SH2 domains of STAT5 with Tyr-364, Tyr-418 and Tyr-536 residues of IL-2 receptor beta chain Kit 255 cells.</Comment>
+    <Comment>Stimulation with IL-2 induces phosphorylation of STAT5B on Tyr 699 residue and its association with IL-2 receptor beta chain Kit 255 cells.</Comment>
     <Graphics ZOrder="12300" LineThickness="2.0" Color="00cc00">
       <Point X="544.464609800363" Y="497.09255898366604" GraphRef="dc79a" RelX="0.0" RelY="0.0" />
       <Point X="544.3333333333334" Y="734.6666666666667" GraphRef="a8f5b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -822,7 +814,6 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="eaaec" GroupRef="fe675">
-    <Comment></Comment>
     <Graphics ZOrder="12330" LineThickness="3.0">
       <Point X="408.0" Y="338.0" GraphRef="ea5a9" RelX="0.0" RelY="1.0" />
       <Point X="452.0" Y="397.0" GraphRef="aacc7" RelX="0.0" RelY="-1.0" />
@@ -992,7 +983,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="be055">
-    <Comment>Stimulation of IL-2 receptor complex induces the phosphorylation and activation of JAK1 which subsequently auguments the phosphorylation of IL-2RB at Tyr 364, Tyr 418 as well as Tyr 536 in COS-1 cells overexpressing JAK1. </Comment>
+    <Comment>Stimulation of IL-2 receptor complex induces the phosphorylation and activation of JAK1 which subsequently auguments the phosphorylation of IL-2RB at Tyr 364, Tyr 418 as well as Tyr 536 in COS-1 cells overexpressing JAK1.</Comment>
     <Graphics ZOrder="12398" LineThickness="2.0" Color="0000ff">
       <Point X="396.3333333333335" Y="615.0" GraphRef="ddbe6" RelX="0.0" RelY="-1.0" />
       <Point X="396.75" Y="417.0" GraphRef="bad8b" RelX="0.5" RelY="1.0" ArrowHead="Arrow" />
@@ -1000,8 +991,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="aef96">
-    <Comment>Stimulation of IL-2 receptor complex by IL-2 stimulation leads to association of Shc1 with IL-2 receptor beta chain via its PTB domain and subsequent tyrosine phosphorylation of Shc1 by JAK1 in 32D cells.
-</Comment>
+    <Comment>Stimulation of IL-2 receptor complex by IL-2 stimulation leads to association of Shc1 with IL-2 receptor beta chain via its PTB domain and subsequent tyrosine phosphorylation of Shc1 by JAK1 in 32D cells.</Comment>
     <Graphics ZOrder="12400" LineThickness="2.0" Color="0000ff">
       <Point X="367.3333333333335" Y="625.0" GraphRef="ddbe6" RelX="-1.0" RelY="0.0" />
       <Point X="138.0" Y="625.0" GraphRef="e81bd" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
@@ -1213,7 +1203,7 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
   <GraphicalLine GraphId="ad97f">
     <Graphics ZOrder="33719" LineThickness="2.0">
       <Point X="729.0" Y="762.0" />
-      <Point X="754.0" Y="762.0" ArrowHead="TBar" />
+      <Point X="754.0" Y="762.0" ArrowHead="mim-inhibition" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="a403f">
@@ -1444,11 +1434,11 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Graphics CenterX="633.3333333333329" CenterY="611.6666666666666" Width="14.907119999999999" Height="20.0" ZOrder="16426" FontSize="10" Valign="Middle" ShapeType="Arc" LineThickness="2.0" Color="0000ff" Rotation="2.554867" />
   </Shape>
   <Shape TextLabel="P" GraphId="d0ac7">
-    <Comment>Stimulation of IL- receptor complex with IL-2 induces p70 S6 Kinase phosphorylation in spleenic T-cells </Comment>
+    <Comment>Stimulation of IL- receptor complex with IL-2 induces p70 S6 Kinase phosphorylation in spleenic T-cells</Comment>
     <Graphics CenterX="360.0" CenterY="1116.75" Width="22.0" Height="18.5" ZOrder="32956" FillColor="ffff00" FontSize="10" Valign="Middle" ShapeType="mim-interaction" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="P" GraphId="e9d50">
-    <Comment>Stimulation of IL- receptor complex with IL-2 induces p70 S6 Kinase phosphorylation in spleenic T-cells </Comment>
+    <Comment>Stimulation of IL- receptor complex with IL-2 induces p70 S6 Kinase phosphorylation in spleenic T-cells</Comment>
     <Graphics CenterX="362.0" CenterY="1091.75" Width="22.0" Height="18.5" ZOrder="32958" FillColor="ffff00" FontSize="10" Valign="Middle" ShapeType="mim-interaction" Rotation="0.0" />
   </Shape>
   <Shape GraphId="c19d7">
@@ -1470,21 +1460,16 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
     <Graphics CenterX="753.5485028072367" CenterY="631.6175400291123" Width="23.357142857143003" Height="23.071428571427703" ZOrder="33734" FillColor="ff3399" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="ff00cc" Rotation="0.0" />
   </Shape>
-  <Group GroupId="e9098" GraphId="aff73" Style="Group" />
-  <Group GroupId="bd7b5" GraphId="c9325" Style="Group" />
-  <Group GroupId="d0f9c" GraphId="d324d" Style="Group" />
-  <Group GroupId="f090d" GraphId="e9cc2" Style="Group" />
-  <Group GroupId="c670a" GraphId="edddc" Style="Group" />
-  <Group GroupId="f008c" GraphId="f0831" Style="Group" />
-  <Group GroupId="af818" GraphId="f19fc" Style="Group" />
-  <Group GroupId="fe675" GraphId="fe104" Style="Group" />
+  <Group GroupId="e9098" GraphId="e9098" Style="Group" />
+  <Group GroupId="bd7b5" GraphId="bd7b5" Style="Group" />
+  <Group GroupId="d0f9c" GraphId="d0f9c" Style="Group" />
+  <Group GroupId="f090d" GraphId="f090d" Style="Group" />
+  <Group GroupId="c670a" GraphId="c670a" Style="Group" />
+  <Group GroupId="f008c" GraphId="f008c" Style="Group" />
+  <Group GroupId="af818" GraphId="af818" Style="Group" />
+  <Group GroupId="fe675" GraphId="fe675" Style="Group" />
   <InfoBox CenterX="15.0" CenterY="8.333333333333334" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-2 signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000907</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c59">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20067622</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1532,6 +1517,11 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonard WJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey A</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-2 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000907</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin mediated signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000512</bp:ID>

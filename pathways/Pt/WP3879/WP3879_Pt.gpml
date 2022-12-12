@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="4-hydroxytamoxifen, dexamethasone, and retinoic acids regulation of p27 expression" Data-Source="WikiPathways" Version="WP3879_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="4-hydroxytamoxifen, dexamethasone, and retinoic acids regulation of p27 expression" Data-Source="WikiPathways" Version="WP3879_Pt" Last-Modified="20220723062717" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">This pathway is modeled after Figure 7 in the article ''Upstream molecular signaling pathways of p27(Kip1) expression: effects of 4-hydroxytamoxifen, dexamethasone, and retinoic acids'' (See Bibliography). Several anticancer agents up-regulate expression of p27, a cyclin-dpendent kinase inhibitor that blocks the transition from G1 to S phase. The pathways used by the anticancer agents (retinoic acids, 4-hydroxytamoxifen, dexamethasone) are shown above from human breast cancer cells.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3879.gpml (WP3879_r120671) with a 89.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3879.gpml (WP3879_r123400) with a 89.0% conversion rate.</Comment>
   <BiopaxRef>f5c</BiopaxRef>
   <Graphics BoardWidth="1659.0" BoardHeight="820.0" />
   <DataNode TextLabel="Triciribine" GraphId="a188c" Type="Metabolite">
@@ -131,7 +131,7 @@
     <Xref Database="HMDB" ID="HMDB0001852" />
   </DataNode>
   <DataNode TextLabel="MTOR Protein Kinase Signaling Pathway" GraphId="f06e5" Type="Pathway">
-    <Graphics CenterX="973.0" CenterY="202.0" Width="282.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="973.0" CenterY="202.0" Width="282.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP3318" />
   </DataNode>
   <DataNode TextLabel="NSC119889" GraphId="f4490" Type="Metabolite">
@@ -199,13 +199,13 @@
   <Interaction GraphId="id1573b86d">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1007.75" Y="491.25" GraphRef="e3241" RelX="0.0" RelY="-1.0" />
-      <Point X="1087.0" Y="431.0" GraphRef="e78c4" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="1087.0" Y="431.0" GraphRef="cd15c" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1de6f372">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1261.75" Y="316.25" GraphRef="a2b86" RelX="0.0" RelY="1.0" />
+      <Point X="1261.75" Y="316.25" GraphRef="f6aca" RelX="0.0" RelY="1.0" />
       <Point X="1261.0" Y="517.0" GraphRef="ce646" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -213,7 +213,7 @@
   <Interaction GraphId="id1e3811ea">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1140.0" Y="214.0" GraphRef="b5118" RelX="0.0" RelY="1.0" />
-      <Point X="1140.0" Y="252.0" GraphRef="dcd72" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1140.0" Y="252.0" GraphRef="c8a45" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -227,7 +227,7 @@
   <Interaction GraphId="id338fd47b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1060.0" Y="346.0" GraphRef="d6571" RelX="0.0" RelY="-1.0" />
-      <Point X="1088.0" Y="284.0" GraphRef="dcd72" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1088.0" Y="284.0" GraphRef="c8a45" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -254,7 +254,7 @@
   </Interaction>
   <Interaction GraphId="id3ecb520d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1140.0" Y="126.0" GraphRef="d80b2" RelX="0.0" RelY="1.0" />
+      <Point X="1140.0" Y="126.0" GraphRef="c74ea" RelX="0.0" RelY="1.0" />
       <Point X="1140.0" Y="194.0" GraphRef="b5118" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -269,14 +269,14 @@
   <Interaction GraphId="id41d4985b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="271.0" Y="262.0" GraphRef="a188c" RelX="-1.0" RelY="0.0" />
-      <Point X="238.0" Y="286.0" GraphRef="b5fa0" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="238.0" Y="286.0" GraphRef="aac1e" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4259e563">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1140.0" Y="316.0" GraphRef="dcd72" RelX="0.0" RelY="1.0" />
-      <Point X="1139.0" Y="383.0" GraphRef="e78c4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1140.0" Y="316.0" GraphRef="c8a45" RelX="0.0" RelY="1.0" />
+      <Point X="1139.0" Y="383.0" GraphRef="cd15c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -289,15 +289,15 @@
   </Interaction>
   <Interaction GraphId="id5d38e51e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1139.0" Y="447.0" GraphRef="e78c4" RelX="0.0" RelY="1.0" />
-      <Point X="1138.0" Y="495.0" GraphRef="a2eb1" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1139.0" Y="447.0" GraphRef="cd15c" RelX="0.0" RelY="1.0" />
+      <Point X="1138.0" Y="495.0" GraphRef="bc75a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id61467640">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1013.75" Y="415.25" GraphRef="db08f" RelX="1.0" RelY="0.0" />
-      <Point X="1087.0" Y="415.0" GraphRef="e78c4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1087.0" Y="415.0" GraphRef="cd15c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -311,7 +311,7 @@
   <Interaction GraphId="id74d16a08">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1221.0" Y="527.0" GraphRef="ce646" RelX="-1.0" RelY="0.0" />
-      <Point X="1190.0" Y="527.0" GraphRef="a2eb1" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1190.0" Y="527.0" GraphRef="bc75a" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -325,7 +325,7 @@
   <Interaction GraphId="id7e2249f0">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="186.0" Y="242.5" GraphRef="d48c9" RelX="0.0" RelY="1.0" />
-      <Point X="186.0" Y="270.0" GraphRef="b5fa0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="186.0" Y="270.0" GraphRef="aac1e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -338,7 +338,7 @@
   </Interaction>
   <Interaction GraphId="idac4a0ace">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1110.0" Y="126.0" GraphRef="d80b2" RelX="-0.5" RelY="1.0" />
+      <Point X="1110.0" Y="126.0" GraphRef="c74ea" RelX="-0.5" RelY="1.0" />
       <Point X="973.0" Y="192.0" GraphRef="f06e5" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -374,7 +374,7 @@
   <Interaction GraphId="idc70ddd2d">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="423.0" Y="365.0" GraphRef="ed6bc" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-      <Point X="238.0" Y="302.0" GraphRef="b5fa0" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="238.0" Y="302.0" GraphRef="aac1e" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -387,7 +387,7 @@
   </Interaction>
   <Interaction GraphId="idd3085a06">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1170.0" Y="126.0" GraphRef="d80b2" RelX="0.5" RelY="1.0" />
+      <Point X="1170.0" Y="126.0" GraphRef="c74ea" RelX="0.5" RelY="1.0" />
       <Point X="1262.0" Y="189.0" GraphRef="cbc42" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -408,7 +408,7 @@
   </Interaction>
   <Interaction GraphId="ided308b41">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1138.0" Y="559.0" GraphRef="a2eb1" RelX="0.0" RelY="1.0" />
+      <Point X="1138.0" Y="559.0" GraphRef="bc75a" RelX="0.0" RelY="1.0" />
       <Point X="1138.0" Y="594.0" GraphRef="a641b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -458,23 +458,28 @@
   <Label TextLabel="Receptor Tyrosine Kinases" GraphId="f55ba">
     <Graphics CenterX="186.0" CenterY="150.0" Width="162.0" Height="25.0" ZOrder="32778" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="f6aca" GraphId="a2b86" Style="Complex" />
-  <Group GroupId="bc75a" GraphId="a2eb1" Style="Complex" />
-  <Group GroupId="aac1e" GraphId="b5fa0" Style="Complex" />
-  <Group GroupId="c74ea" GraphId="d80b2" Style="Group" />
-  <Group GroupId="c8a45" GraphId="dcd72" Style="Complex" />
-  <Group GroupId="cd15c" GraphId="e78c4" Style="Complex" />
+  <Group GroupId="f6aca" GraphId="f6aca" Style="Complex" />
+  <Group GroupId="bc75a" GraphId="bc75a" Style="Complex" />
+  <Group GroupId="aac1e" GraphId="aac1e" Style="Complex" />
+  <Group GroupId="c74ea" GraphId="c74ea" Style="Group" />
+  <Group GroupId="c8a45" GraphId="c8a45" Style="Complex" />
+  <Group GroupId="cd15c" GraphId="cd15c" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast cancer pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000624</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1612</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
@@ -489,11 +494,6 @@
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eto I</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1612</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

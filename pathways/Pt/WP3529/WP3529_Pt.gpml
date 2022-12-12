@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Zinc homeostasis" Data-Source="WikiPathways" Version="WP3529_Pt" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Zinc homeostasis" Data-Source="WikiPathways" Version="WP3529_Pt" Last-Modified="20220127155617" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Zinc is a transition metal and catalytic cofactor involved in many biological processes such as proliferation, development and differentiation, regulation of DNA synthesis, genomic stability, cell activation, RNA transcription, immune function. Zinc homeostasis in cells is ensured by various protein families including zinc transporters, zinc-binding proteins (Metallothioneins, MTs), transcription factors (MTF1-2). ZnT (1-10) transporters are responsible of zinc efflux and are assigned to the SLC30A family while ZIP (1-14) transporters are responsible for the influx of zinc into the cytoplasm and are assigned to the SLC39A family. Zn2+ enters into the cell by the ZIP transporters, and once inside the cell is available to bind metalloproteins (MT) which deliver to ZnT, or the zinc can bind to directly ZnTs and then deliver in the organelles / vesicles or lead outside the cell. Elevated zinc levels have been reported in different tumour tissue, such as breast and lung cancer</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3529.gpml (WP3529_r120882) with a 97.0% conversion rate.</Comment>
   <Graphics BoardWidth="966.0" BoardHeight="883.5471375000003" />
   <DataNode TextLabel="MTF1" GraphId="a6dcf" Type="GeneProduct">
-    <Comment>Metal-response element-binding transcription factor-1 (MTF-1) functions as a cellular zinc sensor which coordinates the expression of genes involved in zinc homeostasis.
-</Comment>
+    <Comment>Metal-response element-binding transcription factor-1 (MTF-1) functions as a cellular zinc sensor which coordinates the expression of genes involved in zinc homeostasis.</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000188786</Comment>
     <BiopaxRef>b85</BiopaxRef>
     <BiopaxRef>c8b</BiopaxRef>
@@ -66,20 +65,19 @@
     <Xref Database="Ensembl" ID="ENSPTRG00000006109" />
   </DataNode>
   <DataNode TextLabel="SLC39A1" GraphId="be76b" Type="GeneProduct" GroupRef="cbbdb">
-    <Comment>SLC39A1 (ZIP1) transporter is responsible for the influx of zinc into the cytoplasm 
-</Comment>
+    <Comment>SLC39A1 (ZIP1) transporter is responsible for the influx of zinc into the cytoplasm</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:27173</Comment>
     <Graphics CenterX="305.2852078052913" CenterY="60.945558332271105" Width="50.0" Height="23.789700579721398" ZOrder="32817" FontWeight="Bold" FontSize="10" Valign="Middle" Color="330099" />
     <Xref Database="Ensembl" ID="ENSPTRG00000001367" />
   </DataNode>
   <DataNode TextLabel="MT1A" GraphId="ed504" Type="GeneProduct" GroupRef="a7225">
-    <Comment>zinc is chelated by cytoplasmic proteins, such as MTs </Comment>
+    <Comment>zinc is chelated by cytoplasmic proteins, such as MTs</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:4489</Comment>
     <Graphics CenterX="778.8168476190482" CenterY="162.74676041666646" Width="47.86049374999993" Height="19.35734925594997" ZOrder="32819" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000031204" />
   </DataNode>
   <DataNode TextLabel="SLC30A1" GraphId="e6a6d" Type="GeneProduct">
-    <Comment>SLC30A1 (ZnT1) transporter is responsible of zinc efflux </Comment>
+    <Comment>SLC30A1 (ZnT1) transporter is responsible of zinc efflux</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:7779</Comment>
     <Graphics CenterX="642.3664885416666" CenterY="595.4538377325752" Width="62.088752083333404" Height="24.477687034849623" ZOrder="32821" FontWeight="Bold" FontSize="10" Valign="Middle" Color="006633" />
     <Xref Database="Ensembl" ID="ENSPTRG00000049467" />
@@ -471,7 +469,7 @@
   </Interaction>
   <Interaction GraphId="id66529953">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="272.2852078052913" Y="72.61553715689317" GraphRef="b6821" RelX="-1.0" RelY="0.0" />
+      <Point X="272.2852078052913" Y="72.61553715689317" GraphRef="cbbdb" RelX="-1.0" RelY="0.0" />
       <Point X="394.44234158263953" Y="61.59574765658341" GraphRef="a78bb" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -544,7 +542,7 @@
   <Interaction GraphId="idd1911d8b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="706.1721500000017" Y="194.25404166666615" GraphRef="d7e96" RelX="1.0" RelY="0.0" />
-      <Point X="746.8866007440482" Y="211.21218132439154" GraphRef="dc8ab" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="746.8866007440482" Y="211.21218132439154" GraphRef="a7225" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -626,14 +624,14 @@
   <Interaction GraphId="ida422c07d">
     <Graphics ZOrder="32835" LineThickness="1.0">
       <Point X="864.9677083333333" Y="343.6666666666668" GraphRef="f1583" RelX="-0.5" RelY="1.0" />
-      <Point X="840.8378705357147" Y="389.7831937499995" GraphRef="a6dcf" RelX="0.0" RelY="-1.0" ArrowHead="mim-necessary-stimulation" />
+      <Point X="840.8378705357147" Y="389.7831937499995" GraphRef="a6dcf" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id16b775da">
     <Graphics ZOrder="32859" LineThickness="1.0">
       <Point X="699.5849375000013" Y="518.8659812500001" GraphRef="dda1a" RelX="0.0" RelY="-1.0" />
-      <Point X="803.3168476190482" Y="277.3562768600916" GraphRef="dc8ab" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
+      <Point X="803.3168476190482" Y="277.3562768600916" GraphRef="a7225" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -679,7 +677,7 @@
     <Graphics ZOrder="32897" LineStyle="Broken" LineThickness="1.0">
       <Point X="64.69963928571323" Y="474.43345357142977" GraphRef="d05d3" RelX="1.0" RelY="0.0" />
       <Point X="169.91208511904637" Y="473.904761904763" GraphRef="f6253" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" />
+      <Anchor Position="0.4" Shape="None" GraphId="e9171" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -885,31 +883,13 @@
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
     <Graphics CenterX="212.47130833333304" CenterY="640.2242687499996" Width="18.0" Height="17.0" ZOrder="32908" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.4173613837964805" />
   </Shape>
-  <Group GroupId="cbbdb" GraphId="b6821" Style="Group" />
-  <Group GroupId="a7225" GraphId="dc8ab" Style="Group">
+  <Group GroupId="cbbdb" GraphId="cbbdb" Style="Group" />
+  <Group GroupId="a7225" GraphId="a7225" Style="Group">
     <BiopaxRef>eaf</BiopaxRef>
     <BiopaxRef>d4c</BiopaxRef>
   </Group>
-  <Group GroupId="ecf49" GraphId="dea8b" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc2">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17344318</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of GAC63 in transcriptional activation mediated by beta-catenin.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen YH; Yang CK; Xia M; Ou CY; Stallcup MR</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb5">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24710731</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Current understanding of ZIP and ZnT zinc transporters in human health and diseases.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Mol Life Sci. </bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kambe T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujimoto S.</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fcd">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23506888</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -919,11 +899,27 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huang L</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tepaamorndech S.</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homeostasis pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000355</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d4c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24416395</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metallothionein - immunohistochemical cancer biomarker: a meta-analysis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLoS One</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gumulec J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raudenska M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kizek R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masarik M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b06">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23506894</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The SLC39 family of zinc transporters</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Aspects Med. 2013</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeong J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eide DJ</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6b">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22289350</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -942,55 +938,15 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beattie JH</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rodilla V</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e00">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24416395</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24710731</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metallothionein - immunohistochemical cancer biomarker: a meta-analysis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLoS One. 2014 Jan 8;9(1):e85346</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Current understanding of ZIP and ZnT zinc transporters in human health and diseases.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Mol Life Sci.</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gumulec J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raudenska M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam V, Kizek R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masarik M.</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b06">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23506894</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The SLC39 family of zinc transporters</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Aspects Med. 2013</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeong J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eide DJ</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c8b">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11831458</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cellular zinc sensors: MTF-1 regulation of gene expression</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d4c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24416395</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metallothionein - immunohistochemical cancer biomarker: a meta-analysis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLoS One</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gumulec J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raudenska M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adam V</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kizek R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masarik M</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d55">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10755665</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Induction, regulation, degradation, and biological significance of mammalian metallothioneins</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crit Rev Biochem Mol Biol. 2000;35(1):35-70.</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miles AT</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawksworth GM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beattie JH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rodilla V.</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kambe T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujimoto S.</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b85">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22057392</bp:ID>
@@ -998,6 +954,25 @@
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A conserved cysteine cluster, essential for transcriptional activity, mediates homodimerization of human metal-responsive transcription factor-1 (MTF-1).</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homeostasis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000355</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c8b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11831458</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cellular zinc sensors: MTF-1 regulation of gene expression</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17344318</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of GAC63 in transcriptional activation mediated by beta-catenin.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen YH; Yang CK; Xia M; Ou CY; Stallcup MR</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

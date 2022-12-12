@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Steroid biosynthesis" Data-Source="WikiPathways" Version="WP496_Dr" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Steroid biosynthesis" Data-Source="WikiPathways" Version="WP496_Dr" Last-Modified="20210617100645" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">Steroidogenesis is the biological process by which steroids are generated from cholesterol and transformed into other steroids.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP496 CPTAC Assay Portal].</Comment>
@@ -431,7 +431,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id346a22b5">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="445.5" Y="393.33333333333326" GraphRef="bc942" RelX="0.0" RelY="-1.0" />
+      <Point X="445.5" Y="393.33333333333326" GraphRef="cc626" RelX="0.0" RelY="-1.0" />
       <Point X="461.92841206501373" Y="376.1770994671223" GraphRef="e81cd" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -453,13 +453,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id5aa4f2d7">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="424.2666666666666" Y="486.2666666666667" GraphRef="ef08e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-      <Point X="423.5" Y="502.33333333333326" GraphRef="c55ed" RelX="0.0" RelY="-1.0" />
+      <Point X="423.5" Y="502.33333333333326" GraphRef="e3493" RelX="0.0" RelY="-1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id920fa45c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1012.3333333333333" Y="430.33333333333326" GraphRef="af573" RelX="-1.0" RelY="0.0" />
+      <Point X="1012.3333333333333" Y="430.33333333333326" GraphRef="f1f13" RelX="-1.0" RelY="0.0" />
       <Point X="990.0000000000001" Y="430.0" GraphRef="c1622" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -473,7 +473,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="ida4b47c0d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="426.66666666666663" Y="140.0" GraphRef="b7840" RelX="0.0" RelY="1.0" />
+      <Point X="426.66666666666663" Y="140.0" GraphRef="c5376" RelX="0.0" RelY="1.0" />
       <Point X="425.8666666666666" Y="159.0" GraphRef="e01f9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -494,7 +494,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idf30caa85">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="430.66666666666663" Y="242.0" GraphRef="a81c8" RelX="0.0" RelY="1.0" />
+      <Point X="430.66666666666663" Y="242.0" GraphRef="ee1bf" RelX="0.0" RelY="1.0" />
       <Point X="431.1333333333333" Y="258.0" GraphRef="a8418" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -524,13 +524,18 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="** Estradiol-17-beta DH = DHB" GraphId="fde">
     <Graphics CenterX="767.6666666666666" CenterY="683.3333333333334" Width="231.33333333333334" Height="19.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="ee1bf" GraphId="a81c8" />
-  <Group GroupId="f1f13" GraphId="af573" />
-  <Group GroupId="c5376" GraphId="b7840" />
-  <Group GroupId="cc626" GraphId="bc942" />
-  <Group GroupId="e3493" GraphId="c55ed" />
+  <Group GroupId="ee1bf" GraphId="ee1bf" />
+  <Group GroupId="f1f13" GraphId="f1f13" />
+  <Group GroupId="c5376" GraphId="c5376" />
+  <Group GroupId="cc626" GraphId="cc626" />
+  <Group GroupId="e3493" GraphId="e3493" />
   <InfoBox CenterX="24.9" CenterY="540.6666666666666" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steroid hormone biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000040</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef9">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.15347/wjm/2014.005</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:DB>
@@ -543,11 +548,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Settersr</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Richfield, D</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steroid hormone biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000040</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

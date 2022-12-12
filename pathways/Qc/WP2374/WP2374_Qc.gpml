@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Oncostatin M signaling pathway" Data-Source="WikiPathways" Version="WP2374_Qc" Maintainer="IOB and Pandey Lab" Organism="Equus caballus">
-  <Comment Source="WikiPathways-description">Oncostatin M (OSM) is a member of the multifunctional cytokine interleukin 6 (IL6) - type cytokine family. It is mainly produced in cell types such as activated T lymphocytes, macrophages, monocytes, neutrophils and in microglial cells. OSM signaling is initiated by the interaction of the cytokine to either: the type I LIFR-gp130 receptor complex, or to the type II OSMR-gp130 receptor [O’Hara et al]. The major downstream signaling pathways that are activated in OSM signaling are JAK/STAT, Ras/Raf/MAPK and PI3K pathways [Halfter, Halfter, Stross, Brantley]. As the receptors lacks intrinsic tyrosine kinase activity, associated JAKs (JAK1, JAK2, JAK3 and TYK2) phosphorylate OSM receptor complex and STATs (STAT1, STAT3, STAT5A, STAT5B, STAT6) [O’Hara, Fritz, Migita, Hintzen]. Phosphorylated STATs form homodimeric complexes (STAT1, STAT3, STAT5B) or heterodimeric complex (STAT1-STAT3) and translocate to the nucleus. Once inside nucleus STAT proteins bind to regulatory elements in the promoter of OSM-responsive genes and regulate the gene expression [O’Hara, Halfter, Halfter, Hintzen]. Alternatively, OSM induced phosphorylation of PTPN11, GRB2, SHC1, Ras/Raf molecules can bring about the activation of ERK1/2 signaling module [O’Hara]. Oncostatin M -through ERK1/2 signaling module induces the phosphorylation of CEBPB, both CEBPB and EGR1 stimulates the transcription of genes involved in lipid metabolism [Zhang]. Although OSM also causes induced phosphorylation in MAPK family members (MAPK8/9/14) the functional importance of this is at present not well understood [O’Hara, Li]. OSM mediated signaling cascade is negatively regulated by JAK1 inhibition by SOCS3 and STAT3 inhibition by PIAS3 [Stross, Brantley, Chung]. OSM also induced the activation of caspase family members (CASP3, CASP7, CASP9) through the JAK2 module and regulates apoptosis [Auernhammer, Tiffen, Chipoy]. In osteosarcoma cells OSM is found to mediate apoptosis through a less understood STAT5B signaling module [Chipoy]. </Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Oncostatin M signaling pathway" Data-Source="WikiPathways" Version="WP2374_Qc" Last-Modified="20220104223906" Organism="Equus caballus">
+  <Comment Source="WikiPathways-description">Oncostatin M (OSM) is a member of the multifunctional cytokine interleukin 6 (IL6) - type cytokine family. It is mainly produced in cell types such as activated T lymphocytes, macrophages, monocytes, neutrophils and in microglial cells. OSM signaling is initiated by the interaction of the cytokine to either: the type I LIFR-gp130 receptor complex, or to the type II OSMR-gp130 receptor [O’Hara et al]. The major downstream signaling pathways that are activated in OSM signaling are JAK/STAT, Ras/Raf/MAPK and PI3K pathways [Halfter, Halfter, Stross, Brantley]. As the receptors lacks intrinsic tyrosine kinase activity, associated JAKs (JAK1, JAK2, JAK3 and TYK2) phosphorylate OSM receptor complex and STATs (STAT1, STAT3, STAT5A, STAT5B, STAT6) [O’Hara, Fritz, Migita, Hintzen]. Phosphorylated STATs form homodimeric complexes (STAT1, STAT3, STAT5B) or heterodimeric complex (STAT1-STAT3) and translocate to the nucleus. Once inside nucleus STAT proteins bind to regulatory elements in the promoter of OSM-responsive genes and regulate the gene expression [O’Hara, Halfter, Halfter, Hintzen]. Alternatively, OSM induced phosphorylation of PTPN11, GRB2, SHC1, Ras/Raf molecules can bring about the activation of ERK1/2 signaling module [O’Hara]. Oncostatin M -through ERK1/2 signaling module induces the phosphorylation of CEBPB, both CEBPB and EGR1 stimulates the transcription of genes involved in lipid metabolism [Zhang]. Although OSM also causes induced phosphorylation in MAPK family members (MAPK8/9/14) the functional importance of this is at present not well understood [O’Hara, Li]. OSM mediated signaling cascade is negatively regulated by JAK1 inhibition by SOCS3 and STAT3 inhibition by PIAS3 [Stross, Brantley, Chung]. OSM also induced the activation of caspase family members (CASP3, CASP7, CASP9) through the JAK2 module and regulates apoptosis [Auernhammer, Tiffen, Chipoy]. In osteosarcoma cells OSM is found to mediate apoptosis through a less understood STAT5B signaling module [Chipoy].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2374.gpml (WP2374_r120781) with a 90.0% conversion rate.</Comment>
   <BiopaxRef>f58</BiopaxRef>
@@ -308,15 +308,13 @@
     <Graphics CenterX="198.46959533537847" CenterY="647.8458241069295" Width="60.0" Height="20.0" ZOrder="33026" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSECAG00000015638" />
   </DataNode>
-  <DataNode TextLabel="MMP13" GraphId="b3a56" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:4322</Comment>
+  <DataNode TextLabel="MMP13" GraphId="b3a56" Type="RNA">
     <Graphics CenterX="253.3608380507676" CenterY="1324.4911194907957" Width="56.0" Height="20.0" ZOrder="33038" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSECAG00000005506" />
+    <Xref Database="Entrez Gene" ID="4322" />
   </DataNode>
-  <DataNode TextLabel="TP53" GraphId="f6fb5" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:7157</Comment>
+  <DataNode TextLabel="TP53" GraphId="f6fb5" Type="RNA">
     <Graphics CenterX="399.0014051927267" CenterY="1270.2950622327446" Width="44.0" Height="20.0" ZOrder="33054" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSECAG00000008126" />
+    <Xref Database="Entrez Gene" ID="7157" />
   </DataNode>
   <DataNode TextLabel="STAT1" GraphId="f8387" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:6772</Comment>
@@ -338,40 +336,34 @@
     <Graphics CenterX="151.9178686555968" CenterY="1135.3108101013308" Width="44.44997697452084" Height="20.0" ZOrder="33086" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSECAG00000013667" />
   </DataNode>
-  <DataNode TextLabel="CCN1" GraphId="c50b0" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:3491</Comment>
+  <DataNode TextLabel="CYR61" GraphId="c50b0" Type="RNA">
     <Graphics CenterX="165.99318992839932" CenterY="1302.3433394820358" Width="56.0" Height="19.31332103592831" ZOrder="33094" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSECAG00000024993" />
+    <Xref Database="Entrez Gene" ID="3491" />
   </DataNode>
   <DataNode TextLabel="EGR1" GraphId="fb447" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:1958</Comment>
     <Graphics CenterX="590.4383155031294" CenterY="1174.5516588961398" Width="60.0" Height="20.0" ZOrder="33102" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSECAG00000014338" />
   </DataNode>
-  <DataNode TextLabel="LDLR" GraphId="e46ec" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:3949</Comment>
+  <DataNode TextLabel="LDLR" GraphId="e46ec" Type="RNA">
     <Graphics CenterX="590.4088452758349" CenterY="1247.64188446005" Width="44.0" Height="20.0" ZOrder="33104" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSECAG00000019557" />
+    <Xref Database="Entrez Gene" ID="3949" />
   </DataNode>
-  <DataNode TextLabel="EGR1" GraphId="a32d8" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:1958</Comment>
+  <DataNode TextLabel="EGR1" GraphId="a32d8" Type="RNA">
     <Graphics CenterX="671.2416325732335" CenterY="1298.0066443220865" Width="56.0" Height="20.0" ZOrder="33108" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSECAG00000014338" />
+    <Xref Database="Entrez Gene" ID="1958" />
   </DataNode>
-  <DataNode TextLabel="CCL2" GraphId="f67ea" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:6347</Comment>
+  <DataNode TextLabel="CCL2" GraphId="f67ea" Type="RNA">
     <Graphics CenterX="312.8027137379229" CenterY="1248.5914408688343" Width="50.0" Height="20.0" ZOrder="33118" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSECAG00000023949" />
+    <Xref Database="Entrez Gene" ID="6347" />
   </DataNode>
-  <DataNode TextLabel="MMP1" GraphId="d5e62" Type="Rna">
-    <Comment Source="HomologyMapper">No homologues found for original id L:4312</Comment>
+  <DataNode TextLabel="MMP1" GraphId="d5e62" Type="RNA">
     <Graphics CenterX="312.8370285269574" CenterY="1270.2054052050808" Width="50.0" Height="20.0" ZOrder="33124" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="" ID="" />
+    <Xref Database="Entrez Gene" ID="4312" />
   </DataNode>
-  <DataNode TextLabel="MMP12" GraphId="b414f" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:4314</Comment>
+  <DataNode TextLabel="MMP3" GraphId="b414f" Type="RNA">
     <Graphics CenterX="253.3608380507677" CenterY="1302.5863575860333" Width="56.0" Height="20.0" ZOrder="33126" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSECAG00000019445" />
+    <Xref Database="Entrez Gene" ID="4314" />
   </DataNode>
   <DataNode TextLabel="NFKB1" GraphId="a2d29" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:4790</Comment>
@@ -393,15 +385,13 @@
     <Graphics CenterX="202.12038641255754" CenterY="818.9847745051713" Width="60.0" Height="20.0" ZOrder="33142" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSECAG00000015042" />
   </DataNode>
-  <DataNode TextLabel="SERPINE1" GraphId="cfb48" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:5054</Comment>
+  <DataNode TextLabel="SERPINE1" GraphId="cfb48" Type="RNA">
     <Graphics CenterX="358.32977979139775" CenterY="1301.9431012077077" Width="67.88616703572022" Height="20.0" ZOrder="33148" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSECAG00000019781" />
+    <Xref Database="Entrez Gene" ID="5054" />
   </DataNode>
-  <DataNode TextLabel="TIMP3" GraphId="a179e" Type="Rna">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = L:7078</Comment>
+  <DataNode TextLabel="TIMP3" GraphId="a179e" Type="RNA">
     <Graphics CenterX="254.30968328759184" CenterY="1346.0781397798553" Width="56.0" Height="20.0" ZOrder="33152" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSECAG00000018314" />
+    <Xref Database="Entrez Gene" ID="7078" />
   </DataNode>
   <DataNode TextLabel="STAT5B" GraphId="f8a75" Type="Protein">
     <Comment Source="HomologyMapper">No homologues found for original id L:6777</Comment>
@@ -760,7 +750,7 @@
   <Interaction GraphId="ide9ae73cb">
     <Graphics ZOrder="12312" LineThickness="2.0" Color="ff0000">
       <Point X="419.12113317593247" Y="901.3584643580638" GraphRef="cc27e" RelX="0.0" RelY="1.0" />
-      <Point X="419.0758827024826" Y="929.1967325022573" GraphRef="cec8f" RelX="0.5" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="419.0758827024826" Y="929.1967325022573" GraphRef="cec8f" RelX="0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -906,7 +896,7 @@
   <Interaction GraphId="cb214">
     <Graphics ConnectorType="Elbow" ZOrder="32968" LineThickness="2.0" Color="ff0000">
       <Point X="535.0577531072686" Y="390.2149521975073" GraphRef="ae77e" RelX="-1.0" RelY="0.0" />
-      <Point X="491.0156830715719" Y="365.4590512920792" GraphRef="d344d" RelX="0.5" RelY="1.0" ArrowHead="TBar" />
+      <Point X="491.0156830715719" Y="365.4590512920792" GraphRef="d344d" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1152,7 +1142,7 @@
   <Interaction GraphId="c861e">
     <Graphics ZOrder="33098" LineThickness="2.0">
       <Point X="404.12350175010164" Y="1124.0" GraphRef="ae13b" RelX="0.0" RelY="0.0" />
-      <Point X="397.0952380952381" Y="1148.9142091152821" GraphRef="bb2db" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="397.0952380952381" Y="1148.9142091152821" GraphRef="bb2db" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1419,7 +1409,7 @@
   <GraphicalLine GraphId="e2be3">
     <Graphics ZOrder="35286" LineThickness="2.0">
       <Point X="732.6111111111086" Y="1171.5815602836801" />
-      <Point X="756.6111111111086" Y="1171.5815602836801" ArrowHead="TBar" />
+      <Point X="756.6111111111086" Y="1171.5815602836801" ArrowHead="mim-inhibition" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="f2303">
@@ -1691,20 +1681,26 @@
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
     <Graphics CenterX="760.1596139183448" CenterY="1063.246719360412" Width="23.357142857143003" Height="23.071428571427703" ZOrder="35343" FillColor="ff3399" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="ff00cc" Rotation="0.0" />
   </Shape>
-  <Group GroupId="a225d" GraphId="db915" Style="Group" />
-  <Group GroupId="b7a0d" GraphId="e22a4" Style="Group" />
-  <Group GroupId="eb8a6" GraphId="f99ad" Style="Group" />
+  <Group GroupId="b7a0d" GraphId="b7a0d" Style="Group" />
+  <Group GroupId="eb8a6" GraphId="eb8a6" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d40">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11207308</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oncostatin M signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000905</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a3d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10356359</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncostatin M-induced matrix metalloproteinase and tissue inhibitor of metalloproteinase-3 genes expression in chondrocytes requires Janus kinase/STAT signaling pathway.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Immunol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li WQ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dehnade F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zafarullah M</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation of Jak-Stat and MAPK2 pathways by oncostatin M leads to growth inhibition of human glioma cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Cell Biol Res Commun</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halfter H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friedrich M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postert C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ringelstein EB</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stögbauer F</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b55">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16547273</bp:ID>
@@ -1718,20 +1714,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smyth D</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Richards CD</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d70">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9388184</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific inhibition of Stat3 signal transduction by PIAS3.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chung CD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liao J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liu B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rao X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jay P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berta P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shuai K</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c86">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11038252</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1744,75 +1726,14 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ringelstein EB</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stögbauer F</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf4">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16459330</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18505913</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncostatin M receptor-mediated signal transduction is negatively regulated by SOCS3 through a receptor tyrosine-independent mechanism.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stross C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radtke S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clahsen T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gerlach C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volkmer-Engert R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schaper F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heinrich PC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hermanns HM</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a74">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18430728</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Box 2 region of the oncostatin M receptor determines specificity for recruitment of Janus kinases and STAT5 activation.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signal transducer and activator of transcription-3: a molecular hub for signaling pathways in gliomas.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Cancer Res</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hintzen C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evers C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lippok BE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volkmer R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heinrich PC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radtke S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hermanns HM</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a3d">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10356359</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation of Jak-Stat and MAPK2 pathways by oncostatin M leads to growth inhibition of human glioma cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Cell Biol Res Commun</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halfter H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friedrich M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postert C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ringelstein EB</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stögbauer F</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1d">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12947119</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific interaction of Egr1 and c/EBPbeta leads to the transcriptional activation of the human low density lipoprotein receptor gene.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lin M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abidi P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiel G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liu J</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dcd">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21548952</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CP690,550 inhibits oncostatin M-induced JAK/STAT signaling pathway in rheumatoid synoviocytes.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthritis Res Ther</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Migita K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Komori A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Torigoshi T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maeda Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izumi Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiuchi Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyashita T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakamura M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motokawa S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ishibashi H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brantley EC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benveniste EN</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ebc">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15012602</bp:ID>
@@ -1829,6 +1750,32 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cengic N</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engelhardt D</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weber MM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f58">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12911774</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncostatin M: an interleukin-6-like cytokine relevant to airway remodelling and the pathogenesis of asthma.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clin Exp Allergy</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O'Hara KA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kedda MA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thompson PJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knight DA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16459330</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncostatin M receptor-mediated signal transduction is negatively regulated by SOCS3 through a receptor tyrosine-independent mechanism.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stross C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radtke S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clahsen T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gerlach C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volkmer-Engert R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schaper F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heinrich PC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hermanns HM</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ada">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17471233</bp:ID>
@@ -1847,6 +1794,51 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heymann D</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blanchard F</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d70">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9388184</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific inhibition of Stat3 signal transduction by PIAS3.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chung CD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liao J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liu B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rao X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jay P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berta P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shuai K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dcd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21548952</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CP690,550 inhibits oncostatin M-induced JAK/STAT signaling pathway in rheumatoid synoviocytes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthritis Res Ther</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Migita K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Komori A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Torigoshi T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maeda Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izumi Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiuchi Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyashita T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakamura M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motokawa S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ishibashi H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a74">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18430728</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Box 2 region of the oncostatin M receptor determines specificity for recruitment of Janus kinases and STAT5 activation.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hintzen C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evers C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lippok BE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volkmer R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heinrich PC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radtke S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hermanns HM</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f72">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18927239</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1860,31 +1852,28 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watson CJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clarkson RW</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbe">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18505913</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d40">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11207308</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signal transducer and activator of transcription-3: a molecular hub for signaling pathways in gliomas.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Cancer Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brantley EC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benveniste EN</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncostatin M-induced matrix metalloproteinase and tissue inhibitor of metalloproteinase-3 genes expression in chondrocytes requires Janus kinase/STAT signaling pathway.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Immunol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li WQ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dehnade F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zafarullah M</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f58">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12911774</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12947119</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncostatin M: an interleukin-6-like cytokine relevant to airway remodelling and the pathogenesis of asthma.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clin Exp Allergy</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific interaction of Egr1 and c/EBPbeta leads to the transcriptional activation of the human low density lipoprotein receptor gene.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O'Hara KA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kedda MA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thompson PJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knight DA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lin M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abidi P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiel G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liu J</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oncostatin M signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000905</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

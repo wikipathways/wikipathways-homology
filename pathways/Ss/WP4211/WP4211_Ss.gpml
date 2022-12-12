@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transcriptional cascade regulating adipogenesis" Data-Source="WikiPathways" Version="WP4211_Ss" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transcriptional cascade regulating adipogenesis" Data-Source="WikiPathways" Version="WP4211_Ss" Last-Modified="20191022050104" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">Peroxisome proliferator-activated receptor gamma (PPARG) lies at the core of the transcriptional cascade that regulates adipogenesis. The expression of PPARG is regulated by several pro-adipogenic (green) and anti-adipogenic (orange) factors. PPARG itself is activated by an as-yet-uncharacterized ligand. CCAAT-enhancer-binding protein alpha (C/EBPA) is regulated through a series of inhibitory protein–protein interactions. Some transcription-factor families have several members that participate in adipogenesis, such as the Krüppel-like factors (KLFs). Rosen et al. Figure 2a</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4211.gpml (WP4211_r107570) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>d3b</BiopaxRef>
   <Graphics BoardWidth="632.7618895319312" BoardHeight="464.13490117583865" />
-  <DataNode TextLabel="GATA2" Type="GeneProduct" GroupRef="abce6">
+  <DataNode TextLabel="GATA2" GraphId="e4603" Type="GeneProduct" GroupRef="abce6">
     <Comment>GATA2/3</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000179348</Comment>
     <Graphics CenterX="293.9587227240942" CenterY="392.13490117583865" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="cc9900" />
     <Xref Database="Ensembl" ID="ENSSSCG00000011618" />
   </DataNode>
-  <DataNode TextLabel="GATA3" Type="GeneProduct" GroupRef="abce6">
+  <DataNode TextLabel="GATA3" GraphId="fefa0" Type="GeneProduct" GroupRef="abce6">
     <Comment>GATA2/3</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000107485</Comment>
     <Graphics CenterX="293.9587227240942" CenterY="412.13490117583865" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="cc9900" />
@@ -89,7 +89,7 @@
   </Interaction>
   <Interaction GraphId="id21126164">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="319.9587227240942" Y="370.13490117583865" GraphRef="ced6b" RelX="0.5" RelY="-1.0" />
+      <Point X="319.9587227240942" Y="370.13490117583865" GraphRef="abce6" RelX="0.5" RelY="-1.0" />
       <Point X="341.5102327778902" Y="295.8987518468595" GraphRef="a0e05" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -117,7 +117,7 @@
   </Interaction>
   <Interaction GraphId="id3e7c3f09">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="214.0762126865671" Y="264.505527052239" GraphRef="f9800" RelX="1.0" RelY="0.5" />
+      <Point X="214.0762126865671" Y="264.505527052239" GraphRef="c30c1" RelX="1.0" RelY="0.5" />
       <Point X="279.36507936507934" Y="275.20213944954924" />
       <Point X="321.5102327778902" Y="285.8987518468595" GraphRef="a0e05" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
@@ -146,7 +146,7 @@
   </Interaction>
   <Interaction GraphId="id915c01b6">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="214.0762126865671" Y="225.57646921641813" GraphRef="f9800" RelX="1.0" RelY="-0.5" />
+      <Point X="214.0762126865671" Y="225.57646921641813" GraphRef="c30c1" RelX="1.0" RelY="-0.5" />
       <Point X="282.0861678004535" Y="189.8857402771433" />
       <Point X="311.79820028917186" Y="154.19501133786846" />
       <Point X="341.5102327778902" Y="184.1709533393965" GraphRef="e6700" RelX="-0.5" RelY="-1.0" ArrowHead="mim-stimulation" />
@@ -183,7 +183,7 @@
   </Interaction>
   <Interaction GraphId="idee8120ab">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="293.9587227240942" Y="370.13490117583865" GraphRef="ced6b" RelX="0.0" RelY="-1.0" />
+      <Point X="293.9587227240942" Y="370.13490117583865" GraphRef="abce6" RelX="0.0" RelY="-1.0" />
       <Point X="321.5102327778902" Y="194.1709533393965" GraphRef="e6700" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -204,20 +204,10 @@
   <Label TextLabel=" Genes of terminal&#xA; adipocyte&#xA; differentiation" GraphId="e35a1">
     <Graphics CenterX="534.9071787110356" CenterY="246.44053171641804" Width="135.7094216417911" Height="56.55886194029847" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="abce6" GraphId="ced6b" Style="Complex" />
-  <Group GroupId="c30c1" GraphId="f9800" />
+  <Group GroupId="abce6" GraphId="abce6" Style="Complex" />
+  <Group GroupId="c30c1" GraphId="c30c1" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to development</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000650</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fat cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000136</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3b">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17139329</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -227,6 +217,16 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosen ED</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MacDougald OA</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fat cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000136</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to development</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000650</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

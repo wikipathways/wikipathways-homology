@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Kinin-Kallikrein pathway" Data-Source="WikiPathways" Version="WP5089_Cf" Organism="Canis familiaris">
-  <Comment Source="WikiPathways-description">Kinin Kallikrein Pathway that leads to Bradykinin receptor 1 (BDKRB1) and receptor 2 (BDKRB2) activation in homo sapiens starting from FXII</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Kinin-Kallikrein pathway" Data-Source="WikiPathways" Version="WP5089_Cf" Last-Modified="20210525114355" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">Kinin Kallikrein Pathway for Bradykinin formation</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5089.gpml (WP5089_r118192) with a 87.0% conversion rate.</Comment>
@@ -103,7 +102,7 @@
   <Interaction GraphId="idf707377b">
     <Graphics ZOrder="32790" LineThickness="1.0">
       <Point X="419.0003753628462" Y="142.21096400043777" GraphRef="cd368" RelX="0.0" RelY="1.0" />
-      <Point X="419.0003753628462" Y="213.5" GraphRef="f8635" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
+      <Point X="419.0003753628462" Y="213.5" GraphRef="f8635" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -117,6 +116,15 @@
   </Shape>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d42">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19689262</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human plasma kallikrein-kinin system: physiological and biochemical parameters.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardiovasc Hematol Agents Med Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bryant JW</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shariat-Madar Z</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kallikrein-kinin cascade pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000526</bp:ID>
@@ -138,15 +146,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Justice A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aronow B</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jacobson D</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d42">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19689262</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human plasma kallikrein-kinin system: physiological and biochemical parameters.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardiovasc Hematol Agents Med Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bryant JW</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shariat-Madar Z</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

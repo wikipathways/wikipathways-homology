@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TGF-beta signaling in thyroid cells for epithelial-mesenchymal transition" Data-Source="WikiPathways" Version="WP3859_Mm" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TGF-beta signaling in thyroid cells for epithelial-mesenchymal transition" Data-Source="WikiPathways" Version="WP3859_Mm" Last-Modified="20210522151305" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">This pathway is based on the Figure 7 of "Cadherin 6 Is a New RUNX2 Target in TGF-β Signalling Pathway" (see bibliography). TGF-B is a target gene in thyroid cells in the causation of cancer. When TGF-B is activated, the pathway can take 2 directions, through a SMAD pathway or a Non-Smad pathway. Through the SMAD pathway, SMAD separates into SMAD2/3, SMAD4, and involves phosphates into the nuclear signalling. Through the Non-SMAD pathway, the activation of MAPK and Pi3k  causes the activation of ERK, AKT and phosphates, and then into the nuclear signalling. Within the nuclear signalling, EMT-TF has two responses, early and late. With the early response, EMT-TF signals to Id1 and RUNX2, and with the late response, EMT-TF signals to Snai1 and Snai2. Depending on the response also dictates the type of marker that will follow. If early, N-CAD,FN1,VIM,TNC, and CDH6 all cause the activation of the Mesenchymal markers. If late, E-CAD, and CDH16 cause the inhibition of the Epithelial Markers.  
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3859 CPTAC Assay Portal]</Comment>
@@ -103,12 +103,17 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="540.0" CenterY="257.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000001729" />
   </DataNode>
-  <State GraphRef="eb8a1" TextLabel="P" GraphId="a1d08">
+  <State GraphRef="cd72c" TextLabel="P" GraphId="b913a">
+    <Comment>Phosphate</Comment>
+    <Graphics RelX="1.0" RelY="0.9" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="ceff3" TextLabel="P" GraphId="aa0e6">
     <Comment>Phosphate</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="ceff3" TextLabel="P" GraphId="aa0e6">
+  <State GraphRef="eb8a1" TextLabel="P" GraphId="a1d08">
     <Comment>Phosphate</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
@@ -123,11 +128,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="cd72c" TextLabel="P" GraphId="b913a">
-    <Comment>Phosphate</Comment>
-    <Graphics RelX="1.0" RelY="0.9" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="ed2da" TextLabel="P" GraphId="d1547">
     <Comment>Phosphate</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
@@ -138,30 +138,30 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <Interaction GraphId="id15d305be">
+  <Interaction GraphId="edfe8">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="515.5" Y="432.0" GraphRef="d6f99" RelX="0.5" RelY="1.0" />
-      <Point X="580.0" Y="486.0" GraphRef="e8c07" RelX="-0.5" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+      <Point X="352.5" Y="432.0" GraphRef="b4118" RelX="-0.5" RelY="1.0" />
+      <Point X="347.5" Y="486.0" GraphRef="f21a4" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="id46dff503">
+  <Interaction GraphId="c06c5">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="352.5" Y="432.0" GraphRef="d6f99" RelX="-0.5" RelY="1.0" />
-      <Point X="347.5" Y="486.0" GraphRef="a70ab" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+      <Point X="515.5" Y="432.0" GraphRef="b4118" RelX="0.5" RelY="1.0" />
+      <Point X="580.0" Y="486.0" GraphRef="fda77" RelX="-0.5" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id681829e0">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="500.0" Y="275.0" GraphRef="c2bb2" RelX="0.0" RelY="1.0" />
+      <Point X="500.0" Y="275.0" GraphRef="d2c98" RelX="0.0" RelY="1.0" />
       <Point X="439.0" Y="341.0" GraphRef="ec4cd" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id7259e8c5">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="263.0" Y="232.0" GraphRef="ba481" RelX="0.0" RelY="1.0" />
+      <Point X="263.0" Y="232.0" GraphRef="cb6c8" RelX="0.0" RelY="1.0" />
       <Point X="397.0" Y="341.0" GraphRef="ec4cd" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -176,14 +176,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idaa96bebe">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="390.75" Y="96.25" GraphRef="ed2da" RelX="0.5" RelY="1.0" />
-      <Point X="500.0" Y="182.0" GraphRef="c5473" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="500.0" Y="182.0" GraphRef="bc3e5" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idb710c8eb">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="350.75" Y="96.25" GraphRef="ed2da" RelX="-0.5" RelY="1.0" />
-      <Point X="263.0" Y="148.0" GraphRef="ba481" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="263.0" Y="148.0" GraphRef="cb6c8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -226,14 +226,24 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="460.0" CenterY="470.0" Width="632.0" Height="348.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="f21a4" GraphId="a70ab" Style="Group" />
-  <Group GroupId="cb6c8" GraphId="ba481" Style="Complex" />
-  <Group GroupId="d2c98" GraphId="c2bb2" Style="Group" />
-  <Group GroupId="bc3e5" GraphId="c5473" Style="Group" />
-  <Group GroupId="b4118" GraphId="d6f99" Style="Group" />
-  <Group GroupId="fda77" GraphId="e8c07" Style="Group" />
+  <Group GroupId="f21a4" GraphId="f21a4" Style="Group" />
+  <Group GroupId="cb6c8" GraphId="cb6c8" Style="Complex" />
+  <Group GroupId="d2c98" GraphId="d2c98" Style="Group" />
+  <Group GroupId="bc3e5" GraphId="bc3e5" Style="Group" />
+  <Group GroupId="b4118" GraphId="b4118" Style="Group" />
+  <Group GroupId="fda77" GraphId="fda77" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1781</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b96">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24069422</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -248,16 +258,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piana S</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciarrocchi A</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1781</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

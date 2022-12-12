@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="mBDNF and proBDNF regulation of GABA neurotransmission" Data-Source="WikiPathways" Version="WP4829_Bt" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="mBDNF and proBDNF regulation of GABA neurotransmission" Data-Source="WikiPathways" Version="WP4829_Bt" Last-Modified="20200228003855" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">This pathway depicts the regulation of GABA receptor surface expression of BDNF signaling. 
 BDNF can be secreted in both a mature form (mBDNF) and a precursor form (proBDNF), both of which modulate GABA synaptic transmission in neurons. 
 
@@ -7,8 +7,7 @@ mBDNF activates TrkB receptors leading to an inhibition of GABAAR endocytosis an
 proBDNF activates NGFR, which decreases GABAARs cell surface expression through the RhoA/ROCK/PTEN pathway, through dephosphorylation of GABAAR followed by endocytosis and degradation of internalized receptors. proBNDF/NGFR signaling also leads to the transcriptional repression of GABAAR synthesis through JAK2/STAT3/CREM. The proBDNF/NGFR signaling also decreases KCC2 expression.
 
 
-This pathway is based on figure 1 from [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6121065/ Porcher et al].
-</Comment>
+This pathway is based on figure 1 from [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6121065/ Porcher et al].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4829.gpml (WP4829_r109219) with a 92.0% conversion rate.</Comment>
   <BiopaxRef>d3f</BiopaxRef>
@@ -267,14 +266,14 @@ This pathway is based on figure 1 from [https://www.ncbi.nlm.nih.gov/pmc/article
   <Interaction GraphId="id7689d67">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="600.7058823529418" Y="533.7857142857144" GraphRef="b2bc7" RelX="0.0" RelY="-1.0" />
-      <Point X="601.268907563026" Y="487.785714285714" GraphRef="eb3f3" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="601.268907563026" Y="487.785714285714" GraphRef="c8347" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id76e2cce5">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="771.2244897959184" Y="378.2142857142854" GraphRef="ec7bb" RelX="0.0" RelY="1.0" />
-      <Point X="673.268907563026" Y="438.285714285714" GraphRef="eb3f3" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="673.268907563026" Y="438.285714285714" GraphRef="c8347" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -324,7 +323,7 @@ This pathway is based on figure 1 from [https://www.ncbi.nlm.nih.gov/pmc/article
   </Interaction>
   <Interaction GraphId="id924b402b">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="399.92857142857156" Y="454.21428571428567" GraphRef="b6928" RelX="0.0" RelY="1.0" />
+      <Point X="399.92857142857156" Y="454.21428571428567" GraphRef="a552f" RelX="0.0" RelY="1.0" />
       <Point X="569.1428571428578" Y="546.2857142857144" GraphRef="b2bc7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -340,7 +339,7 @@ This pathway is based on figure 1 from [https://www.ncbi.nlm.nih.gov/pmc/article
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="303.09438775510193" Y="171.35714285714286" GraphRef="aed49" RelX="0.5" RelY="1.0" />
       <Point X="351.51147959183675" Y="334.28571428571433" />
-      <Point X="399.92857142857156" Y="388.21428571428567" GraphRef="b6928" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="399.92857142857156" Y="388.21428571428567" GraphRef="a552f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -360,8 +359,8 @@ This pathway is based on figure 1 from [https://www.ncbi.nlm.nih.gov/pmc/article
   </Interaction>
   <Interaction GraphId="idf9aad09f">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="601.268907563026" Y="388.785714285714" GraphRef="eb3f3" RelX="0.0" RelY="-1.0" />
-      <Point X="601.0714285714287" Y="293.785714285714" GraphRef="b78ff" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="601.268907563026" Y="388.785714285714" GraphRef="c8347" RelX="0.0" RelY="-1.0" />
+      <Point X="601.0714285714287" Y="293.785714285714" GraphRef="f94e0" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -410,31 +409,11 @@ This pathway is based on figure 1 from [https://www.ncbi.nlm.nih.gov/pmc/article
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="597.8571428571429" CenterY="490.7142857142857" Width="1150.0" Height="661.4285714285714" ZOrder="16384" FontSize="12" Valign="Bottom" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="a552f" GraphId="b6928" Style="Group" />
-  <Group GroupId="f94e0" GraphId="b78ff" Style="Complex" />
-  <Group GroupId="c8347" GraphId="eb3f3" Style="Complex" />
+  <Group GroupId="a552f" GraphId="a552f" Style="Group" />
+  <Group GroupId="f94e0" GraphId="f94e0" Style="Complex" />
+  <Group GroupId="c8347" GraphId="c8347" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e36">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30210299</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of BDNF Modulation in GABAergic Synaptic Transmission in Healthy and Disease Brains.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Front Cell Neurosci</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porcher C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medina I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaiarsa JL</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epilepsy</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1826</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain-derived neurotrophic factor signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000572</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11050117</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -447,6 +426,26 @@ This pathway is based on figure 1 from [https://www.ncbi.nlm.nih.gov/pmc/article
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown DA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smart TG</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moss SJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epilepsy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1826</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain-derived neurotrophic factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000572</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e36">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30210299</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of BDNF Modulation in GABAergic Synaptic Transmission in Healthy and Disease Brains.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Front Cell Neurosci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porcher C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medina I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaiarsa JL</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

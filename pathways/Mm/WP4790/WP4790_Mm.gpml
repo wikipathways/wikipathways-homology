@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="FGF23 signaling in hypophosphatemic rickets and related disorders" Data-Source="WikiPathways" Version="WP4790_Mm" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="FGF23 signaling in hypophosphatemic rickets and related disorders" Data-Source="WikiPathways" Version="WP4790_Mm" Last-Modified="20210507090701" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Hypophosphatemic rickets refers to a group of rare genetic disorders characterised by  clinical and radiographical features similar to rickets but caused by abnormalities in phosphate metabolism. The most common form, X-linked hypophosphatemic rickets (XLH), is caused by inactivating mutations in the PHEX gene, which encodes the phosphate-regulating neutral endopeptidase PHEX.  Patients with XLH have elevated levels of fibroblast growth factor 23 (FGF23), which is thought to mediate many of the clinical manifestations of the disease. Elevated FGF23 levels have also been observed in other hypophosphatemic disorders, yet the role of FGF23 in the pathophysiology of these disorders is incompletely understood. This pathway illustrates hypophosphatemic and autocrine/paracrine molecular pathways that have been proposed to link FGF23 to the bone abnormalities observed in XLH and related disorders. For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/30808384]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4790.gpml (WP4790_r116413) with a 96.0% conversion rate.</Comment>
@@ -175,7 +175,7 @@
   <Interaction GraphId="id157490ad">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="584.7175444109918" Y="447.3307113533949" GraphRef="ada91" RelX="0.5" RelY="1.0" />
-      <Point X="608.9433075632916" Y="567.156246175018" GraphRef="b2c8f" RelX="-0.5" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="608.9433075632916" Y="567.156246175018" GraphRef="d5a19" RelX="-0.5" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -195,8 +195,8 @@
   </Interaction>
   <Interaction GraphId="id2be206de">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="694.4433075632916" Y="604.156246175018" GraphRef="b2c8f" RelX="1.0" RelY="0.0" />
-      <Point X="878.9269153026038" Y="670.4292338789585" GraphRef="d9da4" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="694.4433075632916" Y="604.156246175018" GraphRef="d5a19" RelX="1.0" RelY="0.0" />
+      <Point X="878.9269153026038" Y="670.4292338789585" GraphRef="d9da4" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -287,7 +287,7 @@
   <Interaction GraphId="id5b07051e">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="992.9451375111879" Y="1230.4937319536423" GraphRef="f352b" RelX="0.5" RelY="1.0" />
-      <Point X="1072.1456577751776" Y="1305.4268676749446" GraphRef="f5ea1" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
+      <Point X="1072.1456577751776" Y="1305.4268676749446" GraphRef="f5ea1" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -336,7 +336,7 @@
   </Interaction>
   <Interaction GraphId="id7529a2db">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="637.4433075632916" Y="641.156246175018" GraphRef="b2c8f" RelX="0.0" RelY="1.0" />
+      <Point X="637.4433075632916" Y="641.156246175018" GraphRef="d5a19" RelX="0.0" RelY="1.0" />
       <Point X="601.3435873721469" Y="670.3517587939699" />
       <Point X="565.2438671810023" Y="697.84087498748" GraphRef="f68c1" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
@@ -423,7 +423,7 @@
   <Interaction GraphId="id9c92eee">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1403.5145168005733" Y="685.7387841586942" GraphRef="d9a19" RelX="-1.0" RelY="0.0" />
-      <Point X="1316.5898936849958" Y="726.7316169409349" GraphRef="ff88c" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="1316.5898936849958" Y="726.7316169409349" GraphRef="f6164" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -527,8 +527,8 @@
   </Interaction>
   <Interaction GraphId="idd16119c9">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1210.5898936849958" Y="726.7316169409349" GraphRef="ff88c" RelX="-1.0" RelY="0.0" />
-      <Point X="1158.5810467355054" Y="726.7316169409349" GraphRef="b284f" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="1210.5898936849958" Y="726.7316169409349" GraphRef="f6164" RelX="-1.0" RelY="0.0" />
+      <Point X="1158.5810467355054" Y="726.7316169409349" GraphRef="c79a3" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -584,7 +584,7 @@
   <Interaction GraphId="ided84d13e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="663.4452895340854" Y="447.33071135339486" GraphRef="ee3a9" RelX="-0.5" RelY="1.0" />
-      <Point X="637.4433075632916" Y="567.156246175018" GraphRef="b2c8f" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="637.4433075632916" Y="567.156246175018" GraphRef="d5a19" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -611,7 +611,7 @@
   </Interaction>
   <Interaction GraphId="idf9ca0049">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1052.5810467355054" Y="726.7316169409349" GraphRef="b284f" RelX="-1.0" RelY="0.0" />
+      <Point X="1052.5810467355054" Y="726.7316169409349" GraphRef="c79a3" RelX="-1.0" RelY="0.0" />
       <Point X="968.9269153026038" Y="676.6792338789585" GraphRef="d9da4" RelX="1.0" RelY="0.5" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -680,7 +680,7 @@
   <GraphicalLine GraphId="c3794">
     <Graphics ConnectorType="Elbow" ZOrder="32862" LineStyle="Broken" LineThickness="1.0">
       <Point X="901.4269153026038" Y="682.9292338789585" GraphRef="d9da4" RelX="-0.5" RelY="1.0" />
-      <Point X="986.1442309835465" Y="882.1163878102989" GraphRef="a2ece" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="986.1442309835465" Y="882.1163878102989" GraphRef="a1357" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="dffa0">
@@ -705,14 +705,14 @@
     <Graphics ConnectorType="Elbow" ZOrder="32866" LineStyle="Broken" LineThickness="1.0">
       <Point X="1190.1828087459476" Y="1217.9937319536423" GraphRef="d0e52" RelX="1.0" RelY="0.0" />
       <Point X="1245.7044673539517" Y="1502.0302997584517" />
-      <Point X="1396.794375732057" Y="1786.0668675632614" GraphRef="b9bc7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1396.794375732057" Y="1786.0668675632614" GraphRef="fc12f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="e1f98">
     <Graphics ConnectorType="Elbow" ZOrder="32867" LineStyle="Broken" LineThickness="1.0">
       <Point X="1241.3718718267967" Y="1131.88625745566" GraphRef="ad41b" RelX="1.0" RelY="0.0" />
       <Point X="1289.5480225988701" Y="1356.1656325791346" />
-      <Point X="1358.9169695865676" Y="1580.445007702609" GraphRef="f843e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1358.9169695865676" Y="1580.445007702609" GraphRef="c911e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="a8051">
@@ -720,7 +720,7 @@
       <Point X="1058.0598068615989" Y="1119.38625745566" GraphRef="a1ddd" RelX="0.5" RelY="-1.0" />
       <Point X="1188.645288046184" Y="1075.6410256410256" />
       <Point X="1319.2307692307693" Y="1161.9796885391906" />
-      <Point X="1350.4688889453819" Y="1248.318351437356" GraphRef="e1101" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1350.4688889453819" Y="1248.318351437356" GraphRef="bf797" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <Label TextLabel="Stabilisation of&#xA;nuclear alphaHIF-1" GraphId="a182f">
@@ -792,7 +792,7 @@
   <Label TextLabel="Locally produced&#xA;calcitrol" GraphId="eb6dc">
     <Graphics CenterX="612.6629244696034" CenterY="1133.9402266623995" Width="114.50742543001137" Height="25.0" ZOrder="32773" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="OMIM:617993&#xA;Tumoral Calcinosis, Hyperphosphatemic, Familial, 2" Href="https://omim.org/entry/617993" GroupRef="a1357">
+  <Label TextLabel="OMIM:617993&#xA;Tumoral Calcinosis, Hyperphosphatemic, Familial, 2" GraphId="b97c0" Href="https://omim.org/entry/617993" GroupRef="a1357">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1141.036678060987" CenterY="862.6163878102989" Width="293.7848941548811" Height="39.0" ZOrder="32824" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -816,15 +816,15 @@
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1983.4949306780697" CenterY="844.9900890323726" Width="305.21396393221295" Height="39.0" ZOrder="32829" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:146000&#xA;Hypochondroplasia" Href="https://omim.org/entry/146000" GroupRef="bf797">
+  <Label TextLabel="OMIM:146000&#xA;Hypochondroplasia" GraphId="b71c5" Href="https://omim.org/entry/146000" GroupRef="bf797">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.8804395372963" CenterY="1269.3840737497053" Width="206.28740629038566" Height="39.0" ZOrder="32830" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:610474&#xA;Camptodactyly, Tall Stature, &#xA;And Hearing Loss Syndrome" Href="https://omim.org/entry/610474" GroupRef="bf797">
+  <Label TextLabel="OMIM:610474&#xA;Camptodactyly, Tall Stature, &#xA;And Hearing Loss Syndrome" GraphId="e54da" Href="https://omim.org/entry/610474" GroupRef="bf797">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.8804395372963" CenterY="1314.9719957308357" Width="197.46631726423084" Height="52.17584396226067" ZOrder="32831" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:187601&#xA;Thanatophoric Dysplasia, Type II" Href="https://omim.org/entry/187601" GroupRef="bf797">
+  <Label TextLabel="OMIM:187601&#xA;Thanatophoric Dysplasia, Type II" GraphId="f793d" Href="https://omim.org/entry/187601" GroupRef="bf797">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.8804395372963" CenterY="1136.076785162746" Width="206.28740629038566" Height="39.0" ZOrder="32832" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -836,7 +836,7 @@
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1983.4949306780684" CenterY="1567.7049996347946" Width="342.6608887357794" Height="39.0" ZOrder="32834" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:616482&#xA;Achondroplasia, Severe, With Developmental &#xA;Delay And Acanthosis Nigricans" Href="https://omim.org/entry/616482" GroupRef="bf797">
+  <Label TextLabel="OMIM:616482&#xA;Achondroplasia, Severe, With Developmental &#xA;Delay And Acanthosis Nigricans" GraphId="b713c" Href="https://omim.org/entry/616482" GroupRef="bf797">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.880439537296" CenterY="1183.2304294562257" Width="257.7045161325892" Height="55.3072885869592" ZOrder="32835" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -848,7 +848,7 @@
     <Comment>DISEASE</Comment>
     <Graphics CenterX="291.1462272526665" CenterY="591.656246175018" Width="271.91168665433986" Height="39.0" ZOrder="32837" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:602849&#xA;Muenke Syndrome" Href="https://omim.org/entry/602849" GroupRef="bf797">
+  <Label TextLabel="OMIM:602849&#xA;Muenke Syndrome" GraphId="fc019" Href="https://omim.org/entry/602849" GroupRef="bf797">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.880439537296" CenterY="1399.5599177119661" Width="206.28740629038566" Height="39.0" ZOrder="32838" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -856,11 +856,11 @@
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1807.2083386743325" CenterY="581.0839728744322" Width="300.77464691962825" Height="39.0" ZOrder="32839" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:123790&#xA;Beare-Stevenson Cutis Gyrata Syndrome" Href="https://omim.org/entry/123790" GroupRef="c911e">
+  <Label TextLabel="OMIM:123790&#xA;Beare-Stevenson Cutis Gyrata Syndrome" GraphId="d92f1" Href="https://omim.org/entry/123790" GroupRef="c911e">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.880439537296" CenterY="1599.9450077026088" Width="251.92693990145762" Height="39.0" ZOrder="32840" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:101200&#xA;Apert Syndrome" Href="https://omim.org/entry/101200" GroupRef="c911e">
+  <Label TextLabel="OMIM:101200&#xA;Apert Syndrome" GraphId="d4e7f" Href="https://omim.org/entry/101200" GroupRef="c911e">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.8804395372963" CenterY="1560.9450077026088" Width="206.28740629038566" Height="39.0" ZOrder="32841" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -876,11 +876,11 @@
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.8804395372963" CenterY="1230.3840737497053" Width="206.28740629038566" Height="39.0" ZOrder="32844" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:187600&#xA;Thanatophoric Dysplasia, Type I" Href="https://omim.org/entry/187600" GroupRef="bf797">
+  <Label TextLabel="OMIM:187600&#xA;Thanatophoric Dysplasia, Type I" GraphId="d642f" Href="https://omim.org/entry/187600" GroupRef="bf797">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.8804395372963" CenterY="1097.0767851627459" Width="206.28740629038566" Height="39.0" ZOrder="32845" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:612247&#xA;Crouzon Syndrome With Acanthosis Nigricans" Href="https://omim.org/entry/612247" GroupRef="bf797">
+  <Label TextLabel="OMIM:612247&#xA;Crouzon Syndrome With Acanthosis Nigricans" GraphId="bb7a9" Href="https://omim.org/entry/612247" GroupRef="bf797">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.8804395372963" CenterY="1360.5599177119661" Width="268.8231011838292" Height="39.0" ZOrder="32846" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -888,11 +888,11 @@
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.880439537296" CenterY="1805.5668675632614" Width="174.95112638947785" Height="39.0" ZOrder="32847" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:149730&#xA;Lacrimoauriculodentodigital Syndrome" Href="https://omim.org/entry/149730" GroupRef="c911e">
+  <Label TextLabel="OMIM:149730&#xA;Lacrimoauriculodentodigital Syndrome" GraphId="e1ad7" Href="https://omim.org/entry/149730" GroupRef="c911e">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.880439537296" CenterY="1677.945007702609" Width="236.8515630170354" Height="39.0" ZOrder="32848" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:101600&#xA;Pfeiffer Syndrome" Href="https://omim.org/entry/101600" GroupRef="c911e">
+  <Label TextLabel="OMIM:101600&#xA;Pfeiffer Syndrome" GraphId="edf54" Href="https://omim.org/entry/101600" GroupRef="c911e">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.8804395372963" CenterY="1521.9450077026088" Width="206.28740629038566" Height="39.0" ZOrder="32849" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -900,11 +900,11 @@
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1118.2536410580194" CenterY="175.91698727184894" Width="308.6001032310917" Height="39.0" ZOrder="32850" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:614592&#xA;Bent Bone Dysplasia Syndrome" Href="https://omim.org/entry/614592" GroupRef="c911e">
+  <Label TextLabel="OMIM:614592&#xA;Bent Bone Dysplasia Syndrome" GraphId="d234c" Href="https://omim.org/entry/614592" GroupRef="c911e">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.8804395372963" CenterY="1482.945007702609" Width="206.28740629038566" Height="39.0" ZOrder="32851" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:123500&#xA;Crouzon Syndrome" Href="https://omim.org/entry/123500" GroupRef="c911e">
+  <Label TextLabel="OMIM:123500&#xA;Crouzon Syndrome" GraphId="edd84" Href="https://omim.org/entry/123500" GroupRef="c911e">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1492.8804395372963" CenterY="1638.945007702609" Width="206.28740629038566" Height="39.0" ZOrder="32852" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -947,15 +947,20 @@
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="1983.4949306780688" CenterY="1418.3651828601132" Width="154.7923433874714" Height="204.29527530541463" ZOrder="32777" FontSize="12" Valign="Bottom" Align="Right" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="a1357" GraphId="a2ece" Style="Group" />
-  <Group GroupId="c79a3" GraphId="b284f" Style="Group" />
-  <Group GroupId="d5a19" GraphId="b2c8f" Style="Complex" />
-  <Group GroupId="fc12f" GraphId="b9bc7" Style="Group" />
-  <Group GroupId="bf797" GraphId="e1101" Style="Group" />
-  <Group GroupId="c911e" GraphId="f843e" Style="Group" />
-  <Group GroupId="f6164" GraphId="ff88c" Style="Group" />
+  <Group GroupId="a1357" GraphId="a1357" Style="Group" />
+  <Group GroupId="c79a3" GraphId="c79a3" Style="Group" />
+  <Group GroupId="d5a19" GraphId="d5a19" Style="Complex" />
+  <Group GroupId="fc12f" GraphId="fc12f" Style="Group" />
+  <Group GroupId="bf797" GraphId="bf797" Style="Group" />
+  <Group GroupId="c911e" GraphId="c911e" Style="Group" />
+  <Group GroupId="f6164" GraphId="f6164" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-linked hypophosphatemic rickets</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050445</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered fibroblast growth factor 23 signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001181</bp:ID>
@@ -978,11 +983,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jandhyala R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mäkitie O</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-linked hypophosphatemic rickets</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050445</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
