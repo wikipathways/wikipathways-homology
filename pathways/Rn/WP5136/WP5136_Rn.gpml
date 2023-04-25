@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ALA oxylipin metabolism" Data-Source="WikiPathways" Version="WP5136_Rn" Last-Modified="20211101153148" Organism="Rattus norvegicus">
-  <Comment Source="WikiPathways-description">alpha-Linolenic acid (ALA) oxylipin metabolism</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ALA oxylipin metabolism" Data-Source="WikiPathways" Version="WP5136_Rn" Last-Modified="20230305200353" Organism="Rattus norvegicus">
+  <Comment Source="WikiPathways-description">Alpha-Linolenic acid (ALA) oxylipin metabolism by ALOX5, ALOX15, and cytochrome P450.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5136.gpml (WP5136_r120082) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5136.gpml (WP5136_r125624) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>b6c</BiopaxRef>
   <Graphics BoardWidth="1210.6245527987119" BoardHeight="668.6574074074074" />
   <DataNode TextLabel="9(10)-EpODE" GraphId="ad228" Type="Metabolite">
@@ -81,7 +81,7 @@
     <Graphics CenterX="822.3067788504673" CenterY="326.1292654926943" Width="162.7991326889907" Height="25.00000000000001" ZOrder="32769" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="PubChem-compound" ID="16061061" />
   </DataNode>
-  <Interaction GraphId="f5621">
+  <Interaction GraphId="id157318b8">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="250.96692392502814" Y="560.3749616718651" GraphRef="dc3b9" RelX="-0.5" RelY="1.0" />
       <Point X="143.5713016736092" Y="609.0234083216129" GraphRef="dfb17" RelX="0.5" RelY="-1.0" ArrowHead="mim-conversion" />
@@ -238,11 +238,6 @@
   </Interaction>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6c">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26374175</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -255,6 +250,11 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monirujjaman M</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aukema HM</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed0">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5003472</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>

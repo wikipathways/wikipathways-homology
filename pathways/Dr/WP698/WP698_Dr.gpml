@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glucuronidation" Data-Source="WikiPathways" Version="WP698_Dr" Last-Modified="20190917133044" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glucuronidation" Data-Source="WikiPathways" Version="WP698_Dr" Last-Modified="20230417094317" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">Metabolism of xenobiotic compounds consists of phase I and a phase II biotransformation reactions, being compound modification and conjugation reactions respectively. In phase I biotransformation, the compound is modificated via oxidation, reduction, hydrolysis, or other minor reactions, to reveal a reactive group to which a conjugation molecule can react to. In phase II, a small conjugation molecule reacts with the phase I modified molecule, producing a much more water-soluble molecule that can be excreted more easily.
 Glucuronidation is a phase II biotransformation reaction in which glucuronide acts as a conjugation molecule and binds to a substrate via the catalysis of glucuronosyltransferases. First, in a series of reactions the cosubstrate uridine diphosphate glucuronic acid (UDPGA) is formed. The glucuronosyltransferases (UGTs) then catalyze the transfer of glucuronic acid from UDPGA to a substrate resulting in a glucuronidated substrate and leaving uridine 5'-diphosphate. UGTs are a very broad and divers group of enzymes and count as the most significant  group of conjugation enzymes in xenobiotic metabolism, qualitatively because glucuronic acid can be coupled to a large diversity of functional groups and quantitatively because of the large and divers number of substrates that are formed.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP698 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP698.gpml (WP698_r106827) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP698.gpml (WP698_r126233) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>a14</BiopaxRef>
   <Graphics BoardWidth="1351.9927095990274" BoardHeight="452.0" />
   <DataNode TextLabel="Adenosine 3',5'-diphosphate" GraphId="a1606" Type="Metabolite">
@@ -200,9 +200,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <Interaction GraphId="a2286">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="817.0" Y="339.0" GraphRef="aee33" RelX="0.0" RelY="-1.0" />
+      <Point X="817.0" Y="339.0" GraphRef="d3a66" RelX="0.0" RelY="-1.0" />
       <Point X="867.5" Y="314.0" />
-      <Point X="918.0" Y="339.0" GraphRef="be060" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="918.0" Y="339.0" GraphRef="b7eb7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -223,14 +223,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="c2722">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1095.0" Y="178.0" GraphRef="aa19b" RelX="0.0" RelY="1.0" />
+      <Point X="1095.0" Y="178.0" GraphRef="f7880" RelX="0.0" RelY="1.0" />
       <Point X="1095.5127582017014" Y="230.8626974483597" GraphRef="fff52" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c878d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="361.0" Y="269.0" GraphRef="a9a5a" RelX="0.0" RelY="1.0" />
+      <Point X="361.0" Y="269.0" GraphRef="bb315" RelX="0.0" RelY="1.0" />
       <Point X="361.0" Y="313.0" GraphRef="dcece" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -256,7 +256,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="536.5" Y="374.0" GraphRef="e6ea3" RelX="0.0" RelY="-1.0" />
       <Point X="607.75" Y="314.0" />
-      <Point X="679.0" Y="366.0" GraphRef="ff61e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="679.0" Y="366.0" GraphRef="b5420" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -312,13 +312,22 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="substrate" GraphId="ec183">
     <Graphics CenterX="995.1397326852983" CenterY="230.8626974483597" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" Color="00ff33" />
   </Label>
-  <Group GroupId="ff61e" GraphId="ff61e" Style="Group" />
-  <Group GroupId="be060" GraphId="be060" Style="Group" />
-  <Group GroupId="a9a5a" GraphId="a9a5a" />
-  <Group GroupId="aee33" GraphId="aee33" Style="Group" />
-  <Group GroupId="aa19b" GraphId="aa19b" />
+  <Group GroupId="ff61e" GraphId="b5420" Style="Group" />
+  <Group GroupId="be060" GraphId="b7eb7" Style="Group" />
+  <Group GroupId="a9a5a" GraphId="bb315" />
+  <Group GroupId="aee33" GraphId="d3a66" Style="Group" />
+  <Group GroupId="aa19b" GraphId="f7880" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a14">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19035562</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The biochemistry of drug metabolism--an introduction: part 4. reactions of conjugation and their enzymes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chem Biodivers</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Testa B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kramer SD</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b59">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19244115</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -330,15 +339,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raza A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cerny RL</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simpson MA</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a14">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19035562</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The biochemistry of drug metabolism--an introduction: part 4. reactions of conjugation and their enzymes.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chem Biodivers</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Testa B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kramer SD</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucuronidation conjugation pathway</bp:TERM>

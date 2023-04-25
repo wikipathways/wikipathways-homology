@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Follicle stimulating hormone (FSH) signaling pathway" Data-Source="WikiPathways" Version="WP2035_Pt" Last-Modified="20211224012506" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Follicle stimulating hormone (FSH) signaling pathway" Data-Source="WikiPathways" Version="WP2035_Pt" Last-Modified="20230423093022" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">The Follicle Stimulating Hormone (FSH) is an anterior pituitary gonadotropin belonging to the family of glycoprotein hormones that includes thyroid stimulating hormone (TSH), Leutinizing Hormone (LH) and Chorionic Gonadotropin. FSH controls the growth and maturation of follicles in the females and spermatogenesis in males. FSH is a heterodimer and shares a common alpha sub-unit with the other glycoprotein hormones in its family and has a specific beta subunit that confers receptor specificity and biological activity to the hormone. FSH acts through the FSH receptor (FSHR), a G protein coupled receptor  that is expressed exclusively on the granulosa cells of ovaries and Sertoli cells of the testis  in humans. FSH signaling involves activation of adenylyl cyclase activity and the increased production of cAMP. This activates the cAMP dependent protein kinases such as PKA, PKB and PKC that, in turn, lead to the phosphorylation of specific transcription factors such as cAMP response element binding protein (CREB) and Forkhead box protein O1 (FOXO1). In addition to activation of PI3K/Akt module, PKA also induces p38 mapk which, in turn, controls other kinase cascades. Activated Akt also induces the mTOR axis that stimulates mRNA translation by phosphorylating p70 S6 kinase and, consequently, the 40 S ribosomal protein S6 that results in the activation of eukaryotic initiation factor (eIF) 4E. It also indirectly aids in the activation of extracellular signal-regulated protein kinases (ERKs). FSH induces important genes required for steroidogenesis as well as growth and maturation of germ cells. The important target genes include aromatase (CYP19A1), the lutenizing hormone receptor (LHR) and the vascular endothelial growth factor (VEGF).
 
 Please access this pathway at [http://www.netpath.org/netslim/fsh_pathway.html NetSlim] database.
 If you use this pathway, please cite following paper: Telikicherla, D., Ambekar, A., Palapetta, S. M., Dwivedi, S. B., Raju, R., Sharma, J., Prasad, T. S. K., Ramachandra, Y. L., Mohan, S. S., Maharudraiah, J., Mukherjee, S. and Pandey, A. (2011). A comprehensive curated resource for Follicle Stimulating Hormone signaling. BMC Research Notes. 4, 408.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2035.gpml (WP2035_r120721) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2035.gpml (WP2035_r126348) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>fbf</BiopaxRef>
   <Attribute Key="org.pathvisio.model.WindowHeight" Value="11190.0" />
   <Attribute Key="org.pathvisio.model.WindowWidth" Value="15480.0" />
@@ -140,22 +140,25 @@ If you use this pathway, please cite following paper: Telikicherla, D., Ambekar,
     <Graphics CenterX="533.5742609515793" CenterY="737.482046836922" Width="60.0" Height="20.0" ZOrder="33120" FillColor="ccffff" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000009557" />
   </DataNode>
-  <DataNode TextLabel="CYP19A1" GraphId="d956f" Type="RNA">
+  <DataNode TextLabel="CYP19A1" GraphId="d956f" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:1588</Comment>
     <Graphics CenterX="331.67882595153765" CenterY="932.8752178520449" Width="60.0" Height="20.0" ZOrder="33121" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="1588" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000007074" />
   </DataNode>
   <DataNode TextLabel="PRKACA" GraphId="dcd0a" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:5566</Comment>
     <Graphics CenterX="397.56068242149206" CenterY="482.62709257596475" Width="60.0" Height="20.0" ZOrder="33124" FillColor="ccffff" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000010585" />
   </DataNode>
-  <DataNode TextLabel="AREG" GraphId="a2d04" Type="RNA">
+  <DataNode TextLabel="AREG" GraphId="a2d04" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:374</Comment>
     <Graphics CenterX="397.5137819901038" CenterY="932.7092658052932" Width="60.0" Height="20.0" ZOrder="33128" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="374" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000016167" />
   </DataNode>
-  <DataNode TextLabel="BDNF" GraphId="fe602" Type="RNA">
+  <DataNode TextLabel="BDNF" GraphId="fe602" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:627</Comment>
     <Graphics CenterX="463.79538345798676" CenterY="932.6748369918521" Width="60.0" Height="20.0" ZOrder="33129" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="627" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000040882" />
   </DataNode>
   <DataNode TextLabel="RHEB" GraphId="b0f0b" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:6009</Comment>
@@ -453,7 +456,7 @@ If you use this pathway, please cite following paper: Telikicherla, D., Ambekar,
   <Interaction GraphId="a261c">
     <Graphics ZOrder="33911" LineThickness="2.0">
       <Point X="657.999999999997" Y="434.46528803544606" />
-      <Point X="678.9999999999964" Y="434.46528803544606" ArrowHead="mim-inhibition" />
+      <Point X="678.9999999999964" Y="434.46528803544606" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -828,18 +831,18 @@ If you use this pathway, please cite following paper: Telikicherla, D., Ambekar,
   <Shape GraphId="ae1ac">
     <Graphics CenterX="715.6666666666642" CenterY="770.79862136878" Width="14.0" Height="14.0" ZOrder="33990" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="bb3fb" GraphId="bb3fb" Style="Group" />
+  <Group GroupId="bb3fb" GraphId="a3b40" Style="Group" />
   <InfoBox CenterX="15.0" CenterY="8.333333333333334" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulosa cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000501</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicle-stimulating hormone signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001071</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fbf">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21996254</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comprehensive curated resource for Follicle Stimulating Hormone signaling.</bp:TITLE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> A comprehensive curated resource for Follicle Stimulating Hormone signaling. </bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMC Research Notes. 4, 408.</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telikicherla, D.</bp:AUTHORS>
@@ -856,14 +859,14 @@ If you use this pathway, please cite following paper: Telikicherla, D., Ambekar,
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey, A.</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicle stimulating hormone secreting cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000437</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulosa cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000501</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicle-stimulating hormone signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001071</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicle stimulating hormone secreting cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000437</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

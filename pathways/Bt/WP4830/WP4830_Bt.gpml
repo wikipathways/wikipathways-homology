@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="GDNF/RET signaling axis" Data-Source="WikiPathways" Version="WP4830_Bt" Last-Modified="20210601154848" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="GDNF/RET signaling axis" Data-Source="WikiPathways" Version="WP4830_Bt" Last-Modified="20230131202832" Organism="Bos taurus">
+  <Comment Source="WikiPathways-description">GDNF-RET signalling is at the core of the signalling network in kidney development. These signalling interactions between the metanephric mesenchyme and the nephric duct are crucial to ensure the induction of the ureter from the nephric duct.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4820_109222.gpml] with a 100.0% conversion rate.</Comment>
   <Comment Source="WikiPathways-description">GDNF-RET signalling is at the core of the signalling network in kidney development. These signalling interactions between the metanephric mesenchyme and the nephric duct are crucial to ensure the induction of the ureter from the nephric duct. 
 Pathway converted from original mouse pathway WP4820.</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4820_109222.gpml] with a 100.0% conversion rate.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4830.gpml (WP4830_r118773) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4830.gpml (WP4830_r125308) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>c1e</BiopaxRef>
   <Graphics BoardWidth="944.8571428571443" BoardHeight="671.5714285714284" />
   <DataNode TextLabel="RET" GraphId="d7ab3" Type="Protein" GroupRef="ec7c6">
@@ -195,7 +196,7 @@ Pathway converted from original mouse pathway WP4820.</Comment>
   <Interaction GraphId="eb2a0">
     <BiopaxRef>fda</BiopaxRef>
     <Graphics ZOrder="32779" LineThickness="1.0">
-      <Point X="674.1428571428573" Y="366.33333333333354" GraphRef="d7f97" RelX="-1.0" RelY="0.0" />
+      <Point X="674.1428571428573" Y="366.33333333333354" GraphRef="c5819" RelX="-1.0" RelY="0.0" />
       <Point X="632.190476190476" Y="366.6190476190477" GraphRef="ebdda" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -203,7 +204,7 @@ Pathway converted from original mouse pathway WP4820.</Comment>
   <Interaction GraphId="c5040">
     <Graphics ZOrder="32780" LineThickness="1.0">
       <Point X="540.4166666666665" Y="277.3214285714284" GraphRef="de67e" RelX="-1.0" RelY="0.0" />
-      <Point X="486.72619047619025" Y="277.464285714286" GraphRef="ab560" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="486.72619047619025" Y="277.464285714286" GraphRef="ab560" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -238,7 +239,7 @@ Pathway converted from original mouse pathway WP4820.</Comment>
   <Interaction GraphId="c661b">
     <Graphics ZOrder="32785" LineThickness="1.0">
       <Point X="141.1428571428571" Y="367.09523809523813" GraphRef="adf2d" RelX="1.0" RelY="0.0" />
-      <Point X="237.90476190476184" Y="347.52380952380975" GraphRef="ec7c6" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="237.90476190476184" Y="347.52380952380975" GraphRef="fcc07" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -272,14 +273,14 @@ Pathway converted from original mouse pathway WP4820.</Comment>
   </Interaction>
   <Interaction GraphId="fa065">
     <Graphics ZOrder="32790" LineThickness="1.0">
-      <Point X="655.0952380952381" Y="488.0714285714287" GraphRef="b29a2" RelX="0.0" RelY="-1.0" />
+      <Point X="655.0952380952381" Y="488.0714285714287" GraphRef="a6a62" RelX="0.0" RelY="-1.0" />
       <Point X="655.0952380952381" Y="454.07142857142867" GraphRef="bfad6" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d68c7">
     <Graphics ZOrder="32791" LineThickness="1.0">
-      <Point X="861.8571428571443" Y="235.4523809523809" GraphRef="f92b3" RelX="0.0" RelY="1.0" />
+      <Point X="861.8571428571443" Y="235.4523809523809" GraphRef="cf7c8" RelX="0.0" RelY="1.0" />
       <Point X="861.8571428571447" Y="263.16666666666674" GraphRef="d7033" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -313,31 +314,12 @@ Pathway converted from original mouse pathway WP4820.</Comment>
   <Shape GraphId="add1d">
     <Graphics CenterX="657.3452380952381" CenterY="519.8214285714287" Width="229.5" Height="211.5" ZOrder="32794" FontSize="12" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b29a2" GraphId="b29a2" Style="Group" />
-  <Group GroupId="d7f97" GraphId="d7f97" Style="Group" />
-  <Group GroupId="f92b3" GraphId="f92b3" Style="Group" />
-  <Group GroupId="ec7c6" GraphId="ec7c6" Style="Complex" />
+  <Group GroupId="b29a2" GraphId="a6a62" Style="Group" />
+  <Group GroupId="d7f97" GraphId="c5819" Style="Group" />
+  <Group GroupId="f92b3" GraphId="cf7c8" Style="Group" />
+  <Group GroupId="ec7c6" GraphId="fcc07" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAKUT</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080205</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1e">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32030122.</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duplex kidney formation: developmental mechanisms and genetic predisposition.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F1000Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kozlov VM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schedl A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f46">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16971658</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -361,6 +343,18 @@ Pathway converted from original mouse pathway WP4820.</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schaefer F</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salomon R</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f27">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9425907</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutations in the SALL1 putative transcription factor gene cause Townes-Brocks syndrome.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Genet</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kohlhase J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wischermann A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reichenbach H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Froster U</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engel W</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f55">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9361030</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -383,18 +377,11 @@ Pathway converted from original mouse pathway WP4820.</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petit C</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weil D</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f27">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9425907</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutations in the SALL1 putative transcription factor gene cause Townes-Brocks syndrome.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Genet</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kohlhase J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wischermann A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reichenbach H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Froster U</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engel W</bp:AUTHORS>
-    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAKUT</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080205</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fda">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15141091</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -424,6 +411,20 @@ Pathway converted from original mouse pathway WP4820.</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petit C</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hildebrandt F</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32030122</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duplex kidney formation: developmental mechanisms and genetic predisposition.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F1000Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kozlov VM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schedl A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

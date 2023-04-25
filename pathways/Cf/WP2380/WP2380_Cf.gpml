@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Brain-derived neurotrophic factor (BDNF) signaling pathway" Data-Source="WikiPathways" Version="WP2380_Cf" Last-Modified="20211224014107" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Brain-derived neurotrophic factor (BDNF) signaling pathway" Data-Source="WikiPathways" Version="WP2380_Cf" Last-Modified="20230425175518" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">Brain-derived neurotrophic factor (BDNF) is a neurotrophin essential for growth, differentiation, plasticity, and survival of neurons. BDNF is also required for processes such as energy metabolism, behavior, mental health, learning, memory, stress, pain and apoptosis. BDNF is implicated in various neuronal disorders such as Alzheimer's disease, Huntington's disease, depression, and bipolar disorder.
 
 BDNF binds to tyrosine kinase receptor known as tropomyosin-related kinase B (TrkB). It also binds with low affinity to p75 neurotrophin receptor (p75NTR). BDNF and its receptors are expressed throughout the central and peripheral nervous system.
@@ -8,7 +8,7 @@ BDNF signaling is elicited when it dimerizes and binds to TrkB, resulting in the
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2380 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2380.gpml (WP2380_r120727) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2380.gpml (WP2380_r126377) with a 96.0% conversion rate.</Comment>
   <Graphics BoardWidth="1760.3685029347282" BoardHeight="1777.9790340799482" />
   <DataNode TextLabel="VAV3" GraphId="ea83d" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:10451</Comment>
@@ -55,9 +55,10 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1301.6057083383928" CenterY="1005.9489051094904" Width="36.35036496350378" Height="15.81508515815085" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845016257" />
   </DataNode>
-  <DataNode TextLabel="BCL2L11" GraphId="f4caf" Type="RNA">
+  <DataNode TextLabel="BCL2L11" GraphId="f4caf" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:10018</Comment>
     <Graphics CenterX="641.2801080831173" CenterY="1626.0" Width="60.0" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="10018" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845009241" />
   </DataNode>
   <DataNode TextLabel="CYFIP1" GraphId="d9301" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:23191</Comment>
@@ -739,17 +740,20 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1016.5939785192344" CenterY="1490.88349172909" Width="46.0" Height="20.0" ZOrder="35685" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845022020" />
   </DataNode>
-  <DataNode TextLabel="FOS" GraphId="a98dc" Type="RNA">
+  <DataNode TextLabel="FOS" GraphId="a98dc" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:2353</Comment>
     <Graphics CenterX="1004.2801080831175" CenterY="1572.0" Width="48.0" Height="20.0" ZOrder="35689" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="2353" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845015304" />
   </DataNode>
-  <DataNode TextLabel="EGR1" GraphId="fb729" Type="RNA">
+  <DataNode TextLabel="EGR1" GraphId="fb729" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:1958</Comment>
     <Graphics CenterX="1004.2801080831175" CenterY="1594.0" Width="48.0" Height="20.0" ZOrder="35693" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="1958" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845021860" />
   </DataNode>
-  <DataNode TextLabel="EGR2" GraphId="ab69c" Type="RNA">
+  <DataNode TextLabel="EGR2" GraphId="ab69c" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:1959</Comment>
     <Graphics CenterX="1004.2801080831175" CenterY="1616.0" Width="48.0" Height="20.0" ZOrder="35695" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="1959" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845000370" />
   </DataNode>
   <DataNode TextLabel="MARCKS" GraphId="f17ae" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:4082</Comment>
@@ -790,17 +794,20 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="306.83879979526137" CenterY="559.3252791015052" Width="40.0" Height="20.0" ZOrder="35756" FillColor="ffccff" FontSize="12" Valign="Middle" ShapeType="Oval" />
     <Xref Database="ChEBI" ID="CHEBI:17489" />
   </DataNode>
-  <DataNode TextLabel="SPP1" GraphId="d00f4" Type="RNA">
+  <DataNode TextLabel="SPP1" GraphId="d00f4" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:6696</Comment>
     <Graphics CenterX="1073.2801080831175" CenterY="1571.0" Width="48.0" Height="20.0" ZOrder="35785" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="6696" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845016131" />
   </DataNode>
-  <DataNode TextLabel="ALPL" GraphId="c1f5b" Type="RNA">
+  <DataNode TextLabel="ALPL" GraphId="c1f5b" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:249</Comment>
     <Graphics CenterX="1073.2801080831175" CenterY="1593.0" Width="48.0" Height="20.0" ZOrder="35786" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="249" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845001491" />
   </DataNode>
-  <DataNode TextLabel="BMP2" GraphId="d6b63" Type="RNA">
+  <DataNode TextLabel="BMP2" GraphId="d6b63" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:650</Comment>
     <Graphics CenterX="1073.2801080831175" CenterY="1615.0" Width="48.0" Height="20.0" ZOrder="35787" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="650" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845027004" />
   </DataNode>
   <DataNode TextLabel="EIF2S1" GraphId="e0026" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:1965</Comment>
@@ -827,17 +834,20 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1116.6139985392565" CenterY="603.4385467841441" Width="40.0" Height="20.0" ZOrder="35805" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845030531" />
   </DataNode>
-  <DataNode TextLabel="BDNF" GraphId="d4a4d" Type="RNA">
+  <DataNode TextLabel="BDNF" GraphId="d4a4d" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:627</Comment>
     <Graphics CenterX="405.9248641681409" CenterY="1630.0" Width="48.71048782995274" Height="20.0" ZOrder="35818" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="627" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845017969" />
   </DataNode>
-  <DataNode TextLabel="BDNF" GraphId="caec7" Type="RNA">
+  <DataNode TextLabel="BDNF" GraphId="caec7" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:627</Comment>
     <Graphics CenterX="171.9248641681409" CenterY="1295.0" Width="48.71048782995274" Height="20.0" ZOrder="35819" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="627" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845017969" />
   </DataNode>
-  <DataNode TextLabel="BDNF" GraphId="e9ed6" Type="RNA">
+  <DataNode TextLabel="BDNF" GraphId="e9ed6" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:627</Comment>
     <Graphics CenterX="48.924864168140914" CenterY="199.0" Width="48.71048782995274" Height="20.0" ZOrder="35822" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="627" />
+    <Xref Database="Ensembl" ID="ENSCAFG00845017969" />
   </DataNode>
   <DataNode TextLabel="RPS6KA5" GraphId="b9421" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:9252</Comment>
@@ -1309,7 +1319,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="a2aba">
     <Graphics ConnectorType="Elbow" ZOrder="-54" LineStyle="Broken" LineThickness="2.0">
-      <Point X="1272.9974358323104" Y="993.6855231143554" GraphRef="d5de9" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="1272.9974358323104" Y="993.6855231143554" GraphRef="e1171" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
       <Point X="803.3352390609826" Y="942.2789911230113" GraphRef="d77d2" RelX="0.5" RelY="1.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1406,7 +1416,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idf1f46b05">
     <Graphics ConnectorType="Elbow" ZOrder="12302" LineThickness="2.0" Color="ff0000">
       <Point X="1042.7052742302349" Y="368.2127659574485" GraphRef="ef933" RelX="-1.0" RelY="0.0" />
-      <Point X="1027.6672995466902" Y="337.12560999414575" GraphRef="e0b05" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="1027.6672995466902" Y="337.12560999414575" GraphRef="e0b05" RelX="0.5" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1970,7 +1980,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="aa4d0">
     <Graphics ZOrder="35226" LineStyle="Broken" LineThickness="2.0">
       <Point X="1301.605708338393" Y="1089.0119667566541" GraphRef="dbf95" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-      <Point X="1300.4743870159118" Y="1053.4866180048675" GraphRef="d5de9" RelX="0.0" RelY="1.0" />
+      <Point X="1300.4743870159118" Y="1053.4866180048675" GraphRef="e1171" RelX="0.0" RelY="1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -2438,7 +2448,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <Anchor Position="0.5373585505721167" Shape="None" GraphId="d9143" />
       <Anchor Position="0.5246100037956032" Shape="None" GraphId="e71d2" />
       <Anchor Position="0.5781564888504366" Shape="None" GraphId="ee03f" />
-      <Anchor Position="0.7186017235600346" Shape="None" GraphId="cb85e" />
+      <Anchor Position="0.7186017235600346" Shape="None" />
       <Anchor Position="0.38267752126077265" Shape="None" GraphId="e5e9e" />
       <Anchor Position="0.8106576657493861" Shape="None" GraphId="e63ff" />
     </Graphics>
@@ -2505,7 +2515,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="c1e79">
     <Graphics ConnectorType="Elbow" ZOrder="35631" LineThickness="2.0" Color="ff0000">
       <Point X="877.1672995466901" Y="337.12560999414575" GraphRef="f94ed" RelX="-0.5" RelY="1.0" />
-      <Point X="847.7052742302344" Y="369.2127659574485" GraphRef="b6f53" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="847.7052742302344" Y="369.2127659574485" GraphRef="b6f53" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -3088,7 +3098,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="e6ab1">
     <Graphics ConnectorType="Elbow" ZOrder="35843" LineStyle="Broken" LineThickness="2.0">
       <Point X="1546.5280625809273" Y="589.2127659574485" GraphRef="defb0" RelX="-0.5" RelY="1.0" />
-      <Point X="1327.9513381995132" Y="993.6855231143554" GraphRef="d5de9" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="1327.9513381995132" Y="993.6855231143554" GraphRef="e1171" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -3527,7 +3537,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="f955b">
     <Graphics CenterX="575.5696202531645" CenterY="1543.0" Width="64.0" Height="46.0" ZOrder="35815" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="d5de9" GraphId="d5de9" />
+  <Group GroupId="d5de9" GraphId="e1171" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">

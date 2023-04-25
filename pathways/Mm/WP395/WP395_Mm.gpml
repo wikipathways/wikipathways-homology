@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL-4 signaling pathway" Data-Source="WikiPathways" Version="WP395_Mm" Last-Modified="20211223132111" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL-4 signaling pathway" Data-Source="WikiPathways" Version="WP395_Mm" Last-Modified="20230422060603" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">IL-4 is a glycoprotein which is composed of 129 amino acids and has a molecular weight of 20kDa. IL-4 and IL-13 are produced by CD4+ cells and exhibit significant functional overlap. Both these cytokines play a critical role in the promotion of allergic responses. IL-4 is primarily involved in promoting the differentiation and proliferation of T helper 2 (TH2) cells and the synthesis of immunoglobulin E (IgE). Apart from its role in allergic responses including asthma, IL-4 was also found to regulate retinal progenitor proliferation, rod photoreceptor differentiation, cholinergic and GABAergic amacrine differentiation and neuroprotection and survival. IL-4 was also found to have regulatory effects in a number of neurological diseases including Alzheimer's disease, Multiple sclerosis, Experimental autoimmune encephelitis. It was also found to relieve inflammatory and neuropathic pain. IL-4 is capable of exerting its biological activities through interaction with two cell surface receptor complexes - Type I IL4 receptor and Type II IL4 Receptor. Both these receptor complexes comprise of a common IL4RÎ± (CD124) subunit, which is also the functional receptor chain. Type I IL-4 receptor is formed by the interaction of IL4RÎ± subunit with IL-2Î³c (CD132). Type II IL-4 receptor is formed by the interaction of IL-4RÎ± subunit with IL-13RÎ±. Interaction of IL-4 with its receptor results in receptor dimerization and activation. The Type I receptors activates JAK1 and 3, which are associated with the receptor subunits. The activated JAK phosphorylates tyrosine residues the cytoplasmic tails of the receptor which then serves as docking sites for a number of adaptor or signaling molecules including STAT6. Activated STAT6 dimerizes, translocated to the nucleus and transcriptionally actives genes responsive to IL-4. Many of the key functions of IL4 allergic disorders, including TH2 cell differentiation, airway hyper responsiveness, mucus cell metaplasia and IgE synthesis are dependent on STAT6 activation. Other phosphorylated tyrosine residue bind to proteins with phospho-tyrosine binding (PTB) motifs including IRS proteins. This results in the phosphorylation of the IRS proteins, which can then potentially activate the PI3K/AKT cascade by binding to the p85 subunit of PI3K or the Ras/Raf/MEK/ERK cascade. The PI3K/AKT pathway is thought to mediate the growth and survival signals in multiple IL-4 responsive cell types including T- and B- lymphocytes and natural killer cells.
 
 
@@ -8,34 +8,38 @@ Please access this pathway at [http://www.netpath.org/netslim/IL_4_pathway.html 
 If you use this pathway, please cite the following paper:
 Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugopal, A. K., Telikicherla, D., Navarro, J. D., Mathivanan, S., Pecquet, C., Gollapudi, S. K., Tattikota, S. G., Mohan, S., Padhukasahasram, H., Subbannayya, Y., Goel, R., Jacob, H. K. C., Zhong, J., Sekhar, R., Nanjappa, V., Balakrishnan, L., Subbaiah, R., Ramachandra, Y. L., Rahiman, B. A., Prasad, T. S. K., Lin, J., Houtman, J. C. D., Desiderio, S., Renauld, J., Constantinescu, S. N., Ohara, O., Hirano, T., Kubo, M., Singh, S., Khatri, P., Draghici, S., Bader, G. D., Sander, C., Leonard, W. J. and Pandey, A. (2010). NetPath: A public resource of curated signal transduction pathways. &lt;i&gt;Genome Biology&lt;/i&gt;. 11:R3.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP395.gpml (WP395_r120704) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP395.gpml (WP395_r126335) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>d3a</BiopaxRef>
   <Attribute Key="org.pathvisio.model.WindowHeight" Value="11190.0" />
   <Attribute Key="org.pathvisio.model.WindowWidth" Value="15480.0" />
   <Graphics BoardWidth="1156.0" BoardHeight="1545.75" />
   <DataNode TextLabel="Mapk3" GraphId="efadd" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:5595</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="MAPK3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
     <Graphics CenterX="396.0675999999995" CenterY="1070.8333333333333" Width="50.0" Height="20.0" ZOrder="-2" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000063065" />
   </DataNode>
-  <DataNode TextLabel="BIRC5 " GraphId="ac6dd" Type="RNA">
+  <DataNode TextLabel="Birc5" GraphId="ac6dd" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:332</Comment>
     <Graphics CenterX="123.25" CenterY="1505.75" Width="50.0" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="332" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000017716" />
   </DataNode>
   <DataNode TextLabel="Stat1" GraphId="ad159" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:6772</Comment>
     <Graphics CenterX="642.2499999999997" CenterY="829.0" Width="50.0" Height="20.0" ZOrder="32770" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000026104" />
   </DataNode>
-  <DataNode TextLabel="HRH1 " GraphId="a1571" Type="RNA">
+  <DataNode TextLabel="Hrh1" GraphId="a1571" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:3269</Comment>
     <Graphics CenterX="293.74999999999966" CenterY="1505.25" Width="50.0" Height="20.0" ZOrder="32773" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="3269" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000053004" />
   </DataNode>
-  <DataNode TextLabel="NFIL3" GraphId="eebf0" Type="RNA">
+  <DataNode TextLabel="Nfil3" GraphId="eebf0" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4783</Comment>
     <Graphics CenterX="236.24999999999966" CenterY="1505.75" Width="50.0" Height="20.0" ZOrder="32778" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="4783" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000056749" />
   </DataNode>
   <DataNode TextLabel="Ptpn11" GraphId="b1c22" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:5781</Comment>
@@ -62,15 +66,18 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Graphics CenterX="408.5833333333329" CenterY="634.0" Width="41.166666666666515" Height="20.0" ZOrder="32789" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000032175" />
   </DataNode>
-  <DataNode TextLabel="FOS " GraphId="d7094" Type="RNA">
+  <DataNode TextLabel="Fos" GraphId="d7094" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:2353</Comment>
     <Graphics CenterX="396.24999999999966" CenterY="1503.75" Width="50.0" Height="20.0" ZOrder="32792" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="2353" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000021250" />
   </DataNode>
-  <DataNode TextLabel="GATA3 " GraphId="c9917" Type="RNA">
+  <DataNode TextLabel="Gata3" GraphId="c9917" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:2625</Comment>
     <Graphics CenterX="178.25000000000034" CenterY="1505.25" Width="50.0" Height="20.0" ZOrder="32794" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="2625" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000015619" />
   </DataNode>
   <DataNode TextLabel="Mapk11" GraphId="fe52c" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:5600</Comment>
     <Graphics CenterX="562.3749999999998" CenterY="1239.75" Width="60.749999999999545" Height="20.0" ZOrder="32796" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000053137" />
@@ -106,6 +113,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000037104" />
   </DataNode>
   <DataNode TextLabel="Rps6kb1" GraphId="c7881" Type="GeneProduct">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:6198</Comment>
     <Graphics CenterX="531.1874999999997" CenterY="1129.375" Width="63.70833333333303" Height="20.0" ZOrder="32826" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000020516" />
@@ -151,6 +159,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000055980" />
   </DataNode>
   <DataNode TextLabel="Irs2" GraphId="a32b1" Type="Protein" GroupRef="e3672">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:8660</Comment>
     <Graphics CenterX="440.4166666666662" CenterY="805.125" Width="50.0" Height="20.0" ZOrder="32862" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000038894" />
@@ -178,6 +187,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000004508" />
   </DataNode>
   <DataNode TextLabel="Mapk14" GraphId="edcf8" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:1432</Comment>
     <Graphics CenterX="484.375" CenterY="1240.5" Width="58.75" Height="20.0" ZOrder="32876" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000053436" />
@@ -207,7 +217,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000020919" />
   </DataNode>
   <DataNode TextLabel="Il2rg" GraphId="d7ec3" Type="Protein" GroupRef="fee7d">
-    <Comment>IL-4 induces the formation of a complex consisting of IL-4 receptor alpha and common gamma chain.</Comment>
+    <Comment> IL-4 induces the formation of a complex consisting of IL-4 receptor alpha and common gamma chain.</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:3561</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="IL6ST" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -215,6 +225,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000031304" />
   </DataNode>
   <DataNode TextLabel="Akt1" GraphId="bd3e5" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:207</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="AKT1" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -243,6 +254,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000021250" />
   </DataNode>
   <DataNode TextLabel="Il4ra" GraphId="b2a57" Type="Protein" GroupRef="fee7d">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:3566</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="IL6R" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -257,7 +269,8 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000002147" />
   </DataNode>
   <DataNode TextLabel="Stat3" GraphId="ea4b4" Type="Protein">
-    <Comment></Comment>
+    <Comment>
+</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:6774</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -265,6 +278,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000004040" />
   </DataNode>
   <DataNode TextLabel="Mapk1" GraphId="b670b" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:5594</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="MAPK1" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -272,6 +286,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000063358" />
   </DataNode>
   <DataNode TextLabel="Mapk3" GraphId="bb6bd" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:5595</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="MAPK3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -279,6 +294,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000063065" />
   </DataNode>
   <DataNode TextLabel="Mapk1" GraphId="e83da" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:5594</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="MAPK1" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -286,6 +302,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000063358" />
   </DataNode>
   <DataNode TextLabel="Pik3ca" GraphId="e5e39" Type="Protein" GroupRef="bc096">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:5290</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="MAPK1" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -300,7 +317,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000059923" />
   </DataNode>
   <DataNode TextLabel="Pik3cd" GraphId="c2e0a" Type="Protein" GroupRef="bc096">
-    <Comment>IL-4 induces the interaction of PIK3CD,PIK3CA with PIK3R1,PIK3R2 in human neutrophils.</Comment>
+    <Comment> IL-4 induces the interaction of PIK3CD,PIK3CA with PIK3R1,PIK3R2 in human neutrophils.</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:5293</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="JAK2" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -308,6 +325,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000039936" />
   </DataNode>
   <DataNode TextLabel="Jak3" GraphId="dba31" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:3718</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="JAK2" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -315,7 +333,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000031805" />
   </DataNode>
   <DataNode TextLabel="Dok2" GraphId="cc683" Type="Protein">
-    <Comment>IL-4 stimulation leads to tyrosine phosphorylation of DOK2 and subsequent interaction of DOK2 with N-terminal SH2 domain of RASA1 in 32D cells.</Comment>
+    <Comment> IL-4 stimulation leads to tyrosine phosphorylation of DOK2 and subsequent interaction of DOK2 with N-terminal SH2 domain of RASA1 in 32D cells.</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:9046</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="MAPK3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -330,6 +348,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000022102" />
   </DataNode>
   <DataNode TextLabel="Stat5a" GraphId="a8f5b" Type="Protein" GroupRef="eb5d1">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:6776</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT5A" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -358,6 +377,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000002147" />
   </DataNode>
   <DataNode TextLabel="Jak1" GraphId="c5b1a" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:3716</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="JAK2" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -408,6 +428,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000020919" />
   </DataNode>
   <DataNode TextLabel="Stat3" GraphId="b9d74" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:6774</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT3" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -415,6 +436,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="Ensembl" ID="ENSMUSG00000004040" />
   </DataNode>
   <DataNode TextLabel="Stat5a" GraphId="c7860" Type="Protein">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:6776</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT5A" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
@@ -435,7 +457,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e1bcf" TextLabel="P" GraphId="a181b">
-    <Comment>IL-4 induces association of IL-4 receptor alpha chain and IL-13 receptor alpha1 in a complex leading to phosphorylation of Tyk2 in HT29 cells.</Comment>
+    <Comment> IL-4 induces association of IL-4 receptor alpha chain and IL-13 receptor alpha1 in a complex leading to phosphorylation of Tyk2 in HT29 cells.</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -445,17 +467,20 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="fbc31" TextLabel="p" GraphId="eb869">
-    <Comment>IL-4 stimulation leads to phosphorylation of JAK2 and subsequent association of JAK2 with IL-4 receptor alpha chain in HT29 cells.</Comment>
+    <Comment>IL-4 stimulation leads to phosphorylation of JAK2 and subsequent association of JAK2 with IL-4 receptor alpha chain in HT29 cells.
+</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="14.75" Height="16.5" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e9354" TextLabel="P" GraphId="dcdaf">
-    <Comment>IL-4 Stimulated the Phosphorylation of Shc in Human Keratinocytic Cell Lines.</Comment>
+    <Comment> IL-4 Stimulated the Phosphorylation of Shc in Human Keratinocytic Cell Lines.
+</Comment>
     <Graphics RelX="0.9090909090909091" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="c7881" TextLabel="p" GraphId="dc990">
-    <Comment>IL-4 induces phosphorylation of RPS6KB1 on Thr 421 and Ser 424 residues in 32D cells.</Comment>
+    <Comment> IL-4 induces phosphorylation of RPS6KB1 on Thr 421 and Ser 424 residues in 32D cells.
+</Comment>
     <Graphics RelX="1.0" RelY="0.8222222222222222" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -465,12 +490,13 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d920f" TextLabel="p" GraphId="b0a8d">
-    <Comment>IL-4 induces phosphorylation of STAT6 on serine 756 in HT29 cells.</Comment>
+    <Comment> IL-4 induces phosphorylation of STAT6 on serine 756 in HT29 cells.
+</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="c6225" TextLabel="P" GraphId="f8d64">
-    <Comment>IL-4 receptor stimulation induces tyrosine phosphorylation IRS1 in human T lymphocytes and murine 32D cells.</Comment>
+    <Comment> IL-4 receptor stimulation induces tyrosine phosphorylation IRS1 in human T lymphocytes and murine 32D cells.</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="16.5" Height="16.5" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -480,7 +506,8 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="c228b" TextLabel="P" GraphId="ca5ff">
-    <Comment>IL-4 stimulation leads to phosphorylation of Bad on Ser 112 in FD-6 cells.</Comment>
+    <Comment> IL-4 stimulation leads to phosphorylation of Bad on Ser 112 in FD-6 cells.
+</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -494,7 +521,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="bd3e5" TextLabel="P" GraphId="f5814">
-    <Comment>IL-4 stimulation leads to phosphorylation of Akt1 on serine residues in human pancreatic cancer cell lines COLO-357, BaF3 and FD-6 cells.</Comment>
+    <Comment> IL-4 stimulation leads to phosphorylation of Akt1 on serine residues in human pancreatic cancer cell lines COLO-357, BaF3 and FD-6 cells.</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.666666666666963" Height="16.833333333333485" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -512,7 +539,8 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ea4b4" TextLabel="P" GraphId="e587c">
-    <Comment>IL-4 stimulated the phosphorylation of STAT3 and activated its nuclear translocation in mouse T (CD8+) cells..</Comment>
+    <Comment> IL-4 stimulated the phosphorylation of STAT3 and activated its nuclear translocation in mouse T (CD8+) cells..
+</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff33" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -521,28 +549,33 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Graphics RelX="0.9245283018867925" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="bb6bd" TextLabel="p" GraphId="e1c95">
-    <Comment>IL-4 stimulation leads to phosphorylation of ERK2 in Jurkat cell.</Comment>
-    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="e83da" TextLabel="p" GraphId="a5723">
-    <Comment>IL-4 stimulation leads to phosphorylation of MAPK1 in Jurkat cells.</Comment>
+    <Comment>IL-4 stimulation leads to phosphorylation of MAPK1 in Jurkat cells.
+</Comment>
     <Graphics RelX="0.9245283018867925" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
+  <State GraphRef="bb6bd" TextLabel="p" GraphId="e1c95">
+    <Comment> IL-4 stimulation leads to phosphorylation of ERK2 in Jurkat cell.
+</Comment>
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="dba31" TextLabel="p" GraphId="ede01">
-    <Comment>IL-4 stimulation leads to rapid tyrosine phosphorylation and activation of JAK3 in human Ramos B cells and mouse TH1 cells.</Comment>
+    <Comment>IL-4 stimulation leads to rapid tyrosine phosphorylation and activation of JAK3 in human Ramos B cells and mouse TH1 cells.
+</Comment>
     <Graphics RelX="0.8" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ed41b" TextLabel="p" GraphId="a6437">
-    <Comment>Stimulation of 32D cells with IL-4 induces the phosphorylation of DOK2.</Comment>
+    <Comment>Stimulation of 32D cells with IL-4 induces the phosphorylation of DOK2.
+</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="a8f5b" TextLabel="P" GraphId="deb20">
-    <Comment>IL-4 stimulation leads to phosphorylation of STAT5 alpha in human T cells and DO11.10 CD4 T cells.</Comment>
+    <Comment> IL-4 stimulation leads to phosphorylation of STAT5 alpha in human T cells and DO11.10 CD4 T cells.
+</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -559,7 +592,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b07ad" TextLabel="P" GraphId="a1029">
-    <Comment>IL-4 induces phosphorylation of NFKBIA in LNCaP cells.</Comment>
+    <Comment> IL-4 induces phosphorylation of NFKBIA in LNCaP cells.</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -817,10 +850,10 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id26340b28">
-    <Comment>IL-4 stimulation Jak1 is a target of inhibition by both SOCS-1 and SOCS-3 in 293T cells.</Comment>
+    <Comment> IL-4 stimulation Jak1 is a target of inhibition by both SOCS-1 and SOCS-3 in 293T cells.</Comment>
     <Graphics ZOrder="12304" LineThickness="2.0" Color="ff3300">
       <Point X="224.78369905956077" Y="674.375" GraphRef="bb705" RelX="0.0" RelY="-1.0" />
-      <Point X="260.49999999999994" Y="617.0" GraphRef="cb66d" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="260.49999999999994" Y="617.0" GraphRef="cb66d" RelX="-0.5" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -870,7 +903,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id72fbc61">
-    <Comment>IL-4 induces physical association of SOCS1 with JAK1 and subsequent inhibition of JAK1 by SOCS1 in 293T cells.</Comment>
+    <Comment> IL-4 induces physical association of SOCS1 with JAK1 and subsequent inhibition of JAK1 by SOCS1 in 293T cells.</Comment>
     <Graphics ZOrder="12330" LineThickness="2.0" Color="ff0000">
       <Point X="206.49999999999966" Y="641.625" GraphRef="fe14d" RelX="0.5" RelY="-1.0" />
       <Point X="249.33333333333326" Y="607.0" GraphRef="cb66d" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
@@ -878,7 +911,8 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id9ad99f8f">
-    <Comment>IL-4 induces direct binding of DOK2 to the phosphorylated I4R motif of the IL-4 receptor.</Comment>
+    <Comment> IL-4 induces direct binding of DOK2 to the phosphorylated I4R motif of the IL-4 receptor.
+</Comment>
     <Graphics ZOrder="12334" LineThickness="2.0" Color="33cc00">
       <Point X="372.51461988304095" Y="501.0" GraphRef="c1e54" RelX="0.0" RelY="0.0" />
       <Point X="372.37500000000017" Y="667.5" GraphRef="ed41b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -909,7 +943,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id73a1adc0">
-    <Comment>IL-4 stimulation leads to interaction of SHP-1 with p85 alpha subunit of PI3-kinase and subsequent dephosphorylation of p85 alpha by SHP-1 in a B cell line.</Comment>
+    <Comment> IL-4 stimulation leads to interaction of SHP-1 with p85 alpha subunit of PI3-kinase and subsequent dephosphorylation of p85 alpha by SHP-1 in a B cell line.</Comment>
     <Graphics ZOrder="12346" LineThickness="2.0" Color="00cccc">
       <Point X="531.9166666666662" Y="760.125" GraphRef="b35d3" RelX="0.0" RelY="1.0" />
       <Point X="531.3333333333331" Y="925.3333333333333" GraphRef="b50b9" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -950,7 +984,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
       <Anchor Position="0.38508771929824565" Shape="None" GraphId="bea38" />
       <Anchor Position="9.746588693957401E-5" Shape="None" GraphId="ae1c2" />
       <Anchor Position="0.45940545808966865" Shape="None" GraphId="c1e54" />
-      <Anchor Position="0.8663255360623782" Shape="None" GraphId="e0da3" />
+      <Anchor Position="0.8663255360623782" Shape="None" />
       <Anchor Position="1.0" Shape="None" GraphId="be490" />
       <Anchor Position="0.9272417153996102" Shape="None" GraphId="d72f0" />
       <Anchor Position="0.7907894736842105" Shape="None" GraphId="ab60f" />
@@ -960,7 +994,8 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1437f246">
-    <Comment>IL-4 induces association of JAK2 with IL-4 receptor alpha chain in colon cancer cells.</Comment>
+    <Comment> IL-4 induces association of JAK2 with IL-4 receptor alpha chain in colon cancer cells.
+</Comment>
     <Graphics ZOrder="12374" LineThickness="2.0" Color="33cc00">
       <Point X="632.0" Y="501.0" GraphRef="be490" RelX="0.0" RelY="0.0" />
       <Point X="633.7499999999997" Y="597.625" GraphRef="fbc31" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -968,7 +1003,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id44ab1ab8">
-    <Comment>IL-4 induces interaction of Fes with JAK1 and subsequent phosphorylation of Fes in M12 cells.</Comment>
+    <Comment> IL-4 induces interaction of Fes with JAK1 and subsequent phosphorylation of Fes in M12 cells.</Comment>
     <Graphics ZOrder="12382" LineThickness="2.0" Color="0000ff">
       <Point X="294.0" Y="607.0" GraphRef="cb66d" RelX="1.0" RelY="0.0" />
       <Point X="456.4166666666662" Y="607.125" GraphRef="bf505" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
@@ -976,7 +1011,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idb6db6509">
-    <Comment>IL-4 induces association of tyrosine phosphorylated Shc1 with IL-4 receptor alpha in Burkitts B lymphoma cell line.</Comment>
+    <Comment> IL-4 induces association of tyrosine phosphorylated Shc1 with IL-4 receptor alpha in Burkitts B lymphoma cell line.</Comment>
     <Graphics ZOrder="12384" LineThickness="2.0" Color="33cc00">
       <Point X="336.8421052631579" Y="501.0" GraphRef="bea38" RelX="0.0" RelY="0.0" />
       <Point X="344.99999999999955" Y="838.75" GraphRef="e9354" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -999,7 +1034,8 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id443af156">
-    <Comment>IL-4 induces tyrosine phosphorylation of GAB2 and its subsequent interaction with p85 in BaF3 cells.</Comment>
+    <Comment> IL-4 induces tyrosine phosphorylation of GAB2 and its subsequent interaction with p85 in BaF3 cells.
+</Comment>
     <Graphics ZOrder="12414" LineThickness="2.0" Color="33cc00">
       <Point X="584.4999999999992" Y="956.5" GraphRef="d1b57" RelX="-1.0" RelY="0.0" />
       <Point X="556.9166666666662" Y="956.0" GraphRef="b78c6" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
@@ -1007,7 +1043,8 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ideb3f0831">
-    <Comment>IL-4 stimulation led to STAT6 phosphorylation on Ser and Tyr 641 and subsequent dimerization of STAT6 in 293T cells.</Comment>
+    <Comment> IL-4 stimulation led to STAT6 phosphorylation on Ser and Tyr 641 and subsequent dimerization of STAT6 in 293T cells.
+</Comment>
     <Graphics ZOrder="12416" LineThickness="2.0" Color="00cc00">
       <Point X="201.8749999999996" Y="783.875" GraphRef="d920f" RelX="0.0" RelY="1.0" />
       <Point X="201.7499999999996" Y="860.75" GraphRef="ca2e5" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1029,16 +1066,18 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id8f5f3003">
-    <Comment>IL-4 induces interaction of the common gamma chain with JAK3.</Comment>
+    <Comment> IL-4 induces interaction of the common gamma chain with JAK3.
+
+</Comment>
     <Graphics ConnectorType="Elbow" ZOrder="12430" LineThickness="2.0" Color="33cc00">
       <Point X="378.0" Y="434.0" GraphRef="d7ec3" RelX="1.0" RelY="0.0" />
       <Point X="566.6666666666662" Y="597.5" GraphRef="dba31" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-      <Anchor Position="0.725261529550543" Shape="None" GraphId="e5613" />
+      <Anchor Position="0.725261529550543" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id629f9c0d">
-    <Comment>STAT6 interacts with CEBPA in BJAB cell line and  HEK293 cells in IL-4 stimulation.</Comment>
+    <Comment> STAT6 interacts with CEBPA in BJAB cell line and  HEK293 cells in IL-4 stimulation.</Comment>
     <Graphics ZOrder="12434" LineThickness="2.0" Color="00cc00">
       <Point X="201.66666666666634" Y="1292.29295011363" GraphRef="afbee" RelX="0.0" RelY="0.0" />
       <Point X="201.24999999999966" Y="1338.75" GraphRef="f6ad3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1046,7 +1085,8 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id7035f80a">
-    <Comment>IL-4 leads to interaction of IL-4R alpha conseved motif ITIM with SHP-1.</Comment>
+    <Comment> IL-4 leads to interaction of IL-4R alpha conseved motif ITIM with SHP-1.
+</Comment>
     <Graphics ZOrder="12440" LineThickness="2.0" Color="33cc00">
       <Point X="531.578947368421" Y="501.0" GraphRef="ab60f" RelX="0.0" RelY="0.0" />
       <Point X="531.9166666666662" Y="740.125" GraphRef="b35d3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1054,7 +1094,8 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idd414efec">
-    <Comment>IL-4 induces tyrosine phosphorylation of STAT6 and subsequent binding to p65 subunit of NFkB in B cells.</Comment>
+    <Comment>IL-4 induces tyrosine phosphorylation of STAT6 and subsequent binding to p65 subunit of NFkB in B cells.
+</Comment>
     <Graphics ZOrder="12444" LineThickness="2.0" Color="33cc00">
       <Point X="226.66666666666634" Y="1241.0" GraphRef="d6922" RelX="1.0" RelY="0.0" />
       <Point X="260.9999999999998" Y="1241.0" GraphRef="f22a5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
@@ -1062,7 +1103,8 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id500e24ea">
-    <Comment>IL-4 induces tyrosine phosphorylation of FES and its association with IL-4 receptor alpha in CTLL-2, HT2, and COS7 cells.</Comment>
+    <Comment> IL-4 induces tyrosine phosphorylation of FES and its association with IL-4 receptor alpha in CTLL-2, HT2, and COS7 cells.
+</Comment>
     <Graphics ZOrder="12462" LineThickness="2.0" Color="00cc00">
       <Point X="481.2865497076023" Y="501.0" GraphRef="fbbe6" RelX="0.0" RelY="0.0" />
       <Point X="481.4166666666662" Y="597.125" GraphRef="bf505" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1070,7 +1112,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id7b49a933">
-    <Comment>IL-4 stimulation leads to interaction of PRKCZ with JAK1 that subsequently leads to  phosphorylation of JAK1 in primary embryo fibroblasts and 293 cells.</Comment>
+    <Comment> IL-4 stimulation leads to interaction of PRKCZ with JAK1 that subsequently leads to  phosphorylation of JAK1 in primary embryo fibroblasts and 293 cells. </Comment>
     <Graphics ZOrder="12464" LineThickness="2.0" Color="3300cc">
       <Point X="176.9999999999996" Y="607.5" GraphRef="c5b1a" RelX="1.0" RelY="0.0" />
       <Point X="249.33333333333326" Y="607.0" GraphRef="cb66d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
@@ -1109,7 +1151,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id8bef4ba5">
-    <Comment>IL-4 stimulation leads to interaction of PRKCZ with JAK1 and subsequent phosphorylation of JAK1 in primary embryo fibroblasts and 293 cells.</Comment>
+    <Comment> IL-4 stimulation leads to interaction of PRKCZ with JAK1 and subsequent phosphorylation of JAK1 in primary embryo fibroblasts and 293 cells. </Comment>
     <Graphics ZOrder="12506" LineThickness="2.0" Color="33cc00">
       <Point X="152.046783625731" Y="501.0" GraphRef="ae1c2" RelX="0.0" RelY="0.0" />
       <Point X="151.9999999999996" Y="597.5" GraphRef="c5b1a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1125,6 +1167,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id10f0506d">
+    <Comment></Comment>
     <Graphics ZOrder="12520" LineStyle="Broken" LineThickness="2.0">
       <Point X="201.7499999999996" Y="880.75" GraphRef="ca2e5" RelX="0.0" RelY="1.0" />
       <Point X="201.66666666666634" Y="930.0" GraphRef="f9578" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1155,7 +1198,9 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="be055">
-    <Comment>IL-4 induces phosphorylation of JAK1 and subsequent association of JAK1 with IL-4 Receptor alpha chain.</Comment>
+    <Comment> IL-4 induces phosphorylation of JAK1 and subsequent association of JAK1 with IL-4 Receptor alpha chain.&#xD;
+&#xD;
+</Comment>
     <Graphics ZOrder="12532" LineThickness="2.0" Color="0000ff">
       <Point X="271.66666666666663" Y="597.0" GraphRef="cb66d" RelX="0.0" RelY="-1.0" />
       <Point X="271.25" Y="444.0" GraphRef="b2a57" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
@@ -1170,7 +1215,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="a65ac">
-    <Comment>IL-4 stimulation leads to activation of NFkB1 and subsequent translocation to the nucleus in LNCaP.</Comment>
+    <Comment> IL-4 stimulation leads to activation of NFkB1 and subsequent translocation to the nucleus in LNCaP.</Comment>
     <Comment>Type your comment here</Comment>
     <Graphics ZOrder="33028" LineStyle="Broken" LineThickness="2.0" Color="00cccc">
       <Point X="337.2500000000002" Y="1098.25" GraphRef="ca907" RelX="0.0" RelY="1.0" />
@@ -1417,7 +1462,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
   <GraphicalLine GraphId="f3b6d">
     <Graphics ZOrder="33795" LineThickness="2.0">
       <Point X="787.0" Y="782.0" />
-      <Point X="812.0" Y="782.0" ArrowHead="mim-inhibition" />
+      <Point X="812.0" Y="782.0" ArrowHead="TBar" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="fc91f">
@@ -1680,36 +1725,26 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
     <Graphics CenterX="811.5485028072367" CenterY="651.6175400291123" Width="23.357142857143003" Height="23.071428571427703" ZOrder="33810" FillColor="ff3399" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="ff00cc" Rotation="0.0" />
   </Shape>
-  <Group GroupId="ea099" GraphId="ea099" Style="Group" />
-  <Group GroupId="d2a41" GraphId="d2a41" Style="Group" />
-  <Group GroupId="adefa" GraphId="adefa" Style="Group" />
-  <Group GroupId="c2a52" GraphId="c2a52" Style="Group" />
-  <Group GroupId="eb536" GraphId="eb536" Style="Group" />
-  <Group GroupId="ff749" GraphId="ff749" Style="Group" />
-  <Group GroupId="bc096" GraphId="bc096" Style="Group" />
-  <Group GroupId="e3672" GraphId="e3672" Style="Group" />
-  <Group GroupId="a49bf" GraphId="a49bf" Style="Group" />
-  <Group GroupId="abd59" GraphId="abd59" Style="Group" />
-  <Group GroupId="bf676" GraphId="bf676" Style="Group" />
-  <Group GroupId="eb5d1" GraphId="eb5d1" Style="Group" />
-  <Group GroupId="c0ab2" GraphId="c0ab2" Style="Group" />
-  <Group GroupId="fee7d" GraphId="fee7d" Style="Group" />
-  <Group GroupId="c4c5e" GraphId="c4c5e" Style="Group" />
-  <Group GroupId="b3d24" GraphId="b3d24" Style="Group" />
-  <Group GroupId="e90d1" GraphId="e90d1" Style="Group" />
-  <Group GroupId="e5f5a" GraphId="e5f5a" Style="Group" />
+  <Group GroupId="ea099" GraphId="a0f89" Style="Group" />
+  <Group GroupId="d2a41" GraphId="a9c93" Style="Group" />
+  <Group GroupId="adefa" GraphId="c2776" Style="Group" />
+  <Group GroupId="c2a52" GraphId="c45d5" Style="Group" />
+  <Group GroupId="eb536" GraphId="c8bb3" Style="Group" />
+  <Group GroupId="ff749" GraphId="ca004" Style="Group" />
+  <Group GroupId="bc096" GraphId="cc186" Style="Group" />
+  <Group GroupId="e3672" GraphId="cee69" Style="Group" />
+  <Group GroupId="a49bf" GraphId="cf1a8" Style="Group" />
+  <Group GroupId="abd59" GraphId="d05ce" Style="Group" />
+  <Group GroupId="bf676" GraphId="d66bf" Style="Group" />
+  <Group GroupId="eb5d1" GraphId="d6782" Style="Group" />
+  <Group GroupId="c0ab2" GraphId="d6c40" Style="Group" />
+  <Group GroupId="fee7d" GraphId="d95ff" Style="Group" />
+  <Group GroupId="c4c5e" GraphId="e3a15" Style="Group" />
+  <Group GroupId="b3d24" GraphId="e6e4b" Style="Group" />
+  <Group GroupId="e90d1" GraphId="ebe6d" Style="Group" />
+  <Group GroupId="e5f5a" GraphId="f6a90" Style="Group" />
   <InfoBox CenterX="15.0" CenterY="8.333333333333334" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin mediated signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000512</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-4 signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000912</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3a">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20067622</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1757,6 +1792,16 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonard WJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey A</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000512</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-4 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000912</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

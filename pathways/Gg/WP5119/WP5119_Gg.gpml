@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NIPBL role in DNA damage - Cornelia de Lange syndrome" Data-Source="WikiPathways" Version="WP5119_Gg" Last-Modified="20210627104651" Organism="Gallus gallus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NIPBL role in DNA damage - Cornelia de Lange syndrome" Data-Source="WikiPathways" Version="WP5119_Gg" Last-Modified="20230131215045" Organism="Gallus gallus">
   <Comment Source="WikiPathways-description">Recruitment of cohesin subunit NIPBL after DNA damage.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5119.gpml (WP5119_r119393) with a 86.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5119.gpml (WP5119_r125320) with a 86.0% conversion rate.</Comment>
   <Graphics BoardWidth="2658.893013617807" BoardHeight="1332.776164415954" />
   <DataNode TextLabel="CBX3" GraphId="e1193" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Gallus gallus: Original ID = En:ENSG00000122565</Comment>
@@ -100,7 +100,7 @@
     <BiopaxRef>b7c</BiopaxRef>
     <Graphics ZOrder="33393" LineThickness="1.0">
       <Point X="1972.4982882502302" Y="1167.2555774398113" GraphRef="ba78d" RelX="1.0" RelY="0.0" />
-      <Point X="2098.7607107784797" Y="1107.1823173665507" GraphRef="b7076" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="2098.7607107784797" Y="1107.1823173665507" GraphRef="b7076" RelX="0.0" RelY="0.0" ArrowHead="mim-modification" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -157,7 +157,7 @@
     <BiopaxRef>b7c</BiopaxRef>
     <Graphics ZOrder="33425" LineThickness="1.0">
       <Point X="1972.4982882502302" Y="1216.0956262798609" GraphRef="d8808" RelX="1.0" RelY="0.0" />
-      <Point X="2098.7607107784797" Y="1107.1823173665507" GraphRef="b7076" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="2098.7607107784797" Y="1107.1823173665507" GraphRef="b7076" RelX="0.0" RelY="0.0" ArrowHead="mim-modification" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -395,19 +395,11 @@
   </Shape>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28167679</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Independent mechanisms recruit the cohesin loader protein NIPBL to sites of DNA damage.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Cell Sci</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bot C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pfeiffer A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giordano F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manjeera DE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dantuma NP</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StrÃ¶m L</bp:AUTHORS>
-    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornelia de Lange syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11725</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21784059</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -421,7 +413,7 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamashita S</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a2c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21784059.</bp:ID>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21784059</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recruitment of the cohesin loading factor NIPBL to DNA double-strand breaks depends on MDC1, RNF168 and HP1Î³ in human cells.</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Biophys Res Commun</bp:SOURCE>
@@ -432,11 +424,19 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitsutake N</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamashita S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornelia de Lange syndrome</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11725</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28167679</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Independent mechanisms recruit the cohesin loader protein NIPBL to sites of DNA damage.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Cell Sci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bot C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pfeiffer A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giordano F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manjeera DE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dantuma NP</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StrÃ¶m L</bp:AUTHORS>
+    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cytokines and inflammatory response" Data-Source="WikiPathways" Version="WP530_Ss" Last-Modified="20210522121700" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cytokines and inflammatory response" Data-Source="WikiPathways" Version="WP530_Ss" Last-Modified="20230418041638" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">Inflammation is a protective response to infection by the immune system that requires communication between different classes of immune cells to coordinate their actions. Acute inflammation is an important part of the immune response, but chronic inappropriate inflammation can lead to destruction of tissues in autoimmune disorders and perhaps neurodegenerative or cardiovascular disease. Secreted cytokine proteins provide signals between immune cells to coordinate the inflammatory response.
 Sources: [http://www.biocarta.com/pathfiles/h_inflamPathway.asp BioCarta].</Comment>
-  <Comment Source="GenMAPP remarks">Converted to human by GenMAPP.org</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP530.gpml (WP530_r117693) with a 85.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP530.gpml (WP530_r126242) with a 85.0% conversion rate.</Comment>
   <BiopaxRef>d62</BiopaxRef>
   <Graphics BoardWidth="1092.0001220703125" BoardHeight="809.0" />
   <DataNode TextLabel="IL1A" GraphId="a29" Type="GeneProduct" GroupRef="ffe27">
@@ -461,7 +460,7 @@ Sources: [http://www.biocarta.com/pathfiles/h_inflamPathway.asp BioCarta].</Comm
   <Interaction GraphId="a37e4">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0" Color="ff0000">
       <Point X="597.0" Y="261.0" GraphRef="d49" RelX="0.0" RelY="-1.0" />
-      <Point X="688.6666666666667" Y="91.66666666666667" GraphRef="cbd39" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="688.6666666666667" Y="91.66666666666667" GraphRef="cbd39" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -559,7 +558,7 @@ Sources: [http://www.biocarta.com/pathfiles/h_inflamPathway.asp BioCarta].</Comm
   </Interaction>
   <Interaction GraphId="c8cc6">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="736.7416381835938" Y="417.98333740234375" GraphRef="b5007" RelX="0.0" RelY="-1.0" />
+      <Point X="736.7416381835938" Y="417.98333740234375" GraphRef="a4913" RelX="0.0" RelY="-1.0" />
       <Point X="752.0" Y="396.0" GraphRef="be45a" RelX="1.0" RelY="0.0" ArrowHead="LigandRound" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -671,7 +670,7 @@ Sources: [http://www.biocarta.com/pathfiles/h_inflamPathway.asp BioCarta].</Comm
   </Interaction>
   <Interaction GraphId="f46e4">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="770.0" Y="376.0" GraphRef="d9d00" RelX="0.0" RelY="1.0" />
+      <Point X="770.0" Y="376.0" GraphRef="b8307" RelX="0.0" RelY="1.0" />
       <Point X="752.0" Y="396.0" GraphRef="be45a" RelX="1.0" RelY="0.0" ArrowHead="ReceptorRound" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -686,7 +685,7 @@ Sources: [http://www.biocarta.com/pathfiles/h_inflamPathway.asp BioCarta].</Comm
   <Interaction GraphId="f78f6">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0" Color="ff0000">
       <Point X="597.0" Y="261.0" GraphRef="d49" RelX="0.0" RelY="-1.0" />
-      <Point X="521.3333333333334" Y="92.66666666666667" GraphRef="d60" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="521.3333333333334" Y="92.66666666666667" GraphRef="d60" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -805,22 +804,22 @@ Sources: [http://www.biocarta.com/pathfiles/h_inflamPathway.asp BioCarta].</Comm
   <Label TextLabel="Eos" GraphId="fef">
     <Graphics CenterX="380.3333333333333" CenterY="101.66666666666667" Width="35.333333333333336" Height="19.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="ff0000" />
   </Label>
-  <Group GroupId="b5007" GraphId="b5007" />
-  <Group GroupId="fc328" GraphId="fc328" />
-  <Group GroupId="c1a4b" GraphId="c1a4b" />
-  <Group GroupId="fd08a" GraphId="fd08a" />
-  <Group GroupId="d9d00" GraphId="d9d00" />
-  <Group GroupId="a7000" GraphId="a7000" />
-  <Group GroupId="a5456" GraphId="a5456" />
-  <Group GroupId="b0a46" GraphId="b0a46" />
-  <Group GroupId="bb956" GraphId="bb956" />
-  <Group GroupId="d5070" GraphId="d5070" />
-  <Group GroupId="f036b" GraphId="f036b" />
-  <Group GroupId="d9fa0" GraphId="d9fa0" />
-  <Group GroupId="a967f" GraphId="a967f" />
-  <Group GroupId="f0af7" GraphId="f0af7" />
-  <Group GroupId="ffe27" GraphId="ffe27" />
-  <Group GroupId="a7cc7" GraphId="a7cc7" />
+  <Group GroupId="b5007" GraphId="a4913" />
+  <Group GroupId="fc328" GraphId="aab91" />
+  <Group GroupId="c1a4b" GraphId="ae0aa" />
+  <Group GroupId="fd08a" GraphId="afa12" />
+  <Group GroupId="d9d00" GraphId="b8307" />
+  <Group GroupId="a7000" GraphId="be6f1" />
+  <Group GroupId="a5456" GraphId="c0d8b" />
+  <Group GroupId="b0a46" GraphId="c3f21" />
+  <Group GroupId="bb956" GraphId="c6cc7" />
+  <Group GroupId="d5070" GraphId="da992" />
+  <Group GroupId="f036b" GraphId="dbe78" />
+  <Group GroupId="d9fa0" GraphId="de860" />
+  <Group GroupId="a967f" GraphId="e97c8" />
+  <Group GroupId="f0af7" GraphId="ef4b7" />
+  <Group GroupId="ffe27" GraphId="fda45" />
+  <Group GroupId="a7cc7" GraphId="fdcd6" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Legend CenterX="25.0" CenterY="471.6666666666667" />
   <Biopax>

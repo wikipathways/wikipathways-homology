@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TNF-related weak inducer of apoptosis (TWEAK) signaling pathway" Data-Source="WikiPathways" Version="WP2036_Bt" Last-Modified="20220202062251" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TNF-related weak inducer of apoptosis (TWEAK) signaling pathway" Data-Source="WikiPathways" Version="WP2036_Bt" Last-Modified="20230423093102" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">TNF related weak inducer of apoptosis (TWEAK) is a small pleiotropic cytokine of the TNF super family and its gene is located at chromosome 17p13.1. TWEAK has been reported to be expressed in tissues that include heart, brain, kidney and also in mononuclear blood cells. The multiple biological activities of TWEAK include stimulation of cell growth and angiogenesis, induction of inflammatory cytokines, and stimulation of apoptosis. It has been shown to be involved in the induction of cellular proliferation in liver cells, osteoblasts, astrocytes, synoviocytes, kidney cells and skeletal muscles. Furthermore, TWEAK plays a substantial role in cellular differentiation in osteoclasts. TWEAK induces glioma cell survival via imparting resistance to cytotoxic agents. It imparts its downstream signaling events by binding to its receptor, FGF inducible 14 protein (Fn14). Two modes of TWEAK-Fn14 (ligand-receptor) interactions have been proposed (i) the ligand dependent interaction which involves the higher concentration of homotrimeric TWEAK, that binds to low concentration of Fn14 in a heterohexameric complex (ii) ligand-independent interaction when the ligand concentration is lower than the receptor concentration which induces the ligand independent interaction. The receptors homotrimerize to activate the downstream events. The signaling cascades reported under TWEAK-Fn14 interactions are the canonical and noncanonical NF-κB pathways and the MAPK pathway. There has been a report on crosstalk between Wnt and TWEAK pathways. In myoblasts the PI3K-AKT module has been reported to be inhibited under TWEAK stimulus. AKT phosprorylation leads to the activation of GSK3β resulting in increase of phospho-GSk3β and active β-catenin1 (CTNNB1) (dephosphorylated) levels. GSK3β and β-catenin1 remain associated in the cytoplasm, phosphorylation of GSK3β leads to the dissociation of β-catenin1 (dephosphorylated) resulting in the nuclear translocation of the protein. Despite of reports on TWEAK binding to other receptors including CD163 and DR3 the downstream events following the binding is yet to be established. The data provided by us would foster enormous avenues for further studies on TWEAK associated proteins and the related disorders such as cancer and autoimmune diseases. The data would enable therapeutic studies by selecting the pathological events and the simultaneous production of blocking agents. Despite the minimal amount of data, ours can also be used in the overlay of various high throughput data enabling pathway analysis and can be accessed by any pathway resource to generate a customized pathway.
 
 Please access this pathway at [http://www.netpath.org/netslim/tweak_pathway.html NetSlim] database.
@@ -8,7 +8,7 @@ If you use this pathway, please cite Bhattacharjee2012 paper (see below).
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2036 CPTAC Assay Portal].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2036.gpml (WP2036_r120940) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2036.gpml (WP2036_r126349) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>bca</BiopaxRef>
   <Attribute Key="org.pathvisio.model.WindowHeight" Value="11190.0" />
   <Attribute Key="org.pathvisio.model.WindowWidth" Value="15480.0" />
@@ -51,9 +51,10 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="458.284152056934" CenterY="757.1711952739282" Width="54.0" Height="20.0" ZOrder="33232" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000007599" />
   </DataNode>
-  <DataNode TextLabel="IL6" GraphId="ee251" Type="RNA" GroupRef="d1070">
+  <DataNode TextLabel="IL6" GraphId="ee251" Type="Rna" GroupRef="d1070">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:3569</Comment>
     <Graphics CenterX="437.16666666666663" CenterY="1104.0227350868163" Width="41.0" Height="19.954529826367548" ZOrder="33233" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="3569" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000014921" />
   </DataNode>
   <DataNode TextLabel="MAP3K14" GraphId="ce600" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000006062</Comment>
@@ -160,13 +161,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="199.4964137455105" CenterY="840.1080863331231" Width="60.0" Height="20.0" ZOrder="33262" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000016420" />
   </DataNode>
-  <DataNode TextLabel="CCL5" GraphId="a2a0c" Type="RNA" GroupRef="a21ca">
+  <DataNode TextLabel="CCL5" GraphId="a2a0c" Type="Rna" GroupRef="a21ca">
+    <Comment Source="HomologyMapper">No homologues found for original id L:6352</Comment>
     <Graphics CenterX="597.3270662333151" CenterY="1105.0224074127832" Width="51.0" Height="20.0" ZOrder="33265" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="6352" />
+    <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="MMP9" GraphId="e270b" Type="RNA" GroupRef="d1070">
+  <DataNode TextLabel="MMP9" GraphId="e270b" Type="Rna" GroupRef="d1070">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:4318</Comment>
     <Graphics CenterX="521.7006258001225" CenterY="1104.045470173632" Width="51.0" Height="20.0" ZOrder="33266" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="4318" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000020676" />
   </DataNode>
   <DataNode TextLabel="MAP3K7" GraphId="d27f9" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:6885</Comment>
@@ -213,13 +216,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="770.9992188856107" CenterY="799.8829284303894" Width="55.0" Height="20.0" ZOrder="33290" FillColor="99ffff" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000015874" />
   </DataNode>
-  <DataNode TextLabel="CCL2" GraphId="f6c07" Type="RNA" GroupRef="d1070">
+  <DataNode TextLabel="CCL2" GraphId="f6c07" Type="Rna" GroupRef="d1070">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:6347</Comment>
     <Graphics CenterX="394.4336462333946" CenterY="1104.045470173632" Width="49.53395913345594" Height="20.0" ZOrder="33295" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="6347" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000037811" />
   </DataNode>
-  <DataNode TextLabel="CCL5" GraphId="f066f" Type="RNA" GroupRef="d1070">
+  <DataNode TextLabel="CCL5" GraphId="f066f" Type="Rna" GroupRef="d1070">
+    <Comment Source="HomologyMapper">No homologues found for original id L:6352</Comment>
     <Graphics CenterX="476.43364623339454" CenterY="1104.0454701736323" Width="39.53395913345594" Height="20.0" ZOrder="33296" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="6352" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="NFKB1" GraphId="e2eda" Type="Protein" GroupRef="a26cd">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:4790</Comment>
@@ -271,9 +276,10 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="107.99999999999976" CenterY="543.3452380952383" Width="50.0" Height="21.357142857143117" ZOrder="33383" FillColor="99ffff" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000005085" />
   </DataNode>
-  <DataNode TextLabel="TNF" GraphId="eb6c3" Type="RNA" GroupRef="a21ca">
+  <DataNode TextLabel="TNF" GraphId="eb6c3" Type="Rna" GroupRef="a21ca">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:7124</Comment>
     <Graphics CenterX="647.3270662333161" CenterY="1105.0224074127832" Width="51.0" Height="20.0" ZOrder="33385" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="7124" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000025471" />
   </DataNode>
   <DataNode TextLabel="BIRC3" GraphId="fe412" Type="Protein" GroupRef="c838b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:330</Comment>
@@ -402,8 +408,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="2.0" Color="00cccc">
       <Point X="728.3270662333161" Y="898.0224074127831" GraphRef="fc0ff" RelX="0.0" RelY="-1.0" />
       <Point X="768.6666666666667" Y="274.022407412783" GraphRef="e0fd4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="afa2b" />
-      <Anchor Position="0.4" Shape="None" GraphId="d47a8" />
+      <Anchor Position="0.4" Shape="None" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -434,7 +440,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ZOrder="12288" LineThickness="2.0" Color="00cc00">
       <Point X="457.784152056934" Y="844.5581055526908" GraphRef="cff42" RelX="0.0" RelY="1.0" />
       <Point X="457.84014573906256" Y="877.5269096045273" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="d7aed" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -581,7 +587,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="eaa03">
     <Graphics ZOrder="33197" LineThickness="2.0">
       <Point X="912.380952380951" Y="633.6904761904763" />
-      <Point X="937.3809523809512" Y="633.6904761904763" ArrowHead="mim-inhibition" />
+      <Point X="937.3809523809512" Y="633.6904761904763" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -616,7 +622,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="d8d3d">
     <Graphics ZOrder="33207" LineThickness="2.0" Color="ff0000">
       <Point X="659.593718843938" Y="538.8794051916792" GraphRef="b7782" RelX="0.5" RelY="1.0" />
-      <Point X="746.3866878893494" Y="537.7768693592668" GraphRef="f6514" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="746.3866878893494" Y="537.7768693592668" GraphRef="f6514" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -629,7 +635,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="b0376">
     <Graphics ZOrder="33210" LineThickness="3.0" Color="ff3399">
-      <Point X="445.7841520569339" Y="299.02380952380935" GraphRef="dbc30" RelX="0.0" RelY="1.0" />
+      <Point X="445.7841520569339" Y="299.02380952380935" GraphRef="b34e3" RelX="0.0" RelY="1.0" />
       <Point X="445.784152056934" Y="322.0238095238111" GraphRef="d6d6c" RelX="0.0" RelY="-1.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -674,7 +680,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <Anchor Position="0.0024086121489452846" Shape="None" GraphId="a133f" />
       <Anchor Position="0.6688343056243274" Shape="None" GraphId="b7acf" />
       <Anchor Position="0.28279525318645576" Shape="None" GraphId="b92a8" />
-      <Anchor Position="0.14262007284288095" Shape="None" GraphId="f8e44" />
+      <Anchor Position="0.14262007284288095" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -755,7 +761,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ZOrder="33284" LineStyle="Broken" LineThickness="2.0" Color="00ffff">
       <Point X="607.367678313745" Y="897.0238095238107" GraphRef="e5ed9" RelX="0.0" RelY="1.0" />
       <Point X="607.367678313745" Y="997.0238095238105" GraphRef="f6e3a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="df25b" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -763,7 +769,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ZOrder="33285" LineStyle="Broken" LineThickness="2.0" Color="00ffff">
       <Point X="199.4964137455105" Y="850.1080863331231" GraphRef="e8bdb" RelX="0.0" RelY="1.0" />
       <Point X="197.6987101480747" Y="1007.9566702659738" GraphRef="e0264" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="d7c0b" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -771,7 +777,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ZOrder="33287" LineStyle="Broken" LineThickness="2.0">
       <Point X="606.6666666666667" Y="453.6666666666667" />
       <Point X="605.5070128487598" Y="641.0238095238095" GraphRef="ce600" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="d0488" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -779,7 +785,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ZOrder="33288" LineStyle="Broken" LineThickness="2.0">
       <Point X="458.284152056934" Y="767.1711952739282" GraphRef="d441f" RelX="0.0" RelY="1.0" />
       <Point X="457.784152056934" Y="799.7530514010676" GraphRef="d546f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="b6875" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -787,7 +793,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ZOrder="33289" LineStyle="Broken" LineThickness="2.0" Color="00ffff">
       <Point X="432.60315287593465" Y="897.8518193518219" GraphRef="e9c53" RelX="0.0" RelY="1.0" />
       <Point X="432.60315287593465" Y="998.0238095238115" GraphRef="ce025" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="bb9e8" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -801,7 +807,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="d9817">
     <Graphics ZOrder="33292" LineThickness="2.0">
       <Point X="458.10315287593465" Y="1008.0238095238115" GraphRef="ce025" RelX="1.0" RelY="0.0" />
-      <Point X="458.43364623339454" Y="1086.045470173632" GraphRef="d1070" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+      <Point X="458.43364623339454" Y="1086.045470173632" GraphRef="a90a6" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -915,7 +921,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ZOrder="33324" LineThickness="2.0" Color="00cc00">
       <Point X="407.10315287593465" Y="1008.0238095238115" GraphRef="ce025" RelX="-1.0" RelY="0.0" />
       <Point X="377.2841520569345" Y="1008.0238095238115" GraphRef="a2009" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="b5bcc" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -923,15 +929,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ZOrder="33326" LineStyle="Broken" LineThickness="2.0" Color="00ffff">
       <Point X="484.10315287593477" Y="897.8518193518219" GraphRef="e4203" RelX="0.0" RelY="1.0" />
       <Point X="484.10315287593477" Y="998.0238095238115" GraphRef="e2eda" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="ec3a0" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="da9bb">
     <Graphics ZOrder="33327" LineStyle="Broken" LineThickness="2.0" Color="00ffff">
       <Point X="662.7778216434045" Y="897.0238095238104" GraphRef="f63d6" RelX="0.0" RelY="1.0" />
-      <Point X="666.1752858109897" Y="989.0238095238105" GraphRef="b67b8" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4120092717511956" Shape="None" GraphId="d5e5e" />
+      <Point X="666.1752858109897" Y="989.0238095238105" GraphRef="c1bcf" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4120092717511956" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1046,7 +1052,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="d40b5">
     <Graphics ZOrder="33367" LineStyle="Broken" LineThickness="2.0">
       <Point X="622.8270662333151" Y="1105.0224074127832" GraphRef="a2a0c" RelX="1.0" RelY="0.0" />
-      <Point X="622.3916857689418" Y="1164.5797662025118" GraphRef="eb6eb" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="622.3916857689418" Y="1164.5797662025118" GraphRef="f7507" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1054,7 +1060,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ZOrder="33368" LineStyle="Broken" LineThickness="2.0">
       <Point X="310.98401930192983" Y="910.2027272145721" GraphRef="d5b22" RelX="0.0" RelY="1.0" />
       <Point X="310.7491834278869" Y="1165.1097425194907" GraphRef="e90ac" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="e1e38" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1081,7 +1087,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="d1d52">
     <Graphics ConnectorType="Elbow" ZOrder="33399" LineStyle="Broken" LineThickness="2.0">
-      <Point X="423.284152056934" Y="822.1555784768792" GraphRef="d06e6" RelX="-1.0" RelY="0.0" />
+      <Point X="423.284152056934" Y="822.1555784768792" GraphRef="ad9b2" RelX="-1.0" RelY="0.0" />
       <Point X="394.92667289970643" Y="849.5358162125566" GraphRef="dc6e2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1409,29 +1415,34 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="e4b82">
     <Graphics CenterX="791.2841520569341" CenterY="331.79019192955275" Width="38.0" Height="37.96723518850962" ZOrder="33408" FontSize="10" Valign="Middle" ShapeType="Arc" LineThickness="3.0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="ad7af" GraphId="ad7af" Style="Group" />
-  <Group GroupId="c838b" GraphId="c838b" Style="Group" />
-  <Group GroupId="d1070" GraphId="d1070" Style="Group" />
-  <Group GroupId="a21ca" GraphId="a21ca" Style="Group" />
-  <Group GroupId="a26cd" GraphId="a26cd" Style="Group" />
-  <Group GroupId="d06e6" GraphId="d06e6" Style="Group" />
-  <Group GroupId="dbc30" GraphId="dbc30" Style="Complex" />
-  <Group GroupId="cd296" GraphId="cd296" Style="Group" />
-  <Group GroupId="e6604" GraphId="e6604" Style="Group" />
-  <Group GroupId="b67b8" GraphId="b67b8" Style="Group" />
-  <Group GroupId="e3cbf" GraphId="e3cbf" Style="Group" />
-  <Group GroupId="a6ef6" GraphId="a6ef6" Style="Group" />
-  <Group GroupId="db954" GraphId="db954" Style="Group" />
-  <Group GroupId="efaf4" GraphId="efaf4" Style="Group" />
-  <Group GroupId="b5e05" GraphId="b5e05" Style="Group" />
-  <Group GroupId="c979c" GraphId="c979c" Style="Group" />
-  <Group GroupId="adb71" GraphId="adb71" Style="Group" />
-  <Group GroupId="f712c" GraphId="f712c" Style="Group" />
-  <Group GroupId="d00ee" GraphId="d00ee" Style="Group" />
-  <Group GroupId="eb6eb" GraphId="eb6eb" Style="Group" />
-  <Group GroupId="a7595" GraphId="a7595" Style="Group" />
+  <Group GroupId="ad7af" GraphId="a2362" Style="Group" />
+  <Group GroupId="c838b" GraphId="a544a" Style="Group" />
+  <Group GroupId="d1070" GraphId="a90a6" Style="Group" />
+  <Group GroupId="a21ca" GraphId="ac5b7" Style="Group" />
+  <Group GroupId="a26cd" GraphId="ad717" Style="Group" />
+  <Group GroupId="d06e6" GraphId="ad9b2" Style="Group" />
+  <Group GroupId="dbc30" GraphId="b34e3" Style="Complex" />
+  <Group GroupId="cd296" GraphId="b750c" Style="Group" />
+  <Group GroupId="e6604" GraphId="b8dff" Style="Group" />
+  <Group GroupId="b67b8" GraphId="c1bcf" Style="Group" />
+  <Group GroupId="e3cbf" GraphId="c449e" Style="Group" />
+  <Group GroupId="a6ef6" GraphId="cfded" Style="Group" />
+  <Group GroupId="db954" GraphId="e3379" Style="Group" />
+  <Group GroupId="efaf4" GraphId="e7c4d" Style="Group" />
+  <Group GroupId="b5e05" GraphId="e90d0" Style="Group" />
+  <Group GroupId="c979c" GraphId="efb6e" Style="Group" />
+  <Group GroupId="adb71" GraphId="f0da2" Style="Group" />
+  <Group GroupId="f712c" GraphId="f1877" Style="Group" />
+  <Group GroupId="d00ee" GraphId="f5985" Style="Group" />
+  <Group GroupId="eb6eb" GraphId="f7507" Style="Group" />
+  <Group GroupId="a7595" GraphId="fbbfa" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor superfamily mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000236</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bca">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22649723</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1454,11 +1465,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chatterjee A</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor superfamily mediated signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000236</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

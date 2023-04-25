@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Genetic causes of porto-sinusoidal vascular disease" Data-Source="WikiPathways" Version="WP5269_Ss" Last-Modified="20220909104713" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Genetic causes of porto-sinusoidal vascular disease" Data-Source="WikiPathways" Version="WP5269_Ss" Last-Modified="20230131222819" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">Porto sinusoidal vascular disease (PSVD), or formerly known as idiopathic portal vein hypertension (INCPH), is a condition with often unclear origin. There are currently three genes directly linked to this condition: C4orf54, a protein with unknown function, DGUOK, a desoxyguanosine kinase involved in purine metabolism, and KCNN3, a potassium channel regulated i.a. via estradiol. 
 Additionally, some genetic syndromes show increased portal vein hypertension as one of their symptoms/phenotypes. These syndromes are X-linked agammaglobulinemia, Adams-Oliver syndrome, chronic granulomatous disease and Shwachmann syndrome.
 X-linked agammaglobulinemia (XLA) is caused by mutations in BTK. BTK is involved in signal transduction from virus single stranded RNA recognition by toll like receptors (TLR8 and TLR9) to NFKB1 mediated gene expression as response. 
 Adams-Oliver Syndrome can be caused by mutations in RBPJ, ARHGAP31, DOCK6, DLL4, EOGT and NOTCH1. Most of these genes are involved in the Notch pathway but there is also a link via RAC1 to the phagocyte NADPH oxidase complex (ComplexPortal). 
-Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their chaperones (CYBC1) can cause chronic granulomatous disease.  Shwachmann syndrome is caused by mutations in SBDS or EFL1 which are both part of the pre-60S ribosomal subunit and are responsible for cleaving off the EIF6 protein for maturation to 60S ribosomal subunit.</Comment>
+Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their chaperones (CYBC1) can cause chronic granulomatous disease.  Shwachmann syndrome is caused by mutations in SBDS or EFL1 which are both part of the pre-60S ribosomal subunit and are responsible for cleaving off the EIF6 protein for maturation to 60S ribosomal subunit. </Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5269.gpml (WP5269_r123982) with a 95.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5269.gpml (WP5269_r125332) with a 95.0% conversion rate.</Comment>
   <Graphics BoardWidth="1551.8523206751045" BoardHeight="956.8809523809516" />
   <DataNode TextLabel="GP91-PHOX" GraphId="a0017" Type="GeneProduct" GroupRef="a551b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000165168</Comment>
@@ -328,175 +328,21 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <Interaction GraphId="c3fde">
-    <BiopaxRef>a82</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="727.0238095238107" Y="777.3809523809518" GraphRef="c2039" RelX="1.0" RelY="0.0" />
-      <Point X="809.367239300785" Y="776.8928571428575" GraphRef="db75b" RelX="-1.0" RelY="0.0" ArrowHead="mim-binding" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="d230e">
-    <BiopaxRef>a31</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="527.1904761904744" Y="791.7142857142852" GraphRef="b6c57" RelX="1.0" RelY="0.0" />
-      <Point X="637.0238095238107" Y="777.3809523809518" GraphRef="c2039" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="b3e3a">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="912.1669680530426" Y="219.05812823324626" GraphRef="a3c2a" RelX="-1.0" RelY="-0.5" />
-      <Point X="854.0" Y="209.75" GraphRef="dbb62" RelX="1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="b3fa6">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="912.1669680530426" Y="231.55812823324626" GraphRef="a3c2a" RelX="-1.0" RelY="0.5" />
-      <Point X="854.0" Y="241.0" GraphRef="ebeea" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="bd710">
-    <BiopaxRef>bcc</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1239.3523206751045" Y="483.44387765812337" GraphRef="db788" RelX="1.0" RelY="0.0" />
-      <Point X="1337.2587224014121" Y="507.44760900140705" GraphRef="d953d" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="bb77e">
-    <BiopaxRef>abd</BiopaxRef>
-    <BiopaxRef>fd1</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1239.3523206751045" Y="603.8767134790182" GraphRef="a9262" RelX="1.0" RelY="0.0" />
-      <Point X="1337.2587224014121" Y="598.6379075088689" GraphRef="a7c5b" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="de148">
-    <BiopaxRef>fd1</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1239.3523206751045" Y="603.8767134790182" GraphRef="a9262" RelX="1.0" RelY="0.0" />
-      <Point X="1337.2587224014121" Y="617.3879075088689" GraphRef="a9822" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="d33d7">
-    <BiopaxRef>aa6</BiopaxRef>
-    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="1149.3523206751045" Y="519.455071687973" GraphRef="bfdb1" RelX="-1.0" RelY="0.5" />
-      <Point X="963.4317862165962" Y="714.0430120344623" />
-      <Point X="727.0238095238105" Y="908.6309523809516" GraphRef="cd8ff" RelX="1.0" RelY="0.5" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="a5968">
-    <BiopaxRef>b16</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1171.8523206751045" Y="680.2588334912018" GraphRef="de3e4" RelX="-0.5" RelY="1.0" />
-      <Point X="1172.6586849269665" Y="712.6976090014059" GraphRef="e813f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="Rhea" ID="48904" />
-  </Interaction>
-  <Interaction GraphId="f44a1">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1161.8523206751045" Y="712.6976090014059" GraphRef="ebf43" RelX="1.0" RelY="0.0" />
-      <Point X="1234.8523206751045" Y="712.6976090014059" GraphRef="da988" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
-      <Anchor Position="0.1480323870118093" Shape="None" GraphId="e813f" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="cd0fc">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1161.0686216155432" Y="772.180367622095" GraphRef="f110e" RelX="1.0" RelY="0.0" />
-      <Point X="1234.0686216155434" Y="772.180367622095" GraphRef="c5c31" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
-      <Anchor Position="0.4629042213427934" Shape="None" GraphId="e290c" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="c79e0">
-    <BiopaxRef>d79</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1239.3523206751045" Y="667.7282212463039" GraphRef="de3e4" RelX="1.0" RelY="0.0" />
-      <Point X="1337.2587224014121" Y="629.8879075088689" GraphRef="a9822" RelX="-1.0" RelY="0.5" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="b70e3">
-    <BiopaxRef>d79</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1347.9557689509652" Y="664.2665745186476" GraphRef="b54e4" RelX="0.0" RelY="-1.0" />
-      <Point X="1359.7587224014121" Y="636.1379075088689" GraphRef="a9822" RelX="-0.5" RelY="1.0" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="c785e">
-    <BiopaxRef>d79</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1239.3523206751045" Y="667.7282212463039" GraphRef="de3e4" RelX="1.0" RelY="0.0" />
-      <Point X="1302.9557689509652" Y="676.7665745186476" GraphRef="b54e4" RelX="-1.0" RelY="0.0" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="b1c3c">
-    <BiopaxRef>e0b</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1239.3523206751045" Y="350.61287500368775" GraphRef="b5afc" RelX="1.0" RelY="0.0" />
-      <Point X="1382.2587224014121" Y="342.91777361046036" GraphRef="ca486" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="ff82e">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1382.2587224014121" Y="319.99596291087187" GraphRef="da1fd" RelX="0.0" RelY="1.0" />
-      <Point X="1382.2587224014121" Y="377.3004896598431" GraphRef="cfa0d" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
-      <Anchor Position="0.4" Shape="None" GraphId="ca486" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="a2a6b">
-    <BiopaxRef>e0b</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1430.3094578658408" Y="342.88690941292964" GraphRef="cd78d" RelX="-1.0" RelY="0.0" />
-      <Point X="1382.2587224014121" Y="342.91777361046036" GraphRef="ca486" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="e9d6d">
-    <BiopaxRef>f75</BiopaxRef>
-    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="1194.3523206751045" Y="363.11287500368775" GraphRef="b5afc" RelX="0.0" RelY="1.0" />
-      <Point X="1331.4296299120524" Y="415.4338874485289" />
-      <Point X="1468.5069391490001" Y="516.4108974786989" />
-      <Point X="1427.2587224014121" Y="617.3879075088689" GraphRef="a9822" RelX="1.0" RelY="-0.5" ArrowHead="mim-binding" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="fd24d">
-    <BiopaxRef>e1a</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1158.4043182888697" Y="403.6103673553622" GraphRef="e74ab" RelX="0.5" RelY="-1.0" />
-      <Point X="1171.8523206751045" Y="363.11287500368775" GraphRef="b5afc" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="e67a4">
-    <BiopaxRef>bbb</BiopaxRef>
-    <BiopaxRef>b70</BiopaxRef>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1100.3086469463115" Y="329.85617474207197" GraphRef="ca080" RelX="1.0" RelY="0.5" />
-      <Point X="1149.3523206751045" Y="344.36287500368775" GraphRef="b5afc" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
   <Interaction GraphId="id123af355">
     <BiopaxRef>c13</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="651.0" Y="368.0" GraphRef="cb89e" RelX="1.0" RelY="0.0" />
       <Point X="729.9463087248323" Y="369.0" GraphRef="e9886" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.44680851063829785" Shape="None" GraphId="ea0eb" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id1872fe61">
+    <BiopaxRef>bbb</BiopaxRef>
+    <BiopaxRef>b70</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1100.3086469463115" Y="329.85617474207197" GraphRef="ca080" RelX="1.0" RelY="0.5" />
+      <Point X="1149.3523206751045" Y="344.36287500368775" GraphRef="b5afc" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -519,8 +365,17 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
   <Interaction GraphId="id266ded9d">
     <BiopaxRef>b79</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="682.0238095238107" Y="588.5" GraphRef="e7638" RelX="0.0" RelY="1.0" />
+      <Point X="682.0238095238107" Y="588.5" GraphRef="e4f5e" RelX="0.0" RelY="1.0" />
       <Point X="682.0238095238107" Y="625.5" GraphRef="ff16a" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id2f52ca0">
+    <BiopaxRef>aa6</BiopaxRef>
+    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
+      <Point X="1149.3523206751045" Y="519.455071687973" GraphRef="bfdb1" RelX="-1.0" RelY="0.5" />
+      <Point X="963.4317862165962" Y="714.0430120344623" />
+      <Point X="727.0238095238105" Y="908.6309523809516" GraphRef="cd8ff" RelX="1.0" RelY="0.5" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -538,6 +393,14 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
       <Point X="704.5238095238107" Y="208.5" GraphRef="af056" RelX="0.5" RelY="1.0" />
       <Point X="704.5238095238107" Y="254.5" GraphRef="c5dac" RelX="0.5" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.4" Shape="None" GraphId="a3317" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id3bd40852">
+    <BiopaxRef>e0b</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1430.3094578658408" Y="342.88690941292964" GraphRef="cd78d" RelX="-1.0" RelY="0.0" />
+      <Point X="1382.2587224014121" Y="342.91777361046036" GraphRef="ca486" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -586,11 +449,26 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="id5efca468">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="912.1669680530426" Y="231.55812823324626" GraphRef="a3c2a" RelX="-1.0" RelY="0.5" />
+      <Point X="854.0" Y="241.0" GraphRef="ebeea" RelX="1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id5f9e735c">
     <Graphics ZOrder="12288" LineThickness="1.0" Color="009900">
       <Point X="205.0" Y="592.0" GraphRef="e147d" RelX="1.0" RelY="0.0" />
       <Point X="307.0" Y="592.0" GraphRef="e9cae" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.5003843197540356" Shape="None" GraphId="fbf8a" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id639b0fa6">
+    <BiopaxRef>e0b</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1239.3523206751045" Y="350.61287500368775" GraphRef="b5afc" RelX="1.0" RelY="0.0" />
+      <Point X="1382.2587224014121" Y="342.91777361046036" GraphRef="ca486" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -609,6 +487,39 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="id70acf434">
+    <BiopaxRef>abd</BiopaxRef>
+    <BiopaxRef>fd1</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1239.3523206751045" Y="603.8767134790182" GraphRef="a9262" RelX="1.0" RelY="0.0" />
+      <Point X="1337.2587224014121" Y="598.6379075088689" GraphRef="a7c5b" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id77c3e7bf">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1161.0686216155432" Y="772.180367622095" GraphRef="f110e" RelX="1.0" RelY="0.0" />
+      <Point X="1234.0686216155434" Y="772.180367622095" GraphRef="c5c31" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.4629042213427934" Shape="None" GraphId="e290c" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id7e591c14">
+    <BiopaxRef>fd1</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1239.3523206751045" Y="603.8767134790182" GraphRef="a9262" RelX="1.0" RelY="0.0" />
+      <Point X="1337.2587224014121" Y="617.3879075088689" GraphRef="a9822" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id7f2e69bb">
+    <BiopaxRef>d79</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1239.3523206751045" Y="667.7282212463039" GraphRef="de3e4" RelX="1.0" RelY="0.0" />
+      <Point X="1302.9557689509652" Y="676.7665745186476" GraphRef="b54e4" RelX="-1.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id815dd797">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="193.25" Y="278.5" GraphRef="f736d" RelX="0.0" RelY="1.0" />
@@ -616,10 +527,43 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="id86d1f036">
+    <BiopaxRef>f75</BiopaxRef>
+    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
+      <Point X="1194.3523206751045" Y="363.11287500368775" GraphRef="b5afc" RelX="0.0" RelY="1.0" />
+      <Point X="1331.4296299120524" Y="415.4338874485289" />
+      <Point X="1468.5069391490001" Y="516.4108974786989" />
+      <Point X="1427.2587224014121" Y="617.3879075088689" GraphRef="a9822" RelX="1.0" RelY="-0.5" ArrowHead="mim-binding" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id895d2288">
+    <BiopaxRef>e1a</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1158.4043182888697" Y="403.6103673553622" GraphRef="e74ab" RelX="0.5" RelY="-1.0" />
+      <Point X="1171.8523206751045" Y="363.11287500368775" GraphRef="b5afc" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id8f87b466">
+    <BiopaxRef>a31</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="527.1904761904744" Y="791.7142857142852" GraphRef="b6c57" RelX="1.0" RelY="0.0" />
+      <Point X="637.0238095238107" Y="777.3809523809518" GraphRef="c2039" RelX="-1.0" RelY="0.0" ArrowHead="mim-necessary-stimulation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id922ff9c7">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="912.1669680530426" Y="219.05812823324626" GraphRef="a3c2a" RelX="-1.0" RelY="-0.5" />
+      <Point X="854.0" Y="209.75" GraphRef="dbb62" RelX="1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id9e1b4c9a">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="184.0" Y="540.0" GraphRef="a137a" RelX="1.0" RelY="0.0" />
-      <Point X="211.0" Y="540.0" GraphRef="e5744" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="211.0" Y="540.0" GraphRef="e5744" RelX="-1.0" RelY="0.0" ArrowHead="mim-necessary-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -630,11 +574,35 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="ida223a2b1">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1161.8523206751045" Y="712.6976090014059" GraphRef="ebf43" RelX="1.0" RelY="0.0" />
+      <Point X="1234.8523206751045" Y="712.6976090014059" GraphRef="da988" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.1480323870118093" Shape="None" GraphId="e813f" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="ida8a016d1">
     <BiopaxRef>ac2</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="625.0238095238107" Y="570.0" GraphRef="e7638" RelX="-1.0" RelY="0.5" />
-      <Point X="580.0095238095242" Y="638.6" GraphRef="a0359" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="625.0238095238107" Y="570.0" GraphRef="e4f5e" RelX="-1.0" RelY="0.5" />
+      <Point X="580.0095238095242" Y="638.6" GraphRef="a0359" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idad7c1448">
+    <BiopaxRef>a82</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="727.0238095238107" Y="777.3809523809518" GraphRef="c2039" RelX="1.0" RelY="0.0" />
+      <Point X="809.367239300785" Y="776.8928571428575" GraphRef="db75b" RelX="-1.0" RelY="0.0" ArrowHead="mim-binding" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idb12da8e0">
+    <BiopaxRef>d79</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1239.3523206751045" Y="667.7282212463039" GraphRef="de3e4" RelX="1.0" RelY="0.0" />
+      <Point X="1337.2587224014121" Y="629.8879075088689" GraphRef="a9822" RelX="-1.0" RelY="0.5" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -652,6 +620,14 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="idd077826e">
+    <BiopaxRef>b16</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1171.8523206751045" Y="680.2588334912018" GraphRef="de3e4" RelX="-0.5" RelY="1.0" />
+      <Point X="1172.6586849269665" Y="712.6976090014059" GraphRef="e813f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Rhea" ID="48904" />
+  </Interaction>
   <Interaction GraphId="idd3931631">
     <BiopaxRef>e93</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -668,6 +644,22 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="ide30d1905">
+    <BiopaxRef>d79</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1347.9557689509652" Y="664.2665745186476" GraphRef="b54e4" RelX="0.0" RelY="-1.0" />
+      <Point X="1359.7587224014121" Y="636.1379075088689" GraphRef="a9822" RelX="-0.5" RelY="1.0" ArrowHead="mim-stimulation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ide4d7133e">
+    <BiopaxRef>bcc</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1239.3523206751045" Y="483.44387765812337" GraphRef="db788" RelX="1.0" RelY="0.0" />
+      <Point X="1337.2587224014121" Y="507.44760900140705" GraphRef="d953d" RelX="-1.0" RelY="-0.5" ArrowHead="mim-stimulation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="idf9bad11b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="200.0" Y="164.56469760900137" GraphRef="e796c" RelX="0.0" RelY="1.0" />
@@ -675,11 +667,19 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="idfea55267">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1382.2587224014121" Y="319.99596291087187" GraphRef="da1fd" RelX="0.0" RelY="1.0" />
+      <Point X="1382.2587224014121" Y="377.3004896598431" GraphRef="cfa0d" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+      <Anchor Position="0.4" Shape="None" GraphId="ca486" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="c92d7">
     <BiopaxRef>a31</BiopaxRef>
     <Graphics ZOrder="32793" LineThickness="1.0">
       <Point X="527.1904761904744" Y="791.7142857142852" GraphRef="b6c57" RelX="1.0" RelY="0.0" />
-      <Point X="637.0238095238107" Y="802.3809523809518" GraphRef="a0017" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="637.0238095238107" Y="802.3809523809518" GraphRef="a0017" RelX="-1.0" RelY="0.0" ArrowHead="mim-necessary-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -858,22 +858,86 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
   <Shape GraphId="f2d2f">
     <Graphics CenterX="1134.2952740850722" CenterY="356.07767211913847" Width="21.762009379345567" Height="23.41408171482537" ZOrder="32803" FillColor="ffff00" FontSize="12" Valign="Middle" ShapeType="Triangle" Color="666666" Rotation="0.0010457110021263071" />
   </Shape>
-  <Group GroupId="a551b" GraphId="a551b" Style="Complex" />
-  <Group GroupId="e7638" GraphId="e7638" Style="Complex">
+  <Group GroupId="a551b" GraphId="e0a27" Style="Complex" />
+  <Group GroupId="e7638" GraphId="e4f5e" Style="Complex">
     <BiopaxRef>a34</BiopaxRef>
   </Group>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa6">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17196961</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a34">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25991726</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dock6, a Dock-C subfamily guanine nucleotide exchanger, has the dual specificity for Rac1 and Cdc42 and regulates neurite outgrowth.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exp Cell Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyamoto Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamauchi J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sanbe A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanoue A</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Defective Guanine Nucleotide Exchange in the Elongation Factor-like 1 (EFL1) GTPase by Mutations in the Shwachman-Diamond Syndrome Protein.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">García-Márquez A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gijsbers A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de la Mora E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sánchez-Puig N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21536732</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uncoupling of GTP hydrolysis from eIF6 release on the ribosome causes Shwachman-Diamond syndrome.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genes Dev</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finch AJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hilcenko C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basse N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drynan LF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goyenechea B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Menne TF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">González Fernández A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simpson P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D'Santos CS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arends MJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Donadieu J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bellanné-Chantelot C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Costanzo M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boone C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McKenzie AN</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freund SM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warren AJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24741616</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic non cirrhotic portal hypertension and spleno-portal axis abnormalities in patients with severe primary antibody deficiencies.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Immunol Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulvirenti F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pentassuglio I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milito C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valente M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De Santis A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conti V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d'Amati G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riggio O</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinti I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11134954</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning of delta-4, a new mouse and human Notch ligand.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biochem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yoneya T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tahara T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagao K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamada Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamamoto T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osawa M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyatani S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nishikawa M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.29245/2572-9411/2016/3.1038</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic non-cirrhotic portal hypertension</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Journal of Rare Diseases Research and Treatment</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sith Siramolpiwat</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susana Seijo</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e0b">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23303788</bp:ID>
@@ -889,56 +953,45 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weissmann N</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grossman LI</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a82">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15824103</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f98">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26658685</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The NADPH oxidase Nox3 constitutively produces superoxide in a p22phox-dependent manner: its regulation by oxidase organizers and activators.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ueno N</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takeya R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyano K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kikuchi H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sumimoto H</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1a">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23571214</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEND6 is a nuclear antagonist of Notch signaling during self-renewal of neural stem cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Development</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dai Q</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreu-Agullo C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insolera R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wong LC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shi SH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lai EC</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c51">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.rarediseasesjournal.com/articles/idiopathic-noncirrhotic-portal-hypertension.html</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic non-cirrhotic portal hypertension</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Journal of Rare Diseases Research and Treatment</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A de novo mutation in KCNN3 associated with autosomal dominant idiopathic non-cirrhotic portal hypertension.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Hepatol</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sith Siramolpiwat</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susana Seijo</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Koot BG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alders M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verheij J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beuers U</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobben JM</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26874653</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portal hypertension</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10762</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8016657</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent recessive mutation in deoxyguanosine kinase causes idiopathic noncirrhotic portal hypertension.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatology</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vilarinho S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sari S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yilmaz G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiegler AL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boggon TJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jain D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akyol G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dalgic B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Günel M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lifton RP</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mediation of Epstein-Barr virus EBNA2 transactivation by recombination signal-binding protein J kappa.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Henkel T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ling PD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayward SD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peterson MG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b70">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9874765</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CIR, a corepressor linking the DNA binding factor CBF1 to the histone deacetylase complex.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsieh JJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhou S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Young DB</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayward SD</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b79">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17475909</bp:ID>
@@ -954,11 +1007,6 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reed R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shimamura A</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adams-Oliver syndrome</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060227</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18439425</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1020,76 +1068,87 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sulem P</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefansson K</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24741616</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic non cirrhotic portal hypertension and spleno-portal axis abnormalities in patients with severe primary antibody deficiencies.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Immunol Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulvirenti F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pentassuglio I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milito C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valente M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De Santis A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conti V</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d'Amati G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riggio O</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinti I</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic granulomatous disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3265</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecc">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11577348</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b16">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23671640</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct inhibition of Bruton's tyrosine kinase by IBtk, a Btk-binding protein.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Immunol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liu W</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinto I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palmieri C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabin RL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schwartz OM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nelson DL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scala G</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The EGF repeat-specific O-GlcNAc-transferase Eogt interacts with notch signaling and pyrimidine metabolism pathways in Drosophila.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLoS One</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Müller R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jenny A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stanley P</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portal hypertension</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10762</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c13">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9012831</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAP-135, a target for Bruton's tyrosine kinase in response to B cell receptor engagement.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang W</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desiderio S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a82">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15824103</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The NADPH oxidase Nox3 constitutively produces superoxide in a p22phox-dependent manner: its regulation by oxidase organizers and activators.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ueno N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takeya R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyano K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kikuchi H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sumimoto H</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-linked agammaglobulinemia</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14179</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b70">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9874765</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17196961</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CIR, a corepressor linking the DNA binding factor CBF1 to the histone deacetylase complex.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsieh JJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhou S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Young DB</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayward SD</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dock6, a Dock-C subfamily guanine nucleotide exchanger, has the dual specificity for Rac1 and Cdc42 and regulates neurite outgrowth.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exp Cell Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyamoto Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamauchi J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sanbe A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanoue A</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d36">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15832360</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26874653</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adams-Oliver syndrome and hepatoportal sclerosis: occasional association or common mechanism?</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Am J Med Genet A</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girard M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amiel J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabre M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pariente D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyonnet S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jacquemin E</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent recessive mutation in deoxyguanosine kinase causes idiopathic noncirrhotic portal hypertension.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatology</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vilarinho S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sari S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yilmaz G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiegler AL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boggon TJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jain D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akyol G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dalgic B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Günel M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lifton RP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23571214</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEND6 is a nuclear antagonist of Notch signaling during self-renewal of neural stem cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Development</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dai Q</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreu-Agullo C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insolera R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wong LC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shi SH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lai EC</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a85">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28792652</bp:ID>
@@ -1107,88 +1166,33 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gonzales E</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jacquemin E</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c13">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9012831</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d36">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15832360</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAP-135, a target for Bruton's tyrosine kinase in response to B cell receptor engagement.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang W</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desiderio S</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adams-Oliver syndrome and hepatoportal sclerosis: occasional association or common mechanism?</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Am J Med Genet A</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girard M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amiel J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabre M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pariente D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyonnet S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jacquemin E</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a34">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25991726</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11577348</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Defective Guanine Nucleotide Exchange in the Elongation Factor-like 1 (EFL1) GTPase by Mutations in the Shwachman-Diamond Syndrome Protein.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">García-Márquez A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gijsbers A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de la Mora E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sánchez-Puig N</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcc">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16519628</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The human orthologue of CdGAP is a phosphoprotein and a GTPase-activating protein for Cdc42 and Rac1 but not RhoA.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biol Cell</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tcherkezian J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Triki I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stenne R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danek EI</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamarche-Vane N</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abd">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11134954</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning of delta-4, a new mouse and human Notch ligand.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biochem</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct inhibition of Bruton's tyrosine kinase by IBtk, a Btk-binding protein.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Immunol</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yoneya T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tahara T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagao K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamada Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamamoto T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osawa M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyatani S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nishikawa M</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac2">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21536732</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uncoupling of GTP hydrolysis from eIF6 release on the ribosome causes Shwachman-Diamond syndrome.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genes Dev</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finch AJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hilcenko C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basse N</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drynan LF</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goyenechea B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Menne TF</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">González Fernández A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simpson P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D'Santos CS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arends MJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Donadieu J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bellanné-Chantelot C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Costanzo M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boone C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McKenzie AN</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freund SM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warren AJ</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f98">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26658685</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A de novo mutation in KCNN3 associated with autosomal dominant idiopathic non-cirrhotic portal hypertension.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Hepatol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Koot BG</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alders M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verheij J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beuers U</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobben JM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liu W</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinto I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palmieri C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabin RL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schwartz OM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nelson DL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scala G</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d79">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33515675</bp:ID>
@@ -1222,16 +1226,39 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feighery C</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O'Neill LA</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbb">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8016657</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16519628</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mediation of Epstein-Barr virus EBNA2 transactivation by recombination signal-binding protein J kappa.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Henkel T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ling PD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayward SD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peterson MG</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The human orthologue of CdGAP is a phosphoprotein and a GTPase-activating protein for Cdc42 and Rac1 but not RhoA.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biol Cell</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tcherkezian J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Triki I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stenne R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danek EI</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamarche-Vane N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adams-Oliver syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060227</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f75">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10637481</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intracellular forms of human NOTCH1 interact at distinctly different levels with RBP-jkappa in human B and T cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukemia</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callahan J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aster J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sklar J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kieff E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robertson ES</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd1">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20616313</bp:ID>
@@ -1248,33 +1275,6 @@ Mutations in some proteins of this complex (CYBA, NCF1, NCF2 or NCF4), or their 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telzerow A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Augustin HG</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fischer A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f75">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10637481</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intracellular forms of human NOTCH1 interact at distinctly different levels with RBP-jkappa in human B and T cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukemia</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callahan J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aster J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sklar J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kieff E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robertson ES</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic granulomatous disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3265</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b16">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23671640</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The EGF repeat-specific O-GlcNAc-transferase Eogt interacts with notch signaling and pyrimidine metabolism pathways in Drosophila.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLoS One</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Müller R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jenny A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stanley P</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

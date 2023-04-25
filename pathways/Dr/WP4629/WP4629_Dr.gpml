@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Aerobic glycolysis" Data-Source="WikiPathways" Version="WP4629_Dr" Last-Modified="20210623075242" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Aerobic glycolysis" Data-Source="WikiPathways" Version="WP4629_Dr" Last-Modified="20230421042533" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">Glycolysis is the metabolic pathway that converts glucose C6H12O6, into pyruvate, CH3COCOO- and H+. The free energy released in this process is used to form the ATP and NADH.
 This pathway was made during a research project at the UMCG, concerning changed glycolytic fluxes during the Warburg Effect. It is an extended version of the glycolysis pathway (WP534), and is descriptive of the content that is provided in the computer model of Shestov et al (2014).
 A second version, containing the content of the model itself as well as the corresponding supplement and article, can be found here [https://www.wikipathways.org/index.php/Pathway:WP4628]
@@ -8,7 +8,7 @@ This pathway was uploaded to provide a high resolution version to readers of the
 Description and pathway adapted from [https://www.wikipathways.org/index.php/Pathway:WP534]
 Referred article: Shestov et al., 2014 [https://www.ncbi.nlm.nih.gov/pubmed/25009227]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4629.gpml (WP4629_r119264) with a 81.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4629.gpml (WP4629_r126318) with a 81.0% conversion rate.</Comment>
   <Graphics BoardWidth="1019.7569782977636" BoardHeight="1045.4113662736038" />
   <DataNode TextLabel="ATP" GraphId="d5702" Type="Metabolite" GroupRef="bb8f7">
     <Graphics CenterX="798.0369292843936" CenterY="741.1723215385394" Width="30.87379335120606" Height="17.243483875910115" ZOrder="-19" FontWeight="Bold" FontSize="9" Valign="Middle" ShapeType="Oval" Color="cc00cc" />
@@ -653,7 +653,7 @@ Referred article: Shestov et al., 2014 [https://www.ncbi.nlm.nih.gov/pubmed/2500
     <Graphics ConnectorType="Curved" ZOrder="32864" LineThickness="1.0" Color="cc00cc">
       <Point X="201.55428245274777" Y="173.84543090682433" GraphRef="eca64" RelX="1.0" RelY="0.0" />
       <Point X="247.04444059180796" Y="193.07732795285122" />
-      <Point X="210.77613450577047" Y="212.3092249988781" GraphRef="d40a0" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="210.77613450577047" Y="212.3092249988781" GraphRef="e8812" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -661,15 +661,15 @@ Referred article: Shestov et al., 2014 [https://www.ncbi.nlm.nih.gov/pubmed/2500
     <Graphics ConnectorType="Curved" ZOrder="32923" LineThickness="1.0" Color="cc00cc">
       <Point X="203.28118501082093" Y="326.87415123391816" GraphRef="d34d2" RelX="1.0" RelY="0.0" />
       <Point X="248.64064372538945" Y="346.4940499593784" />
-      <Point X="211.28118501082093" Y="366.11394868483865" GraphRef="c6e5a" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="211.28118501082093" Y="366.11394868483865" GraphRef="d1490" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d256d">
     <Graphics ConnectorType="Curved" ZOrder="32939" LineThickness="1.0" Color="cc00cc">
-      <Point X="210.77613450577047" Y="463.4657601493674" GraphRef="fbd90" RelX="1.0" RelY="0.0" />
+      <Point X="210.77613450577047" Y="463.4657601493674" GraphRef="f8b30" RelX="1.0" RelY="0.0" />
       <Point X="246.90224873795316" Y="485.6667088631925" />
-      <Point X="210.77613450577053" Y="507.8676575770176" GraphRef="f52b0" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="210.77613450577053" Y="507.8676575770176" GraphRef="a0e4a" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -844,42 +844,20 @@ Referred article: Shestov et al., 2014 [https://www.ncbi.nlm.nih.gov/pubmed/2500
   <Shape GraphId="ccab1">
     <Graphics CenterX="894.4088226770592" CenterY="311.07095879644305" Width="190.69631124140872" Height="350.09911152018105" ZOrder="33154" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="d2982" GraphId="d2982" Style="Group" />
-  <Group GroupId="a749c" GraphId="a749c" Style="Group" />
-  <Group GroupId="bb8f7" GraphId="bb8f7" Style="Group" />
-  <Group GroupId="f4171" GraphId="f4171" Style="Group" />
-  <Group GroupId="f52b0" GraphId="f52b0" Style="Group" />
-  <Group GroupId="c6e5a" GraphId="c6e5a" Style="Group" />
-  <Group GroupId="d40a0" GraphId="d40a0" Style="Group" />
-  <Group GroupId="fbd90" GraphId="fbd90" Style="Group" />
+  <Group GroupId="d2982" Style="Group" />
+  <Group GroupId="a749c" Style="Group" />
+  <Group GroupId="bb8f7" Style="Group" />
+  <Group GroupId="f4171" Style="Group" />
+  <Group GroupId="f52b0" GraphId="a0e4a" Style="Group" />
+  <Group GroupId="c6e5a" GraphId="d1490" Style="Group" />
+  <Group GroupId="d40a0" GraphId="e8812" Style="Group" />
+  <Group GroupId="d6d14" GraphId="f18db" Style="Group" />
+  <Group GroupId="fbd90" GraphId="f8b30" Style="Group" />
   <InfoBox CenterX="673.9666666666667" CenterY="316.3" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc6">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18240421</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of mitochondrial oxidative phosphorylation through cell signaling</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sciencedirect.com/science/article/pii/S0167488907002364?via%3Dihub</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hüttemann M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samavati L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yu H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doan JW</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4729424</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyruvate kinase. Classes of regulatory isoenzymes in mammalian tissues.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eur J Biochem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1973</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbonell J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felíu JE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marco R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sols A</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gluconeogenesis pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000641</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycolysis/gluconeogenesis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000025</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db4">
@@ -892,11 +870,62 @@ Referred article: Shestov et al., 2014 [https://www.ncbi.nlm.nih.gov/pubmed/2500
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tymoczko JL</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stryer L</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22628558</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mitochondrial pyruvate carrier required for pyruvate uptake in yeast, Drosophila, and humans.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bricker DK</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taylor EB</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schell JC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orsak T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boutron A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen YC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cox JE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardon CM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Vranken JG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dephoure N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redin C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boudina S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gygi SP</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brivet M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thummel CS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rutter J</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycolysis/gluconeogenesis pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000025</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gluconeogenesis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000641</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4729424</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyruvate kinase. Classes of regulatory isoenzymes in mammalian tissues.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eur J Biochem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1973</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbonell J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felíu JE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marco R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sols A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of mitochondrial oxidative phosphorylation through cell signaling</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sciencedirect.com/science/article/pii/S0167488907002364?via%3Dihub</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18240421</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of mitochondrial oxidative phosphorylation through cell signaling.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hüttemann M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samavati L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yu H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doan JW</bp:AUTHORS>
+    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 

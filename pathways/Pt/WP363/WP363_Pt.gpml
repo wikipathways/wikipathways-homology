@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Wnt signaling pathway" Data-Source="WikiPathways" Version="WP363_Pt" Last-Modified="20211223125537" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Wnt signaling pathway" Data-Source="WikiPathways" Version="WP363_Pt" Last-Modified="20230420063029" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">WNT signal, through the canonical pathway, controls cell fate determination and through the non-canonical pathway controls cell movement and tissue polarity. The name "wnt" is a fusion of two terms, wg derived from the Drosophila gene wingless (wg) and int derived from the proto-oncogene integration-1, which is the mammalian homolog of wg. ÃŸ-catenin is the key regulated effector of Wnt, involved in canonical signaling . Free ÃŸ-catenin is bound by a multiprotein "destruction complex". The ÃŸ-catenin destruction complex is comprised of ÃŸ-catenin, scaffold proteins (APC, AXIN) and serine/threonine kinases that phosphorylate ÃŸ-catenin casein kinase 1 (CSNK1A1, CSNK1D, CSNK1E, CSNK1G1) and GSK3B. The sequential phosphorylation of ÃŸ-catenin by casein kinase 1 and GSK3 is recognised by an SCF-class E3-ubiquitin ligase, which targets it for polyubiquitination and proteosomal destruction. Canonical WNT signals are transduced through a two-part receptor, a seven-transmembrane Frizzled (FZD) and low density lipoprotein receptor-related protein 5/6 (LRP5/LRP6) to a ÃŸ-catenin (CTNNB1) signaling cascade. On recruitment of deshevelled (DVL1) to FZD and AXIN to LRP6, ÃŸ-catenin destruction complex disassembles leading to its stabilization and nuclear accumulation. Nuclear ÃŸ-catenin binds to T-cell factor/lymphoid enhancer factor (TCF/LEF) family of transcription factors and Legless family docking protein, BCL9. These activate the transcription of Wnt target genes CCND1, MYC. Non-canonical WNT signaling diverges downstream after being transduced through FZD family receptors and co-receptors, ROR2 and RYK. This pathway does not involve ÃŸ-catenin-mediated gene expression. Small G proteins such as RAC1, RHOA and downstream effectors of RAC including JNK are DVL-dependant effector molecules of the non-canonical pathway. These have been implicated in cytoskeletal rearrangement, dendrite growth and control of cell polarity and orientation. Nemo-like kinase (NLK) and nuclear factor of activated T cells (NFAT) are Ca2+-dependant effectors of the non-canonical pathway. NLK inhibits canonical pathway by phosphorylation of TCF/LEF family transcription factors. NFAT transcription factor is implicated in convergent extension during early embryogenesis and carcinogenic metastasis.
   
 Please access this pathway at [http://www.netpath.org/netslim/wnt_pathway.html NetSlim] database.
@@ -9,7 +9,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
 
 This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363 CPTAC Assay Portal].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP363.gpml (WP363_r120695) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP363.gpml (WP363_r126288) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>eba</BiopaxRef>
   <Attribute Key="org.pathvisio.model.WindowHeight" Value="11190.0" />
   <Attribute Key="org.pathvisio.model.WindowWidth" Value="15480.0" />
@@ -39,9 +39,10 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
     <Graphics CenterX="384.5" CenterY="586.0" Width="51.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000014120" />
   </DataNode>
-  <DataNode TextLabel="GJA1" GraphId="aa2f6" Type="RNA">
+  <DataNode TextLabel="GJA1" GraphId="aa2f6" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:2697</Comment>
     <Graphics CenterX="117.25" CenterY="1170.25" Width="42.0" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="2697" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000051898" />
   </DataNode>
   <DataNode TextLabel="CSNK1E" GraphId="ab67c" Type="Protein" GroupRef="eb87e">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:1454</Comment>
@@ -108,9 +109,10 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
     <Graphics CenterX="491.0" CenterY="1043.0" Width="52.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000015827" />
   </DataNode>
-  <DataNode TextLabel="MYC" GraphId="c7ee3" Type="RNA">
+  <DataNode TextLabel="MYC" GraphId="c7ee3" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:4609</Comment>
     <Graphics CenterX="168.75" CenterY="1170.75" Width="42.0" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="4609" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000020581" />
   </DataNode>
   <DataNode TextLabel="CTNNB1" GraphId="c8926" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:1499</Comment>
@@ -122,13 +124,15 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
     <Graphics CenterX="371.5" CenterY="1044.0" Width="51.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000052519" />
   </DataNode>
-  <DataNode TextLabel="TEK" GraphId="ca6bd" Type="RNA">
+  <DataNode TextLabel="TEK" GraphId="ca6bd" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:7010</Comment>
     <Graphics CenterX="272.25" CenterY="1169.25" Width="42.0" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="7010" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000020835" />
   </DataNode>
-  <DataNode TextLabel="AXIN2" GraphId="ca892" Type="RNA">
+  <DataNode TextLabel="AXIN2" GraphId="ca892" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:8313</Comment>
     <Graphics CenterX="221.25" CenterY="1170.25" Width="42.0" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="8313" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000009554" />
   </DataNode>
   <DataNode TextLabel="PI4K2A" GraphId="ced58" Type="Protein" GroupRef="a5cd7">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:55361</Comment>
@@ -235,9 +239,10 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
     <Graphics CenterX="297.0" CenterY="844.0" Width="42.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000000142" />
   </DataNode>
-  <DataNode TextLabel="CCND1" GraphId="fc042" Type="RNA">
+  <DataNode TextLabel="CCND1" GraphId="fc042" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:595</Comment>
     <Graphics CenterX="65.125" CenterY="1170.75" Width="47.75" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="595" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000052519" />
   </DataNode>
   <DataNode TextLabel="ROR1" GraphId="fd6b8" Type="Protein" GroupRef="bdc6d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:4919</Comment>
@@ -289,12 +294,12 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
     <Graphics CenterX="371.0" CenterY="923.0" Width="54.0" Height="20.0" ZOrder="32817" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000008904" />
   </DataNode>
-  <State GraphRef="b8b23" TextLabel="P" GraphId="f9e76">
-    <Graphics RelX="1.0" RelY="1.0" Width="16.5" Height="17.5" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="df497" TextLabel="P" GraphId="df1cf">
     <Graphics RelX="1.0" RelY="1.0" Width="15.5" Height="17.5" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="b8b23" TextLabel="P" GraphId="f9e76">
+    <Graphics RelX="1.0" RelY="1.0" Width="16.5" Height="17.5" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ec02e" TextLabel="P" GraphId="c417d">
@@ -344,7 +349,7 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
   </Interaction>
   <Interaction GraphId="id2b67b425">
     <Comment>Interaction between GSK3B and CTNNB1_APC.</Comment>
-    <Comment>GSK-3 beta forms a complex with AXIN and beta-catenin and can block signaling induced by WNT</Comment>
+    <Comment>GSK-3 beta forms a complex with AXIN and beta-catenin and can block signaling induced by WNT </Comment>
     <Graphics ZOrder="12288" LineThickness="2.0" Color="00cc00">
       <Point X="205.5" Y="693.0" GraphRef="d0818" RelX="0.0" RelY="1.0" />
       <Point X="205.5" Y="784.0" GraphRef="e8ec2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -360,7 +365,7 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
   </Interaction>
   <Interaction GraphId="id4373761e">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="2.0" Color="ff0000">
-      <Point X="298.0" Y="475.0" GraphRef="b5dd3" RelX="-1.0" RelY="0.0" />
+      <Point X="298.0" Y="475.0" GraphRef="a8593" RelX="-1.0" RelY="0.0" />
       <Point X="205.5" Y="626.0" GraphRef="d0818" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -435,7 +440,7 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
     <Comment>Wnt inhibits GSK3-mediated phosphorylation of TSC2, a tumor suppressor which negatively regulates mTOR,thereby activating mTOR-mediated translational regulation in tumorigenesis.</Comment>
     <Graphics ZOrder="12288" LineThickness="2.0" Color="ff0000">
       <Point X="297.5" Y="804.0" GraphRef="b0d1f" RelX="0.0" RelY="1.0" />
-      <Point X="297.0" Y="834.0" GraphRef="fa78c" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="297.0" Y="834.0" GraphRef="fa78c" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -443,7 +448,7 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
     <Comment>On WNT1 stimulation LRP6 interacts with AXIN1 in Human HEK293 cells.</Comment>
     <Graphics ZOrder="12288" LineThickness="2.0" Color="00cc00">
       <Point X="250.25" Y="637.0" GraphRef="ab859" RelX="-0.5" RelY="-1.0" />
-      <Point X="251.5" Y="408.0" GraphRef="bccc6" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="251.5" Y="408.0" GraphRef="faa07" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -495,7 +500,7 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idfc0b603b">
-    <Comment>On WNT1, WNT3A and WNT5A  stimualtion, downstream effects via b-catenin/TCF and b-catenin/LEF dependent regulation of transcription leads to upregulation of GJA1 expression in HUVECs, PC12 cells .</Comment>
+    <Comment>On WNT1, WNT3A and WNT5A  stimualtion, downstream effects via b-catenin/TCF and b-catenin/LEF dependent regulation of transcription leads to upregulation of GJA1 expression in HUVECs, PC12 cells . </Comment>
     <Graphics ZOrder="12288" LineThickness="2.0">
       <Point X="117.57952877322296" Y="1101.0" GraphRef="a5871" RelX="0.0" RelY="0.0" />
       <Point X="117.25" Y="1160.25" GraphRef="aa2f6" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
@@ -651,7 +656,7 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
   <Interaction GraphId="e9c45">
     <Comment>TCF4 forms a complex with beta-catenin and BCL9</Comment>
     <Comment>WNT1 induces interaction of TCF4 with Beta catenin in Mouse C57MG cells.</Comment>
-    <Comment>beta-catenin interacts with LEF1 upon WNT1 stimulation in 293 and C57MG cells</Comment>
+    <Comment> beta-catenin interacts with LEF1 upon WNT1 stimulation in 293 and C57MG cells</Comment>
     <Graphics ZOrder="32811" LineThickness="2.0" Color="00cc00">
       <Point X="147.0" Y="969.0" GraphRef="e62dd" RelX="0.0" RelY="0.0" />
       <Point X="147.5" Y="1034.0" GraphRef="c22ad" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -839,7 +844,7 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
   <GraphicalLine GraphId="db8fb">
     <Graphics ZOrder="33569" LineThickness="2.0">
       <Point X="719.0" Y="603.0" />
-      <Point X="744.0" Y="603.0" ArrowHead="mim-inhibition" />
+      <Point X="744.0" Y="603.0" ArrowHead="TBar" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="de86b">
@@ -1101,11 +1106,11 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
     <Graphics CenterX="381.0" CenterY="247.0" Width="40.0" Height="22.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape GraphId="bbd29">
-    <Comment>WNT5A and WNT1 stimulates autophosphorylation of TAK1 in HEK293T cells.</Comment>
+    <Comment>WNT5A and WNT1 stimulates autophosphorylation of TAK1 in HEK293T cells. </Comment>
     <Graphics CenterX="523.6666666666666" CenterY="757.6666666666666" Width="14.907119999999999" Height="20.0" ZOrder="32801" FontSize="10" Valign="Middle" ShapeType="Arc" LineThickness="2.0" Color="0000ff" Rotation="2.554867" />
   </Shape>
   <Shape GraphId="b15aa">
-    <Comment>WNT5A stimulates autophosphorylation of NLK in PC12 cells.</Comment>
+    <Comment>WNT5A stimulates autophosphorylation of NLK in PC12 cells. </Comment>
     <Graphics CenterX="384.66666666666646" CenterY="910.6666666666666" Width="14.907119999999999" Height="20.0" ZOrder="32803" FontSize="10" Valign="Middle" ShapeType="Arc" LineThickness="2.0" Color="0000ff" Rotation="2.554867" />
   </Shape>
   <Shape GraphId="ced2d">
@@ -1120,32 +1125,37 @@ This pathway is part the [https://assays.cancer.gov/available_assays?wp_id=WP363
   <Shape GraphId="f645d">
     <Graphics CenterX="760.1699970809992" CenterY="490.9302146462993" Width="28.0" Height="28.0" ZOrder="33593" FillColor="ff3399" FontSize="10" Valign="Middle" ShapeType="Oval" Color="ff0066" Rotation="0.0" />
   </Shape>
-  <Group GroupId="d5862" GraphId="d5862" Style="Group" />
-  <Group GroupId="b5dd3" GraphId="b5dd3" Style="Group" />
-  <Group GroupId="f2fe8" GraphId="f2fe8" Style="Group" />
-  <Group GroupId="c531c" GraphId="c531c" Style="Group" />
-  <Group GroupId="eb87e" GraphId="eb87e" Style="Group" />
-  <Group GroupId="d2bd8" GraphId="d2bd8" Style="Group" />
-  <Group GroupId="d4469" GraphId="d4469" Style="Group" />
-  <Group GroupId="e8e3d" GraphId="e8e3d" Style="Group" />
-  <Group GroupId="a5cd7" GraphId="a5cd7" Style="Group" />
-  <Group GroupId="f041b" GraphId="f041b" Style="Group" />
-  <Group GroupId="a431c" GraphId="a431c" Style="Group" />
-  <Group GroupId="bdc6d" GraphId="bdc6d" Style="Group" />
-  <Group GroupId="bccc6" GraphId="bccc6" Style="Group" />
+  <Group GroupId="d5862" GraphId="a44e1" Style="Group" />
+  <Group GroupId="b5dd3" GraphId="a8593" Style="Group" />
+  <Group GroupId="f2fe8" GraphId="b1ed1" Style="Group" />
+  <Group GroupId="c531c" GraphId="c0374" Style="Group" />
+  <Group GroupId="eb87e" GraphId="cd3ea" Style="Group" />
+  <Group GroupId="d2bd8" GraphId="ce1c3" Style="Group" />
+  <Group GroupId="d4469" GraphId="e158e" Style="Group" />
+  <Group GroupId="e8e3d" GraphId="e623b" Style="Group" />
+  <Group GroupId="a5cd7" GraphId="f0483" Style="Group" />
+  <Group GroupId="f041b" GraphId="f0987" Style="Group" />
+  <Group GroupId="a431c" GraphId="f1bac" Style="Group" />
+  <Group GroupId="bdc6d" GraphId="f90cf" Style="Group" />
+  <Group GroupId="bccc6" GraphId="faa07" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000008</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canonical Wnt signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000201</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000008</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eba">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20067622</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20067622</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NetPath: a public resource of curated signal transduction pathways.</bp:TITLE>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Vitamin B6-dependent and responsive disorders" Data-Source="WikiPathways" Version="WP4228_Mm" Last-Modified="20221001082342" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Vitamin B6-dependent and responsive disorders" Data-Source="WikiPathways" Version="WP4228_Mm" Last-Modified="20230331134338" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Vitamine B6 is absorbed in different vitamers, which undergo several (de)phosphorylation steps, to be able to pas the blood-brain barrier. Within the brain, PLP (Pyridoxal-P) is the only active cofactor for intracellular enzyme reactions. PLP catalyses over 100 reactions, mainly related to amino acids and neurotransmitter metabolism. Bold lines in the Figure show how the major source of PLP is divided in the body.
 A number of genetic defects have been identified as the underlying cause of vitamine B6 dependent epilepsies, particularly occurring in the neonatal life stage, which could lead to irreversible brain damage or could be fatal. 
 The disorders related to this pathway can be divided in two categories: reduced production/availability of PLP or inactivation of PLP by formation of Knoevenagel products.
@@ -8,7 +8,7 @@ Oral treatment with PL or PLP is available, as well as intrauterine treatment wi
 
 This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 9783030677268) (ed.4 Chapter 11).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4228.gpml (WP4228_r124218) with a 92.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4228.gpml (WP4228_r126057) with a 93.0% conversion rate.</Comment>
   <BiopaxRef>d7f</BiopaxRef>
   <BiopaxRef>f03</BiopaxRef>
   <Graphics BoardWidth="1721.9310688641172" BoardHeight="1181.141458410163" />
@@ -41,10 +41,11 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Graphics CenterX="758.0601240514513" CenterY="505.5436966105115" Width="90.0" Height="25.0" ZOrder="33004" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000028766" />
   </DataNode>
-  <DataNode TextLabel="IP" GraphId="d9699" Type="Pathway">
+  <DataNode TextLabel="Alppl2" GraphId="d9699" Type="Protein">
     <Comment>Intestinal alkaline phosphatases</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000163295</Comment>
     <Graphics CenterX="574.7004339679578" CenterY="190.01456116732425" Width="61.58277819390773" Height="25.0" ZOrder="33005" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSG00000163295" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000026246" />
   </DataNode>
   <DataNode TextLabel="P5C &#xA;dehydrogenase" GraphId="ab0c2" Type="Protein">
     <Graphics CenterX="324.2610248049687" CenterY="1046.3044444172663" Width="100.77342121586494" Height="37.974683544303815" ZOrder="33006" FontSize="12" Valign="Middle" />
@@ -188,10 +189,11 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Graphics CenterX="931.8473556557292" CenterY="266.4687665042537" Width="61.58277819390773" Height="25.0" ZOrder="33057" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000032788" />
   </DataNode>
-  <DataNode TextLabel="IP" GraphId="aa993" Type="Pathway">
+  <DataNode TextLabel="Alppl2" GraphId="aa993" Type="Protein">
     <Comment>Intestinal alkaline phosphatases</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000163295</Comment>
     <Graphics CenterX="758.0601240514511" CenterY="190.01456116732427" Width="61.58277819390771" Height="25.0" ZOrder="33059" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSG00000163295" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000026246" />
   </DataNode>
   <DataNode TextLabel="Pdxk" GraphId="b732c" Type="Protein">
     <Comment>Phosphate kinase</Comment>
@@ -303,7 +305,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Comment>dephosphorylation</Comment>
     <Graphics ZOrder="32946" LineThickness="1.0">
       <Point X="643.4075468774784" Y="160.20393694268432" GraphRef="ee030" RelX="0.0" RelY="1.0" />
-      <Point X="643.4075468774784" Y="217.92713816347023" GraphRef="c551c" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="643.4075468774784" Y="217.92713816347023" GraphRef="c551c" RelX="0.0" RelY="-1.0" ArrowHead="mim-modification" />
       <Anchor Position="0.4999813732569698" Shape="None" GraphId="aabfd" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -358,7 +360,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Comment>rephoshorylation</Comment>
     <Graphics ZOrder="32953" LineThickness="1.0">
       <Point X="643.4075468774784" Y="242.92713816347023" GraphRef="c551c" RelX="0.0" RelY="1.0" />
-      <Point X="643.4075468774784" Y="298.43710002549346" GraphRef="f8c88" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="643.4075468774784" Y="298.43710002549346" GraphRef="f8c88" RelX="0.0" RelY="-1.0" ArrowHead="mim-modification" />
       <Anchor Position="0.4115113276242737" Shape="None" GraphId="c7fc0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -411,7 +413,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
   <Interaction GraphId="a7c80">
     <Graphics ZOrder="32961" LineThickness="1.0">
       <Point X="713.0601240514513" Y="505.54369661051146" GraphRef="a9176" RelX="-1.0" RelY="0.0" />
-      <Point X="642.8733169841938" Y="506.672459532274" ArrowHead="mim-catalysis" />
+      <Point X="642.882341240372" Y="504.7927125605519" GraphRef="c9297" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -463,7 +465,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
       <Point X="643.4075468774784" Y="323.43710002549346" GraphRef="f8c88" RelX="0.0" RelY="1.0" />
       <Point X="643.4075468774784" Y="370.3927036972812" GraphRef="e3218" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref Database="" ID="TNSAP" />
   </Interaction>
   <Interaction GraphId="ac671">
     <Graphics ZOrder="32970" LineThickness="1.0">
@@ -601,7 +603,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Comment>dephosphorylation</Comment>
     <Graphics ZOrder="33023" LineThickness="1.0">
       <Point X="817.534161649208" Y="160.20393694268432" GraphRef="b1952" RelX="0.0" RelY="1.0" />
-      <Point X="817.534161649208" Y="217.92713816347035" GraphRef="e431f" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="817.534161649208" Y="217.92713816347035" GraphRef="e431f" RelX="0.0" RelY="-1.0" ArrowHead="mim-modification" />
       <Anchor Position="0.5075073060595224" Shape="None" GraphId="b232f" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -610,7 +612,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Comment>Rephosphorylation</Comment>
     <Graphics ZOrder="33024" LineThickness="1.0">
       <Point X="1011.9469173153218" Y="242.92713816347023" GraphRef="d6f45" RelX="0.0" RelY="1.0" />
-      <Point X="1011.9469173153223" Y="298.4371000254935" GraphRef="caf35" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="1011.9469173153223" Y="298.4371000254935" GraphRef="caf35" RelX="0.0" RelY="-1.0" ArrowHead="mim-modification" />
       <Anchor Position="0.43043442057609693" Shape="None" GraphId="da7b3" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -619,7 +621,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Comment>rephosphorylation</Comment>
     <Graphics ZOrder="33026" LineThickness="1.0">
       <Point X="817.534161649208" Y="242.92713816347035" GraphRef="e431f" RelX="0.0" RelY="1.0" />
-      <Point X="817.534161649208" Y="298.4371000254935" GraphRef="ded12" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="817.534161649208" Y="298.4371000254935" GraphRef="ded12" RelX="0.0" RelY="-1.0" ArrowHead="mim-modification" />
       <Anchor Position="0.4115113276242721" Shape="None" GraphId="dcba3" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -642,7 +644,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Comment>Phosphate kinase</Comment>
     <Graphics ZOrder="33049" LineThickness="1.0">
       <Point X="1011.9469173153218" Y="655.3582957699034" GraphRef="ffcd1" RelX="0.0" RelY="1.0" />
-      <Point X="1011.9469173153218" Y="727.6930250861952" GraphRef="b9747" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="1011.9469173153218" Y="727.6930250861952" GraphRef="b9747" RelX="0.0" RelY="-1.0" ArrowHead="mim-modification" />
       <Anchor Position="0.408391678752135" Shape="None" GraphId="bb8a1" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -651,7 +653,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Comment>Phosphate kinase</Comment>
     <Graphics ZOrder="33050" LineThickness="1.0">
       <Point X="817.534161649208" Y="655.3582957699034" GraphRef="c1ec5" RelX="0.0" RelY="1.0" />
-      <Point X="817.534161649208" Y="727.6930250861953" GraphRef="bd8e0" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="817.534161649208" Y="727.6930250861953" GraphRef="bd8e0" RelX="0.0" RelY="-1.0" ArrowHead="mim-modification" />
       <Anchor Position="0.42294390821226885" Shape="None" GraphId="c9c65" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -678,7 +680,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Comment>Rephosphorylation</Comment>
     <Graphics ZOrder="33053" LineThickness="3.0">
       <Point X="643.4075468774784" Y="655.3582957699034" GraphRef="c0abd" RelX="0.0" RelY="1.0" />
-      <Point X="795.034161649208" Y="905.6204511740344" GraphRef="db610" RelX="-0.5" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="795.034161649208" Y="905.6204511740344" GraphRef="db610" RelX="-0.5" RelY="-1.0" ArrowHead="mim-modification" />
       <Anchor Position="0.11911214495114646" Shape="None" GraphId="b04a8" />
     </Graphics>
     <Xref Database="Rhea" ID="10225" />
@@ -723,7 +725,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
   </GraphicalLine>
   <GraphicalLine GraphId="c9a2b">
     <Graphics ZOrder="32977" LineStyle="Broken" LineThickness="1.0">
-      <Point X="642.8733169841938" Y="506.672459532274" />
+      <Point X="642.882341240372" Y="504.7927125605519" GraphRef="c9297" RelX="0.0" RelY="0.0" />
       <Point X="597.1718120907942" Y="505.5390949095828" GraphRef="b4c12" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
@@ -763,6 +765,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
     <Graphics ZOrder="33069" LineThickness="1.0" Color="009999">
       <Point X="643.4075468774784" Y="395.3927036972812" GraphRef="e3218" RelX="0.0" RelY="1.0" />
       <Point X="642.7304988070657" Y="536.421397357353" GraphRef="c724b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.7757287260063737" Shape="None" GraphId="c9297" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="be08b">
@@ -806,7 +809,7 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
   <GraphicalLine GraphId="ea676">
     <Graphics ZOrder="33139" LineThickness="1.0">
       <Point X="1295.455893076779" Y="361.93580364483734" />
-      <Point X="1370.4558930767819" Y="361.93580364483734" ArrowHead="mim-conversion" />
+      <Point X="1370.4558930767819" Y="361.93580364483734" ArrowHead="mim-modification" />
     </Graphics>
   </GraphicalLine>
   <Label TextLabel="TNSALP" GraphId="d77dd">
@@ -854,21 +857,21 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
   <Label TextLabel="Vitamine B6 metabolism&#xA;Fig. 34.1" GraphId="ab7ec">
     <Graphics CenterX="477.21357131306456" CenterY="115.5095975134737" Width="146.20154313948268" Height="32.345644983461966" ZOrder="33080" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Hyperprolinaemia type II" GraphId="c1558" Href="htpps://omim.org/239510">
+  <Label TextLabel="Hyperprolinaemia type II" GraphId="c1558" Href="htpps://omim.org/entry/239510">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="120.96084206183765" CenterY="1045.9117657170368" Width="156.96030345396434" Height="30.33517835178332" ZOrder="33081" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="PNPO deficiency" GraphId="c5331" Href="https://omim.org/610090">
+  <Label TextLabel="PNPO deficiency" GraphId="c5331" Href="https://omim.org/entry/610090">
     <Comment>DISEASE</Comment>
     <Comment>Pyridox(am)ine 5'-phosphate oxidase deficiency</Comment>
     <Graphics CenterX="890.7123948568687" CenterY="779.5142501890856" Width="111.24601773967855" Height="30.33517835178332" ZOrder="33082" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="PNPO deficiency" GraphId="f2902" Href="https://omim.org/610090">
+  <Label TextLabel="PNPO deficiency" GraphId="f2902" Href="https://omim.org/entry/610090">
     <Comment>DISEASE</Comment>
     <Comment>Pyridox(am)ine 5'-phosphate oxidase deficiency</Comment>
     <Graphics CenterX="906.469447246046" CenterY="402.84387039395494" Width="111.24601773967855" Height="30.33517835178332" ZOrder="33083" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Congential &#xA;hypophosphatasia" GraphId="b4c12" Href="https://omim.org/241500">
+  <Label TextLabel="Congential &#xA;hypophosphatasia" GraphId="b4c12" Href="https://omim.org/entry/241500">
     <Comment>DISEASE</Comment>
     <Comment>aka Alpha-amino adipic semialdehyde (AASA) dehydrogenase deficiency</Comment>
     <Graphics CenterX="531.0063754364277" CenterY="505.5390949095828" Width="132.33087330873303" Height="30.33517835178332" ZOrder="33084" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
@@ -900,12 +903,12 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
   <Label TextLabel="Phosphorylated&#xA;Metabolite" GraphId="eb602">
     <Graphics CenterX="1334.9501411622161" CenterY="229.83477541472462" Width="90.0" Height="25.0" ZOrder="33150" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="Rectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="PLP-binding protein&#xA;deficiency" GraphId="bef4a" Href="https://omim.org/617290">
+  <Label TextLabel="PLP-binding protein&#xA;deficiency" GraphId="bef4a" Href="https://omim.org/entry/617290">
     <Comment>aka PROSC deficiency, vitamin B6-dependent early-onset Epilepsy.</Comment>
     <Graphics CenterX="812.3931580122282" CenterY="1011.9786272442564" Width="158.11138036753366" Height="30.33517835178332" ZOrder="33152" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Shape GraphId="c3cbb">
-    <Graphics CenterX="757.9064357715201" CenterY="563.2294301802748" Width="732.0754716981137" Height="951.4433962264152" ZOrder="-2" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
+    <Graphics CenterX="757.9064357715201" CenterY="568.3027109018082" Width="732.0754716981137" Height="951.4433962264152" ZOrder="-4" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
   </Shape>
   <Shape GraphId="e1e94">
     <Graphics CenterX="205.7809261376829" CenterY="934.2431673407034" Width="357.536091139818" Height="433.79658213891923" ZOrder="32942" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
@@ -926,37 +929,12 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
   <Shape GraphId="a009e">
     <Graphics CenterX="1385.1851851851618" CenterY="237.8600823045267" Width="23.04526748971196" Height="19.753086419753103" ZOrder="33151" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="c5734" GraphId="c5734" Style="Complex" />
+  <Group GroupId="c5734" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperprolinemia type 2</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080543</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epilepsy</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1826</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypophosphatasia</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14213</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyridoxine-dependent epilepsy</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080768</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypophosphatasia disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001881</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysine degradation pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000073</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperprolinemia type II disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001932</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7f">
@@ -970,6 +948,65 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibson, K.M.</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dionisi-Vici, C.</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypophosphatasia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14213</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infantile hypophosphatasia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0110914</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epilepsy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1826</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood hypophosphatasia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0110915</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early-onset vitamin B6-dependent epilepsy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080769</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypophosphatasia disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001881</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperprolinemia type 2</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080543</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31825581</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical and Proteomic Studies of Human Pyridoxal 5′-Phosphate-Binding Protein (PLPBP)</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACS Chem Biol .</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anja Fux</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephan A Sieber</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0002319</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysine degradation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000073</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyridoxamine 5'-phosphate oxidase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0111329</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f03">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16763894</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -984,43 +1021,9 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early-onset vitamin B6-dependent epilepsy</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080769</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proline metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001079</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood hypophosphatasia</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0110915</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0002319</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infantile hypophosphatasia</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0110914</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc7">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31825581</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical and Proteomic Studies of Human Pyridoxal 5′-Phosphate-Binding Protein (PLPBP)</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACS Chem Biol .</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anja Fux</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephan A Sieber</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyridoxamine 5'-phosphate oxidase deficiency</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0111329</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyridoxine-dependent epilepsy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080768</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
@@ -1028,8 +1031,8 @@ This pathway was inspired by Ed. 5 Chapter 34 of the book of Blau (ISBN 97830306
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperprolinemia type II disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001932</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proline metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001079</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>

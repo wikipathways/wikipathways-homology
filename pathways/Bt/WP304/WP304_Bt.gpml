@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Kit receptor signaling pathway" Data-Source="WikiPathways" Version="WP304_Bt" Last-Modified="20211223125909" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Kit receptor signaling pathway" Data-Source="WikiPathways" Version="WP304_Bt" Last-Modified="20230420043627" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">Kit is a cytokine receptor that belongs to the type III receptor tyrosine kinase family. It is structurally similar to platelet-derived growth factor recpetors (PDGFRs), colony stimulating factor-1 receptor and fms-like tyrosine kinase. Kit signaling is plays important role in a number of physiological processes including erythropoiesis, lymphopoiesis, mast cell development and function, megakaryopoiesis, gametogenesis and melanogenesis. Sequence alterations in the c-kit gene are found to be associated with different cancers including hematopoietic malignancies, gastrointestinal stromal tumors, germ cell tumors, small-cell lung cancer and pancreatic cancer. The primary ligand for kit receptor is stem cell factor (SCF). It is also known as Kit ligand, steel factor or mast cell growth factor. SCF is a glycosylated, non-covalent homodimer. Alternative splicing and proteolytic cleavage results in soluble and membrane bound forms of the protein. that binds to two KIT monomers. Binding of SCF to KIT results in the dimerization of the receptor and its autophsphorylation. The residues that are known to get phosphorylated upon ligand binding include Tyr568, Tyr570, Tyr703, Tyr721, Tyr730, Tyr823, Tyr 900 and Tyr936. Signaling events downstream of the KIT receptor are well studied. Among the signaling cascades that are activated are the Ras/Raf/MEK/MAPK and the PI3K/AKT/RPS6K pathways. KIT stimulation is also known to activate the JAK/STAT and PLC/PKC signaling pathways. Among the other key proteins that are regulated by KIT are the kinases BTK, TEC, LYN, SRC, FYN and JNK. Regulation of KIT receptor tyrosine kinase occurs through many mechanisms. Activated KIT receptors are degraded via CBL, a E3 ubiquitin-protein ligase. CBL induces the degradation of the receptor via the proteasome or lysosome. KIT can also be dephosphorylated and inactivated by the protein tyrosine phosphatase Shp1. Also, activation of protein kinase C results in a negative feedback loop, wherein it phosphorylates specific serine residues leading to the inactivation of KIT. 
   
 Please access this pathway at [http://www.netpath.org/netslim/kit_pathway.html NetSlim] database.
@@ -7,7 +7,7 @@ Please access this pathway at [http://www.netpath.org/netslim/kit_pathway.html N
 If you use this pathway, please cite the following paper:
 Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugopal, A. K., Telikicherla, D., Navarro, J. D., Mathivanan, S., Pecquet, C., Gollapudi, S. K., Tattikota, S. G., Mohan, S., Padhukasahasram, H., Subbannayya, Y., Goel, R., Jacob, H. K. C., Zhong, J., Sekhar, R., Nanjappa, V., Balakrishnan, L., Subbaiah, R., Ramachandra, Y. L., Rahiman, B. A., Prasad, T. S. K., Lin, J., Houtman, J. C. D., Desiderio, S., Renauld, J., Constantinescu, S. N., Ohara, O., Hirano, T., Kubo, M., Singh, S., Khatri, P., Draghici, S., Bader, G. D., Sander, C., Leonard, W. J. and Pandey, A. (2010). NetPath: A public resource of curated signal transduction pathways. &lt;i&gt;Genome Biology&lt;/i&gt;. 11:R3.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP304.gpml (WP304_r120696) with a 95.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP304.gpml (WP304_r126285) with a 95.0% conversion rate.</Comment>
   <BiopaxRef>ddc</BiopaxRef>
   <Attribute Key="org.pathvisio.model.WindowHeight" Value="11190.0" />
   <Attribute Key="org.pathvisio.model.WindowWidth" Value="15480.0" />
@@ -53,18 +53,20 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Graphics CenterX="445.0" CenterY="281.0" Width="44.0" Height="20.0" ZOrder="32774" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000017549" />
   </DataNode>
-  <DataNode TextLabel="KIT" GraphId="acac8" Type="RNA">
+  <DataNode TextLabel="KIT" GraphId="acac8" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:3815</Comment>
     <Graphics CenterX="568.0" CenterY="1361.0" Width="36.0" Height="20.0" ZOrder="32776" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="3815" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000002699" />
   </DataNode>
   <DataNode TextLabel="VAV1" GraphId="d7053" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:7409</Comment>
     <Graphics CenterX="714.1574074074074" CenterY="711.8425925925926" Width="42.0" Height="20.0" ZOrder="32778" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000039160" />
   </DataNode>
-  <DataNode TextLabel="FOS" GraphId="b5ba1" Type="RNA">
+  <DataNode TextLabel="FOS" GraphId="b5ba1" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:2353</Comment>
     <Graphics CenterX="815.0" CenterY="1361.0" Width="36.0" Height="20.0" ZOrder="32780" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="2353" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000004322" />
   </DataNode>
   <DataNode TextLabel="GAB2" GraphId="ab2ca" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:9846</Comment>
@@ -78,9 +80,10 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Graphics CenterX="374.5" CenterY="601.0" Width="41.0" Height="20.0" ZOrder="32782" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000005062" />
   </DataNode>
-  <DataNode TextLabel="BCL2" GraphId="b00f4" Type="RNA">
+  <DataNode TextLabel="BCL2" GraphId="b00f4" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:596</Comment>
     <Graphics CenterX="646.0625" CenterY="1327.0" Width="37.875" Height="20.0" ZOrder="32784" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="596" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000019302" />
   </DataNode>
   <DataNode TextLabel="MAP2K2" GraphId="ddece" Type="Protein" GroupRef="f93b2">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:5605</Comment>
@@ -125,18 +128,20 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Graphics CenterX="510.33333333333326" CenterY="668.3333333333334" Width="41.333333333333485" Height="20.0" ZOrder="32792" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000045548" />
   </DataNode>
-  <DataNode TextLabel="SNAI2" GraphId="d20e5" Type="RNA">
+  <DataNode TextLabel="SNAI2" GraphId="d20e5" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:6591</Comment>
     <Graphics CenterX="766.0416666666661" CenterY="1326.0" Width="41.91666666666788" Height="20.0" ZOrder="32792" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="6591" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000013227" />
   </DataNode>
   <DataNode TextLabel="JAK2" GraphId="b679d" Type="Protein">
     <Comment Source="HomologyMapper">No homologues found for original id L:3717</Comment>
     <Graphics CenterX="205.83333333333292" CenterY="603.0" Width="35.0" Height="20.0" ZOrder="32794" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="TBX2" GraphId="c905d" Type="RNA">
+  <DataNode TextLabel="TBX2" GraphId="c905d" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:6909</Comment>
     <Graphics CenterX="684.0" CenterY="1360.0" Width="40.0" Height="20.0" ZOrder="32796" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="6909" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000014278" />
   </DataNode>
   <DataNode TextLabel="PIK3R2" GraphId="a6aea" Type="Protein" GroupRef="ac446">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:5296</Comment>
@@ -160,9 +165,10 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Graphics CenterX="376.0" CenterY="744.0" Width="44.0" Height="20.0" ZOrder="32802" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000017584" />
   </DataNode>
-  <DataNode TextLabel="SNAI1" GraphId="a4707" Type="RNA">
+  <DataNode TextLabel="SNAI1" GraphId="a4707" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:6615</Comment>
     <Graphics CenterX="718.041666666667" CenterY="1327.0" Width="41.91666666666606" Height="20.0" ZOrder="32804" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="6615" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000014554" />
   </DataNode>
   <DataNode TextLabel="BTK" GraphId="a55c1" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:695</Comment>
@@ -344,11 +350,12 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
     <Graphics CenterX="244.4999999999999" CenterY="742.666666666666" Width="53.666666666666515" Height="20.0" ZOrder="32974" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000009496" />
   </DataNode>
-  <DataNode TextLabel="JUNB" GraphId="ca5b1" Type="RNA">
+  <DataNode TextLabel="JUNB" GraphId="ca5b1" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:3726</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="STAT5A" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
     <Graphics CenterX="598.1666666666665" CenterY="1327.0" Width="39.66666666666697" Height="20.0" ZOrder="32976" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="3726" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000012046" />
   </DataNode>
   <DataNode TextLabel="PRKCA" GraphId="b882a" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:5578</Comment>
@@ -1447,7 +1454,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
   <GraphicalLine GraphId="f0595">
     <Graphics ZOrder="33662" LineThickness="2.0">
       <Point X="918.0" Y="825.0" />
-      <Point X="943.0" Y="825.0" ArrowHead="mim-inhibition" />
+      <Point X="943.0" Y="825.0" ArrowHead="TBar" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="fd9b1">
@@ -1685,16 +1692,26 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
   <Shape GraphId="e66ac">
     <Graphics CenterX="979.5" CenterY="1163.5" Width="15.0" Height="15.0" ZOrder="33677" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="f14df" GraphId="f14df" Style="Group" />
-  <Group GroupId="c8fdd" GraphId="c8fdd" Style="Group" />
-  <Group GroupId="f93b2" GraphId="f93b2" Style="Group" />
-  <Group GroupId="ac446" GraphId="ac446" Style="Group" />
-  <Group GroupId="ab8ba" GraphId="ab8ba" Style="Group" />
-  <Group GroupId="d7407" GraphId="d7407" Style="Group" />
-  <Group GroupId="a02e7" GraphId="a02e7" Style="Group" />
-  <Group GroupId="c4bea" GraphId="c4bea" Style="Group" />
+  <Group GroupId="f14df" GraphId="a7724" Style="Group" />
+  <Group GroupId="c8fdd" GraphId="bd11e" Style="Group" />
+  <Group GroupId="f93b2" GraphId="c4fc6" Style="Group" />
+  <Group GroupId="ac446" GraphId="efae0" Style="Group" />
+  <Group GroupId="ab8ba" GraphId="efb0b" Style="Group" />
+  <Group GroupId="d7407" GraphId="f5448" Style="Group" />
+  <Group GroupId="a02e7" GraphId="f7faa" Style="Group" />
+  <Group GroupId="c4bea" GraphId="fd5e6" Style="Group" />
   <InfoBox CenterX="15.0" CenterY="8.333333333333334" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytokine mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000828</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stem Cell Factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001227</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddc">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20067622</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1742,16 +1759,6 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonard WJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey A</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stem Cell Factor signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001227</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytokine mediated signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000828</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

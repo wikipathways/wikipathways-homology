@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Sphingolipid metabolism overview" Data-Source="WikiPathways" Version="WP4725_Qc" Last-Modified="20210518095608" Organism="Equus caballus">
-  <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Sphingolipid metabolism overview" Data-Source="WikiPathways" Version="WP4725_Qc" Last-Modified="20221208085614" Organism="Equus caballus">
+  <Comment Source="WikiPathways-description">This pathway is inspired by the Lipidmaps&gt;Sphingolipids pathway [https://lipidmaps.org/pathway/pathways_maps].
+Sphingolipids are a class of lipids, which act as signal transduction and cell recognition molecules.
+This pathway provides an overview of the different tail lengths (on the right), which are used to convert sphinganine to DH-ceramide. All products are annotated with a lipid-class identifier.
+The integrated pathway can be found [https://www.wikipathways.org/index.php/Pathway:WP4690 here].</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4344_107206.gpml] with a 92.0% conversion rate.</Comment>
+  <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4725.gpml (WP4725_r117175) with a 88.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4725.gpml (WP4725_r124751) with a 88.0% conversion rate.</Comment>
   <BiopaxRef>fc1</BiopaxRef>
   <Graphics BoardWidth="1421.0930551543727" BoardHeight="831.0226147461126" />
   <DataNode TextLabel="ATP" GraphId="a01f7" Type="Metabolite">
@@ -178,7 +182,7 @@
   </DataNode>
   <DataNode TextLabel="DH-Glc-Cer" GraphId="e6a32" Type="Metabolite">
     <Graphics CenterX="594.2465714876168" CenterY="279.1860143725812" Width="87.99702178113742" Height="28.5" ZOrder="32781" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="Gal-Cer" GraphId="be1a4" Type="Metabolite">
     <Graphics CenterX="843.0526860313873" CenterY="329.6037792363389" Width="117.5" Height="28.5" ZOrder="32782" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -186,7 +190,7 @@
   </DataNode>
   <DataNode TextLabel="DH-Gal-Cer" GraphId="c9f6c" Type="Metabolite">
     <Graphics CenterX="843.0526860313873" CenterY="295.22933270823546" Width="117.5" Height="28.5" ZOrder="32783" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="SMPD1" GraphId="fe827" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20597</Comment>
@@ -384,7 +388,7 @@
   </Interaction>
   <Interaction GraphId="id20e811f3">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="859.6484758460344" Y="568.5961673699013" GraphRef="e29dc" RelX="-1.0" RelY="0.0" />
+      <Point X="859.6484758460344" Y="568.5961673699013" GraphRef="feaff" RelX="-1.0" RelY="0.0" />
       <Point X="800.2198541864055" Y="568.4444444444448" GraphRef="b29de" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -408,7 +412,7 @@
   </Interaction>
   <Interaction GraphId="id2fa1d96b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="739.1710465305932" Y="306.05000982049467" GraphRef="c0c64" RelX="1.0" RelY="0.0" />
+      <Point X="739.1710465305932" Y="306.05000982049467" GraphRef="fb07d" RelX="1.0" RelY="0.0" />
       <Point X="761.4596572806357" Y="305.4263565891473" GraphRef="b938a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -462,7 +466,7 @@
   <Interaction GraphId="id765f7ea9">
     <BiopaxRef>b39</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="171.9473684210526" Y="545.1315789473686" GraphRef="ba605" RelX="1.0" RelY="0.0" />
+      <Point X="171.9473684210526" Y="545.1315789473686" GraphRef="e9f31" RelX="1.0" RelY="0.0" />
       <Point X="219.19658251621775" Y="545.2583618678739" GraphRef="e0038" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -552,7 +556,7 @@
   </Interaction>
   <Interaction GraphId="idaad03b91">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="760.7552118446347" Y="132.46117249737858" GraphRef="af21a" RelX="0.0" RelY="1.0" />
+      <Point X="760.7552118446347" Y="132.46117249737858" GraphRef="bfe17" RelX="0.0" RelY="1.0" />
       <Point X="761.4596572806357" Y="200.31293952180025" GraphRef="c997e" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.32422846936995403" Shape="None" GraphId="afbb2" />
     </Graphics>
@@ -574,7 +578,7 @@
   </Interaction>
   <Interaction GraphId="idb39e1f3c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="180.0205370048315" Y="200.63372093023204" GraphRef="f0511" RelX="1.0" RelY="0.0" />
+      <Point X="180.0205370048315" Y="200.63372093023204" GraphRef="e69f4" RelX="1.0" RelY="0.0" />
       <Point X="260.225623897891" Y="200.48878897743035" GraphRef="aa5ea" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -645,7 +649,7 @@
   </Interaction>
   <Interaction GraphId="iddbfe9fa1">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="1150.09566059728" Y="339.43022187778024" GraphRef="d945f" RelX="0.0" RelY="1.0" />
+      <Point X="1150.09566059728" Y="339.43022187778024" GraphRef="a8e79" RelX="0.0" RelY="1.0" />
       <Point X="1037.8929894593502" Y="445.8509142053446" />
       <Point X="925.6903183214204" Y="403.875" GraphRef="abc88" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
@@ -676,7 +680,7 @@
   </Interaction>
   <Interaction GraphId="idf3d315c9">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="1150.09566059728" Y="280.9302218777807" GraphRef="d945f" RelX="0.0" RelY="-1.0" />
+      <Point X="1150.09566059728" Y="280.9302218777807" GraphRef="a8e79" RelX="0.0" RelY="-1.0" />
       <Point X="1018.2801554227825" Y="168.77637130801688" />
       <Point X="886.4646502482851" Y="207.43793952180025" GraphRef="f7a25" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
@@ -698,14 +702,14 @@
   </Interaction>
   <Interaction GraphId="idfd30c455">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="463.0102901920261" Y="542.1401908788723" GraphRef="e505a" RelX="-1.0" RelY="0.0" />
+      <Point X="463.0102901920261" Y="542.1401908788723" GraphRef="ce853" RelX="-1.0" RelY="0.0" />
       <Point X="299.53336906125185" Y="543.1640679215304" GraphRef="a78e1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idfee96b1a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="569.0102901920261" Y="542.1401908788723" GraphRef="e505a" RelX="1.0" RelY="0.0" />
+      <Point X="569.0102901920261" Y="542.1401908788723" GraphRef="ce853" RelX="1.0" RelY="0.0" />
       <Point X="719.8865208530704" Y="543.1578947368419" GraphRef="a5e51" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -752,14 +756,14 @@
   </Interaction>
   <Interaction GraphId="b36ce">
     <Graphics ZOrder="32819" LineThickness="1.0">
-      <Point X="1259.651795023691" Y="128.40094220193123" GraphRef="fa178" RelX="1.0" RelY="0.0" />
+      <Point X="1259.651795023691" Y="128.40094220193123" GraphRef="c7a3b" RelX="1.0" RelY="0.0" />
       <Point X="1286.4349529687574" Y="128.698224852071" GraphRef="cb42d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="aa321">
     <Graphics ZOrder="32821" LineThickness="1.0">
-      <Point X="1265.9698517565039" Y="282.00166442479883" GraphRef="d4bdd" RelX="1.0" RelY="0.0" />
+      <Point X="1265.9698517565039" Y="282.00166442479883" GraphRef="da538" RelX="1.0" RelY="0.0" />
       <Point X="1286.9743289659436" Y="280.9939691304553" GraphRef="a8f13" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -857,41 +861,42 @@
     <Comment>results from mutation in SMPD1 gene</Comment>
     <Graphics CenterX="1086.369449942553" CenterY="268.94650907102744" Width="90.0" Height="25.0" ZOrder="33041" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Group GroupId="d945f" GraphId="d945f" Style="Group" />
-  <Group GroupId="af21a" GraphId="af21a" Style="Group" />
-  <Group GroupId="fa178" GraphId="fa178" Style="Group" />
-  <Group GroupId="e505a" GraphId="e505a" Style="Group" />
-  <Group GroupId="d4bdd" GraphId="d4bdd" Style="Group" />
-  <Group GroupId="f0511" GraphId="f0511" Style="Group" />
-  <Group GroupId="ba605" GraphId="ba605" Style="Group" />
-  <Group GroupId="c0c64" GraphId="c0c64" Style="Group" />
-  <Group GroupId="e29dc" GraphId="e29dc" Style="Group" />
+  <Group GroupId="c13d0" GraphId="a6c1c" Style="Group" />
+  <Group GroupId="d945f" GraphId="a8e79" Style="Group" />
+  <Group GroupId="af21a" GraphId="bfe17" Style="Group" />
+  <Group GroupId="fa178" GraphId="c7a3b" Style="Group" />
+  <Group GroupId="e505a" GraphId="ce853" Style="Group" />
+  <Group GroupId="d4bdd" GraphId="da538" Style="Group" />
+  <Group GroupId="f0511" GraphId="e69f4" Style="Group" />
+  <Group GroupId="ba605" GraphId="e9f31" Style="Group" />
+  <Group GroupId="c0c64" GraphId="fb07d" Style="Group" />
+  <Group GroupId="e29dc" GraphId="feaff" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12011104</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De novo sphingolipid biosynthesis: a necessary, but dangerous, pathway.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merrill AH Jr</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid metabolic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000197</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000162</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingomyelin metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000745</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b39">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11756451</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of murine sphingosine-1-phosphate phosphohydrolase.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Stunff H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peterson C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thornton R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milstien S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandala SM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiegel S</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20923771</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20923771</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mouse macrophage lipidome.</bp:TITLE>
@@ -926,19 +931,24 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fahy E</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subramaniam S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b39">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11756451</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12011104</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of murine sphingosine-1-phosphate phosphohydrolase.</bp:TITLE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De novo sphingolipid biosynthesis: a necessary, but dangerous, pathway.</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Stunff H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peterson C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thornton R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milstien S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandala SM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiegel S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merrill AH Jr</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingomyelin metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000745</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

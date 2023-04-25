@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inclusion body myositis" Data-Source="WikiPathways" Version="WP5120_Ss" Last-Modified="20211130140603" Organism="Sus scrofa">
-  <Comment Source="WikiPathways-description">Inclusion body myositis is a rare muscle degeneration diseases. It is caused by presumably both genetic risk factors and environmental factors stimulated by increasing age. The mechanism of pathogenicity includes inflammation, ER stress/unfolded protein response, and disturbed autophagy, which leads to an accumulation of inclusions. The mechanism is similar to Alzheimer's disease and Parkinson's disease in neurons. This pathway is based on Figure 1 of Askanas V. et al. 2015.</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inclusion body myositis" Data-Source="WikiPathways" Version="WP5120_Ss" Last-Modified="20230213104901" Organism="Sus scrofa">
+  <Comment Source="WikiPathways-description">Inclusion body myositis (IBM) is a rare muscle degeneration diseases. It is caused by presumably both genetic risk factors and environmental factors stimulated by increasing age. The mechanism of pathogenicity includes inflammation, ER stress/unfolded protein response, and disturbed autophagy, which leads to an accumulation of inclusions. The mechanism is similar to Alzheimer's disease and Parkinson's disease in neurons. This pathway is based on Figure 1 of Askanas V. et al. 2015. </Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5120.gpml (WP5120_r120422) with a 84.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5120.gpml (WP5120_r125416) with a 85.0% conversion rate.</Comment>
   <BiopaxRef>ecd</BiopaxRef>
   <Graphics BoardWidth="1194.3490581214983" BoardHeight="654.7202887256487" />
   <DataNode TextLabel="BACE1" GraphId="a2e06" Type="GeneProduct">
@@ -108,10 +108,11 @@
     <Graphics CenterX="340.9449595515463" CenterY="548.1115199496994" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000010860" />
   </DataNode>
-  <DataNode TextLabel="AbPP-mRNA" GraphId="ddc13" Type="RNA">
+  <DataNode TextLabel="APP" GraphId="ddc13" Type="Rna">
     <Comment>APP, amyloid beta precursor protein</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:351</Comment>
     <Graphics CenterX="330.76074972436606" CenterY="404.6306504961408" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="990099" />
-    <Xref Database="Entrez Gene" ID="351" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000012022" />
   </DataNode>
   <DataNode TextLabel="Autoimmunity" GraphId="de5e2">
     <Comment>biological concept</Comment>
@@ -165,13 +166,6 @@
     <Graphics CenterX="811.606945975745" CenterY="439.988974641676" Width="112.17750826901806" Height="25.0" ZOrder="32771" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <Interaction GraphId="f244f">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="147.96996542783143" Y="84.23725151253251" GraphRef="e8707" RelX="-0.5" RelY="1.0" />
-      <Point X="107.76606425702812" Y="155.20740883416056" GraphRef="de5e2" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
   <Interaction GraphId="id17602bde">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="508.14222712238177" Y="404.70782800440975" GraphRef="ddb2e" RelX="1.0" RelY="0.0" />
@@ -316,7 +310,7 @@
   </Interaction>
   <Interaction GraphId="id8185eab1">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="340.94495955154633" Y="473.6115199496994" GraphRef="fb093" RelX="0.0" RelY="-1.0" />
+      <Point X="340.94495955154633" Y="473.6115199496994" GraphRef="bdfa3" RelX="0.0" RelY="-1.0" />
       <Point X="440.64222712238177" Y="417.20782800440975" GraphRef="ddb2e" RelX="-0.5" RelY="1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -379,7 +373,7 @@
   </Interaction>
   <Interaction GraphId="ida7bc7f35">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="743.8216533904829" Y="337.0621611768647" GraphRef="a19b1" RelX="1.0" RelY="-0.5" />
+      <Point X="743.8216533904829" Y="337.0621611768647" GraphRef="cc5e4" RelX="1.0" RelY="-0.5" />
       <Point X="804.4187082766944" Y="335.6431518060481" GraphRef="a7f23" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -433,6 +427,13 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="idd8f41b06">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="147.96996542783143" Y="84.23725151253251" GraphRef="e8707" RelX="-0.5" RelY="1.0" />
+      <Point X="107.76606425702812" Y="155.20740883416056" GraphRef="de5e2" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="idde0a7e5d">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="773.1924699902152" Y="167.70740883416056" GraphRef="cd7ef" RelX="1.0" RelY="0.0" />
@@ -464,7 +465,7 @@
   <Interaction GraphId="idfb529bfa">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="686.837717647511" Y="270.2395373482168" GraphRef="b5d8c" RelX="0.0" RelY="1.0" />
-      <Point X="686.8216533904829" Y="318.5621611768647" GraphRef="a19b1" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="686.8216533904829" Y="318.5621611768647" GraphRef="cc5e4" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -545,8 +546,8 @@
   <Label TextLabel="abnormal" GraphId="a5a11">
     <Graphics CenterX="1016.6270638107985" CenterY="579.2943998215075" Width="90.0" Height="25.0" ZOrder="32777" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="fb093" GraphId="fb093" Style="Complex" />
-  <Group GroupId="a19b1" GraphId="a19b1" Style="Complex" />
+  <Group GroupId="fb093" GraphId="bdfa3" Style="Complex" />
+  <Group GroupId="a19b1" GraphId="cc5e4" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -554,16 +555,11 @@
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecd">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25241263</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sporadic inclusion-body myositis: A degenerative muscle disease associated with aging, impaired muscle protein homeostasis and abnormal mitophagy.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Askanas V</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engel WK</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nogalska A</bp:AUTHORS>
-    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000187</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0e">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10901230</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -576,11 +572,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McFerrin J</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broccolini A</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inclusion body myositis</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3429</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9483513</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -594,10 +585,20 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kakulas BA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papadimitriou JM</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25241263</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sporadic inclusion-body myositis: A degenerative muscle disease associated with aging, impaired muscle protein homeostasis and abnormal mitophagy.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Askanas V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engel WK</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nogalska A</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000187</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inclusion body myositis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3429</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

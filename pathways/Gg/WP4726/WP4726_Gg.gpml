@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Sphingolipid metabolism: integrated pathway" Data-Source="WikiPathways" Version="WP4726_Gg" Last-Modified="20211126152934" Organism="Gallus gallus">
-  <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Sphingolipid metabolism: integrated pathway" Data-Source="WikiPathways" Version="WP4726_Gg" Last-Modified="20221208085646" Organism="Gallus gallus">
+  <Comment Source="WikiPathways-description">This pathway is inspired by the Lipidmaps&gt;Sphingolipids pathway (all chain lengths) [https://lipidmaps.org/pathway/pathways_maps].
+Sphingolipids are a class of lipids, which act as signal transduction and cell recognition molecules.
+This pathway shows all different tail lengths and their conversions into specific products. All products are annotated with lipid-specific identifiers (if available).
+The general overview pathway can be found [https://www.wikipathways.org/index.php/Pathway:WP4344 here].</Comment>
+  <Comment Source="WikiPathways-description">Overview PW</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4690_107209.gpml] with a 95.0% conversion rate.</Comment>
+  <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4726.gpml (WP4726_r120323) with a 95.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4726.gpml (WP4726_r124753) with a 95.0% conversion rate.</Comment>
   <BiopaxRef>f6b</BiopaxRef>
   <Graphics BoardWidth="2037.649949454143" BoardHeight="1055.4527808526036" />
   <DataNode TextLabel="ATP" GraphId="d1d97" Type="Metabolite">
@@ -156,11 +161,11 @@
   </DataNode>
   <DataNode TextLabel="C16 CerP" GraphId="e59bc" Type="Metabolite">
     <Graphics CenterX="175.44078746891347" CenterY="560.5792201459867" Width="87.99702178113748" Height="28.500000000000032" ZOrder="33001" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C16DH CerP" GraphId="cfdee" Type="Metabolite">
     <Graphics CenterX="175.44078746891347" CenterY="365.60443588262086" Width="87.99702178113748" Height="28.500000000000007" ZOrder="33002" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C16 SM" GraphId="f4bbf" Type="Metabolite">
     <Comment>SM = sphingomyelin</Comment>
@@ -182,11 +187,11 @@
   </DataNode>
   <DataNode TextLabel="C16 GalCer" GraphId="a9aa0" Type="Metabolite">
     <Graphics CenterX="388.6375173990299" CenterY="652.288477131028" Width="91.8771884833225" Height="28.5" ZOrder="33007" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C16DH GalCer" GraphId="ec374" Type="Metabolite">
     <Graphics CenterX="386.6956768580827" CenterY="463.6070161634906" Width="108.50122940403917" Height="28.5" ZOrder="33008" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="SMPD1" GraphId="ee612" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20597</Comment>
@@ -349,11 +354,11 @@
   </DataNode>
   <DataNode TextLabel="CoA(14:0)" GraphId="a265d" Type="Metabolite">
     <Graphics CenterX="117.71825946285624" CenterY="215.79662535433326" Width="76.20140834040546" Height="25.000000000000004" ZOrder="33061" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C14DH-Ceramide" GraphId="c0d7e" Type="Metabolite">
     <Graphics CenterX="61.87691807093058" CenterY="398.52209859990097" Width="108.2099509805688" Height="25.000000000000004" ZOrder="33062" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="CERS5" GraphId="c6b8d" Type="Protein" GroupRef="e2566">
     <Comment>AKA Lass5</Comment>
@@ -414,11 +419,11 @@
   </DataNode>
   <DataNode TextLabel="C18 CerP" GraphId="ab23f" Type="Metabolite">
     <Graphics CenterX="504.67191587995677" CenterY="557.1844680718984" Width="87.99702178113748" Height="28.500000000000032" ZOrder="33073" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C18DH CerP" GraphId="ea9a6" Type="Metabolite">
     <Graphics CenterX="504.67191587995677" CenterY="362.2096838085327" Width="87.99702178113748" Height="28.500000000000007" ZOrder="33074" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C18 SM" GraphId="ee08b" Type="Metabolite">
     <Comment>SM = sphingomyelin</Comment>
@@ -440,11 +445,11 @@
   </DataNode>
   <DataNode TextLabel="C18 GalCer" GraphId="a518f" Type="Metabolite">
     <Graphics CenterX="662.134986926012" CenterY="631.8824772819072" Width="91.8771884833225" Height="28.5" ZOrder="33079" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C18DH GalCer" GraphId="b4d89" Type="Metabolite">
     <Graphics CenterX="662.134986926012" CenterY="453.6869786081625" Width="108.50122940403917" Height="28.5" ZOrder="33080" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C18DH-Cer" GraphId="e5f2b" Type="Metabolite">
     <Graphics CenterX="586.2564513612868" CenterY="408.5550217034988" Width="94.90557318028613" Height="25.000000000000004" ZOrder="33081" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -456,11 +461,11 @@
   </DataNode>
   <DataNode TextLabel="C20 CerP" GraphId="fe480" Type="Metabolite">
     <Graphics CenterX="760.9769711562282" CenterY="516.196044110362" Width="87.99702178113748" Height="28.500000000000032" ZOrder="33093" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C20DH CerP" GraphId="d302f" Type="Metabolite">
     <Graphics CenterX="760.9769711562283" CenterY="323.17858446076843" Width="87.99702178113748" Height="28.500000000000007" ZOrder="33094" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C20 SM" GraphId="f03df" Type="Metabolite">
     <Comment>SM = sphingomyelin</Comment>
@@ -482,11 +487,11 @@
   </DataNode>
   <DataNode TextLabel="C20 GalCer" GraphId="c65ae" Type="Metabolite">
     <Graphics CenterX="893.2541265702828" CenterY="603.5896329676985" Width="91.8771884833225" Height="28.5" ZOrder="33099" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C20DH GalCer" GraphId="b4b09" Type="Metabolite">
     <Graphics CenterX="894.8854479405926" CenterY="420.0250067771768" Width="108.50122940403917" Height="28.5" ZOrder="33100" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C20DH-Cer" GraphId="e8978" Type="Metabolite">
     <Graphics CenterX="827.7880079026652" CenterY="374.89304987251313" Width="94.90557318028613" Height="25.000000000000004" ZOrder="33101" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -498,11 +503,11 @@
   </DataNode>
   <DataNode TextLabel="C22 CerP" GraphId="e4e6f" Type="Metabolite">
     <Graphics CenterX="988.7977050208906" CenterY="486.6126420657736" Width="87.99702178113748" Height="28.500000000000032" ZOrder="33113" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C22DH CerP" GraphId="b25a5" Type="Metabolite">
     <Graphics CenterX="988.7977050208905" CenterY="300.22074825871175" Width="87.99702178113748" Height="28.500000000000007" ZOrder="33114" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C22 SM" GraphId="b3f40" Type="Metabolite">
     <Comment>SM = sphingomyelin</Comment>
@@ -524,11 +529,11 @@
   </DataNode>
   <DataNode TextLabel="C22 GalCer" GraphId="bae01" Type="Metabolite">
     <Graphics CenterX="1142.7528038120329" CenterY="567.0057820360219" Width="91.8771884833225" Height="28.5" ZOrder="33119" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C22DH GalCer" GraphId="aaba9" Type="Metabolite">
     <Graphics CenterX="1142.7528038120327" CenterY="383.4411558455" Width="108.50122940403917" Height="28.5" ZOrder="33120" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C22DH-Cer" GraphId="d12ab" Type="Metabolite">
     <Graphics CenterX="1079.405705505347" CenterY="333.6688277111379" Width="94.90557318028613" Height="25.000000000000004" ZOrder="33121" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -540,11 +545,11 @@
   </DataNode>
   <DataNode TextLabel="C24 CerP" GraphId="ae6a5" Type="Metabolite">
     <Graphics CenterX="1378.4684878906855" CenterY="488.64924284549863" Width="87.99702178113748" Height="28.500000000000032" ZOrder="33134" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C24DH CerP" GraphId="e50cb" Type="Metabolite">
     <Graphics CenterX="1378.4684878906855" CenterY="300.5257473068355" Width="87.99702178113748" Height="28.500000000000007" ZOrder="33135" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C24 SM" GraphId="c23d6" Type="Metabolite">
     <Comment>SM = sphingomyelin</Comment>
@@ -566,11 +571,11 @@
   </DataNode>
   <DataNode TextLabel="C24 GalCer" GraphId="f193c" Type="Metabolite">
     <Graphics CenterX="1532.4235866818278" CenterY="569.0423828157456" Width="91.8771884833225" Height="28.5" ZOrder="33140" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C24DH GalCer" GraphId="f97e3" Type="Metabolite">
     <Graphics CenterX="1532.4235866818276" CenterY="385.47775662522474" Width="108.50122940403917" Height="28.5" ZOrder="33141" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C24DH-Cer" GraphId="ba745" Type="Metabolite">
     <Graphics CenterX="1457.2724553687324" CenterY="335.7054284908628" Width="94.90557318028613" Height="25.000000000000004" ZOrder="33142" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -582,11 +587,11 @@
   </DataNode>
   <DataNode TextLabel="C24:1 CerP" GraphId="e703b" Type="Metabolite">
     <Graphics CenterX="1184.780955979741" CenterY="530.7687924780644" Width="87.99702178113748" Height="28.500000000000032" ZOrder="33154" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C24:1DH CerP" GraphId="c44f9" Type="Metabolite">
     <Graphics CenterX="1184.7809559797408" CenterY="342.6452969394011" Width="87.99702178113748" Height="28.500000000000007" ZOrder="33155" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C24:1 SM" GraphId="da8d8" Type="Metabolite">
     <Comment>SM = sphingomyelin</Comment>
@@ -608,11 +613,11 @@
   </DataNode>
   <DataNode TextLabel="C24:1 GalCer" GraphId="c178a" Type="Metabolite">
     <Graphics CenterX="1338.7360547708836" CenterY="611.1619324483124" Width="91.8771884833225" Height="28.5" ZOrder="33160" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C24:1DH GalCer" GraphId="dc4b5" Type="Metabolite">
     <Graphics CenterX="1338.7360547708834" CenterY="427.5973062577911" Width="108.50122940403917" Height="28.5" ZOrder="33161" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C24:1DH-Cer" GraphId="aa425" Type="Metabolite">
     <Graphics CenterX="1262.8375393023323" CenterY="377.824978123429" Width="94.90557318028613" Height="25.000000000000004" ZOrder="33162" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -630,11 +635,11 @@
   </DataNode>
   <DataNode TextLabel="C26:1 CerP" GraphId="bb52c" Type="Metabolite">
     <Graphics CenterX="1592.240966781909" CenterY="529.2353903479786" Width="87.99702178113748" Height="28.500000000000032" ZOrder="33180" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C26:1DH CerP" GraphId="d0d4c" Type="Metabolite">
     <Graphics CenterX="1592.240966781909" CenterY="341.1118948093151" Width="87.99702178113748" Height="28.500000000000007" ZOrder="33181" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C26:1 SM" GraphId="df054" Type="Metabolite">
     <Comment>SM = sphingomyelin</Comment>
@@ -656,11 +661,11 @@
   </DataNode>
   <DataNode TextLabel="C26:1 GalCer" GraphId="ec0f0" Type="Metabolite">
     <Graphics CenterX="1746.1960655730513" CenterY="609.6285303182241" Width="91.8771884833225" Height="28.5" ZOrder="33186" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C26:1DH GalCer" GraphId="ceab2" Type="Metabolite">
     <Graphics CenterX="1746.196065573051" CenterY="426.06390412770435" Width="108.50122940403917" Height="28.5" ZOrder="33187" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C26:1DH-Cer" GraphId="b9cff" Type="Metabolite">
     <Graphics CenterX="1671.0449342599559" CenterY="376.2915759933424" Width="94.90557318028613" Height="25.000000000000004" ZOrder="33188" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -672,11 +677,11 @@
   </DataNode>
   <DataNode TextLabel="C26 CerP" GraphId="cdd1b" Type="Metabolite">
     <Graphics CenterX="1795.860298683023" CenterY="567.8450089694256" Width="87.99702178113748" Height="28.500000000000032" ZOrder="33198" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C26DH CerP" GraphId="ffb08" Type="Metabolite">
     <Graphics CenterX="1795.860298683023" CenterY="379.7215134307624" Width="87.99702178113748" Height="28.500000000000007" ZOrder="33199" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C26 SM" GraphId="fce2c" Type="Metabolite">
     <Comment>SM = sphingomyelin</Comment>
@@ -698,11 +703,11 @@
   </DataNode>
   <DataNode TextLabel="C26 GalCer" GraphId="ba3ed" Type="Metabolite">
     <Graphics CenterX="1949.8153974741604" CenterY="648.238148939673" Width="91.8771884833225" Height="28.5" ZOrder="33204" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C26DH GalCer" GraphId="d78eb" Type="Metabolite">
     <Graphics CenterX="1949.81539747416" CenterY="464.67352274915163" Width="108.50122940403917" Height="28.5" ZOrder="33205" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="LIPID MAPS" ID="" />
   </DataNode>
   <DataNode TextLabel="C26DH-Cer" GraphId="a8539" Type="Metabolite">
     <Graphics CenterX="1874.6642661610676" CenterY="414.9011946147897" Width="94.90557318028613" Height="25.000000000000004" ZOrder="33206" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -774,7 +779,7 @@
   </Interaction>
   <Interaction GraphId="aaa36">
     <Graphics ZOrder="32928" LineThickness="1.0">
-      <Point X="88.85852997959046" Y="294.5903147041247" GraphRef="e2566" RelX="-1.0" RelY="0.0" />
+      <Point X="88.85852997959046" Y="294.5903147041247" GraphRef="abf1d" RelX="-1.0" RelY="0.0" />
       <Point X="61.87691807093058" Y="256.4784267352635" GraphRef="b79c8" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -803,7 +808,7 @@
   </Interaction>
   <Interaction GraphId="bed0d">
     <Graphics ZOrder="32932" LineThickness="1.0">
-      <Point X="1161.0153823208593" Y="848.7936739609008" GraphRef="c9cc7" RelX="-1.0" RelY="0.0" />
+      <Point X="1161.0153823208593" Y="848.7936739609008" GraphRef="d5574" RelX="-1.0" RelY="0.0" />
       <Point X="1119.5723721720144" Y="848.6419510354443" GraphRef="ada17" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -825,7 +830,7 @@
   </Interaction>
   <Interaction GraphId="fcf44">
     <Graphics ZOrder="32935" LineThickness="1.0">
-      <Point X="433.87736127419385" Y="494.1759051582968" GraphRef="d2b68" RelX="-1.0" RelY="0.0" />
+      <Point X="433.87736127419385" Y="494.1759051582968" GraphRef="f5461" RelX="-1.0" RelY="0.0" />
       <Point X="278.3112458818351" Y="493.37595907928386" GraphRef="ca81b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -882,7 +887,7 @@
   <Interaction GraphId="a5bd1">
     <BiopaxRef>b39</BiopaxRef>
     <Graphics ZOrder="32942" LineThickness="1.0">
-      <Point X="1435.934453346066" Y="132.96532678012312" GraphRef="aa54a" RelX="0.0" RelY="-1.0" />
+      <Point X="1435.934453346066" Y="132.96532678012312" GraphRef="fd838" RelX="0.0" RelY="-1.0" />
       <Point X="1439.780383091396" Y="118.508695693383" GraphRef="e90b5" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -986,7 +991,7 @@
   </Interaction>
   <Interaction GraphId="cc2e7">
     <Graphics ZOrder="32956" LineThickness="1.0">
-      <Point X="422.5622298080355" Y="80.79473205233336" GraphRef="ee7e5" RelX="0.0" RelY="1.0" />
+      <Point X="422.5622298080355" Y="80.79473205233336" GraphRef="b0652" RelX="0.0" RelY="1.0" />
       <Point X="422.15469613259665" Y="109.883695693383" GraphRef="ce1bf" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1065,7 +1070,7 @@
   </Interaction>
   <Interaction GraphId="bb739">
     <Graphics ZOrder="32966" LineThickness="1.0">
-      <Point X="386.8234599417437" Y="553.0175589772559" GraphRef="ad0f5" RelX="0.0" RelY="1.0" />
+      <Point X="386.8234599417437" Y="553.0175589772559" GraphRef="d8439" RelX="0.0" RelY="1.0" />
       <Point X="331.2670778857171" Y="565.4255444449918" GraphRef="e92a8" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1095,7 +1100,7 @@
   </Interaction>
   <Interaction GraphId="a14b7">
     <Graphics ZOrder="32970" LineThickness="1.0">
-      <Point X="339.0734599417437" Y="331.3946230192414" GraphRef="dbad2" RelX="-1.0" RelY="0.5" />
+      <Point X="339.0734599417437" Y="331.3946230192414" GraphRef="bc406" RelX="-1.0" RelY="0.5" />
       <Point X="318.7133452930473" Y="383.0616386196006" GraphRef="bad89" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1109,14 +1114,14 @@
   </Interaction>
   <Interaction GraphId="a3731">
     <Graphics ZOrder="32972" LineThickness="1.0">
-      <Point X="1434.1349482547225" Y="70.10841748788178" GraphRef="a4b6e" RelX="0.0" RelY="1.0" />
+      <Point X="1434.1349482547225" Y="70.10841748788178" GraphRef="ee274" RelX="0.0" RelY="1.0" />
       <Point X="1437.3099486570868" Y="101.258695693383" GraphRef="fed8c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e52d4">
     <Graphics ZOrder="32973" LineThickness="1.0">
-      <Point X="874.3852126989093" Y="823.339701477888" GraphRef="e9c94" RelX="1.0" RelY="0.0" />
+      <Point X="874.3852126989093" Y="823.339701477888" GraphRef="a51fb" RelX="1.0" RelY="0.0" />
       <Point X="1039.2390388386807" Y="823.3554013278414" GraphRef="d07ed" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1159,14 +1164,14 @@
   </Interaction>
   <Interaction GraphId="a7ead">
     <Graphics ZOrder="33031" LineThickness="1.0">
-      <Point X="257.09733123309616" Y="303.93027651195104" GraphRef="ec55e" RelX="1.0" RelY="0.0" />
+      <Point X="257.09733123309616" Y="303.93027651195104" GraphRef="fe195" RelX="1.0" RelY="0.0" />
       <Point X="278.3112458818351" Y="303.03458068002305" GraphRef="a048f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="eec6c">
     <Graphics ZOrder="33033" LineThickness="1.0">
-      <Point X="536.7668025403885" Y="302.6640866116744" GraphRef="f1b02" RelX="1.0" RelY="0.0" />
+      <Point X="536.7668025403885" Y="302.6640866116744" GraphRef="f5e73" RelX="1.0" RelY="0.0" />
       <Point X="586.2564513612868" Y="301.6046083805204" GraphRef="d6c4f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1946,34 +1951,22 @@
   <Label TextLabel="High fat diet" GraphId="b2385">
     <Graphics CenterX="222.70324364933964" CenterY="240.03104230280402" Width="90.0" Height="25.0" ZOrder="32974" FillColor="ffffff" FontSize="12" Valign="Middle" Color="404040" />
   </Label>
-  <Group GroupId="e9c94" GraphId="e9c94" Style="Group" />
-  <Group GroupId="e2566" GraphId="e2566" Style="Group" />
-  <Group GroupId="ee7e5" GraphId="ee7e5" Style="Group" />
-  <Group GroupId="dbad2" GraphId="dbad2" Style="Group" />
-  <Group GroupId="c9cc7" GraphId="c9cc7" Style="Group" />
-  <Group GroupId="ad0f5" GraphId="ad0f5" Style="Group" />
-  <Group GroupId="a4b6e" GraphId="a4b6e" Style="Group" />
-  <Group GroupId="d2b68" GraphId="d2b68" Style="Group" />
-  <Group GroupId="f1b02" GraphId="f1b02" Style="Group" />
-  <Group GroupId="aa54a" GraphId="aa54a" Style="Group" />
-  <Group GroupId="ec55e" GraphId="ec55e" Style="Group" />
+  <Group GroupId="e9c94" GraphId="a51fb" Style="Group" />
+  <Group GroupId="e2566" GraphId="abf1d" Style="Group" />
+  <Group GroupId="ee7e5" GraphId="b0652" Style="Group" />
+  <Group GroupId="dbad2" GraphId="bc406" Style="Group" />
+  <Group GroupId="b1983" GraphId="d0e3d" Style="Group" />
+  <Group GroupId="ba48a" GraphId="d253a" Style="Group" />
+  <Group GroupId="c9cc7" GraphId="d5574" Style="Group" />
+  <Group GroupId="ad0f5" GraphId="d8439" Style="Group" />
+  <Group GroupId="bb143" GraphId="e1a56" Style="Group" />
+  <Group GroupId="a4b6e" GraphId="ee274" Style="Group" />
+  <Group GroupId="d2b68" GraphId="f5461" Style="Group" />
+  <Group GroupId="f1b02" GraphId="f5e73" Style="Group" />
+  <Group GroupId="aa54a" GraphId="fd838" Style="Group" />
+  <Group GroupId="ec55e" GraphId="fe195" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000162</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4a">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15823095</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian Lass6 and its related family members regulate synthesis of specific ceramides.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem J</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mizutani Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kihara A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Igarashi Y</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b39">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11756451</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1987,31 +1980,9 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandala SM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiegel S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12011104</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De novo sphingolipid biosynthesis: a necessary, but dangerous, pathway.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merrill AH Jr</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6d">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17977534</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kinetic characterization of mammalian ceramide synthases: determination of K(m) values towards sphinganine.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FEBS Lett</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lahiri S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesicek J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuks Z</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haimovitz-Friedman A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolesnick RN</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futerman AH</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingomyelin metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000745</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000454</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -2054,6 +2025,21 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fahy E</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subramaniam S</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15823095</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian Lass6 and its related family members regulate synthesis of specific ceramides.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem J</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mizutani Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kihara A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Igarashi Y</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d60">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26853464</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -2070,6 +2056,25 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dörmann P</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoch M</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingomyelin metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000745</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17977534</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kinetic characterization of mammalian ceramide synthases: determination of K(m) values towards sphinganine.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FEBS Lett</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lahiri S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesicek J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuks Z</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haimovitz-Friedman A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolesnick RN</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futerman AH</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f88">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16100120</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -2079,11 +2084,14 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lahiri S</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futerman AH</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000454</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12011104</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De novo sphingolipid biosynthesis: a necessary, but dangerous, pathway.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merrill AH Jr</bp:AUTHORS>
+    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 

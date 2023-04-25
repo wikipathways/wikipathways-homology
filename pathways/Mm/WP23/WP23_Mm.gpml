@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="B cell receptor signaling pathway" Data-Source="WikiPathways" Version="WP23_Mm" Last-Modified="20211223131723" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="B cell receptor signaling pathway" Data-Source="WikiPathways" Version="WP23_Mm" Last-Modified="20230419055758" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">The functional B-cell receptor is a multi-protein complex consisting of an antigen binding subunit and a signaling subunit. The antigen binding subunit is the membrane bound immunoglobulin and the signaling subunit consists of the IgÎ± and IgÎ² proteins, which are covalently bound to each other. Both IgÎ± and IgÎ² proteins have an immunoreceptor tyrosine -based activation motif (ITAM) each in its cytoplasmic region, which is responsible for the initiation and propagation of signaling. Antigen binding to the immunoglubulin results in the aggregation of both the immunoglobulin and the IgÎ±/Î² subunits. This results in the phosphorylation of the tyrosine residues in the ITAM motif of the IgÎ±/Î² subunits by the src-family of protein tyrosine kinases Lyn and Syk. The Src family kinases are initially in the proximity of the BCR as a result of membrane anchoring by virtue of its their acetylation. The N-terminal region of the kinases can also interact with the non-phosphorylated ITAMs of IgÎ±. This association is further enhanced upon BCR engagement as a result of accumulation in BCR containing lipid rafts and SH2 domain mediated binding to the phosphorylated tyrosine residues in ITAMs. This increased association helps in amplifying the BCR mediated signaling. Doubly phosphorylated IgÎ±/Î² ITAMs are necessary for efficient recruitment of Syk and its activation. Activated Syk then phsophorylates the adapter molecule B cell linker protein (BLNK), which acts as molecular scaffold for the recruitment of multiple effectors and hence the propagation of multiple signaling pathways. BLNK binds to Btk and PLCÎ³2 which results in optimal phosphorylation and activation of PLC. This is an important mechanism which links BCR to Ca2+ signaling. Apart from the PLC mediated Ca2+ signaling, BCR triggering also results in the the activaion of phosphatidylinositol-3 kinase (PI-3K). This activation takes place through the recruitment of p85 adaptor subunit of PI-3K to CD19 co-receptor, which is phosphorylated by Lyn on its cytoplasmic Y-X-X-M motif. Alternatively, PI-3K can be recruited to the plasma membrane by other adapter molecules including PIK3AP, CBL or GAB1/2. PI-3K catalyzes the phosphorylation of phosphatidylinositol 4,5-bisphosphate to phosphatidyl inositol 3,4,5-bisphosphate. Akt, a serine threonine kinase, is recruited to the plasma membrane by virtue of its N-terminal PH-domain where it is activated by conformational changes and phosphorylation. Activated Akt phosphorylates several substrates resulting in diverse physiological consequences: Forkhead transcription factors - resulting in its degradation and hence inhibition of expression of pro-apoptotic genes, glycogen synthase kinase-3 GSK3 -leading to its inhibition and hence regulation of cell-cycle. The tanscription factor NF-kappaB is also found to be activated in BCR signaling in a Btk, PI-3K and PKC dependent manner. 
 BCR engagement can also result in the association of GRB2/SOS complex with either SHC or BLNK, which results in the activation of the Ras/Raf/MEK/ERK signaling cascade. This cascade leads to the activation of transcription factors including ELK and MYC. BCR activation also results in the activation of JNKs and p38MAPK.
 
@@ -11,7 +11,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP23 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP23.gpml (WP23_r120701) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP23.gpml (WP23_r126262) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>a83</BiopaxRef>
   <Graphics BoardWidth="1440.0" BoardHeight="1967.0" />
   <DataNode TextLabel="Chuk" GraphId="e141d" Type="Protein" GroupRef="e91aa">
@@ -31,13 +31,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="755.25" CenterY="1133.25" Width="59.5" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000028163" />
   </DataNode>
-  <DataNode TextLabel="ILF2" GraphId="bfb6a" Type="RNA">
+  <DataNode TextLabel="Ilf2" GraphId="bfb6a" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:3608</Comment>
     <Graphics CenterX="293.0" CenterY="1697.0" Width="50.0" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="3608" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000001016" />
   </DataNode>
-  <DataNode TextLabel="E2F3" GraphId="d7050" Type="RNA">
+  <DataNode TextLabel="E2f3" GraphId="d7050" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:1871</Comment>
     <Graphics CenterX="755.5" CenterY="1698.0" Width="51.0" Height="20.0" ZOrder="32768" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="1871" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000016477" />
   </DataNode>
   <DataNode TextLabel="Rel" GraphId="bd2c4" Type="Protein" GroupRef="f46d0">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:5966</Comment>
@@ -59,15 +61,17 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="838.5" CenterY="956.1111111111045" Width="59.0" Height="20.0" ZOrder="32775" FillColor="99ffff" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000028284" />
   </DataNode>
-  <DataNode TextLabel="MEF2D" GraphId="bd78c" Type="RNA">
+  <DataNode TextLabel="Mef2d" GraphId="bd78c" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4209</Comment>
     <Graphics CenterX="666.4999999999998" CenterY="1697.611111111105" Width="49.000000000000455" Height="20.0" ZOrder="32780" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="4209" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000001419" />
   </DataNode>
-  <DataNode TextLabel="IRF4" GraphId="d3462" Type="RNA">
+  <DataNode TextLabel="Irf4" GraphId="d3462" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:3662</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
     <Graphics CenterX="967.4999999999995" CenterY="1695.1111111111045" Width="49.0" Height="20.0" ZOrder="32782" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="3662" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000021356" />
   </DataNode>
   <DataNode TextLabel="Hras" GraphId="c2b8e" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:3265</Comment>
@@ -79,9 +83,10 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="666.4999999999998" CenterY="1591.1111111111045" Width="49.000000000000455" Height="20.0" ZOrder="32805" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000025958" />
   </DataNode>
-  <DataNode TextLabel="MEF2C" GraphId="eaff8" Type="RNA">
+  <DataNode TextLabel="Mef2c" GraphId="eaff8" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4208</Comment>
     <Graphics CenterX="611.9999999999998" CenterY="1697.611111111105" Width="47.999999999999545" Height="20.0" ZOrder="32817" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="4208" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000005583" />
   </DataNode>
   <DataNode TextLabel="Rac2" GraphId="e8bb7" Type="Protein" GroupRef="a92de">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:5880</Comment>
@@ -470,11 +475,12 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="588.2777777777792" CenterY="760.3333333333335" Width="60.555555555558385" Height="20.0" ZOrder="33193" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000061132" />
   </DataNode>
-  <DataNode TextLabel="MYC" GraphId="fa72b" Type="RNA">
+  <DataNode TextLabel="Myc" GraphId="fa72b" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4609</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="" />
     <Attribute Key="org.pathvisio.model.GenMAPP-Xref" Value="" />
     <Graphics CenterX="228.66666666666669" CenterY="1696.777777777772" Width="53.333333333333336" Height="20.0" ZOrder="33198" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="4609" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000022346" />
   </DataNode>
   <DataNode TextLabel="Blk" GraphId="d41b2" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:640</Comment>
@@ -757,7 +763,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d1c52" TextLabel="P" GraphId="b2228">
-    <Comment>BCR engagement can result in tyrosine phosphorylation Syk at position 352 and 759 in human primary B-cells, CLL B-cells and DLBCL as well as mouse B-cells.</Comment>
+    <Comment>BCR engagement can result in tyrosine phosphorylation Syk at position 352 and 759 in human primary B-cells, CLL B-cells and DLBCL as well as mouse B-cells. </Comment>
     <Graphics RelX="-1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -833,7 +839,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b9d9e" TextLabel="P" GraphId="f878d">
-    <Comment>JNK2 is phosphorylated upon BCR engagement in murine A20 cells, T1 B-cells, follicular B-cells, splenic B-cells and WEHI-231 cells.</Comment>
+    <Comment> JNK2 is phosphorylated upon BCR engagement in murine A20 cells, T1 B-cells, follicular B-cells, splenic B-cells and WEHI-231 cells.</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -882,7 +888,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="f175c">
     <Graphics ZOrder="12288" LineThickness="2.0" Color="ff0000">
       <Point X="-142.0" Y="1712.3333333333326" />
-      <Point X="-80.0" Y="1713.0" ArrowHead="mim-inhibition" />
+      <Point X="-80.0" Y="1713.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1412,7 +1418,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f41c0">
-    <Comment>BCR stimulation leads to CD19 association with Plcg2 in Daudi cells.</Comment>
+    <Comment>BCR stimulation leads to CD19 association with Plcg2 in Daudi cells.
+</Comment>
     <Graphics ZOrder="12342" LineThickness="2.0" Color="00cc00">
       <Point X="862.678779837552" Y="470.0" GraphRef="f3656" RelX="0.0" RelY="0.0" />
       <Point X="862.5" Y="531.0" GraphRef="c4baa" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1612,7 +1619,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <Point X="519.0" Y="587.444444444445" GraphRef="d1c52" RelX="-1.0" RelY="0.0" />
       <Point X="373.0" Y="587.25" GraphRef="d58bc" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
       <Anchor Position="0.39042344261669043" Shape="None" GraphId="d0150" />
-      <Anchor Position="0.4" Shape="None" GraphId="f45ad" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1656,7 +1663,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="eb63a">
-    <Comment>phosphorylated MAPK4 binds to Gab1 in BCR stimulated mature B cells.</Comment>
+    <Comment> phosphorylated MAPK4 binds to Gab1 in BCR stimulated mature B cells.</Comment>
     <Graphics ZOrder="32948" LineThickness="2.0" Color="00cc00">
       <Point X="405.5" Y="956.3888888888896" GraphRef="dba84" RelX="0.0" RelY="1.0" />
       <Point X="405.44444444444946" Y="996.8888888888778" GraphRef="cba4b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1739,7 +1746,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ae860">
-    <Comment>BCR activation induces the phosphorylatin of PTPN18 by TEC in COS7 cells.</Comment>
+    <Comment>BCR activation induces the phosphorylatin of PTPN18 by TEC in COS7 cells.
+</Comment>
     <Graphics ZOrder="32997" LineThickness="2.0" Color="0000ff">
       <Point X="781.9232828173754" Y="618.6666666666665" GraphRef="b28a7" RelX="-1.0" RelY="0.0" />
       <Point X="781.0" Y="591.111111111105" GraphRef="ee952" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
@@ -1761,7 +1769,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="de0b3">
-    <Comment>BTK associates with PIP5K's upon BCR activation in BCR stimulated Ramos, A20 and primary splenic B cells.</Comment>
+    <Comment> BTK associates with PIP5K's upon BCR activation in BCR stimulated Ramos, A20 and primary splenic B cells.</Comment>
     <Graphics ZOrder="33240" LineThickness="2.0" Color="00cc00">
       <Point X="706.0" Y="693.555555555554" GraphRef="e08f8" RelX="1.0" RelY="0.0" />
       <Point X="852.0" Y="638.5" GraphRef="ef833" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
@@ -1844,7 +1852,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ecf12">
-    <Comment>BCR activation induces the phosphorylation of MAX by MAPK14</Comment>
+    <Comment>BCR activation induces the phosphorylation of MAX by MAPK14
+</Comment>
     <Graphics ZOrder="33305" LineThickness="2.0" Color="0000ff">
       <Point X="65.99999999999955" Y="1481.1111111111045" GraphRef="f1dfc" RelX="0.0" RelY="1.0" />
       <Point X="66.49999999999955" Y="1623.111111111105" GraphRef="fa514" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -2071,7 +2080,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f3c52">
-    <Comment>BCR stimulation leads to the upregulation of E2F3 through NFKB pathway.</Comment>
+    <Comment>BCR stimulation leads to the upregulation of E2F3 through NFKB pathway.
+</Comment>
     <Graphics ZOrder="33444" LineThickness="2.0">
       <Point X="755.0" Y="1521.75" GraphRef="fea89" RelX="0.0" RelY="1.0" />
       <Point X="755.5" Y="1688.0" GraphRef="d7050" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
@@ -2088,7 +2098,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <GraphicalLine GraphId="f5bbc">
     <Graphics ZOrder="33671" LineThickness="2.0">
       <Point X="1084.999999999997" Y="842.4652880354461" />
-      <Point X="1105.9999999999964" Y="842.4652880354461" ArrowHead="mim-inhibition" />
+      <Point X="1105.9999999999964" Y="842.4652880354461" ArrowHead="TBar" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="c8da6">
@@ -2511,7 +2521,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="677.6666666666666" CenterY="574.6666666666666" Width="14.907119999999999" Height="20.0" ZOrder="33002" FontSize="10" Valign="Middle" ShapeType="Arc" LineThickness="2.0" Color="0000ff" Rotation="2.554867" />
   </Shape>
   <Shape GraphId="ee42f">
-    <Comment>B cell receptor stimulation induced the autophosphorylation of SYk in B cells.</Comment>
+    <Comment> B cell receptor stimulation induced the autophosphorylation of SYk in B cells.</Comment>
     <Graphics CenterX="577.6666666666666" CenterY="573.6666666666666" Width="14.907119999999999" Height="20.0" ZOrder="33006" FontSize="10" Valign="Middle" ShapeType="Arc" LineThickness="2.0" Color="0000ff" Rotation="2.554867" />
   </Shape>
   <Shape GraphId="f7a3a">
@@ -2549,34 +2559,24 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="e0074">
     <Graphics CenterX="1142.6666666666642" CenterY="1178.79862136878" Width="14.0" Height="14.0" ZOrder="33750" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="dde4e" GraphId="dde4e" Style="Group" />
-  <Group GroupId="fda77" GraphId="fda77" Style="Group" />
-  <Group GroupId="dfa0f" GraphId="dfa0f" Style="Group" />
-  <Group GroupId="f674d" GraphId="f674d" Style="Group" />
-  <Group GroupId="dc2bf" GraphId="dc2bf" Style="Group" />
-  <Group GroupId="ca623" GraphId="ca623" Style="Group" />
-  <Group GroupId="b94ef" GraphId="b94ef" Style="Group" />
-  <Group GroupId="a33d5" GraphId="a33d5" Style="Group" />
-  <Group GroupId="a92de" GraphId="a92de" Style="Group" />
-  <Group GroupId="e91aa" GraphId="e91aa" Style="Group" />
-  <Group GroupId="c8350" GraphId="c8350" Style="Group" />
-  <Group GroupId="f46d0" GraphId="f46d0" Style="Group" />
-  <Group GroupId="f848f" GraphId="f848f" Style="Group" />
-  <Group GroupId="a3b1a" GraphId="a3b1a" Style="Group" />
-  <Group GroupId="c7279" GraphId="c7279" Style="Group" />
-  <Group GroupId="d4b2d" GraphId="d4b2d" Style="Group" />
+  <Group GroupId="dde4e" GraphId="a7818" Style="Group" />
+  <Group GroupId="fda77" GraphId="ae1c5" Style="Group" />
+  <Group GroupId="dfa0f" GraphId="b5543" Style="Group" />
+  <Group GroupId="f674d" GraphId="b66b7" Style="Group" />
+  <Group GroupId="dc2bf" GraphId="b84ff" Style="Group" />
+  <Group GroupId="ca623" GraphId="bcde8" Style="Group" />
+  <Group GroupId="b94ef" GraphId="bd6a7" Style="Group" />
+  <Group GroupId="a33d5" GraphId="be242" Style="Group" />
+  <Group GroupId="a92de" GraphId="c53f9" Style="Group" />
+  <Group GroupId="e91aa" GraphId="dae8f" Style="Group" />
+  <Group GroupId="c8350" GraphId="dd1ad" Style="Group" />
+  <Group GroupId="f46d0" GraphId="dd499" Style="Group" />
+  <Group GroupId="f848f" GraphId="de9fa" Style="Group" />
+  <Group GroupId="a3b1a" GraphId="e3ebc" Style="Group" />
+  <Group GroupId="c7279" GraphId="ecf90" Style="Group" />
+  <Group GroupId="d4b2d" GraphId="f5a6f" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000236</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell receptor signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000822</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a83">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20067622</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -2627,6 +2627,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to immunity</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000818</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000236</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell receptor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000822</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>

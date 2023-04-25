@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glycogen synthesis and degradation" Data-Source="WikiPathways" Version="WP500_Cf" Last-Modified="20220303112400" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glycogen synthesis and degradation" Data-Source="WikiPathways" Version="WP500_Cf" Last-Modified="20230417172336" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">Glycogen is a very large, branched polymer of glucose residues. Within skeletal muscle and liver glucose is stored as glycogen. In the liver, glycogen synthesis and degradation are regulated to maintain blood-glucose levels as required to meet the needs of the organism as a whole. In contrast, in muscle, these processes are regulated to meet the energy needs of the muscle itself. 
 
 '''Glycogen synthesis''' is, unlike its breakdown, endergonic. This means that glycogen synthesis requires the input of energy. Energy for glycogen synthesis comes from UTP, which reacts with glucose-1-phosphate, forming UDP-glucose, in reaction catalyzed by UDP-glucose pyrophosphorylase. Glycogen is synthesized from monomers of UDP-glucose by the enzyme glycogen synthase, which progressively lengthens the glycogen chain with (a1-&gt;4) bonded glucose. As glycogen synthase can only lengthen an existing chain, the protein glycogenin is needed to initiate the synthesis of glycogen. The glycogen-branching enzyme, amylo (a1-&gt;4) to (a1-&gt;6) transglycosylase, catalyzes the transfer of a terminal fragment of 6-7 glucose residues from a nonreducing end to the C-6 hydroxyl group of a glucose residue deeper into the interior of the glycogen molecule. The branching enzyme can act upon only a branch having at least 11 residues, and the enzyme may transfer to the same glucose chain or adjacent glucose chains.
@@ -10,7 +10,7 @@ Information partly derived from "Biochemistry" by Stryer and [http://en.wikipedi
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP500 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP500.gpml (WP500_r121748) with a 93.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP500.gpml (WP500_r126238) with a 93.0% conversion rate.</Comment>
   <BiopaxRef>d7e</BiopaxRef>
   <Graphics BoardWidth="1341.0" BoardHeight="834.5" />
   <DataNode TextLabel="PYGM" GraphId="a03" Type="GeneProduct" GroupRef="f11a0">
@@ -344,7 +344,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="a54eb">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="834.9999999999998" Y="239.3333333333331" GraphRef="e77a5" RelX="-1.0" RelY="0.5" />
+      <Point X="834.9999999999998" Y="239.3333333333331" GraphRef="dfe4e" RelX="-1.0" RelY="0.5" />
       <Point X="802.0" Y="239.9872830123942" GraphRef="aba40" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -359,15 +359,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="b3d0e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="749.3333333333331" Y="282.333333333333" GraphRef="cc4d3" RelX="1.0" RelY="0.0" />
+      <Point X="749.3333333333331" Y="282.333333333333" GraphRef="e2798" RelX="1.0" RelY="0.0" />
       <Point X="802.0" Y="281.4238272490339" GraphRef="b3764" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c6ab1">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="488.41666666666674" Y="405.33333333333246" GraphRef="af47d" RelX="-0.5" RelY="-1.0" />
-      <Point X="381.3333333333334" Y="302.99999999999943" GraphRef="f11a0" RelX="1.0" RelY="0.5" ArrowHead="mim-inhibition" />
+      <Point X="488.41666666666674" Y="405.33333333333246" GraphRef="f80c3" RelX="-0.5" RelY="-1.0" />
+      <Point X="381.3333333333334" Y="302.99999999999943" GraphRef="a9287" RelX="1.0" RelY="0.5" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -380,8 +380,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="cb7a2">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="692.6666666666665" Y="354.99999999999966" GraphRef="bb15b" RelX="0.0" RelY="-1.0" />
-      <Point X="692.3333333333331" Y="310.333333333333" GraphRef="cc4d3" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="692.6666666666665" Y="354.99999999999966" GraphRef="af3bf" RelX="0.0" RelY="-1.0" />
+      <Point X="692.3333333333331" Y="310.333333333333" GraphRef="e2798" RelX="-0.5" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -412,21 +412,21 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="e7e9d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="487.3333333333334" Y="201.0000000000003" GraphRef="ddfca" RelX="-0.5" RelY="1.0" />
-      <Point X="381.3333333333334" Y="283.9999999999994" GraphRef="f11a0" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="487.3333333333334" Y="201.0000000000003" GraphRef="f88ec" RelX="-0.5" RelY="1.0" />
+      <Point X="381.3333333333334" Y="283.9999999999994" GraphRef="a9287" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e8d28">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="521.0000000000002" Y="49.99999999999993" GraphRef="afdba" RelX="0.0" RelY="1.0" />
-      <Point X="521.3333333333334" Y="105.00000000000026" GraphRef="ddfca" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="521.3333333333334" Y="105.00000000000026" GraphRef="f88ec" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ef204">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="762.9999999999998" Y="159.00000000000017" GraphRef="ed3d3" RelX="-1.0" RelY="0.0" />
+      <Point X="762.9999999999998" Y="159.00000000000017" GraphRef="dea4e" RelX="-1.0" RelY="0.0" />
       <Point X="728.5051755469635" Y="159.99658477145368" GraphRef="ecec7" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -441,7 +441,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="f1a41">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="305.3333333333334" Y="283.9999999999994" GraphRef="f11a0" RelX="-1.0" RelY="0.0" />
+      <Point X="305.3333333333334" Y="283.9999999999994" GraphRef="a9287" RelX="-1.0" RelY="0.0" />
       <Point X="268.66666666666663" Y="284.99999999999994" GraphRef="c16c9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -456,15 +456,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="f99e1">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="555.3333333333334" Y="201.0000000000003" GraphRef="ddfca" RelX="0.5" RelY="1.0" />
-      <Point X="673.3333333333331" Y="282.333333333333" GraphRef="cc4d3" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="555.3333333333334" Y="201.0000000000003" GraphRef="f88ec" RelX="0.5" RelY="1.0" />
+      <Point X="673.3333333333331" Y="282.333333333333" GraphRef="e2798" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f9baf">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="563.25" Y="405.33333333333246" GraphRef="af47d" RelX="0.5" RelY="-1.0" />
-      <Point X="673.3333333333331" Y="296.333333333333" GraphRef="cc4d3" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="563.25" Y="405.33333333333246" GraphRef="f80c3" RelX="0.5" RelY="-1.0" />
+      <Point X="673.3333333333331" Y="296.333333333333" GraphRef="e2798" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -495,7 +495,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id968909f8">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="140.0" Y="490.6666666666663" GraphRef="e65d7" RelX="0.0" RelY="1.0" />
-      <Point X="140.0" Y="688.5" GraphRef="dd143" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="140.0" Y="688.5" GraphRef="a84a3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -510,7 +510,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idc0592b88">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1126.0" Y="252.6666666666663" GraphRef="c7cc1" RelX="1.0" RelY="0.0" />
-      <Point X="1179.0" Y="252.0" GraphRef="aa888" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1179.0" Y="252.0" GraphRef="dfd18" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -521,7 +521,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <Point X="473.625" Y="618.0" />
       <Point X="887.0" Y="618.0" />
       <Point X="963.1" Y="618.0" />
-      <Point X="1038.8" Y="252.39999999999975" GraphRef="b3263" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1038.8" Y="252.39999999999975" GraphRef="b3263" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -558,15 +558,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="Different forms" GraphId="f4703">
     <Graphics CenterX="1238.0" CenterY="197.0" Width="90.0" Height="25.0" ZOrder="32775" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="dd143" GraphId="dd143" Style="Group" />
-  <Group GroupId="f11a0" GraphId="f11a0" />
-  <Group GroupId="bb15b" GraphId="bb15b" />
-  <Group GroupId="ed3d3" GraphId="ed3d3" />
-  <Group GroupId="aa888" GraphId="aa888" Style="Group" />
-  <Group GroupId="e77a5" GraphId="e77a5" />
-  <Group GroupId="cc4d3" GraphId="cc4d3" />
-  <Group GroupId="af47d" GraphId="af47d" />
-  <Group GroupId="ddfca" GraphId="ddfca" />
+  <Group GroupId="dd143" GraphId="a84a3" Style="Group" />
+  <Group GroupId="f11a0" GraphId="a9287" />
+  <Group GroupId="bb15b" GraphId="af3bf" />
+  <Group GroupId="ed3d3" GraphId="dea4e" />
+  <Group GroupId="aa888" GraphId="dfd18" Style="Group" />
+  <Group GroupId="e77a5" GraphId="dfe4e" />
+  <Group GroupId="cc4d3" GraphId="e2798" />
+  <Group GroupId="af47d" GraphId="f80c3" />
+  <Group GroupId="ddfca" GraphId="f88ec" />
   <InfoBox CenterX="18.333333333333332" CenterY="15.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">

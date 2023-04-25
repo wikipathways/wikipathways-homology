@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="RANKL/RANK signaling pathway" Data-Source="WikiPathways" Version="WP2018_Rn" Last-Modified="20211223012814" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="RANKL/RANK signaling pathway" Data-Source="WikiPathways" Version="WP2018_Rn" Last-Modified="20230423064139" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">RANKL (Receptor activator of nuclear factor-kappa B ligand), RANK (Receptor activator of nuclear factor-kappa B) and the natural decoy receptor of RANKL, OPG (Osteoprotegerin) are three important molecules identified to play a major role in osteoclastogenesis and bone remodelling. They are members of the tumor necrosis factor (TNF) superfamily. OPG was the first molecule to be discovered and proved to inhibit osteoclastogenesis both in vivo and in vitro. Unlike other members of TNF family, OPG lack a transmembrane domain and is secreted as a soluble protein by the cell. RANKL is the only known physiological agonist for its receptor, RANK. Genetic experiments have shown that mice lacking either rankl or rank suffer from severe osteoporosis and defective tooth eruption due to complete lack of osteoclasts. On the contrary, mice deficient of OPG shows osteoporosis due to increased number of osteoclasts. Binding of RANKL to RANK triggers downstream signaling events that leads to the activation of osteoclasts and controlling of lineage commitment. RANKL/RANK signaling is essential for skeletal homoeostasis and its interference leads to inhibition of bone resorption resulting in bone diseases including osteoporosis osteopetrosis and rheumatoid arthritis. RANK being a member of TNF family does not possess any kinase activity. It recruits adaptor molecules to transduce the signal after ligand binding. These adaptor molecules are called TNFR-associated factors or TRAF's that binds to different regions in the cytoplasmic tail of the TNF family receptors and transduces the signal downstream. TRAF6 is the main adaptor molecule which activates NF-κB pathway downstream of RANKL signaling which is required for osteoclastogenesis and osteoclast activation. TRAF6 mutant mice have shown a partial block in osteoclastogenesis and defective activation of mature osteoclasts. Mice lacking NF-κB p50 and p52 proteins have been shown to be osteopetrotic. Catalytic subunits, IκB kinase α and IκB kinase β and the non-catalytic subunit IKKγ (also called NEMO) are also essential for RANKL-RANK signaling and osteoclastogenesis. IKKγ is required for osteoclastogenesis induced by RANKL in mice both in vivo and in vitro whereas IKKα was shown to be required in mice only in in vitro. Several mitogen activated protein kinases (MAPK's) have been shown to be activated downstream of RANK. Studies have shown that pharmacological inhibition of p38 MAPK's blocked RANKL induced osteoclast differentiation. JNK1/2, its upstream kinase MKK7 and c-Jun have also been shown by genetic experiments to be essential for RANKL induced osteoclastogenesis. MAPK1 and MAPK3 phosphorylation was also shown to be dispensable for RANKL mediated osteoclast differentiation in vitro, but another report also show that specific inhibitors to MEK increased RANKL induced osteoclastogenesis suggesting a cross talk between p38 and ERK signaling pathways. NFATc1 is an essential downstream target of RANK. Ca2+ oscillations induced by RANKL activated NFATc1 resulting in terminal differentiation of osteoclasts through the Ca2+- dependent calcineurin pathway. NFATc1 translocates to the nucleus where it interacts with other transcription factors leading to the activation of transcription of genes including ACP5, CTSK, TNFRSF11A and NFATc1 under RANKL stimulation. TRAF6 and c-Src interacts with each other and with RANK upon stimulation with RANKL. This interaction increases the kinase activity of c-Src leading to the tyrosine phosphorylation of downstream molecules such as c-Cbl and activation of Akt/PKB which in turn requires the PI3-Kinase activity. Genetic experiments have shown that c-Src is very important in osteoclastogenesis. In addition to these pathways, aPKC/p62 signaling is also reported to be essential for osteoclastogenesis. Apart from their role in osteoclast differentiation and function, RANKL-RANK signaling is also required for development of lymph node and lactating mammary glands in mice and in the establishment of thymic microenvironment.
 
 Please access this pathway at [http://www.netpath.org/netslim/rankl_pathway.html NetSlim] database.
 If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L., Nanjappa, V., Bhattacharjee, M., Getnet, D., Muthusamy, B., Thomas, J. K., Sharma, J., Rahiman, B. A., Harsha, H. C., Shankar, S., Prasad, T. S. K., Mohan, S. S., Bader, G. D., Wani, M. R. and Pandey, A. (2011). A comprehensive manually curated reaction map of RANKL/RANK signaling pathway. Database (Oxford). 2011, bar021.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2018.gpml (WP2018_r120672) with a 98.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2018.gpml (WP2018_r126338) with a 98.0% conversion rate.</Comment>
   <Graphics BoardWidth="983.0" BoardHeight="1493.5" />
   <DataNode TextLabel="Nfkb1" GraphId="c642d" Type="Protein" GroupRef="aa906">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:4790</Comment>
@@ -75,7 +75,7 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Xref Database="Ensembl" ID="ENSRNOG00000001047" />
   </DataNode>
   <DataNode TextLabel="Traf6" GraphId="ebc51" Type="Protein" GroupRef="de6ac">
-    <Comment>TRAF6  undergoes polyubiquitination upon stimulation with RANKL which is further enhanced by IFN-gamma in mouse macrophage cell line RAW 264.7 and in mouse bone marrow derived macrophages.</Comment>
+    <Comment>TRAF6  undergoes polyubiquitination upon stimulation with RANKL which is further enhanced by IFN-gamma in mouse macrophage cell line RAW 264.7 and in mouse bone marrow derived macrophages. </Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:7189</Comment>
     <Graphics CenterX="313.0" CenterY="687.5" Width="56.0" Height="20.0" ZOrder="32783" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000004639" />
@@ -188,7 +188,7 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Xref Database="Ensembl" ID="ENSRNOG00000007916" />
   </DataNode>
   <DataNode TextLabel="Rela" GraphId="deaa2" Type="Protein" GroupRef="ed6af">
-    <Comment>RELA undergoes induced phosphorylation at Ser-276 and Ser-536 upon stimulation with RANKL in mouse bone marrow macrophages.</Comment>
+    <Comment>RELA undergoes induced phosphorylation at Ser-276 and Ser-536 upon stimulation with RANKL in mouse bone marrow macrophages. </Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:5970</Comment>
     <Graphics CenterX="313.8333333333335" CenterY="1065.0" Width="50.0" Height="20.0" ZOrder="32906" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000030888" />
@@ -307,17 +307,20 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Graphics CenterX="182.15336134453787" CenterY="698.5" Width="46.5" Height="20.0" ZOrder="33132" FillColor="99ffff" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000013536" />
   </DataNode>
-  <DataNode TextLabel="CALCR" GraphId="c48cf" Type="RNA">
+  <DataNode TextLabel="Calcr" GraphId="c48cf" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:799</Comment>
     <Graphics CenterX="417.25" CenterY="1427.5" Width="58.5" Height="20.0" ZOrder="33134" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="799" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000010053" />
   </DataNode>
-  <DataNode TextLabel="NFATC1" GraphId="d9b82" Type="RNA">
+  <DataNode TextLabel="Nfatc1" GraphId="d9b82" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:4772</Comment>
     <Graphics CenterX="125.0" CenterY="1429.5" Width="58.0" Height="20.0" ZOrder="33135" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="4772" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000017146" />
   </DataNode>
-  <DataNode TextLabel="ACP5" GraphId="d2652" Type="RNA">
+  <DataNode TextLabel="Acp5" GraphId="d2652" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:54</Comment>
     <Graphics CenterX="193.5" CenterY="1430.0" Width="51.0" Height="20.0" ZOrder="33137" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="54" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000046261" />
   </DataNode>
   <DataNode TextLabel="Sqstm1" GraphId="fb220" Type="Protein">
     <Comment>TRAF6  undergoes polyubiquitination upon stimulation with RANKL which is further enhanced by IFN-gamma in mouse macrophage cell line RAW 264.7 and in mouse bone marrow derived macrophages.</Comment>
@@ -325,22 +328,26 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Graphics CenterX="393.0" CenterY="642.5" Width="56.0" Height="20.0" ZOrder="33138" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000003147" />
   </DataNode>
-  <DataNode TextLabel="TNFRSF11A" GraphId="ab90e" Type="RNA">
+  <DataNode TextLabel="Tnfrsf11a" GraphId="ab90e" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:8792</Comment>
     <Graphics CenterX="270.0" CenterY="1429.5" Width="78.0" Height="20.0" ZOrder="33151" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="8792" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000015615" />
   </DataNode>
-  <DataNode TextLabel="ICAM1" GraphId="d2f82" Type="RNA">
+  <DataNode TextLabel="Icam1" GraphId="d2f82" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:3383</Comment>
     <Graphics CenterX="350.0" CenterY="1428.5" Width="56.0" Height="20.0" ZOrder="33165" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="3383" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000020679" />
   </DataNode>
-  <DataNode TextLabel="VCAM1" GraphId="d1845" Type="RNA">
+  <DataNode TextLabel="Vcam1" GraphId="d1845" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:7412</Comment>
     <Graphics CenterX="350.5" CenterY="1451.5" Width="57.0" Height="20.0" ZOrder="33166" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="7412" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000014333" />
   </DataNode>
-  <DataNode TextLabel="CTSK" GraphId="ced95" Type="RNA">
+  <DataNode TextLabel="Ctsk" GraphId="ced95" Type="Rna">
     <Comment>Type your comment here</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:1513</Comment>
     <Graphics CenterX="194.0" CenterY="1453.5" Width="50.0" Height="20.0" ZOrder="33168" FontStyle="Italic" FontSize="12" Valign="Middle" />
-    <Xref Database="Entrez Gene" ID="1513" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000021155" />
   </DataNode>
   <DataNode TextLabel="Spi1" GraphId="a1f36" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:6688</Comment>
@@ -373,12 +380,12 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Graphics RelX="1.0" RelY="-0.9" Width="27.84663865546213" Height="14.350840336134297" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="c7add" TextLabel="P" GraphId="f1443">
-    <Graphics RelX="0.9298245614035088" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="fe456" TextLabel="P" GraphId="b7523">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="c7add" TextLabel="P" GraphId="f1443">
+    <Graphics RelX="0.9298245614035088" RelY="1.0" Width="15.0" Height="15.0" FillColor="ffff00" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ebc51" TextLabel="Ub" GraphId="e1d60">
@@ -482,10 +489,10 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1a1f8bb6">
-    <Comment>LIM domain of FHL2 interacts with TRAF6 upon stimulation with RANKL in mouse bone marrow derived macrophages and mouse osteoclasts and thus attenuates TRAF6-mediated RANK signaling.</Comment>
+    <Comment> LIM domain of FHL2 interacts with TRAF6 upon stimulation with RANKL in mouse bone marrow derived macrophages and mouse osteoclasts and thus attenuates TRAF6-mediated RANK signaling.</Comment>
     <Graphics ZOrder="12288" LineThickness="2.0" Color="ff3300">
       <Point X="337.5" Y="593.0" GraphRef="d144d" RelX="-1.0" RelY="0.0" />
-      <Point X="314.0" Y="593.0" ArrowHead="mim-inhibition" />
+      <Point X="314.0" Y="593.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -793,7 +800,7 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d4cb4">
-    <Comment>RELA translocates from cytoplasm to nucleus upon stimulation with RANKL in RAW264.7 cells and murine osteoclasts.</Comment>
+    <Comment>RELA translocates from cytoplasm to nucleus upon stimulation with RANKL in RAW264.7 cells and murine osteoclasts. </Comment>
     <Comment>NFKB1 translocated from cytoplasm to nucleus upon stimualtion with RANKL in RAW264.7 cells.</Comment>
     <Graphics ZOrder="33059" LineStyle="Broken" LineThickness="2.0" Color="00cccc">
       <Point X="313.0" Y="1094.135695764909" GraphRef="eef9c" RelX="0.0" RelY="1.0" />
@@ -867,10 +874,10 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f66f9">
-    <Comment>LYN inhibits osteclastogenesis by inhibiting the activation of PLCG1 mediated calcium signaling.</Comment>
+    <Comment> LYN inhibits osteclastogenesis by inhibiting the activation of PLCG1 mediated calcium signaling.</Comment>
     <Graphics ZOrder="33124" LineThickness="2.0" Color="ff3300">
       <Point X="91.43881856540082" Y="533.0" GraphRef="e4464" RelX="-1.0" RelY="0.0" />
-      <Point X="70.43881856540082" Y="533.0" ArrowHead="mim-inhibition" />
+      <Point X="70.43881856540082" Y="533.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -900,7 +907,7 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Comment>TNFRSF11B (OPG)  is a negative regulator of RANK signaling pathway and inhibits  osteoclastogenesis  in vivo and in vitro</Comment>
     <Graphics ZOrder="33131" LineThickness="2.0" Color="ff3300">
       <Point X="340.0" Y="362.0" GraphRef="ad383" RelX="-1.0" RelY="0.0" />
-      <Point X="271.0" Y="362.0" ArrowHead="mim-inhibition" />
+      <Point X="271.0" Y="362.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -913,6 +920,7 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f3a0f">
+    <Comment></Comment>
     <Graphics ZOrder="33141" LineStyle="Broken" LineThickness="2.0">
       <Point X="473.0" Y="1222.0" />
       <Point X="473.9166666666665" Y="1297.0" GraphRef="a9022" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -998,7 +1006,7 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="cc18c">
-    <Comment>RELB gets activated through MAP3K14 in alternative NF-kappa B pathway. RELB forms a heterodimer with NFKB2. RELB knock-out mice studies have shown that it is required for RANKL induced osteoclastogenesis.</Comment>
+    <Comment>RELB gets activated through MAP3K14 in alternative NF-kappa B pathway. RELB forms a heterodimer with NFKB2. RELB knock-out mice studies have shown that it is required for RANKL induced osteoclastogenesis. </Comment>
     <Graphics ZOrder="33177" LineStyle="Broken" LineThickness="2.0">
       <Point X="386.59663865546224" Y="826.5588235294122" GraphRef="adf7a" RelX="0.0" RelY="1.0" />
       <Point X="386.8333333333335" Y="1054.0" GraphRef="d5638" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -1039,7 +1047,7 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Comment>Inhibitors of MEK's enhanced RANKL-mediated osteoclastogenesis.</Comment>
     <Graphics ZOrder="33187" LineThickness="2.0" Color="ff3300">
       <Point X="501.5" Y="1016.0" GraphRef="e186a" RelX="0.0" RelY="1.0" />
-      <Point X="501.0" Y="1130.0" ArrowHead="mim-inhibition" />
+      <Point X="501.0" Y="1130.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1054,7 +1062,7 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
   <Interaction GraphId="e3410">
     <Graphics ZOrder="33751" LineThickness="2.0">
       <Point X="627.999999999997" Y="686.4652880354461" />
-      <Point X="648.9999999999964" Y="686.4652880354461" ArrowHead="mim-inhibition" />
+      <Point X="648.9999999999964" Y="686.4652880354461" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1430,6 +1438,7 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
     <Graphics CenterX="70.93881856540082" CenterY="796.0" Width="83.0" Height="30.0" ZOrder="16384" FillColor="99ff33" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Ca2+" GraphId="d9081">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="70.93881856540082" CenterY="728.5" Width="45.0" Height="25.0" ZOrder="16388" FillColor="ffccff" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
   <Shape GraphId="d8839">
@@ -1450,19 +1459,19 @@ If you use this pathway, please cite following paper: Raju, R., Balakrishnan, L.
   <Shape GraphId="e6a91">
     <Graphics CenterX="685.6666666666642" CenterY="1022.79862136878" Width="14.0" Height="14.0" ZOrder="33830" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="f8dc1" GraphId="f8dc1" Style="Group" />
-  <Group GroupId="aa906" GraphId="aa906" Style="Group" />
-  <Group GroupId="a8415" GraphId="a8415" Style="Group" />
-  <Group GroupId="ed6af" GraphId="ed6af" Style="Group" />
-  <Group GroupId="f5f42" GraphId="f5f42" Style="Group" />
-  <Group GroupId="b603b" GraphId="b603b" Style="Group" />
-  <Group GroupId="e099f" GraphId="e099f" Style="Group" />
-  <Group GroupId="a410b" GraphId="a410b" Style="Group" />
-  <Group GroupId="c192b" GraphId="c192b" Style="Group" />
-  <Group GroupId="de6ac" GraphId="de6ac" Style="Group" />
-  <Group GroupId="f4b20" GraphId="f4b20" Style="Group" />
-  <Group GroupId="d43d5" GraphId="d43d5" Style="Group" />
-  <Group GroupId="ee190" GraphId="ee190" Style="Group" />
+  <Group GroupId="f8dc1" GraphId="a180e" Style="Group" />
+  <Group GroupId="aa906" GraphId="a6401" Style="Group" />
+  <Group GroupId="a8415" GraphId="a90b8" Style="Group" />
+  <Group GroupId="ed6af" GraphId="ab57f" Style="Group" />
+  <Group GroupId="f5f42" GraphId="b6ed2" Style="Group" />
+  <Group GroupId="b603b" GraphId="b9b82" Style="Group" />
+  <Group GroupId="e099f" GraphId="ba0ec" Style="Group" />
+  <Group GroupId="a410b" GraphId="be4ce" Style="Group" />
+  <Group GroupId="c192b" GraphId="bfa97" Style="Group" />
+  <Group GroupId="de6ac" GraphId="c4de6" Style="Group" />
+  <Group GroupId="f4b20" GraphId="cbe75" Style="Group" />
+  <Group GroupId="d43d5" GraphId="dc0a7" Style="Group" />
+  <Group GroupId="ee190" GraphId="de5a6" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">

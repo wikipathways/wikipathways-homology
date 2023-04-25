@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Roles of ceramides in the development of insulin resistance" Data-Source="WikiPathways" Version="WP5181_Ss" Last-Modified="20221030085828" Organism="Sus scrofa">
-  <Comment Source="WikiPathways-description">Studies indicate there is a connection between ceramides and insulin resistance. Ceramides are accumulated in tissues due to an excessive supply of saturated fatty acids. In obese subjects, the amount of ceramides found in skeletal muscles is nearly double of healthy subjects. 
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Roles of ceramides in development of insulin resistance" Data-Source="WikiPathways" Version="WP5181_Ss" Last-Modified="20221214214801" Organism="Sus scrofa">
+  <Comment Source="WikiPathways-description">Ceramides and insulin resistance are connectedd. Ceramides are accumulated in tissues due to an excess of saturated fatty acids. In obese subjects, the amount of ceramides found in skeletal muscles is nearly double that of healthy subjects. 
 
-Ceramides are produced mostly as a result of the sphingolipid pathway. Besides the sphingolipid pathway, ceramides are also produced by the hydrolysis of sphingomyelin with the catalysis of nSMase2. 
+Ceramides are produced mostly by the sphingolipid pathway. Besides the sphingolipid pathway, ceramides are also produced by the hydrolysis of sphingomyelin with the catalysis of nSMase2. 
 
-In the cell, ceramides play a role in insulin resistance. to Ceramides inhibits the binding of PDX-1 and MAFA transcriptional factors to insulin promoter. Ceramides cause ER stress, which activates extracellular signal-regulated kinase MAPK8 and EIF2AK2. This leads to the upregulation of serine phosphorylation while downregulating tyrosine phosphorylation of IRS-1. which leads to the inhibition of recruitment and activation of PI3K. This leads to a downregulation in AKT1, an enzyme that stimulates the translocation of GLUT4. Ceramides also impair mitochondria functions and inhibit fatty acid oxidation, eventually leading to ROS and inflammation. Ceramides activate protein PP2A, which promotes the dephosphorylation of AKT1. PKCζ is also activated by ceramides to inhibit the activity of AKT1. 
+In the cell, ceramides play a role in insulin resistance. Ceramides inhibit the binding of PDX-1 and MAFA transcription factors to insulin promoter. Ceramides cause ER stress, which activates extracellular signal-regulated kinase MAPK8 and EIF2AK2. This leads to the upregulation of serine phosphorylation while downregulating tyrosine phosphorylation of IRS-1. That, in turn, leads to the inhibition of recruitment and activation of PI3K. This leads to a downregulation in AKT1, an enzyme that stimulates the translocation of GLUT4. Ceramides also impair mitochondria functions and inhibit fatty acid oxidation, eventually leading to ROS and inflammation. Ceramides activate protein PP2A, which promotes the dephosphorylation of AKT1. PKCζ is also activated by ceramides to inhibit the activity of AKT1. 
 
-Moreover, Palmitoyl-CoA downregulates the phosphorylation of AMPK, which leads to the increase of ER stress in the cell and decreases in fatty acid oxidation. 
+Moreover, palmitoyl-CoA downregulates the phosphorylation of AMPK, which leads to the increase of ER stress in the cell and decreases in fatty acid oxidation. 
 
-On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palmitoyl-CoA. Oleic Acid also increases the expression of CPT1B, stimulating the fatty acid oxidation to reduce the inflammation in the cell.</Comment>
+On the other hand, oleic acid inhibits the downregulation of AMPK caused by palmitoyl-CoA. Oleic acid also increases the expression of CPT1B, stimulating the fatty acid oxidation to reduce the inflammation in the cell. 
+</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5181.gpml (WP5181_r124468) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5181.gpml (WP5181_r124851) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>f3b</BiopaxRef>
   <BiopaxRef>b94</BiopaxRef>
   <BiopaxRef>c62</BiopaxRef>
@@ -50,7 +51,7 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
     <Xref Database="Ensembl" ID="ENSSSCG00000017670" />
   </DataNode>
   <DataNode TextLabel="ACSL1" GraphId="aa5c6" Type="Protein">
-    <Comment>The activation is catalyzed by palmitoyl-coenzyme A synthetase</Comment>
+    <Comment>The activation is catalyzed by palmitoyl-coenzyme A synthetase </Comment>
     <Comment>Type your comment here</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:P33121</Comment>
     <Graphics CenterX="1085.25" CenterY="416.75" Width="57.5" Height="30.5" ZOrder="32778" FontSize="12" Valign="Middle" />
@@ -111,7 +112,8 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
     <Xref Database="Ensembl" ID="ENSSSCG00000013566" />
   </DataNode>
   <DataNode TextLabel="PPP2CA" GraphId="b9b0d" Type="Protein" GroupRef="c7dc1">
-    <Comment>Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform</Comment>
+    <Comment>Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform
+</Comment>
     <Comment>Type your comment here</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:P67775</Comment>
     <Graphics CenterX="615.3333333333328" CenterY="845.2500000000007" Width="108.0" Height="50.5" ZOrder="32808" FontSize="12" Valign="Middle" />
@@ -224,7 +226,7 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e5f13" TextLabel="pS" GraphId="a5653">
-    <Comment>phosphorylated serine</Comment>
+    <Comment> phosphorylated serine</Comment>
     <Graphics RelX="-1.0" RelY="-0.18471337579615002" Width="25.0" Height="25.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -249,7 +251,7 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="cb1dc" TextLabel="pY" GraphId="d353b">
-    <Comment>phosphorylated tyrosine</Comment>
+    <Comment> phosphorylated tyrosine</Comment>
     <Comment>Type your comment here</Comment>
     <Graphics RelX="-0.9829059829059829" RelY="-0.08280254777066876" Width="25.0" Height="25.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
@@ -336,8 +338,8 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
   </Interaction>
   <Interaction GraphId="id2ad882c0">
     <Graphics ZOrder="12298" LineThickness="1.0">
-      <Point X="1306.3333333333312" Y="741.5" GraphRef="b65c9" RelX="1.0" RelY="0.0" />
-      <Point X="1386.3333333333312" Y="741.5" GraphRef="fc6c0" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="1306.3333333333312" Y="741.5" GraphRef="d5294" RelX="1.0" RelY="0.0" />
+      <Point X="1386.3333333333312" Y="741.5" GraphRef="cc2e4" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.6958333333333598" Shape="None" GraphId="d858d" />
       <Anchor Position="0.38333333333335984" Shape="None" GraphId="c7ed9" />
     </Graphics>
@@ -353,7 +355,7 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
   </Interaction>
   <Interaction GraphId="id32b01372">
     <Graphics ConnectorType="Elbow" ZOrder="12304" LineThickness="1.0" Color="ff6600">
-      <Point X="1016.3333333333517" Y="789.3333333333331" GraphRef="d5673" RelX="0.0" RelY="1.0" />
+      <Point X="1016.3333333333517" Y="789.3333333333331" GraphRef="b54f9" RelX="0.0" RelY="1.0" />
       <Point X="1096.8333333333467" Y="809.3333333333331" />
       <Point X="1177.3333333333414" Y="809.1666666666665" />
       <Point X="1257.1666666666706" Y="809.0" />
@@ -442,8 +444,8 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
   </Interaction>
   <Interaction GraphId="id57295549">
     <Graphics ConnectorType="Elbow" ZOrder="12328" LineThickness="1.0">
-      <Point X="781.5833333333317" Y="713.6666666666663" GraphRef="e86b7" RelX="0.0" RelY="1.0" />
-      <Point X="946.6666666666852" Y="740.6666666666665" GraphRef="d5673" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
+      <Point X="781.5833333333317" Y="713.6666666666663" GraphRef="bfa23" RelX="0.0" RelY="1.0" />
+      <Point X="946.6666666666852" Y="740.6666666666665" GraphRef="b54f9" RelX="-1.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -451,7 +453,7 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
     <BiopaxRef>e6b</BiopaxRef>
     <Graphics ZOrder="12332" LineThickness="1.0">
       <Point X="711.0" Y="484.83333333333337" GraphRef="f0789" RelX="0.0" RelY="1.0" />
-      <Point X="577.3333333333342" Y="614.291666666667" GraphRef="ba752" RelX="1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
+      <Point X="577.3333333333342" Y="614.291666666667" GraphRef="a4ca5" RelX="1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -466,7 +468,7 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
   <Interaction GraphId="idf8a00e12">
     <BiopaxRef>b94</BiopaxRef>
     <Graphics ZOrder="12340" LineThickness="1.0">
-      <Point X="1452.8333333333312" Y="790.0" GraphRef="fc6c0" RelX="0.0" RelY="1.0" />
+      <Point X="1452.8333333333312" Y="790.0" GraphRef="cc2e4" RelX="0.0" RelY="1.0" />
       <Point X="1452.9999999999998" Y="832.9999999999998" GraphRef="d6da3" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
       <Anchor Position="0.4" Shape="None" GraphId="c537f" />
     </Graphics>
@@ -541,7 +543,7 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
   <Interaction GraphId="c7712">
     <BiopaxRef>f3b</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="32845" LineThickness="1.0">
-      <Point X="615.3333333333328" Y="878.5000000000007" GraphRef="c7dc1" RelX="0.0" RelY="1.0" />
+      <Point X="615.3333333333328" Y="878.5000000000007" GraphRef="f9d9b" RelX="0.0" RelY="1.0" />
       <Point X="1452.9000000000003" Y="899.1" GraphRef="bef8d" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -557,7 +559,7 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
   <GraphicalLine GraphId="c7770">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1655.5" Y="602.0" />
-      <Point X="1722.0" Y="602.0" ArrowHead="mim-inhibition" />
+      <Point X="1722.0" Y="602.0" ArrowHead="TBar" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="d2e32">
@@ -663,19 +665,94 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="487.9886202616048" CenterY="630.1054585638238" Width="285.3342557020395" Height="125.39701398855665" ZOrder="16390" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="6.278315215812423" />
   </Shape>
-  <Group GroupId="ba752" GraphId="ba752" Style="Group" />
-  <Group GroupId="d5673" GraphId="d5673" Style="Group">
+  <Group GroupId="ba752" GraphId="a4ca5" Style="Group" />
+  <Group GroupId="d5673" GraphId="b54f9" Style="Group">
     <BiopaxRef>b94</BiopaxRef>
   </Group>
-  <Group GroupId="e86b7" GraphId="e86b7" Style="Group" />
-  <Group GroupId="fc6c0" GraphId="fc6c0" Style="Group" />
-  <Group GroupId="b65c9" GraphId="b65c9" Style="Group" />
-  <Group GroupId="c7dc1" GraphId="c7dc1" Style="Group">
+  <Group GroupId="e86b7" GraphId="bfa23" Style="Group" />
+  <Group GroupId="fc6c0" GraphId="cc2e4" Style="Group" />
+  <Group GroupId="b65c9" GraphId="d5294" Style="Group" />
+  <Group GroupId="c6e7e" GraphId="e0cd5" Style="Group" />
+  <Group GroupId="c7dc1" GraphId="f9d9b" Style="Group">
     <BiopaxRef>b94</BiopaxRef>
   </Group>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type 2 diabetes mellitus pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000208</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a48">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24037260</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localisation of AMPK Î³ subunits in cardiac and skeletal muscles.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Muscle Res Cell Motil</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24037260</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localisation of AMPK γ subunits in cardiac and skeletal muscles.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Muscle Res Cell Motil</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24037260</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localisation of AMPK γ subunits in cardiac and skeletal muscles.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Muscle Res Cell Motil</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinter K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grignani RT</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watkins H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redwood C</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b94">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33738905</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutral sphingomyelinase-2 and cardiometabolic diseases.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obes Rev</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sindhu S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leung YH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arefanian H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madiraju SRM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Mulla F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmad R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prentki M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23349544</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasma ceramides target skeletal muscle in type 2 diabetes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kirwan JP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obesity</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9970</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000143</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20182627</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of reactive oxygen species in the progression of type 2 diabetes and atherosclerosis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mediators Inflamm</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaneto H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katakami N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matsuhisa M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matsuoka TA</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29290500</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palmitic and Oleic Acid: The Yin and Yang of Fatty Acids in Type 2 Diabetes Mellitus.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trends Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29290500</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palmitic and Oleic Acid: The Yin and Yang of Fatty Acids in Type 2 Diabetes Mellitus.</bp:TITLE>
@@ -692,6 +769,11 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting sphingolipid metabolism in the treatment of obesity/type 2 diabetes.</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expert Opin Ther Targets</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25814122</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting sphingolipid metabolism in the treatment of obesity/type 2 diabetes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expert Opin Ther Targets</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bellini L</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campana M</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mahfouz R</bp:AUTHORS>
@@ -702,10 +784,47 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Stunff H</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000143</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell of skeletal muscle</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000188</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atherosclerosis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1936</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c62">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26078196</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting endoplasmic reticulum stress in insulin resistance.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trends Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26078196</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting endoplasmic reticulum stress in insulin resistance.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trends Endocrinol Metab</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salvadó L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palomer X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barroso E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vázquez-Carrera M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33033337</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutral sphingomyelinase 2 regulates inflammatory responses in monocytes/macrophages induced by TNF-α.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sci Rep</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Rashed F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmad Z</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thomas R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melhem M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snider AJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obeid LM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Mulla F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hannun YA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmad R</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8b">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19553926</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -724,57 +843,6 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wheeler VW</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zmuda JM</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9351</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b94">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33738905</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutral sphingomyelinase-2 and cardiometabolic diseases.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obes Rev</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sindhu S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leung YH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arefanian H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madiraju SRM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Mulla F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmad R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prentki M</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell of skeletal muscle</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000188</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8e">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20182627</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of reactive oxygen species in the progression of type 2 diabetes and atherosclerosis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mediators Inflamm</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaneto H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katakami N</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matsuhisa M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matsuoka TA</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa4">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33033337</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutral sphingomyelinase 2 regulates inflammatory responses in monocytes/macrophages induced by TNF-α.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sci Rep</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Rashed F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmad Z</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thomas R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melhem M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snider AJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obeid LM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Mulla F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hannun YA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmad R</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb8">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23329830</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -791,21 +859,10 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puigserver P</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type 2 diabetes mellitus pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000208</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9351</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c62">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26078196</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting endoplasmic reticulum stress in insulin resistance.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trends Endocrinol Metab</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salvadó L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palomer X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barroso E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vázquez-Carrera M</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f70">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4722436</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -816,35 +873,6 @@ On the other hand, Oleic Acid inhibits the downregulation of AMPK caused by Palm
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rose G</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brandes R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shapiro B</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atherosclerosis</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1936</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obesity</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9970</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a48">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24037260</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localisation of AMPK Î³ subunits in cardiac and skeletal muscles.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Muscle Res Cell Motil</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinter K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grignani RT</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watkins H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redwood C</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc4">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23349544</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasma ceramides target skeletal muscle in type 2 diabetes.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kirwan JP</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

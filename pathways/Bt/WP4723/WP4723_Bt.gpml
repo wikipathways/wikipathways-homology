@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Omega-3 / omega-6 fatty acid synthesis" Data-Source="WikiPathways" Version="WP4723_Bt" Last-Modified="20220729091308" Organism="Bos taurus">
-  <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Omega-3 / omega-6 fatty acid synthesis" Data-Source="WikiPathways" Version="WP4723_Bt" Last-Modified="20221208084703" Organism="Bos taurus">
+  <Comment Source="WikiPathways-description">This pathway is inspired by the Lipidmaps&gt;Omega-3 and omega-6 fatty acids) [https://lipidmaps.org/pathway/pathways_maps].
+Omega-3 and omega-6 FAs (Fatty acids) are important fats obtained from diet, and are both polyunsaturated (indicating many double bonds in the lipid tail).The position of the double bond is given in the name of the lipid, for example 22:2(13Z,16Z) means a tail length of 22 carbons, with 2 double bond. One double bond is at the 13 Carbon, the second on the 16th.This number is counted from the tail end of the lipid chain (indicating that the example lipid is a 22 - 16 = omega-6 FA).</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4350_106336.gpml] with a 94.0% conversion rate.</Comment>
+  <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4723.gpml (WP4723_r123512) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4723.gpml (WP4723_r124738) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>e46</BiopaxRef>
   <Graphics BoardWidth="1608.757101250621" BoardHeight="770.930372771475" />
   <DataNode TextLabel="FADS2" GraphId="fcbf0" Type="GeneProduct">
@@ -373,7 +375,7 @@
   </DataNode>
   <Interaction GraphId="f18b3">
     <Graphics ZOrder="32867" LineThickness="1.0">
-      <Point X="297.39039424975545" Y="401.68862451585096" GraphRef="f2046" RelX="1.0" RelY="0.0" />
+      <Point X="297.39039424975545" Y="401.68862451585096" GraphRef="ee864" RelX="1.0" RelY="0.0" />
       <Point X="322.20000000000056" Y="439.88946368056577" GraphRef="e417d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -416,14 +418,14 @@
   </Interaction>
   <Interaction GraphId="b0f3e">
     <Graphics ZOrder="32873" LineThickness="1.0">
-      <Point X="901.0420430929785" Y="175.67211240310093" GraphRef="e0f5d" RelX="-1.0" RelY="0.0" />
+      <Point X="901.0420430929785" Y="175.67211240310093" GraphRef="a1678" RelX="-1.0" RelY="0.0" />
       <Point X="866.3269568612297" Y="176.36370699197317" GraphRef="a670b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ef111">
     <Graphics ConnectorType="Elbow" ZOrder="32874" LineThickness="1.0">
-      <Point X="1324.7083333333326" Y="395.7212276214839" GraphRef="b1a54" RelX="0.5" RelY="1.0" />
+      <Point X="1324.7083333333326" Y="395.7212276214839" GraphRef="ffebe" RelX="0.5" RelY="1.0" />
       <Point X="1421.447432310882" Y="464.330372771475" GraphRef="f90b5" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -453,7 +455,7 @@
   </Interaction>
   <Interaction GraphId="fbc8e">
     <Graphics ConnectorType="Elbow" ZOrder="32878" LineThickness="1.0">
-      <Point X="1308.0833333333323" Y="395.7212276214839" GraphRef="b1a54" RelX="0.0" RelY="1.0" />
+      <Point X="1308.0833333333323" Y="395.7212276214839" GraphRef="ffebe" RelX="0.0" RelY="1.0" />
       <Point X="998.4474323108866" Y="613.6363636363636" GraphRef="f95cd" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -513,14 +515,14 @@
   </Interaction>
   <Interaction GraphId="f36c7">
     <Graphics ZOrder="32886" LineThickness="1.0">
-      <Point X="501.0386904761888" Y="546.1026785714289" GraphRef="e5e1a" RelX="-1.0" RelY="0.5" />
+      <Point X="501.0386904761888" Y="546.1026785714289" GraphRef="bd132" RelX="-1.0" RelY="0.5" />
       <Point X="388.16666666666663" Y="608.7800704208885" GraphRef="a6f6f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f2a5d">
     <Graphics ZOrder="32887" LineThickness="1.0">
-      <Point X="501.0386904761888" Y="519.8526785714289" GraphRef="e5e1a" RelX="-1.0" RelY="-0.5" />
+      <Point X="501.0386904761888" Y="519.8526785714289" GraphRef="bd132" RelX="-1.0" RelY="-0.5" />
       <Point X="388.1666666666666" Y="469.13037277147475" GraphRef="a4c66" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -542,14 +544,14 @@
   </Interaction>
   <Interaction GraphId="b8d20">
     <Graphics ZOrder="32890" LineThickness="1.0">
-      <Point X="777.4056794566145" Y="175.67211240310093" GraphRef="cf2b3" RelX="-1.0" RelY="0.0" />
+      <Point X="777.4056794566145" Y="175.67211240310093" GraphRef="c4677" RelX="-1.0" RelY="0.0" />
       <Point X="654.0976937431385" Y="175.7458540968221" GraphRef="e0669" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e69b0">
     <Graphics ZOrder="32891" LineThickness="1.0">
-      <Point X="976.1818181818185" Y="175.67211240310093" GraphRef="e0f5d" RelX="1.0" RelY="0.0" />
+      <Point X="976.1818181818185" Y="175.67211240310093" GraphRef="a1678" RelX="1.0" RelY="0.0" />
       <Point X="1245.421532056594" Y="176.16209238666676" GraphRef="ac748" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -623,21 +625,21 @@
   </Interaction>
   <Interaction GraphId="f055a">
     <Graphics ZOrder="32901" LineThickness="1.0">
-      <Point X="1480.6285506253103" Y="258.5833333333332" GraphRef="c5aea" RelX="-1.0" RelY="0.0" />
+      <Point X="1480.6285506253103" Y="258.5833333333332" GraphRef="fbe09" RelX="-1.0" RelY="0.0" />
       <Point X="1421.447432310882" Y="258.6576454987478" GraphRef="df754" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="bc62b">
     <Graphics ZOrder="32902" LineThickness="1.0">
-      <Point X="599.2976190476165" Y="373.42410714285757" GraphRef="a7c0d" RelX="-1.0" RelY="0.0" />
+      <Point X="599.2976190476165" Y="373.42410714285757" GraphRef="f1b1d" RelX="-1.0" RelY="0.0" />
       <Point X="576.3164823970798" Y="373.74501682649907" GraphRef="be73d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f81cf">
     <Graphics ZOrder="32903" LineThickness="1.0">
-      <Point X="1341.3333333333326" Y="369.47122762148376" GraphRef="b1a54" RelX="1.0" RelY="0.0" />
+      <Point X="1341.3333333333326" Y="369.47122762148376" GraphRef="ffebe" RelX="1.0" RelY="0.0" />
       <Point X="1421.447432310882" Y="370.42128186238415" GraphRef="c22e8" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -682,7 +684,7 @@
   </Interaction>
   <Interaction GraphId="f60d1">
     <Graphics ZOrder="32909" LineThickness="1.0">
-      <Point X="1088.4166666666647" Y="309.3220863415405" GraphRef="b0957" RelX="0.0" RelY="1.0" />
+      <Point X="1088.4166666666647" Y="309.3220863415405" GraphRef="b0d9f" RelX="0.0" RelY="1.0" />
       <Point X="1089.090909090909" Y="332.2485545896568" GraphRef="bebde" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -736,7 +738,7 @@
   </Interaction>
   <Interaction GraphId="c3b23">
     <Graphics ZOrder="32916" LineThickness="1.0">
-      <Point X="229.3022049398918" Y="630.6178284223377" GraphRef="b938e" RelX="-1.0" RelY="0.0" />
+      <Point X="229.3022049398918" Y="630.6178284223377" GraphRef="ff01a" RelX="-1.0" RelY="0.0" />
       <Point X="191.83333333333343" Y="630.5381360702429" GraphRef="a1baa" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -780,7 +782,7 @@
   </Interaction>
   <Interaction GraphId="b6aa8">
     <Graphics ZOrder="32922" LineThickness="1.0">
-      <Point X="858.1277828060607" Y="622.6868049562584" GraphRef="bb94e" RelX="-1.0" RelY="0.0" />
+      <Point X="858.1277828060607" Y="622.6868049562584" GraphRef="aeffb" RelX="-1.0" RelY="0.0" />
       <Point X="776.8333333333333" Y="621.7054605275988" GraphRef="ef01a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -817,7 +819,7 @@
   </Interaction>
   <Interaction GraphId="b0b9e">
     <Graphics ZOrder="32927" LineThickness="1.0">
-      <Point X="740.6666666666648" Y="276.9672619047619" GraphRef="e1c31" RelX="1.0" RelY="0.0" />
+      <Point X="740.6666666666648" Y="276.9672619047619" GraphRef="ad6db" RelX="1.0" RelY="0.0" />
       <Point X="798.8583241455349" Y="276.74107142857144" GraphRef="e9c6b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -855,7 +857,7 @@
   </Interaction>
   <Interaction GraphId="bbb72">
     <Graphics ZOrder="32932" LineThickness="1.0">
-      <Point X="1274.8333333333321" Y="369.47122762148376" GraphRef="b1a54" RelX="-1.0" RelY="0.0" />
+      <Point X="1274.8333333333321" Y="369.47122762148376" GraphRef="ffebe" RelX="-1.0" RelY="0.0" />
       <Point X="1195.333096079856" Y="370.50525952609036" GraphRef="be87c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -870,7 +872,7 @@
   </Interaction>
   <Interaction GraphId="ad24c">
     <Graphics ConnectorType="Elbow" ZOrder="33003" LineThickness="1.0">
-      <Point X="1291.4583333333321" Y="395.7212276214839" GraphRef="b1a54" RelX="-0.5" RelY="1.0" />
+      <Point X="1291.4583333333321" Y="395.7212276214839" GraphRef="ffebe" RelX="-0.5" RelY="1.0" />
       <Point X="998.4474323108866" Y="492.93146345392705" GraphRef="a731b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -881,19 +883,35 @@
   <Label TextLabel="From the diet" GraphId="c6613">
     <Graphics CenterX="1421.447432310882" CenterY="111.81818181818186" Width="90.0" Height="25.0" ZOrder="32998" FillColor="ffffff" FontSize="12" Valign="Middle" Color="404040" />
   </Label>
-  <Group GroupId="e0f5d" GraphId="e0f5d" Style="Group" />
-  <Group GroupId="e1c31" GraphId="e1c31" Style="Group" />
-  <Group GroupId="bb94e" GraphId="bb94e" Style="Group" />
-  <Group GroupId="b0957" GraphId="b0957" Style="Group" />
-  <Group GroupId="e5e1a" GraphId="e5e1a" Style="Group" />
-  <Group GroupId="cf2b3" GraphId="cf2b3" Style="Group" />
-  <Group GroupId="f2046" GraphId="f2046" Style="Group" />
-  <Group GroupId="a7c0d" GraphId="a7c0d" Style="Group" />
-  <Group GroupId="c5aea" GraphId="c5aea" Style="Group" />
-  <Group GroupId="b938e" GraphId="b938e" Style="Group" />
-  <Group GroupId="b1a54" GraphId="b1a54" Style="Group" />
+  <Group GroupId="e0f5d" GraphId="a1678" Style="Group" />
+  <Group GroupId="f538f" GraphId="a735b" Style="Group" />
+  <Group GroupId="e1c31" GraphId="ad6db" Style="Group" />
+  <Group GroupId="bb94e" GraphId="aeffb" Style="Group" />
+  <Group GroupId="b0957" GraphId="b0d9f" Style="Group" />
+  <Group GroupId="ccd9f" GraphId="b61ef" Style="Group" />
+  <Group GroupId="e5e1a" GraphId="bd132" Style="Group" />
+  <Group GroupId="e05c4" GraphId="bdb5d" Style="Group" />
+  <Group GroupId="b53cd" GraphId="c17fd" Style="Group" />
+  <Group GroupId="cf2b3" GraphId="c4677" Style="Group" />
+  <Group GroupId="b07cc" GraphId="e20f3" Style="Group" />
+  <Group GroupId="f2046" GraphId="ee864" Style="Group" />
+  <Group GroupId="a7c0d" GraphId="f1b1d" Style="Group" />
+  <Group GroupId="c5aea" GraphId="fbe09" Style="Group" />
+  <Group GroupId="f93db" GraphId="fee66" Style="Group" />
+  <Group GroupId="b938e" GraphId="ff01a" Style="Group" />
+  <Group GroupId="b1a54" GraphId="ffebe" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatty acid elongation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001136</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatty acid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000058</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e46">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20923771</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -929,16 +947,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fahy E</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subramaniam S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatty acid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000058</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatty acid elongation pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001136</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid metabolic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000011</bp:ID>

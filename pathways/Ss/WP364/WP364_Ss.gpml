@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL6 signaling pathway" Data-Source="WikiPathways" Version="WP364_Ss" Last-Modified="20220226151609" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL6 signaling pathway" Data-Source="WikiPathways" Version="WP364_Ss" Last-Modified="20230420063202" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">IL-6 is a pleiotropic cytokine with important role in immune regulation, hematopoiesis, inflammation and oncogenesis. IL-6-type cytokines exert their action via the signal transducer gp130 that associates with IL6R in a cooperative manner to form a hexameric signal transducing complex, capable of activating the down stream mediators of this signaling pathway. This mechanism of signal transduction is shared by other members of the IL-6 type cytokines like IL-11, leukaemia inhibitory factor, oncostatin M, ciliary neurotrophic factor and cardiotrophin-1 that use gp130 as a common subunit of the signal transducing complex. IL-6 stimulation leads to the activation of JAK/STAT pathway. Both STAT1 and STAT3 are phosphorylated and are able to form homo- and heterodimers after activation leading to their nuclear localization and subsequent regulation of transcription of respective target genes. SHP-2 is one of the ubiquitous tyrosine phosphatases and IL-6 stimulation leads to the SHP2-dependent activation of MAPKs, it also links the Grb2-SOS complex and Gab1 to gp130. Phosphorylated Gab1 acts as an adapter and is involved in the indirect association of SHP-2 and PI-3 kinase. Downstream activation of Vav1, Rac-1 and MAP2K4 is necessary for the IL-6-mediated STAT3 phosphorylation and transactivation to accomplish its effects. STAT3 is also phosphorylated by PKCD and it causes inhibition of STAT3 DNA binding and transcriptional activity. PTPN11 and SOCS3 exert inhibitory function and thus lead to down regulation of the signaling cascade.
 
 Please access this pathway at [http://www.netpath.org/netslim/IL_6_pathway.html NetSlim] database.
@@ -9,7 +9,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP364 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP364.gpml (WP364_r121718) with a 98.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP364.gpml (WP364_r126289) with a 98.0% conversion rate.</Comment>
   <BiopaxRef>d90</BiopaxRef>
   <Attribute Key="org.pathvisio.model.WindowHeight" Value="11190.0" />
   <Attribute Key="org.pathvisio.model.WindowWidth" Value="15480.0" />
@@ -760,7 +760,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="dcdb1">
     <Graphics ZOrder="33097" LineThickness="2.0" Color="0000ff">
       <Point X="414.40630694215514" Y="517.9378416529318" GraphRef="ef262" RelX="-0.5" RelY="-1.0" />
-      <Point X="416.363894811656" Y="396.4214641080313" GraphRef="ebcde" RelX="0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="416.363894811656" Y="396.4214641080313" GraphRef="e6f50" RelX="0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -861,6 +861,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c2a00">
+    <Comment></Comment>
     <Graphics ZOrder="33290" LineStyle="Broken" LineThickness="2.0">
       <Point X="231.0" Y="773.8181818181822" GraphRef="f729e" RelX="0.0" RelY="1.0" />
       <Point X="231.66666666666666" Y="858.0" GraphRef="c56cf" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -891,7 +892,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="e0be9">
     <Graphics ZOrder="33294" LineStyle="Broken" LineThickness="2.0">
       <Point X="192.0" Y="1159.6666666666667" GraphRef="dbe05" RelX="0.0" RelY="1.0" />
-      <Point X="191.99999999999983" Y="1189.2238805970146" GraphRef="b9b82" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="191.99999999999983" Y="1189.2238805970146" GraphRef="bb7f4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1018,7 +1019,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <GraphicalLine GraphId="f6c87">
     <Graphics ZOrder="33591" LineThickness="2.0">
       <Point X="651.999999999997" Y="673.4652880354461" />
-      <Point X="672.9999999999964" Y="673.4652880354461" ArrowHead="mim-inhibition" />
+      <Point X="672.9999999999964" Y="673.4652880354461" ArrowHead="TBar" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="e4de5">
@@ -1398,30 +1399,20 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="eead4">
     <Graphics CenterX="445.2646086760907" CenterY="513.0113335796336" Width="18.698645046135994" Height="21.382395041193952" ZOrder="33675" FontSize="10" Valign="Middle" ShapeType="Arc" LineThickness="2.0" Color="0000ff" Rotation="2.554867" />
   </Shape>
-  <Group GroupId="ab0ed" GraphId="ab0ed" Style="Complex" />
-  <Group GroupId="dc74f" GraphId="dc74f" Style="Complex" />
-  <Group GroupId="aedc9" GraphId="aedc9" Style="Complex" />
-  <Group GroupId="cb355" GraphId="cb355" Style="Complex" />
-  <Group GroupId="a563d" GraphId="a563d" Style="Complex" />
-  <Group GroupId="f75f8" GraphId="f75f8" Style="Complex" />
-  <Group GroupId="b9b82" GraphId="b9b82" Style="Group" />
-  <Group GroupId="c43b0" GraphId="c43b0" Style="Complex" />
-  <Group GroupId="ebcde" GraphId="ebcde" Style="Group" />
-  <Group GroupId="b6b6e" GraphId="b6b6e" Style="Group" />
-  <Group GroupId="fc549" GraphId="fc549" Style="Complex" />
-  <Group GroupId="d10a9" GraphId="d10a9" Style="Complex" />
+  <Group GroupId="ab0ed" GraphId="a02cc" Style="Complex" />
+  <Group GroupId="dc74f" GraphId="a129c" Style="Complex" />
+  <Group GroupId="aedc9" GraphId="a35fb" Style="Complex" />
+  <Group GroupId="cb355" GraphId="aec50" Style="Complex" />
+  <Group GroupId="a563d" GraphId="b5e69" Style="Complex" />
+  <Group GroupId="f75f8" GraphId="b9bfa" Style="Complex" />
+  <Group GroupId="b9b82" GraphId="bb7f4" Style="Group" />
+  <Group GroupId="c43b0" GraphId="d17d6" Style="Complex" />
+  <Group GroupId="ebcde" GraphId="e6f50" Style="Group" />
+  <Group GroupId="b6b6e" GraphId="ec789" Style="Group" />
+  <Group GroupId="fc549" GraphId="f0185" Style="Complex" />
+  <Group GroupId="d10a9" GraphId="ff443" Style="Complex" />
   <InfoBox CenterX="15.0" CenterY="8.333333333333334" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin mediated signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000512</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-6 signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000516</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d90">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20067622</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1469,6 +1460,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonard WJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey A</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000512</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-6 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000516</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

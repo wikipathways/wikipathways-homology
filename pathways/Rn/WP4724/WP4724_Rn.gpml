@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Omega-9 fatty acid synthesis" Data-Source="WikiPathways" Version="WP4724_Rn" Last-Modified="20210522144600" Organism="Rattus norvegicus">
-  <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Omega-9 fatty acid synthesis" Data-Source="WikiPathways" Version="WP4724_Rn" Last-Modified="20221208084835" Organism="Rattus norvegicus">
+  <Comment Source="WikiPathways-description">This pathway is inspired by the Lipidmaps&gt;Omega-9 and other fatty acids [https://lipidmaps.org/pathway/pathways_maps].
+Omega-9 FAs (Fatty acids) are fats which can be obtained from diet, but also produced endogenously. These lipids are monounsaturated (indicating one double bonds in the lipid tail).The position of the double bond is counted from the tail end of the lipid chain.
+This pathway also indicated saturated fats (without a double bond), such as stearic acid, arachidic acid etc.</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4351_106337.gpml] with a 80.0% conversion rate.</Comment>
+  <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4724.gpml (WP4724_r117812) with a 81.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4724.gpml (WP4724_r124741) with a 81.0% conversion rate.</Comment>
   <BiopaxRef>c57</BiopaxRef>
   <Graphics BoardWidth="1091.6666666666647" BoardHeight="878.6497605265781" />
   <DataNode TextLabel="Fads1" GraphId="adf50" Type="GeneProduct">
@@ -254,7 +257,7 @@
   </Interaction>
   <Interaction GraphId="id2ab8d2a5">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="401.06605056724817" Y="577.4275618056979" GraphRef="bd344" RelX="-0.5" RelY="-1.0" />
+      <Point X="401.06605056724817" Y="577.4275618056979" GraphRef="a6b2c" RelX="-0.5" RelY="-1.0" />
       <Point X="323.27709266553956" Y="517.7793693254005" GraphRef="f9c36" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -268,7 +271,7 @@
   </Interaction>
   <Interaction GraphId="id30ad2523">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="450.94105056724817" Y="603.9275618056978" GraphRef="bd344" RelX="1.0" RelY="0.0" />
+      <Point X="450.94105056724817" Y="603.9275618056978" GraphRef="a6b2c" RelX="1.0" RelY="0.0" />
       <Point X="513.8966329287387" Y="604.3956043956044" GraphRef="d5c0b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -334,14 +337,14 @@
   </Interaction>
   <Interaction GraphId="id587338e">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="417.69105056724817" Y="577.4275618056979" GraphRef="bd344" RelX="0.0" RelY="-1.0" />
+      <Point X="417.69105056724817" Y="577.4275618056979" GraphRef="a6b2c" RelX="0.0" RelY="-1.0" />
       <Point X="514.4695017660121" Y="518.0757244549837" GraphRef="a0131" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id5c43ce19">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="815.8750000000014" Y="355.4166666666665" GraphRef="f3277" RelX="0.0" RelY="1.0" />
+      <Point X="815.8750000000014" Y="355.4166666666665" GraphRef="c21cb" RelX="0.0" RelY="1.0" />
       <Point X="816.1149944873208" Y="397.4303727714751" GraphRef="d86ca" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -447,7 +450,7 @@
   </Interaction>
   <Interaction GraphId="id94fa0f99">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="417.69105056724817" Y="630.4275618056977" GraphRef="bd344" RelX="0.0" RelY="1.0" />
+      <Point X="417.69105056724817" Y="630.4275618056977" GraphRef="a6b2c" RelX="0.0" RelY="1.0" />
       <Point X="514.2783123180516" Y="667.1750603915592" GraphRef="baf74" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -563,14 +566,20 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Group GroupId="dc323" GraphId="dc323" Style="Group" />
-  <Group GroupId="bd344" GraphId="bd344" Style="Group" />
-  <Group GroupId="f3277" GraphId="f3277" Style="Group" />
+  <Group GroupId="dc323" Style="Group" />
+  <Group GroupId="bd344" GraphId="a6b2c" Style="Group" />
+  <Group GroupId="d1426" GraphId="b19bb" Style="Group" />
+  <Group GroupId="d98f8" GraphId="b1cd3" Style="Group" />
+  <Group GroupId="c940a" GraphId="b256f" Style="Group" />
+  <Group GroupId="a351d" GraphId="bae16" Style="Group" />
+  <Group GroupId="f3277" GraphId="c21cb" Style="Group" />
+  <Group GroupId="c16a5" GraphId="cea0c" Style="Group" />
+  <Group GroupId="fe34e" GraphId="cf18f" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatty acid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000058</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unsaturated fatty acid biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001137</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a69">
@@ -587,6 +596,11 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gould K</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cao G</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatty acid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000058</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatty acid elongation pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001136</bp:ID>
@@ -627,11 +641,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fahy E</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subramaniam S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unsaturated fatty acid biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001137</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4d">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15610069</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
