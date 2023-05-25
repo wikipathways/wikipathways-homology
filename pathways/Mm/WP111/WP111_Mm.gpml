@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Electron transport chain: OXPHOS system in mitochondria" Data-Source="WikiPathways" Version="WP111_Mm" Last-Modified="20210517113131" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Electron transport chain: OXPHOS system in mitochondria" Data-Source="WikiPathways" Version="WP111_Mm" Last-Modified="20230524182002" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">An electron transport chain(ETC) couples a chemical reaction between an electron donor (such as NADH) and an electron acceptor (such as O2) to the transfer of H+ ions across a membrane, through a set of mediating biochemical reactions. These H+ ions are used to produce adenosine triphosphate (ATP), the main energy intermediate in living organisms, as they move back across the membrane. 
 In mitochondria, it is the conversion of oxygen to water, NADH to NAD+ and succinate to fumarate that drives the transfer of H+ ions.
 Source: Wikipedia ([[wikipedia:Electron_transport_chain]])
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP111 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP111.gpml (WP111_r117097) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP111.gpml (WP111_r126524) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>dc1</BiopaxRef>
-  <Graphics BoardWidth="1440.6666666666667" BoardHeight="766.9950248756228" />
+  <Graphics BoardWidth="1440.6666666666667" BoardHeight="792.0" />
   <DataNode TextLabel="Atp5a1" GraphId="a0b" Type="GeneProduct" GroupRef="cb58a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:498</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="ATP5A1 | ATP synthase H+ transporting mitocho..." />
     <Graphics CenterX="1030.0" CenterY="233.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000025428" />
   </DataNode>
-  <DataNode TextLabel="Ndufb6" GraphId="a11" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufb6" GraphId="a11" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4712</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFB6 | NADH dehydrogenase (ubiquinone) 1 beta..." />
     <Graphics CenterX="163.33333333333334" CenterY="513.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -83,7 +83,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="584.0" CenterY="80.66666666666667" Width="22.666666666666668" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15378" />
   </DataNode>
-  <DataNode TextLabel="Ndufc1" GraphId="a80" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufc1" GraphId="a80" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4717</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFC1 | NADH dehydrogenase (ubiquinone) 1 sub..." />
     <Graphics CenterX="163.33333333333334" CenterY="633.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -95,7 +95,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1030.0" CenterY="253.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000025393" />
   </DataNode>
-  <DataNode TextLabel="Ndufa8" GraphId="a9b" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufa8" GraphId="a9b" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4702</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFA8 | NADH dehydrogenase (ubiquinone) 1 alph..." />
     <Graphics CenterX="230.0" CenterY="453.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -115,7 +115,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="658.6666666666666" CenterY="353.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000020163" />
   </DataNode>
-  <DataNode TextLabel="Ndufa3" GraphId="ae1" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufa3" GraphId="ae1" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4696</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFA3 | NADH dehydrogenase (ubiquinone) 1 alph..." />
     <Graphics CenterX="163.33333333333334" CenterY="393.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -127,13 +127,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1191.3333333333333" CenterY="313.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000031105" />
   </DataNode>
-  <DataNode TextLabel="Ndufv2" GraphId="ae6" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufv2" GraphId="ae6" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4729</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFV2 | NADH dehydrogenase (ubiquinone) flavop..." />
     <Graphics CenterX="230.0" CenterY="513.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000024099" />
   </DataNode>
-  <DataNode TextLabel="Ndufa6" GraphId="af0" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufa6" GraphId="af0" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4700</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFA6 | NADH dehydrogenase (ubiquinone) 1 alph..." />
     <Graphics CenterX="163.33333333333334" CenterY="433.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -145,13 +145,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="822.0" CenterY="253.33333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000064354" />
   </DataNode>
-  <DataNode TextLabel="Ndufb9" GraphId="af8" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufb9" GraphId="af8" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4715</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFB9 | NADH dehydrogenase (ubiquinone) 1 beta..." />
     <Graphics CenterX="163.33333333333334" CenterY="573.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000022354" />
   </DataNode>
-  <DataNode TextLabel="Ndufs6" GraphId="aff" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufs6" GraphId="aff" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4726</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFS6 | NADH dehydrogenase (ubiquinone) Fe-S p..." />
     <Graphics CenterX="230.0" CenterY="373.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -163,13 +163,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="658.6666666666666" CenterY="393.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000038462" />
   </DataNode>
-  <DataNode TextLabel="Ndufa2" GraphId="b0c" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufa2" GraphId="b0c" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4695</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFA2 | NADH dehydrogenase (ubiquinone) 1 alph..." />
     <Graphics CenterX="163.33333333333334" CenterY="373.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000014294" />
   </DataNode>
-  <DataNode TextLabel="mt-Nd4l" GraphId="b21" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="mt-Nd4l" GraphId="b21" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4539</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="ND4L | NADH dehydrogenase subunit 4L" />
     <Graphics CenterX="163.33333333333334" CenterY="353.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -185,7 +185,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1030.0" CenterY="634.6666666666666" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000064356" />
   </DataNode>
-  <DataNode TextLabel="Ndufs5" GraphId="b39" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufs5" GraphId="b39" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4725</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFS5 | NADH dehydrogenase (ubiquinone) Fe-S p..." />
     <Graphics CenterX="230.0" CenterY="413.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -237,7 +237,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="822.0" CenterY="493.33333333333337" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000024248" />
   </DataNode>
-  <DataNode TextLabel="Ndufs7" GraphId="b8b" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufs7" GraphId="b8b" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:374291</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFS7 | NADH dehydrogenase (ubiquinone) Fe-S p..." />
     <Graphics CenterX="230.0" CenterY="473.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -259,7 +259,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="65.0" CenterY="426.0" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP78" />
   </DataNode>
-  <DataNode TextLabel="Ndufs4" GraphId="bbb" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufs4" GraphId="bbb" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4724</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFS4 | NADH dehydrogenase (ubiquinone) Fe-S p..." />
     <Graphics CenterX="230.0" CenterY="433.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -302,7 +302,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1030.0" CenterY="606.6666666666666" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000096486" />
   </DataNode>
-  <DataNode TextLabel="Ndufb1" GraphId="c12" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufb1" GraphId="c12" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4707</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFB1 | NADH dehydrogenase (ubiquinone) 1 beta..." />
     <Graphics CenterX="230.0" CenterY="253.33333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -324,7 +324,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="460.6666666666667" CenterY="376.0" Width="33.333333333333336" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="KEGG Compound" ID="C00016" />
   </DataNode>
-  <DataNode TextLabel="Ndufa9" GraphId="c5a" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufa9" GraphId="c5a" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4704</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFA9 | NADH dehydrogenase (ubiquinone) 1 alph..." />
     <Graphics CenterX="230.0" CenterY="553.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -334,7 +334,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="584.0" CenterY="348.0" Width="22.666666666666668" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15378" />
   </DataNode>
-  <DataNode TextLabel="Ndufb3" GraphId="c88" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufb3" GraphId="c88" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4709</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFB3 | NADH dehydrogenase (ubiquinone) 1 beta..." />
     <Graphics CenterX="163.33333333333334" CenterY="413.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -346,7 +346,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1030.0" CenterY="480.0" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Ndufb4" GraphId="c9a" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufb4" GraphId="c9a" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4710</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFB4 | NADH dehydrogenase (ubiquinone) 1 beta..." />
     <Graphics CenterX="163.33333333333334" CenterY="493.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -362,7 +362,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1110.6666666666667" CenterY="460.6666666666667" Width="22.666666666666668" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15378" />
   </DataNode>
-  <DataNode TextLabel="mt-Nd6" GraphId="cac" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="mt-Nd6" GraphId="cac" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4541</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="ND6 | NADH dehydrogenase subunit 6" />
     <Graphics CenterX="163.33333333333334" CenterY="333.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -388,13 +388,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="936.6666748046875" CenterY="370.6666625976562" Width="32.016666666666666" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="HMDB" ID="HMDB0002111" />
   </DataNode>
-  <DataNode TextLabel="mt-Nd2" GraphId="cf6" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="mt-Nd2" GraphId="cf6" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4536</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="ND2 | NADH dehydrogenase subunit 2" />
     <Graphics CenterX="163.33333333333334" CenterY="253.33333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000064345" />
   </DataNode>
-  <DataNode TextLabel="Ndufab1" GraphId="d03" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufab1" GraphId="d03" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4706</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFAB1 | NADH dehydrogenase (ubiquinone) 1 al..." />
     <Graphics CenterX="230.0" CenterY="353.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -413,7 +413,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSMUSG00000044894" />
   </DataNode>
   <DataNode TextLabel="Assembly PW&#xA;Complex 1" GraphId="d6aa8" Type="Pathway">
-    <Graphics CenterX="196.5" CenterY="718.75" Width="101.0" Height="30.5" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
+    <Graphics CenterX="196.5" CenterY="746.75" Width="101.0" Height="30.5" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4324" />
   </DataNode>
   <DataNode TextLabel="Slc25a4" GraphId="d6c" Type="GeneProduct" GroupRef="e54f3">
@@ -428,13 +428,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="658.6666666666666" CenterY="273.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000021520" />
   </DataNode>
-  <DataNode TextLabel="mt-Nd5" GraphId="d89" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="mt-Nd5" GraphId="d89" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4540</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="ND5 | NADH dehydrogenase subunit 5" />
     <Graphics CenterX="163.33333333333334" CenterY="313.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000064367" />
   </DataNode>
-  <DataNode TextLabel="Ndufa12" GraphId="d9a" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufa12" GraphId="d9a" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:55967</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="DAP13 | 13kDa differentiation-associated protei..." />
     <Graphics CenterX="163.33333333333334" CenterY="533.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -458,13 +458,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1030.0" CenterY="679.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000054428" />
   </DataNode>
-  <DataNode TextLabel="Ndufb7" GraphId="df0" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufb7" GraphId="df0" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4713</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFB7 | NADH dehydrogenase (ubiquinone) 1 beta..." />
     <Graphics CenterX="163.33333333333334" CenterY="553.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000033938" />
   </DataNode>
-  <DataNode TextLabel="Ndufa1" GraphId="df1" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufa1" GraphId="df1" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4694</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFA1 | NADH dehydrogenase (ubiquinone) 1 alph..." />
     <Graphics CenterX="230.0" CenterY="273.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -476,7 +476,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="658.6666666666666" CenterY="233.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000025651" />
   </DataNode>
-  <DataNode TextLabel="Ndufb5" GraphId="e03" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufb5" GraphId="e03" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4711</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFB5 | NADH dehydrogenase (ubiquinone) 1 beta..." />
     <Graphics CenterX="230.0" CenterY="313.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -504,7 +504,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="822.0" CenterY="273.33333333333337" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000064358" />
   </DataNode>
-  <DataNode TextLabel="Ndufs3" GraphId="e2a" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufs3" GraphId="e2a" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4722</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFS3 | NADH dehydrogenase (ubiquinone) Fe-S p..." />
     <Graphics CenterX="230.0" CenterY="533.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -516,13 +516,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="822.0" CenterY="553.3333333333335" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000035885" />
   </DataNode>
-  <DataNode TextLabel="mt-Nd1" GraphId="e4e" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="mt-Nd1" GraphId="e4e" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4535</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="ND1 | NADH dehydrogenase subunit 1" />
     <Graphics CenterX="163.33333333333334" CenterY="233.33333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000064341" />
   </DataNode>
-  <DataNode TextLabel="Ndufv1" GraphId="e6c" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufv1" GraphId="e6c" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4723</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFV1 | NADH dehydrogenase (ubiquinone) flavop..." />
     <Graphics CenterX="230.0" CenterY="613.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -556,19 +556,19 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="820.6666666666666" CenterY="658.9950248756228" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000015790" />
   </DataNode>
-  <DataNode TextLabel="Ndufs1" GraphId="eb4" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufs1" GraphId="eb4" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4719</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFS1 | NADH dehydrogenase (ubiquinone) Fe-S p..." />
     <Graphics CenterX="230.0" CenterY="633.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000025968" />
   </DataNode>
-  <DataNode TextLabel="Ndufa7" GraphId="ec6" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufa7" GraphId="ec6" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4701</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFA7 | NADH dehydrogenase (ubiquinone) 1 alph..." />
     <Graphics CenterX="163.33333333333334" CenterY="453.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000041881" />
   </DataNode>
-  <DataNode TextLabel="mt-Nd4" GraphId="ec9" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="mt-Nd4" GraphId="ec9" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4538</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="ND4 | NADH dehydrogenase subunit 4" />
     <Graphics CenterX="163.33333333333334" CenterY="293.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -580,19 +580,19 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1030.0" CenterY="546.6666666666666" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000034566" />
   </DataNode>
-  <DataNode TextLabel="Ndufc2" GraphId="ecf" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufc2" GraphId="ecf" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4718</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFC2 | NADH dehydrogenase (ubiquinone) 1 sub..." />
     <Graphics CenterX="163.33333333333334" CenterY="473.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000030647" />
   </DataNode>
-  <DataNode TextLabel="Ndufb2" GraphId="ed3" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufb2" GraphId="ed3" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4708</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFB2 | NADH dehydrogenase (ubiquinone) 1 beta..." />
     <Graphics CenterX="163.33333333333334" CenterY="593.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000002416" />
   </DataNode>
-  <DataNode TextLabel="Ndufs2" GraphId="ee7" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufs2" GraphId="ee7" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4720</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFS2 | NADH dehydrogenase (ubiquinone) Fe-S p..." />
     <Graphics CenterX="230.0" CenterY="593.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -610,7 +610,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1030.0" CenterY="293.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000003072" />
   </DataNode>
-  <DataNode TextLabel="Ndufb10" GraphId="f15" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufb10" GraphId="f15" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4716</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFB10 | NADH dehydrogenase (ubiquinone) 1 bet..." />
     <Graphics CenterX="230.0" CenterY="293.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -634,7 +634,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="460.6666666666667" CenterY="304.6666666666667" Width="21.333333333333332" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="KEGG Compound" ID="C05359" />
   </DataNode>
-  <DataNode TextLabel="Ndufa5" GraphId="f50" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufa5" GraphId="f50" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4698</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFA5 | NADH dehydrogenase (ubiquinone) 1 alph..." />
     <Graphics CenterX="230.0" CenterY="393.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -658,7 +658,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1030.0" CenterY="273.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000025781" />
   </DataNode>
-  <DataNode TextLabel="Ndufv3" GraphId="f95" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufv3" GraphId="f95" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4731</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFV3 | NADH dehydrogenase (ubiquinone) flavop..." />
     <Graphics CenterX="230.0" CenterY="333.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -668,7 +668,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="421.3333333333333" CenterY="448.0" Width="21.333333333333332" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="KEGG Compound" ID="C05359" />
   </DataNode>
-  <DataNode TextLabel="Ndufa10" GraphId="fa1" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufa10" GraphId="fa1" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4705</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFA10 | NADH dehydrogenase (ubiquinone) 1 alp..." />
     <Graphics CenterX="230.0" CenterY="573.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -684,19 +684,19 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1191.3333333333333" CenterY="253.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000033685" />
   </DataNode>
-  <DataNode TextLabel="mt-Nd3" GraphId="fca" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="mt-Nd3" GraphId="fca" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4537</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="ND3 | NADH dehydrogenase subunit 3" />
     <Graphics CenterX="163.33333333333334" CenterY="273.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000064360" />
   </DataNode>
-  <DataNode TextLabel="Ndufs8" GraphId="fcb" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufs8" GraphId="fcb" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4728</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFS8 | NADH dehydrogenase (ubiquinone) Fe-S p..." />
     <Graphics CenterX="230.0" CenterY="493.3333333333333" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000059734" />
   </DataNode>
-  <DataNode TextLabel="Ndufb8" GraphId="fcd" Type="GeneProduct" GroupRef="afba2">
+  <DataNode TextLabel="Ndufb8" GraphId="fcd" Type="GeneProduct" GroupRef="f9986">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:4714</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFB8 | NADH dehydrogenase (ubiquinone) 1 beta..." />
     <Graphics CenterX="163.33333333333334" CenterY="613.3333333333334" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -722,6 +722,18 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="494.0833333333333" CenterY="233.33333333333334" Width="65.16666666666667" Height="19.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="HMDB" ID="HMDB0002012" />
   </DataNode>
+  <DataNode TextLabel="Ndufa11" GraphId="cbfb8" Type="GeneProduct" GroupRef="f9986">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:126328</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFC1 | NADH dehydrogenase (ubiquinone) 1 sub..." />
+    <Graphics CenterX="163.40350877192975" CenterY="653.0935672514616" Width="66.66666666666667" Height="20.0" ZOrder="32769" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000002379" />
+  </DataNode>
+  <DataNode TextLabel="Ndufa13" GraphId="d8168" Type="GeneProduct" GroupRef="f9986">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = H:NDUFA13</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="NDUFC1 | NADH dehydrogenase (ubiquinone) 1 sub..." />
+    <Graphics CenterX="230.07017543859644" CenterY="653.0935672514616" Width="66.66666666666667" Height="20.0" ZOrder="32770" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000036199" />
+  </DataNode>
   <Interaction GraphId="a0b32">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="419.17241742802577" Y="336.20669015346124" GraphRef="acde6" RelX="0.0" RelY="0.0" />
@@ -731,14 +743,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="a4aef">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="776.6666666666667" Y="307.33333333333337" GraphRef="c4e73" RelX="-1.0" RelY="-0.5" />
+      <Point X="776.6666666666667" Y="307.33333333333337" GraphRef="ad4b9" RelX="-1.0" RelY="-0.5" />
       <Point X="755.634372818623" Y="306.49229720296745" GraphRef="fbb66" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ad726">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="275.3333333333333" Y="322.33333333333337" GraphRef="afba2" RelX="1.0" RelY="-0.5" />
+      <Point X="275.40350877192975" Y="327.27339181286544" GraphRef="cd7da" RelX="1.0" RelY="-0.5" />
       <Point X="300.0645876960872" Y="326.5294394571516" GraphRef="d3678" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -776,7 +788,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="b4178">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="620.6666666666666" Y="313.3333333333333" GraphRef="de99a" RelX="-1.0" RelY="0.0" />
+      <Point X="620.6666666666666" Y="313.3333333333333" GraphRef="c3e7a" RelX="-1.0" RelY="0.0" />
       <Point X="584.0" Y="314.03796475165444" GraphRef="f26fc" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -826,7 +838,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="cfb2a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="118.0" Y="322.33333333333337" GraphRef="afba2" RelX="-1.0" RelY="-0.5" />
+      <Point X="118.0" Y="327.27339181286544" GraphRef="cd7da" RelX="-1.0" RelY="-0.5" />
       <Point X="75.93938339277047" Y="320.7927774121402" GraphRef="de1e1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -848,7 +860,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="da292">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="365.3333333333333" Y="312.6666666666667" GraphRef="d7381" RelX="0.0" RelY="1.0" />
+      <Point X="365.3333333333333" Y="312.6666666666667" GraphRef="c4d30" RelX="0.0" RelY="1.0" />
       <Point X="399.07915745353773" Y="337.02710378548767" GraphRef="f1537" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -869,7 +881,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="eb56f">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1072.0" Y="358.91666666666663" GraphRef="e472f" RelX="1.0" RelY="0.0" />
+      <Point X="1072.0" Y="358.91666666666663" GraphRef="e62a1" RelX="1.0" RelY="0.0" />
       <Point X="1110.666666666667" Y="334.2357898825128" GraphRef="d7312" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -905,7 +917,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="feb3f">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="867.3333333333333" Y="307.33333333333337" GraphRef="c4e73" RelX="1.0" RelY="-0.5" />
+      <Point X="867.3333333333333" Y="307.33333333333337" GraphRef="ad4b9" RelX="1.0" RelY="-0.5" />
       <Point X="911.9127477259652" Y="334.73802267140013" GraphRef="cdd15" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -920,8 +932,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id65917a83">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="196.66666666666666" Y="655.3333333333334" GraphRef="afba2" RelX="0.0" RelY="1.0" />
-      <Point X="196.5" Y="703.5" GraphRef="d6aa8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="196.70175438596488" Y="675.0935672514616" GraphRef="cd7da" RelX="0.0" RelY="1.0" />
+      <Point X="196.5" Y="731.5" GraphRef="d6aa8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1006,21 +1018,21 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="ed9">
     <Graphics CenterX="983.3333333333334" CenterY="500.0" Width="66.66666666666667" Height="8.666666666666666" ZOrder="16384" FillColor="000000" FontSize="10" Valign="Middle" ShapeType="Brace" Rotation="4.71238898038469" />
   </Shape>
-  <Group GroupId="c0500" GraphId="c0500" Style="Complex" />
-  <Group GroupId="cb58a" GraphId="cb58a" Style="Complex" />
-  <Group GroupId="c4e73" GraphId="c4e73" Style="Complex" />
-  <Group GroupId="de99a" GraphId="de99a" />
-  <Group GroupId="d7381" GraphId="d7381" />
-  <Group GroupId="a6e66" GraphId="a6e66" />
-  <Group GroupId="e54f3" GraphId="e54f3" />
-  <Group GroupId="fdd6a" GraphId="fdd6a" />
-  <Group GroupId="e472f" GraphId="e472f" Style="Complex" />
-  <Group GroupId="afba2" GraphId="afba2" Style="Complex" />
+  <Group GroupId="c0500" Style="Complex" />
+  <Group GroupId="cb58a" Style="Complex" />
+  <Group GroupId="c4e73" GraphId="ad4b9" Style="Complex" />
+  <Group GroupId="de99a" GraphId="c3e7a" />
+  <Group GroupId="d7381" GraphId="c4d30" />
+  <Group GroupId="a6e66" GraphId="cc4c1" />
+  <Group GroupId="f9986" GraphId="cd7da" Style="Complex" />
+  <Group GroupId="e54f3" GraphId="d719e" />
+  <Group GroupId="fdd6a" GraphId="d7f68" />
+  <Group GroupId="e472f" GraphId="e62a1" Style="Complex" />
   <InfoBox CenterX="260.9" CenterY="612.3333333333334" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electron transport chain pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000034</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e55">
@@ -1037,20 +1049,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Landázuri MO</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enríquez JA</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc1">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30030361</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assembly of mammalian oxidative phosphorylation complexes I-V and supercomplexes.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essays Biochem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signes A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fernandez-Vizarra E</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac6">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23746447</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1074,6 +1072,20 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taanman JW</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hanna MG</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30030361</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assembly of mammalian oxidative phosphorylation complexes I-V and supercomplexes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essays Biochem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signes A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fernandez-Vizarra E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electron transport chain pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000034</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
