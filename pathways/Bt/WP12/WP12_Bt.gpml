@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Osteoclast signaling" Data-Source="WikiPathways" Version="WP12_Bt" Last-Modified="20230416134937" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Osteoclast signaling" Data-Source="WikiPathways" Version="WP12_Bt" Last-Modified="20230611172915" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">Signaling pathways involved in osteoclast activation. 
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP12 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP12.gpml (WP12_r126213) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP12.gpml (WP12_r126682) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>c32</BiopaxRef>
   <Graphics BoardWidth="873.0" BoardHeight="549.0" />
   <DataNode TextLabel="Ca2+" GraphId="b2d25" Type="Metabolite">
@@ -173,7 +173,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id9b9d3cf3">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="256.5" Y="354.0" GraphRef="ed298" RelX="0.0" RelY="-1.0" />
-      <Point X="288.625" Y="270.2" GraphRef="ef6" RelX="-0.25" RelY="1.4" ArrowHead="Arrow" />
+      <Point X="288.625" Y="270.2" GraphRef="ef6" RelX="-0.25" RelY="1.4" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -194,7 +194,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idd2de7709">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="564.5" Y="275.0" GraphRef="e918b" RelX="0.0" RelY="1.0" />
-      <Point X="564.5" Y="355.0" GraphRef="c3b03" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="564.5" Y="355.0" GraphRef="c3b03" RelX="0.0" RelY="-1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -208,14 +208,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idfd71dced">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="249.5" Y="264.0" GraphRef="b96e7" RelX="0.0" RelY="1.0" />
-      <Point X="208.5" Y="357.0" GraphRef="d02b2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="208.5" Y="357.0" GraphRef="d02b2" RelX="0.0" RelY="-1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idff22054c">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="114.5" Y="346.0" GraphRef="cc086" RelX="0.0" RelY="-1.0" />
-      <Point X="150.75" Y="263.0" GraphRef="b2d25" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="150.75" Y="263.0" GraphRef="b2d25" RelX="-0.5" RelY="1.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -257,6 +257,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Group GroupId="ebf27" GraphId="ae22d" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to development</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000650</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteoclast</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000092</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c32">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12748652</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -268,19 +278,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lacey DL</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to development</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000650</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteoclast</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000092</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
