@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCA cycle nutrient use and invasiveness of ovarian cancer" Data-Source="WikiPathways" Version="WP2868_Bt" Last-Modified="20220703150128" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCA cycle nutrient use and invasiveness of ovarian cancer" Data-Source="WikiPathways" Version="WP2868_Bt" Last-Modified="20230825200345" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">Schematic showing the shift in nutrient utilization in TCA cycle with increasing degree of invasiveness. Low-invasive ovarian cancer (OVCA) cells are glucose dependent for their TCA cycle pool. With increasing invasiveness in cancer cells, dominant nutrient which feeds the TCA cycle shifts from glucose to Gln. In high-invasive OVCA cells, Gln dominates the TCA cycle. In low-invasive OVCA cells, glucose activates Jak1, which activates STAT3 by tyrosine phosphorylation, thereby regulating glycolysis in cancer cells. In highinvasive OVCA cells, besides glucose's role in activating STAT3 tyrosine phosphorylation, glutamine activates JAK1 through TCA cycle to further activate STAT3 by tyrosine phosphorylation and thus regulate glycolysis. Further, Gln activates Erk1/2, which subsequently activates STAT3 by serine phosphorylation selectively in high-invasive OVCA cells. The serine phosphorylation of STAT3 enhances oxidative phosphorylation in mitochondria by interaction with mitochondrial complexes I and II, thereby increasing TCA cycle activity in high-invasive OVCA cells.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2868 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2868.gpml (WP2868_r123109) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2868.gpml (WP2868_r127227) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>cca</BiopaxRef>
+  <BiopaxRef>d0b</BiopaxRef>
   <Graphics BoardWidth="949.831223628692" BoardHeight="613.0" />
   <DataNode TextLabel="STAT3" GraphId="a2a4a" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:6774</Comment>
@@ -84,19 +85,19 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSBTAG00000021523" />
   </DataNode>
   <State GraphRef="a2a4a" TextLabel="P" GraphId="d439a">
-    <Comment>parentid=P40763; parentsymbol=STAT3; site=DPGsAAPyLktKFIC; position=tyr705; ptm=p; direction=u; sitegrpid=448192</Comment>
+    <Comment>parentid=P40763; parentsymbol=STAT3; site=DPGsAAPyLktKFIC; position=tyr705; sitegrpid=448192; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.4" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448192" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="dd827" TextLabel="P" GraphId="bcf9c">
-    <Comment>parentid=P40763; parentsymbol=STAT3; site=NtIDLPMsPRTLDSL; position=ser727; ptm=p; direction=u; sitegrpid=448191</Comment>
+    <Comment>parentid=P40763; parentsymbol=STAT3; site=NtIDLPMsPRTLDSL; position=ser727; sitegrpid=448191; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.3" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448191" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="a3dd3" TextLabel="P" GraphId="c6512">
-    <Comment>parentid=P40763; parentsymbol=STAT3; site=DPGsAAPyLktKFIC; position=tyr705; ptm=p; direction=u; sitegrpid=448192</Comment>
+    <Comment>parentid=P40763; parentsymbol=STAT3; site=DPGsAAPyLktKFIC; position=tyr705; sitegrpid=448192; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.5" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448192" />
+    <Xref Database="" ID="" />
   </State>
   <Interaction GraphId="id20dcdc6a">
     <Graphics ZOrder="12288" LineThickness="1.0" Color="ff0000">
@@ -130,7 +131,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="ida1fffb24">
     <Graphics ZOrder="12288" LineThickness="1.0" Color="00cc00">
       <Point X="639.0" Y="212.0" GraphRef="cf7ed" RelX="0.0" RelY="1.0" />
-      <Point X="639.0" Y="258.25" GraphRef="b5238" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="639.0" Y="258.25" GraphRef="ade37" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -165,7 +166,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="ed5aa">
     <Graphics ZOrder="32776" LineThickness="1.0" Color="00cc00">
-      <Point X="639.0" Y="314.25" GraphRef="b5238" RelX="0.0" RelY="1.0" />
+      <Point X="639.0" Y="314.25" GraphRef="ade37" RelX="0.0" RelY="1.0" />
       <Point X="639.0" Y="358.0" GraphRef="dd827" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -273,22 +274,40 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Graphics CenterX="596.7890295358651" CenterY="412.0" Width="405.57805907172974" Height="336.0" ZOrder="32778" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b5238" GraphId="b5238" Style="Group" />
+  <Group GroupId="b5238" GraphId="ade37" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered citric acid cycle pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001119</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2394</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive system disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:15</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25514926</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hornbeck PV</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murray B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kornhauser JM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latham V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skrzypek E</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered citric acid cycle pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001119</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cca">
@@ -318,14 +337,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagrath D</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive system disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:15</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2394</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

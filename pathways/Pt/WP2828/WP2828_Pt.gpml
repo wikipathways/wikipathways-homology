@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Bladder cancer" Data-Source="WikiPathways" Version="WP2828_Pt" Last-Modified="20210622192445" Organism="Pan troglodytes">
-  <Comment Source="WikiPathways-description">The urothelium covers the luminal surface of almost the entire urinary tract, extending from the renal pelvis, through the ureter and bladder, to the proximal urethra. The majority of urothelial carcinoma are bladder carcinomas, and urothelial carcinomas of the renal pelvis and ureter account for only approximately 7% of the total. Urothelial tumours arise and evolve through divergent phenotypic pathways. Some tumours progress from urothelial hyperplasia to low-grade non-invasive superficial papillary tumours. More aggressive variants arise either from flat, high-grade carcinoma in situ (CIS) and progress to invasive tumours, or they arise de novo as invasive tumours. Low-grade papillary tumors frequently show a constitutive activation of the receptor tyrosine kinase-Ras pathway, exhibiting activating mutations in the HRAS and fibroblast growth factor receptor 3 (FGFR3) genes. In contrast, CIS and invasive tumors frequently show alterations in the TP53 and RB genes and pathways. Invasion and metastases are promoted by several factors that alter the tumour microenvironment, including the aberrant expression of  E-cadherins (E-cad), matrix metalloproteinases (MMPs), angiogenic factors such as vascular endothelial growth factor (VEGF).
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Bladder cancer" Data-Source="WikiPathways" Version="WP2828_Pt" Last-Modified="20230825201345" Organism="Pan troglodytes">
+  <Comment Source="WikiPathways-description">The urothelium covers the luminal surface of almost the entire urinary tract, extending from the renal pelvis, through the ureter and bladder, to the proximal urethra. The majority of urothelial carcinoma are bladder carcinomas, and urothelial carcinomas of the renal pelvis and ureter account for only approximately 7% of the total. Urothelial tumours arise and evolve through divergent phenotypic pathways. Some tumours progress from urothelial hyperplasia to low-grade non-invasive superficial papillary tumours. More aggressive variants arise either from flat, high-grade carcinoma in situ (CIS) and progress to invasive tumours, or they arise de novo as invasive tumours. Low-grade papillary tumors frequently show a constitutive activation of the receptor tyrosine kinase-Ras pathway, exhibiting activating mutations in the HRAS and fibroblast growth factor receptor 3 (FGFR3) genes. In contrast, CIS and invasive tumors frequently show alterations in the TP53 and RB genes and pathways. Invasion and metastases are promoted by several factors that alter the tumour microenvironment, including the aberrant expression of  E-cadherins (E-cad), matrix metalloproteinases (MMPs), angiogenic factors such as vascular endothelial growth factor (VEGF). Phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2828 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2828.gpml (WP2828_r119245) with a 93.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2828.gpml (WP2828_r127233) with a 93.0% conversion rate.</Comment>
+  <BiopaxRef>c0b</BiopaxRef>
   <Graphics BoardWidth="1791.778801843318" BoardHeight="780.0" />
   <DataNode TextLabel="DAPK1" GraphId="a2c4f" Type="GeneProduct" GroupRef="d5e12">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = L:1612</Comment>
@@ -282,79 +283,79 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="664.2263681592042" CenterY="141.83084577114494" Width="58.93034825870627" Height="25.0" ZOrder="32979" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000014120" />
   </DataNode>
-  <State GraphRef="aa4ec" TextLabel="" GraphId="ce8aa">
-    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Triangle" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="cdee3" TextLabel="P" GraphId="fa65d">
-    <Comment>parentid=O75582; parentsymbol=RPS6KA5; site=PDNQPLKtPCFTLHY; position=thr581; ptm=p; direction=u; sitegrpid=448217</Comment>
-    <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448217" />
-  </State>
-  <State GraphRef="d326e" TextLabel="" GraphId="fb7ab">
-    <Graphics RelX="-0.9622641509433962" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="ee387" TextLabel="" GraphId="a90b6">
     <Graphics RelX="-0.9219512195121952" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="f9953" TextLabel="P" GraphId="ad71d">
-    <Comment>parentid=P06400; parentsymbol=RB1; site=strPPtLsPIPHIPr; position=ser780; ptm=p; direction=d; sitegrpid=447978</Comment>
+    <Comment>parentid=P06400; parentsymbol=RB1; site=strPPtLsPIPHIPr; position=ser780; sitegrpid=447978; ptm=p; direction=d</Comment>
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447978" />
+    <Xref Database="" ID="" />
   </State>
-  <State GraphRef="f9953" TextLabel="" GraphId="e3447">
-    <Graphics RelX="-0.9583333333333326" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
+  <State GraphRef="aa4ec" TextLabel="" GraphId="ce8aa">
+    <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Triangle" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="f9d1d" TextLabel="" GraphId="d9e4c">
     <Graphics RelX="-0.9622641509433962" RelY="-0.9" Width="15.0" Height="15.0" ShapeType="Triangle" />
     <Xref Database="" ID="" />
   </State>
+  <State GraphRef="f9953" TextLabel="" GraphId="e3447">
+    <Graphics RelX="-0.9583333333333326" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="cdee3" TextLabel="P" GraphId="fa65d">
+    <Comment>parentid=O75582; parentsymbol=RPS6KA5; site=PDNQPLKtPCFTLHY; position=thr581; sitegrpid=448217; ptm=p; direction=u</Comment>
+    <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="d326e" TextLabel="" GraphId="fb7ab">
+    <Graphics RelX="-0.9622641509433962" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="b25e4" TextLabel="P" GraphId="e3df4">
-    <Comment>parentid=Q02750; parentsymbol=MAP2K1; site=VsGQLIDsMANsFVG; position=ser218; ptm=p; direction=u; sitegrpid=448514</Comment>
+    <Comment>parentid=Q02750; parentsymbol=MAP2K1; site=VsGQLIDsMANsFVG; position=ser218; sitegrpid=448514; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448514" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="b25e4" TextLabel="P" GraphId="f7e21">
-    <Comment>parentid=Q02750; parentsymbol=MAP2K1; site=LIDsMANsFVGTRSY; position=ser222; ptm=p; direction=u; sitegrpid=448513</Comment>
+    <Comment>parentid=Q02750; parentsymbol=MAP2K1; site=LIDsMANsFVGTRSY; position=ser222; sitegrpid=448513; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.9660616293794849" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448513" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="ffbf7" TextLabel="P" GraphId="df37d">
-    <Comment>parentid=P36507; parentsymbol=MAP2K2; site=LIDsMANsFVGTRSY; position=ser226; ptm=p; direction=u; sitegrpid=448074</Comment>
+    <Comment>parentid=P36507; parentsymbol=MAP2K2; site=LIDsMANsFVGTRSY; position=ser226; sitegrpid=448074; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448074" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="ffbf7" TextLabel="P" GraphId="edccd">
-    <Comment>parentid=P36507; parentsymbol=MAP2K2; site=VsGQLIDsMANsFVG; position=ser222; ptm=p; direction=u; sitegrpid=448073</Comment>
+    <Comment>parentid=P36507; parentsymbol=MAP2K2; site=VsGQLIDsMANsFVG; position=ser222; sitegrpid=448073; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448073" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="e692c" TextLabel="P" GraphId="aef32">
-    <Comment>parentidid=P28482; parentsymbol=MAPK1; site=HtGFLtEyVAtRWyR; position=tyr187; ptm=p; direction=u; sitegrpid=447594</Comment>
+    <Comment>parentidid=P28482; parentsymbol=MAPK1; site=HtGFLtEyVAtRWyR; position=tyr187; sitegrpid=447594; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.7333333333333394" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447594" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="e692c" TextLabel="P" GraphId="d7a11">
-    <Comment>parentidid=P28482; parentsymbol=MAPK1; site=HDHtGFLtEyVAtRW; position=thr185; ptm=p; direction=u; sitegrpid=447593</Comment>
+    <Comment>parentidid=P28482; parentsymbol=MAPK1; site=HDHtGFLtEyVAtRW; position=thr185; sitegrpid=447593; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.9547488391726462" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447593" />
+    <Xref Database="" ID="" />
   </State>
   <Interaction GraphId="id1c524c8f">
     <BiopaxRef>a4f</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="703.2497387669799" Y="568.2361546499482" GraphRef="d73fd" RelX="1.0" RelY="0.0" />
       <Point X="799.0" Y="598.5188731537337" />
-      <Point X="936.698682766191" Y="628.8015916575191" GraphRef="ee99b" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
+      <Point X="936.698682766191" Y="628.8015916575191" GraphRef="a3b7a" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id2de890ce">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="450.0160642570281" Y="295.6839679392676" GraphRef="f1cb0" RelX="-1.0" RelY="0.0" />
-      <Point X="412.49551920820454" Y="186.14893103676013" GraphRef="b4416" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="412.49551920820454" Y="186.14893103676013" GraphRef="ea8c1" RelX="0.5" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -377,7 +378,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id3a88dbc6">
     <BiopaxRef>fd5</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="395.99551920820454" Y="186.14893103676013" GraphRef="b4416" RelX="0.0" RelY="1.0" />
+      <Point X="395.99551920820454" Y="186.14893103676013" GraphRef="ea8c1" RelX="0.0" RelY="1.0" />
       <Point X="395.0603154852514" Y="299.2130843741688" GraphRef="ed0cd" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -399,7 +400,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id485f7ae4">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="877.5" Y="362.442334739803" GraphRef="e46cf" RelX="0.0" RelY="1.0" />
-      <Point X="926.75" Y="383.692334739803" GraphRef="ee387" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="926.75" Y="383.692334739803" GraphRef="ee387" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -428,8 +429,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id56c3aff3">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="814.0" Y="239.90998593530236" GraphRef="fccbb" RelX="-1.0" RelY="0.0" />
-      <Point X="698.0" Y="239.90998593530236" GraphRef="d5e12" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="814.0" Y="239.90998593530236" GraphRef="a8c38" RelX="-1.0" RelY="0.0" />
+      <Point X="698.0" Y="239.90998593530236" GraphRef="c5637" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -450,7 +451,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id5c139346">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="1014.5" Y="301.03872028197173" GraphRef="fb07d" RelX="0.0" RelY="1.0" />
-      <Point X="882.0" Y="239.90998593530236" GraphRef="fccbb" RelX="1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
+      <Point X="882.0" Y="239.90998593530236" GraphRef="a8c38" RelX="1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -472,13 +473,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>a4f</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="397.9343933530895" Y="69.72943869360506" GraphRef="f9d1d" RelX="0.0" RelY="1.0" />
-      <Point X="455.9955192082042" Y="140.64893103676013" GraphRef="bc2e7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="455.9955192082042" Y="140.64893103676013" GraphRef="ce4b3" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id66dd0615">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="199.69868276619104" Y="476.18935236004427" GraphRef="c69dc" RelX="-1.0" RelY="0.0" />
+      <Point X="199.69868276619104" Y="476.18935236004427" GraphRef="f758f" RelX="-1.0" RelY="0.0" />
       <Point X="170.91253303829524" Y="524.9822264173702" GraphRef="c506a" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -515,7 +516,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id7ffc89d7">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="999.3018660812297" Y="628.8015916575191" GraphRef="ee99b" RelX="1.0" RelY="0.0" />
+      <Point X="999.3018660812297" Y="628.8015916575191" GraphRef="a3b7a" RelX="1.0" RelY="0.0" />
       <Point X="1051.8095238095234" Y="626.452380952381" GraphRef="a43fb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -524,7 +525,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>a4f</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="1063.0" Y="141.47770323599167" GraphRef="ad5d3" RelX="1.0" RelY="0.0" />
-      <Point X="1201.5238095238096" Y="409.01376331123157" GraphRef="cd857" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+      <Point X="1201.5238095238096" Y="409.01376331123157" GraphRef="d3b56" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -532,21 +533,21 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>a4f</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="257.16229736564156" Y="587.8988551999238" GraphRef="d8400" RelX="1.0" RelY="0.0" />
-      <Point X="379.49551920820454" Y="186.14893103676013" GraphRef="b4416" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="379.49551920820454" Y="186.14893103676013" GraphRef="ea8c1" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id8c417e86">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="664.0" Y="194.40998593530236" GraphRef="d5e12" RelX="0.0" RelY="-1.0" />
-      <Point X="664.2263681592042" Y="154.33084577114494" GraphRef="e692c" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="664.0" Y="194.40998593530236" GraphRef="c5637" RelX="0.0" RelY="-1.0" />
+      <Point X="664.2263681592042" Y="154.33084577114494" GraphRef="e692c" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id8fe3064c">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="1143.0" Y="383.942334739803" GraphRef="c9288" RelX="1.0" RelY="0.0" />
-      <Point X="1184.16939628516" Y="409.01376331123157" GraphRef="cd857" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="1184.16939628516" Y="409.01376331123157" GraphRef="d3b56" RelX="-0.5" RelY="-1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -582,7 +583,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <BiopaxRef>a4f</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="256.98593017196345" Y="141.43833593885685" GraphRef="aa4ec" RelX="1.0" RelY="0.0" />
-      <Point X="362.99551920820454" Y="140.64893103676013" GraphRef="b4416" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="362.99551920820454" Y="140.64893103676013" GraphRef="ea8c1" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -596,21 +597,21 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idb6d609ca">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="170.91253303829524" Y="577.9822264173702" GraphRef="ac827" RelX="1.0" RelY="0.0" />
-      <Point X="196.16229736564156" Y="577.8988551999238" GraphRef="db546" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="196.16229736564156" Y="577.8988551999238" GraphRef="dc177" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc16d11bb">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="855.0" Y="349.942334739803" GraphRef="d326e" RelX="1.0" RelY="0.0" />
-      <Point X="856.0" Y="349.942334739803" GraphRef="e46cf" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="856.0" Y="349.942334739803" GraphRef="e46cf" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc36689d3">
     <BiopaxRef>a4f</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="614.6915422885573" Y="141.64925373134383" GraphRef="dae22" RelX="1.0" RelY="0.0" />
+      <Point X="614.6915422885573" Y="141.64925373134383" GraphRef="e3cc6" RelX="1.0" RelY="0.0" />
       <Point X="634.761194029851" Y="141.83084577114494" GraphRef="e692c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -625,7 +626,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idc8426b52">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="311.91253303829524" Y="450.98222641737016" GraphRef="a6980" RelX="-1.0" RelY="0.0" />
-      <Point X="262.3018660812297" Y="476.18935236004427" GraphRef="c69dc" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="262.3018660812297" Y="476.18935236004427" GraphRef="f758f" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -639,15 +640,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idd0247b91">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1257.0" Y="375.442334739803" GraphRef="d497b" RelX="0.0" RelY="1.0" />
-      <Point X="1218.8782227624592" Y="409.01376331123157" GraphRef="cd857" RelX="0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="1218.8782227624592" Y="409.01376331123157" GraphRef="d3b56" RelX="0.5" RelY="-1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idd0253748">
     <BiopaxRef>a4f</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="428.99551920820454" Y="140.64893103676013" GraphRef="b4416" RelX="1.0" RelY="0.0" />
-      <Point X="455.9955192082042" Y="140.64893103676013" GraphRef="bc2e7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="428.99551920820454" Y="140.64893103676013" GraphRef="ea8c1" RelX="1.0" RelY="0.0" />
+      <Point X="455.9955192082042" Y="140.64893103676013" GraphRef="ce4b3" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -668,8 +669,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idf58f77a2">
     <BiopaxRef>a4f</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="516.9955192082042" Y="140.64893103676013" GraphRef="bc2e7" RelX="1.0" RelY="0.0" />
-      <Point X="539.761194029851" Y="141.64925373134383" GraphRef="dae22" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="516.9955192082042" Y="140.64893103676013" GraphRef="ce4b3" RelX="1.0" RelY="0.0" />
+      <Point X="539.761194029851" Y="141.64925373134383" GraphRef="e3cc6" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -757,7 +758,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="32809" LineThickness="1.0">
       <Point X="732.0" Y="626.0" GraphRef="de05b" RelX="1.0" RelY="0.0" />
       <Point X="799.0" Y="627.4007958287596" />
-      <Point X="936.698682766191" Y="628.8015916575191" GraphRef="ee99b" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
+      <Point X="936.698682766191" Y="628.8015916575191" GraphRef="a3b7a" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -837,7 +838,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape TextLabel="Nucleus" GraphId="a7585">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="1110.6547116736992" CenterY="402.81293952180044" Width="705.0" Height="644.0" ZOrder="16384" FontSize="12" Align="Left" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="1110.6547116736992" CenterY="402.81293952180044" Width="705.0" Height="644.0" ZOrder="16384" FontSize="12" Align="Left" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Urothelial cell" GraphId="da8cc">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
@@ -853,28 +854,73 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="bfe13" GroupRef="a9d31">
     <Graphics CenterX="1585.5760368663598" CenterY="83.34101382488484" Width="20.0" Height="20.0" ZOrder="32970" FontSize="12" Valign="Middle" ShapeType="Triangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="a9d31" GraphId="a9d31" Style="Group" />
-  <Group GroupId="ee99b" GraphId="ee99b" Style="Group" />
-  <Group GroupId="fccbb" GraphId="fccbb" Style="Group" />
-  <Group GroupId="b80a8" GraphId="b80a8" />
-  <Group GroupId="d5e12" GraphId="d5e12" Style="Group" />
-  <Group GroupId="bc2e7" GraphId="bc2e7" Style="Group" />
-  <Group GroupId="cd857" GraphId="cd857" Style="Group" />
-  <Group GroupId="db546" GraphId="db546" Style="Group" />
-  <Group GroupId="dae22" GraphId="dae22" Style="Group" />
-  <Group GroupId="b4416" GraphId="b4416" Style="Group" />
-  <Group GroupId="c69dc" GraphId="c69dc" Style="Group" />
+  <Group GroupId="a9d31" Style="Group" />
+  <Group GroupId="ee99b" GraphId="a3b7a" Style="Group" />
+  <Group GroupId="fccbb" GraphId="a8c38" Style="Group" />
+  <Group GroupId="b80a8" GraphId="bbc1b" />
+  <Group GroupId="d5e12" GraphId="c5637" Style="Group" />
+  <Group GroupId="bc2e7" GraphId="ce4b3" Style="Group" />
+  <Group GroupId="cd857" GraphId="d3b56" Style="Group" />
+  <Group GroupId="db546" GraphId="dc177" Style="Group" />
+  <Group GroupId="dae22" GraphId="e3cc6" Style="Group" />
+  <Group GroupId="b4416" GraphId="ea8c1" Style="Group" />
+  <Group GroupId="cc60c" GraphId="f31b6" Style="Group" />
+  <Group GroupId="c69dc" GraphId="f758f" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16474624</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanisms of Disease: genetic and epigenetic alterations that drive bladder cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ncbi.nlm.nih.gov/pubmed/16474624</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolf EM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liang G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jones PA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25514926</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hornbeck PV</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murray B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kornhauser JM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latham V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skrzypek E</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bladder urothelial cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:1001428</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urinary bladder cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11054</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24122582</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PI3K/AKT pathway activation in bladder carcinogenesis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calderaro J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rebouissou S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Koning L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masmoudi A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hأ©rault A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dubois T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maille P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soyeux P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sibony M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de la Taille A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vordos D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebret T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radvanyi F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allory Y</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bladder disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:365</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fca">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22417847</bp:ID>
@@ -899,32 +945,23 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd5">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24122582</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PI3K/AKT pathway activation in bladder carcinogenesis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calderaro J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rebouissou S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Koning L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masmoudi A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hأ©rault A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dubois T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maille P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soyeux P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sibony M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de la Taille A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vordos D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebret T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radvanyi F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allory Y</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bladder disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:365</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papillary renal cell carcinoma</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:4465</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">map05219</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Pathway</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bladder Cancer Pathway</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.genome.jp/dbget-bin/www_bget?pathway:map05219</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d79">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23175443</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -936,37 +973,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowles MA</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papillary renal cell carcinoma</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:4465</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">map05219</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Pathway</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bladder Cancer Pathway</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.genome.jp/dbget-bin/www_bget?pathway:map05219</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urinary bladder cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11054</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bladder urothelial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:1001428</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1b">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16474624</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanisms of Disease: genetic and epigenetic alterations that drive bladder cancer.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ncbi.nlm.nih.gov/pubmed/16474624</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolf EM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liang G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jones PA</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0d">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22899908</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>

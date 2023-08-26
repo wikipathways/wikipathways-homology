@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MET in type 1 papillary renal cell carcinoma" Data-Source="WikiPathways" Version="WP4205_Dr" Last-Modified="20210604222646" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MET in type 1 papillary renal cell carcinoma" Data-Source="WikiPathways" Version="WP4205_Dr" Last-Modified="20230826002445" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">MET activation by its ligand HGF induces MET kinase catalytic activity, which triggers transphosphorylation of Tyr1234 and Tyr1235. These two tyrosines engage various signal transducers, thus initiating a whole spectrum of biological activities driven by MET, collectively known as the invasive growth program; proliferation and survival (resistance to apoptotic signals), increased cell motility, cell dissociation (scattering), epithelial tubulogenesis, infiltration of tissues, and stimulation of angiogenesis (Appleman et al). The transducers interact with the intracellular multisubstrate docking site of MET either directly, such as GRB2, SHC, SRC, and the p85 regulatory subunit of PI3K, or indirectly through the scaffolding protein GAB1.
 Phosphorylation of Tyr1349 and Tyr1356 of the multisubstrate docking site mediates interaction with GAB1, SRC, and SHC, while only Tyr 1356 is involved in the recruitment of GRB2, phospholipase C γ (PLC-γ), p85, and SHP2. 
 GAB1 is a key coordinator of the cellular responses to MET and binds the MET intracellular region with high avidity, but low affinity. Upon interaction with MET, GAB1 becomes phosphorylated on several tyrosine residues which, in turn, recruit a number of signaling effectors, including PI3K, SHP2, and PLC-γ. GAB1 phosphorylation by MET results in a sustained signal that mediates most of the downstream signaling pathways. (Description adapted from [https://en.wikipedia.org/wiki/C-Met Wikipedia]).
-MET is a proto-oncogene, meaning that regulated expression of the wild-type allele plays a role in normal physiologic processes, and malignant transformation occurs when MET activity is increased in- appropriately and/or constitutively activated (Appleman et al).</Comment>
+MET is a proto-oncogene, meaning that regulated expression of the wild-type allele plays a role in normal physiologic processes, and malignant transformation occurs when MET activity is increased in- appropriately and/or constitutively activated (Appleman et al). Phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4205.gpml (WP4205_r118937) with a 87.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4205.gpml (WP4205_r127242) with a 87.0% conversion rate.</Comment>
   <BiopaxRef>abd</BiopaxRef>
   <BiopaxRef>e43</BiopaxRef>
   <BiopaxRef>cda</BiopaxRef>
   <BiopaxRef>c44</BiopaxRef>
   <BiopaxRef>ad2</BiopaxRef>
+  <BiopaxRef>bbb</BiopaxRef>
   <Graphics BoardWidth="1145.0" BoardHeight="1143.8426966292136" />
   <DataNode TextLabel="foretinib" GraphId="ab0a0" Type="Metabolite" GroupRef="f981d">
     <Graphics CenterX="738.7061717475408" CenterY="74.03203296414826" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -364,93 +365,93 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
     <Xref Database="Ensembl" ID="ENSDARG00000076554" />
   </DataNode>
   <State GraphRef="f4c2c" TextLabel="P" GraphId="b58dd">
-    <Comment>parentid=P08581; parentsymbol=MET; site=yVHVNAtyVNVKCVA; position=tyr1356; ptm=p; direction=u; sitegrpid=448473</Comment>
+    <Comment>parentid=P08581; parentsymbol=MET; site=yVHVNAtyVNVKCVA; position=tyr1356; sitegrpid=448473; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.3483466609030529" RelY="0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448473" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="f4c2c" TextLabel="P" GraphId="b6dc4">
-    <Comment>parentid=P08581; parentsymbol=MET; site=RDMyDkEyysVHNkt; position=tyr1234; ptm=p; direction=u; sitegrpid=448470</Comment>
+    <Comment>parentid=P08581; parentsymbol=MET; site=RDMyDkEyysVHNkt; position=tyr1234; sitegrpid=448470; ptm=p; direction=u</Comment>
     <Graphics RelX="0.29751458828680566" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448470" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="f4c2c" TextLabel="P" GraphId="d2469">
-    <Comment>parentid=P08581; parentsymbol=MET; site=DMyDkEyysVHNktG; position=tyr1235; ptm=p; direction=u; sitegrpid=448471</Comment>
+    <Comment>parentid=P08581; parentsymbol=MET; site=DMyDkEyysVHNktG; position=tyr1235; sitegrpid=448471; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.3142857142857143" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448471" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="f4c2c" TextLabel="P" GraphId="ef314">
-    <Comment>parentid=P08581; parentsymbol=MET; site=stFIGEHyVHVNAty; position=tyr1349; ptm=p; direction=u; sitegrpid=448472</Comment>
+    <Comment>parentid=P08581; parentsymbol=MET; site=stFIGEHyVHVNAty; position=tyr1349; sitegrpid=448472; ptm=p; direction=u</Comment>
     <Graphics RelX="0.42446509617464667" RelY="0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448472" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="f4c2c" TextLabel="" GraphId="f27df">
     <Graphics RelX="-0.9243570347957665" RelY="-0.814814814814813" Width="15.0" Height="15.0" ShapeType="Triangle" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="a86c4" TextLabel="P" GraphId="d1cfb">
-    <Comment>parentid=P04049; parentsymbol=RAF1; site=IGDFGLAtVksRWsG; position=thr491; ptm=p; direction=u; sitegrpid=447748</Comment>
+    <Comment>parentid=P04049; parentsymbol=RAF1; site=IGDFGLAtVksRWsG; position=thr491; sitegrpid=447748; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447748" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="d5a3f" TextLabel="P" GraphId="cc7ed">
-    <Comment>parentid=Q02750; parentsymbol=MAP2K1; site=VsGQLIDsMANsFVG; position=ser218; ptm=p; direction=u; sitegrpid=448514</Comment>
+    <Comment>parentid=Q02750; parentsymbol=MAP2K1; site=VsGQLIDsMANsFVG; position=ser218; sitegrpid=448514; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.680000000000009" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448514" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="d5a3f" TextLabel="P" GraphId="eea9d">
-    <Comment>parentid=Q02750; parentsymbol=MAP2K1; site=LIDsMANsFVGTRSY; position=ser222; ptm=p; direction=u; sitegrpid=448513</Comment>
+    <Comment>parentid=Q02750; parentsymbol=MAP2K1; site=LIDsMANsFVGTRSY; position=ser222; sitegrpid=448513; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.9999999999999991" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448513" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="e54b8" TextLabel="P" GraphId="d7c7a">
-    <Comment>parentid=P36507; parentsymbol=MAP2K2; site=VsGQLIDsMANsFVG; position=ser222; ptm=p; direction=u; sitegrpid=448073</Comment>
+    <Comment>parentid=P36507; parentsymbol=MAP2K2; site=VsGQLIDsMANsFVG; position=ser222; sitegrpid=448073; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-0.5200000000000091" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448073" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="e54b8" TextLabel="P" GraphId="f65be">
-    <Comment>parentid=P36507; parentsymbol=MAP2K2; site=LIDsMANsFVGTRSY; position=ser226; ptm=p; direction=u; sitegrpid=448074</Comment>
+    <Comment>parentid=P36507; parentsymbol=MAP2K2; site=LIDsMANsFVGTRSY; position=ser226; sitegrpid=448074; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.680000000000009" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448074" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="c12bd" TextLabel="P" GraphId="a3e99">
-    <Comment>parentid=P28482; parentsymbol=MAPK1; site=HtGFLtEyVAtRWyR; position=tyr187; ptm=p; direction=u; sitegrpid=447594</Comment>
+    <Comment>parentid=P28482; parentsymbol=MAPK1; site=HtGFLtEyVAtRWyR; position=tyr187; sitegrpid=447594; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.9999999999999991" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447594" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="c12bd" TextLabel="P" GraphId="aef3b">
-    <Comment>parentid=P28482; parentsymbol=MAPK1; site=HDHtGFLtEyVAtRW; position=thr185; ptm=p; direction=u; sitegrpid=447593</Comment>
+    <Comment>parentid=P28482; parentsymbol=MAPK1; site=HDHtGFLtEyVAtRW; position=thr185; sitegrpid=447593; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.68" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447593" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="ff1b1" TextLabel="P" GraphId="aaa00">
-    <Comment>parentid=P27361; parentsymbol=MAPK3; site=HtGFLtEyVAtRWyR; position=tyr204; ptm=p; direction=u; sitegrpid=447543</Comment>
+    <Comment>parentid=P27361; parentsymbol=MAPK3; site=HtGFLtEyVAtRWyR; position=tyr204; sitegrpid=447543; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-0.52" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447543" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="ff1b1" TextLabel="P" GraphId="b60ec">
-    <Comment>parentid=P27361; parentsymbol=MAPK3; site=HDHtGFLtEyVAtRW; position=thr202; ptm=p; direction=u; sitegrpid=447542</Comment>
+    <Comment>parentid=P27361; parentsymbol=MAPK3; site=HDHtGFLtEyVAtRW; position=thr202; sitegrpid=447542; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.9999999999999991" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447542" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="af683" TextLabel="P" GraphId="a585a">
-    <Comment>parentid=Q92934; parentsymbol=BAD; site=PFrGrsRsAPPNLWA; position=ser99; ptm=p; direction=d; sitegrpid=447862</Comment>
+    <Comment>parentid=Q92934; parentsymbol=BAD; site=PFrGrsRsAPPNLWA; position=ser99; sitegrpid=447862; ptm=p; direction=d</Comment>
     <Graphics RelX="0.9555857134044787" RelY="-0.7435897435897459" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447862" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="f9a11" TextLabel="P" GraphId="f9c31">
-    <Comment>parentid=P14921; parentsymbol=ETS1; site=CADVPLLtPSSkEMM; position=thr38; ptm=p; direction=d; sitegrpid=447950</Comment>
+    <Comment>parentid=P14921; parentsymbol=ETS1; site=CADVPLLtPSSkEMM; position=thr38; sitegrpid=447950; ptm=p; direction=d</Comment>
     <Graphics RelX="1.0" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447950" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="ebc1c" TextLabel="P" GraphId="c3787">
-    <Comment>parentid=P05412; parentsymbol=JUN; site=kNsDLLtsPDVGLLk; position=ser63; ptm=p; direction=d; sitegrpid=447686</Comment>
+    <Comment>parentid=P05412; parentsymbol=JUN; site=kNsDLLtsPDVGLLk; position=ser63; sitegrpid=447686; ptm=p; direction=d</Comment>
     <Graphics RelX="1.0" RelY="0.5200000000000091" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447686" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="ebc1c" TextLabel="P" GraphId="e19c9">
-    <Comment>parentid=P05412; parentsymbol=JUN; site=VGLLkLAsPELERLI; position=ser73; ptm=p; direction=d; sitegrpid=447943</Comment>
+    <Comment>parentid=P05412; parentsymbol=JUN; site=VGLLkLAsPELERLI; position=ser73; sitegrpid=447943; ptm=p; direction=d</Comment>
     <Graphics RelX="-0.8953101361573454" RelY="0.52" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="447943" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="fc9ae" TextLabel="" GraphId="f9996">
     <Graphics RelX="-0.870729751403374" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Hexagon" />
@@ -472,8 +473,8 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   </Interaction>
   <Interaction GraphId="id1c531efb">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="510.13404718460924" Y="836.0412655475684" GraphRef="c9b0d" RelX="0.0" RelY="1.0" />
-      <Point X="509.87763692819897" Y="914.2436937802097" GraphRef="b4e85" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="510.13404718460924" Y="836.0412655475684" GraphRef="dca0b" RelX="0.0" RelY="1.0" />
+      <Point X="509.87763692819897" Y="914.2436937802097" GraphRef="f64d1" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -486,8 +487,8 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   </Interaction>
   <Interaction GraphId="id2cb07c83">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="854.7262836518446" Y="579.2462409819111" GraphRef="cbf7f" RelX="0.0" RelY="1.0" />
-      <Point X="697.189602740164" Y="751.0962699548191" GraphRef="e3747" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="854.7262836518446" Y="579.2462409819111" GraphRef="ff420" RelX="0.0" RelY="1.0" />
+      <Point X="697.189602740164" Y="751.0962699548191" GraphRef="af838" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -500,8 +501,8 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   </Interaction>
   <Interaction GraphId="id4f203c65">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="490.8331212586834" Y="557.1714092732726" GraphRef="c3b7e" RelX="-0.5" RelY="1.0" />
-      <Point X="334.62478792535023" Y="618.4139217004379" GraphRef="fac0a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="490.8331212586834" Y="557.1714092732726" GraphRef="c20d3" RelX="-0.5" RelY="1.0" />
+      <Point X="334.62478792535023" Y="618.4139217004379" GraphRef="dbc33" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -538,7 +539,7 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   </Interaction>
   <Interaction GraphId="id53d0a275">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="670.6896027401642" Y="423.1639217004388" GraphRef="cf2cf" RelX="0.0" RelY="1.0" />
+      <Point X="670.6896027401642" Y="423.1639217004388" GraphRef="feb36" RelX="0.0" RelY="1.0" />
       <Point X="670.689602740164" Y="467.29355133006845" GraphRef="a9178" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -546,20 +547,20 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   <Interaction GraphId="id55892621">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="670.689602740164" Y="306.0898476263644" GraphRef="d7281" RelX="0.0" RelY="1.0" />
-      <Point X="670.6896027401642" Y="357.1639217004388" GraphRef="cf2cf" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="670.6896027401642" Y="357.1639217004388" GraphRef="feb36" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id5bd35b91">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="935.6660767600108" Y="1060.4207874556469" GraphRef="e0cd0" RelX="1.0" RelY="0.0" />
+      <Point X="935.6660767600108" Y="1060.4207874556469" GraphRef="c9d0f" RelX="1.0" RelY="0.0" />
       <Point X="973.9432095028596" Y="1060.4207874556469" GraphRef="b7cbe" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id6fc8df2f">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="334.6247879253493" Y="834.8494207588183" GraphRef="b8517" RelX="0.0" RelY="1.0" />
+      <Point X="334.6247879253493" Y="834.8494207588183" GraphRef="a082c" RelX="0.0" RelY="1.0" />
       <Point X="335.11089903645893" Y="884.5157735522898" GraphRef="f8d98" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -580,8 +581,8 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   </Interaction>
   <Interaction GraphId="id8423fb34">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="510.13404718460924" Y="667.8750401339851" GraphRef="bccb1" RelX="0.0" RelY="1.0" />
-      <Point X="510.13404718460924" Y="683.4679761564828" GraphRef="c0d10" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="510.13404718460924" Y="667.8750401339851" GraphRef="b602e" RelX="0.0" RelY="1.0" />
+      <Point X="510.13404718460924" Y="683.4679761564828" GraphRef="b96b4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -603,7 +604,7 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="878.897467088549" Y="218.1301803319515" GraphRef="fd9cc" RelX="0.0" RelY="1.0" />
       <Point X="704.166220099542" Y="430.13365735115434" />
-      <Point X="529.4349731105351" Y="466.1714092732724" GraphRef="c3b7e" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="529.4349731105351" Y="466.1714092732724" GraphRef="c20d3" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -630,7 +631,7 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   </Interaction>
   <Interaction GraphId="id97d8c752">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="855.0040614296229" Y="695.9592039448737" GraphRef="fd861" RelX="0.0" RelY="1.0" />
+      <Point X="855.0040614296229" Y="695.9592039448737" GraphRef="beb5c" RelX="0.0" RelY="1.0" />
       <Point X="855.0040614296228" Y="730.8295743152439" GraphRef="af683" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -638,7 +639,7 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   <Interaction GraphId="id9abdcb13">
     <BiopaxRef>e43</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="738.7061717475408" Y="94.53203296414826" GraphRef="f981d" RelX="0.0" RelY="1.0" />
+      <Point X="738.7061717475408" Y="94.53203296414826" GraphRef="b3e3c" RelX="0.0" RelY="1.0" />
       <Point X="619.7821953327561" Y="122.71021799673474" GraphRef="b1ada" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -646,14 +647,14 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   <Interaction GraphId="ida38ca799">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="878.897467088549" Y="218.1301803319515" GraphRef="fd9cc" RelX="0.0" RelY="1.0" />
-      <Point X="919.3235058740665" Y="521.2462409819107" GraphRef="cbf7f" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="919.3235058740665" Y="521.2462409819107" GraphRef="ff420" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ida8fa561">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="670.689602740164" Y="306.0898476263644" GraphRef="d7281" RelX="0.0" RelY="1.0" />
-      <Point X="854.7262836518446" Y="463.24624098191026" GraphRef="cbf7f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="854.7262836518446" Y="463.24624098191026" GraphRef="ff420" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -667,7 +668,7 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   </Interaction>
   <Interaction GraphId="idb136c2a4">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="509.87763692819897" Y="980.2436937802097" GraphRef="b4e85" RelX="0.0" RelY="1.0" />
+      <Point X="509.87763692819897" Y="980.2436937802097" GraphRef="f64d1" RelX="0.0" RelY="1.0" />
       <Point X="509.9239332244953" Y="1038.2835798200986" GraphRef="c25f9" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -675,14 +676,14 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   <Interaction GraphId="idb2097534">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="600.5044175549781" Y="390.90466244117954" GraphRef="ce0f0" RelX="0.0" RelY="1.0" />
-      <Point X="548.735899036461" Y="803.0412655475684" GraphRef="c9b0d" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="548.735899036461" Y="803.0412655475684" GraphRef="dca0b" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idbaa38209">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="510.13404718460924" Y="557.1714092732726" GraphRef="c3b7e" RelX="0.0" RelY="1.0" />
-      <Point X="510.13404718460924" Y="576.8750401339855" GraphRef="bccb1" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="510.13404718460924" Y="557.1714092732726" GraphRef="c20d3" RelX="0.0" RelY="1.0" />
+      <Point X="510.13404718460924" Y="576.8750401339855" GraphRef="b602e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -696,7 +697,7 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   <Interaction GraphId="idbfb821f0">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="670.689602740164" Y="492.29355133006845" GraphRef="a9178" RelX="0.0" RelY="1.0" />
-      <Point X="670.6896027401641" Y="513.1769474380403" GraphRef="a93bb" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="670.6896027401641" Y="513.1769474380403" GraphRef="fa90f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -709,8 +710,8 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   </Interaction>
   <Interaction GraphId="idc54e6b37">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="334.62478792535023" Y="684.4139217004379" GraphRef="fac0a" RelX="0.0" RelY="1.0" />
-      <Point X="334.6247879253493" Y="718.8494207588183" GraphRef="b8517" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="334.62478792535023" Y="684.4139217004379" GraphRef="dbc33" RelX="0.0" RelY="1.0" />
+      <Point X="334.6247879253493" Y="718.8494207588183" GraphRef="a082c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -730,15 +731,15 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   </Interaction>
   <Interaction GraphId="ide1c88e8e">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="509.87763692819897" Y="980.2436937802097" GraphRef="b4e85" RelX="0.0" RelY="1.0" />
-      <Point X="670.689602740164" Y="822.7564102564103" GraphRef="e3747" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="509.87763692819897" Y="980.2436937802097" GraphRef="f64d1" RelX="0.0" RelY="1.0" />
+      <Point X="670.689602740164" Y="822.7564102564103" GraphRef="af838" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ideee5d814">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="670.6896027401641" Y="579.1769474380403" GraphRef="a93bb" RelX="0.0" RelY="1.0" />
-      <Point X="670.689602740164" Y="751.0962699548191" GraphRef="e3747" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="670.6896027401641" Y="579.1769474380403" GraphRef="fa90f" RelX="0.0" RelY="1.0" />
+      <Point X="670.689602740164" Y="751.0962699548191" GraphRef="af838" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -752,15 +753,15 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   </Interaction>
   <Interaction GraphId="idf18b6710">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="510.13404718460924" Y="749.4679761564828" GraphRef="c0d10" RelX="0.0" RelY="1.0" />
-      <Point X="510.13404718460924" Y="770.0412655475684" GraphRef="c9b0d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="510.13404718460924" Y="749.4679761564828" GraphRef="b96b4" RelX="0.0" RelY="1.0" />
+      <Point X="510.13404718460924" Y="770.0412655475684" GraphRef="dca0b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idf26c5181">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="854.7262836518446" Y="579.2462409819111" GraphRef="cbf7f" RelX="0.0" RelY="1.0" />
-      <Point X="855.0040614296229" Y="604.9592039448737" GraphRef="fd861" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="854.7262836518446" Y="579.2462409819111" GraphRef="ff420" RelX="0.0" RelY="1.0" />
+      <Point X="855.0040614296229" Y="604.9592039448737" GraphRef="beb5c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -788,14 +789,14 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   <Interaction GraphId="c5e4e">
     <Graphics ZOrder="32776" LineThickness="1.0">
       <Point X="510.13404718460913" Y="307.2472550337718" GraphRef="cb785" RelX="0.0" RelY="1.0" />
-      <Point X="510.13404718460924" Y="359.06206984858727" GraphRef="a9aa0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="510.13404718460924" Y="359.06206984858727" GraphRef="c9b83" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="c44e6">
     <Graphics ZOrder="32780" LineThickness="1.0">
-      <Point X="510.13404718460924" Y="425.06206984858727" GraphRef="a9aa0" RelX="0.0" RelY="1.0" />
-      <Point X="510.13404718460924" Y="466.1714092732724" GraphRef="c3b7e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="510.13404718460924" Y="425.06206984858727" GraphRef="c9b83" RelX="0.0" RelY="1.0" />
+      <Point X="510.13404718460924" Y="466.1714092732724" GraphRef="c20d3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -918,12 +919,12 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   <Shape TextLabel="Nucleus" GraphId="a0108">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="731.7124279368629" CenterY="975.1995601047219" Width="658.5751441262742" Height="254.17830756813837" ZOrder="16384" FontSize="12" Align="Right" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="731.7124279368629" CenterY="975.1995601047219" Width="658.5751441262742" Height="254.17830756813837" ZOrder="16384" FontSize="12" Align="Right" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Endothelial cell" GraphId="f15d2">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="949.8422395128508" CenterY="99.91133312824418" Width="200.0" Height="100.0" ZOrder="16384" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="949.8422395128508" CenterY="99.91133312824418" Width="200.0" Height="100.0" ZOrder="16384" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Epithelial cell of proximal renal tubule" GraphId="f7939">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
@@ -939,35 +940,116 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
   <Shape GraphId="b4c0e" GroupRef="f5462">
     <Graphics CenterX="179.5760368663598" CenterY="72.34101382488484" Width="20.0" Height="20.0" ZOrder="32970" FontSize="12" Valign="Middle" ShapeType="Triangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b48c1" GraphId="b48c1" Style="Group" />
-  <Group GroupId="f5462" GraphId="f5462" Style="Group" />
-  <Group GroupId="b8517" GraphId="b8517" Style="Group" TextLabel="PAK" />
-  <Group GroupId="e3747" GraphId="e3747" Style="Group" />
-  <Group GroupId="f981d" GraphId="f981d" Style="Group" />
-  <Group GroupId="bccb1" GraphId="bccb1" Style="Group" />
-  <Group GroupId="c0d10" GraphId="c0d10" Style="Group" />
-  <Group GroupId="fd861" GraphId="fd861" Style="Group" />
-  <Group GroupId="c3b7e" GraphId="c3b7e" Style="Group" />
-  <Group GroupId="a9aa0" GraphId="a9aa0" Style="Group" />
-  <Group GroupId="e0cd0" GraphId="e0cd0" Style="Group" />
-  <Group GroupId="fac0a" GraphId="fac0a" Style="Group" />
-  <Group GroupId="c9b0d" GraphId="c9b0d" Style="Group" />
-  <Group GroupId="b4e85" GraphId="b4e85" Style="Group" />
-  <Group GroupId="a93bb" GraphId="a93bb" Style="Group" />
-  <Group GroupId="cf2cf" GraphId="cf2cf" Style="Group" />
-  <Group GroupId="cbf7f" GraphId="cbf7f" Style="Group" />
+  <Group GroupId="b48c1" Style="Group" />
+  <Group GroupId="f5462" Style="Group" />
+  <Group GroupId="b8517" GraphId="a082c" Style="Group" TextLabel="PAK" />
+  <Group GroupId="e3747" GraphId="af838" Style="Group" />
+  <Group GroupId="f981d" GraphId="b3e3c" Style="Group" />
+  <Group GroupId="bccb1" GraphId="b602e" Style="Group" />
+  <Group GroupId="c0d10" GraphId="b96b4" Style="Group" />
+  <Group GroupId="fd861" GraphId="beb5c" Style="Group" />
+  <Group GroupId="c3b7e" GraphId="c20d3" Style="Group" />
+  <Group GroupId="a9aa0" GraphId="c9b83" Style="Group" />
+  <Group GroupId="e0cd0" GraphId="c9d0f" Style="Group" />
+  <Group GroupId="fac0a" GraphId="dbc33" Style="Group" />
+  <Group GroupId="c9b0d" GraphId="dca0b" Style="Group" />
+  <Group GroupId="a0d7b" GraphId="ee733" Style="Group" />
+  <Group GroupId="b4e85" GraphId="f64d1" Style="Group" />
+  <Group GroupId="a93bb" GraphId="fa90f" Style="Group" />
+  <Group GroupId="cf2cf" GraphId="feb36" Style="Group" />
+  <Group GroupId="cbf7f" GraphId="ff420" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a87">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24812413</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MET as a target in papillary renal cell carcinoma.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clin Cancer Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fay AP</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signoretti S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Choueiri TK</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papillary renal cell carcinoma</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:4465</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c44">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20303741</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting the HGF/Met signalling pathway in cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eur J Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cecchi F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabe DC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bottaro DP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f75">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11114738</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Met receptor tyrosine kinase: enhanced signaling through adapter proteins.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogene</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furge KA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang YW</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vande Woude GF</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000115</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e43">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22042966</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MET signaling pathway: a rational target for cancer therapy.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Clin Oncol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appleman LJ</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000066</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cda">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19496715</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting the Met signaling pathway in renal cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expert Rev Anticancer Ther</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giubellino A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linehan WM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bottaro DP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25514926</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hornbeck PV</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murray B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kornhauser JM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latham V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skrzypek E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22128289</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An overview of the c-MET signaling pathway.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ther Adv Med Oncol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ SL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tsao MS</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad2">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26536169</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1201,73 +1283,6 @@ MET is a proto-oncogene, meaning that regulated expression of the wild-type alle
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winemiller C</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zach LA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zuna R</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papillary renal cell carcinoma</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:4465</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abd">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22128289</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An overview of the c-MET signaling pathway.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ther Adv Med Oncol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ SL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tsao MS</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c44">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20303741</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting the HGF/Met signalling pathway in cancer.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eur J Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cecchi F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabe DC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bottaro DP</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000115</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e43">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22042966</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MET signaling pathway: a rational target for cancer therapy.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Clin Oncol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appleman LJ</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cda">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19496715</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting the Met signaling pathway in renal cancer.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expert Rev Anticancer Ther</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giubellino A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linehan WM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bottaro DP</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f75">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11114738</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Met receptor tyrosine kinase: enhanced signaling through adapter proteins.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogene</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furge KA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang YW</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vande Woude GF</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a87">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24812413</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MET as a target in papillary renal cell carcinoma.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clin Cancer Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fay AP</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signoretti S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Choueiri TK</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>
