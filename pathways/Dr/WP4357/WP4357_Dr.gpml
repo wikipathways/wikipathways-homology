@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NRF2-ARE regulation" Data-Source="WikiPathways" Version="WP4357_Dr" Last-Modified="20180928182038" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NRF2-ARE regulation" Data-Source="WikiPathways" Version="WP4357_Dr" Last-Modified="20230828182938" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">Under basal conditions, Nrf2 is sequestered to the cytoplasm through binding with Keap1/Cul3/RBX1 and continually degraded via the proteasome. On early response to external stressors, Keap1 is oxidized or Nrf2 is phosphorylated by PKC. Nrf2 then translocates into the nucleus and binds to ARE (antioxidant-responsive) genes in order to increase or decrease transcription. A delayed response to external stressors causes phosphorylation of GSK-3β (by unknown tyrosine kinases), GSK-3β then activates Src kinases, which then translocate to the nucleus. Src kinases phosphorylate Nrf2 (Tyr568) which allows for nuclear export, ubiquitination and degradation of Nrf2. If insulin receptor signaling is initiated, GSK-3β activity is inhibited. Keap1 is also able to regulate Nrf2 activity through sequestration with PGAM5 to the mitochondria. In addition, PI3K also phosphorylates the CEBPB, inducing its translocation to the nucleus where it binds to the CEBPB response element within the xenobiotic response element, in conjunction with NRF2 binding to ARE.
 
-Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et al.</Comment>
+Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et al.
+Protein phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4357.gpml (WP4357_r98705) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4357.gpml (WP4357_r127257) with a 100.0% conversion rate.</Comment>
+  <BiopaxRef>c66</BiopaxRef>
   <Graphics BoardWidth="975.0" BoardHeight="841.0" />
   <DataNode TextLabel="gsk3ba" GraphId="be7b8" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000082701</Comment>
@@ -97,6 +99,7 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
     <Xref Database="Ensembl" ID="ENSDARG00000074634" />
   </DataNode>
   <DataNode TextLabel="nfe2l2a" GraphId="b2519" Type="GeneProduct">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:4780</Comment>
     <Graphics CenterX="261.7912468714595" CenterY="429.11534849269384" Width="61.58249374291904" Height="25.0" ZOrder="32812" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000042824" />
@@ -212,13 +215,13 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b2519" TextLabel="P" GraphId="dc608">
-    <Comment>parentid=C9J0Y1; position=S40; ptm=p; direction=u</Comment>
+    <Comment>parent=C9J0Y1; position=S40; ptm=p; direction=u</Comment>
     <BiopaxRef>ab9</BiopaxRef>
     <Graphics RelX="0.9188931297709914" RelY="-0.6" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e9e98" TextLabel="P" GraphId="e6f6b">
-    <Comment>parentid=C9J0Y1; position=Tyr568; ptm=p; direction=d</Comment>
+    <Comment>parent=C9J0Y1; position=Tyr568; ptm=p; direction=d</Comment>
     <Graphics RelX="1.0" RelY="-0.8" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -229,7 +232,7 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
   </State>
   <Interaction GraphId="id14c2c6c1">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="449.0" Y="161.92034286489567" GraphRef="f7fb2" RelX="-1.0" RelY="0.0" />
+      <Point X="449.0" Y="161.92034286489567" GraphRef="f0186" RelX="-1.0" RelY="0.0" />
       <Point X="261.7912468714595" Y="416.61534849269384" GraphRef="b2519" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.29646059971713" Shape="None" GraphId="bae3d" />
       <Anchor Position="0.4257153572930405" Shape="None" GraphId="d6069" />
@@ -246,14 +249,14 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
   </Interaction>
   <Interaction GraphId="id21b3acc2">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="571.0533790687141" Y="580.129941892842" GraphRef="d6cd4" RelX="0.0" RelY="-1.0" />
-      <Point X="570.5" Y="198.85047652224682" GraphRef="f7fb2" RelX="0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="571.0533790687141" Y="580.129941892842" GraphRef="f9249" RelX="0.0" RelY="-1.0" />
+      <Point X="570.5" Y="198.85047652224682" GraphRef="f0186" RelX="0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id27fc892c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="355.99345470896026" Y="237.05981078359684" GraphRef="ca47e" RelX="1.0" RelY="0.0" />
+      <Point X="355.99345470896026" Y="237.05981078359684" GraphRef="d3065" RelX="1.0" RelY="0.0" />
       <Point X="393.4999807752167" Y="237.4273769782705" GraphRef="bae3d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -267,8 +270,8 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
   </Interaction>
   <Interaction GraphId="id774a68cc">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="806.0791816457271" Y="405.45092625300094" GraphRef="f16fb" RelX="0.0" RelY="1.0" />
-      <Point X="781.5" Y="651.950926253001" GraphRef="fb57b" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="806.0791816457271" Y="405.45092625300094" GraphRef="a918f" RelX="0.0" RelY="1.0" />
+      <Point X="781.5" Y="651.950926253001" GraphRef="ea344" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -284,7 +287,7 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
   <Interaction GraphId="id96cf4eb">
     <BiopaxRef>fcc</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="712.1124042370893" Y="651.950926253001" GraphRef="fb57b" RelX="-1.0" RelY="0.0" />
+      <Point X="712.1124042370893" Y="651.950926253001" GraphRef="ea344" RelX="-1.0" RelY="0.0" />
       <Point X="681.284879241499" Y="651.4735956740584" GraphRef="c0dee" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -292,7 +295,7 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
   <Interaction GraphId="idbbe6c1ef">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="806.079181645727" Y="253.2870281356149" GraphRef="be7b8" RelX="0.0" RelY="1.0" />
-      <Point X="806.0791816457271" Y="314.45092625300094" GraphRef="f16fb" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="806.0791816457271" Y="314.45092625300094" GraphRef="a918f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -305,7 +308,7 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
   </Interaction>
   <Interaction GraphId="idcbedc2d9">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="611.0" Y="161.92034286489567" GraphRef="f7fb2" RelX="1.0" RelY="0.0" />
+      <Point X="611.0" Y="161.92034286489567" GraphRef="f0186" RelX="1.0" RelY="0.0" />
       <Point X="672.0723136149076" Y="161.94493434537333" GraphRef="ff574" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -320,7 +323,7 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
   </Interaction>
   <Interaction GraphId="idd36e823a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="449.0" Y="161.92034286489567" GraphRef="f7fb2" RelX="-1.0" RelY="0.0" />
+      <Point X="449.0" Y="161.92034286489567" GraphRef="f0186" RelX="-1.0" RelY="0.0" />
       <Point X="202.3752879065646" Y="160.70527603622008" GraphRef="da326" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.4" Shape="None" GraphId="ab5ae" />
     </Graphics>
@@ -328,8 +331,8 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
   </Interaction>
   <Interaction GraphId="idb1485347">
     <Graphics ConnectorType="Elbow" ZOrder="12290" LineThickness="1.0">
-      <Point X="353.0" Y="667.542407070775" GraphRef="f3ad3" RelX="1.0" RelY="0.0" />
-      <Point X="416.3487504576533" Y="590.1274406319982" GraphRef="c3395" RelX="-1.0" RelY="-0.5" ArrowHead="mim-transcription-translation" />
+      <Point X="353.0" Y="667.542407070775" GraphRef="d6273" RelX="1.0" RelY="0.0" />
+      <Point X="416.3487504576533" Y="590.1274406319982" GraphRef="f791d" RelX="-1.0" RelY="-0.5" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -364,10 +367,10 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
   </Interaction>
   <Interaction GraphId="edc3b">
     <Graphics ConnectorType="Elbow" ZOrder="32837" LineThickness="1.0">
-      <Point X="353.0" Y="667.542407070775" GraphRef="f3ad3" RelX="1.0" RelY="0.0" />
+      <Point X="353.0" Y="667.542407070775" GraphRef="d6273" RelX="1.0" RelY="0.0" />
       <Point X="373.0" Y="707.2712035353875" />
       <Point X="472.02668953435705" Y="747.0" />
-      <Point X="571.0533790687141" Y="671.129941892842" GraphRef="d6cd4" RelX="0.0" RelY="1.0" ArrowHead="mim-transcription-translation" />
+      <Point X="571.0533790687141" Y="671.129941892842" GraphRef="f9249" RelX="0.0" RelY="1.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -402,32 +405,30 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="506.14737550471057" CenterY="461.5801142892915" Width="877.7052489905789" Height="698.839771421417" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="f16fb" GraphId="f16fb" Style="Group" />
-  <Group GroupId="bcc3a" GraphId="bcc3a" Style="Group">
+  <Group GroupId="f16fb" GraphId="a918f" Style="Group" />
+  <Group GroupId="bcc3a" GraphId="b7afc" Style="Group">
     <BiopaxRef>fcc</BiopaxRef>
   </Group>
-  <Group GroupId="ca47e" GraphId="ca47e" Style="Group" />
-  <Group GroupId="f3ad3" GraphId="f3ad3" />
-  <Group GroupId="fb57b" GraphId="fb57b" Style="Group" />
-  <Group GroupId="f7fb2" GraphId="f7fb2" Style="Complex">
+  <Group GroupId="e8e53" GraphId="c2056" Style="Group" />
+  <Group GroupId="c48c4" GraphId="d1876" Style="Complex" />
+  <Group GroupId="ca47e" GraphId="d3065" Style="Group" />
+  <Group GroupId="f3ad3" GraphId="d6273" />
+  <Group GroupId="e30a2" GraphId="e160c" Style="Complex" />
+  <Group GroupId="fb57b" GraphId="ea344" Style="Group" />
+  <Group GroupId="f7fb2" GraphId="f0186" Style="Complex">
     <BiopaxRef>ab9</BiopaxRef>
   </Group>
-  <Group GroupId="c3395" GraphId="c3395" Style="Group" />
-  <Group GroupId="d6cd4" GraphId="d6cd4" Style="Group" />
+  <Group GroupId="c3395" GraphId="f791d" Style="Group" />
+  <Group GroupId="d6cd4" GraphId="f9249" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear factor, erythroid derived 2, like 2 signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000369</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidative stress response pathways</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000378</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear factor, erythroid 2 like 2 signaling pathway</bp:TERM>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear factor, erythroid derived 2, like 2 signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000369</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
@@ -441,6 +442,32 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khatri R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jaiswal AK</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear factor, erythroid 2 like 2 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000369</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14570043</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer chemoprevention with dietary phytochemicals.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surh YJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c66">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25514926</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hornbeck PV</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murray B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kornhauser JM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latham V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skrzypek E</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fcc">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22819548</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -449,14 +476,6 @@ Description was adapted from Fig 1 in Vomhof-Dekrey et al, and Fig 4 in Surh et 
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vomhof-Dekrey EE</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Picklo MJ Sr</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea7">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14570043</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer chemoprevention with dietary phytochemicals.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surh YJ</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

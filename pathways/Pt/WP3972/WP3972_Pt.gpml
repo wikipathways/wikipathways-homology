@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PDGFR-beta pathway" Data-Source="WikiPathways" Version="WP3972_Pt" Last-Modified="20191129104150" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="PDGFR-beta pathway" Data-Source="WikiPathways" Version="WP3972_Pt" Last-Modified="20230829005356" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Simplified PDGFR-beta pathway, based on figure 7B from Zhang et al: https://www.ncbi.nlm.nih.gov/pubmed/27372738
 
 Platelet-derived growth factor receptors (PDGFR) are cell surface tyrosine kinase receptors for members of the platelet-derived growth factor (PDGF) family. PDGF subunits -A and -B are important factors regulating cell proliferation, cellular differentiation, cell growth, development and many diseases including cancer. There are two forms of the PDGFR, alpha and beta each encoded by a different gene. Depending on which growth factor is bound, PDGFR homo- or heterodimerizes. 
-Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor Wikipedia]</Comment>
+Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor Wikipedia]
+Protein phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3972.gpml (WP3972_r108157) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3972.gpml (WP3972_r127259) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>ac5</BiopaxRef>
+  <BiopaxRef>d15</BiopaxRef>
   <Graphics BoardWidth="840.9243697478996" BoardHeight="608.7815126050419" />
   <DataNode TextLabel="PIK3CA" GraphId="d2333" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000121879</Comment>
@@ -162,15 +164,31 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e5fef" TextLabel="P" GraphId="fc191">
+    <Comment>parentid=P17252; parentsymbol=PRKCA; site=TRGQPVLtPPDQLVI; position=thr638;
+sitegrpid=448685; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
+  <State GraphRef="a5890" TextLabel="P" GraphId="ac1bf">
+    <Comment>parentid=P27361; parentsymbol=MAPK3; site=HtGFLtEyVAtRWyr; position=tyr204;
+sitegrpid=447543; ptm=p; direction=u</Comment>
+    <Graphics RelX="-0.9692307692307692" RelY="0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="a5890" TextLabel="P" GraphId="eee75">
+    <Comment>parentid=P27361; parentsymbol=MAPK3; site=HDHtGFLtEyVAtRW; position=thr202;
+sitegrpid=447542; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e409b" TextLabel="P" GraphId="fe307">
     <Graphics RelX="-1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="abc09" TextLabel="P" GraphId="c4ea7">
+    <Comment>parentid=P42224; parentsymbol=STAT1; site=DGPkGtGyIktELIs; position=tyr701;
+sitegrpid=447754; ptm=p; direction=u</Comment>
+    <Graphics RelX="-0.9655172413793104" RelY="0.68" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="abc09" TextLabel="P" GraphId="f7ab7">
@@ -186,10 +204,14 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="fb7df" TextLabel="P" GraphId="b355b">
+    <Comment>parentid=P40763; parentsymbol=STAT3; site=DPGsAAPyLktKFIC; position=tyr705;
+sitegrpid=448192; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d91d8" TextLabel="P" GraphId="aaa2f">
+    <Comment>parentid=P42224; parentsymbol=STAT1; site=TDNLLPMsPEEFDEV; position=ser727;
+sitegrpid=447753; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.9655172413793104" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -218,6 +240,8 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="a889e" TextLabel="P" GraphId="ea149">
+    <Comment>parentid=P51692; parentsymbol=STAT5B; site=tAkAVDGyVkPQIkQ; position=tyr699;
+sitegrpid=448198; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -226,25 +250,46 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e9bda" TextLabel="P" GraphId="e4b16">
+    <Comment>parentid=P04049; parentsymbol=RAF1; site=IGDFGLAtVksRWsG; position=thr491;
+sitegrpid=447748; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="e9bda" TextLabel="P" GraphId="f1bd7">
+    <Comment>parentid=P04049; parentsymbol=RAF1; site=RPRGQRDssyyWEIE; position=ser338;
+sitegrpid=447742; ptm=p; direction=u</Comment>
+    <Graphics RelX="1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="de93f" TextLabel="P" GraphId="bf36f">
     <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
+  <State GraphRef="d0205" TextLabel="P" GraphId="a98a4">
+    <Comment>parentid=P05412; parentsymbol=JUN; site=VGLLkLAsPELERLI; position=ser73;
+sitegrpid=447943; ptm=p; direction=u</Comment>
+    <Graphics RelX="-1.0" RelY="0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="d0205" TextLabel="P" GraphId="acb1d">
+    <Comment>parentid=P05412; parentsymbol=JUN; site=kNsDLLtsPDVGLLk; position=ser63;
+sitegrpid=447686; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <Interaction GraphId="e1d60">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="289.3697478991595" Y="495.18487394958" GraphRef="c639d" RelX="1.0" RelY="0.0" />
-      <Point X="332.76470588235384" Y="480.47899159663865" GraphRef="de93f" RelX="-1.0" RelY="0.0" ArrowHead="mim-binding" />
-    </Graphics>
+  <State GraphRef="d0205" TextLabel="P" GraphId="b64b3">
+    <Comment>parentid=P05412; parentsymbol=JUN; site=SNGHItTtPtPtQFL; position=thr91;
+sitegrpid=450448; ptm=p; direction=u</Comment>
+    <Graphics RelX="0.9655172413793104" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="e01e8">
+  </State>
+  <State GraphRef="d0205" TextLabel="P" GraphId="f75a0">
+    <Comment>parentid=P05412; parentsymbol=JUN; site=GHItTtPtPtQFLCP; position=thr93;
+sitegrpid=450449; ptm=p; direction=u</Comment>
+    <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <Interaction GraphId="id10461062">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="540.764705882351" Y="495.1848739495799" GraphRef="d0205" RelX="-1.0" RelY="0.0" />
       <Point X="501.4705882352953" Y="480.47899159663865" GraphRef="d9db6" RelX="1.0" RelY="0.0" ArrowHead="mim-binding" />
@@ -311,6 +356,13 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="165.05042016806723" Y="309.9873949579837" GraphRef="e5fef" RelX="0.0" RelY="1.0" />
       <Point X="166.10084033613444" Y="360.7773109243681" GraphRef="a5890" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id5579d5e0">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="289.3697478991595" Y="495.18487394958" GraphRef="c639d" RelX="1.0" RelY="0.0" />
+      <Point X="332.76470588235384" Y="480.47899159663865" GraphRef="de93f" RelX="-1.0" RelY="0.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -494,8 +546,26 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2394</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d15">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25514926</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hornbeck PV</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murray B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kornhauser JM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latham V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skrzypek E</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac5">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27372738</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -556,11 +626,6 @@ Source: [https://en.wikipedia.org/wiki/Platelet-derived_growth_factor_receptor W
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
