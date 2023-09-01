@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Osteoblast differentiation and related diseases" Data-Source="WikiPathways" Version="WP4787_Mm" Last-Modified="20210603115812" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Osteoblast differentiation and related diseases" Data-Source="WikiPathways" Version="WP4787_Mm" Last-Modified="20230831235429" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Taken from:
 Building stronger bones: molecular regulation of the osteoblast lineage by Fanxin Long [https://www.ncbi.nlm.nih.gov/pubmed/22189423].
 Osteoblast differentiation at a glance, Arkady Rutkovskiy, Kåre-Olav Stensløkken, Ingvar Jarle Vaage [https://www.ncbi.nlm.nih.gov/pubmed/27667570].
@@ -17,12 +17,15 @@ Bone morphogenetic protein (BMP) signaling stimulates osteoblast differentiation
 
 Fibroblast growth factor (FGF) signaling has diverse roles in osteoblast lineage cells. FGFs function by binding to cell surface Tyr kinase FGF receptors (FGFR1–FGFR4 in humans and mice), leading to the activation of multiple signaling modules. FGF signaling regulates preosteoblast proliferation and osteoblast differentiation, as well as the function of mature osteoblasts. However, the precise stages at which FGFs regulate proliferation and differentiation, and the intracellular signaling cascades responsible for each function, remain to be elucidated. BMPR, BMP receptor; MAPK, mitogen-activated protein kinase; PI3K, phosphoinositide 3-kinase; STAT1, signal transducer and activator of transcription 1.
 
-Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.</Comment>
+Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.
+
+Protein phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4787.gpml (WP4787_r118872) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4787.gpml (WP4787_r127271) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>c65</BiopaxRef>
   <BiopaxRef>f81</BiopaxRef>
   <BiopaxRef>f5f</BiopaxRef>
+  <BiopaxRef>b6b</BiopaxRef>
   <Graphics BoardWidth="3981.6957599136103" BoardHeight="2278.204665250083" />
   <DataNode TextLabel="Lrp5" GraphId="a03b6" Type="GeneProduct" GroupRef="dafb6">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000162337</Comment>
@@ -283,12 +286,12 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="1755.468172756922" CenterY="1210.4280016515852" Width="90.0" Height="25.0" ZOrder="32898" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000049551" />
   </DataNode>
-  <DataNode TextLabel="Fzd6" GraphId="b364d" Type="GeneProduct" GroupRef="a9403">
+  <DataNode TextLabel="Fzd6" Type="GeneProduct" GroupRef="a9403">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000164930</Comment>
     <Graphics CenterX="1943.4681727569207" CenterY="1152.428001651585" Width="90.0" Height="25.0" ZOrder="32899" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000022297" />
   </DataNode>
-  <DataNode TextLabel="Fzd7" GraphId="ac5aa" Type="GeneProduct" GroupRef="a9403">
+  <DataNode TextLabel="Fzd7" Type="GeneProduct" GroupRef="a9403">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000155760</Comment>
     <Graphics CenterX="1943.4681727569207" CenterY="1123.4280016515863" Width="90.0" Height="25.0" ZOrder="32900" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000041075" />
@@ -298,17 +301,17 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="1755.468172756922" CenterY="1181.4280016515852" Width="90.0" Height="25.0" ZOrder="32901" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000049791" />
   </DataNode>
-  <DataNode TextLabel="Fzd1" GraphId="e0b08" Type="GeneProduct" GroupRef="a9403">
+  <DataNode TextLabel="Fzd1" Type="GeneProduct" GroupRef="a9403">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000157240</Comment>
     <Graphics CenterX="1755.468172756922" CenterY="1152.428001651585" Width="90.0" Height="25.0" ZOrder="32902" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000044674" />
   </DataNode>
-  <DataNode TextLabel="Fzd8" GraphId="b6131" Type="GeneProduct" GroupRef="a9403">
+  <DataNode TextLabel="Fzd8" Type="GeneProduct" GroupRef="a9403">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000177283</Comment>
     <Graphics CenterX="1849.4681727569202" CenterY="1181.4280016515852" Width="90.0" Height="25.0" ZOrder="32903" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000036904" />
   </DataNode>
-  <DataNode TextLabel="Fzd10" GraphId="a063d" Type="GeneProduct" GroupRef="a9403">
+  <DataNode TextLabel="Fzd10" Type="GeneProduct" GroupRef="a9403">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000111432</Comment>
     <Graphics CenterX="1849.4681727569202" CenterY="1123.4280016515863" Width="90.0" Height="25.0" ZOrder="32904" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000081683" />
@@ -318,12 +321,12 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="1943.4681727569207" CenterY="1181.4280016515852" Width="90.0" Height="25.0" ZOrder="32905" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000050288" />
   </DataNode>
-  <DataNode TextLabel="Fzd3" GraphId="be9b8" Type="GeneProduct" GroupRef="a9403">
+  <DataNode TextLabel="Fzd3" Type="GeneProduct" GroupRef="a9403">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000104290</Comment>
     <Graphics CenterX="1755.468172756922" CenterY="1123.4280016515863" Width="90.0" Height="25.0" ZOrder="32906" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000007989" />
   </DataNode>
-  <DataNode TextLabel="Fzd5" GraphId="f4c3e" Type="GeneProduct" GroupRef="a9403">
+  <DataNode TextLabel="Fzd5" Type="GeneProduct" GroupRef="a9403">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000163251</Comment>
     <Graphics CenterX="1849.4681727569202" CenterY="1152.428001651585" Width="90.0" Height="25.0" ZOrder="32907" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000045005" />
@@ -333,22 +336,22 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="2098.0187345123136" CenterY="1209.5527951224092" Width="90.0" Height="25.0" ZOrder="32908" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000049551" />
   </DataNode>
-  <DataNode TextLabel="Fzd6" GraphId="c666d" Type="GeneProduct" GroupRef="dafb6">
+  <DataNode TextLabel="Fzd6" Type="GeneProduct" GroupRef="dafb6">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000164930</Comment>
     <Graphics CenterX="2286.0187345123113" CenterY="1151.5527951224094" Width="90.0" Height="25.0" ZOrder="32909" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000022297" />
   </DataNode>
-  <DataNode TextLabel="Fzd7" GraphId="d9b3d" Type="GeneProduct" GroupRef="dafb6">
+  <DataNode TextLabel="Fzd7" Type="GeneProduct" GroupRef="dafb6">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000155760</Comment>
     <Graphics CenterX="2286.0187345123113" CenterY="1122.5527951224094" Width="90.0" Height="25.0" ZOrder="32910" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000041075" />
   </DataNode>
-  <DataNode TextLabel="Fzd4" GraphId="d8f22" Type="GeneProduct" GroupRef="dafb6">
+  <DataNode TextLabel="Fzd4" Type="GeneProduct" GroupRef="dafb6">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000174804</Comment>
     <Graphics CenterX="2098.0187345123136" CenterY="1180.5527951224092" Width="90.0" Height="25.0" ZOrder="32911" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000049791" />
   </DataNode>
-  <DataNode TextLabel="Fzd1" GraphId="d419c" Type="GeneProduct" GroupRef="dafb6">
+  <DataNode TextLabel="Fzd1" Type="GeneProduct" GroupRef="dafb6">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000157240</Comment>
     <Graphics CenterX="2098.0187345123136" CenterY="1151.5527951224094" Width="90.0" Height="25.0" ZOrder="32912" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000044674" />
@@ -368,22 +371,22 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="2286.0187345123113" CenterY="1180.5527951224092" Width="90.0" Height="25.0" ZOrder="32915" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000050288" />
   </DataNode>
-  <DataNode TextLabel="Fzd3" GraphId="d96ad" Type="GeneProduct" GroupRef="dafb6">
+  <DataNode TextLabel="Fzd3" Type="GeneProduct" GroupRef="dafb6">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000104290</Comment>
     <Graphics CenterX="2098.0187345123136" CenterY="1122.5527951224094" Width="90.0" Height="25.0" ZOrder="32916" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000007989" />
   </DataNode>
-  <DataNode TextLabel="Fzd5" GraphId="b1fda" Type="GeneProduct" GroupRef="dafb6">
+  <DataNode TextLabel="Fzd5" Type="GeneProduct" GroupRef="dafb6">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000163251</Comment>
     <Graphics CenterX="2192.0187345123118" CenterY="1151.5527951224094" Width="90.0" Height="25.0" ZOrder="32917" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000045005" />
   </DataNode>
-  <DataNode TextLabel="Wnt16" GraphId="c642b" Type="GeneProduct" GroupRef="dbca3">
+  <DataNode TextLabel="Wnt16" Type="GeneProduct" GroupRef="dbca3">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000002745</Comment>
     <Graphics CenterX="2152.5923018530743" CenterY="825.7703388884985" Width="90.0" Height="25.0" ZOrder="32919" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000029671" />
   </DataNode>
-  <DataNode TextLabel="Wnt3a" GraphId="f29f7" Type="GeneProduct" GroupRef="dbca3">
+  <DataNode TextLabel="Wnt3a" Type="GeneProduct" GroupRef="dbca3">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000154342</Comment>
     <Graphics CenterX="2246.592301853075" CenterY="941.7703388884992" Width="90.0" Height="25.0" ZOrder="32920" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000009900" />
@@ -413,27 +416,27 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="2152.5923018530743" CenterY="854.7703388884986" Width="90.0" Height="25.0" ZOrder="32925" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000015957" />
   </DataNode>
-  <DataNode TextLabel="Wnt7b" GraphId="f7c86" Type="GeneProduct" GroupRef="dbca3">
+  <DataNode TextLabel="Wnt7b" Type="GeneProduct" GroupRef="dbca3">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000188064</Comment>
     <Graphics CenterX="2152.5923018530743" CenterY="999.7703388884999" Width="90.0" Height="25.0" ZOrder="32926" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000022382" />
   </DataNode>
-  <DataNode TextLabel="Wnt10a" GraphId="f346a" Type="GeneProduct" GroupRef="dbca3">
+  <DataNode TextLabel="Wnt10a" Type="GeneProduct" GroupRef="dbca3">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000135925</Comment>
     <Graphics CenterX="2340.592301853075" CenterY="912.7703388884983" Width="90.0" Height="25.0" ZOrder="32927" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000026167" />
   </DataNode>
-  <DataNode TextLabel="Wnt2b" GraphId="f62d4" Type="GeneProduct" GroupRef="dbca3">
+  <DataNode TextLabel="Wnt2b" Type="GeneProduct" GroupRef="dbca3">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000134245</Comment>
     <Graphics CenterX="2246.592301853075" CenterY="912.7703388884983" Width="90.0" Height="25.0" ZOrder="32928" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000027840" />
   </DataNode>
-  <DataNode TextLabel="Wnt5b" GraphId="e5dc4" Type="GeneProduct" GroupRef="dbca3">
+  <DataNode TextLabel="Wnt5b" Type="GeneProduct" GroupRef="dbca3">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000111186</Comment>
     <Graphics CenterX="2152.5923018530743" CenterY="883.7703388884984" Width="90.0" Height="25.0" ZOrder="32929" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000030170" />
   </DataNode>
-  <DataNode TextLabel="Wnt8a" GraphId="c0fb6" Type="GeneProduct" GroupRef="dbca3">
+  <DataNode TextLabel="Wnt8a" Type="GeneProduct" GroupRef="dbca3">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000061492</Comment>
     <Graphics CenterX="2246.592301853075" CenterY="825.7703388884985" Width="90.0" Height="25.0" ZOrder="32930" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000012282" />
@@ -448,7 +451,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="2246.592301853075" CenterY="883.7703388884984" Width="90.0" Height="25.0" ZOrder="32932" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000021994" />
   </DataNode>
-  <DataNode TextLabel="Wnt9a" GraphId="def2c" Type="GeneProduct" GroupRef="dbca3">
+  <DataNode TextLabel="Wnt9a" Type="GeneProduct" GroupRef="dbca3">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000143816</Comment>
     <Graphics CenterX="2152.5923018530743" CenterY="941.7703388884992" Width="90.0" Height="25.0" ZOrder="32933" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000000126" />
@@ -458,7 +461,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="2340.592301853075" CenterY="854.7703388884986" Width="90.0" Height="25.0" ZOrder="32934" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000000125" />
   </DataNode>
-  <DataNode TextLabel="Wnt4" GraphId="d88ff" Type="GeneProduct" GroupRef="dbca3">
+  <DataNode TextLabel="Wnt4" Type="GeneProduct" GroupRef="dbca3">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000162552</Comment>
     <Graphics CenterX="2246.592301853075" CenterY="970.7703388884996" Width="90.0" Height="25.0" ZOrder="32935" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000036856" />
@@ -468,62 +471,62 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="2246.592301853075" CenterY="854.7703388884986" Width="90.0" Height="25.0" ZOrder="32936" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000010797" />
   </DataNode>
-  <DataNode TextLabel="Wnt8b" GraphId="d3c3a" Type="GeneProduct" GroupRef="dbca3">
+  <DataNode TextLabel="Wnt8b" Type="GeneProduct" GroupRef="dbca3">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000075290</Comment>
     <Graphics CenterX="2340.592301853075" CenterY="825.7703388884985" Width="90.0" Height="25.0" ZOrder="32937" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000036961" />
   </DataNode>
-  <DataNode TextLabel="Prkci" GraphId="c2cd7" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Prkci" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000163558</Comment>
     <Graphics CenterX="3356.5207932658373" CenterY="1414.414488318196" Width="90.0" Height="25.0" ZOrder="32938" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000037643" />
   </DataNode>
-  <DataNode TextLabel="Prkdc" GraphId="a708a" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Prkdc" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000253729</Comment>
     <Graphics CenterX="3450.5207932658373" CenterY="1356.4144883181955" Width="90.0" Height="25.0" ZOrder="32939" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000022672" />
   </DataNode>
-  <DataNode TextLabel="Pik3c2a" GraphId="c405c" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3c2a" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000011405</Comment>
     <Graphics CenterX="3450.5207932658373" CenterY="1269.4144883181946" Width="90.0" Height="25.0" ZOrder="32940" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000030660" />
   </DataNode>
-  <DataNode TextLabel="Pik3r6" GraphId="a25cd" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3r6" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000276231</Comment>
     <Graphics CenterX="3356.5207932658373" CenterY="1269.4144883181946" Width="90.0" Height="25.0" ZOrder="32941" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000046207" />
   </DataNode>
-  <DataNode TextLabel="Prkce" GraphId="b928c" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Prkce" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000171132</Comment>
     <Graphics CenterX="3544.5207932658354" CenterY="1356.4144883181955" Width="90.0" Height="25.0" ZOrder="32942" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000045038" />
   </DataNode>
-  <DataNode TextLabel="Pik3r3" GraphId="cbbae" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3r3" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000117461</Comment>
     <Graphics CenterX="3356.5207932658373" CenterY="1240.4144883181957" Width="90.0" Height="25.0" ZOrder="32943" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000028698" />
   </DataNode>
-  <DataNode TextLabel="Pik3r4" GraphId="bf2d9" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3r4" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000196455</Comment>
     <Graphics CenterX="3450.5207932658373" CenterY="1240.4144883181957" Width="90.0" Height="25.0" ZOrder="32944" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000032571" />
   </DataNode>
-  <DataNode TextLabel="Pik3r5" GraphId="f8702" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3r5" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000141506</Comment>
     <Graphics CenterX="3544.5207932658354" CenterY="1240.4144883181957" Width="90.0" Height="25.0" ZOrder="32945" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000020901" />
   </DataNode>
-  <DataNode TextLabel="Prkch" GraphId="f92d5" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Prkch" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000027075</Comment>
     <Graphics CenterX="3544.5207932658354" CenterY="1385.4144883181957" Width="90.0" Height="25.0" ZOrder="32946" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000021108" />
   </DataNode>
-  <DataNode TextLabel="Prkcg" GraphId="fd3cb" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Prkcg" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000126583</Comment>
     <Graphics CenterX="3450.5207932658373" CenterY="1327.4144883181957" Width="90.0" Height="25.0" ZOrder="32947" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000078816" />
   </DataNode>
-  <DataNode TextLabel="Pik3c3" GraphId="c46e0" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3c3" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000078142</Comment>
     <Graphics CenterX="3450.5207932658373" CenterY="1298.4144883181953" Width="90.0" Height="25.0" ZOrder="32948" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000033628" />
@@ -533,7 +536,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="3356.5207932658373" CenterY="1356.4144883181955" Width="90.0" Height="25.0" ZOrder="32949" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000029053" />
   </DataNode>
-  <DataNode TextLabel="Pik3cb" GraphId="a5d45" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3cb" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000051382</Comment>
     <Graphics CenterX="3450.5207932658373" CenterY="1182.414488318195" Width="90.0" Height="25.0" ZOrder="32950" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000032462" />
@@ -543,32 +546,32 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="3356.5207932658373" CenterY="1182.414488318195" Width="90.0" Height="25.0" ZOrder="32951" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000027665" />
   </DataNode>
-  <DataNode TextLabel="Prkca" GraphId="d3598" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Prkca" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000154229</Comment>
     <Graphics CenterX="3356.5207932658373" CenterY="1327.4144883181957" Width="90.0" Height="25.0" ZOrder="32952" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000050965" />
   </DataNode>
-  <DataNode TextLabel="Prkcb" GraphId="ca9b3" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Prkcb" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000166501</Comment>
     <Graphics CenterX="3544.5207932658354" CenterY="1327.4144883181957" Width="90.0" Height="25.0" ZOrder="32953" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000052889" />
   </DataNode>
-  <DataNode TextLabel="Prkcd" GraphId="edae2" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Prkcd" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000163932</Comment>
     <Graphics CenterX="3356.5207932658373" CenterY="1385.4144883181957" Width="90.0" Height="25.0" ZOrder="32954" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000021948" />
   </DataNode>
-  <DataNode TextLabel="Pik3cd" GraphId="fb625" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3cd" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000171608</Comment>
     <Graphics CenterX="3356.5207932658373" CenterY="1211.4144883181953" Width="90.0" Height="25.0" ZOrder="32955" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000039936" />
   </DataNode>
-  <DataNode TextLabel="Prkcq" GraphId="effdb" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Prkcq" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000065675</Comment>
     <Graphics CenterX="3450.5207932658373" CenterY="1414.414488318196" Width="90.0" Height="25.0" ZOrder="32956" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000026778" />
   </DataNode>
-  <DataNode TextLabel="Pik3c2b" GraphId="d5dda" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3c2b" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000133056</Comment>
     <Graphics CenterX="3544.5207932658354" CenterY="1269.4144883181946" Width="90.0" Height="25.0" ZOrder="32957" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000026447" />
@@ -578,32 +581,32 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="3356.5207932658373" CenterY="1298.4144883181953" Width="90.0" Height="25.0" ZOrder="32958" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000030228" />
   </DataNode>
-  <DataNode TextLabel="Pik3cg" GraphId="af773" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3cg" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000105851</Comment>
     <Graphics CenterX="3544.5207932658354" CenterY="1182.414488318195" Width="90.0" Height="25.0" ZOrder="32959" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000020573" />
   </DataNode>
-  <DataNode TextLabel="Pik3r2" GraphId="a13aa" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3r2" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000105647</Comment>
     <Graphics CenterX="3544.5207932658354" CenterY="1211.4144883181953" Width="90.0" Height="25.0" ZOrder="32960" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000031834" />
   </DataNode>
-  <DataNode TextLabel="Prkd1" GraphId="fc6a4" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Prkd1" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000184304</Comment>
     <Graphics CenterX="3450.5207932658373" CenterY="1385.4144883181957" Width="90.0" Height="25.0" ZOrder="32961" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000002688" />
   </DataNode>
-  <DataNode TextLabel="Pik3r1" GraphId="de519" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Pik3r1" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000145675</Comment>
     <Graphics CenterX="3450.5207932658373" CenterY="1211.4144883181953" Width="90.0" Height="25.0" ZOrder="32962" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000041417" />
   </DataNode>
-  <DataNode TextLabel="Fgf1" GraphId="c348d" Type="GeneProduct" GroupRef="e5b75">
+  <DataNode TextLabel="Fgf1" Type="GeneProduct" GroupRef="e5b75">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000113578</Comment>
     <Graphics CenterX="2985.7097637755755" CenterY="894.0936186851133" Width="90.0" Height="25.0" ZOrder="33090" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000036585" />
   </DataNode>
-  <DataNode TextLabel="Fgf10" GraphId="be453" Type="GeneProduct" GroupRef="e5b75">
+  <DataNode TextLabel="Fgf10" Type="GeneProduct" GroupRef="e5b75">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000070193</Comment>
     <Graphics CenterX="2985.7097637755755" CenterY="981.0936186851135" Width="90.0" Height="25.0" ZOrder="33091" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000021732" />
@@ -613,12 +616,12 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="3173.709763775575" CenterY="923.0936186851133" Width="90.0" Height="25.0" ZOrder="33092" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000000183" />
   </DataNode>
-  <DataNode TextLabel="Fgf2" GraphId="c771a" Type="GeneProduct" GroupRef="e5b75">
+  <DataNode TextLabel="Fgf2" Type="GeneProduct" GroupRef="e5b75">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000138685</Comment>
     <Graphics CenterX="3079.709763775575" CenterY="894.0936186851133" Width="90.0" Height="25.0" ZOrder="33093" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000037225" />
   </DataNode>
-  <DataNode TextLabel="Fgf4" GraphId="eb42c" Type="GeneProduct" GroupRef="e5b75">
+  <DataNode TextLabel="Fgf4" Type="GeneProduct" GroupRef="e5b75">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000075388</Comment>
     <Graphics CenterX="2985.7097637755755" CenterY="923.0936186851133" Width="90.0" Height="25.0" ZOrder="33094" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000050917" />
@@ -628,12 +631,12 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="3173.709763775575" CenterY="894.0936186851133" Width="90.0" Height="25.0" ZOrder="33095" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000031074" />
   </DataNode>
-  <DataNode TextLabel="Fgf7" GraphId="c23c1" Type="GeneProduct" GroupRef="e5b75">
+  <DataNode TextLabel="Fgf7" Type="GeneProduct" GroupRef="e5b75">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000140285</Comment>
     <Graphics CenterX="2985.7097637755755" CenterY="952.0936186851133" Width="90.0" Height="25.0" ZOrder="33096" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000027208" />
   </DataNode>
-  <DataNode TextLabel="Fgf8" GraphId="e5d42" Type="GeneProduct" GroupRef="e5b75">
+  <DataNode TextLabel="Fgf8" Type="GeneProduct" GroupRef="e5b75">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000107831</Comment>
     <Graphics CenterX="3079.709763775575" CenterY="952.0936186851133" Width="90.0" Height="25.0" ZOrder="33097" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000025219" />
@@ -643,7 +646,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="3173.709763775575" CenterY="952.0936186851133" Width="90.0" Height="25.0" ZOrder="33098" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000021974" />
   </DataNode>
-  <DataNode TextLabel="Fgf5" GraphId="aefbc" Type="GeneProduct" GroupRef="e5b75">
+  <DataNode TextLabel="Fgf5" Type="GeneProduct" GroupRef="e5b75">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000138675</Comment>
     <Graphics CenterX="3079.709763775575" CenterY="923.0936186851133" Width="90.0" Height="25.0" ZOrder="33099" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000029337" />
@@ -653,72 +656,72 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="3079.709763775575" CenterY="981.0936186851135" Width="90.0" Height="25.0" ZOrder="33100" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000057967" />
   </DataNode>
-  <DataNode TextLabel="Mapk9" GraphId="f468c" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk9" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000050748</Comment>
     <Graphics CenterX="3355.990622562892" CenterY="1533.7108209550208" Width="90.0" Height="25.0" ZOrder="33102" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000020366" />
   </DataNode>
-  <DataNode TextLabel="Mapk3" GraphId="ff593" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk3" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000102882</Comment>
     <Graphics CenterX="3449.9906225628924" CenterY="1475.710820955021" Width="90.0" Height="25.0" ZOrder="33103" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000063065" />
   </DataNode>
-  <DataNode TextLabel="Mapk13" GraphId="db9fe" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk13" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000156711</Comment>
     <Graphics CenterX="3449.9906225628924" CenterY="1562.7108209550204" Width="90.0" Height="25.0" ZOrder="33104" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000004864" />
   </DataNode>
-  <DataNode TextLabel="Mapk6" GraphId="ce780" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk6" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000069956</Comment>
     <Graphics CenterX="3355.990622562892" CenterY="1504.7108209550215" Width="90.0" Height="25.0" ZOrder="33105" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000042688" />
   </DataNode>
-  <DataNode TextLabel="Mapk10" GraphId="ebb56" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk10" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000109339</Comment>
     <Graphics CenterX="3449.9906225628924" CenterY="1533.7108209550208" Width="90.0" Height="25.0" ZOrder="33106" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000046709" />
   </DataNode>
-  <DataNode TextLabel="Mapk4" GraphId="d9a20" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk4" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000141639</Comment>
     <Graphics CenterX="3543.9906225628924" CenterY="1475.710820955021" Width="90.0" Height="25.0" ZOrder="33107" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000024558" />
   </DataNode>
-  <DataNode TextLabel="Mapk1" GraphId="c1dd5" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk1" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000100030</Comment>
     <Graphics CenterX="3355.990622562892" CenterY="1475.710820955021" Width="90.0" Height="25.0" ZOrder="33108" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000063358" />
   </DataNode>
-  <DataNode TextLabel="Mapk8" GraphId="d7cfc" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk8" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000107643</Comment>
     <Graphics CenterX="3543.9906225628924" CenterY="1504.7108209550215" Width="90.0" Height="25.0" ZOrder="33109" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000021936" />
   </DataNode>
-  <DataNode TextLabel="Mapk11" GraphId="aa545" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk11" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000185386</Comment>
     <Graphics CenterX="3543.9906225628924" CenterY="1533.7108209550208" Width="90.0" Height="25.0" ZOrder="33110" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000053137" />
   </DataNode>
-  <DataNode TextLabel="Mapk12" GraphId="af01f" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk12" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000188130</Comment>
     <Graphics CenterX="3355.990622562892" CenterY="1562.7108209550204" Width="90.0" Height="25.0" ZOrder="33111" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000022610" />
   </DataNode>
-  <DataNode TextLabel="Mapk7" GraphId="ada2d" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk7" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000166484</Comment>
     <Graphics CenterX="3449.9906225628924" CenterY="1504.7108209550215" Width="90.0" Height="25.0" ZOrder="33112" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000001034" />
   </DataNode>
-  <DataNode TextLabel="Mapk14" GraphId="dc137" Type="GeneProduct" GroupRef="c495b">
+  <DataNode TextLabel="Mapk14" Type="GeneProduct" GroupRef="c495b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000112062</Comment>
     <Graphics CenterX="3543.9906225628924" CenterY="1562.7108209550204" Width="90.0" Height="25.0" ZOrder="33113" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000053436" />
   </DataNode>
-  <DataNode TextLabel="Wnt16" GraphId="f362f" Type="GeneProduct" GroupRef="c037a">
+  <DataNode TextLabel="Wnt16" Type="GeneProduct" GroupRef="c037a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000002745</Comment>
     <Graphics CenterX="1746.5957528232532" CenterY="827.582670434193" Width="90.0" Height="25.0" ZOrder="33125" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000029671" />
   </DataNode>
-  <DataNode TextLabel="Wnt3a" GraphId="b8a61" Type="GeneProduct" GroupRef="c037a">
+  <DataNode TextLabel="Wnt3a" Type="GeneProduct" GroupRef="c037a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000154342</Comment>
     <Graphics CenterX="1840.5957528232536" CenterY="943.5826704341938" Width="90.0" Height="25.0" ZOrder="33126" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000009900" />
@@ -748,27 +751,27 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="1746.5957528232532" CenterY="856.582670434193" Width="90.0" Height="25.0" ZOrder="33131" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000015957" />
   </DataNode>
-  <DataNode TextLabel="Wnt7b" GraphId="db1b9" Type="GeneProduct" GroupRef="c037a">
+  <DataNode TextLabel="Wnt7b" Type="GeneProduct" GroupRef="c037a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000188064</Comment>
     <Graphics CenterX="1746.5957528232532" CenterY="1001.5826704341947" Width="90.0" Height="25.0" ZOrder="33132" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000022382" />
   </DataNode>
-  <DataNode TextLabel="Wnt10a" GraphId="ae5f9" Type="GeneProduct" GroupRef="c037a">
+  <DataNode TextLabel="Wnt10a" Type="GeneProduct" GroupRef="c037a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000135925</Comment>
     <Graphics CenterX="1934.5957528232536" CenterY="914.5826704341929" Width="90.0" Height="25.0" ZOrder="33133" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000026167" />
   </DataNode>
-  <DataNode TextLabel="Wnt2b" GraphId="d7322" Type="GeneProduct" GroupRef="c037a">
+  <DataNode TextLabel="Wnt2b" Type="GeneProduct" GroupRef="c037a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000134245</Comment>
     <Graphics CenterX="1840.5957528232536" CenterY="914.5826704341929" Width="90.0" Height="25.0" ZOrder="33134" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000027840" />
   </DataNode>
-  <DataNode TextLabel="Wnt5b" GraphId="c0a47" Type="GeneProduct" GroupRef="c037a">
+  <DataNode TextLabel="Wnt5b" Type="GeneProduct" GroupRef="c037a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000111186</Comment>
     <Graphics CenterX="1746.5957528232532" CenterY="885.5826704341927" Width="90.0" Height="25.0" ZOrder="33135" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000030170" />
   </DataNode>
-  <DataNode TextLabel="Wnt8a" GraphId="d23b2" Type="GeneProduct" GroupRef="c037a">
+  <DataNode TextLabel="Wnt8a" Type="GeneProduct" GroupRef="c037a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000061492</Comment>
     <Graphics CenterX="1840.5957528232536" CenterY="827.582670434193" Width="90.0" Height="25.0" ZOrder="33136" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000012282" />
@@ -783,7 +786,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="1840.5957528232536" CenterY="885.5826704341927" Width="90.0" Height="25.0" ZOrder="33138" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000021994" />
   </DataNode>
-  <DataNode TextLabel="Wnt9a" GraphId="e2100" Type="GeneProduct" GroupRef="c037a">
+  <DataNode TextLabel="Wnt9a" Type="GeneProduct" GroupRef="c037a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000143816</Comment>
     <Graphics CenterX="1746.5957528232532" CenterY="943.5826704341938" Width="90.0" Height="25.0" ZOrder="33139" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000000126" />
@@ -793,7 +796,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="1934.5957528232536" CenterY="856.582670434193" Width="90.0" Height="25.0" ZOrder="33140" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000000125" />
   </DataNode>
-  <DataNode TextLabel="Wnt4" GraphId="b9b08" Type="GeneProduct" GroupRef="c037a">
+  <DataNode TextLabel="Wnt4" Type="GeneProduct" GroupRef="c037a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000162552</Comment>
     <Graphics CenterX="1840.5957528232536" CenterY="972.5826704341943" Width="90.0" Height="25.0" ZOrder="33141" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000036856" />
@@ -803,81 +806,81 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="1840.5957528232536" CenterY="856.582670434193" Width="90.0" Height="25.0" ZOrder="33142" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000010797" />
   </DataNode>
-  <DataNode TextLabel="Wnt8b" GraphId="b7497" Type="GeneProduct" GroupRef="c037a">
+  <DataNode TextLabel="Wnt8b" Type="GeneProduct" GroupRef="c037a">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000075290</Comment>
     <Graphics CenterX="1934.5957528232536" CenterY="827.582670434193" Width="90.0" Height="25.0" ZOrder="33143" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000036961" />
   </DataNode>
   <State GraphRef="ee8e9" TextLabel="P" GraphId="b31fe">
-    <Comment>parentid=ENSG00000170365; parentsymbol=SMAD1; site=HNPIssVs_______; position=ser465; ptm=p; direction=u; sitegrpid=448363</Comment>
+    <Comment>parentid=Q15797; parentsymbol=SMAD1; site=HNPIssVs_______; position=ser465; sitegrpid=448363; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448363" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="ee8e9" TextLabel="P" GraphId="d633d">
-    <Comment>parentid=ENSG00000170365; parentsymbol=SMAD1; site=SPHNPIssVs_____; position=ser463; ptm=p; direction=u; sitegrpid=448362</Comment>
+    <Comment>parentid=Q15797; parentsymbol=SMAD1; site=SPHNPIssVs_____; position=ser463; sitegrpid=448362; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448362" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="b88b9" TextLabel="P" GraphId="c4218">
-    <Comment>parentid=ENSG00000113658; parentsymbol=SMAD5; site=SPLNPIssVs_____; position=ser463; ptm=p; direction=u; sitegrpid=448455</Comment>
+    <Comment>parentid=Q99717; parentsymbol=SMAD5; site=SPLNPIssVs_____; position=ser463; sitegrpid=448455; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448455" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="b88b9" TextLabel="P" GraphId="c49e8">
-    <Comment>parentid=ENSG00000113658; parentsymbol=SMAD5; site=LNPIssVs_______; position=ser465; ptm=p; direction=u; sitegrpid=448456</Comment>
+    <Comment>parentid=Q99717; parentsymbol=SMAD5; site=LNPIssVs_______; position=ser465; sitegrpid=448456; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448456" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="a477c" TextLabel="P" GraphId="ace8e">
-    <Comment>parentid=ENSG00000120693; parentsymbol=SMAD9; site=SPHNPIssVs_____; position=ser465; ptm=p; direction=u; sitegrpid=449927</Comment>
+    <Comment>parentid=O15198; parentsymbol=SMAD9; site=SPHNPIssVs_____; position=ser465; sitegrpid=449927; ptm=p; direction=u</Comment>
     <Graphics RelX="-1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="449927" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="a477c" TextLabel="P" GraphId="c26ff">
-    <Comment>parentid=ENSG00000120693; parentsymbol=SMAD9; site=HNPIssVs_______; position=ser467; ptm=p; direction=u; sitegrpid=449928</Comment>
+    <Comment>parentid=O15198; parentsymbol=SMAD9; site=HNPIssVs_______; position=ser467; sitegrpid=449928; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="449928" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="efff1" TextLabel="P" GraphId="ba403">
-    <Comment>parentid=ENSG00000170365; parentsymbol=SMAD1; site=HNPIssVs_______; position=ser465; ptm=p; direction=u; sitegrpid=448363</Comment>
+    <Comment>parentid=Q15797; parentsymbol=SMAD1; site=HNPIssVs_______; position=ser465; sitegrpid=448363; ptm=p; direction=u</Comment>
     <Graphics RelX="0.9625730994151935" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448363" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="efff1" TextLabel="P" GraphId="ffb7f">
-    <Comment>parentid=ENSG00000170365; parentsymbol=SMAD1; site=SPHNPIssVs_____; position=ser463; ptm=p; direction=u; sitegrpid=448362</Comment>
+    <Comment>parentid=Q15797; parentsymbol=SMAD1; site=SPHNPIssVs_____; position=ser463; sitegrpid=448362; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.9485380116959176" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448362" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="ba188" TextLabel="P" GraphId="bdf46">
-    <Comment>parentid=ENSG00000113658; parentsymbol=SMAD5; site=SPLNPIssVs_____; position=ser463; ptm=p; direction=u; sitegrpid=448455</Comment>
+    <Comment>parentid=Q99717; parentsymbol=SMAD5; site=SPLNPIssVs_____; position=ser463; sitegrpid=448455; ptm=p; direction=u</Comment>
     <Graphics RelX="0.9403508771929612" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448455" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="ba188" TextLabel="P" GraphId="de2f2">
-    <Comment>parentid=ENSG00000113658; parentsymbol=SMAD5; site=LNPIssVs_______; position=ser465; ptm=p; direction=u; sitegrpid=448456</Comment>
+    <Comment>parentid=Q99717; parentsymbol=SMAD5; site=LNPIssVs_______; position=ser465; sitegrpid=448456; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.9485380116959075" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="448456" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="d5be1" TextLabel="P" GraphId="d15a4">
-    <Comment>parentid=ENSG00000120693; parentsymbol=SMAD9; site=HNPIssVs_______; position=ser467; ptm=p; direction=u; sitegrpid=449928</Comment>
+    <Comment>parentid=O15198; parentsymbol=SMAD9; site=HNPIssVs_______; position=ser467; sitegrpid=449928; ptm=p; direction=u</Comment>
     <Graphics RelX="0.9403508771929915" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="449928" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="d5be1" TextLabel="P" GraphId="ffc40">
-    <Comment>parentid=ENSG00000120693; parentsymbol=SMAD9; site=SPHNPIssVs_____; position=ser465; ptm=p; direction=u; sitegrpid=449927</Comment>
+    <Comment>parentid=O15198; parentsymbol=SMAD9; site=SPHNPIssVs_____; position=ser465; sitegrpid=449927; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.9485380116958974" RelY="-0.6" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="449927" />
+    <Xref Database="" ID="" />
   </State>
   <Interaction GraphId="id1883053d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1497.4994508768095" Y="1006.4032720323705" GraphRef="f8f33" RelX="0.0" RelY="1.0" />
-      <Point X="1496.6079321319357" Y="1092.7535223654563" GraphRef="a3b0f" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="1497.4994508768095" Y="1006.4032720323705" GraphRef="c9c34" RelX="0.0" RelY="1.0" />
+      <Point X="1496.6079321319357" Y="1092.7535223654563" GraphRef="aaf15" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1a0e607">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="2770.636008245462" Y="1198.4386369859499" GraphRef="ab697" RelX="0.5" RelY="1.0" />
+      <Point X="2770.636008245462" Y="1198.4386369859499" GraphRef="ac99c" RelX="0.5" RelY="1.0" />
       <Point X="2705.0547191366845" Y="1256.3949819989648" GraphRef="b31df" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -892,13 +895,13 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id1d2484cf">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="2705.003145478923" Y="1318.1119563192049" GraphRef="b88b9" RelX="0.0" RelY="1.0" />
-      <Point X="2705.003145478923" Y="1406.4936276233038" GraphRef="f2fc8" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="2705.003145478923" Y="1406.4936276233038" GraphRef="fbb29" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1e124159">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="2705.003145478923" Y="1480.4936276233038" GraphRef="f2fc8" RelX="0.0" RelY="1.0" />
+      <Point X="2705.003145478923" Y="1480.4936276233038" GraphRef="fbb29" RelX="0.0" RelY="1.0" />
       <Point X="2704.2844522968194" Y="1638.0300353356888" GraphRef="da9b8" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -944,13 +947,13 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id24f3042e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="2668.307575040317" Y="1062.4390914020316" GraphRef="db0f0" RelX="0.0" RelY="1.0" />
-      <Point X="2744.136008245462" Y="1107.4386369859499" GraphRef="ab697" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="2744.136008245462" Y="1107.4386369859499" GraphRef="ac99c" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id35ce6a1c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1849.4681727569214" Y="1230.9280016515854" GraphRef="a9403" RelX="0.0" RelY="1.0" />
+      <Point X="1849.4681727569214" Y="1230.9280016515854" GraphRef="a7a7c" RelX="0.0" RelY="1.0" />
       <Point X="1847.7578036364428" Y="1305.9997603256709" GraphRef="f21bd" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -958,13 +961,13 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id371977e9">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="2819.9944846219646" Y="1064.84370433296" GraphRef="e5c3b" RelX="0.0" RelY="1.0" />
-      <Point X="2744.136008245462" Y="1107.4386369859499" GraphRef="ab697" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="2744.136008245462" Y="1107.4386369859499" GraphRef="ac99c" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4801d7d3">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="2691.136008245462" Y="1175.6886369859499" GraphRef="ab697" RelX="-1.0" RelY="0.5" />
+      <Point X="2691.136008245462" Y="1175.6886369859499" GraphRef="ac99c" RelX="-1.0" RelY="0.5" />
       <Point X="2624.422023033053" Y="1216.0418094924573" />
       <Point X="2552.817421966194" Y="1256.3949819989648" GraphRef="d1fb1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
@@ -979,29 +982,29 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="id4b7946b6">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="2263.305047446359" Y="1230.0527951224094" GraphRef="dafb6" RelX="0.0" RelY="1.0" />
+      <Point X="2263.305047446359" Y="1230.0527951224094" GraphRef="b3ddc" RelX="0.0" RelY="1.0" />
       <Point X="2243.176135123249" Y="1292.2890713583126" GraphRef="f9faf" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id62ef2d0c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1496.6486461094592" Y="1386.0874923532638" GraphRef="eb4ef" RelX="0.0" RelY="1.0" />
+      <Point X="1496.6486461094592" Y="1386.0874923532638" GraphRef="b50c2" RelX="0.0" RelY="1.0" />
       <Point X="1521.4892112517464" Y="1746.1381982221699" GraphRef="ac8f5" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id6e11ee48">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1840.5957528232534" Y="1022.0826704341948" GraphRef="c037a" RelX="0.0" RelY="1.0" />
-      <Point X="1849.4681727569214" Y="1102.9280016515863" GraphRef="a9403" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="1840.5957528232534" Y="1022.0826704341948" GraphRef="ff539" RelX="0.0" RelY="1.0" />
+      <Point X="1849.4681727569214" Y="1102.9280016515863" GraphRef="a7a7c" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id714244d2">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="2246.592301853075" Y="1020.2703388884999" GraphRef="dbca3" RelX="0.0" RelY="1.0" />
-      <Point X="2154.161890979336" Y="1102.0527951224094" GraphRef="dafb6" RelX="-0.5" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="2246.592301853075" Y="1020.2703388884999" GraphRef="c0a2f" RelX="0.0" RelY="1.0" />
+      <Point X="2154.161890979336" Y="1102.0527951224094" GraphRef="b3ddc" RelX="-0.5" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1054,7 +1057,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id8177b387">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="2552.817421966194" Y="1318.1119563192049" GraphRef="ee8e9" RelX="0.0" RelY="1.0" />
-      <Point X="2552.817421966194" Y="1406.4936276233038" GraphRef="deba0" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="2552.817421966194" Y="1406.4936276233038" GraphRef="bf7cb" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1099,7 +1102,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="id94e43e9c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="3302.990622562892" Y="1372.5626546366077" GraphRef="c495b" RelX="-1.0" RelY="0.0" />
+      <Point X="3302.990622562892" Y="1372.5626546366077" GraphRef="b24f2" RelX="-1.0" RelY="0.0" />
       <Point X="3007.412280901747" Y="1429.2837337826693" GraphRef="f4f29" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1107,13 +1110,13 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id962fb3e5">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="2880.6352485971483" Y="1318.1119563192049" GraphRef="a477c" RelX="0.0" RelY="1.0" />
-      <Point X="2880.6352485971483" Y="1406.4936276233038" GraphRef="fc79a" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="2880.6352485971483" Y="1406.4936276233038" GraphRef="c7982" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id9a04d7de">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="2552.817421966194" Y="1480.4936276233038" GraphRef="deba0" RelX="0.0" RelY="1.0" />
+      <Point X="2552.817421966194" Y="1480.4936276233038" GraphRef="bf7cb" RelX="0.0" RelY="1.0" />
       <Point X="2704.2844522968194" Y="1638.0300353356888" GraphRef="da9b8" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1157,7 +1160,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="idb0290d79">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="3179.1114832388653" Y="1220.64333475308" GraphRef="faa4d" RelX="0.0" RelY="1.0" />
+      <Point X="3179.1114832388653" Y="1220.64333475308" GraphRef="a548b" RelX="0.0" RelY="1.0" />
       <Point X="2749.8634773960703" Y="1742.2443323270534" GraphRef="f5ac5" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
       <Anchor Position="0.4" Shape="None" GraphId="f4f29" />
     </Graphics>
@@ -1194,7 +1197,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="idbfd85d10">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="3179.1114832388653" Y="1220.64333475308" GraphRef="faa4d" RelX="0.0" RelY="1.0" />
+      <Point X="3179.1114832388653" Y="1220.64333475308" GraphRef="a548b" RelX="0.0" RelY="1.0" />
       <Point X="3035.687272845089" Y="1731.2036508461015" GraphRef="c2507" RelX="0.5" RelY="-1.0" ArrowHead="mim-stimulation" />
       <Anchor Position="0.48706807545262787" Shape="None" GraphId="ab7dd" />
     </Graphics>
@@ -1202,7 +1205,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="idc0fd244">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="2880.6352485971483" Y="1480.4936276233038" GraphRef="fc79a" RelX="0.0" RelY="1.0" />
+      <Point X="2880.6352485971483" Y="1480.4936276233038" GraphRef="c7982" RelX="0.0" RelY="1.0" />
       <Point X="2704.2844522968194" Y="1638.0300353356888" GraphRef="da9b8" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1216,8 +1219,8 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="idc44f58f3">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="3079.709763775575" Y="1001.5936186851135" GraphRef="e5b75" RelX="0.0" RelY="1.0" />
-      <Point X="3179.1114832388653" Y="1104.64333475308" GraphRef="faa4d" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="3079.709763775575" Y="1001.5936186851135" GraphRef="e7f6a" RelX="0.0" RelY="1.0" />
+      <Point X="3179.1114832388653" Y="1104.64333475308" GraphRef="a548b" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1237,8 +1240,8 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="idd4aadb0b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1496.6079321319357" Y="1208.7535223654572" GraphRef="a3b0f" RelX="0.0" RelY="1.0" />
-      <Point X="1496.6486461094592" Y="1295.0874923532638" GraphRef="eb4ef" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="1496.6079321319357" Y="1208.7535223654572" GraphRef="aaf15" RelX="0.0" RelY="1.0" />
+      <Point X="1496.6486461094592" Y="1295.0874923532638" GraphRef="b50c2" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.7706594924436134" Shape="None" GraphId="b9999" />
       <Anchor Position="0.4" Shape="None" GraphId="d5325" />
     </Graphics>
@@ -1253,7 +1256,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="idda941445">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="2797.136008245462" Y="1175.6886369859499" GraphRef="ab697" RelX="1.0" RelY="0.5" />
+      <Point X="2797.136008245462" Y="1175.6886369859499" GraphRef="ac99c" RelX="1.0" RelY="0.5" />
       <Point X="2879.9806598640093" Y="1256.3949819989648" GraphRef="a30f4" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1290,15 +1293,15 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="ide7717e77">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="3302.990622562892" Y="1372.5626546366077" GraphRef="c495b" RelX="-1.0" RelY="0.0" />
+      <Point X="3302.990622562892" Y="1372.5626546366077" GraphRef="b24f2" RelX="-1.0" RelY="0.0" />
       <Point X="3109.254129109056" Y="1469.3209653149934" GraphRef="ab7dd" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idea37e643">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="2246.592301853075" Y="1020.2703388884999" GraphRef="dbca3" RelX="0.0" RelY="1.0" />
-      <Point X="2372.448203913382" Y="1102.0527951224094" GraphRef="dafb6" RelX="0.5" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="2246.592301853075" Y="1020.2703388884999" GraphRef="c0a2f" RelX="0.0" RelY="1.0" />
+      <Point X="2372.448203913382" Y="1102.0527951224094" GraphRef="b3ddc" RelX="0.5" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1334,7 +1337,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id97626065">
     <Graphics ZOrder="32781" LineThickness="1.0">
       <Point X="1103.6853637010452" Y="1158.1784781402766" GraphRef="f406f" RelX="1.0" RelY="0.5" />
-      <Point X="1168.1522430041325" Y="1158.1784781402766" GraphRef="aa706" RelX="-1.0" RelY="0.5" ArrowHead="mim-conversion" />
+      <Point X="1168.1522430041325" Y="1158.1784781402766" GraphRef="aa706" RelX="-1.0" RelY="0.5" ArrowHead="mim-modification" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1354,7 +1357,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <GraphicalLine GraphId="idf605a7c4">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="647.0966012116573" Y="2059.911453710164" GraphRef="ccb66" RelX="0.0" RelY="1.0" />
-      <Point X="647.0966012116572" Y="2139.5010491939493" GraphRef="ff5d0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="647.0966012116572" Y="2139.5010491939493" GraphRef="b6788" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="a9b7d">
@@ -1366,13 +1369,13 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <GraphicalLine GraphId="d3a71">
     <Graphics ZOrder="33078" LineStyle="Broken" LineThickness="1.0">
       <Point X="1013.6853637010452" Y="1081.7106015360375" GraphRef="e0898" RelX="-1.0" RelY="0.0" />
-      <Point X="963.5535979835062" Y="1081.8020457914963" GraphRef="dbd39" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="963.5535979835062" Y="1081.8020457914963" GraphRef="d06f5" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="e02e5">
     <Graphics ZOrder="33079" LineStyle="Broken" LineThickness="1.0">
       <Point X="1101.73477504398" Y="1360.7123885000037" GraphRef="d14e0" RelX="-1.0" RelY="0.0" />
-      <Point X="958.7904270668291" Y="1360.448822608531" GraphRef="b58b9" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="958.7904270668291" Y="1360.448822608531" GraphRef="f1a5a" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="f3871">
@@ -1422,21 +1425,21 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics ConnectorType="Elbow" ZOrder="33087" LineStyle="Broken" LineThickness="1.0">
       <Point X="3224.111483238865" Y="1175.14333475308" GraphRef="fec34" RelX="1.0" RelY="0.0" />
       <Point X="3303.671550009043" Y="1055.6371502719012" />
-      <Point X="3338.9110842645737" Y="936.1309657907227" GraphRef="ba3fd" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="3338.9110842645737" Y="936.1309657907227" GraphRef="c6cce" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="bcb76">
     <Graphics ConnectorType="Elbow" ZOrder="33088" LineStyle="Broken" LineThickness="1.0">
       <Point X="3224.1114832388653" Y="1150.14333475308" GraphRef="ad785" RelX="1.0" RelY="0.0" />
       <Point X="3288.2076324832697" Y="877.0323335448338" />
-      <Point X="3357.497161615739" Y="603.9213323365877" GraphRef="a326d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="3357.497161615739" Y="603.9213323365877" GraphRef="b5f5c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="f7211">
     <Graphics ConnectorType="Elbow" ZOrder="33089" LineStyle="Broken" LineThickness="1.0">
       <Point X="3224.1114832388657" Y="1125.14333475308" GraphRef="db10b" RelX="1.0" RelY="0.0" />
       <Point X="3264.1730438856785" Y="903.141173195759" />
-      <Point X="3192.126121195045" Y="681.1390116384382" GraphRef="f9e4a" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="3192.126121195045" Y="681.1390116384382" GraphRef="bfd33" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="d737c">
@@ -1456,7 +1459,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics ConnectorType="Elbow" ZOrder="33116" LineStyle="Broken" LineThickness="1.0">
       <Point X="2428.5913603804047" Y="1110.0527951224094" GraphRef="a03b6" RelX="0.0" RelY="-1.0" />
       <Point X="2532.550843453738" Y="1008.5340469818616" />
-      <Point X="2636.510326527071" Y="946.3276458173375" GraphRef="df669" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="2636.510326527071" Y="946.3276458173375" GraphRef="e6cef" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="ca563">
@@ -1470,7 +1473,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics ConnectorType="Elbow" ZOrder="33118" LineStyle="Broken" LineThickness="1.0">
       <Point X="2385.592301853075" Y="941.7703388884992" GraphRef="fd01f" RelX="1.0" RelY="0.0" />
       <Point X="2442.4112607099146" Y="798.3954515014955" />
-      <Point X="2485.8035464952773" Y="655.0205641144919" GraphRef="c0447" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="2485.8035464952773" Y="655.0205641144919" GraphRef="c599b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="f39ac">
@@ -1511,7 +1514,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics ConnectorType="Elbow" ZOrder="33152" LineStyle="Broken" LineThickness="1.0">
       <Point X="1979.5957528232536" Y="943.5826704341938" GraphRef="bd90d" RelX="1.0" RelY="0.0" />
       <Point X="2030.9494666899814" Y="777.8041871142816" />
-      <Point X="1989.364749082006" Y="612.0257037943695" GraphRef="d6b0a" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1989.364749082006" Y="612.0257037943695" GraphRef="d99ab" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="e2dc9">
@@ -1544,7 +1547,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <GraphicalLine GraphId="b5621">
     <Graphics ConnectorType="Elbow" ZOrder="33157" LineStyle="Broken" LineThickness="1.0">
       <Point X="2789.1360082454617" Y="1152.9386369859499" GraphRef="a587a" RelX="1.0" RelY="0.0" />
-      <Point X="2838.42292710984" Y="1134.8070580385806" GraphRef="e2532" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="2838.42292710984" Y="1134.8070580385806" GraphRef="ecabf" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="ea29c">
@@ -1631,7 +1634,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Label TextLabel="Axial skeleton, extremities" GraphId="bc86b">
     <Graphics CenterX="3340.5852974102904" CenterY="1748.0112705261" Width="157.82823777196808" Height="21.646114471847" ZOrder="32845" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
   </Label>
-  <Label TextLabel="OMIM:101600&#xA;Pfeiffer Syndrome" GraphId="c33f5" Href="https://omim.org/entry/101600" GroupRef="a326d">
+  <Label TextLabel="OMIM:101600&#xA;Pfeiffer Syndrome" Href="https://omim.org/entry/101600" GroupRef="a326d">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.220498544947" CenterY="545.4213323365877" Width="206.28740629038566" Height="39.0" ZOrder="33022" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1639,11 +1642,11 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1943.4681727569216" CenterY="1257.5036625449302" Width="125.24408168942647" Height="39.0" ZOrder="33023" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:612247&#xA;Crouzon Syndrome With Acanthosis Nigricans" GraphId="afb9b" Href="https://omim.org/entry/612247" GroupRef="ba3fd">
+  <Label TextLabel="OMIM:612247&#xA;Crouzon Syndrome With Acanthosis Nigricans" Href="https://omim.org/entry/612247" GroupRef="ba3fd">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.2204985449475" CenterY="1042.73852824265" Width="274.2897146366946" Height="39.0" ZOrder="33024" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:146510&#xA;Pallister-Hall Syndrome" GraphId="e783c" Href="https://omim.org/entry/146510" GroupRef="b58b9">
+  <Label TextLabel="OMIM:146510&#xA;Pallister-Hall Syndrome" Href="https://omim.org/entry/146510" GroupRef="b58b9">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="827.294021998577" CenterY="1399.448822608531" Width="206.28740629038566" Height="39.0" ZOrder="33025" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1655,19 +1658,19 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.220498544947" CenterY="584.4213323365877" Width="206.28740629038566" Height="39.0" ZOrder="33028" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:616482&#xA;Achondroplasia, Severe, With Developmental &#xA;Delay And Acanthosis Nigricans" GraphId="c4b2d" Href="https://omim.org/entry/616482" GroupRef="ba3fd">
+  <Label TextLabel="OMIM:616482&#xA;Achondroplasia, Severe, With Developmental &#xA;Delay And Acanthosis Nigricans" Href="https://omim.org/entry/616482" GroupRef="ba3fd">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.2204985449466" CenterY="869.6267626238302" Width="280.61882856074607" Height="41.20671857007119" ZOrder="33029" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:156510&#xA;Metaphyseal Dysplasia With Maxillary &#xA;Hypoplasia With Or Without Brachydactyly" GraphId="bf892" Href="https://omim.org/entry/156510" GroupRef="ff5d0">
+  <Label TextLabel="OMIM:156510&#xA;Metaphyseal Dysplasia With Maxillary &#xA;Hypoplasia With Or Without Brachydactyly" Href="https://omim.org/entry/156510" GroupRef="ff5d0">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="647.0966012116572" CenterY="2174.352857222021" Width="250.58996918327267" Height="53.70361605614403" ZOrder="33030" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:609441&#xA;Acromesomelic Dysplasia, Demirhan Type" GraphId="c62e7" Href="https://omim.org/entry/609441" GroupRef="e2532">
+  <Label TextLabel="OMIM:609441&#xA;Acromesomelic Dysplasia, Demirhan Type" Href="https://omim.org/entry/609441" GroupRef="e2532">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="2973.4506980046813" CenterY="1115.3070580385806" Width="254.0555417896834" Height="39.0" ZOrder="33031" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:149730&#xA;Lacrimoauriculodentodigital Syndrome" GraphId="b340c" Href="https://omim.org/entry/149730" GroupRef="a326d">
+  <Label TextLabel="OMIM:149730&#xA;Lacrimoauriculodentodigital Syndrome" Href="https://omim.org/entry/149730" GroupRef="a326d">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.2204985449475" CenterY="701.4213323365877" Width="230.15763731356571" Height="39.0" ZOrder="33032" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1711,11 +1714,11 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="827.2940219985769" CenterY="1360.448822608531" Width="246.99281013650426" Height="39.0" ZOrder="33044" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:187600&#xA;Thanatophoric Dysplasia, Type I" GraphId="dbc20" Href="https://omim.org/entry/187600" GroupRef="ba3fd">
+  <Label TextLabel="OMIM:187600&#xA;Thanatophoric Dysplasia, Type I" Href="https://omim.org/entry/187600" GroupRef="ba3fd">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.2204985449466" CenterY="790.5234033387952" Width="206.28740629038566" Height="39.0" ZOrder="33045" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:123500&#xA;Crouzon Syndrome" GraphId="a742c" Href="https://omim.org/entry/123500" GroupRef="a326d">
+  <Label TextLabel="OMIM:123500&#xA;Crouzon Syndrome" Href="https://omim.org/entry/123500" GroupRef="a326d">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.220498544947" CenterY="662.4213323365877" Width="206.28740629038566" Height="39.0" ZOrder="33046" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1727,11 +1730,11 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="2267.287795506032" CenterY="752.492973522826" Width="250.96039991438278" Height="39.0" ZOrder="33048" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:607778&#xA;Acrocapitofemoral Dysplasia" GraphId="c2668" Href="https://omim.org/entry/607778" GroupRef="dbd39">
+  <Label TextLabel="OMIM:607778&#xA;Acrocapitofemoral Dysplasia" Href="https://omim.org/entry/607778" GroupRef="dbd39">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="828.8915610125066" CenterY="1042.8020457914963" Width="206.28740629038566" Height="39.0" ZOrder="33049" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:144750&#xA;Endosteal Hyperostosis, Autosomal Dominant" GraphId="bbdbf" Href="https://omim.org/entry/144750" GroupRef="df669">
+  <Label TextLabel="OMIM:144750&#xA;Endosteal Hyperostosis, Autosomal Dominant" Href="https://omim.org/entry/144750" GroupRef="df669">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="2636.510326527071" CenterY="840.8276458173373" Width="265.3192669119817" Height="39.0" ZOrder="33050" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1739,11 +1742,11 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1274.751683735379" CenterY="925.9821053000089" Width="299.0614817828459" Height="39.0" ZOrder="33051" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:146000&#xA;Hypochondroplasia" GraphId="df40e" Href="https://omim.org/entry/146000" GroupRef="ba3fd">
+  <Label TextLabel="OMIM:146000&#xA;Hypochondroplasia" Href="https://omim.org/entry/146000" GroupRef="ba3fd">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.2204985449466" CenterY="948.7301219088657" Width="206.28740629038566" Height="39.0" ZOrder="33052" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:185900&#xA;Chromosome 2q35 Duplication Syndrome" GraphId="f9083" Href="https://omim.org/entry/185900" GroupRef="dbd39">
+  <Label TextLabel="OMIM:185900&#xA;Chromosome 2q35 Duplication Syndrome" Href="https://omim.org/entry/185900" GroupRef="dbd39">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="828.8915610125066" CenterY="1120.8020457914965" Width="253.32407394199913" Height="39.0" ZOrder="33053" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1751,7 +1754,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3096.179085484" CenterY="681.1390116384381" Width="173.6792319979507" Height="39.0" ZOrder="33054" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:614592&#xA;Bent Bone Dysplasia Syndrome" GraphId="d9f39" Href="https://omim.org/entry/614592" GroupRef="a326d">
+  <Label TextLabel="OMIM:614592&#xA;Bent Bone Dysplasia Syndrome" Href="https://omim.org/entry/614592" GroupRef="a326d">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.220498544947" CenterY="506.4213323365878" Width="206.28740629038566" Height="39.0" ZOrder="33055" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1759,19 +1762,19 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="828.8915610125066" CenterY="1081.8020457914965" Width="206.28740629038566" Height="39.0" ZOrder="33058" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:602849&#xA;Muenke Syndrome" GraphId="e8da7" Href="https://omim.org/entry/602849" GroupRef="ba3fd">
+  <Label TextLabel="OMIM:602849&#xA;Muenke Syndrome" Href="https://omim.org/entry/602849" GroupRef="ba3fd">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.220498544947" CenterY="1081.73852824265" Width="206.28740629038566" Height="39.0" ZOrder="33059" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:166250&#xA;Osteoglophonic Dysplasia" GraphId="d6cf3" Href="https://omim.org/entry/166250" GroupRef="f9e4a">
+  <Label TextLabel="OMIM:166250&#xA;Osteoglophonic Dysplasia" Href="https://omim.org/entry/166250" GroupRef="f9e4a">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3096.732795340035" CenterY="642.1390116384382" Width="174.7866517100216" Height="39.0" ZOrder="33062" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:100800&#xA;Achondroplasia" GraphId="aa85b" Href="https://omim.org/entry/100800" GroupRef="ba3fd">
+  <Label TextLabel="OMIM:100800&#xA;Achondroplasia" Href="https://omim.org/entry/100800" GroupRef="ba3fd">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.2204985449466" CenterY="909.7301219088654" Width="206.28740629038566" Height="39.0" ZOrder="33064" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:119600&#xA;Cleidocranial Dysplasia" GraphId="c9b69" Href="https://omim.org/entry/119600" GroupRef="ff5d0">
+  <Label TextLabel="OMIM:119600&#xA;Cleidocranial Dysplasia" Href="https://omim.org/entry/119600" GroupRef="ff5d0">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="647.0966012116573" CenterY="2220.704665250083" Width="206.28740629038566" Height="39.0" ZOrder="33065" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1795,7 +1798,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="2596.94724964047" CenterY="736.5351493469437" Width="206.28740629038566" Height="39.0" ZOrder="33070" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:112600&#xA;Brachydactyly, Type A2" GraphId="a43ad" Href="https://omim.org/entry/112600" GroupRef="e2532">
+  <Label TextLabel="OMIM:112600&#xA;Brachydactyly, Type A2" Href="https://omim.org/entry/112600" GroupRef="e2532">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="2973.4506980046817" CenterY="1154.3070580385809" Width="206.28740629038566" Height="39.0" ZOrder="33071" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1807,7 +1810,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1274.751683735379" CenterY="989.4007099511716" Width="206.28740629038566" Height="39.0" ZOrder="33073" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:610474&#xA;Camptodactyly, Tall Stature, &#xA;And Hearing Loss Syndrome" GraphId="d295e" Href="https://omim.org/entry/610474" GroupRef="ba3fd">
+  <Label TextLabel="OMIM:610474&#xA;Camptodactyly, Tall Stature, &#xA;And Hearing Loss Syndrome" Href="https://omim.org/entry/610474" GroupRef="ba3fd">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.2204985449475" CenterY="995.7343250757577" Width="206.7791661134857" Height="55.00840633378472" ZOrder="33074" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1815,7 +1818,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="2636.5103265270704" CenterY="918.8276458173375" Width="219.74041549903802" Height="39.0" ZOrder="33075" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:187601&#xA;Thanatophoric Dysplasia, Type II" GraphId="f4bb4" Href="https://omim.org/entry/187601" GroupRef="ba3fd">
+  <Label TextLabel="OMIM:187601&#xA;Thanatophoric Dysplasia, Type II" Href="https://omim.org/entry/187601" GroupRef="ba3fd">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="3487.2204985449466" CenterY="829.5234033387951" Width="206.28740629038566" Height="39.0" ZOrder="33076" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1863,49 +1866,41 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Shape GraphId="ee7ab">
     <Graphics CenterX="2262.6582278481014" CenterY="1165.032911392405" Width="432.48945147679314" Height="127.53417721519008" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="faa4d" GraphId="faa4d" Style="Group" />
-  <Group GroupId="a9403" GraphId="a9403" Style="Group" />
-  <Group GroupId="a3b0f" GraphId="a3b0f" Style="Group" />
-  <Group GroupId="ab697" GraphId="ab697" Style="Group" />
-  <Group GroupId="c495b" GraphId="c495b" Style="Group" />
-  <Group GroupId="dafb6" GraphId="dafb6" Style="Group" />
-  <Group GroupId="eb4ef" GraphId="eb4ef" Style="Group" />
-  <Group GroupId="a326d" GraphId="a326d" Style="Group" />
-  <Group GroupId="ff5d0" GraphId="ff5d0" Style="Group" />
-  <Group GroupId="deba0" GraphId="deba0" Style="Complex" />
-  <Group GroupId="f9e4a" GraphId="f9e4a" Style="Group" />
-  <Group GroupId="dbca3" GraphId="dbca3" Style="Group" />
-  <Group GroupId="c0447" GraphId="c0447" Style="Group" />
-  <Group GroupId="ba3fd" GraphId="ba3fd" Style="Group" />
-  <Group GroupId="fc79a" GraphId="fc79a" Style="Complex" />
-  <Group GroupId="f8f33" GraphId="f8f33" Style="Group" />
-  <Group GroupId="dbd39" GraphId="dbd39" Style="Group" />
-  <Group GroupId="d6b0a" GraphId="d6b0a" Style="Group" />
-  <Group GroupId="df669" GraphId="df669" Style="Group" />
-  <Group GroupId="e5b75" GraphId="e5b75" Style="Group" />
-  <Group GroupId="e2532" GraphId="e2532" Style="Group" />
-  <Group GroupId="b58b9" GraphId="b58b9" Style="Group" />
-  <Group GroupId="f2fc8" GraphId="f2fc8" Style="Complex" />
-  <Group GroupId="c037a" GraphId="c037a" Style="Group" />
+  <Group GroupId="a6cc3" Style="Group" />
+  <Group GroupId="faa4d" GraphId="a548b" Style="Group" />
+  <Group GroupId="a9403" GraphId="a7a7c" Style="Group" />
+  <Group GroupId="a3b0f" GraphId="aaf15" Style="Group" />
+  <Group GroupId="ab697" GraphId="ac99c" Style="Group" />
+  <Group GroupId="c495b" GraphId="b24f2" Style="Group" />
+  <Group GroupId="dafb6" GraphId="b3ddc" Style="Group" />
+  <Group GroupId="eb4ef" GraphId="b50c2" Style="Group" />
+  <Group GroupId="a326d" GraphId="b5f5c" Style="Group" />
+  <Group GroupId="ff5d0" GraphId="b6788" Style="Group" />
+  <Group GroupId="c1f6b" GraphId="b7bc6" Style="Group" />
+  <Group GroupId="deba0" GraphId="bf7cb" Style="Complex" />
+  <Group GroupId="f9e4a" GraphId="bfd33" Style="Group" />
+  <Group GroupId="dbca3" GraphId="c0a2f" Style="Group" />
+  <Group GroupId="c0447" GraphId="c599b" Style="Group" />
+  <Group GroupId="ba3fd" GraphId="c6cce" Style="Group" />
+  <Group GroupId="fc79a" GraphId="c7982" Style="Complex" />
+  <Group GroupId="f8f33" GraphId="c9c34" Style="Group" />
+  <Group GroupId="dbd39" GraphId="d06f5" Style="Group" />
+  <Group GroupId="d6b0a" GraphId="d99ab" Style="Group" />
+  <Group GroupId="f87d3" GraphId="e3fb4" Style="Group" />
+  <Group GroupId="a104b" GraphId="e5684" Style="Group" />
+  <Group GroupId="df669" GraphId="e6cef" Style="Group" />
+  <Group GroupId="e5b75" GraphId="e7f6a" Style="Group" />
+  <Group GroupId="e2532" GraphId="ecabf" Style="Group" />
+  <Group GroupId="b58b9" GraphId="f1a5a" Style="Group" />
+  <Group GroupId="ec132" GraphId="f34a3" Style="Group" />
+  <Group GroupId="f2fc8" GraphId="fbb29" Style="Complex" />
+  <Group GroupId="c037a" GraphId="ff539" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002588</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c65">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22189423</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Building strong bones: molecular regulation of the osteoblast lineage.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Mol Cell Biol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long F</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080001</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteoblast</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000062</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f81">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27667570</bp:ID>
@@ -1917,16 +1912,6 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stensløkken KO</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaage IJ</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteoblast</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000062</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adams-Oliver syndrome</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060227</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23284041</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1936,6 +1921,42 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long F</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ornitz DM</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c65">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22189423</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Building strong bones: molecular regulation of the osteoblast lineage.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Mol Cell Biol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25514926</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hornbeck PV</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murray B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kornhauser JM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latham V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skrzypek E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080001</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adams-Oliver syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060227</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002588</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

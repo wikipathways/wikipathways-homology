@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="FGFR3 signaling in chondrocyte proliferation and terminal differentiation" Data-Source="WikiPathways" Version="WP4767_Mm" Last-Modified="20210507094436" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="FGFR3 signaling in chondrocyte proliferation and terminal differentiation" Data-Source="WikiPathways" Version="WP4767_Mm" Last-Modified="20230831234914" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Taken from Achondroplasia: Development, Pathenogenesis, and Therapy by Ornitz DM, Legeai-Mallet L [https://www.ncbi.nlm.nih.gov/pubmed/27987249].
 
 Signaling pathways in the postnatal growth plate.
 During endochondral bone development, FGF9 and FGF18, derived from the perichondrium and surrounding tissue, signal to FGFR3 in chondrocytes. The balance of chondrocyte proliferation and differentiation is controlled by crosstalk of several signaling pathways. Expression of FGFR3 is enhanced by thyroid hormone (T3/3,3',5'-Triiodothyronine) and suppressed by PTHLH (member of the parathyroid hormone family). FGFR3 signaling results in increased expression of Snail1 (encoded by SNAI1), which is required for activation of STAT1 and MAPK signaling (ERK1/2 and p38 branches). Signaling from PTHLH, IHH and BMPs antagonizes the suppression of chondrocyte proliferation by FGFR3. Both FGFR3 and PTHLH function to suppress chondrocyte differentiation and antagonize the action of Wnt signaling, which promotes differentiation. FGFR3 negatively regulates the autophagy protein, ATG5. Activation of downstream signals: PP2a (encoded by PPP2CA) regulates p107 (encoded by RBL1) activation, and STAT1 regulates p21Waf1/Cip1 (encoded by CKDN1A) activation. Both function to suppress chondrocyte proliferation. Activation of the MAPKs, ERK1, and ERK2, regulate Sox9 expression, which functions to suppress chondrocyte terminal differentiation and endochondral ossification.
 
-Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.</Comment>
+Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.
+
+Protein phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4767.gpml (WP4767_r116441) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4767.gpml (WP4767_r127270) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>e9a</BiopaxRef>
+  <BiopaxRef>d2e</BiopaxRef>
   <Graphics BoardWidth="1661.578947368421" BoardHeight="1232.6533587783417" />
   <DataNode TextLabel="Thra" GraphId="ad924" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000126351</Comment>
@@ -160,37 +163,29 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Xref Database="Ensembl" ID="ENSMUSG00000063065" />
   </DataNode>
   <State GraphRef="cafe0" TextLabel="P" GraphId="b3a9a">
-    <Comment>parentid=ENSG00000080839; parentsymbol=RBL1; site=KRSFAPStPLTGRRY; position=thr369; ptm=p; direction=d; sitegrpid=451295</Comment>
+    <Comment>parentid=P28749; parentsymbol=RBL1; site=KRSFAPStPLTGRRY; position=thr369; sitegrpid=451295; ptm=p; direction=d</Comment>
     <Graphics RelX="-0.8857803752502402" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="451295" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="cafe0" TextLabel="P" GraphId="c19af">
-    <Comment>parentid=ENSG00000080839; parentsymbol=RBL1; site=HIKQQPGsPRRISQQ; position=ser975; ptm=p; direction=d; sitegrpid=450986</Comment>
+    <Comment>parentid=P28749; parentsymbol=RBL1; site=HIKQQPGsPRRISQQ   ; position=ser975; sitegrpid=450986; ptm=p; direction=d</Comment>
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="450986" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="cafe0" TextLabel="P" GraphId="de277">
-    <Comment>parentid=ENSG00000080839; parentsymbol=RBL1; site=RRDMQPLsPISVHER; position=ser640; ptm=p; direction=d; sitegrpid=451296</Comment>
+    <Comment>parentid=P28749; parentsymbol=RBL1; site=RRDMQPLsPISVHER; position=ser640; sitegrpid=451296; ptm=p; direction=d</Comment>
     <Graphics RelX="-0.28029263831732454" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="451296" />
+    <Xref Database="" ID="" />
   </State>
   <State GraphRef="cafe0" TextLabel="P" GraphId="ec1b6">
-    <Comment>parentid=ENSG00000080839; parentsymbol=RBL1; site=MMDAPPLsPFPHIKQ; position=ser964; ptm=p; direction=d; sitegrpid=451297</Comment>
+    <Comment>parentid=P28749; parentsymbol=RBL1; site=MMDAPPLsPFPHIKQ; position=ser964; sitegrpid=451297; ptm=p; direction=d</Comment>
     <Graphics RelX="0.41659882642608054" RelY="0.9274047186932853" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="phosphositeplus" ID="451297" />
-  </State>
-  <Interaction GraphId="c2c76">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="566.9368636489803" Y="453.7617949850411" GraphRef="f7ac4" RelX="1.0" RelY="0.0" />
-      <Point X="666.7913078753128" Y="692.1435409597527" GraphRef="ed06a" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
-      <Anchor Position="0.8101143669825631" Shape="None" GraphId="b538a" />
-    </Graphics>
     <Xref Database="" ID="" />
-  </Interaction>
+  </State>
   <Interaction GraphId="id1eb94ab6">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="719.7913078753128" Y="819.4324580953719" GraphRef="f6327" RelX="0.0" RelY="1.0" />
-      <Point X="747.6800666615909" Y="882.0630620341935" GraphRef="a5f45" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="747.6800666615909" Y="882.0630620341935" GraphRef="f19de" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -267,6 +262,14 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="id6f74b1d5">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="566.9368636489803" Y="453.7617949850411" GraphRef="f7ac4" RelX="1.0" RelY="0.0" />
+      <Point X="666.7913078753128" Y="692.1435409597527" GraphRef="f69d8" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.8101143669825631" Shape="None" GraphId="b538a" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id71b6f2fe">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="1309.8643797982068" Y="206.0007372418299" GraphRef="d3120" RelX="1.0" RelY="0.5" />
@@ -284,7 +287,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id8dd88d7a">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="719.7913078753128" Y="609.8559586092972" GraphRef="b7904" RelX="0.0" RelY="1.0" />
-      <Point X="719.7913078753128" Y="634.1435409597528" GraphRef="ed06a" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="719.7913078753128" Y="634.1435409597528" GraphRef="f69d8" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -298,8 +301,8 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="ida0eba681">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="853.6800666615909" Y="882.0630620341935" GraphRef="a5f45" RelX="1.0" RelY="0.0" />
-      <Point X="876.5734099007456" Y="882.0630620341936" GraphRef="c4ec7" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="853.6800666615909" Y="882.0630620341935" GraphRef="f19de" RelX="1.0" RelY="0.0" />
+      <Point X="876.5734099007456" Y="882.0630620341936" GraphRef="d4d73" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -349,7 +352,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="iddd07adca">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="415.99789702913387" Y="597.1498735060433" GraphRef="e95c5" RelX="1.0" RelY="0.0" />
+      <Point X="415.99789702913387" Y="597.1498735060433" GraphRef="b3d3e" RelX="1.0" RelY="0.0" />
       <Point X="499.4368636489803" Y="466.2617949850411" GraphRef="f7ac4" RelX="-0.5" RelY="1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -372,7 +375,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="ide4f255da">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="1297.5097132154683" Y="375.61789977645117" GraphRef="fd823" RelX="-1.0" RelY="0.0" />
+      <Point X="1297.5097132154683" Y="375.61789977645117" GraphRef="ef154" RelX="-1.0" RelY="0.0" />
       <Point X="1196.9495856758174" Y="492.6000124148002" GraphRef="d5617" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -393,7 +396,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="idf1a41522">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="929.5734099007456" Y="849.0630620341936" GraphRef="c4ec7" RelX="0.0" RelY="-1.0" />
+      <Point X="929.5734099007456" Y="849.0630620341936" GraphRef="d4d73" RelX="0.0" RelY="-1.0" />
       <Point X="929.5734099007456" Y="704.2549257645732" GraphRef="d35b0" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -414,7 +417,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="a8e2c">
     <Graphics ZOrder="32870" LineThickness="1.0">
-      <Point X="772.7913078753128" Y="692.1435409597527" GraphRef="ed06a" RelX="1.0" RelY="0.0" />
+      <Point X="772.7913078753128" Y="692.1435409597527" GraphRef="f69d8" RelX="1.0" RelY="0.0" />
       <Point X="884.5734099007456" Y="691.7549257645732" GraphRef="d35b0" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -452,7 +455,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <GraphicalLine GraphId="a2c66">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1390.0990186178942" Y="248.52048530340983" GraphRef="eaf1d" RelX="1.0" RelY="0.0" />
-      <Point X="1418.9971192466214" Y="262.3957291871962" GraphRef="c00ab" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1418.9971192466214" Y="262.3957291871962" GraphRef="ade4e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="afc50">
@@ -464,7 +467,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <GraphicalLine GraphId="b8346">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1264.8643797982068" Y="199.7507372418299" GraphRef="d3120" RelX="0.0" RelY="0.0" />
-      <Point X="1124.6033899022548" Y="93.16382156459957" GraphRef="dbb65" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1124.6033899022548" Y="93.16382156459957" GraphRef="bf3bd" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="bdb1b">
@@ -476,19 +479,19 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <GraphicalLine GraphId="bf586">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="499.4368636489803" Y="334.15098097301427" GraphRef="af906" RelX="-0.5" RelY="1.0" />
-      <Point X="228.10939952156755" Y="427.05367741321805" GraphRef="a175b" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="228.10939952156755" Y="427.05367741321805" GraphRef="d1a55" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="ec9d7">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="476.9368636489803" Y="453.7617949850411" GraphRef="f7ac4" RelX="-1.0" RelY="0.0" />
-      <Point X="117.63992815019618" Y="525.3831592676424" GraphRef="f4099" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="117.63992815019618" Y="525.3831592676424" GraphRef="e0d94" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="eee43">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="596.9482543036777" Y="1055.3311736636938" GraphRef="faba9" RelX="-0.5" RelY="1.0" />
-      <Point X="594.9626953657546" Y="1111.1105651778682" GraphRef="a4d6a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="594.9626953657546" Y="1111.1105651778682" GraphRef="ba557" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="f89ec">
@@ -661,18 +664,40 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="930.6735199117466" CenterY="600.4794915423793" Width="248.58576369588036" Height="422.04786516387503" ZOrder="32876" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="c00ab" GraphId="c00ab" Style="Group" />
-  <Group GroupId="e95c5" GraphId="e95c5" Style="Group" />
-  <Group GroupId="a4d6a" GraphId="a4d6a" Style="Group" />
-  <Group GroupId="dbb65" GraphId="dbb65" Style="Group" />
-  <Group GroupId="a175b" GraphId="a175b" Style="Group" />
-  <Group GroupId="c4ec7" GraphId="c4ec7" Style="Group" />
-  <Group GroupId="f4099" GraphId="f4099" Style="Group" />
-  <Group GroupId="fd823" GraphId="fd823" Style="Group" />
-  <Group GroupId="a5f45" GraphId="a5f45" Style="Group" />
-  <Group GroupId="ed06a" GraphId="ed06a" Style="Group" />
+  <Group GroupId="ea098" GraphId="a2220" Style="Group" />
+  <Group GroupId="c00ab" GraphId="ade4e" Style="Group" />
+  <Group GroupId="e95c5" GraphId="b3d3e" Style="Group" />
+  <Group GroupId="a4d6a" GraphId="ba557" Style="Group" />
+  <Group GroupId="dbb65" GraphId="bf3bd" Style="Group" />
+  <Group GroupId="a175b" GraphId="d1a55" Style="Group" />
+  <Group GroupId="c4ec7" GraphId="d4d73" Style="Group" />
+  <Group GroupId="f4099" GraphId="e0d94" Style="Group" />
+  <Group GroupId="fd823" GraphId="ef154" Style="Group" />
+  <Group GroupId="a5f45" GraphId="f19de" Style="Group" />
+  <Group GroupId="ad848" GraphId="f476f" Style="Group" />
+  <Group GroupId="ed06a" GraphId="f69d8" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muenke Syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060703</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast growth factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000328</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid hormone signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000501</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parathyroid hormone signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001135</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9a">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27987249</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -682,26 +707,19 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ornitz DM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legeai-Mallet L</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muenke Syndrome</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060703</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parathyroid hormone signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001135</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid hormone signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000501</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast growth factor signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000328</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25514926</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleic Acids Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hornbeck PV</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murray B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kornhauser JM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latham V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skrzypek E</bp:AUTHORS>
+    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 
