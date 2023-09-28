@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Ether lipid biosynthesis" Data-Source="WikiPathways" Version="WP5275_Mm" Last-Modified="20230318024754" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Ether lipid biosynthesis" Data-Source="WikiPathways" Version="WP5275_Mm" Last-Modified="20230927214202" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Ether lipid biosynthesis in humans.
 
 Ether lipids (e.g. plasmalogens), are peroxisome-derived glycerophospholipids where the hydrocarbon chain at the sn-1 position of the glycerol backbone is attached by an ether bond (single bond between carbon and oxygen atom). Ether lipids are used to form non-lamellar inverted hexagonal structures in model membranes (indicating they could facilitate membrane fusion processes). Lipid raft microdomains (cholesterol-rich membrane regions involved in cellular signaling) rely on ether lipids for their organization and stability. [PMID:28523433].
@@ -8,7 +8,7 @@ The pathway knowledge depicted in this model stems from Robert C. Murphy, who en
 
 Metabolic conversion missing an identifier from Rhea have been visualized with double line thickness.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5275.gpml (WP5275_r125918) with a 91.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5275.gpml (WP5275_r127389) with a 91.0% conversion rate.</Comment>
   <BiopaxRef>dff</BiopaxRef>
   <Graphics BoardWidth="993.738915316398" BoardHeight="1041.421319796956" />
   <DataNode TextLabel="UNIDENTIFIED" GraphId="b1fb4" Type="Protein">
@@ -16,7 +16,7 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
     <Graphics CenterX="604.729096140826" CenterY="598.6343940419767" Width="100.74999999999977" Height="25.0" ZOrder="28672" FontSize="12" Valign="Middle" Color="404040" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Dhrs7b" GraphId="a41e8" Type="Protein">
+  <DataNode TextLabel="Dhrs7b" GraphId="a41e8" Type="GeneProduct">
     <Comment>AKA an acyl/alkyl DHAP reductase; "identified this gene as dhrs7b and renamed the protein PexRAP (for peroxisomal reductase activating PPARγ)" [PMID:28523433]</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q6IAN0</Comment>
     <BiopaxRef>cae</BiopaxRef>
@@ -35,17 +35,17 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
     <Graphics CenterX="500.6286644951139" CenterY="194.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="LIPID MAPS" ID="LMFA07050000" />
   </DataNode>
-  <DataNode TextLabel="ACS" GraphId="ae54d" Type="Protein">
+  <DataNode TextLabel="ACS" GraphId="ae54d" Type="GeneProduct">
     <Comment>AKA acyl-CoA synthetase; composed of two subunits.</Comment>
     <Graphics CenterX="450.00981496217486" CenterY="53.33351947248177" Width="42.73840934790781" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Lpin3" GraphId="b0084" Type="Protein" GroupRef="bb15e">
+  <DataNode TextLabel="Lpin3" GraphId="b0084" Type="GeneProduct" GroupRef="bb15e">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q9BQK8</Comment>
     <Graphics CenterX="603.375" CenterY="783.546575281574" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000027412" />
   </DataNode>
-  <DataNode TextLabel="Gnpat" GraphId="b08a9" Type="Protein">
+  <DataNode TextLabel="Gnpat" GraphId="b08a9" Type="GeneProduct">
     <Comment>AKA glyceronephosphate O-acyltransferase</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:O15228</Comment>
     <Graphics CenterX="603.375" CenterY="251.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
@@ -67,7 +67,7 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
     <Graphics CenterX="500.62866449511404" CenterY="319.75" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="LIPID MAPS" ID="LMGP22010000" />
   </DataNode>
-  <DataNode TextLabel="Pex1" GraphId="bcf93" Type="Protein" GroupRef="ea779">
+  <DataNode TextLabel="Pex1" GraphId="bcf93" Type="GeneProduct" GroupRef="ea779">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:O43933</Comment>
     <Graphics CenterX="773.5242005185828" CenterY="174.58945548833174" Width="58.828867761452145" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000005907" />
@@ -76,7 +76,7 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
     <Graphics CenterX="416.5828498629786" CenterY="270.3776407563218" Width="58.11002043865207" Height="17.265801421110623" ZOrder="32768" FontSize="8" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="15346" />
   </DataNode>
-  <DataNode TextLabel="Arsa" GraphId="c6621" Type="Protein">
+  <DataNode TextLabel="Arsa" GraphId="c6621" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:P15289</Comment>
     <Graphics CenterX="608.1221816370669" CenterY="923.6349022728773" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000022620" />
@@ -97,7 +97,7 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
     <Graphics CenterX="318.4077689585771" CenterY="889.1224185651349" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="LIPID MAPS" ID="LMGP02020000" />
   </DataNode>
-  <DataNode TextLabel="Tmem189" GraphId="e12c6" Type="Protein">
+  <DataNode TextLabel="Tmem189" GraphId="e12c6" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:A5PLL7</Comment>
     <Graphics CenterX="185.99183683180885" CenterY="923.6349022728773" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000090213" />
@@ -111,40 +111,40 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
     <Graphics CenterX="318.4077689585771" CenterY="972.5336876797231" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="LIPID MAPS" ID="LMGP02030000" />
   </DataNode>
-  <DataNode TextLabel="Lpcat1" GraphId="e33a0" Type="Protein">
+  <DataNode TextLabel="Lpcat1" GraphId="e33a0" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q8NF37</Comment>
     <Graphics CenterX="603.375" CenterY="668.0780145868163" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000021608" />
   </DataNode>
-  <DataNode TextLabel="Agps" GraphId="e4f2f" Type="Protein">
+  <DataNode TextLabel="Agps" GraphId="e4f2f" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:O00116</Comment>
     <Graphics CenterX="603.375" CenterY="377.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000042410" />
   </DataNode>
-  <DataNode TextLabel="Pex5l" GraphId="e7601" Type="Protein" GroupRef="cf05c">
+  <DataNode TextLabel="Pex5l" GraphId="e7601" Type="GeneProduct" GroupRef="cf05c">
     <Comment>AKA  Pex5 long isoform; "While both the long and short Pex5 isoforms recognize PTS1-containing proteins, Pex5L is a co-receptor with Pex7 for the import of PTS2-containing proteins, and its loss results only in impaired PTS2-tagged protein import" [PMID:28523433]. AGPS contains a PTS2 domain (type-2 peroxisomal targeting signal). [PMID:31751594]</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q8IYB4</Comment>
     <Graphics CenterX="851.339671564389" CenterY="318.7986171132238" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000027674" />
   </DataNode>
-  <DataNode TextLabel="Pex7" GraphId="e814f" Type="Protein">
+  <DataNode TextLabel="Pex7" GraphId="e814f" Type="GeneProduct">
     <Comment>AKA peroxisomal import receptor for proteins, including AGPS [PMID:28523433]</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:O00628</Comment>
     <Graphics CenterX="743.1846555442057" CenterY="292.9343128781332" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000020003" />
   </DataNode>
-  <DataNode TextLabel="Gal3st1" GraphId="e8c19" Type="Protein">
+  <DataNode TextLabel="Gal3st1" GraphId="e8c19" Type="GeneProduct">
     <Comment>EC 2.8.2.11 </Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q99999</Comment>
     <Graphics CenterX="846.9474536394337" CenterY="923.6349022728773" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000049721" />
   </DataNode>
-  <DataNode TextLabel="Lpin1" GraphId="eab66" Type="Protein" GroupRef="bb15e">
+  <DataNode TextLabel="Lpin1" GraphId="eab66" Type="GeneProduct" GroupRef="bb15e">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q14693</Comment>
     <Graphics CenterX="603.375" CenterY="733.5465752815741" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000020593" />
   </DataNode>
-  <DataNode TextLabel="Ugt8a" GraphId="f49b3" Type="Protein">
+  <DataNode TextLabel="Ugt8a" GraphId="f49b3" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q16880</Comment>
     <Graphics CenterX="750.8999447070494" CenterY="853.6717353466277" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000032854" />
@@ -162,7 +162,7 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
     <Graphics CenterX="710.0934724410531" CenterY="972.5336876797231" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="LIPID MAPS" ID="LMGL05020000" />
   </DataNode>
-  <DataNode TextLabel="Lpin2" GraphId="fe6af" Type="Protein" GroupRef="bb15e">
+  <DataNode TextLabel="Lpin2" GraphId="fe6af" Type="GeneProduct" GroupRef="bb15e">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q92539</Comment>
     <Graphics CenterX="603.375" CenterY="758.546575281574" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000024052" />
@@ -175,7 +175,7 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
     <Graphics CenterX="416.5828498629786" CenterY="686.7400475778911" Width="58.11002043865207" Height="17.265801421110623" ZOrder="32772" FontSize="8" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="15346" />
   </DataNode>
-  <DataNode TextLabel="Cept1" GraphId="dcafd" Type="Protein">
+  <DataNode TextLabel="Cept1" GraphId="dcafd" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q9Y6K0</Comment>
     <Graphics CenterX="439.0241882914767" CenterY="889.1224185651349" Width="90.0" Height="25.0" ZOrder="32775" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000040774" />
@@ -196,13 +196,13 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
     <Graphics CenterX="302.02460021946376" CenterY="195.00788941181818" Width="90.0" Height="25.0" ZOrder="32784" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="LIPID MAPS" ID="LMFA05000000" />
   </DataNode>
-  <DataNode TextLabel="Far1" GraphId="c9eff" Type="Protein" GroupRef="bbe1f">
+  <DataNode TextLabel="Far1" GraphId="c9eff" Type="GeneProduct" GroupRef="bbe1f">
     <Comment>AKA fatty acyl-CoA reductase.</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q8WVX9</Comment>
     <Graphics CenterX="353.40799327866256" CenterY="237.00707312732797" Width="42.73840934790781" Height="25.0" ZOrder="32785" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000030759" />
   </DataNode>
-  <DataNode TextLabel="Far2" GraphId="be54a" Type="Protein" GroupRef="bbe1f">
+  <DataNode TextLabel="Far2" GraphId="be54a" Type="GeneProduct" GroupRef="bbe1f">
     <Comment>AKA fatty acyl-CoA reductase.</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q96K12</Comment>
     <Graphics CenterX="353.40799327866256" CenterY="260.948141267291" Width="42.73840934790781" Height="25.0" ZOrder="32786" FontSize="12" Valign="Middle" />
@@ -212,28 +212,28 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
     <Graphics CenterX="710.0934724410531" CenterY="542.916144200627" Width="90.0" Height="25.0" ZOrder="32792" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="LIPID MAPS" ID="LMGP22010000" />
   </DataNode>
-  <DataNode TextLabel="Agps" GraphId="dc629" Type="Protein">
+  <DataNode TextLabel="Agps" GraphId="dc629" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:O00116</Comment>
     <Graphics CenterX="815.375" CenterY="377.0" Width="90.0" Height="25.0" ZOrder="32796" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000042410" />
   </DataNode>
-  <DataNode TextLabel="Pex7" GraphId="eb79c" Type="Protein" GroupRef="cf05c">
+  <DataNode TextLabel="Pex7" GraphId="eb79c" Type="GeneProduct" GroupRef="cf05c">
     <Comment>AKA peroxisomal import receptor for proteins, including AGPS [PMID:28523433]</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:O00628</Comment>
     <Graphics CenterX="851.339671564389" CenterY="293.7986171132239" Width="90.0" Height="25.0" ZOrder="32803" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000020003" />
   </DataNode>
-  <DataNode TextLabel="Pex3" GraphId="e0b18" Type="Protein" GroupRef="ea779">
+  <DataNode TextLabel="Pex3" GraphId="e0b18" Type="GeneProduct" GroupRef="ea779">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:P56589</Comment>
     <Graphics CenterX="773.5242005185827" CenterY="199.58945548833174" Width="58.828867761452145" Height="25.0" ZOrder="32808" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000019809" />
   </DataNode>
-  <DataNode TextLabel="Pex16" GraphId="a06a1" Type="Protein" GroupRef="ea779">
+  <DataNode TextLabel="Pex16" GraphId="a06a1" Type="GeneProduct" GroupRef="ea779">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:Q9Y5Y5</Comment>
     <Graphics CenterX="832.3530682800349" CenterY="174.58945548833174" Width="58.828867761452145" Height="25.0" ZOrder="32809" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000027222" />
   </DataNode>
-  <DataNode TextLabel="Pex19" GraphId="c3e47" Type="Protein" GroupRef="ea779">
+  <DataNode TextLabel="Pex19" GraphId="c3e47" Type="GeneProduct" GroupRef="ea779">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = S:P40855</Comment>
     <Graphics CenterX="832.3530682800349" CenterY="199.58945548833174" Width="58.828867761452145" Height="25.0" ZOrder="32810" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000003464" />
@@ -710,17 +710,110 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
   <Group GroupId="bb15e" GraphId="de2c8" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c63">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">237979</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cae">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22863804</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deficiency of seminolipid sulphatase activity in brain tissue of metachromatic leucodystrophy.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurochem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamaguchi S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aoki K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handa S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamakawa T</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inhibiting adipose tissue lipogenesis reprograms thermogenesis and PPARγ activation to decrease diet-induced obesity</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Metab.</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irfan J Lodhi</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li Yin</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anne P L Jensen-Urstad</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katsuhiko Funai</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trey Coleman</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John H Baird</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meral K El Ramahi</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Babak Razani</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haowei Song</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fong Fu-Hsu</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Turk</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clay F Semenkovich</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8399344</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ether lipid synthesis: purification and identification of alkyl dihydroxyacetone phosphate synthase from guinea-pig liver.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1993</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zomer AW</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Weerd WF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langeveld J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">van den Bosch H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizomelic chondrodysplasia punctata type 3</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0110853</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10191259</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning and expression of a human choline/ethanolaminephosphotransferase: synthesis of phosphatidylcholine and phosphatidylethanolamine.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem J</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Henneberry AL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McMaster CR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ether lipid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001138</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zellweger syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:905</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000010</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10801776</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Requirement of seminolipid in spermatogenesis revealed by UDP-galactose: Ceramide galactosyltransferase-deficient mice.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujimoto H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tadano-Aritomi K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tokumasu A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ito K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hikita T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suzuki K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ishizuka I</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b29">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20231281</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of the human LPIN1-encoded phosphatidate phosphatase isoforms.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Han GS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carman GM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ceb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8830034</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purification and characterization of 3'-phosphoadenosine-5'-phosphosulfate:GalCer sulfotransferase from human renal cancer cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biochem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honke K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamane M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ishii A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kobayashi T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Makita A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizomelic chondrodysplasia punctata type 1</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0110851</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peroxisome biogenesis disorder 1A</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080476</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2c">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32209662</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -742,6 +835,22 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watschinger K</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizomelic chondrodysplasia punctata</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2580</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c63">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">237979</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deficiency of seminolipid sulphatase activity in brain tissue of metachromatic leucodystrophy.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurochem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1975</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamaguchi S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aoki K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handa S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamakawa T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zellweger syndrome pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001415</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
@@ -760,30 +869,9 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John M. Dean</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irfan J. Lodhi</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6e">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8399344</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ether lipid synthesis: purification and identification of alkyl dihydroxyacetone phosphate synthase from guinea-pig liver.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1993</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zomer AW</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Weerd WF</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langeveld J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">van den Bosch H</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peroxisome biogenesis disorder 1A</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080476</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000010</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c01">
@@ -799,97 +887,9 @@ Metabolic conversion missing an identifier from Rhea have been visualized with d
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai TP</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zoeller RA</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2a">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10801776</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Requirement of seminolipid in spermatogenesis revealed by UDP-galactose: Ceramide galactosyltransferase-deficient mice.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujimoto H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tadano-Aritomi K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tokumasu A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ito K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hikita T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suzuki K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ishizuka I</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cae">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22863804</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inhibiting adipose tissue lipogenesis reprograms thermogenesis and PPARγ activation to decrease diet-induced obesity</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Metab.</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irfan J Lodhi</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li Yin</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anne P L Jensen-Urstad</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katsuhiko Funai</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trey Coleman</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John H Baird</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meral K El Ramahi</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Babak Razani</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haowei Song</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fong Fu-Hsu</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Turk</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clay F Semenkovich</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ceb">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8830034</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purification and characterization of 3'-phosphoadenosine-5'-phosphosulfate:GalCer sulfotransferase from human renal cancer cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biochem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honke K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamane M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ishii A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kobayashi T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Makita A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizomelic chondrodysplasia punctata</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2580</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ether lipid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001138</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b29">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20231281</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of the human LPIN1-encoded phosphatidate phosphatase isoforms.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Han GS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carman GM</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd8">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10191259</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning and expression of a human choline/ethanolaminephosphotransferase: synthesis of phosphatidylcholine and phosphatidylethanolamine.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem J</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Henneberry AL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McMaster CR</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizomelic chondrodysplasia punctata type 1</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0110851</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizomelic chondrodysplasia punctata type 3</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0110853</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizomelic chondrodysplasia punctata type 2</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0110852</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zellweger syndrome</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:905</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
