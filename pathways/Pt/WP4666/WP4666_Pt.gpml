@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hepatitis B infection" Data-Source="WikiPathways" Version="WP4666_Pt" Last-Modified="20231002232838" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hepatitis B infection" Data-Source="WikiPathways" Version="WP4666_Pt" Last-Modified="20231011184448" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">The Hepatitis B virus (HBV) is a virus in the Hepadnaviridae family which infects hepatocytes in the liver. It causes both acute and chronic infections, and prolonged chronic infection can lead to complications such as cirrhosis and an increased risk of hepatocellular carcinoma (HCC). 
 The left side of the pathway describes the pathogenesis of HBV. The virus binds NTCP (SLC10A1) and is subsequently endocytosed. It is transported to the nucleus where viral polymerase creates covalently closed circular DNA (cccDNA). Using the host RNA polymerase, this is transcribed into viral mRNAs. Viral DNA polymerase then synthesizes viral DNA via its reverse transcriptase activity. Assembled viral particles exit the cell via the ESCRT pathway.
 
 The HBV regulatory protein HBx interferes with many cellular processes including transcription, signal transduction, cell cycle progress, protein degradation, apoptosis and chromosomal stability. 
 Protein phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4666.gpml (WP4666_r127443) with a 95.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4666.gpml (WP4666_r127496) with a 95.0% conversion rate.</Comment>
   <BiopaxRef>d6c</BiopaxRef>
   <BiopaxRef>b9a</BiopaxRef>
   <BiopaxRef>fd8</BiopaxRef>
@@ -1142,34 +1142,24 @@ Protein phosphorylation sites were added based on information from PhosphoSitePl
     <Graphics RelX="0.9" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="a71f0" TextLabel="P" GraphId="a9421">
-    <Graphics RelX="-1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="ded14" TextLabel="P" GraphId="c1efb">
-    <Graphics RelX="-1.0" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="ded14" TextLabel="P" GraphId="d7692">
-    <Graphics RelX="0.9333333333333333" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="d5964" TextLabel="P" GraphId="e97e2">
-    <Comment>parentid=O14920; parentsymbol=IKBKB; site=AkELDQGsLCtsFVG; position=ser177; sitegrpid=447492; ptm=ub; direction=u</Comment>
+    <Comment>parentid=O14920; parentsymbol=IKBKB; site=AkELDQGsLCtsFVG; position=ser177; sitegrpid=447492; ptm=p; direction=u</Comment>
     <Graphics RelX="-0.8" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d5964" TextLabel="P" GraphId="f84a0">
-    <Comment>parentid=O14920; parentsymbol=IKBKB; site=DQGsLCtsFVGTLQy; position=ser181; sitegrpid=447489; ptm=ub; direction=u</Comment>
+    <Comment>parentid=O14920; parentsymbol=IKBKB; site=DQGsLCtsFVGTLQy; position=ser181; sitegrpid=447489; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="d5cab" TextLabel="P" GraphId="b0df6">
-    <Graphics RelX="1.0" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
+  <State GraphRef="b5a6c" TextLabel="P" GraphId="c05b8">
+    <Comment>parentid=Q92934; parentsymbol=BAD; site=PFrGrsRsAPPNLWA; position=ser99; sitegrpid=447862; ptm=p; direction=d</Comment>
+    <Graphics RelX="1.0" RelY="-0.7777777777777919" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="b5a6c" TextLabel="P" GraphId="c05b8">
-    <Graphics RelX="1.0" RelY="-0.7777777777777919" Width="15.0" Height="15.0" ShapeType="Oval" />
+  <State GraphRef="b5a6c" TextLabel="P" GraphId="ccfb3">
+    <Comment>parentid=Q92934; parentsymbol=BAD; site=KGLPRPKsAGtAtQM; position=ser134; sitegrpid=447864; ptm=p; direction=d</Comment>
+    <Graphics RelX="-0.9550561199405188" RelY="-0.76" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d0d70" TextLabel="P" GraphId="cfa71">
@@ -1213,22 +1203,13 @@ Protein phosphorylation sites were added based on information from PhosphoSitePl
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b4357" TextLabel="P" GraphId="a8afb">
-    <Comment>parentid=O14920; parentsymbol=IKBKB; site=AkELDQGsLCtsFVG; position=ser177; sitegrpid=447492; ptm=ub; direction=u</Comment>
+    <Comment>parentid=O14920; parentsymbol=IKBKB; site=AkELDQGsLCtsFVG; position=ser177; sitegrpid=447492; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b4357" TextLabel="P" GraphId="fe075">
     <Comment>parent=O14920; position=ser181; ptm=p; direction=u</Comment>
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="cee51" TextLabel="P" GraphId="a86ac">
-    <Comment></Comment>
-    <Graphics RelX="-0.9333333333333333" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="cee51" TextLabel="P" GraphId="ae920">
-    <Graphics RelX="0.9333333333333333" RelY="-0.6" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="b95a1" TextLabel="P" GraphId="b8663">

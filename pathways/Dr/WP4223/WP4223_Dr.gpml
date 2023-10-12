@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Ras signaling" Data-Source="WikiPathways" Version="WP4223_Dr" Last-Modified="20230929195327" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Ras signaling" Data-Source="WikiPathways" Version="WP4223_Dr" Last-Modified="20231011184105" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">Ras proteins are small GTPases and are involved in transmitting signals within cells. In this way, Ras signaling controls many downstream processes, including cell proliferation, survival, growth, migration and differentiation. 
 
 Ras proteins exists in two states, inactive while bound to GDP and active while bound to GTP. The exchange of GTP for GDP on RAS proteins is regulated by guanine nucleotide exchange factors (GEFs) and GTPase-activating proteins (GAPs). Activated RAS regulates cellular functions through a set of effector molecules, including Raf, phosphatidylinositol 3-kinase (PI3K) and Ral guanine nucleotide-dissociation stimulator (RALGDS).
@@ -8,7 +8,7 @@ Mutations in Ras genes can lead to the production of permanently activated Ras p
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP4223 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4223.gpml (WP4223_r127396) with a 85.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4223.gpml (WP4223_r127495) with a 85.0% conversion rate.</Comment>
   <BiopaxRef>ba0</BiopaxRef>
   <Graphics BoardWidth="1964.0" BoardHeight="1918.0" />
   <DataNode TextLabel="pla2g4f.1" GraphId="a382d" Type="GeneProduct" GroupRef="be341">
@@ -1050,12 +1050,17 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e893d" TextLabel="P" GraphId="ee262">
-    <Comment>parentid=O14920; parentsymbol=IKBKB; site=DQGsLCtsFVGTLQy; position=ser181; sitegrpid=447489; ptm=ub; direction=u</Comment>
+    <Comment>parentid=O14920; parentsymbol=IKBKB; site=DQGsLCtsFVGTLQy; position=ser181; sitegrpid=447489; ptm=p; direction=u</Comment>
     <Graphics RelX="0.9774845087744171" RelY="-0.5466666666666606" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
+  <State GraphRef="b37c6" TextLabel="P" GraphId="ac1cd">
+    <Comment>parentid=Q92934; parentsymbol=BAD; site=KGLPRPKsAGtAtQM; position=ser134; sitegrpid=447864; ptm=p; direction=d</Comment>
+    <Graphics RelX="-0.9250744997871224" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="b37c6" TextLabel="P" GraphId="b55b3">
-    <Comment>parentid=Q92934; parentsymbol=BAD; site=PFrGrsRsAPPNLWA; position=ser99; sitegrpid=447862; ptm=ub; direction=u</Comment>
+    <Comment>parentid=Q92934; parentsymbol=BAD; site=PFrGrsRsAPPNLWA; position=ser99; sitegrpid=447862; ptm=p; direction=u</Comment>
     <Graphics RelX="0.9645239108840691" RelY="-0.8487394957982178" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
@@ -1861,6 +1866,11 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Group GroupId="e7f73" GraphId="fb9b1" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000168</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba0">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hsa04014</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Pathway</bp:DB>
@@ -1880,11 +1890,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ras superfamily mediated signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000006</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth factor signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000168</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
