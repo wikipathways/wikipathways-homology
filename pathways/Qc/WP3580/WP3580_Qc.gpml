@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Methionine de novo and salvage pathway" Data-Source="WikiPathways" Version="WP3580_Qc" Last-Modified="20220131061928" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Methionine de novo and salvage pathway" Data-Source="WikiPathways" Version="WP3580_Qc" Last-Modified="20231202112746" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">Methionine is an essential amino acid, which animals cannot synthesize. In bacteria and plants, methionine is synthesized from aspartate [MD:M00017]. S-Adenosylmethionine (SAM), synthesized from methionine and ATP, is a methyl group donor in many important transfer reactions including DNA methylation for regulation of gene expression. SAM may also be used to regenerate methionine in the methionine salvage pathway 
 
 Pathway adapted from [http://www.kegg.jp/kegg-bin/show_pathway?map00270 KEGG].
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3580 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3580.gpml (WP3580_r120915) with a 85.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3580.gpml (WP3580_r127752) with a 85.0% conversion rate.</Comment>
   <BiopaxRef>aec</BiopaxRef>
   <BiopaxRef>ec0</BiopaxRef>
   <Graphics BoardWidth="1541.2899619941868" BoardHeight="1339.0277777777778" />
@@ -32,7 +32,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="potassium" GraphId="b1cb1" Type="Metabolite" GroupRef="f6c45">
     <Graphics CenterX="1026.0801437423574" CenterY="773.1225325012265" Width="119.8611111111109" Height="19.999999999999964" ZOrder="32778" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:26216" />
+    <Xref Database="ChEBI" ID="CHEBI:29103" />
   </DataNode>
   <DataNode TextLabel="Methyltranferases" GraphId="c4850" Type="GeneProduct">
     <Graphics CenterX="1373.631861437154" CenterY="1015.457444996431" Width="110.64550506798287" Height="20.0" ZOrder="32780" FontSize="12" Valign="Middle" />
@@ -437,7 +437,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="Potassium" GraphId="cab55" Type="Metabolite" GroupRef="ccde6">
     <Graphics CenterX="1028.623726835818" CenterY="1022.2733284746716" Width="119.8611111111109" Height="19.999999999999964" ZOrder="33035" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:26216" />
+    <Xref Database="ChEBI" ID="CHEBI:29103" />
   </DataNode>
   <DataNode TextLabel="Water" GraphId="cfdec" Type="Metabolite">
     <Graphics CenterX="919.6126910548816" CenterY="897.9828668829322" Width="67.54705969848915" Height="20.000000000000036" ZOrder="33037" FontSize="10" Valign="Middle" Color="0000ff" />
@@ -514,7 +514,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idc98ffb6">
     <Graphics ZOrder="12296" LineThickness="1.0">
-      <Point X="364.66951296243053" Y="559.207665472218" GraphRef="bbba4" RelX="1.0" RelY="0.0" />
+      <Point X="364.66951296243053" Y="559.207665472218" GraphRef="f644b" RelX="1.0" RelY="0.0" />
       <Point X="407.5894000990635" Y="558.4411696061425" GraphRef="dfe93" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -599,6 +599,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id3a77a85">
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics ZOrder="12320" LineThickness="1.0">
       <Point X="744.9523828539109" Y="863.0132203680487" GraphRef="e9082" RelX="-1.0" RelY="0.0" />
       <Point X="550.9105688130267" Y="861.3405375176108" GraphRef="a66b2" RelX="1.0" RelY="0.0" />
@@ -744,7 +745,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idc293e56a">
     <Graphics ZOrder="12360" LineThickness="1.0">
-      <Point X="869.5497872748598" Y="589.331962630873" GraphRef="eab5d" RelX="-1.0" RelY="0.0" />
+      <Point X="869.5497872748598" Y="589.331962630873" GraphRef="f3675" RelX="-1.0" RelY="0.0" />
       <Point X="845.1090892179658" Y="603.3256005716927" GraphRef="c1100" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -790,7 +791,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <Point X="1194.5013872355426" Y="215.73491694216926" GraphRef="d0dbf" RelX="0.5" RelY="-1.0" />
       <Point X="1338.2699306380962" Y="195.73491694216926" />
       <Point X="1482.0384740406498" Y="424.31541728665695" />
-      <Point X="1449.3460445636701" Y="652.8959176311446" GraphRef="d6c33" RelX="1.0" RelY="0.5" ArrowHead="mim-inhibition" />
+      <Point X="1449.3460445636701" Y="652.8959176311446" GraphRef="f667b" RelX="1.0" RelY="0.5" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -818,7 +819,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idceedc9d4">
     <Graphics ZOrder="12380" LineThickness="1.0">
-      <Point X="1048.6111111111109" Y="1125.8854271973983" GraphRef="ac6f9" RelX="0.0" RelY="1.0" />
+      <Point X="1048.6111111111109" Y="1125.8854271973983" GraphRef="aa942" RelX="0.0" RelY="1.0" />
       <Point X="1049.735612315812" Y="1153.049189754958" GraphRef="c0b58" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -861,7 +862,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idb01953c9">
     <Graphics ZOrder="12392" LineThickness="1.0">
-      <Point X="1345.3460445636701" Y="636.8959176311445" GraphRef="d6c33" RelX="-1.0" RelY="0.0" />
+      <Point X="1345.3460445636701" Y="636.8959176311445" GraphRef="f667b" RelX="-1.0" RelY="0.0" />
       <Point X="1277.5738391330908" Y="636.6197183098592" GraphRef="ab8d3" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -875,7 +876,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idbb8111d8">
     <Graphics ZOrder="12396" LineThickness="1.0">
-      <Point X="877.1812529374716" Y="1058.7296485865695" GraphRef="f05c3" RelX="-1.0" RelY="0.0" />
+      <Point X="877.1812529374716" Y="1058.7296485865695" GraphRef="dd170" RelX="-1.0" RelY="0.0" />
       <Point X="845.343308928021" Y="1057.9772938407689" GraphRef="ad652" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -889,7 +890,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idd7a6e1a6">
     <Graphics ZOrder="12400" LineThickness="1.0">
-      <Point X="276.9524783157143" Y="968.5636248788003" GraphRef="fafd2" RelX="-1.0" RelY="0.0" />
+      <Point X="276.9524783157143" Y="968.5636248788003" GraphRef="a314a" RelX="-1.0" RelY="0.0" />
       <Point X="203.67816509101894" Y="968.8783205890212" GraphRef="ad92e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -917,14 +918,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idf094ca7e">
     <Graphics ZOrder="12408" LineThickness="1.0">
-      <Point X="1038.1368983624166" Y="1235.3049985398686" GraphRef="cae04" RelX="0.0" RelY="-1.0" />
+      <Point X="1038.1368983624166" Y="1235.3049985398686" GraphRef="e8b64" RelX="0.0" RelY="-1.0" />
       <Point X="1037.484906413222" Y="1195.91032117974" GraphRef="f7916" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id3b58d84b">
     <Graphics ZOrder="12410" LineThickness="1.0">
-      <Point X="770.8965370531704" Y="1030.8712064866286" GraphRef="d0181" RelX="1.0" RelY="0.0" />
+      <Point X="770.8965370531704" Y="1030.8712064866286" GraphRef="a977b" RelX="1.0" RelY="0.0" />
       <Point X="811.9200850084436" Y="1031.4048171542556" GraphRef="ddf2b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -970,7 +971,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id4d387ed1">
     <Graphics ZOrder="12422" LineThickness="1.0">
       <Point X="718.1122448979619" Y="964.0816326530595" GraphRef="ac2de" RelX="0.0" RelY="1.0" />
-      <Point X="718.8965370531704" Y="988.8712064866288" GraphRef="d0181" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="718.8965370531704" Y="988.8712064866288" GraphRef="a977b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1012,14 +1013,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id34e71664">
     <Graphics ZOrder="12434" LineThickness="1.0">
-      <Point X="704.2697142324805" Y="565.1024678394864" GraphRef="ef45a" RelX="1.0" RelY="0.0" />
+      <Point X="704.2697142324805" Y="565.1024678394864" GraphRef="c4d21" RelX="1.0" RelY="0.0" />
       <Point X="778.3379516419292" Y="564.708385590344" GraphRef="c6f74" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idac8fcb93">
     <Graphics ZOrder="12436" LineThickness="1.0">
-      <Point X="1026.0801437423574" Y="795.1225325012265" GraphRef="f6c45" RelX="0.0" RelY="1.0" />
+      <Point X="1026.0801437423574" Y="795.1225325012265" GraphRef="a8710" RelX="0.0" RelY="1.0" />
       <Point X="1026.9921600073026" Y="847.792643919705" GraphRef="c6818" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1049,14 +1050,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="ida1613c08">
     <Graphics ZOrder="12444" LineThickness="1.0">
-      <Point X="372.9524783157143" Y="968.5636248788003" GraphRef="fafd2" RelX="1.0" RelY="0.0" />
+      <Point X="372.9524783157143" Y="968.5636248788003" GraphRef="a314a" RelX="1.0" RelY="0.0" />
       <Point X="443.7046864600865" Y="969.3625217293126" GraphRef="caac6" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idd2004b3d">
     <Graphics ZOrder="12446" LineThickness="1.0">
-      <Point X="370.60116553148373" Y="127.98907862686498" GraphRef="defeb" RelX="0.5" RelY="1.0" />
+      <Point X="370.60116553148373" Y="127.98907862686498" GraphRef="b2785" RelX="0.5" RelY="1.0" />
       <Point X="407.58940009906377" Y="156.06866523713305" GraphRef="dd2cc" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1116,14 +1117,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="ad7c2">
     <Graphics ZOrder="32987" LineThickness="1.0">
-      <Point X="617.8747937689744" Y="388.8086205957974" GraphRef="b87f2" RelX="0.0" RelY="1.0" />
+      <Point X="617.8747937689744" Y="388.8086205957974" GraphRef="d18f5" RelX="0.0" RelY="1.0" />
       <Point X="618.7651954133777" Y="466.3689950543082" GraphRef="df01f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b472a">
     <Graphics ZOrder="32997" LineThickness="1.0">
-      <Point X="354.24055253220956" Y="345.1701296597799" GraphRef="d9987" RelX="1.0" RelY="0.0" />
+      <Point X="354.24055253220956" Y="345.1701296597799" GraphRef="dce0c" RelX="1.0" RelY="0.0" />
       <Point X="407.5894000990637" Y="345.1762167245473" GraphRef="a1da2" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1139,7 +1140,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Elbow" ZOrder="33025" LineThickness="1.0" Color="ff0033">
       <Point X="1371.7060336965972" Y="209.29103159984206" GraphRef="eddd7" RelX="1.0" RelY="0.0" />
       <Point X="1482.0384740406498" Y="431.0934746154933" />
-      <Point X="1449.3460445636701" Y="652.8959176311446" GraphRef="d6c33" RelX="1.0" RelY="0.5" ArrowHead="mim-inhibition" />
+      <Point X="1449.3460445636701" Y="652.8959176311446" GraphRef="f667b" RelX="1.0" RelY="0.5" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1168,7 +1169,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="fa911">
     <Graphics ZOrder="33047" LineThickness="1.0">
-      <Point X="1028.2505925074597" Y="923.1091493701936" GraphRef="ccde6" RelX="0.0" RelY="-1.0" />
+      <Point X="1028.2505925074597" Y="923.1091493701936" GraphRef="ff96c" RelX="0.0" RelY="-1.0" />
       <Point X="1028.9296442001591" Y="877.4676166976294" GraphRef="a78d2" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1264,22 +1265,48 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="bd0b0">
     <Graphics CenterX="313.23937489571165" CenterY="942.5489724979052" Width="590.4749725977315" Height="393.6843942624678" ZOrder="12447" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineStyle="Broken" LineThickness="4.0" Color="666666" Rotation="0.0" />
   </Shape>
-  <Group GroupId="fafd2" GraphId="fafd2" />
-  <Group GroupId="f6c45" GraphId="f6c45" Style="Complex" />
-  <Group GroupId="d0181" GraphId="d0181" Style="Complex" />
-  <Group GroupId="ac6f9" GraphId="ac6f9" Style="Complex" />
-  <Group GroupId="defeb" GraphId="defeb" Style="Complex" />
-  <Group GroupId="ef45a" GraphId="ef45a" Style="Complex" />
-  <Group GroupId="b87f2" GraphId="b87f2" Style="Complex" />
-  <Group GroupId="d9987" GraphId="d9987" Style="Complex" />
-  <Group GroupId="f05c3" GraphId="f05c3" Style="Complex" />
-  <Group GroupId="cae04" GraphId="cae04" Style="Complex" />
-  <Group GroupId="eab5d" GraphId="eab5d" Style="Complex" />
-  <Group GroupId="bbba4" GraphId="bbba4" Style="Complex" />
-  <Group GroupId="d6c33" GraphId="d6c33" Style="Complex" />
-  <Group GroupId="ccde6" GraphId="ccde6" Style="Complex" />
+  <Group GroupId="fafd2" GraphId="a314a" />
+  <Group GroupId="de7b0" GraphId="a408e" Style="Complex" />
+  <Group GroupId="b7cb5" GraphId="a43fe" Style="Complex" />
+  <Group GroupId="b9c5d" GraphId="a772e" Style="Complex" />
+  <Group GroupId="f6c45" GraphId="a8710" Style="Complex" />
+  <Group GroupId="d0181" GraphId="a977b" Style="Complex" />
+  <Group GroupId="ac6f9" GraphId="aa942" Style="Complex" />
+  <Group GroupId="defeb" GraphId="b2785" Style="Complex" />
+  <Group GroupId="e14d1" GraphId="b937d" Style="Complex" />
+  <Group GroupId="a05a3" GraphId="c1122" Style="Complex" />
+  <Group GroupId="dce1d" GraphId="c1cf0" Style="Complex" />
+  <Group GroupId="ef45a" GraphId="c4d21" Style="Complex" />
+  <Group GroupId="d207a" GraphId="c8ba1" Style="Complex" />
+  <Group GroupId="d361d" GraphId="ce831" />
+  <Group GroupId="b87f2" GraphId="d18f5" Style="Complex" />
+  <Group GroupId="fc054" GraphId="d8e41" Style="Complex" />
+  <Group GroupId="d9987" GraphId="dce0c" Style="Complex" />
+  <Group GroupId="f05c3" GraphId="dd170" Style="Complex" />
+  <Group GroupId="cae04" GraphId="e8b64" Style="Complex" />
+  <Group GroupId="cc246" GraphId="eccb2" />
+  <Group GroupId="af6e5" GraphId="ef11e" Style="Group" />
+  <Group GroupId="db756" GraphId="f327e" Style="Complex" />
+  <Group GroupId="eab5d" GraphId="f3675" Style="Complex" />
+  <Group GroupId="bbba4" GraphId="f644b" Style="Complex" />
+  <Group GroupId="d6c33" GraphId="f667b" Style="Complex" />
+  <Group GroupId="e647b" GraphId="f689e" Style="Group" />
+  <Group GroupId="ddb00" GraphId="f92a2" Style="Complex" />
+  <Group GroupId="ccde6" GraphId="ff96c" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aec">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">map00270</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Pathway</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cysteine and methionine metabolism</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.kegg.jp/dbget-bin/www_bget?pathway+map00270</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec0">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8393662</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1291,21 +1318,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin-Duce A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mato JM</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aec">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">map00270</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Pathway</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cysteine and methionine metabolism</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.kegg.jp/dbget-bin/www_bget?pathway+map00270</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methionine biosynthetic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001301</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
