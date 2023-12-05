@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MFAP5 effect on permeability and motility of endothelial cells via cytoskeleton rearrangement" Data-Source="WikiPathways" Version="WP4560_Pt" Last-Modified="20191129103118" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MFAP5 effect on permeability and motility of endothelial cells via cytoskeleton rearrangement" Data-Source="WikiPathways" Version="WP4560_Pt" Last-Modified="20231204062541" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Proposed signaling pathways by which MFAP5 induces LPP expression and increases the permeability and motility of endothelial cells via cytoskeleton rearrangement.
 The activation of the MFAP5-mediated signaling cascade in endothelial cells up-regulates LPP expression and subsequently promotes the motility of endothelial cells and the permeability of the endothelial cell monolayer. 
 
 Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5785271/ Leung et al].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4560.gpml (WP4560_r108134) with a 94.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4560.gpml (WP4560_r127772) with a 94.0% conversion rate.</Comment>
   <BiopaxRef>d36</BiopaxRef>
   <Graphics BoardWidth="1115.4565826330563" BoardHeight="982.3809523809523" />
   <DataNode TextLabel="ITPR1" GraphId="a23e2" Type="GeneProduct">
@@ -49,7 +49,7 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
   </DataNode>
   <DataNode TextLabel="Ca2+" GraphId="f0297" Type="Metabolite">
     <Graphics CenterX="879.3459383753508" CenterY="735.7142857142865" Width="43.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:22984" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
   </DataNode>
   <DataNode TextLabel="MYLK" GraphId="f1ef9" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000065534</Comment>
@@ -158,15 +158,15 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
   </DataNode>
   <DataNode TextLabel="Ca2+" GraphId="abe51" Type="Metabolite">
     <Graphics CenterX="879.5420168067233" CenterY="632.2689075630252" Width="43.0" Height="25.0" ZOrder="32790" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:22984" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
   </DataNode>
   <DataNode TextLabel="Ca2+" GraphId="c1ffe" Type="Metabolite">
     <Graphics CenterX="919.5065993901239" CenterY="213.6296645689276" Width="43.0" Height="25.0" ZOrder="32791" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:22984" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
   </DataNode>
   <DataNode TextLabel="Ca2+" GraphId="b0d9d" Type="Metabolite">
     <Graphics CenterX="923.4988787243078" CenterY="555.2500527537454" Width="43.0" Height="25.0" ZOrder="32792" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:22984" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
   </DataNode>
   <DataNode TextLabel="ITGAV" GraphId="fa4ad" Type="GeneProduct" GroupRef="e5626">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000138448</Comment>
@@ -195,18 +195,14 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
   </DataNode>
   <DataNode TextLabel="Ca2+" GraphId="ad31c" Type="Metabolite">
     <Graphics CenterX="591.0841142956452" CenterY="358.0399563074859" Width="43.0" Height="25.0" ZOrder="32827" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:22984" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
   </DataNode>
-  <State GraphRef="b664d" TextLabel="P" GraphId="aec44">
-    <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="cc158" TextLabel="P" GraphId="a7e27">
     <Graphics RelX="1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="e50f1" TextLabel="P" GraphId="d4712">
-    <Graphics RelX="0.9999999999999979" RelY="-0.9047619047619037" Width="15.0" Height="15.0" ShapeType="Oval" />
+  <State GraphRef="b664d" TextLabel="P" GraphId="aec44">
+    <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e79bd" TextLabel="P" GraphId="b51c7">
@@ -215,6 +211,10 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
   </State>
   <State GraphRef="f1ef9" TextLabel="P" GraphId="c8f2d">
     <Graphics RelX="1.0" RelY="-0.92" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="e50f1" TextLabel="P" GraphId="d4712">
+    <Graphics RelX="0.9999999999999979" RelY="-0.9047619047619037" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="a0940" TextLabel="P" GraphId="db674">
@@ -237,66 +237,7 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
     <Graphics RelX="1.0" RelY="-0.5686274509804025" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <Interaction GraphId="c6577">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="543.8067226890757" Y="729.6120448179287" GraphRef="f9a30" RelX="0.0" RelY="-1.0" />
-      <Point X="544.2983193277311" Y="711.8165266106458" GraphRef="db0ba" RelX="0.0" RelY="1.0" ArrowHead="mim-binding" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="fa327">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="483.417366946779" Y="584.9047619047631" GraphRef="b484d" RelX="1.0" RelY="0.0" />
-      <Point X="587.417366946779" Y="584.9047619047631" GraphRef="cc158" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-      <Anchor Position="0.5766848479245625" Shape="None" GraphId="d426e" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="d7691">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="544.2983193277311" Y="637.8165266106456" GraphRef="db0ba" RelX="0.0" RelY="-1.0" />
-      <Point X="543.3925911309335" Y="584.9047619047631" GraphRef="d426e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="c97ec">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="712.6323250127235" Y="355.78888571676833" GraphRef="d230a" RelX="1.0" RelY="0.0" />
-      <Point X="775.2074318649204" Y="355.7888857167682" GraphRef="a0940" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-      <Anchor Position="0.4" Shape="None" GraphId="b8a54" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="dc994">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="775.3269656459355" Y="238.42645300365334" GraphRef="e26d4" RelX="-1.0" RelY="0.0" />
-      <Point X="747.4174496977521" Y="238.42645300365336" GraphRef="e79bd" RelX="1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="c333e">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="694.0140883532144" Y="238.42645300365336" GraphRef="e79bd" RelX="-1.0" RelY="0.0" />
-      <Point X="641.8184278142562" Y="238.42645300365336" GraphRef="c732d" RelX="1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="b1bde">
-    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="617.3184278142562" Y="225.92645300365336" GraphRef="c732d" RelX="0.0" RelY="-1.0" />
-      <Point X="503.27850460716" Y="162.4815361890694" />
-      <Point X="389.23858140006377" Y="238.31266007141437" GraphRef="cb1ba" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="d730d">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="802.7074318649204" Y="343.2888857167682" GraphRef="a0940" RelX="0.0" RelY="-1.0" />
-      <Point X="802.8269656459355" Y="250.92645300365334" GraphRef="e26d4" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="e1180">
+  <Interaction GraphId="id104739e4">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="815.9324027986394" Y="558.9845938375354" GraphRef="e3dbe" RelX="0.0" RelY="-1.0" />
       <Point X="815.7363243672669" Y="524.9649859943979" GraphRef="e4d18" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
@@ -304,22 +245,59 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="a0f99">
+  <Interaction GraphId="id1067c2a7">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="845.3613445378162" Y="452.54853344587474" GraphRef="ceb39" RelX="-1.0" RelY="0.0" />
-      <Point X="772.1935090136507" Y="452.27591036414583" GraphRef="d270a" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="845.3613445378162" Y="452.54853344587474" GraphRef="ec29e" RelX="-1.0" RelY="0.0" />
+      <Point X="772.1935090136507" Y="452.27591036414583" GraphRef="b843b" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.4" Shape="None" GraphId="ad53f" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="e4453">
+  <Interaction GraphId="id233085a5">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="831.7507002801121" Y="686.2745098039215" GraphRef="b3e85" RelX="-1.0" RelY="0.0" />
+      <Point X="879.4243697478997" Y="691.8361344537819" GraphRef="ce021" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id2e615dd3">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="736.7915482293367" Y="419.27591036414583" GraphRef="b843b" RelX="0.0" RelY="-1.0" />
+      <Point X="737.6623677536023" Y="355.7888857167683" GraphRef="b8a54" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id4a524c4f">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="775.3269656459355" Y="238.42645300365334" GraphRef="e26d4" RelX="-1.0" RelY="0.0" />
+      <Point X="747.4174496977521" Y="238.42645300365336" GraphRef="e79bd" RelX="1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id52835262">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="483.417366946779" Y="584.9047619047631" GraphRef="b484d" RelX="1.0" RelY="0.0" />
+      <Point X="587.417366946779" Y="584.9047619047631" GraphRef="cc158" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Anchor Position="0.5766848479245625" Shape="None" GraphId="d426e" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id55cf6386">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="815.7363243672669" Y="499.9649859943979" GraphRef="e4d18" RelX="0.0" RelY="-1.0" />
       <Point X="816.09421032815" Y="452.43948421318316" GraphRef="ad53f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="c7305">
+  <Interaction GraphId="id642d941e">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="617.3184278142562" Y="225.92645300365336" GraphRef="c732d" RelX="0.0" RelY="-1.0" />
+      <Point X="503.27850460716" Y="162.4815361890694" />
+      <Point X="389.23858140006377" Y="238.31266007141437" GraphRef="cb1ba" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id65d56ab4">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="711.4691876750707" Y="604.194677871149" GraphRef="e7f45" RelX="0.0" RelY="-1.0" />
       <Point X="711.4691876750707" Y="557.5700280112046" GraphRef="cc9ee" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
@@ -327,21 +305,92 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="e95e8">
+  <Interaction GraphId="id7011fefb">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="544.2983193277311" Y="637.8165266106456" GraphRef="e6fb3" RelX="0.0" RelY="-1.0" />
+      <Point X="543.3925911309335" Y="584.9047619047631" GraphRef="d426e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id72adb086">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="889.16334628386" Y="274.96700304937235" GraphRef="a23e2" RelX="-1.0" RelY="0.0" />
+      <Point X="920.24139534613" Y="284.4049908556423" GraphRef="d9610" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id799ea3bb">
+    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
+      <Point X="701.3895874450228" Y="452.27591036414583" GraphRef="b843b" RelX="-1.0" RelY="0.0" />
+      <Point X="625.0" Y="426.5" GraphRef="f1ef9" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id8949fa49">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="694.0140883532144" Y="238.42645300365336" GraphRef="e79bd" RelX="-1.0" RelY="0.0" />
+      <Point X="641.8184278142562" Y="238.42645300365336" GraphRef="c732d" RelX="1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idb62b199f">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="712.6323250127235" Y="355.78888571676833" GraphRef="d230a" RelX="1.0" RelY="0.0" />
+      <Point X="775.2074318649204" Y="355.7888857167682" GraphRef="a0940" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="b8a54" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idcdc8b18b">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="599.0" Y="414.0" GraphRef="f1ef9" RelX="-1.0" RelY="0.0" />
+      <Point X="519.0" Y="414.0" GraphRef="b664d" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idce5da6a2">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="373.73437971939154" Y="323.1277861218342" GraphRef="daef7" RelX="0.0" RelY="1.0" />
+      <Point X="497.0924369747908" Y="541.0042016806731" GraphRef="b9f59" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idd3b731b9">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="802.7074318649204" Y="343.2888857167682" GraphRef="a0940" RelX="0.0" RelY="-1.0" />
+      <Point X="802.8269656459355" Y="250.92645300365334" GraphRef="e26d4" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idd7022c01">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="642.417366946779" Y="584.9047619047631" GraphRef="cc158" RelX="1.0" RelY="0.0" />
       <Point X="711.4691876750707" Y="585.5448179271713" GraphRef="a1449" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="ab2dd">
+  <Interaction GraphId="ide5416a65">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="738.9691876750707" Y="545.0700280112046" GraphRef="cc9ee" RelX="1.0" RelY="0.0" />
       <Point X="815.8539714260904" Y="545.3767507002804" GraphRef="db9f1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="d90dc">
+  <Interaction GraphId="ide5d075e3">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="591.0841142956452" Y="370.5399563074859" GraphRef="ad31c" RelX="0.0" RelY="1.0" />
+      <Point X="612.0" Y="401.5" GraphRef="f1ef9" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idebaf0ef5">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="543.8067226890757" Y="729.6120448179287" GraphRef="f9a30" RelX="0.0" RelY="-1.0" />
+      <Point X="544.2983193277311" Y="711.8165266106458" GraphRef="e6fb3" RelX="0.0" RelY="1.0" ArrowHead="mim-binding" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ideda73086">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="879.3459383753508" Y="723.2142857142865" GraphRef="f0297" RelX="0.0" RelY="-1.0" />
       <Point X="879.5420168067233" Y="644.7689075630252" GraphRef="abe51" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
@@ -349,7 +398,7 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="a104e">
+  <Interaction GraphId="idf1663ef8">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="919.5065993901239" Y="226.1296645689276" GraphRef="c1ffe" RelX="0.0" RelY="1.0" />
       <Point X="923.4988787243078" Y="542.7500527537454" GraphRef="b0d9d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -357,56 +406,7 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="d7999">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="831.7507002801121" Y="686.2745098039215" GraphRef="b3e85" RelX="-1.0" RelY="0.0" />
-      <Point X="879.4243697478997" Y="691.8361344537819" GraphRef="ce021" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="ad6a4">
-    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="701.3895874450228" Y="452.27591036414583" GraphRef="d270a" RelX="-1.0" RelY="0.0" />
-      <Point X="625.0" Y="426.5" GraphRef="f1ef9" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="b722e">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="599.0" Y="414.0" GraphRef="f1ef9" RelX="-1.0" RelY="0.0" />
-      <Point X="519.0" Y="414.0" GraphRef="b664d" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="bb7e2">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="591.0841142956452" Y="370.5399563074859" GraphRef="ad31c" RelX="0.0" RelY="1.0" />
-      <Point X="612.0" Y="401.5" GraphRef="f1ef9" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="e422d">
-    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="373.73437971939154" Y="323.1277861218342" GraphRef="daa4b" RelX="0.0" RelY="1.0" />
-      <Point X="497.0924369747908" Y="541.0042016806731" GraphRef="ee47c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="f502a">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="736.7915482293367" Y="419.27591036414583" GraphRef="d270a" RelX="0.0" RelY="-1.0" />
-      <Point X="737.6623677536023" Y="355.7888857167683" GraphRef="b8a54" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="c3eee">
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="889.16334628386" Y="274.96700304937235" GraphRef="a23e2" RelX="-1.0" RelY="0.0" />
-      <Point X="920.24139534613" Y="284.4049908556423" GraphRef="d9610" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <GraphicalLine GraphId="ec98e" GroupRef="d3721">
+  <GraphicalLine GraphId="idec7383b5" GroupRef="d3721">
     <Graphics ZOrder="12288" LineThickness="2.0">
       <Point X="631.4565826330527" Y="743.6974789915979" />
       <Point X="762.4565826330527" Y="731.6974789915981" />
@@ -652,7 +652,7 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
   <Shape TextLabel="Ovarian cancer cell" GraphId="b7261">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="671.6521169767768" CenterY="890.9425770308123" Width="680.3294440375835" Height="122.8767507002799" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="671.6521169767768" CenterY="890.9425770308123" Width="680.3294440375835" Height="122.8767507002799" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Endothelial cell" GraphId="b88a1">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
@@ -666,7 +666,7 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
   <Shape TextLabel="Cancer-associated fibroblast" GraphId="e0ec3">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="686.6330532212891" CenterY="797.802521008405" Width="188.0" Height="59.0" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="686.6330532212891" CenterY="797.802521008405" Width="188.0" Height="59.0" ZOrder="16384" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Nucleus" GraphId="f6747">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
@@ -676,7 +676,7 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
   <Shape TextLabel="Cancer-associated fibroblast" GraphId="a934f">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="885.0280112044823" CenterY="791.0014005602258" Width="188.0" Height="59.0" ZOrder="16385" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="885.0280112044823" CenterY="791.0014005602258" Width="188.0" Height="59.0" ZOrder="16385" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Endothelial cell" GraphId="b88db">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
@@ -686,33 +686,22 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
   <Shape TextLabel="Cancer-associated fibroblast" GraphId="d334c">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="412.3193277310927" CenterY="797.9985994397775" Width="188.0" Height="59.0" ZOrder="32826" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="412.3193277310927" CenterY="797.9985994397775" Width="188.0" Height="59.0" ZOrder="32826" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="d3721" GraphId="d3721" Style="Group" />
-  <Group GroupId="e5626" GraphId="e5626" Style="Complex" />
-  <Group GroupId="b9f95" GraphId="b9f95" Style="Complex" />
-  <Group GroupId="d270a" GraphId="d270a" Style="Group" />
-  <Group GroupId="ee47c" GraphId="ee47c" Style="Complex" />
-  <Group GroupId="daa4b" GraphId="daa4b" Style="Complex" />
-  <Group GroupId="db0ba" GraphId="db0ba" Style="Complex" />
-  <Group GroupId="ceb39" GraphId="ceb39" Style="Group" />
+  <Group GroupId="d3721" Style="Group" />
+  <Group GroupId="e5626" Style="Complex" />
+  <Group GroupId="b9f95" Style="Complex" />
+  <Group GroupId="f1508" Style="Group" />
+  <Group GroupId="a492b" Style="Group" />
+  <Group GroupId="dc37e" Style="Complex" />
+  <Group GroupId="d270a" GraphId="b843b" Style="Group" />
+  <Group GroupId="ee47c" GraphId="b9f59" Style="Complex" />
+  <Group GroupId="f6d60" GraphId="d4bab" Style="Complex" />
+  <Group GroupId="daa4b" GraphId="daef7" Style="Complex" />
+  <Group GroupId="db0ba" GraphId="e6fb3" Style="Complex" />
+  <Group GroupId="ceb39" GraphId="ec29e" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000057</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000115</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d36">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29251630</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -733,9 +722,24 @@ Adapted from supplemental figure 11 from [https://www.ncbi.nlm.nih.gov/pmc/artic
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mok SC</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000115</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000057</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2394</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
