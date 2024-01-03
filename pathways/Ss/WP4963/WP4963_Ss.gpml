@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="p53 transcriptional gene network" Data-Source="WikiPathways" Version="WP4963_Ss" Last-Modified="20240101073703" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="p53 transcriptional gene network" Data-Source="WikiPathways" Version="WP4963_Ss" Last-Modified="20240102225130" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">The mechanisms underlying p53 tumor-suppressor function as gleaned from mouse models of genetic disruption to p53, its regulators and its targets (Kaiser 2017).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4963.gpml (WP4963_r127853) with a 84.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4963.gpml (WP4963_r127862) with a 84.0% conversion rate.</Comment>
   <BiopaxRef>b0a</BiopaxRef>
   <BiopaxRef>f59</BiopaxRef>
   <BiopaxRef>ecf</BiopaxRef>
@@ -440,9 +440,15 @@
     <Graphics CenterX="194.05036434735348" CenterY="663.0734708169078" Width="65.0" Height="25.499999999999982" ZOrder="32824" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="MIR34B/C" GraphId="b7b1f" Type="GeneProduct" GroupRef="c8715">
+  <DataNode TextLabel="MIR34B" GraphId="b7b1f" Type="GeneProduct" GroupRef="c8715">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000207811</Comment>
     <Graphics CenterX="194.05036434735348" CenterY="688.5734708169077" Width="65.0" Height="25.499999999999982" ZOrder="32825" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="ssc-mir-34c-1" GraphId="b7b1e" Type="GeneProduct" GroupRef="c8715">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000207562</Comment>
+    <Graphics CenterX="194.05036434735348" CenterY="714.0734708" Width="65.0" Height="25.499999999999982" ZOrder="32826" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000023071" />
   </DataNode>
   <DataNode TextLabel="ssc-mir-145" GraphId="cd83b" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000276365</Comment>
@@ -696,6 +702,11 @@
   <Group GroupId="c381e" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000718</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0a">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29099489</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -705,6 +716,14 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaiser AM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attardi LD</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32404993</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53: 800million years of evolutionand 40 years of discovery.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levine AJ</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f59">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33932560</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -713,19 +732,6 @@
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hernández Borrero LJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El-Deiry WS</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53 signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000718</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecf">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32404993</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p53: 800million years of evolutionand 40 years of discovery.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levine AJ</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>
