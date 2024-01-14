@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ATM signaling in development and disease " Data-Source="WikiPathways" Version="WP3878_Rn" Last-Modified="20220723062659" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ATM signaling in development and disease " Data-Source="WikiPathways" Version="WP3878_Rn" Last-Modified="20240113071005" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">This pathway is modeled after Figure 4 in the article "The ATM signaling network in development and disease" (See Bibliography).  When DNA is damaged, DDR begins to work on recuperating the damage through the appropriate cellular programs such as transcription, translation, etc etc. The ataxia-telangiectasia mutated (ATM) kinase acts as the main core of this pathway acting upon or receiving a lot of the reactions towards other gene products. ATM substrates use several different cell cycle checkpoints to determine the health of the DNA, and determine different types of disease/damage done to the DNA. The p38MAPK which is a reaction by ATM later leads to HSP27 which inhibits oxidative stress within the cell. DDR and ATM both work to help the cell recover from any damage it has received and understanding how ATM works will help increase doctors and scientists understanding of diseases, and their treatment. 
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3878 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3878.gpml (WP3878_r123399) with a 89.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3878.gpml (WP3878_r127911) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>ff0</BiopaxRef>
   <Graphics BoardWidth="1235.0" BoardHeight="1100.4738760631838" />
-  <DataNode TextLabel="Rasgrf1" GraphId="a01c3" Type="GeneProduct" GroupRef="a4d0d">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000058335</Comment>
-    <Graphics CenterX="1118.0" CenterY="351.4082624544351" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000014025" />
+  <DataNode TextLabel="PPP activation" GraphId="c98f2" Type="Pathway">
+    <Graphics CenterX="54.021871202916216" CenterY="413.1227217496964" Width="103.18347509113008" Height="20.0" ZOrder="28672" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="Autophagy" GraphId="d2af5" Type="Pathway">
+    <Graphics CenterX="124.0" CenterY="795.0" Width="80.0" Height="20.0" ZOrder="28672" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
+    <Xref Database="WikiPathways" ID="WP4923" />
+  </DataNode>
+  <DataNode TextLabel="Oxidative Stress" GraphId="ece47" Type="Pathway">
+    <Graphics CenterX="125.8602673147023" CenterY="291.21506682867556" Width="114.0" Height="26.0" ZOrder="28672" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
+    <Xref Database="WikiPathways" ID="WP408" />
+  </DataNode>
+  <DataNode TextLabel="Cdc25a" GraphId="a01c3" Type="GeneProduct" GroupRef="a4d0d">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:CDC25A</Comment>
+    <Graphics CenterX="1118.0" CenterY="328.4082624544351" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000020737" />
   </DataNode>
   <DataNode TextLabel="Hspb1" GraphId="a03b4" Type="GeneProduct" GroupRef="aefc2">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000106211</Comment>
@@ -19,43 +31,38 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="HMGN1" GraphId="a230e" Type="GeneProduct" GroupRef="c7c4b">
     <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000205581</Comment>
-    <Graphics CenterX="628.25" CenterY="676.75" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="628.25" CenterY="657.75" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Rnf20" GraphId="a4967" Type="GeneProduct" GroupRef="c5dbe">
+  <DataNode TextLabel="Rnf20" GraphId="a4967" Type="GeneProduct" GroupRef="d66d2">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000155827</Comment>
     <Graphics CenterX="355.13973268529776" CenterY="739.0" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000006087" />
   </DataNode>
-  <DataNode TextLabel="RNF168" GraphId="a49db" Type="GeneProduct" GroupRef="c111a">
+  <DataNode TextLabel="RNF168" GraphId="a49db" Type="GeneProduct" GroupRef="baa39">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000163961</Comment>
-    <Graphics CenterX="628.0" CenterY="834.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="627.0" CenterY="834.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000059697" />
   </DataNode>
   <DataNode TextLabel="Chek1" GraphId="a578c" Type="GeneProduct" GroupRef="a4d0d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000149554</Comment>
-    <Graphics CenterX="1118.0" CenterY="391.40826245443503" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="1118.0" CenterY="368.4082624544351" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000071217" />
   </DataNode>
   <DataNode TextLabel="Atr" GraphId="a6c8d" Type="GeneProduct" GroupRef="a4d0d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000175054</Comment>
-    <Graphics CenterX="1118.0" CenterY="269.4082624544351" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="1118.0" CenterY="248.40826245443506" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000010027" />
   </DataNode>
   <DataNode TextLabel="Stk11" GraphId="a8846" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000118046</Comment>
-    <Graphics CenterX="282.0" CenterY="529.0" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Graphics CenterX="283.0" CenterY="536.0" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000014287" />
   </DataNode>
   <DataNode TextLabel="Atm" GraphId="ac2e8" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000149311</Comment>
     <Graphics CenterX="460.0" CenterY="458.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000029773" />
-  </DataNode>
-  <DataNode TextLabel="uH2A" GraphId="adc8e" Type="GeneProduct" GroupRef="c5dbe">
-    <Comment>Identifier not Found</Comment>
-    <Graphics CenterX="355.13973268529776" CenterY="779.0000000000001" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="Cdk1" GraphId="b3611" Type="GeneProduct" GroupRef="a4d0d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000170312</Comment>
@@ -68,8 +75,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSRNOG00000029773" />
   </DataNode>
   <DataNode TextLabel="Mre11" GraphId="b9164" Type="GeneProduct" GroupRef="e76c6">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000020922</Comment>
-    <Graphics CenterX="460.25" CenterY="150.75" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:MRE11</Comment>
+    <Graphics CenterX="460.25" CenterY="170.75" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000009506" />
   </DataNode>
   <DataNode TextLabel="Cep63" GraphId="ba803" Type="GeneProduct" GroupRef="a4d0d">
@@ -97,10 +104,10 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="459.29526123936813" CenterY="825.5893074119081" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000018457" />
   </DataNode>
-  <DataNode TextLabel="MRE11B" GraphId="c1ec9" Type="GeneProduct" GroupRef="a4d0d">
-    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000242537</Comment>
-    <Graphics CenterX="1118.0" CenterY="209.40826245443506" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
-    <Xref Database="" ID="" />
+  <DataNode TextLabel="Mre11" GraphId="c1ec9" Type="GeneProduct" GroupRef="a4d0d">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:MRE11</Comment>
+    <Graphics CenterX="1118.0" CenterY="208.40826245443506" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000009506" />
   </DataNode>
   <DataNode TextLabel="Reactive Oxygen Species " GraphId="c3758" Type="Metabolite">
     <Graphics CenterX="282.7533414337785" CenterY="209.0" Width="143.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
@@ -123,7 +130,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="Mtor" GraphId="c8b8b" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000198793</Comment>
-    <Graphics CenterX="125.0" CenterY="680.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="124.0" CenterY="714.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000009615" />
   </DataNode>
   <DataNode TextLabel="Atmin" GraphId="ca0f9" Type="GeneProduct">
@@ -131,14 +138,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="613.0" CenterY="211.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000011422" />
   </DataNode>
-  <DataNode TextLabel="Rnf8" GraphId="cc768" Type="GeneProduct" GroupRef="c111a">
+  <DataNode TextLabel="Rnf8" GraphId="cc768" Type="GeneProduct" GroupRef="baa39">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000112130</Comment>
-    <Graphics CenterX="628.0" CenterY="814.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="627.0" CenterY="814.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000047171" />
   </DataNode>
   <DataNode TextLabel="Chek2" GraphId="cdc22" Type="GeneProduct" GroupRef="a4d0d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000183765</Comment>
-    <Graphics CenterX="1118.0" CenterY="330.4082624544351" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Graphics CenterX="1118.0" CenterY="308.4082624544351" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000037509" />
   </DataNode>
   <DataNode TextLabel="Nfkb1" GraphId="cf313" Type="GeneProduct" GroupRef="a725d">
@@ -156,10 +163,10 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="242.0109356014582" CenterY="729.2150668286756" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000060936" />
   </DataNode>
-  <DataNode TextLabel="Map3k5" GraphId="d3957" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000197442</Comment>
-    <Graphics CenterX="282.7533414337785" CenterY="457.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000031700" />
+  <DataNode TextLabel="Mapk11" GraphId="d3957" Type="GeneProduct" GroupRef="ea531">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:MAPK11</Comment>
+    <Graphics CenterX="282.7533414337785" CenterY="428.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000006984" />
   </DataNode>
   <DataNode TextLabel="Rif1" GraphId="d3b07" Type="GeneProduct" GroupRef="e32a9">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000080345</Comment>
@@ -173,7 +180,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="Mdc1" GraphId="d7c1d" Type="GeneProduct" GroupRef="c7c4b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000137337</Comment>
-    <Graphics CenterX="628.25" CenterY="696.75" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Graphics CenterX="628.25" CenterY="677.75" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000032813" />
   </DataNode>
   <DataNode TextLabel="Nbn" GraphId="d9807" Type="GeneProduct" GroupRef="e76c6">
@@ -201,19 +208,19 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="460.25" CenterY="190.75" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000033065" />
   </DataNode>
-  <DataNode TextLabel="Ptpa" GraphId="ea0f5" Type="GeneProduct" GroupRef="a2f84">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000119383</Comment>
+  <DataNode TextLabel="PPP2CA" GraphId="ea0f5" Type="GeneProduct" GroupRef="a2f84">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:PPP2CA</Comment>
     <Graphics CenterX="625.0" CenterY="498.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000018457" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000001893" />
   </DataNode>
-  <DataNode TextLabel="AABR07021955.1" GraphId="ea602" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000143815</Comment>
-    <Graphics CenterX="283.968408262454" CenterY="310.1931956257595" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000052574" />
+  <DataNode TextLabel="Lmnb2" GraphId="ea602" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:LMNB2</Comment>
+    <Graphics CenterX="343.984204131227" CenterY="310.1931956257595" Width="52.03159173754602" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000025742" />
   </DataNode>
   <DataNode TextLabel="CTIP" GraphId="ebab1" Type="GeneProduct" GroupRef="a4d0d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000101773</Comment>
-    <Graphics CenterX="1118.0" CenterY="310.4082624544351" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Graphics CenterX="1118.0" CenterY="288.4082624544351" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000066166" />
   </DataNode>
   <DataNode TextLabel="HMGN1" GraphId="ecd74" Type="GeneProduct" GroupRef="e76c6">
@@ -223,18 +230,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="Smc1a" GraphId="ee440" Type="GeneProduct" GroupRef="a4d0d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000072501</Comment>
-    <Graphics CenterX="1118.0" CenterY="371.40826245443503" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Graphics CenterX="1118.0" CenterY="348.4082624544351" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000003139" />
   </DataNode>
   <DataNode TextLabel="Prkdc" GraphId="eec64" Type="GeneProduct" GroupRef="e32a9">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000253729</Comment>
     <Graphics CenterX="328.0" CenterY="1017.0" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000025028" />
-  </DataNode>
-  <DataNode TextLabel="uH2B" GraphId="f0698" Type="GeneProduct" GroupRef="c111a">
-    <Comment>Identifier not Found</Comment>
-    <Graphics CenterX="628.0" CenterY="854.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="Cdk5r1" GraphId="f1ebd" Type="GeneProduct" GroupRef="a4d0d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000176749</Comment>
@@ -251,12 +253,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="922.25" CenterY="510.75" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000032778" />
   </DataNode>
-  <DataNode TextLabel="Prkaa1" GraphId="f9b71" Type="GeneProduct" GroupRef="fab31">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000132356</Comment>
-    <Graphics CenterX="125.0" CenterY="572.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000012799" />
-  </DataNode>
-  <DataNode TextLabel="Rnf40" GraphId="f9e61" Type="GeneProduct" GroupRef="c5dbe">
+  <DataNode TextLabel="Rnf40" GraphId="f9e61" Type="GeneProduct" GroupRef="d66d2">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000103549</Comment>
     <Graphics CenterX="355.13973268529776" CenterY="759.0" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000018840" />
@@ -270,9 +267,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="902.0" CenterY="599.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000005659" />
   </DataNode>
-  <DataNode TextLabel="Tsc2" GraphId="fe4f5" Type="GeneProduct" GroupRef="fab31">
+  <DataNode TextLabel="Tsc2" GraphId="fe4f5" Type="GeneProduct" GroupRef="b6492">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000103197</Comment>
-    <Graphics CenterX="125.0" CenterY="592.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="124.0" CenterY="626.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000011375" />
   </DataNode>
   <DataNode TextLabel="Atm" GraphId="d2e55" Type="GeneProduct" GroupRef="e7595">
@@ -287,22 +284,22 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="Atm" GraphId="cba00" Type="GeneProduct" GroupRef="c7c4b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000149311</Comment>
-    <Graphics CenterX="628.25" CenterY="716.75" Width="80.0" Height="20.0" ZOrder="32771" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="628.25" CenterY="697.75" Width="80.0" Height="20.0" ZOrder="32771" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000029773" />
   </DataNode>
   <DataNode TextLabel="Mre11" GraphId="a6f77" Type="GeneProduct" GroupRef="c7c4b">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000020922</Comment>
-    <Graphics CenterX="628.25" CenterY="596.75" Width="80.0" Height="20.0" ZOrder="32772" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:MRE11</Comment>
+    <Graphics CenterX="628.25" CenterY="597.75" Width="80.0" Height="20.0" ZOrder="32772" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000009506" />
   </DataNode>
   <DataNode TextLabel="Rad50" GraphId="bf611" Type="GeneProduct" GroupRef="c7c4b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000113522</Comment>
-    <Graphics CenterX="628.25" CenterY="636.75" Width="80.0" Height="20.0" ZOrder="32773" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Graphics CenterX="628.25" CenterY="617.75" Width="80.0" Height="20.0" ZOrder="32773" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000033065" />
   </DataNode>
   <DataNode TextLabel="Nbn" GraphId="bf704" Type="GeneProduct" GroupRef="c7c4b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000104320</Comment>
-    <Graphics CenterX="628.25" CenterY="656.75" Width="80.0" Height="20.0" ZOrder="32774" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Graphics CenterX="628.25" CenterY="637.75" Width="80.0" Height="20.0" ZOrder="32774" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000008580" />
   </DataNode>
   <DataNode TextLabel="Atm" GraphId="f55e4" Type="GeneProduct" GroupRef="a4d0d">
@@ -312,17 +309,12 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="Nbn" GraphId="c0cfd" Type="GeneProduct" GroupRef="a4d0d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000104320</Comment>
-    <Graphics CenterX="1118.0" CenterY="290.4082624544351" Width="80.0" Height="20.0" ZOrder="32776" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Graphics CenterX="1118.0" CenterY="268.4082624544351" Width="80.0" Height="20.0" ZOrder="32776" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000008580" />
-  </DataNode>
-  <DataNode TextLabel="Mre11" GraphId="b3c17" Type="GeneProduct" GroupRef="a4d0d">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000020922</Comment>
-    <Graphics CenterX="1118.0" CenterY="229.40826245443506" Width="80.0" Height="20.0" ZOrder="32777" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000009506" />
   </DataNode>
   <DataNode TextLabel="Rad50" GraphId="e999e" Type="GeneProduct" GroupRef="a4d0d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000113522</Comment>
-    <Graphics CenterX="1118.0" CenterY="249.40826245443506" Width="80.0" Height="20.0" ZOrder="32778" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+    <Graphics CenterX="1118.0" CenterY="228.40826245443506" Width="80.0" Height="20.0" ZOrder="32778" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSRNOG00000033065" />
   </DataNode>
   <DataNode TextLabel="Atm" GraphId="de60c" Type="GeneProduct" GroupRef="a4d0d">
@@ -335,19 +327,28 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="922.25" CenterY="531.75" Width="80.0" Height="20.0" ZOrder="32780" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000029773" />
   </DataNode>
-  <DataNode TextLabel="MRE11B" GraphId="a0e81" Type="GeneProduct" GroupRef="c7c4b">
-    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000242537</Comment>
-    <Graphics CenterX="628.25" CenterY="616.75" Width="80.0" Height="20.0" ZOrder="32792" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
+  <DataNode TextLabel="DNA repair" GraphId="b8df3" Type="Pathway">
+    <Graphics CenterX="409.9392466585662" CenterY="700.8335358444706" Width="75.3341433778858" Height="27.667071688940858" ZOrder="32783" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="MRE11B" GraphId="b0c34" Type="GeneProduct" GroupRef="e76c6">
-    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000242537</Comment>
-    <Graphics CenterX="460.25" CenterY="170.75" Width="80.0" Height="20.0" ZOrder="32793" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
-    <Xref Database="" ID="" />
+  <DataNode TextLabel="Mapk12" GraphId="d3c97" Type="GeneProduct" GroupRef="ea531">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:MAPK12</Comment>
+    <Graphics CenterX="282.7533414337785" CenterY="448.0" Width="80.0" Height="20.0" ZOrder="32796" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000031233" />
+  </DataNode>
+  <DataNode TextLabel="Mapk14" GraphId="c060b" Type="GeneProduct" GroupRef="ea531">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:MAPK14</Comment>
+    <Graphics CenterX="282.7533414337785" CenterY="488.0" Width="80.0" Height="20.0" ZOrder="32797" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000000513" />
+  </DataNode>
+  <DataNode TextLabel="Mapk13" GraphId="db15a" Type="GeneProduct" GroupRef="ea531">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:MAPK13</Comment>
+    <Graphics CenterX="282.7533414337785" CenterY="468.0" Width="80.0" Height="20.0" ZOrder="32798" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSRNOG00000000515" />
   </DataNode>
   <Interaction GraphId="id1018209e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="460.25" Y="292.75" GraphRef="e76c6" RelX="0.0" RelY="1.0" />
+      <Point X="460.25" Y="292.75" GraphRef="a830a" RelX="0.0" RelY="1.0" />
       <Point X="460.0" Y="448.0" GraphRef="ac2e8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -361,7 +362,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id23488378" GroupRef="a4d0d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1118.0" Y="401.40826245443503" GraphRef="a578c" RelX="0.0" RelY="1.0" />
+      <Point X="1118.0" Y="378.4082624544351" GraphRef="a578c" RelX="0.0" RelY="1.0" />
       <Point X="1118.25" Y="454.75" GraphRef="b3611" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -375,15 +376,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id32a7c49b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="242.0" Y="529.0" GraphRef="a8846" RelX="-1.0" RelY="0.0" />
-      <Point X="165.0" Y="572.0" GraphRef="f9b71" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="243.0" Y="536.0" GraphRef="a8846" RelX="-1.0" RelY="0.0" />
+      <Point X="165.0" Y="606.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id3ddc7138">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="356.0" Y="641.0" GraphRef="e7595" RelX="0.5" RelY="1.0" />
-      <Point X="353.7059538274606" Y="717.0" GraphRef="c5dbe" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="356.0" Y="641.0" GraphRef="a7c42" RelX="0.5" RelY="1.0" />
+      <Point X="353.0" Y="717.0" GraphRef="d9eda" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -396,8 +397,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id531a4e78">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="242.75334143377847" Y="457.0" GraphRef="d3957" RelX="-1.0" RelY="0.0" />
-      <Point X="177.95747266099625" Y="457.21506682867556" GraphRef="aefc2" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="234.75334143377847" Y="458.0" GraphRef="fddc8" RelX="-1.0" RelY="0.0" />
+      <Point X="177.95747266099625" Y="457.21506682867556" GraphRef="c06f3" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -410,8 +411,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id61541762">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="628.25" Y="574.75" GraphRef="c7c4b" RelX="0.0" RelY="-1.0" />
-      <Point X="792.5808019441072" Y="505.3520656136088" GraphRef="a4d0d" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="628.25" Y="575.75" GraphRef="e6a5e" RelX="0.0" RelY="-1.0" />
+      <Point X="792.5808019441072" Y="505.3520656136088" GraphRef="c6b81" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -424,49 +425,49 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id65addb26">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="125.95747266099625" Y="425.21506682867556" GraphRef="aefc2" RelX="0.0" RelY="-1.0" />
-      <Point X="125.8602673147023" Y="304.21506682867556" GraphRef="be0d2" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="125.95747266099625" Y="425.21506682867556" GraphRef="c06f3" RelX="0.0" RelY="-1.0" />
+      <Point X="125.8602673147023" Y="304.21506682867556" GraphRef="ece47" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id73923498">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="460.5" Y="87.0" GraphRef="dfa16" RelX="0.0" RelY="1.0" />
-      <Point X="460.25" Y="128.75" GraphRef="e76c6" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="460.25" Y="148.75" GraphRef="a830a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id854f44a0">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="440.0" Y="468.0" GraphRef="ac2e8" RelX="-0.5" RelY="1.0" />
-      <Point X="356.0" Y="577.0" GraphRef="e7595" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="356.0" Y="577.0" GraphRef="a7c42" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id8593b01c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="304.0" Y="641.0" GraphRef="e7595" RelX="-0.5" RelY="1.0" />
-      <Point X="268.0109356014582" Y="707.2150668286756" GraphRef="a725d" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="304.0" Y="641.0" GraphRef="a7c42" RelX="-0.5" RelY="1.0" />
+      <Point X="268.0109356014582" Y="707.2150668286756" GraphRef="e3eea" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id8b856457">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="459.854191980559" Y="588.3718104495747" GraphRef="db46d" RelX="0.0" RelY="1.0" />
-      <Point X="459.2952612393681" Y="783.5893074119081" GraphRef="c5cc2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="459.2952612393681" Y="783.5893074119081" GraphRef="cc391" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id947a8911">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="243.96840826245398" Y="310.1931956257595" GraphRef="ea602" RelX="-1.0" RelY="0.0" />
-      <Point X="282.7533414337785" Y="310.2" GraphRef="f2bac" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+      <Point X="317.968408262454" Y="310.1931956257595" GraphRef="ea602" RelX="-1.0" RelY="0.0" />
+      <Point X="282.7533414337785" Y="295.4" GraphRef="f2bac" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id98d5f1f1">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="573.0" Y="508.0" GraphRef="a2f84" RelX="-1.0" RelY="0.0" />
+      <Point X="573.0" Y="508.0" GraphRef="b533b" RelX="-1.0" RelY="0.0" />
       <Point X="480.0" Y="468.0" GraphRef="ac2e8" RelX="0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -474,14 +475,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id9a32ba78">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="440.0" Y="468.0" GraphRef="ac2e8" RelX="-0.5" RelY="1.0" />
-      <Point X="322.0" Y="529.0" GraphRef="a8846" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="323.0" Y="536.0" GraphRef="a8846" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id9eb76b1c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="125.0" Y="690.0" GraphRef="c8b8b" RelX="0.0" RelY="1.0" />
-      <Point X="124.0" Y="751.0" GraphRef="dd00c" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="124.0" Y="724.0" GraphRef="c8b8b" RelX="0.0" RelY="1.0" />
+      <Point X="124.0" Y="785.0" GraphRef="d2af5" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -495,14 +496,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idabd63ae4">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="282.7533414337785" Y="219.0" GraphRef="c3758" RelX="0.0" RelY="1.0" />
-      <Point X="282.7533414337785" Y="447.0" GraphRef="d3957" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="282.7533414337785" Y="410.0" GraphRef="fddc8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.4" Shape="None" GraphId="f2bac" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idb8edab95">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="300.2537059538275" Y="840.6539489671925" GraphRef="fd628" RelX="0.0" RelY="0.0" />
+      <Point X="299.2580801944107" Y="831.7871202916161" GraphRef="fd628" RelX="0.0" RelY="0.0" />
       <Point X="368.16524908869997" Y="865.0" GraphRef="f1315" RelX="-1.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -510,35 +511,35 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idba536f89">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="480.0" Y="468.0" GraphRef="ac2e8" RelX="0.5" RelY="1.0" />
-      <Point X="576.25" Y="615.75" GraphRef="c7c4b" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="576.25" Y="611.75" GraphRef="e6a5e" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc78a7903">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="125.0" Y="614.0" GraphRef="fab31" RelX="0.0" RelY="1.0" />
-      <Point X="125.0" Y="670.0" GraphRef="c8b8b" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="124.0" Y="644.0" GraphRef="bdf99" RelX="0.0" RelY="1.0" />
+      <Point X="124.0" Y="704.0" GraphRef="c8b8b" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="iddee5d543">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="247.00334143377847" Y="219.0" GraphRef="c3758" RelX="-0.5" RelY="1.0" />
-      <Point X="125.8602673147023" Y="278.21506682867556" GraphRef="be0d2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="125.8602673147023" Y="278.21506682867556" GraphRef="ece47" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ide737cb00">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="242.43013365735112" Y="838.6452004860269" GraphRef="c43f9" RelX="0.0" RelY="-1.0" />
-      <Point X="242.0109356014582" Y="771.2150668286756" GraphRef="a725d" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="242.0109356014582" Y="771.2150668286756" GraphRef="e3eea" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ide8c0fa85">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="282.4301336573511" Y="848.6452004860269" GraphRef="c43f9" RelX="1.0" RelY="0.0" />
-      <Point X="326.989064398542" Y="828.667071688941" GraphRef="c5dbe" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="324.5" Y="806.5" GraphRef="d9eda" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
       <Anchor Position="0.4" Shape="None" GraphId="fd628" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -546,14 +547,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idedc47da">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="420.0" Y="458.0" GraphRef="ac2e8" RelX="-1.0" RelY="0.0" />
-      <Point X="322.7533414337785" Y="457.0" GraphRef="d3957" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="330.7533414337785" Y="458.0" GraphRef="fddc8" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idf242c8f0">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="628.25" Y="738.75" GraphRef="c7c4b" RelX="0.0" RelY="1.0" />
-      <Point X="628.0" Y="792.0" GraphRef="c111a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="628.25" Y="719.75" GraphRef="e6a5e" RelX="0.0" RelY="1.0" />
+      <Point X="628.0" Y="792.0" GraphRef="be23f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -573,55 +574,46 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idf805bd47">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="125.0" Y="562.0" GraphRef="f9b71" RelX="0.0" RelY="-1.0" />
-      <Point X="282.7533414337785" Y="467.0" GraphRef="d3957" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="124.0" Y="585.5" GraphRef="bdf99" RelX="0.0" RelY="-1.0" />
+      <Point X="234.75334143377847" Y="482.0" GraphRef="fddc8" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Label TextLabel="PPP activation" GraphId="aa821">
-    <Graphics CenterX="54.021871202916216" CenterY="413.1227217496964" Width="103.18347509113008" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
-  </Label>
   <Label TextLabel="Hypotonic Stress " GraphId="ac954">
     <Graphics CenterX="630.0" CenterY="136.0" Width="130.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="ATM substrate" GraphId="b8cb2" GroupRef="e4e38">
     <Graphics CenterX="997.0" CenterY="762.0" Width="116.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Oxidative Stress" GraphId="be0d2">
-    <Graphics CenterX="125.8602673147023" CenterY="291.21506682867556" Width="114.0" Height="26.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
-  </Label>
   <Label TextLabel="V(D)J" GraphId="c43f9">
-    <Graphics CenterX="242.43013365735115" CenterY="848.6452004860269" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" Color="0066ff" />
+    <Graphics CenterX="242.43013365735115" CenterY="848.6452004860269" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" Color="14961e" />
+  </Label>
+  <Label TextLabel="AMPK" GraphId="d44da" GroupRef="b6492">
+    <Graphics CenterX="124.0" CenterY="606.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Legend" GraphId="dc2cf" GroupRef="e4e38">
     <Graphics CenterX="976.0" CenterY="720.0" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
-  </Label>
-  <Label TextLabel="Autophagy" GraphId="dd00c">
-    <Graphics CenterX="124.0" CenterY="761.0" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
   </Label>
   <Label TextLabel="DNA Damage " GraphId="dfa16">
     <Graphics CenterX="460.5" CenterY="77.0" Width="105.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="CSR" GraphId="f1315">
-    <Graphics CenterX="390.07715674362095" CenterY="865.0" Width="43.82381530984199" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
+    <Graphics CenterX="390.07715674362095" CenterY="865.0" Width="43.82381530984199" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
   </Label>
-  <Label TextLabel="chromatin &#xA;relaxation" GraphId="a57cf">
-    <Graphics CenterX="248.7120291616052" CenterY="645.2004860267324" Width="103.18347509113008" Height="36.4520048602658" ZOrder="32781" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
+  <Label TextLabel="Label" GraphId="f4a94">
+    <Graphics CenterX="527.0" CenterY="705.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Immunity" GraphId="cbb4d">
-    <Graphics CenterX="324.32563791008647" CenterY="1056.6403402187132" Width="103.18347509113008" Height="27.667071688940858" ZOrder="32782" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
-  </Label>
-  <Label TextLabel="DNA repair" GraphId="d4ec9" GroupRef="c5dbe">
-    <Graphics CenterX="349.9392466585662" CenterY="802.8335358444706" Width="75.3341433778858" Height="27.667071688940858" ZOrder="32783" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
+    <Graphics CenterX="324.32563791008647" CenterY="1056.6403402187132" Width="103.18347509113008" Height="27.667071688940858" ZOrder="32782" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
   </Label>
   <Label TextLabel="Neuronal survival" GraphId="d46ef">
-    <Graphics CenterX="472.47266099635584" CenterY="878.3049817739984" Width="114.59295261239174" Height="27.667071688940858" ZOrder="32784" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
+    <Graphics CenterX="472.47266099635584" CenterY="878.3049817739984" Width="114.59295261239174" Height="27.667071688940858" ZOrder="32784" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
   </Label>
   <Label TextLabel="transcriptional&#xA;silencing" GraphId="f71cd">
-    <Graphics CenterX="629.4957472660985" CenterY="891.67071688943" Width="114.59295261239174" Height="34.39854191980368" ZOrder="32785" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
+    <Graphics CenterX="629.4957472660985" CenterY="891.67071688943" Width="114.59295261239174" Height="34.39854191980368" ZOrder="32785" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
   </Label>
   <Label TextLabel="chromatin &#xA;retention" GraphId="b9002">
-    <Graphics CenterX="715.5771567436223" CenterY="678.2867557715684" Width="103.18347509113008" Height="36.4520048602658" ZOrder="32786" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
+    <Graphics CenterX="715.5771567436223" CenterY="678.2867557715684" Width="103.18347509113008" Height="36.4520048602658" ZOrder="32786" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
   </Label>
   <Label TextLabel="checkpoint&#xA;activation" GraphId="a6256" GroupRef="a4d0d">
     <Graphics CenterX="890.8262454435" CenterY="389.3803159173766" Width="103.18347509113008" Height="36.4520048602658" ZOrder="32787" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" />
@@ -642,7 +634,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="1024.0048602673146" CenterY="804.4775212636706" Width="153.9902794653708" Height="36.4520048602658" ZOrder="32794" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" Color="999999" />
   </Label>
   <Label TextLabel="cellular process or ATM function" GraphId="cd301" GroupRef="e4e38">
-    <Graphics CenterX="1047.4927095990286" CenterY="784.2867557715684" Width="217.01458080194288" Height="36.4520048602658" ZOrder="32795" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="0066ff" />
+    <Graphics CenterX="1047.4927095990286" CenterY="784.2867557715684" Width="217.01458080194288" Height="36.4520048602658" ZOrder="32795" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
+  </Label>
+  <Label TextLabel="uH2A" GraphId="ff9b3" GroupRef="d66d2">
+    <Graphics CenterX="353.0" CenterY="782.0" Width="90.0" Height="25.0" ZOrder="32799" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Label TextLabel="uH2B" GraphId="cd39a" GroupRef="baa39">
+    <Graphics CenterX="628.0" CenterY="852.0" Width="90.0" Height="25.0" ZOrder="32800" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Label TextLabel="chromatin &#xA;relaxation" GraphId="da7ff">
+    <Graphics CenterX="233.49574726609853" CenterY="652.67071688943" Width="114.59295261239174" Height="34.39854191980368" ZOrder="32801" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
   </Label>
   <Shape GraphId="b466a" GroupRef="e4e38">
     <Graphics CenterX="1068.0" CenterY="764.0" Width="258.0" Height="120.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
@@ -650,29 +651,25 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="d3873" GroupRef="a4d0d">
     <Graphics CenterX="947.8465237764968" CenterY="375.54945789104886" Width="200.29815083367407" Height="200.29697167517446" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="e4e38" GraphId="e4e38" Style="Group" />
-  <Group GroupId="c5dbe" GraphId="c5dbe" Style="Complex" />
-  <Group GroupId="e7595" GraphId="e7595" Style="Complex" />
-  <Group GroupId="e76c6" GraphId="e76c6" Style="Complex" />
-  <Group GroupId="e32a9" GraphId="e32a9" Style="Complex" />
-  <Group GroupId="a2f84" GraphId="a2f84" Style="Complex" />
-  <Group GroupId="aefc2" GraphId="aefc2" Style="Complex" />
-  <Group GroupId="a4d0d" GraphId="a4d0d" Style="Group" />
-  <Group GroupId="c5cc2" GraphId="c5cc2" Style="Complex" />
-  <Group GroupId="a725d" GraphId="a725d" Style="Complex" />
-  <Group GroupId="c7c4b" GraphId="c7c4b" Style="Complex" />
-  <Group GroupId="fab31" GraphId="fab31" Style="Complex" />
-  <Group GroupId="c111a" GraphId="c111a" Style="Complex" />
+  <Group GroupId="e4e38" Style="Group" />
+  <Group GroupId="e7595" GraphId="a7c42" Style="Complex" />
+  <Group GroupId="e76c6" GraphId="a830a" Style="Complex" />
+  <Group GroupId="e32a9" GraphId="afa4d" Style="Complex" />
+  <Group GroupId="a2f84" GraphId="b533b" Style="Complex" />
+  <Group GroupId="b6492" GraphId="bdf99" Style="Group" />
+  <Group GroupId="baa39" GraphId="be23f" Style="Complex" />
+  <Group GroupId="aefc2" GraphId="c06f3" Style="Complex" />
+  <Group GroupId="a4d0d" GraphId="c6b81" Style="Group" />
+  <Group GroupId="c5cc2" GraphId="cc391" Style="Complex" />
+  <Group GroupId="d66d2" GraphId="d9eda" Style="Complex" />
+  <Group GroupId="a725d" GraphId="e3eea" Style="Complex" />
+  <Group GroupId="c7c4b" GraphId="e6a5e" Style="Complex" />
+  <Group GroupId="ea531" GraphId="fddc8" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G1 phase pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000087</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA repair pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000099</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff0">
@@ -686,6 +683,11 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knobel PA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marjanović M</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA repair pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000099</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
