@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ATM signaling in development and disease " Data-Source="WikiPathways" Version="WP3878_Pt" Last-Modified="20240113071005" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ATM signaling in development and disease " Data-Source="WikiPathways" Version="WP3878_Pt" Last-Modified="20240117193529" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">This pathway is modeled after Figure 4 in the article "The ATM signaling network in development and disease" (See Bibliography).  When DNA is damaged, DDR begins to work on recuperating the damage through the appropriate cellular programs such as transcription, translation, etc etc. The ataxia-telangiectasia mutated (ATM) kinase acts as the main core of this pathway acting upon or receiving a lot of the reactions towards other gene products. ATM substrates use several different cell cycle checkpoints to determine the health of the DNA, and determine different types of disease/damage done to the DNA. The p38MAPK which is a reaction by ATM later leads to HSP27 which inhibits oxidative stress within the cell. DDR and ATM both work to help the cell recover from any damage it has received and understanding how ATM works will help increase doctors and scientists understanding of diseases, and their treatment. 
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3878 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3878.gpml (WP3878_r127911) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3878.gpml (WP3878_r127927) with a 98.0% conversion rate.</Comment>
   <BiopaxRef>ff0</BiopaxRef>
-  <Graphics BoardWidth="1235.0" BoardHeight="1100.4738760631838" />
+  <Graphics BoardWidth="1287.0" BoardHeight="1100.4738760631838" />
   <DataNode TextLabel="PPP activation" GraphId="c98f2" Type="Pathway">
     <Graphics CenterX="54.021871202916216" CenterY="413.1227217496964" Width="103.18347509113008" Height="20.0" ZOrder="28672" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
     <Xref Database="" ID="" />
@@ -99,10 +99,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="625.0" CenterY="518.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000011181" />
   </DataNode>
-  <DataNode TextLabel="PTPA" GraphId="c0644" Type="GeneProduct" GroupRef="c5cc2">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000119383</Comment>
+  <DataNode TextLabel="Pathway" GraphId="bf7fa" Type="Pathway">
+    <Graphics CenterX="802.0" CenterY="724.0" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="PPP2CA" GraphId="c0644" Type="GeneProduct" GroupRef="c5cc2">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = H:PPP2CA</Comment>
     <Graphics CenterX="459.29526123936813" CenterY="825.5893074119081" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSPTRG00000021453" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000052040" />
   </DataNode>
   <DataNode TextLabel="MRE11" GraphId="c1ec9" Type="GeneProduct" GroupRef="a4d0d">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = H:MRE11</Comment>
@@ -124,9 +128,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSPTRG00000012660" />
   </DataNode>
   <DataNode TextLabel="H2AX" GraphId="c82fd" Type="GeneProduct" GroupRef="e32a9">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000188486</Comment>
     <Graphics CenterX="328.0" CenterY="997.0" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
-    <Xref Database="Ensembl" ID="ENSPTRG00000004369" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="MTOR" GraphId="c8b8b" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000198793</Comment>
@@ -198,10 +201,10 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="411.0" CenterY="955.0" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSPTRG00000006994" />
   </DataNode>
-  <DataNode TextLabel="DCLRE1C" GraphId="de9be" Type="GeneProduct" GroupRef="e32a9">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000152457</Comment>
+  <DataNode TextLabel="NHEJ1" GraphId="de9be" Type="GeneProduct" GroupRef="e32a9">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = H:NHEJ1</Comment>
     <Graphics CenterX="242.0" CenterY="974.0" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
-    <Xref Database="Ensembl" ID="ENSPTRG00000002314" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000034481" />
   </DataNode>
   <DataNode TextLabel="RAD50" GraphId="e7db4" Type="GeneProduct" GroupRef="e76c6">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000113522</Comment>
@@ -234,14 +237,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSPTRG00000021927" />
   </DataNode>
   <DataNode TextLabel="PRKDC" GraphId="eec64" Type="GeneProduct" GroupRef="e32a9">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000253729</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = H:PRKDC</Comment>
     <Graphics CenterX="328.0" CenterY="1017.0" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
     <Xref Database="Ensembl" ID="ENSPTRG00000020229" />
   </DataNode>
-  <DataNode TextLabel="CDK5R1" GraphId="f1ebd" Type="GeneProduct" GroupRef="a4d0d">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000176749</Comment>
+  <DataNode TextLabel="TP53" GraphId="f1ebd" Type="GeneProduct" GroupRef="a4d0d">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = H:TP53</Comment>
     <Graphics CenterX="840.5808019441072" CenterY="274.4410692588095" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="10" Valign="Middle" LineThickness="2.0" />
-    <Xref Database="Ensembl" ID="ENSPTRG00000030892" />
+    <Xref Database="Ensembl" ID="ENSPTRG00000008703" />
   </DataNode>
   <DataNode TextLabel="KAT5" GraphId="f474f" Type="GeneProduct" GroupRef="e76c6">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000172977</Comment>
@@ -259,7 +262,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSPTRG00000008015" />
   </DataNode>
   <DataNode TextLabel="Cell Cycle" GraphId="fbf32" Type="Pathway" GroupRef="a4d0d">
-    <Graphics CenterX="941.2904009720532" CenterY="349.483596597813" Width="138.0" Height="64.0" ZOrder="32768" FontWeight="Bold" FontSize="14" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
+    <Graphics CenterX="944.1452004860266" CenterY="356.2417982989065" Width="95.70959902794675" Height="27.516403402187052" ZOrder="32768" FontWeight="Bold" FontSize="14" Valign="Middle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP45" />
   </DataNode>
   <DataNode TextLabel="AURKB" GraphId="fc10c" Type="GeneProduct" GroupRef="a4d0d">
@@ -377,7 +380,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id32a7c49b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="243.0" Y="536.0" GraphRef="a8846" RelX="-1.0" RelY="0.0" />
-      <Point X="165.0" Y="606.0" ArrowHead="Arrow" />
+      <Point X="177.0" Y="600.125" GraphRef="bdf99" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -582,8 +585,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="Hypotonic Stress " GraphId="ac954">
     <Graphics CenterX="630.0" CenterY="136.0" Width="130.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="ATM substrate" GraphId="b8cb2" GroupRef="e4e38">
-    <Graphics CenterX="997.0" CenterY="762.0" Width="116.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  <Label TextLabel="ATM substrate" GraphId="b8cb2" GroupRef="a6771">
+    <Graphics CenterX="1090.0" CenterY="753.0" Width="116.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="V(D)J" GraphId="c43f9">
     <Graphics CenterX="242.43013365735115" CenterY="848.6452004860269" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" Color="14961e" />
@@ -591,7 +594,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="AMPK" GraphId="d44da" GroupRef="b6492">
     <Graphics CenterX="124.0" CenterY="606.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Legend" GraphId="dc2cf" GroupRef="e4e38">
+  <Label TextLabel="Legend" GraphId="dc2cf" GroupRef="a6771">
     <Graphics CenterX="976.0" CenterY="720.0" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="DNA Damage " GraphId="dfa16">
@@ -630,11 +633,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="SAC" GraphId="ffd3f" GroupRef="a4d0d">
     <Graphics CenterX="948.8213851761847" CenterY="459.47752126367055" Width="49.62332928311116" Height="36.4520048602658" ZOrder="32791" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" Color="999999" />
   </Label>
-  <Label TextLabel="cell cycle checkpoint" GraphId="b9fe0" GroupRef="e4e38">
-    <Graphics CenterX="1024.0048602673146" CenterY="804.4775212636706" Width="153.9902794653708" Height="36.4520048602658" ZOrder="32794" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" Color="999999" />
-  </Label>
-  <Label TextLabel="cellular process or ATM function" GraphId="cd301" GroupRef="e4e38">
-    <Graphics CenterX="1047.4927095990286" CenterY="784.2867557715684" Width="217.01458080194288" Height="36.4520048602658" ZOrder="32795" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
+  <Label TextLabel="cellular process or ATM function" GraphId="cd301" GroupRef="a6771">
+    <Graphics CenterX="1135.4927095990286" CenterY="781.2867557715684" Width="217.01458080194288" Height="36.4520048602658" ZOrder="32795" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="uH2A" GraphId="ff9b3" GroupRef="d66d2">
     <Graphics CenterX="353.0" CenterY="782.0" Width="90.0" Height="25.0" ZOrder="32799" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
@@ -645,13 +645,19 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="chromatin &#xA;relaxation" GraphId="da7ff">
     <Graphics CenterX="233.49574726609853" CenterY="652.67071688943" Width="114.59295261239174" Height="34.39854191980368" ZOrder="32801" FillColor="ffffff" FontWeight="Bold" FontStyle="Italic" FontSize="12" Valign="Middle" Color="14961e" />
   </Label>
-  <Shape GraphId="b466a" GroupRef="e4e38">
-    <Graphics CenterX="1068.0" CenterY="764.0" Width="258.0" Height="120.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
+  <Shape GraphId="ae0f2" GroupRef="a6771">
+    <Graphics CenterX="994.0" CenterY="753.0" Width="80.0" Height="20.0" ZOrder="16384" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="Rectangle" LineThickness="2.0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="b466a" GroupRef="a6771">
+    <Graphics CenterX="1094.0" CenterY="759.5" Width="310.0" Height="111.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape GraphId="d3873" GroupRef="a4d0d">
     <Graphics CenterX="947.8465237764968" CenterY="375.54945789104886" Width="200.29815083367407" Height="200.29697167517446" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="e4e38" Style="Group" />
+  <Shape GraphId="b7839" GroupRef="a6771">
+    <Graphics CenterX="994.0" CenterY="785.0" Width="80.0" Height="20.0" ZOrder="32802" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="Rectangle" LineThickness="2.0" Color="14961e" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="a6771" Style="Group" />
   <Group GroupId="e7595" GraphId="a7c42" Style="Complex" />
   <Group GroupId="e76c6" GraphId="a830a" Style="Complex" />
   <Group GroupId="e32a9" GraphId="afa4d" Style="Complex" />
