@@ -1,136 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Regulation of apoptosis by parathyroid hormone-related protein" Data-Source="WikiPathways" Version="WP3872_Rn" Last-Modified="20240117224321" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Regulation of apoptosis by parathyroid hormone-related protein" Data-Source="WikiPathways" Version="WP3872_Ss" Last-Modified="20240117224321" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">This pathway is based on Figure 8 of "Parathyroid hormone-related protein regulates cell survival pathways via integrin alpha6beta4-mediated activation of phosphatidylinositol 3-kinase/Akt signaling."(See Bibliography). Parathyroid Hormone-related Protein Regulates Cell Survival Pathways via Integrin alpha6beta4-mediated Activation of PI3-K/Akt Signaling Intracrine PTHrP inhibits apoptosis by activating the PI3-K/Akt pathway by increasing levels of integrin A6B4, which signals in harmony with growth factor receptors. The activation of Akt increases the ratio of anti-apoptosis members to pro-apoptosis members in the Bcl-2 Family. The activation of Akt deactivates GSK-3 which leads to higher levels of c-myc, therefore leading to lower levels of apoptosis. Overall, intracrine PTHrP has the effect of increased cell survival on C4-2 cells.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3872 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3872.gpml (WP3872_r127930) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3872.gpml (WP3872_r127930) with a 87.0% conversion rate.</Comment>
   <BiopaxRef>e03</BiopaxRef>
   <Graphics BoardWidth="817.0" BoardHeight="727.9350348027843" />
-  <DataNode TextLabel="Gsk3a" GraphId="a1ca2" Type="GeneProduct" GroupRef="fa5d7">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000105723</Comment>
+  <DataNode TextLabel="GSK3A" GraphId="a1ca2" Type="GeneProduct" GroupRef="fa5d7">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000105723</Comment>
     <Graphics CenterX="582.0" CenterY="503.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000020417" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000003035" />
   </DataNode>
-  <DataNode TextLabel="Akt1" GraphId="a5a1e" Type="GeneProduct" GroupRef="a8c47">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:AKT1</Comment>
+  <DataNode TextLabel="AKT1" GraphId="a5a1e" Type="GeneProduct" GroupRef="a8c47">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:AKT1</Comment>
     <Graphics CenterX="514.5" CenterY="380.5" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000028629" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000039139" />
   </DataNode>
-  <DataNode TextLabel="Bcl2l10" GraphId="a6568" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000137875</Comment>
+  <DataNode TextLabel="BCL2L10" GraphId="a6568" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000137875</Comment>
     <Graphics CenterX="280.77028218694886" CenterY="577.7060552616105" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000009308" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000004623" />
   </DataNode>
-  <DataNode TextLabel="MCL-1" GraphId="a6f51" Type="Protein" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = S:Q07820</Comment>
+  <DataNode TextLabel="MCL1" GraphId="a6f51" Type="Protein" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:Q07820</Comment>
     <Graphics CenterX="280.77028218694886" CenterY="557.7060552616105" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000070080" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000039314" />
   </DataNode>
-  <DataNode TextLabel="Itga6" GraphId="a9ec9" Type="GeneProduct" GroupRef="eac02">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000091409</Comment>
+  <DataNode TextLabel="ITGA6" GraphId="a9ec9" Type="GeneProduct" GroupRef="eac02">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000091409</Comment>
     <Graphics CenterX="514.6769547325105" CenterY="155.0138888888889" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000001518" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000015955" />
   </DataNode>
-  <DataNode TextLabel="Bok" GraphId="b1a98" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000176720</Comment>
+  <DataNode TextLabel="BOK" GraphId="b1a98" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000176720</Comment>
     <Graphics CenterX="341.491879350348" CenterY="537.4663573085845" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000018214" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000032684" />
   </DataNode>
-  <DataNode TextLabel="Bcl2l12" GraphId="b62e7" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000126453</Comment>
+  <DataNode TextLabel="BCL2L12" GraphId="b62e7" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000126453</Comment>
     <Graphics CenterX="403.9791183294652" CenterY="517.4663573085843" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000020486" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000003177" />
   </DataNode>
-  <DataNode TextLabel="Bcl2a1" GraphId="b6e46" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000140379</Comment>
+  <DataNode TextLabel="BCL2A1" GraphId="b6e46" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000140379</Comment>
     <Graphics CenterX="280.77028218694886" CenterY="597.7060552616105" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000047606" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000040010" />
   </DataNode>
-  <DataNode TextLabel="Bcl2l15" GraphId="b91dc" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000188761</Comment>
+  <DataNode TextLabel="BCL2L15" GraphId="b91dc" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000188761</Comment>
     <Graphics CenterX="403.9791183294652" CenterY="577.4663573085841" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000037149" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000038970" />
   </DataNode>
-  <DataNode TextLabel="Itgb4" GraphId="badd5" Type="GeneProduct" GroupRef="eac02">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000132470</Comment>
+  <DataNode TextLabel="ITGB4" GraphId="badd5" Type="GeneProduct" GroupRef="eac02">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000132470</Comment>
     <Graphics CenterX="514.6769547325105" CenterY="175.0138888888889" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000005580" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000017204" />
   </DataNode>
   <DataNode TextLabel="Apoptosis&#xA;" GraphId="be9cc" Type="Pathway">
     <Graphics CenterX="507.51276102088184" CenterY="687.9350348027843" Width="80.0" Height="20.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP254" />
   </DataNode>
-  <DataNode TextLabel="Gsk3b" GraphId="cdf50" Type="GeneProduct" GroupRef="fa5d7">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000082701</Comment>
+  <DataNode TextLabel="GSK3B" GraphId="cdf50" Type="GeneProduct" GroupRef="fa5d7">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000082701</Comment>
     <Graphics CenterX="582.0" CenterY="523.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000002833" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000011889" />
   </DataNode>
-  <DataNode TextLabel="Myc" GraphId="d17ac" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000136997</Comment>
+  <DataNode TextLabel="MYC" GraphId="d17ac" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000136997</Comment>
     <Graphics CenterX="528.4578651685392" CenterY="599.2035436473639" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000004500" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000005965" />
   </DataNode>
-  <DataNode TextLabel="Pthlh" GraphId="d2fe2" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000087494</Comment>
+  <DataNode TextLabel="PTHLH" GraphId="d2fe2" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000087494</Comment>
     <Graphics CenterX="515.25" CenterY="72.0" Width="101.5" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000069267" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000036893" />
   </DataNode>
-  <DataNode TextLabel="Bid" GraphId="d55c0" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000015475</Comment>
+  <DataNode TextLabel="BID" GraphId="d55c0" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000015475</Comment>
     <Graphics CenterX="403.9791183294652" CenterY="497.4663573085843" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000012439" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000000769" />
   </DataNode>
-  <DataNode TextLabel="AC098008.1" GraphId="d85c1" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000171552</Comment>
+  <DataNode TextLabel="BCL2L1" GraphId="d85c1" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000171552</Comment>
     <Graphics CenterX="280.77028218694886" CenterY="517.7060552616105" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000018503" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000035357" />
   </DataNode>
-  <DataNode TextLabel="Pik3cg" GraphId="d900a" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000105851</Comment>
+  <DataNode TextLabel="PIK3CG" GraphId="d900a" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000105851</Comment>
     <Graphics CenterX="514.5" CenterY="296.5" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000009385" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000027272" />
   </DataNode>
-  <DataNode TextLabel="Bcl2l2" GraphId="de967" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000129473</Comment>
+  <DataNode TextLabel="BCL2L2" GraphId="de967" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000129473</Comment>
     <Graphics CenterX="280.77028218694886" CenterY="537.7060552616105" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000015732" />
+    <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Bak1" GraphId="defda" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000030110</Comment>
+  <DataNode TextLabel="BAK1" GraphId="defda" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000030110</Comment>
     <Graphics CenterX="341.491879350348" CenterY="517.4663573085847" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000000485" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000001516" />
   </DataNode>
-  <DataNode TextLabel="Bcl2l14" GraphId="e3e18" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000121380</Comment>
+  <DataNode TextLabel="BCL2L14" GraphId="e3e18" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000121380</Comment>
     <Graphics CenterX="403.9791183294652" CenterY="557.4663573085843" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000028632" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000000623" />
   </DataNode>
-  <DataNode TextLabel="Bcl2" GraphId="e70c6" Type="GeneProduct" GroupRef="e1b45">
+  <DataNode TextLabel="BCL2" GraphId="e70c6" Type="GeneProduct" GroupRef="e1b45">
     <Comment>Increases the ratio of anti-apoptosis members to pro-apoptosis members.</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000171791</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000171791</Comment>
     <Graphics CenterX="280.77028218694886" CenterY="497.70605526161046" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000067693" />
+    <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="AC095278.1" GraphId="e8926" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000087088</Comment>
+  <DataNode TextLabel="BAX" GraphId="e8926" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000087088</Comment>
     <Graphics CenterX="341.491879350348" CenterY="497.4663573085846" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000020749" />
+    <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Bcl2l13" GraphId="e98e8" Type="GeneProduct" GroupRef="e1b45">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000099968</Comment>
+  <DataNode TextLabel="BCL2L13" GraphId="e98e8" Type="GeneProduct" GroupRef="e1b45">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000099968</Comment>
     <Graphics CenterX="403.9791183294652" CenterY="537.4663573085843" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000012394" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000040373" />
   </DataNode>
-  <DataNode TextLabel="Akt2" GraphId="d615b" Type="GeneProduct" GroupRef="a8c47">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:AKT2</Comment>
+  <DataNode TextLabel="AKT2" GraphId="d615b" Type="GeneProduct" GroupRef="a8c47">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:AKT2</Comment>
     <Graphics CenterX="514.5" CenterY="400.5" Width="80.0" Height="20.0" ZOrder="32769" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000018677" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000002989" />
   </DataNode>
-  <DataNode TextLabel="Akt3" GraphId="c99a1" Type="GeneProduct" GroupRef="a8c47">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = H:AKT3</Comment>
+  <DataNode TextLabel="AKT3" GraphId="c99a1" Type="GeneProduct" GroupRef="a8c47">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:AKT3</Comment>
     <Graphics CenterX="514.5" CenterY="420.5" Width="80.0" Height="20.0" ZOrder="32770" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSRNOG00000021497" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000010872" />
   </DataNode>
   <Interaction GraphId="id34adbc87">
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -237,11 +237,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Group GroupId="e1b45" GraphId="d9d44" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate cancer</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10283</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e03">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19584267</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -253,6 +248,11 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weigel NL</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falzon M</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10283</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
