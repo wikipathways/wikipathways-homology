@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cholesterol biosynthesis pathway" Data-Source="WikiPathways" Version="WP197_Qc" Last-Modified="20211208091818" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cholesterol biosynthesis pathway" Data-Source="WikiPathways" Version="WP197_Qc" Last-Modified="20240128013325" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">Cholesterol is a waxy steroid metabolite found in the cell membranes and transported in the blood plasma of all animals. It is an essential structural component of mammalian cell membranes, where it is required to establish proper membrane permeability and fluidity. In addition, cholesterol is an important component for the manufacture of bile acids, steroid hormones, and several fat-soluble vitamins. Cholesterol is the principal sterol synthesized by animals, but small quantities are synthesized in other eukaryotes, such as plants and fungi. It is almost completely absent among prokaryotes, which include bacteria.
 
 Source: [[wikipedia:Cholesterol|Wikipedia]]
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP197 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP197.gpml (WP197_r120482) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP197.gpml (WP197_r128147) with a 100.0% conversion rate.</Comment>
+  <BiopaxRef>ec9</BiopaxRef>
+  <BiopaxRef>d9b</BiopaxRef>
+  <BiopaxRef>e32</BiopaxRef>
+  <BiopaxRef>c8f</BiopaxRef>
+  <BiopaxRef>ea9</BiopaxRef>
+  <BiopaxRef>cdc</BiopaxRef>
+  <BiopaxRef>e73</BiopaxRef>
   <BiopaxRef>de6</BiopaxRef>
   <Graphics BoardWidth="717.6540434669985" BoardHeight="679.0097543709028" />
   <DataNode TextLabel="NSDHL" GraphId="a12" Type="GeneProduct" GroupRef="b39b6">
@@ -24,7 +31,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="370.0" CenterY="246.1064425770311" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="CAS" ID="150-97-0" />
   </DataNode>
-  <DataNode TextLabel="farnesyl pyrophosphate" GraphId="a7690" Type="Metabolite">
+  <DataNode TextLabel="Farnesyl pyrophosphate" GraphId="a7690" Type="Metabolite">
     <Graphics CenterX="563.1092436974792" CenterY="587.6687409348253" Width="124.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="CAS" ID="13058-04-3" />
   </DataNode>
@@ -120,7 +127,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="563.1092436974785" CenterY="99.0" Width="77.33333333333333" Height="16.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="CAS" ID="57-88-5" />
   </DataNode>
-  <DataNode TextLabel="Fatty Acid Beta Oxidation" GraphId="ed255" Type="Pathway">
+  <DataNode TextLabel="Fatty acid beta-oxidation" GraphId="ed255" Type="Pathway">
     <Graphics CenterX="370.25" CenterY="43.0" Width="163.5" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP143" />
   </DataNode>
@@ -392,7 +399,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idf70e1c50">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="604.987376800332" Y="281.70514694126575" GraphRef="b39b6" RelX="-1.0" RelY="0.0" />
+      <Point X="604.987376800332" Y="281.70514694126575" GraphRef="c3e7c" RelX="-1.0" RelY="0.0" />
       <Point X="563.1092436974786" Y="281.8119646572457" GraphRef="bf5b2" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -405,7 +412,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Group GroupId="b39b6" GraphId="b39b6" Style="Group" />
+  <Group GroupId="b39b6" GraphId="c3e7c" Style="Group" />
   <InfoBox CenterX="8.333333333333334" CenterY="5.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
