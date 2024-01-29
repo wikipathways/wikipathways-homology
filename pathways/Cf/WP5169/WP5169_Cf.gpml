@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hemesynthesis defects and porphyrias" Data-Source="WikiPathways" Version="WP5169_Cf" Last-Modified="20220323091124" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hemesynthesis defects and porphyrias" Data-Source="WikiPathways" Version="WP5169_Cf" Last-Modified="20240129032944" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">Defects in the heme biosynthesis in a hepatocyte can result in specific metabolic disorders called porphyrias. These diseases can be split into two categories, namely acute porphyrias and non-acute porphyrias. Acute hepatic porphyria (AIP), variegate porphyria (VP), hereditary coproporphyria (HCP), and Doss porphyria (ALADP) are all part of the acute-hepatic porphyrias. This type is often associated with an overproduction of neurotoxic porphyrins and porphyrin precursors.
  
 The non-acute porphyrias include, porphyria cutanea tarda, erythropoietic porphyria, and congenital erythropoietic porphyria. These diseases are instead characterised by photosensitivity of the skin and in severe cases liver damage, caused by porphyrins. Another type of porphyria are the X-linked protoporphyria diseases, which are a result of a gain of function mutation in the 5-aminolevulinic acid synthase 2 gene. This causes an accumulation of protoporphyrin IX. 
 The disease present in the patient is determined by what enzyme is affected in the heme biosynthesis pathway.
 This pathway has been constructed using chapter 33 of the book; Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases (first edition), by N.Blau et al (ISBN 3642403360 (978-3642403361)).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5169.gpml (WP5169_r122351) with a 88.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5169.gpml (WP5169_r128214) with a 88.0% conversion rate.</Comment>
   <Graphics BoardWidth="1843.953488372093" BoardHeight="996.1472788883971" />
   <DataNode TextLabel="Pentacarboxyl porphyrinogen III" GraphId="a4e7d" Type="Metabolite">
     <Comment>Alternative name: Pentacarboxyporphyrinogen III</Comment>
     <Graphics CenterX="1028.6939974390284" CenterY="590.4148326060589" Width="178.5133881084463" Height="35.076271186440636" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="HMDB" ID="HMDB0001957" />
   </DataNode>
-  <DataNode TextLabel="protoporphyrin IX" GraphId="a98af" Type="Metabolite">
+  <DataNode TextLabel="Protoporphyrin IX" GraphId="a98af" Type="Metabolite">
     <Graphics CenterX="1028.6939974390154" CenterY="283.5495961051705" Width="178.5133881084464" Height="35.076271186440636" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:57306" />
   </DataNode>
@@ -122,7 +122,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <Xref Database="Ensembl" ID="ENSCAFG00845024246" />
   </DataNode>
   <DataNode TextLabel="CPOX" GraphId="f5d15" Type="GeneProduct">
-    <Comment>Alternative name: Copro-Oxidase</Comment>
+    <Comment>Alternative name: Copro-Oxidase </Comment>
     <Comment Source="HomologyMapper">No homologues found for original id L:1371</Comment>
     <Graphics CenterX="927.3993009634297" CenterY="446.27082661540976" Width="91.34745762711873" Height="35.55084745762787" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
@@ -147,7 +147,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>f12</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1028.693997439022" Y="337.1315219894608" GraphRef="fa24f" RelX="0.0" RelY="0.0" />
-      <Point X="1201.2738392260737" Y="337.7025586506976" GraphRef="c23b9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1214.6829301351647" Y="337.7025586506976" GraphRef="c23b9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -182,7 +182,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>c9d</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1073.3223444661369" Y="811.2214927095899" GraphRef="cd7ef" RelX="0.0" RelY="0.0" />
-      <Point X="1201.2738392260735" Y="843.8795742847307" GraphRef="c2a46" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="1214.6829301351645" Y="835.0275504015775" GraphRef="c2a46" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -191,7 +191,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>f19</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="488.69166396556506" Y="526.7918805491602" GraphRef="edb4c" RelX="0.0" RelY="0.0" />
-      <Point X="263.60687035153137" Y="598.0395815598854" GraphRef="a2a0b" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="260.19777944244044" Y="598.0395815598854" GraphRef="a2a0b" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -202,7 +202,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>b47</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="905.4396829925385" Y="283.5495961051705" GraphRef="a0bc5" RelX="0.0" RelY="0.0" />
-      <Point X="1099.8128434279233" Y="125.10898417204162" GraphRef="c929d" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="1119.0173888824688" Y="107.40493640573551" GraphRef="c929d" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -212,8 +212,8 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>b47</BiopaxRef>
     <Graphics ConnectorType="Curved" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1028.6939974390234" Y="446.6161739555335" GraphRef="efd8e" RelX="0.0" RelY="0.0" />
-      <Point X="1127.55905511811" Y="498.5007108033991" />
-      <Point X="1201.2738392260735" Y="550.3852476512648" GraphRef="e03fb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1127.55905511811" Y="498.5007108033992" />
+      <Point X="1214.6829301351645" Y="550.3852476512649" GraphRef="e03fb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -226,7 +226,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>b47</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="488.69166396556506" Y="526.7918805491602" GraphRef="edb4c" RelX="0.0" RelY="0.0" />
-      <Point X="261.36722869419515" Y="525.5954189379105" GraphRef="d9fe0" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="257.9581377851042" Y="525.5954189379105" GraphRef="d9fe0" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -245,7 +245,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>c9d</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="373.4594979605697" Y="335.9850451643666" GraphRef="ef01a" RelX="-1.0" RelY="0.0" />
-      <Point X="262.4338953608632" Y="265.6509655560526" GraphRef="d6c81" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="259.0248044517723" Y="265.6509655560526" GraphRef="d6c81" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -255,7 +255,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <Graphics ConnectorType="Curved" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1028.6939974390234" Y="446.6161739555335" GraphRef="efd8e" RelX="0.0" RelY="0.0" />
       <Point X="1103.4013605442176" Y="462.1794765747914" />
-      <Point X="1201.2738392260735" Y="477.7427791940493" GraphRef="d6d5e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1214.6829301351645" Y="477.7427791940493" GraphRef="d6d5e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -286,7 +286,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>c88</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="373.4594979605697" Y="335.9850451643666" GraphRef="ef01a" RelX="-1.0" RelY="0.0" />
-      <Point X="262.3216509020726" Y="337.15734533396835" GraphRef="b0352" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="258.91255999298164" Y="337.15734533396835" GraphRef="b0352" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -296,7 +296,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>c9d</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1028.6939974390264" Y="773.7864797136772" GraphRef="c0b81" RelX="0.0" RelY="0.0" />
-      <Point X="1201.2738392260735" Y="726.3944082748731" GraphRef="c5f80" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1214.6829301351645" Y="726.3944082748732" GraphRef="c5f80" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -305,7 +305,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>f43</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="785.0966331254401" Y="860.9313557876281" GraphRef="bbbdd" RelX="0.0" RelY="0.0" />
-      <Point X="1201.2738392260735" Y="929.8780609916967" GraphRef="eeff0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1214.6829301351647" Y="929.8780609916965" GraphRef="eeff0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -315,7 +315,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>f12</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="905.4396829925385" Y="283.5495961051705" GraphRef="a0bc5" RelX="0.0" RelY="0.0" />
-      <Point X="907.5248237818365" Y="126.77106392055127" GraphRef="b9cb4" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="907.5248237818365" Y="109.06701615424517" GraphRef="b9cb4" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -353,7 +353,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>c9d</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="488.69166396556506" Y="701.102180078119" GraphRef="dcbf5" RelX="0.0" RelY="0.0" />
-      <Point X="260.2474078655292" Y="700.8763230529582" GraphRef="f3658" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="256.83831695643835" Y="700.8763230529582" GraphRef="f3658" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -420,6 +420,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <Xref Database="Rhea" ID="24065" />
   </Interaction>
   <Interaction GraphId="idc4a7e9e0">
+    <BiopaxRef>bda</BiopaxRef>
     <BiopaxRef>a98</BiopaxRef>
     <BiopaxRef>a8f</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -436,7 +437,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <Graphics ConnectorType="Curved" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1028.6939974390234" Y="446.6161739555335" GraphRef="efd8e" RelX="0.0" RelY="0.0" />
       <Point X="1124.4897959183675" Y="428.47312438887843" />
-      <Point X="1201.2738392260737" Y="410.3300748222234" GraphRef="b1fc4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1214.6829301351647" Y="410.3300748222234" GraphRef="b1fc4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -445,11 +446,12 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>c9d</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1028.6939974390264" Y="773.7864797136772" GraphRef="c0b81" RelX="0.0" RelY="0.0" />
-      <Point X="1201.2738392260735" Y="828.7775504015776" GraphRef="c2a46" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1214.6829301351645" Y="828.7775504015775" GraphRef="c2a46" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc9bc46a4">
+    <BiopaxRef>bda</BiopaxRef>
     <BiopaxRef>d0c</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1028.6939974390264" Y="843.3932201944078" GraphRef="adc91" RelX="0.0" RelY="-1.0" />
@@ -459,6 +461,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idcafaef9b">
+    <BiopaxRef>bda</BiopaxRef>
     <BiopaxRef>a98</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1073.322344466138" Y="843.3932201944078" GraphRef="adc91" RelX="0.5" RelY="-1.0" />
@@ -484,6 +487,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <Xref Database="Rhea" ID="22586" />
   </Interaction>
   <Interaction GraphId="iddd225601">
+    <BiopaxRef>bda</BiopaxRef>
     <BiopaxRef>d0c</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1028.6939974390284" Y="572.8766970128386" GraphRef="a4e7d" RelX="0.0" RelY="-1.0" />
@@ -500,6 +504,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ide61e6705">
+    <BiopaxRef>bda</BiopaxRef>
     <BiopaxRef>a8f</BiopaxRef>
     <BiopaxRef>d0c</BiopaxRef>
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
@@ -514,7 +519,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>c9d</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1073.3223444661369" Y="811.2214927095899" GraphRef="cd7ef" RelX="0.0" RelY="0.0" />
-      <Point X="1201.2738392260735" Y="741.4964321580261" GraphRef="c5f80" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="1214.6829301351645" Y="732.6444082748732" GraphRef="c5f80" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -524,11 +529,12 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>c9d</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="488.69166396556506" Y="526.7918805491602" GraphRef="edb4c" RelX="0.0" RelY="0.0" />
-      <Point X="262.487049522864" Y="450.32597790763475" GraphRef="ee6da" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="259.07795861377315" Y="450.32597790763475" GraphRef="ee6da" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idf30db84">
+    <BiopaxRef>bda</BiopaxRef>
     <BiopaxRef>d0c</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1028.6939974390154" Y="636.3172628973232" GraphRef="eba9d" RelX="0.0" RelY="-1.0" />
@@ -537,6 +543,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idf3c76b3c">
+    <BiopaxRef>bda</BiopaxRef>
     <BiopaxRef>d0c</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1028.6939974390264" Y="697.8388311800272" GraphRef="e44d5" RelX="0.0" RelY="-1.0" />
@@ -559,7 +566,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     <BiopaxRef>a98</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="677.6601005232651" Y="274.78052830856035" GraphRef="b53ac" RelX="-1.0" RelY="-0.5" />
-      <Point X="622.1289292951997" Y="327.09733329995964" GraphRef="e48bb" RelX="1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
+      <Point X="622.1289292951997" Y="327.09733329995964" GraphRef="e48bb" RelX="1.0" RelY="-0.5" ArrowHead="TBar" />
       <Anchor Position="0.3546948063842307" Shape="None" GraphId="c348f" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -605,7 +612,7 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
     </Graphics>
   </GraphicalLine>
   <Label TextLabel="Hypertyrosinemia type I&#xA;" GraphId="a2a0b">
-    <Graphics CenterX="150.19777944244044" CenterY="598.0395815598854" Width="226.8181818181818" Height="60.40809553261221" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Graphics CenterX="150.19777944244044" CenterY="598.0395815598854" Width="220.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
   </Label>
   <Label TextLabel="Connection to disease" GraphId="a36bf">
     <Graphics CenterX="1707.2165296207327" CenterY="694.7816013115611" Width="153.20244328097627" Height="25.00000000000005" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
@@ -613,10 +620,10 @@ This pathway has been constructed using chapter 33 of the book; Physician's Guid
   <Label TextLabel="X-linked sideroblastic anemia" GraphId="b0352" Href="https://www.omim.org/entry/300751">
     <Comment>Alternative name: Erythroid 5-aminolevulinate synthase deficiency 
 Abbreviation: XLSA</Comment>
-    <Graphics CenterX="148.91255999298167" CenterY="337.15734533396835" Width="226.8181818181818" Height="60.40809553261221" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="148.91255999298167" CenterY="337.15734533396835" Width="220.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Harderoporphyria" GraphId="b1fc4" Href="https://www.omim.org/entry/612732">
-    <Graphics CenterX="1314.6829301351647" CenterY="410.3300748222234" Width="226.81818181818198" Height="60.408095532612286" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="1314.6829301351647" CenterY="410.3300748222234" Width="200.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Catalysis" GraphId="b2fb7">
     <Graphics CenterX="1707.2165296207327" CenterY="662.3342964151128" Width="153.20244328097627" Height="25.00000000000005" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
@@ -625,22 +632,22 @@ Abbreviation: XLSA</Comment>
     <Graphics CenterX="1707.2165296207327" CenterY="625.6522155373872" Width="153.20244328097624" Height="25.000000000000075" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Feedback loop" GraphId="b839a">
-    <Graphics CenterX="1586.6277518267407" CenterY="561.4482679782278" Width="112.97216035634777" Height="31.67770637797243" ZOrder="28672" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
+    <Graphics CenterX="1586.6277518267407" CenterY="561.4482679782278" Width="100.0" Height="25.0" ZOrder="28672" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
   </Label>
   <Label TextLabel="Erythropoietic protoporphyria&#xA;" GraphId="b9cb4" Href="https://www.omim.org/entry/177000">
     <Comment>Alternative name: Ferrochelatase deficiency &#xD;
 Abbreviation: EPP</Comment>
-    <Graphics CenterX="907.5248237818365" CenterY="96.56701615424517" Width="226.8181818181818" Height="60.40809553261221" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="907.5248237818365" CenterY="96.56701615424517" Width="220.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Variegate porphyria" GraphId="c23b9" Href="https://www.omim.org/entry/176200">
     <Comment>Alternative name: Protoporphyrinogen oxidase deficiency
 Abbreviation: PV</Comment>
-    <Graphics CenterX="1314.6829301351647" CenterY="337.7025586506976" Width="226.81818181818198" Height="60.408095532612286" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="1314.6829301351647" CenterY="337.7025586506976" Width="200.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Hepatoerythropoietic porphyria" GraphId="c2a46" Href="https://www.omim.org/entry/176100">
     <Comment>Alternative name: Chronic hepatic prophyria
 Abbreviation: HEP</Comment>
-    <Graphics CenterX="1314.6829301351645" CenterY="828.7775504015775" Width="226.81818181818198" Height="60.408095532612236" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="1314.6829301351645" CenterY="828.7775504015775" Width="200.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Inhibition" GraphId="c439a">
     <Graphics CenterX="1707.216529620733" CenterY="720.2969899632661" Width="153.20244328097627" Height="25.00000000000005" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
@@ -648,14 +655,14 @@ Abbreviation: HEP</Comment>
   <Label TextLabel="Porphyria cutanea tarda&#xA;&#xA;" GraphId="c5f80" Href="https://www.omim.org/entry/176100">
     <Comment>Alternative name: Hepatic uroporphyrinogen decarboxylase deficiency &#xD;
 Abbreviation: PCT</Comment>
-    <Graphics CenterX="1314.6829301351645" CenterY="726.3944082748732" Width="226.81818181818198" Height="60.408095532612286" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="1314.6829301351645" CenterY="726.3944082748732" Width="200.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="MITOCHONDRIA" GraphId="c8c0f">
     <Graphics CenterX="750.0031039077139" CenterY="463.65692816363156" Width="123.22617466948364" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" Color="666666" />
   </Label>
   <Label TextLabel="Lead poisoning" GraphId="c929d">
     <Comment>No OMIM link for this disease.</Comment>
-    <Graphics CenterX="1156.5173888824688" CenterY="94.90493640573551" Width="226.8181818181818" Height="60.40809553261221" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Graphics CenterX="1156.5173888824688" CenterY="94.90493640573551" Width="150.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
   </Label>
   <Label TextLabel="Negative feedback" GraphId="cd87e">
     <Graphics CenterX="657.3367749653436" CenterY="244.6098412682915" Width="115.08951406649635" Height="25.0" ZOrder="28672" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
@@ -663,55 +670,55 @@ Abbreviation: PCT</Comment>
   <Label TextLabel="X-linked protophyria" GraphId="d6c81" Href="https://www.omim.org/entry/300752">
     <Comment>Alternative name: Erythroid 5-aminolevulinate synthase gain of function 
 Abbreviation: XLPP</Comment>
-    <Graphics CenterX="149.0248044517723" CenterY="265.6509655560526" Width="226.8181818181818" Height="60.40809553261221" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="149.0248044517723" CenterY="265.6509655560526" Width="220.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Hereditary coproporphyria&#xA;" GraphId="d6d5e" Href="https://www.omim.org/entry/121300">
     <Comment>Alternative text: Coproporphyrinogen oxidase deficiency 
 Abbreviation:HC</Comment>
-    <Graphics CenterX="1314.6829301351645" CenterY="477.7427791940493" Width="226.81818181818198" Height="60.408095532612286" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="1314.6829301351645" CenterY="477.7427791940493" Width="200.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="CYTOSOL" GraphId="d97ae">
     <Graphics CenterX="731.6423411869725" CenterY="483.88908389302765" Width="115.50847457627094" Height="41.65254237288049" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" Color="666666" />
   </Label>
   <Label TextLabel="Lead poisoning" GraphId="d9fe0" Href="https://www.omim.org/entry/125270">
-    <Graphics CenterX="147.9581377851042" CenterY="525.5954189379105" Width="226.81818181818184" Height="60.408095532612194" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="147.9581377851042" CenterY="525.5954189379105" Width="220.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="HEPATOCYTE" GraphId="dd724">
     <Graphics CenterX="414.6035184728534" CenterY="173.17265658569076" Width="111.58193337722756" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" Color="666666" />
   </Label>
   <Label TextLabel="Lead poisoning" GraphId="e03fb">
     <Comment>No OMIM link for this disease</Comment>
-    <Graphics CenterX="1314.6829301351645" CenterY="550.3852476512649" Width="226.81818181818198" Height="60.408095532612286" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Graphics CenterX="1314.6829301351645" CenterY="550.3852476512649" Width="200.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
   </Label>
   <Label TextLabel="Metabolite" GraphId="e05c8">
-    <Graphics CenterX="1723.96519180756" CenterY="498.05433560959364" Width="112.97216035634777" Height="31.67770637797243" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" Color="0000ff" />
+    <Graphics CenterX="1723.96519180756" CenterY="498.05433560959364" Width="100.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Legend" GraphId="ebb9d">
-    <Graphics CenterX="1653.7496150473753" CenterY="437.4587344865696" Width="112.22689075630265" Height="42.96218487394912" ZOrder="28672" FillColor="ffffff" FontSize="20" Valign="Middle" Color="990099" />
+    <Graphics CenterX="1653.7496150473753" CenterY="437.4587344865696" Width="112.22689075630265" Height="42.96218487394912" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" />
   </Label>
   <Label TextLabel="5-aminolevulinate dehydratase &#xA;porphyria&#xA;" GraphId="ee6da" Href="https://www.omim.org/entry/125270">
     <Comment>Alternative name: DOSS porphyria
 Abbreviation:ALADP</Comment>
-    <Graphics CenterX="149.07795861377315" CenterY="450.32597790763475" Width="226.81818181818178" Height="60.40809553261221" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="149.07795861377315" CenterY="450.32597790763475" Width="220.0" Height="40.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Congenital erythropoietic porphyria" GraphId="eeff0" Href="https://www.omim.org/entry/263700">
     <Comment>Alternative name: Uroporphyrinogen III synthase deficiency Morbus Gunther
 Abbreviation: CEP</Comment>
-    <Graphics CenterX="1314.6829301351647" CenterY="929.8780609916965" Width="226.8181818181818" Height="60.40809553261221" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="1314.6829301351647" CenterY="929.8780609916965" Width="200.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Acute intermittent porphyria" GraphId="f3658" Href="https://www.omim.org/entry/176000">
     <Comment>Alternative name: Porphobilinogen deaminase deficiency
 Abbreviation: AIP</Comment>
-    <Graphics CenterX="146.83831695643835" CenterY="700.8763230529582" Width="226.81818181818178" Height="60.40809553261221" ZOrder="28672" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" />
+    <Graphics CenterX="146.83831695643835" CenterY="700.8763230529582" Width="220.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="GeneProduct" GraphId="f689f">
-    <Graphics CenterX="1586.6277518267411" CenterY="498.05433560959364" Width="112.97216035634777" Height="31.67770637797243" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
+  <Label TextLabel="Gene product" GraphId="f689f">
+    <Graphics CenterX="1586.6277518267411" CenterY="498.05433560959364" Width="100.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
   </Label>
   <Shape GraphId="c3981">
     <Graphics CenterX="757.5960487632251" CenterY="339.33275204560914" Width="790.2089667914131" Height="270.74439018226366" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Disease" GraphId="d0f72">
-    <Graphics CenterX="1723.9651918075594" CenterY="561.448267978229" Width="112.97216035634776" Height="49.49777282850757" ZOrder="16384" FillColor="ffcc99" FontSize="12" Valign="Middle" ShapeType="Oval" Color="0000ff" Rotation="0.0" />
+    <Graphics CenterX="1723.9651918075594" CenterY="561.448267978229" Width="100.0" Height="25.0" ZOrder="16384" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" Rotation="0.0" />
   </Shape>
   <Shape GraphId="dcc63">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
@@ -723,20 +730,30 @@ Abbreviation: AIP</Comment>
     <Graphics CenterX="761.8029831358904" CenterY="410.29470615634244" Width="92.1376302477199" Height="58.93881058628264" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Mitochondria" LineThickness="3.0" Color="c0c0c0" Rotation="3.179632015744184" />
   </Shape>
   <Shape GraphId="f62aa">
-    <Graphics CenterX="1656.549977139293" CenterY="577.1232402967611" Width="314.80702246559974" Height="365.133364367718" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
+    <Graphics CenterX="1656.549977139293" CenterY="577.1232402967611" Width="314.80702246559974" Height="365.133364367718" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineStyle="Broken" Color="a0a0a0" Rotation="0.0" />
   </Shape>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9d">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27982422</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute intermittent porphyria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3890</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28149023</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Update review of the acute porphyrias.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Br J Haematol</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status of Serum Calcium, Vitamin D and Parathyroid Hormone and Hematological Indices Among Lead Exposed Jewelry Workers in Dhaka, Bangladesh.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indian J Clin Biochem</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stein PE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Badminton MN</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rees DC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mazumdar I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goswami K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ali MS</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatoerythropoietic porphyria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5230</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f1b">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33199206</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -751,61 +768,31 @@ Abbreviation: AIP</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramanujam VMS</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">porphyria</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13268</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31326287</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemebiosynthesis and the porphyrias.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Genet Metab</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phillips JD</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute intermittent porphyria pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002017</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythropoietic porphyria pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002216</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a08">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17366816</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lead and delta-aminolevulinic acid dehydratase polymorphism: where does it lead? A meta-analysis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environ Health Perspect</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scinicariello F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murray HE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moffett DB</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abadin HG</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sexton MJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fowler BA</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f19">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6826727</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hereditary tyrosinemia and the heme biosynthetic pathway. Profound inhibition of delta-aminolevulinic acid dehydratase activity by succinylacetone.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Clin Invest</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sassa S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kappas A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a80">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16330345</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A critical review of biomarkers used for monitoring human exposure to lead: advantages, limitations, and future needs.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environ Health Perspect</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbosa F Jr</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanus-Santos JE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gerlach RF</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsons PJ</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000182</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heme biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000218</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of metabolism pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001589</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b34">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20506125</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure and function of enzymes in heme biosynthesis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Sci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Layer G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reichelt J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jahn D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heinz DW</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c88">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26637696</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -815,68 +802,6 @@ Abbreviation: AIP</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cazzola M</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malcovati L</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a98">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30594473</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recent advances on porphyria genetics: Inheritance, penetrance&amp;amp; molecular heterogeneity, including new modifying/causative genes.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Genet Metab</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yasuda M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desnick RJ</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26132003</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porphyria Diagnostics-Part 1: A Brief Overview of the Porphyrias.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curr Protoc Hum Genet</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramanujam VS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anderson KE</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f43">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15982550</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The porphyrias.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emerg Med Clin North Am</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dombeck TA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Satonik RC</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">porphyria pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001784</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythropoietic porphyria pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002216</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10692079</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular aspects of the inherited porphyrias.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Intern Med</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sassa S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kappas A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">porphyria cutanea tarda</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3132</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sideroblastic anemia 1</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060063</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6c">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21103937</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -896,36 +821,151 @@ Abbreviation: AIP</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bishop DF</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desnick RJ</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b34">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20506125</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31326287</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure and function of enzymes in heme biosynthesis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Sci</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Layer G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reichelt J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jahn D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heinz DW</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemebiosynthesis and the porphyrias.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Genet Metab</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phillips JD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a08">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17366816</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lead and delta-aminolevulinic acid dehydratase polymorphism: where does it lead? A meta-analysis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environ Health Perspect</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scinicariello F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murray HE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moffett DB</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abadin HG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sexton MJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fowler BA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6427116</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lead poisoning in inherited delta-aminolevulinic acid dehydratase deficiency.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int Arch Occup Environ Health</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doss M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laubenthal F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stoeppler M</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute intermittent porphyria</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3890</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">porphyria pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001784</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a98">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30594473</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recent advances on porphyria genetics: Inheritance, penetrance&amp;amp; molecular heterogeneity, including new modifying/causative genes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Genet Metab</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yasuda M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desnick RJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e11">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12498316</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lead, chemical porphyria, and heme as a biological mediator.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tohoku J Exp Med</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujita H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nishitani C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ogawa K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute intermittent porphyria pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002017</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a80">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16330345</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A critical review of biomarkers used for monitoring human exposure to lead: advantages, limitations, and future needs.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environ Health Perspect</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbosa F Jr</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanus-Santos JE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gerlach RF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsons PJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10692079</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular aspects of the inherited porphyrias.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Intern Med</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sassa S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kappas A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000182</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inherited metabolic disorder</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:655</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f19">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6826727</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hereditary tyrosinemia and the heme biosynthetic pathway. Profound inhibition of delta-aminolevulinic acid dehydratase activity by succinylacetone.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Clin Invest</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sassa S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kappas A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27982422</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Update review of the acute porphyrias.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Br J Haematol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stein PE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Badminton MN</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rees DC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cutaneous porphyria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13271</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000001</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28149023</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">porphyria cutanea tarda</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3132</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sideroblastic anemia 1</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060063</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b47">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31117811</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status of Serum Calcium, Vitamin D and Parathyroid Hormone and Hematological Indices Among Lead Exposed Jewelry Workers in Dhaka, Bangladesh.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indian J Clin Biochem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mazumdar I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goswami K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ali MS</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecogenetics of lead toxicity and its influence on risk assessment.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hum Exp Toxicol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mani MS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kabekkodu SP</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joshi MB</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dsouza HS</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30704898</bp:ID>
@@ -935,32 +975,33 @@ Abbreviation: AIP</Comment>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balwani M</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute porphyria</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3133</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heme biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000218</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf6">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30828546</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26132003</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harderoporphyria: Case of lifelong photosensitivity associated with compound heterozygous coproporphyrinogen oxidase (CPOX) mutations.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Genet Metab Rep</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moghe A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramanujam VMS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phillips JD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desnick RJ</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porphyria Diagnostics-Part 1: A Brief Overview of the Porphyrias.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curr Protoc Hum Genet</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramanujam VS</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anderson KE</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cutaneous porphyria</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13271</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythropoietic protoporphyria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13270</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c22">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30098397</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular pathophysiology and genetic mutations in congenital sideroblastic anemia.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free Radic Biol Med</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujiwara T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harigae H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute porphyria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3133</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab6">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23720291</bp:ID>
@@ -975,40 +1016,45 @@ Abbreviation: AIP</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narang T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thapar M</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6427116</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f43">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15982550</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lead poisoning in inherited delta-aminolevulinic acid dehydratase deficiency.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int Arch Occup Environ Health</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doss M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laubenthal F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stoeppler M</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The porphyrias.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emerg Med Clin North Am</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dombeck TA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Satonik RC</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f12">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31085196</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Guide and Update on Porphyrias.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastroenterology</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stölzel U</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doss MO</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schuppan D</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatoerythropoietic porphyria</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5230</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">porphyria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13268</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b47">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31117811</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30828546</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecogenetics of lead toxicity and its influence on risk assessment.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hum Exp Toxicol</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harderoporphyria: Case of lifelong photosensitivity associated with compound heterozygous coproporphyrinogen oxidase (CPOX) mutations.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Genet Metab Rep</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mani MS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kabekkodu SP</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joshi MB</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dsouza HS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moghe A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramanujam VMS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phillips JD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desnick RJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anderson KE</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatic porphyria pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001980</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of metabolism pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001589</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d46">
@@ -1023,45 +1069,6 @@ Abbreviation: AIP</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamashita R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaneko K</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furuyama K</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inherited metabolic disorder</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:655</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythropoietic protoporphyria</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13270</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f12">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31085196</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Guide and Update on Porphyrias.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastroenterology</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stölzel U</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doss MO</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schuppan D</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e11">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12498316</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lead, chemical porphyria, and heme as a biological mediator.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tohoku J Exp Med</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujita H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nishitani C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ogawa K</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c22">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30098397</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular pathophysiology and genetic mutations in congenital sideroblastic anemia.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free Radic Biol Med</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujiwara T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harigae H</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

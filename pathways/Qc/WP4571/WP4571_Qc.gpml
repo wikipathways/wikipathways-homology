@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Urea cycle and related diseases" Data-Source="WikiPathways" Version="WP4571_Qc" Last-Modified="20220727043642" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Urea cycle and related diseases" Data-Source="WikiPathways" Version="WP4571_Qc" Last-Modified="20240129022303" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">The urea cycle converts toxic nitrogenous compounds to excretable urea in five biochemical reactions. It is also the source for endogenous arginine, ornithine and citrulline production. The process mainly takes place in the liver, partly in the mitochondria and partly in the cytoplasm of the hepatocytes. 
 Because there is no alternative way to convert toxic nitrogenous compounds, defects in the enzymes or transporters can lead to several diseases (diseases highlighted in pink). The diseases are characterised by hyperammonemia, respiratory alkalosis and encephalopathy and the severity of the disease depends on the severity of the defect and the place of the defect in the cycle. Severe forms usually have an onset in infancy, while mild forms can also present in adulthood. 
-This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [https://www.ncbi.nlm.nih.gov/books/NBK1217/]</Comment>
+This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [https://www.ncbi.nlm.nih.gov/books/NBK1217/] </Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4571.gpml (WP4571_r123434) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4571.gpml (WP4571_r128206) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>b96</BiopaxRef>
-  <Graphics BoardWidth="1359.0" BoardHeight="782.1657931853696" />
+  <Graphics BoardWidth="1276.0" BoardHeight="782.1657931853696" />
   <DataNode TextLabel="ARG1" GraphId="a0a6c" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = S:P05089</Comment>
     <Graphics CenterX="611.7250309798901" CenterY="594.663730636631" Width="51.5075534370967" Height="22.71296681938088" ZOrder="32768" FontSize="12" Valign="Middle" />
@@ -28,7 +28,7 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
     <Xref Database="ChEBI" ID="CHEBI:57743" />
   </DataNode>
   <DataNode TextLabel="Pyrimidine metabolism&#xA;and diseases" GraphId="b3308" Type="Pathway">
-    <Graphics CenterX="183.0" CenterY="324.38349834945325" Width="150.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
+    <Graphics CenterX="183.0" CenterY="324.38349834945325" Width="145.0" Height="35.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4225" />
   </DataNode>
   <DataNode TextLabel="SLC25A13" GraphId="b7f1d" Type="Protein">
@@ -57,7 +57,7 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
     <Xref Database="Ensembl" ID="ENSECAG00000012730" />
   </DataNode>
   <DataNode TextLabel="Pyrimidine metabolism&#xA;and diseases" GraphId="c5af8" Type="Pathway">
-    <Graphics CenterX="445.1845360215144" CenterY="75.0" Width="150.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
+    <Graphics CenterX="445.1845360215144" CenterY="75.0" Width="145.0" Height="35.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4225" />
   </DataNode>
   <DataNode TextLabel="Argininosuccinate" GraphId="cde55" Type="Metabolite">
@@ -86,7 +86,7 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
   </DataNode>
   <DataNode TextLabel="Carbamoyl-phosphate" GraphId="df5b8" Type="Metabolite">
     <Comment>(2-) charge needed for conversion to take place</Comment>
-    <Graphics CenterX="446.23027983453494" CenterY="324.38349834945325" Width="120.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Graphics CenterX="446.23027983453494" CenterY="324.38349834945325" Width="125.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:58228" />
   </DataNode>
   <DataNode TextLabel="Fumarate" GraphId="e3761" Type="Metabolite">
@@ -144,8 +144,8 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
   </DataNode>
   <Interaction GraphId="id230a28ea">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="386.23027983453494" Y="324.38349834945325" GraphRef="df5b8" RelX="-1.0" RelY="0.0" />
-      <Point X="258.0" Y="324.38349834945325" GraphRef="b3308" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="383.73027983453494" Y="324.38349834945325" GraphRef="df5b8" RelX="-1.0" RelY="0.0" />
+      <Point X="255.5" Y="324.38349834945325" GraphRef="b3308" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -230,7 +230,7 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
   <Interaction GraphId="id8c9bdf6d">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="537.640794094621" Y="388.0904317131244" GraphRef="d0c2b" RelX="0.0" RelY="-1.0" />
-      <Point X="590.1775453154821" Y="350.1556800175852" GraphRef="d6894" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="591.6775453154821" Y="350.1556800175852" GraphRef="d6894" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="Rhea" ID="19514" />
   </Interaction>
@@ -243,10 +243,10 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
   </Interaction>
   <Interaction GraphId="id9c1c7a1">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="506.23027983453494" Y="324.38349834945325" GraphRef="df5b8" RelX="1.0" RelY="0.0" />
+      <Point X="508.73027983453494" Y="324.38349834945325" GraphRef="df5b8" RelX="1.0" RelY="0.0" />
       <Point X="716.0984435369028" Y="388.8139525197832" GraphRef="c8e82" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.4" Shape="None" GraphId="d6894" />
-      <Anchor Position="0.4" Shape="None" GraphId="e05a4" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="Rhea" ID="19514" />
   </Interaction>
@@ -312,7 +312,7 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
   <Interaction GraphId="idd9db37c4">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="445.1845360215144" Y="125.1961811179502" GraphRef="f06ad" RelX="0.0" RelY="-1.0" />
-      <Point X="445.1845360215144" Y="87.5" GraphRef="c5af8" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="445.1845360215144" Y="92.5" GraphRef="c5af8" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -349,7 +349,7 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
   <Interaction GraphId="idee9909ab">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="603.4980062319709" Y="303.35018845028515" GraphRef="ebf10" RelX="0.0" RelY="1.0" />
-      <Point X="590.1775453154821" Y="350.1556800175852" GraphRef="d6894" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+      <Point X="591.6775453154821" Y="350.1556800175852" GraphRef="d6894" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -371,14 +371,14 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
   </Interaction>
   <GraphicalLine GraphId="a6a03">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1123.4852294921875" Y="267.0" />
-      <Point X="1197.4852294921875" Y="267.0" ArrowHead="mim-conversion" />
+      <Point X="1063.4852294921875" Y="267.0" />
+      <Point X="1137.4852294921875" Y="267.0" ArrowHead="mim-conversion" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="a720c">
     <BiopaxRef>cf7</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="590.1775453154821" Y="350.1556800175852" GraphRef="d6894" RelX="0.0" RelY="0.0" />
+      <Point X="591.6775453154821" Y="350.1556800175852" GraphRef="d6894" RelX="0.0" RelY="0.0" />
       <Point X="691.2349972490892" Y="312.2108924650744" GraphRef="c3367" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
@@ -391,14 +391,14 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
   </GraphicalLine>
   <GraphicalLine GraphId="ab91a">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1124.835205078125" Y="380.0" />
-      <Point X="1198.835205078125" Y="380.0" ArrowHead="Arrow" />
+      <Point X="1064.835205078125" Y="380.0" />
+      <Point X="1138.835205078125" Y="380.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="b9bed">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1125.0" Y="340.0" />
-      <Point X="1199.0" Y="340.0" ArrowHead="mim-catalysis" />
+      <Point X="1065.0" Y="340.0" />
+      <Point X="1139.0" Y="340.0" ArrowHead="mim-catalysis" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="dd209">
@@ -412,7 +412,7 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
     <BiopaxRef>b59</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="827.757406522653" Y="328.29819457424543" GraphRef="b7f1d" RelX="0.5" RelY="-1.0" />
-      <Point X="873.4922357453916" Y="303.7647919334023" GraphRef="e1ba9" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="888.4922357453916" Y="303.7647919334023" GraphRef="e1ba9" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="e494f">
@@ -424,8 +424,8 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
   </GraphicalLine>
   <GraphicalLine GraphId="e85e9">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1122.9852294921875" Y="304.0" />
-      <Point X="1197.9852294921875" Y="304.0" ArrowHead="mim-stimulation" />
+      <Point X="1062.9852294921875" Y="304.0" />
+      <Point X="1137.9852294921875" Y="304.0" ArrowHead="mim-stimulation" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="eacfe">
@@ -450,78 +450,78 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
     </Graphics>
   </GraphicalLine>
   <Label TextLabel="Disease" GraphId="a6959">
-    <Graphics CenterX="1162.2000122070312" CenterY="143.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1102.2000122070312" CenterY="143.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Catalysis" GraphId="a6ee3">
-    <Graphics CenterX="1284.0" CenterY="340.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="1196.0" CenterY="340.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Pathway" GraphId="af622">
-    <Graphics CenterX="1162.2000122070312" CenterY="237.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" Color="009933" />
+    <Graphics CenterX="1102.2000122070312" CenterY="237.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="009933" />
   </Label>
   <Label TextLabel="Stimulation" GraphId="beeef">
-    <Graphics CenterX="1284.0" CenterY="303.99961853027344" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="1196.0" CenterY="303.99961853027344" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Protein" GraphId="c9464">
-    <Graphics CenterX="1162.2000122070312" CenterY="203.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
+    <Graphics CenterX="1102.2000122070312" CenterY="203.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" />
   </Label>
   <Label TextLabel="N-acetylglutamate &#xA;synthase deficiency" GraphId="d2236" Href="https://omim.org/237310">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="837.9311783670391" CenterY="214.8299409710974" Width="160.0" Height="35.0" ZOrder="28672" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="837.9311783670391" CenterY="214.8299409710974" Width="160.0" Height="35.0" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Metabolite" GraphId="da9a5">
-    <Graphics CenterX="1162.2000122070312" CenterY="172.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" Color="0000ff" />
+    <Graphics CenterX="1102.2000122070312" CenterY="172.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="Rectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Hyperammonaemia" GraphId="ed2b1">
+  <Label TextLabel="Hyperammonemia" GraphId="ed2b1">
     <Graphics CenterX="322.0" CenterY="312.0" Width="120.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Conversion" GraphId="efd22">
-    <Graphics CenterX="1284.0" CenterY="266.99961853027344" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="1196.0" CenterY="266.99961853027344" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Mitochondrion" GraphId="f35b4">
     <Graphics CenterX="367.6323959667011" CenterY="392.2020557278086" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Connection &#xA;to disease&#xA;" GraphId="f530b">
-    <Graphics CenterX="1284.0" CenterY="379.99961853027344" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="1196.0" CenterY="379.99961853027344" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Legend" GraphId="fa0fd">
-    <Graphics CenterX="1215.0" CenterY="117.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="1147.0" CenterY="117.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Carbamoylphosphate &#xA;synthetase I deficiency" GraphId="a0cdd" Href="https://omim.org/237300">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="332.35034599308716" CenterY="272.0659754851332" Width="160.0" Height="35.0" ZOrder="32773" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="332.35034599308716" CenterY="272.0659754851332" Width="160.0" Height="35.0" ZOrder="32773" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Arginase deficiency" GraphId="abe26" Href="https://omim.org/207800">
     <Comment>aka Hyperargininemia</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="370.43007314339053" CenterY="608.7381412451604" Width="160.0" Height="35.0" ZOrder="32774" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="370.43007314339053" CenterY="608.7381412451604" Width="160.0" Height="35.0" ZOrder="32774" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Argininosuccinic &#xA;aciduria " GraphId="c826f" Href="https://omim.org/207900">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="717.6119875686404" CenterY="734.6657931853696" Width="160.0" Height="35.0" ZOrder="32775" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="717.6119875686404" CenterY="734.6657931853696" Width="160.0" Height="35.0" ZOrder="32775" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Citrullinemia type I " GraphId="f82c2" Href="https://www.omim.org/entry/215700">
     <Comment>aka Argininosuccinate Synthetase Deficiency</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="925.7192604933119" CenterY="544.7541957826218" Width="160.0" Height="35.0" ZOrder="32776" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="925.7192604933119" CenterY="544.7541957826218" Width="160.0" Height="35.0" ZOrder="32776" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Ornithine transcarbamylase &#xA;deficiency" GraphId="c3367" Href="https://omim.org/311250">
     <Comment>aka Ornithine Carbamoyltransferase Deficiency</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="731.2349972490892" CenterY="294.7108924650744" Width="160.0" Height="35.0" ZOrder="32777" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="731.2349972490892" CenterY="294.7108924650744" Width="160.0" Height="35.0" ZOrder="32777" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Ornithine translocase &#xA;deficiency" GraphId="afb9a" Href="https://omim.org/238970">
     <Comment>aka Hyperornithinemia-Hyperammonemia-Homocitrullinuria Syndrome</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="413.1042801096238" CenterY="485.1811680832587" Width="160.0" Height="35.0" ZOrder="32778" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="413.1042801096238" CenterY="485.1811680832587" Width="160.0" Height="35.0" ZOrder="32778" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Citrin deficiency" GraphId="e1ba9" Href="https://omim.org/605814">
     <Comment>aka Citrullinemia Type II</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="953.4922357453916" CenterY="295.0147919334023" Width="160.0" Height="35.0" ZOrder="32779" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="953.4922357453916" CenterY="295.0147919334023" Width="130.0" Height="35.0" ZOrder="32779" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Shape GraphId="bb387">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Extracellular region" />
-    <Graphics CenterX="1215.75" CenterY="252.0" Width="224.5" Height="292.0" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="1144.75" CenterY="252.0" Width="202.5" Height="292.0" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineStyle="Broken" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="e3b5f">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Mitochondria" />
@@ -532,12 +532,84 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
   </Shape>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b59">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301360</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrin Deficiency</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301360</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrin Deficiency</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301360</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrin Deficiency</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takeyori Saheki</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yuan-Zong Song</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea cycle disorder</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9267</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b08">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30337552</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-Acetylglutamate Synthase Deficiency Due to a Recurrent Sequence Variant in the N-acetylglutamate Synthase Enhancer Region</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sci Rep</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Williams M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burlina A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rubert L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polo G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruijter GJG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">et al.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f42">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301338</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arginase deficiency</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301338</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arginase deficiency</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301338</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arginase deficiency</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Derek Wong</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephen Cederbaum</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eric A Crombez</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of urea cycle pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002142</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbamoyl phosphate synthetase I deficiency disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9280</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ornithine carbamoyltransferase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9271</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b96">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301396</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urea Cycle Disorders Overview</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301396</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urea Cycle Disorders Overview</bp:TITLE>
@@ -550,26 +622,25 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimberly A Chapman</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marshall L Summar</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000182</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f42">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301338</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dda">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301631</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arginase deficiency</bp:TITLE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrullinemia Type I</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Derek Wong</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephen Cederbaum</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eric A Crombez</bp:AUTHORS>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301631</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrullinemia Type I</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301631</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrullinemia Type I</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shane C Quinonez</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jess G Thoene</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperargininemia</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9278</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f13">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16940241</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -586,19 +657,21 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qu Y</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cederbaum SD</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b08">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30337552</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-Acetylglutamate Synthase Deficiency Due to a Recurrent Sequence Variant in the N-acetylglutamate Synthase Enhancer Region</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sci Rep</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Williams M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burlina A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rubert L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polo G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruijter GJG</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">et al.</bp:AUTHORS>
-    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperargininemia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9278</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea cycle pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000076</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">citrullinemia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9273</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a94">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28658158</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -612,52 +685,9 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mu D</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">citrullinemia</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9273</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error of urea cycle pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002142</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbamoyl phosphate synthetase I deficiency disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9280</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dda">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301631</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrullinemia Type I</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shane C Quinonez</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jess G Thoene</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">argininosuccinic aciduria</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14755</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b59">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20301360</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrin Deficiency</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneReviews® [Internet]</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takeyori Saheki</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yuan-Zong Song</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea cycle pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000076</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea cycle disorder</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9267</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b16">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30158522</bp:ID>
@@ -673,9 +703,9 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">et al.</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ornithine carbamoyltransferase deficiency</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9271</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">argininosuccinic aciduria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14755</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf7">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28293384</bp:ID>
@@ -692,6 +722,11 @@ This pathway is based on: Mew NA, et al. Urea cycle disorders overview (2003) [h
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo F</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakamura K</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000182</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
