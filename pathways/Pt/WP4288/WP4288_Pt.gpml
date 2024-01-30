@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MTHFR deficiency" Data-Source="WikiPathways" Version="WP4288_Pt" Last-Modified="20221006123416" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="MTHFR deficiency" Data-Source="WikiPathways" Version="WP4288_Pt" Last-Modified="20240130015950" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">There are currently three hypothesis for demyelination in the Central Nervous System (CNS) of methylenetetrahydrofolate reductase (MTHFR) deficient patients. These three possible mechanisms are: inadequate methionine synthesis, a deficiency of S-adenosylmethionine or accumulation of toxic intermediates from the elevated levels of homocysteine. This pathway includes all three of these possible mechanisms. This pathway was inspired by Chapter 10 of the book of Blau(ISBN 3642403360 (978-3642403361)) and the paper by Prasad et al. (2011, https://www.ncbi.nlm.nih.gov/pubmed/21778025).
 
 For an overview of disorders related to folate metabolism and transport, please see [https://www.wikipathways.org/index.php/Pathway:WP4259].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4288.gpml (WP4288_r124269) with a 89.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4288.gpml (WP4288_r128288) with a 89.0% conversion rate.</Comment>
   <BiopaxRef>fae</BiopaxRef>
   <Graphics BoardWidth="2262.1092229178735" BoardHeight="1450.966427989538" />
   <DataNode TextLabel="Choline" GraphId="a3294" Type="Metabolite">
@@ -43,7 +43,7 @@ For an overview of disorders related to folate metabolism and transport, please 
     <Graphics CenterX="286.34775099266835" CenterY="1030.1157512239042" Width="144.6955019853367" Height="25.0" ZOrder="32768" FontSize="18" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000043922" />
   </DataNode>
-  <DataNode TextLabel="phosphatidylcholine" GraphId="ad978" Type="Metabolite">
+  <DataNode TextLabel="Phosphatidylcholine" GraphId="ad978" Type="Metabolite">
     <Comment>Methionine Hypothesis</Comment>
     <Graphics CenterX="1946.6115458466836" CenterY="1293.4992949987275" Width="187.22309169336722" Height="25.0" ZOrder="32768" FontSize="18" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:49183" />
@@ -182,7 +182,7 @@ For an overview of disorders related to folate metabolism and transport, please 
     <Graphics CenterX="816.6782455259964" CenterY="1232.0224330173883" Width="128.21865407588484" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP254" />
   </DataNode>
-  <DataNode TextLabel="sphingomyelin" GraphId="e9371" Type="Metabolite">
+  <DataNode TextLabel="Sphingomyelin" GraphId="e9371" Type="Metabolite">
     <Comment>Methionine Hypothesis</Comment>
     <Graphics CenterX="2155.693532324677" CenterY="1385.3223779035072" Width="136.61293535064578" Height="25.0" ZOrder="32768" FontSize="18" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:64583" />
@@ -202,7 +202,7 @@ For an overview of disorders related to folate metabolism and transport, please 
     <Graphics CenterX="1603.868680635688" CenterY="466.57209537029416" Width="90.0" Height="25.0" ZOrder="32768" FontSize="18" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16680" />
   </DataNode>
-  <DataNode TextLabel="Oxidative Damage" GraphId="f2c4d" Type="Pathway">
+  <DataNode TextLabel="Oxidative damage" GraphId="f2c4d" Type="Pathway">
     <Graphics CenterX="1006.7264895262451" CenterY="1052.6424326406302" Width="185.76530612244864" Height="31.66259461531081" ZOrder="32768" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP3941" />
   </DataNode>
@@ -212,16 +212,16 @@ For an overview of disorders related to folate metabolism and transport, please 
     <Graphics CenterX="1729.0" CenterY="678.0" Width="119.13131936431182" Height="25.0" ZOrder="32768" FontSize="18" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000045230" />
   </DataNode>
-  <DataNode TextLabel="phosphatidylethanolamine" GraphId="f44a8" Type="Metabolite">
+  <DataNode TextLabel="Phosphatidylethanolamine" GraphId="f44a8" Type="Metabolite">
     <Comment>Methionine Hypothesis</Comment>
     <Graphics CenterX="1657.5" CenterY="1293.4992949987275" Width="235.0" Height="24.99999999999995" ZOrder="32768" FontSize="18" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16038" />
   </DataNode>
   <DataNode TextLabel="Folate metabolism &#xA;and related disorders" GraphId="f5882" Type="Pathway">
-    <Graphics CenterX="560.2358490566041" CenterY="313.56132075471686" Width="271.4150943396224" Height="52.12264150943432" ZOrder="32768" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
+    <Graphics CenterX="560.2358490566041" CenterY="313.56132075471686" Width="271.4150943396224" Height="60.0" ZOrder="32768" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4259" />
   </DataNode>
-  <DataNode TextLabel="reactive oxygen species" GraphId="f6cc5" Type="Metabolite">
+  <DataNode TextLabel="Reactive oxygen species" GraphId="f6cc5" Type="Metabolite">
     <Comment>Toxic Hypothesis</Comment>
     <Graphics CenterX="1039.736039538914" CenterY="937.3941223613012" Width="224.52792092217214" Height="25.0" ZOrder="32768" FontSize="18" Valign="Middle" Color="0000ff" />
     <Xref Database="Wikidata" ID="Q424361" />
@@ -255,7 +255,7 @@ For an overview of disorders related to folate metabolism and transport, please 
     <Graphics CenterX="1705.8784868639884" CenterY="909.9844664252059" Width="90.0" Height="25.0" ZOrder="32768" FontSize="18" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000051135" />
   </DataNode>
-  <DataNode TextLabel="betaine" GraphId="ed24c" Type="Metabolite">
+  <DataNode TextLabel="Betaine" GraphId="ed24c" Type="Metabolite">
     <Comment>Methionine Hypothesis</Comment>
     <Graphics CenterX="1645.0960125345468" CenterY="961.363903388878" Width="90.0" Height="25.0" ZOrder="32769" FontSize="18" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17750" />
@@ -448,7 +448,7 @@ For an overview of disorders related to folate metabolism and transport, please 
   <Interaction GraphId="id646f2d5f">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="816.3391227629982" Y="711.8906012345395" GraphRef="a6160" RelX="0.0" RelY="1.0" />
-      <Point X="816.6757297807609" Y="752.7405831770463" GraphRef="ae212" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="816.6757297807609" Y="752.7405831770463" GraphRef="c33eb" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -514,7 +514,7 @@ For an overview of disorders related to folate metabolism and transport, please 
   <Interaction GraphId="id869de591">
     <Comment>Influx of calcium</Comment>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="816.6757297807609" Y="851.7405831770468" GraphRef="ae212" RelX="0.0" RelY="1.0" />
+      <Point X="816.6757297807609" Y="851.7405831770468" GraphRef="c33eb" RelX="0.0" RelY="1.0" />
       <Point X="816.6782455259964" Y="924.894122361301" GraphRef="bc5e0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -553,7 +553,7 @@ For an overview of disorders related to folate metabolism and transport, please 
   </Interaction>
   <Interaction GraphId="idb35d1596">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineStyle="Broken" LineThickness="1.0" Color="ff0000">
-      <Point X="1672.5279580921392" Y="1204.7246217932186" GraphRef="f0244" RelX="1.0" RelY="0.0" />
+      <Point X="1672.5279580921392" Y="1204.7246217932186" GraphRef="a3388" RelX="1.0" RelY="0.0" />
       <Point X="1819.9029241791409" Y="1271.770138317967" GraphRef="ba3d6" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -584,7 +584,7 @@ For an overview of disorders related to folate metabolism and transport, please 
   <Interaction GraphId="idbe61ba75">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="693.1043018640236" Y="697.3906012345395" GraphRef="b57a3" RelX="1.0" RelY="0.0" />
-      <Point X="788.1757297807609" Y="752.7405831770463" GraphRef="ae212" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="788.1757297807609" Y="752.7405831770463" GraphRef="c33eb" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -673,7 +673,7 @@ For an overview of disorders related to folate metabolism and transport, please 
   <Interaction GraphId="idf81b9b22">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="764.1509433962264" Y="313.561320754717" GraphRef="e42a5" RelX="-1.0" RelY="0.0" />
-      <Point X="695.9433962264154" Y="313.5613207547169" GraphRef="f5882" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="695.9433962264154" Y="313.56132075471686" GraphRef="f5882" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -733,14 +733,14 @@ For an overview of disorders related to folate metabolism and transport, please 
     <Comment>SAH acts as a competetive inhibitor for several proteins.</Comment>
     <Graphics ZOrder="32802" LineThickness="1.0">
       <Point X="1603.868680635688" Y="479.07209537029416" GraphRef="f0b0a" RelX="0.0" RelY="1.0" />
-      <Point X="1729.217170158922" Y="582.5" GraphRef="a9d3e" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="1729.217170158922" Y="582.5" GraphRef="dc616" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <GraphicalLine GraphId="ad1e8">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="358.6955019853367" Y="1030.1157512239042" GraphRef="a8879" RelX="1.0" RelY="0.0" />
-      <Point X="396.4707921165917" Y="1095.6185805154034" GraphRef="a9830" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="396.4707921165917" Y="1091.8214107040828" GraphRef="a9830" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="ad581">
@@ -752,25 +752,25 @@ For an overview of disorders related to folate metabolism and transport, please 
   <GraphicalLine GraphId="c39eb">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="453.80229770914843" Y="1030.1157512239038" GraphRef="d7a26" RelX="-1.0" RelY="0.0" />
-      <Point X="396.4707921165917" Y="1095.6185805154034" GraphRef="a9830" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="396.4707921165917" Y="1091.8214107040828" GraphRef="a9830" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="c72c0">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0" Color="00ff33">
       <Point X="2050.999999999997" Y="466.5720953702943" GraphRef="b0961" RelX="1.0" RelY="0.0" />
-      <Point X="2085.804244391348" Y="497.933618836023" ArrowHead="Arrow" />
+      <Point X="2062.4528295942323" Y="504.24815170832255" GraphRef="ab4de" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="d17ea">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="396.4707921165917" Y="1118.0242408927622" GraphRef="a9830" RelX="0.0" RelY="1.0" />
+      <Point X="396.4707921165917" Y="1121.8214107040828" GraphRef="a9830" RelX="0.0" RelY="1.0" />
       <Point X="367.1614413307942" Y="1219.5224330173885" GraphRef="b81d4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="dab15">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0" Color="00ff33">
       <Point X="1152.0" Y="937.3941223613012" GraphRef="f6cc5" RelX="1.0" RelY="0.0" />
-      <Point X="1196.7069739219166" Y="1085.713951315413" GraphRef="f7532" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="1196.7069739219166" Y="1083.8607619996328" GraphRef="f7532" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="f4aee">
@@ -781,24 +781,24 @@ For an overview of disorders related to folate metabolism and transport, please 
   </GraphicalLine>
   <Label TextLabel="Mitochrondrial dysfunction" GraphId="a9830">
     <Comment>Mitochrondrial dysfunction</Comment>
-    <Graphics CenterX="396.4707921165917" CenterY="1106.8214107040828" Width="316.1071396647285" Height="22.4056603773588" ZOrder="28672" FillColor="00ff33" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" LineThickness="0.0" />
+    <Graphics CenterX="396.4707921165917" CenterY="1106.8214107040828" Width="250.0" Height="30.0" ZOrder="28672" FillColor="55ffaa" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" LineThickness="0.0" />
   </Label>
-  <Label TextLabel="Inadequate methionine  synthesis" GraphId="b45d6">
+  <Label TextLabel="Inadequate methionine synthesis" GraphId="b45d6">
     <Comment>Inadequate methionine  synthesis</Comment>
-    <Graphics CenterX="1747.191081406846" CenterY="829.0625433582583" Width="409.61783718630795" Height="49.92208435854293" ZOrder="28672" FillColor="990099" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
+    <Graphics CenterX="1707.191081406846" CenterY="829.0625433582583" Width="325.0" Height="49.92208435854293" ZOrder="28672" FillColor="eeaaee" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
   </Label>
   <Label TextLabel="Influx of calcium" GraphId="be5eb">
     <Comment>Influx of calcium</Comment>
     <Graphics CenterX="814.635529408672" CenterY="881.5423082989528" Width="171.27105881734406" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="18" Valign="Middle" />
   </Label>
   <Label TextLabel="SAM is decreased &#xA;in MTHFR deficiency" GraphId="cfb34">
-    <Graphics CenterX="1674.6928601225688" CenterY="95.12846590057464" Width="184.6142797548623" Height="65.74306819885072" ZOrder="28672" FillColor="ff0000" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
+    <Graphics CenterX="1674.6928601225688" CenterY="95.12846590057464" Width="184.6142797548623" Height="65.74306819885072" ZOrder="28672" FillColor="ff8888" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
   </Label>
   <Label TextLabel="Oligodendrocyte" GraphId="e0ff6">
-    <Graphics CenterX="339.43273774416843" CenterY="825.3284093853222" Width="247.1054004111379" Height="44.00682105726369" ZOrder="28672" FillColor="0000cc" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" Color="ffff00" />
+    <Graphics CenterX="339.43273774416843" CenterY="825.3284093853222" Width="247.1054004111379" Height="44.00682105726369" ZOrder="28672" FillColor="5555cc" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" Color="ffff00" />
   </Label>
   <Label TextLabel="MTHFR deficiency" GraphId="e42a5" Href="https://www.omim.org/236250">
-    <Graphics CenterX="880.0471698113209" CenterY="313.561320754717" Width="231.79245283018918" Height="55.89622641509436" ZOrder="28672" FillColor="ffcccc" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="880.0471698113209" CenterY="313.561320754717" Width="231.79245283018918" Height="55.89622641509436" ZOrder="28672" FillColor="ffdddd" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Auto-oxidation" GraphId="e4752">
     <Comment>Auto-oxidation</Comment>
@@ -815,7 +815,7 @@ For an overview of disorders related to folate metabolism and transport, please 
   </Label>
   <Label TextLabel="Deficiency of S-adenosylmethionine" GraphId="f5ab9">
     <Comment>Deficiency of S-adenosylmethionine</Comment>
-    <Graphics CenterX="1994.9202382790413" CenterY="85.68666939227654" Width="415.61997665193667" Height="46.49598497500985" ZOrder="28672" FillColor="ff00cc" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
+    <Graphics CenterX="1994.9202382790413" CenterY="85.68666939227654" Width="415.61997665193667" Height="46.49598497500985" ZOrder="28672" FillColor="ff88dd" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
   </Label>
   <Label TextLabel="Toxic intermediates from the &#xA;elevated levels of homocysteine" GraphId="f7901">
     <Graphics CenterX="1109.240547568872" CenterY="701.3027624448271" Width="368.12327106154277" Height="46.49598497500983" ZOrder="28672" FillColor="ffff00" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
@@ -825,30 +825,30 @@ For an overview of disorders related to folate metabolism and transport, please 
     <BiopaxRef>a04</BiopaxRef>
     <Graphics CenterX="347.4875395210248" CenterY="917.9002254397327" Width="248.97507904204963" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="18" Valign="Middle" />
   </Label>
-  <Label TextLabel="This is just a example of a inhibited methylation. &#xA;Due to SAM deficiency all methylation reactions are inhibited." GraphId="feb6e">
+  <Label TextLabel="This is only one example of an inhibited methylation. &#xA;Due to SAM deficiency all methylation reactions are inhibited." GraphId="feb6e">
     <Graphics CenterX="1894.1511958397427" CenterY="187.7103149476361" Width="569.2547726318667" Height="114.57937010472779" ZOrder="28672" FillColor="ffffff" FontSize="18" Valign="Middle" />
   </Label>
   <Label TextLabel="MBP methylation &#xA;is decreased &#xA;in MTHFR deficiency" GraphId="b1eb5">
     <Comment>MBP methylation 
 is decreased 
 in MTHFR deficiency</Comment>
-    <Graphics CenterX="2030.2247276237597" CenterY="379.6916461487302" Width="221.6457828477187" Height="67.47853039269842" ZOrder="32778" FillColor="ff0000" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
+    <Graphics CenterX="2030.2247276237597" CenterY="379.6916461487302" Width="221.6457828477187" Height="67.47853039269842" ZOrder="32778" FillColor="ff8888" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
   </Label>
-  <Label TextLabel="MBP is a component of myelin sheat.  &#xA;Methylation is needed for structure stability." GraphId="ab4de">
+  <Label TextLabel="MBP is a component of myelin sheath.  &#xA;Methylation is needed for structure stability." GraphId="ab4de">
     <Comment>MBP is a component of myelin sheat.  Methylation is needed for structure stability.</Comment>
-    <Graphics CenterX="1956.2028295942323" CenterY="519.2481517083226" Width="518.4056591884646" Height="42.62906574459908" ZOrder="32779" FillColor="00ff33" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" LineThickness="0.0" />
+    <Graphics CenterX="1956.2028295942323" CenterY="529.2481517083226" Width="425.0" Height="50.0" ZOrder="32779" FillColor="55ffaa" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" LineThickness="0.0" />
   </Label>
-  <Label TextLabel="Homocystein levels are&#xA;elevated in MTHFR deficiency." GraphId="c37fc">
-    <Graphics CenterX="816.0785016014339" CenterY="617.3952600423366" Width="256.1570032028678" Height="44.79052008467329" ZOrder="32780" FillColor="ff0000" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
+  <Label TextLabel="Homocysteine levels are&#xA;elevated in MTHFR deficiency." GraphId="c37fc">
+    <Graphics CenterX="816.0785016014339" CenterY="617.3952600423366" Width="256.1570032028678" Height="44.79052008467329" ZOrder="32780" FillColor="ff8888" FontSize="18" Valign="Middle" ShapeType="Rectangle" />
   </Label>
   <Label TextLabel="Excitotoxicity" GraphId="c5db1">
     <Comment>Excitotoxicity is the pathological process by which nerve cells are damaged or killed by excessive stimulation by neurotransmitters such as glutamate and similar substances. This occurs when receptors for the excitatory neurotransmitter glutamate (glutamate receptors) such as the NMDA receptor and are overactivated.</Comment>
     <BiopaxRef>bd9</BiopaxRef>
     <BiopaxRef>a9a</BiopaxRef>
-    <Graphics CenterX="816.6782455259962" CenterY="1047.2769061483434" Width="150.71138041148424" Height="31.929193875203055" ZOrder="32793" FillColor="00ff33" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" LineThickness="0.0" />
+    <Graphics CenterX="816.6782455259962" CenterY="1047.2769061483434" Width="150.71138041148424" Height="31.929193875203055" ZOrder="32793" FillColor="55ffaa" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" LineThickness="0.0" />
   </Label>
-  <Label TextLabel="Lipid &amp; Protein &#xA;oxidation" GraphId="f7532">
-    <Graphics CenterX="1196.7069739219166" CenterY="1108.8607619996328" Width="169.2982892685837" Height="46.293621368439545" ZOrder="32796" FillColor="00ff33" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" LineThickness="0.0" />
+  <Label TextLabel="Lipid and protein &#xA;oxidation" GraphId="f7532">
+    <Graphics CenterX="1196.7069739219166" CenterY="1108.8607619996328" Width="169.2982892685837" Height="50.0" ZOrder="32796" FillColor="55ffaa" FontWeight="Bold" FontSize="18" Valign="Middle" ShapeType="Rectangle" LineThickness="0.0" />
   </Label>
   <Shape GraphId="a7386">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Mitochondria" />
@@ -868,7 +868,7 @@ in MTHFR deficiency</Comment>
     <Graphics CenterX="1880.5808386383976" CenterY="1106.0198087724561" Width="703.0567685589517" Height="629.8932384341638" ZOrder="-2" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="990099" Rotation="0.0" />
   </Shape>
   <Shape GraphId="aae73">
-    <Graphics CenterX="1638.0" CenterY="1172.104096092558" Width="196.0" Height="146.20819218511588" ZOrder="16384" FillColor="ff0000" FontSize="18" Valign="Middle" ShapeType="RoundedRectangle" Color="ff0000" Rotation="0.0" />
+    <Graphics CenterX="1638.0" CenterY="1172.104096092558" Width="196.0" Height="146.20819218511588" ZOrder="16384" FillColor="ff8888" FontSize="18" Valign="Middle" ShapeType="RoundedRectangle" Color="ff0000" Rotation="0.0" />
   </Shape>
   <Shape GraphId="df351">
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
@@ -876,28 +876,87 @@ in MTHFR deficiency</Comment>
   </Shape>
   <Shape GraphId="fbee6">
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="771.3877158114934" CenterY="962.6823150353034" Width="1200.152108140378" Height="684.843389968673" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="ffff00" Rotation="0.0" />
+    <Graphics CenterX="771.3877158114934" CenterY="962.6823150353034" Width="1200.152108140378" Height="684.843389968673" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="eeee00" Rotation="0.0" />
   </Shape>
-  <Group GroupId="f0244" GraphId="f0244" Style="Group" />
-  <Group GroupId="ae212" GraphId="ae212" Style="Complex">
+  <Group GroupId="f0244" GraphId="a3388" Style="Group" />
+  <Group GroupId="ae212" GraphId="c33eb" Style="Complex">
     <BiopaxRef>bd9</BiopaxRef>
   </Group>
-  <Group GroupId="a9d3e" GraphId="a9d3e" Style="Group">
+  <Group GroupId="a9d3e" GraphId="dc616" Style="Group">
     <BiopaxRef>fc0</BiopaxRef>
   </Group>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd9">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24959120</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inherited metabolic disorder</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:655</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17086380</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The NMDA receptor complex: a multifunctional machine at the glutamatergic synapse.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Front Cell Neurosci</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fan X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jin WY</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang YT</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betaine homocysteine S-methyltransferase: just a regulator of homocysteine metabolism?</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Mol Life Sci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pajares MA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perez-Sala D</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a9a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23176034</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Novel crosstalk between ERK MAPK and p38 MAPK leads to homocysteine-NMDA receptor-mediated neuronal cell death.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurochem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poddar R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperhomocysteinemia disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001840</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methylenetetrahydrofolate reductase deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002343</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a04">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28003096</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conformational status of cytochrome c upon N-homocysteinylation: Implications to cytochrome c release.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arch Biochem Biophys</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharma GS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singh LR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligodendrocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000128</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12163693</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevation in S-adenosylhomocysteine and DNA hypomethylation: potential epigenetic mechanism for homocysteine-related pathology.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Nutr</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James SJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melnyk S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pogribna M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pogribny IP</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caudill MA</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c18">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18204095</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphatidylcholine and choline homeostasis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Lipid Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18204095</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphatidylcholine and choline homeostasis.</bp:TITLE>
@@ -916,52 +975,6 @@ in MTHFR deficiency</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obeid LM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hannun YA</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc0">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12163693</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevation in S-adenosylhomocysteine and DNA hypomethylation: potential epigenetic mechanism for homocysteine-related pathology.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Nutr</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James SJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melnyk S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pogribna M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pogribny IP</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caudill MA</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S-adenosylmethionine homeostasis pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001693</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4d">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17086380</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betaine homocysteine S-methyltransferase: just a regulator of homocysteine metabolism?</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Mol Life Sci</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pajares MA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perez-Sala D</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inherited metabolic disorder</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:655</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fae">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21778025</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylenetetrahydrofolate reductase (MTHFR) deficiency and infantile epilepsy.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brain Dev</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prasad AN</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rupar CA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prasad C</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methylenetetrahydrofolate reductase deficiency pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002343</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e47">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20446114</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -970,11 +983,16 @@ in MTHFR deficiency</Comment>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ueland PM</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">folate metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000140</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24959120</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The NMDA receptor complex: a multifunctional machine at the glutamatergic synapse.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Front Cell Neurosci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fan X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jin WY</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang YT</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ade">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24622826</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -990,38 +1008,25 @@ in MTHFR deficiency</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drgova A</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligodendrocyte</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000128</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">folate metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000140</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a04">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28003096</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conformational status of cytochrome c upon N-homocysteinylation: Implications to cytochrome c release.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arch Biochem Biophys</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharma GS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singh LR</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a9a">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23176034</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Novel crosstalk between ERK MAPK and p38 MAPK leads to homocysteine-NMDA receptor-mediated neuronal cell death.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurochem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poddar R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul S</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperhomocysteinemia disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001840</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S-adenosylmethionine homeostasis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001693</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fae">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21778025</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylenetetrahydrofolate reductase (MTHFR) deficiency and infantile epilepsy.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brain Dev</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prasad AN</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rupar CA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prasad C</bp:AUTHORS>
+    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 
