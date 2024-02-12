@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cholesterol biosynthesis with skeletal dysplasias" Data-Source="WikiPathways" Version="WP4804_Dr" Last-Modified="20210522120435" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cholesterol biosynthesis with skeletal dysplasias" Data-Source="WikiPathways" Version="WP4804_Dr" Last-Modified="20240211143426" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">Issue: Unable to find 4,4,14-alpha-trimethylcholesta-8(9)-en-3beta-ol from metabolite databases.
 
 Taken from Radiographic features of the skeleton in disorders of post-squalene cholesterol biosynthesis by Rossi M, Hall CM, Bouvier R, Collardeau-Frachon S, Le Breton F, Bucourt M, Cordier MP, Vianey-Saban C, Parenti G, Andria G, Le Merrer M, Edery P, Offiah AC [https://www.ncbi.nlm.nih.gov/pubmed/25646736].
 
-Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.</Comment>
+Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.
+</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4804.gpml (WP4804_r117680) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4804.gpml (WP4804_r128524) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>bb9</BiopaxRef>
   <Graphics BoardWidth="1783.3745114461203" BoardHeight="1063.1484993478036" />
   <DataNode TextLabel="4,4-Dimethylcholesta-8(9),14-dien-3beta-ol" GraphId="a41ff" Type="Metabolite">
@@ -47,7 +48,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics CenterX="1065.3162711864406" CenterY="540.1201458914389" Width="239.22996902307068" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:87044" />
   </DataNode>
-  <DataNode TextLabel="vitamin Ds" GraphId="d3900" Type="Metabolite">
+  <DataNode TextLabel="Vitamin D" GraphId="d3900" Type="Metabolite">
     <Graphics CenterX="1317.2993264040622" CenterY="1009.4268403813462" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:27300" />
   </DataNode>
@@ -276,7 +277,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
       <Point X="641.4391571732788" Y="794.2518580724127" GraphRef="ffb16" RelX="0.0" RelY="1.0" />
       <Point X="641.4391571732788" Y="888.3663801259707" GraphRef="bf365" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.47576257951254713" Shape="None" GraphId="d301f" />
-      <Anchor Position="0.4" Shape="None" GraphId="ae433" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -522,36 +523,46 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
       <Point X="868.7280523645609" Y="170.886075949366" GraphRef="a31a7" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
-  <Label TextLabel="OMIM:308050&#xA;Congenital Hemidysplasia With Ichthyosiform &#xA;Erythroderma And Limb Defects" GraphId="e6f03" Href="https://omim.org/entry/308050">
+  <Label TextLabel="OMIM:308050&#xA;Congenital hemidysplasia with ichthyosiform &#xA;erythroderma and limb defects" GraphId="e6f03" Href="https://omim.org/entry/308050">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1471.5524823421365" CenterY="602.468475055095" Width="270.4367019823959" Height="52.205136056015924" ZOrder="32824" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1471.5524823421365" CenterY="602.468475055095" Width="270.4367019823959" Height="52.205136056015924" ZOrder="32824" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:215140&#xA;Greenberg Dysplasia" GraphId="a1108" Href="https://omim.org/entry/215140">
+  <Label TextLabel="OMIM:215140&#xA;Greenberg dysplasia" GraphId="a1108" Href="https://omim.org/entry/215140">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1450.4105531821233" CenterY="475.28097505509385" Width="156.63337263630387" Height="39.0" ZOrder="32825" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1450.4105531821233" CenterY="475.28097505509385" Width="156.63337263630387" Height="39.0" ZOrder="32825" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:302960&#xA;Chondrodysplasia Punctata 2, X-Linked Dominant" GraphId="df1fc" Href="https://omim.org/entry/302960">
+  <Label TextLabel="OMIM:302960&#xA;Chondrodysplasia punctata 2, X-linked dominant" GraphId="df1fc" Href="https://omim.org/entry/302960">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1606.3263813054248" CenterY="817.9327625950261" Width="294.09626028139144" Height="39.0" ZOrder="32826" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1606.3263813054248" CenterY="817.9327625950261" Width="294.09626028139144" Height="39.0" ZOrder="32826" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:215140&#xA;Greenberg Dysplasia" GraphId="f875c" Href="https://omim.org/entry/215140">
+  <Label TextLabel="OMIM:215140&#xA;Greenberg dysplasia" GraphId="f875c" Href="https://omim.org/entry/215140">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="247.88359593961985" CenterY="476.4218220472835" Width="174.15075648402637" Height="39.0" ZOrder="32827" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="247.88359593961985" CenterY="476.4218220472835" Width="174.15075648402637" Height="39.0" ZOrder="32827" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:302960&#xA;Chondrodysplasia Punctata 2, X-Linked Dominant" GraphId="e535f" Href="https://omim.org/entry/302960">
+  <Label TextLabel="OMIM:302960&#xA;Chondrodysplasia punctata 2, X-linked dominant" GraphId="e535f" Href="https://omim.org/entry/302960">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="247.8835959396198" CenterY="718.1710536640779" Width="298.57833139419284" Height="40.985902601082046" ZOrder="32828" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="247.8835959396198" CenterY="718.1710536640779" Width="298.57833139419284" Height="40.985902601082046" ZOrder="32828" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:308050&#xA;Congenital Hemidysplasia With Ichthyosiform &#xA;Erythroderma And Limb Defects" GraphId="aee73" Href="https://omim.org/entry/308050">
+  <Label TextLabel="OMIM:308050&#xA;Congenital hemidysplasia with ichthyosiform &#xA;erythroderma and limb defects" GraphId="aee73" Href="https://omim.org/entry/308050">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="247.88359593961985" CenterY="603.609322047284" Width="265.29043377545725" Height="51.756676129561704" ZOrder="32829" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="247.88359593961985" CenterY="603.609322047284" Width="265.29043377545725" Height="51.756676129561704" ZOrder="32829" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="OMIM:602398&#xA;Desmosterolosis" GraphId="a31a7" Href="https://omim.org/entry/602398">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="868.7280523645609" CenterY="149.27150672265327" Width="144.52113601269923" Height="43.229138453425406" ZOrder="32831" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="868.7280523645609" CenterY="149.27150672265327" Width="144.52113601269923" Height="43.229138453425406" ZOrder="32831" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:630</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb9">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25646736</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -573,18 +584,8 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Offiah AC</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:630</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol biosynthetic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000454</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
