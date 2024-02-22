@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Type 2 papillary renal cell carcinoma" Data-Source="WikiPathways" Version="WP4241_Dr" Last-Modified="20220725111338" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Type 2 papillary renal cell carcinoma" Data-Source="WikiPathways" Version="WP4241_Dr" Last-Modified="20240221044247" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">Renal cell carcinoma (RCC), the most common form of kidney cancer in adults, is not a single disease but rather a collection of different tumor types driven by distinct genetic changes that arise within the same tissue. Papillary RCC represents 15 to 20 percent of RCC diagnoses and can manifest as an aggressive, solitary tumor or as multiple, slow-growing tumors. Papillary RCC itself has two main subtypes, type 1 and type 2, that are distinguished histologically. Little is currently known about the genetic basis of non-hereditary papillary RCC and patients receive treatment simply based on disease stage. If caught early, the disease can usually be cured surgically. From https://ccr.cancer.gov/news/article/understanding-papillary-renal-cell-carcinoma
 
-Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
+Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]
+</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4241.gpml (WP4241_r123413) with a 94.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4241.gpml (WP4241_r128737) with a 94.0% conversion rate.</Comment>
   <BiopaxRef>f0e</BiopaxRef>
   <BiopaxRef>a25</BiopaxRef>
   <BiopaxRef>d31</BiopaxRef>
@@ -19,7 +20,7 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
     <Graphics CenterX="576.8334931671056" CenterY="233.70665935998028" Width="57.790697674418624" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:25805" />
   </DataNode>
-  <DataNode TextLabel="Citrate Cycle" GraphId="bc0da" Type="Pathway">
+  <DataNode TextLabel="Citrate cycle" GraphId="bc0da" Type="Pathway">
     <Graphics CenterX="881.8776036726904" CenterY="155.69986067655046" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP78" />
   </DataNode>
@@ -28,8 +29,8 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
     <Graphics CenterX="344.8567489810598" CenterY="112.77642680184033" Width="63.60465116279063" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000008697" />
   </DataNode>
-  <DataNode TextLabel="VEGF Signaling" GraphId="e708d" Type="Pathway">
-    <Graphics CenterX="357.69656699889293" CenterY="914.7286821705429" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
+  <DataNode TextLabel="VEGF signaling" GraphId="e708d" Type="Pathway">
+    <Graphics CenterX="357.69656699889293" CenterY="914.7286821705429" Width="100.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP3888" />
   </DataNode>
   <DataNode TextLabel="SETD2" GraphId="eac37" Type="GeneProduct" GroupRef="dcb44">
@@ -41,8 +42,8 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
     <Graphics CenterX="812.8800047950132" CenterY="118.59038029021268" Width="62.441860465116406" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:18012" />
   </DataNode>
-  <DataNode TextLabel="TGFb Signaling &#xA;Pathway" GraphId="f2fc3" Type="Pathway">
-    <Graphics CenterX="467.3311184939096" CenterY="916.9435215946845" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
+  <DataNode TextLabel="TGFb signaling &#xA;pathway" GraphId="f2fc3" Type="Pathway">
+    <Graphics CenterX="467.3311184939096" CenterY="916.9435215946845" Width="100.0" Height="35.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP560" />
   </DataNode>
   <DataNode TextLabel="tfe3b" GraphId="a0263" Type="GeneProduct" GroupRef="ed93d">
@@ -229,6 +230,14 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
     <Graphics CenterX="461.9038759896887" CenterY="731.467299083556" Width="57.731481481481296" Height="25.0" ZOrder="32882" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000053939" />
   </DataNode>
+  <DataNode TextLabel="Hypoxia" GraphId="d6129" GroupRef="a832c">
+    <Graphics CenterX="287.0" CenterY="346.0" Width="60.0" Height="20.0" ZOrder="32967" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="Wikidata" ID="Q105688" />
+  </DataNode>
+  <DataNode TextLabel="Pseudohypoxia" GraphId="d81d4" GroupRef="a832c">
+    <Graphics CenterX="287.0" CenterY="372.0" Width="100.0" Height="20.0" ZOrder="32968" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="Wikidata" ID="Q16966113" />
+  </DataNode>
   <State GraphRef="a835c" TextLabel="" GraphId="adafc">
     <Graphics RelX="-0.9729206963249427" RelY="-0.9069767441860449" Width="15.0" Height="15.0" ShapeType="Hexagon" />
     <Xref Database="" ID="" />
@@ -259,7 +268,7 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   </State>
   <Interaction GraphId="id120b7ff5">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="264.8663544565282" Y="804.1766014091362" GraphRef="aa39d" RelX="-0.5" RelY="1.0" />
+      <Point X="264.8663544565282" Y="804.1766014091362" GraphRef="b6434" RelX="-0.5" RelY="1.0" />
       <Point X="231.42374787363997" Y="828.1695607996256" GraphRef="e2efa" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -280,7 +289,7 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   </Interaction>
   <Interaction GraphId="id2212edcd">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="567.0660513066405" Y="164.2066593599795" GraphRef="e1f8e" RelX="0.0" RelY="1.0" />
+      <Point X="567.0660513066405" Y="164.2066593599795" GraphRef="c4d2b" RelX="0.0" RelY="1.0" />
       <Point X="463.054423399664" Y="307.6126173002448" GraphRef="f8f38" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.7826227634565703" Shape="None" GraphId="a2d74" />
     </Graphics>
@@ -289,14 +298,14 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   <Interaction GraphId="id28a5ecfb">
     <BiopaxRef>ad2</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="813.6660767600108" Y="763.8101639796516" GraphRef="aa858" RelX="1.0" RelY="0.0" />
-      <Point X="878.2439693490737" Y="763.9591122535999" GraphRef="afe8d" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
+      <Point X="813.6660767600108" Y="763.8101639796516" GraphRef="a3627" RelX="1.0" RelY="0.0" />
+      <Point X="878.2439693490737" Y="763.9591122535999" GraphRef="bea98" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id317cd728">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="547.7637257252447" Y="406.7647988948638" GraphRef="e68c5" RelX="0.0" RelY="1.0" />
+      <Point X="547.7637257252447" Y="406.7647988948638" GraphRef="ace69" RelX="0.0" RelY="1.0" />
       <Point X="463.054423399664" Y="491.4162965929561" GraphRef="ab12e" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -312,7 +321,7 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   <Interaction GraphId="id3e1c0f2f">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="781.659074562455" Y="118.59038029021269" GraphRef="efa60" RelX="-1.0" RelY="0.0" />
-      <Point X="605.1241908415243" Y="118.70665935997968" GraphRef="e1f8e" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="605.1241908415243" Y="118.70665935997968" GraphRef="c4d2b" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -326,22 +335,22 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   </Interaction>
   <Interaction GraphId="id562a2aa9">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="344.8567489810598" Y="158.2764268018404" GraphRef="b0b96" RelX="0.0" RelY="1.0" />
-      <Point X="342.8341085478286" Y="710.967299083556" GraphRef="aa39d" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+      <Point X="344.8567489810598" Y="158.2764268018404" GraphRef="b53e8" RelX="0.0" RelY="1.0" />
+      <Point X="342.8341085478286" Y="710.967299083556" GraphRef="b6434" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
       <Anchor Position="0.8872734583832249" Shape="None" GraphId="c61c6" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id5bea83ed">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="813.6660767600108" Y="635.4207874556467" GraphRef="ed93d" RelX="1.0" RelY="0.0" />
+      <Point X="813.6660767600108" Y="635.4207874556467" GraphRef="a41d1" RelX="1.0" RelY="0.0" />
       <Point X="851.9432095028598" Y="635.4207874556467" GraphRef="f4ee8" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id5ec04c2d">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="344.8567489810598" Y="158.2764268018404" GraphRef="b0b96" RelX="0.0" RelY="1.0" />
+      <Point X="344.8567489810598" Y="158.2764268018404" GraphRef="b53e8" RelX="0.0" RelY="1.0" />
       <Point X="403.95558619036194" Y="208.12526401114272" />
       <Point X="463.054423399664" Y="530.3428719845648" GraphRef="dfe23" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.5456933400195815" Shape="None" GraphId="f8f38" />
@@ -351,14 +360,14 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   </Interaction>
   <Interaction GraphId="id786aabb3">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="420.80186263912896" Y="804.1766014091362" GraphRef="aa39d" RelX="0.5" RelY="1.0" />
+      <Point X="420.80186263912896" Y="804.1766014091362" GraphRef="b6434" RelX="0.5" RelY="1.0" />
       <Point X="436.30746880386994" Y="828.4021189391614" GraphRef="a169e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idbac7f66e">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="369.9218561791813" Y="624.897531641694" GraphRef="ec768" RelX="-1.0" RelY="0.0" />
+      <Point X="369.9218561791813" Y="624.897531641694" GraphRef="e84f9" RelX="-1.0" RelY="0.0" />
       <Point X="342.1795618271284" Y="637.7635341726975" />
       <Point X="343.062113808801" Y="648.6643684680795" GraphRef="c61c6" RelX="0.0" RelY="0.0" />
     </Graphics>
@@ -366,14 +375,14 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   </Interaction>
   <Interaction GraphId="idc64c4f3d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="342.8341085478286" Y="804.1766014091362" GraphRef="aa39d" RelX="0.0" RelY="1.0" />
+      <Point X="342.8341085478286" Y="804.1766014091362" GraphRef="b6434" RelX="0.0" RelY="1.0" />
       <Point X="342.58653857131355" Y="854.4486305670681" GraphRef="ce2a6" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc728a813">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="317.374267893221" Y="623.0370665254148" GraphRef="b3117" RelX="1.0" RelY="0.0" />
+      <Point X="317.374267893221" Y="623.0370665254148" GraphRef="a9bbf" RelX="1.0" RelY="0.0" />
       <Point X="343.3423525248028" Y="635.8507174967472" />
       <Point X="343.062113808801" Y="648.6643684680795" GraphRef="c61c6" RelX="0.0" RelY="0.0" />
     </Graphics>
@@ -382,7 +391,7 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   <Interaction GraphId="ide534d518">
     <BiopaxRef>ad2</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="813.6660767600108" Y="693.5847431070822" GraphRef="c75a5" RelX="1.0" RelY="0.0" />
+      <Point X="813.6660767600108" Y="693.5847431070822" GraphRef="b6ca9" RelX="1.0" RelY="0.0" />
       <Point X="873.824775976106" Y="694.0392885616276" GraphRef="d3e46" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -459,9 +468,6 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   <Label TextLabel="Degradation" GraphId="dfe23">
     <Graphics CenterX="463.054423399664" CenterY="542.8428719845648" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Hypoxia&#xA;Pseudohypoxia" GraphId="c9f17">
-    <Graphics CenterX="290.9614001438508" CenterY="384.78224075532853" Width="95.3488372093023" Height="49.011627906976116" ZOrder="32865" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
-  </Label>
   <Label TextLabel="Ubiquitination" GraphId="f7be2">
     <Graphics CenterX="551.9497722368737" CenterY="449.5206128483517" Width="98.95348837209349" Height="25.0" ZOrder="32871" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
@@ -489,14 +495,14 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   <Shape TextLabel="Nucleus" GraphId="a0108">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="602.4020732723682" CenterY="762.9674816434517" Width="872.5782329234738" Height="405.40501456470224" ZOrder="16384" FontSize="12" Align="Right" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="602.4020732723682" CenterY="762.9674816434517" Width="872.5782329234738" Height="405.40501456470224" ZOrder="16384" FontSize="12" Align="Right" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Gene fusions" GraphId="afe39">
     <Graphics CenterX="839.0" CenterY="695.5" Width="358.0" Height="229.0" ZOrder="16384" FontWeight="Bold" FontSize="12" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Mitochondrion" GraphId="b654b">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Mitochondria" />
-    <Graphics CenterX="801.4265164229196" CenterY="155.79968261579336" Width="295.34883720930236" Height="155.81395348837202" ZOrder="16384" FontSize="12" ShapeType="Mitochondria" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="801.4265164229196" CenterY="155.79968261579336" Width="295.34883720930236" Height="155.81395348837202" ZOrder="16384" FontSize="12" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Other genes of interest" GraphId="e5f99" GroupRef="dcb44">
     <Graphics CenterX="1169.375" CenterY="539.875" Width="137.25" Height="84.25" ZOrder="16384" FontWeight="Bold" FontSize="10" ShapeType="Rectangle" Rotation="0.0" />
@@ -515,20 +521,32 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
   <Shape GraphId="f5b6a" GroupRef="e25b9">
     <Graphics CenterX="1133.5760368663598" CenterY="88.34101382488484" Width="20.0" Height="20.0" ZOrder="32963" FontSize="12" Valign="Middle" ShapeType="Triangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="dcb44" GraphId="dcb44" Style="Group" />
-  <Group GroupId="e25b9" GraphId="e25b9" Style="Group" />
-  <Group GroupId="aa858" GraphId="aa858" Style="Group" />
-  <Group GroupId="ed93d" GraphId="ed93d" Style="Group" />
-  <Group GroupId="b3117" GraphId="b3117" Style="Group" />
-  <Group GroupId="e68c5" GraphId="e68c5" Style="Group" />
-  <Group GroupId="b0b96" GraphId="b0b96" Style="Group" />
-  <Group GroupId="aa39d" GraphId="aa39d" Style="Group" />
-  <Group GroupId="c75a5" GraphId="c75a5" Style="Group" />
-  <Group GroupId="afe8d" GraphId="afe8d" Style="Group" />
-  <Group GroupId="e1f8e" GraphId="e1f8e" Style="Group" />
-  <Group GroupId="ec768" GraphId="ec768" Style="Group" />
+  <Group GroupId="dcb44" Style="Group" />
+  <Group GroupId="e25b9" Style="Group" />
+  <Group GroupId="a832c" Style="Group" />
+  <Group GroupId="aa858" GraphId="a3627" Style="Group" />
+  <Group GroupId="ed93d" GraphId="a41d1" Style="Group" />
+  <Group GroupId="b3117" GraphId="a9bbf" Style="Group" />
+  <Group GroupId="e68c5" GraphId="ace69" Style="Group" />
+  <Group GroupId="b0b96" GraphId="b53e8" Style="Group" />
+  <Group GroupId="aa39d" GraphId="b6434" Style="Group" />
+  <Group GroupId="c75a5" GraphId="b6ca9" Style="Group" />
+  <Group GroupId="afe8d" GraphId="bea98" Style="Group" />
+  <Group GroupId="e1f8e" GraphId="c4d2b" Style="Group" />
+  <Group GroupId="ec768" GraphId="e84f9" Style="Group" />
+  <Group GroupId="a0d7b" GraphId="ee733" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f0e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17211469</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIF and fumarate hydratase in renal cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Br J Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudarshan S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linehan WM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neckers L</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a25">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25048860</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -543,6 +561,19 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bottaro DP</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Srinivasan R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linehan WM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d31">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11313942</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRCC, the commonest TFE3 fusion partner in papillary renal carcinoma is associated with pre-mRNA splicing factors.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogene</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skalsky YM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ajuh PM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parker C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamond AI</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goodwin G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooper CS</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e0a">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19422821</bp:ID>
@@ -561,24 +592,19 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papillary renal cell carcinoma</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:4465</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f0e">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17211469</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIF and fumarate hydratase in renal cancer.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Br J Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudarshan S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linehan WM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neckers L</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26536169</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comprehensive Molecular Characterization of Papillary Renal-Cell Carcinoma.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N Engl J Med</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26536169</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comprehensive Molecular Characterization of Papillary Renal-Cell Carcinoma.</bp:TITLE>
@@ -811,19 +837,6 @@ Based on [http://www.genome.jp/kegg-bin/show_pathway?hsa05211 KEGG]</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winemiller C</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zach LA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zuna R</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d31">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11313942</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRCC, the commonest TFE3 fusion partner in papillary renal carcinoma is associated with pre-mRNA splicing factors.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogene</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skalsky YM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ajuh PM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parker C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamond AI</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goodwin G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooper CS</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

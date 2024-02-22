@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Effects of nitric oxide" Data-Source="WikiPathways" Version="WP1995_Pt" Last-Modified="20210507095709" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Effects of nitric oxide" Data-Source="WikiPathways" Version="WP1995_Pt" Last-Modified="20240221235243" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">NO (Nitric oxide) is an important signalling molecule with vasodilatory and anti-inflammatory effects, indicating a postive role in reducing hypertension and cardiovascular disease. At the same time, NO is also associated with health risks such as increased risk in carcinogenesis, and hypoxia in infants. It has been suggested that NO can also increase mitochondrial efficiency. NO can be formed from L-Arginine through the classic Arginine-NO-Synthase pathway, or it can be formed directly from dietary nitrite by deoxiginated globins.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP1995.gpml (WP1995_r116455) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP1995.gpml (WP1995_r128781) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>be3</BiopaxRef>
   <BiopaxRef>bb9</BiopaxRef>
   <Graphics BoardWidth="912.7096774193544" BoardHeight="599.0" />
@@ -20,7 +20,7 @@
     <Graphics CenterX="728.6451612903226" CenterY="229.4277894478414" Width="80.0" Height="20.0" ZOrder="32808" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000012790" />
   </DataNode>
-  <DataNode TextLabel="deoxy-hemoglobin" GraphId="c8bca" Type="GeneProduct">
+  <DataNode TextLabel="Deoxy-hemoglobin" GraphId="c8bca" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000206172</Comment>
     <Graphics CenterX="620.4394917218366" CenterY="68.61514257834338" Width="116.0" Height="20.0" ZOrder="32809" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000043560" />
@@ -74,6 +74,10 @@
     <Graphics CenterX="61.0" CenterY="204.0" Width="80.0" Height="20.0" ZOrder="32821" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="HMDB" ID="HMDB0001377" />
   </DataNode>
+  <DataNode TextLabel="Hypoxia" GraphId="ab531">
+    <Graphics CenterX="417.9583333333326" CenterY="56.84190952590171" Width="60.0" Height="25.0" ZOrder="34858" FillColor="ffdddd" FontWeight="Bold" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="Wikidata" ID="Q105688" />
+  </DataNode>
   <Interaction GraphId="d7db9">
     <Graphics ZOrder="32773" LineThickness="1.0">
       <Point X="735.0" Y="68.0" GraphRef="fd200" RelX="0.0" RelY="1.0" />
@@ -90,7 +94,7 @@
   </Interaction>
   <Interaction GraphId="b4801">
     <Graphics ZOrder="32775" LineThickness="1.0">
-      <Point X="418.0" Y="68.0" GraphRef="e3ab1" RelX="0.0" RelY="1.0" />
+      <Point X="417.9583333333326" Y="69.34190952590171" GraphRef="ab531" RelX="0.0" RelY="1.0" />
       <Point X="308.0080159820202" Y="161.73147708827568" GraphRef="dcf2b" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -182,7 +186,7 @@
   </Interaction>
   <Interaction GraphId="b4936">
     <Graphics ZOrder="32788" LineThickness="1.0">
-      <Point X="418.0" Y="68.0" GraphRef="e3ab1" RelX="0.0" RelY="1.0" />
+      <Point X="417.9583333333326" Y="69.34190952590171" GraphRef="ab531" RelX="0.0" RelY="1.0" />
       <Point X="501.0" Y="162.0" GraphRef="afba1" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -230,7 +234,7 @@
   </Interaction>
   <Interaction GraphId="d1927">
     <Graphics ZOrder="32794" LineThickness="1.0">
-      <Point X="205.5" Y="143.0" GraphRef="c7733" RelX="0.0" RelY="1.0" />
+      <Point X="205.5" Y="143.0" GraphRef="c7014" RelX="0.0" RelY="1.0" />
       <Point X="206.00575602447248" Y="161.37104507429143" GraphRef="e7c60" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -250,23 +254,20 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Label TextLabel="Hypoxia" GraphId="e3ab1">
-    <Graphics CenterX="418.0" CenterY="58.0" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontStyle="Italic" FontSize="10" Valign="Middle" />
-  </Label>
   <Label TextLabel="Increased&#xA;mitochondrial&#xA;efficiency" GraphId="d04b0">
     <BiopaxRef>be5</BiopaxRef>
     <Graphics CenterX="207.8333870967741" CenterY="424.10064516129023" Width="94.0" Height="42.0" ZOrder="32797" FillColor="ffffff" FontSize="10" Valign="Middle" />
   </Label>
-  <Label TextLabel="reduced risk of&#xA;carciovascular disease" GraphId="bea5d">
+  <Label TextLabel="Reduced risk of&#xA;cardiovascular disease" GraphId="bea5d">
     <Graphics CenterX="423.99999999999994" CenterY="549.5" Width="133.0" Height="39.0" ZOrder="32798" FillColor="ffffff" FontSize="10" Valign="Middle" />
   </Label>
-  <Label TextLabel="cGMP&#xA;signalling" GraphId="b51a2">
+  <Label TextLabel="cGMP&#xA;signaling" GraphId="b51a2">
     <Graphics CenterX="424.0" CenterY="314.5" Width="72.0" Height="23.0" ZOrder="32799" FillColor="ffffff" FontSize="10" Valign="Middle" />
   </Label>
   <Label TextLabel="Vasodilation" GraphId="d1bc8">
     <Graphics CenterX="423.99999999999994" CenterY="469.0" Width="77.0" Height="20.0" ZOrder="32800" FillColor="ffffff" FontSize="10" Valign="Middle" />
   </Label>
-  <Label TextLabel="anti-inflammatory&#xA;effects" GraphId="c5e9c">
+  <Label TextLabel="Anti-inflammatory&#xA;effects" GraphId="c5e9c">
     <Graphics CenterX="494.435564516129" CenterY="417.77201612903224" Width="113.0" Height="28.0" ZOrder="32801" FillColor="ffffff" FontSize="10" Valign="Middle" />
   </Label>
   <Label TextLabel="NOS family" GraphId="adc2d" GroupRef="c7733">
@@ -278,7 +279,7 @@
   <Label TextLabel="NOS Family" GraphId="a5807">
     <Graphics CenterX="277.0" CenterY="62.0" Width="0.0" Height="0.0" ZOrder="32804" FillColor="ffffff" FontSize="10" Valign="Middle" />
   </Label>
-  <Label TextLabel="formation of&#xA;nitrosilating&#xA;species" GraphId="fc60c">
+  <Label TextLabel="Formation of&#xA;nitrosylating&#xA;species" GraphId="fc60c">
     <Graphics CenterX="579.2453225806457" CenterY="365.7342741935484" Width="87.0" Height="40.0" ZOrder="32805" FillColor="ffffff" FontSize="10" Valign="Middle" />
   </Label>
   <Label TextLabel="Diet" GraphId="fd200">
@@ -287,11 +288,40 @@
   <Shape GraphId="b4d1a">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Mitochondria" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="178.583387096774" CenterY="387.85064516129023" Width="264.5" Height="182.5" ZOrder="-2" FontSize="10" Valign="Middle" ShapeType="Mitochondria" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="178.583387096774" CenterY="387.85064516129023" Width="264.5" Height="182.5" ZOrder="-2" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="c7733" GraphId="c7733" />
+  <Group GroupId="c7733" GraphId="c7014" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19439460</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food sources of nitrates and nitrites: the physiologic context for potential health benefits.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Am J Clin Nutr</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hord NG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tang Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bryan NS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21284982</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dietary inorganic nitrate improves mitochondrial efficiency in humans.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Metab</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Larsen FJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schiffer TA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borniquel S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sahlin K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ekblom B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lundberg JO</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weitzberg E</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular system homeostasis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000476</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb9">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19915529</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -331,35 +361,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Webb AJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zuckerbraun BS</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zweier JL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weitzberg E</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be3">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19439460</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food sources of nitrates and nitrites: the physiologic context for potential health benefits.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Am J Clin Nutr</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hord NG</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tang Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bryan NS</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular system homeostasis pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000476</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be5">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21284982</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dietary inorganic nitrate improves mitochondrial efficiency in humans.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Metab</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Larsen FJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schiffer TA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borniquel S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sahlin K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ekblom B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lundberg JO</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weitzberg E</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
