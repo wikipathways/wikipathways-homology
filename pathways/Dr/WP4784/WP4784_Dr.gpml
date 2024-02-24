@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Proteoglycan biosynthesis" Data-Source="WikiPathways" Version="WP4784_Dr" Last-Modified="20200901024509" Organism="Danio rerio">
-  <Comment Source="WikiPathways-description">PG synthesis is a complex mechanism that can be divided in four main steps. Core protein synthesis occurs in the rough endoplasmic reticulum (RER). Once PG core protein has been synthesized, it moves from the RER to the Golgi apparatus where the first sugar of glycosaminoalycan (GAG) chain is added on Ser residues. GAG synthesis continues by glycosyltransferases that transfer sugar moieties from UDP-sugars to GAG chains. UDP-sugars are synthesized in the cytoplasm and are translocated in the Golgi apparatus by an antiporter with UMP. Then UDP, the by-product of glycosyltransferase reactions, is hydrolyzed to UMP and phosphate by calcium activated nucleotidase 1 (CANT1). Chondroitin, dermatan and heparan sulfate synthesis starts on a Ser residue of the PG core protein with the formation of a tetrasaccharide linkage region composed of a xylose (Xyl), two galactoses (Gal) and a glucuronic acid (GlcUA). After tetrasaccharide synthesis, GAG chain elongation continues through the binding of specific saccharides defining chondroitin sulfate, dermatan sulfate and heparan sulfate. Specific enzymes are involved in this process and mutations in their gene cause different types of skeletal dysplasia (indicated in red boxes). The third step is GAG sulfation.  Sulfate enters in cells through the SLC26A2 transporter and it is activated to 30-phosphoadenosine 50-phosphosulfate (PAPS) by PAPS synthase (PAPSS) in the cytosol. Through a PAPS transporter (PAPST), PAPS moves to Golgi apparatus where it is used as sulfate donor by sulfotransferases to sulfate GAGs. This reaction also produces phosphoadenosine phosphate (PAP), that is hydrolyzed into AMP and phosphate by a Golgi resident phosphoadenosine phosphate phosphatase (gPAPP). Once synthesized, PGs are secreted in extracellular space.
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Proteoglycan biosynthesis" Data-Source="WikiPathways" Version="WP4784_Dr" Last-Modified="20240224000109" Organism="Danio rerio">
+  <Comment Source="WikiPathways-description">Proteoglycan (PG) synthesis is a complex mechanism that can be divided in four main steps. Core protein synthesis occurs in the rough endoplasmic reticulum (RER). Once PG core protein has been synthesized, it moves from the RER to the Golgi apparatus where the first sugar of glycosaminoalycan (GAG) chain is added on Ser residues. GAG synthesis continues by glycosyltransferases that transfer sugar moieties from UDP-sugars to GAG chains. UDP-sugars are synthesized in the cytoplasm and are translocated in the Golgi apparatus by an antiporter with UMP. Then UDP, the by-product of glycosyltransferase reactions, is hydrolyzed to UMP and phosphate by calcium activated nucleotidase 1 (CANT1). Chondroitin, dermatan and heparan sulfate synthesis starts on a Ser residue of the PG core protein with the formation of a tetrasaccharide linkage region composed of a xylose (Xyl), two galactoses (Gal) and a glucuronic acid (GlcUA). After tetrasaccharide synthesis, GAG chain elongation continues through the binding of specific saccharides defining chondroitin sulfate, dermatan sulfate and heparan sulfate. Specific enzymes are involved in this process and mutations in their gene cause different types of skeletal dysplasia (indicated in red boxes). The third step is GAG sulfation.  Sulfate enters in cells through the SLC26A2 transporter and it is activated to 30-phosphoadenosine 50-phosphosulfate (PAPS) by PAPS synthase (PAPSS) in the cytosol. Through a PAPS transporter (PAPST), PAPS moves to Golgi apparatus where it is used as sulfate donor by sulfotransferases to sulfate GAGs. This reaction also produces phosphoadenosine phosphate (PAP), that is hydrolyzed into AMP and phosphate by a Golgi resident phosphoadenosine phosphate phosphatase (gPAPP). Once synthesized, PGs are secreted in extracellular space.
 
 Sulfation of GAGs is an important step in PG synthesis determining PG properties. Inorganic sulfate enters in cells through a sulfate/chloride antiporter named SLC26A2, but a small amount of sulfate could be derived from sulfur-containing amino acid metabolism. To be used by Golgi sulfotransferases, sulfate is activated to 30-phosphoadenosine 50-phosphosulfate (PAPS), the universal sulfate donor, by PAPS synthase (PAPSS2). The by-product of sulfotransferase reactions, phosphoadenosine phosphate (PAP), is hydrolyzed by a Golgi resident phosphoadenosine phosphate phosphatase (gPAPP) in order to prevent feedback inhibition of these reactions.
 
@@ -8,10 +8,10 @@ Linked with a dotted arrow to the GeneProduct nodes are skeletal dysplasias caus
 
 For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4784.gpml (WP4784_r111633) with a 94.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4784.gpml (WP4784_r128877) with a 94.0% conversion rate.</Comment>
   <BiopaxRef>e79</BiopaxRef>
   <Graphics BoardWidth="2996.153846153846" BoardHeight="1488.132764741268" />
-  <DataNode TextLabel="Udp xylose" GraphId="a0133" Type="Metabolite">
+  <DataNode TextLabel="UDP xylose" GraphId="a0133" Type="Metabolite">
     <Graphics CenterX="1206.3714552260208" CenterY="630.6190285475508" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16082" />
   </DataNode>
@@ -53,7 +53,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
     <Graphics CenterX="2372.0790166269044" CenterY="711.8012376407294" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000079027" />
   </DataNode>
-  <DataNode TextLabel="uridine diphosphate&#xA;glucuronic acid" GraphId="b41fc" Type="Metabolite">
+  <DataNode TextLabel="Uridine diphosphate&#xA;glucuronic acid" GraphId="b41fc" Type="Metabolite">
     <Graphics CenterX="1566.8866206442644" CenterY="630.6190285475509" Width="110.14913657770805" Height="32.123233908948094" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17200" />
   </DataNode>
@@ -75,7 +75,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
     <Graphics CenterX="1661.4363371996958" CenterY="513.9501078607384" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29932" />
   </DataNode>
-  <DataNode TextLabel="galactose" GraphId="c44ff" Type="Metabolite">
+  <DataNode TextLabel="Galactose" GraphId="c44ff" Type="Metabolite">
     <Graphics CenterX="1398.2960781442364" CenterY="698.9201164148026" Width="78.7519623233907" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" ShapeType="Hexagon" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:28260" />
   </DataNode>
@@ -83,7 +83,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
     <Graphics CenterX="1398.8814453988298" CenterY="548.9813621493015" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17659" />
   </DataNode>
-  <DataNode TextLabel="chloride" GraphId="ccbd0" Type="Metabolite">
+  <DataNode TextLabel="Chloride" GraphId="ccbd0" Type="Metabolite">
     <Graphics CenterX="701.0501066098067" CenterY="1120.4157782515992" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17996" />
   </DataNode>
@@ -157,7 +157,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
     <Graphics CenterX="1507.909631472409" CenterY="503.0303030303035" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000012192" />
   </DataNode>
-  <DataNode TextLabel="Udp galactose" GraphId="fc4c9" Type="Metabolite">
+  <DataNode TextLabel="UDP galactose" GraphId="fc4c9" Type="Metabolite">
     <Graphics CenterX="1341.1257484739035" CenterY="630.6190285475508" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:18307" />
   </DataNode>
@@ -165,7 +165,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
     <Graphics CenterX="701.0501066098066" CenterY="1089.1461857751096" Width="111.19047619047632" Height="25.0" ZOrder="32769" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16189" />
   </DataNode>
-  <DataNode TextLabel="chloride" GraphId="e7adc" Type="Metabolite">
+  <DataNode TextLabel="Chloride" GraphId="e7adc" Type="Metabolite">
     <Graphics CenterX="444.3834399431411" CenterY="1120.4157782515992" Width="90.0" Height="25.0" ZOrder="32770" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17996" />
   </DataNode>
@@ -173,11 +173,11 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
     <Graphics CenterX="1184.0404280164905" CenterY="1089.1461857751096" Width="90.0" Height="25.0" ZOrder="32771" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17980" />
   </DataNode>
-  <DataNode TextLabel="galactose" GraphId="e4415" Type="Metabolite">
+  <DataNode TextLabel="Galactose" GraphId="e4415" Type="Metabolite">
     <Graphics CenterX="1512.6916825398396" CenterY="698.9201164148026" Width="78.7519623233907" Height="25.0" ZOrder="32786" FontSize="12" Valign="Middle" ShapeType="Hexagon" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:28260" />
   </DataNode>
-  <DataNode TextLabel="Udp galactose" GraphId="ca8fd" Type="Metabolite">
+  <DataNode TextLabel="UDP galactose" GraphId="ca8fd" Type="Metabolite">
     <Graphics CenterX="1451.088898736946" CenterY="630.6190285475507" Width="90.0" Height="25.0" ZOrder="32787" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:18307" />
   </DataNode>
@@ -290,7 +290,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
   <Interaction GraphId="id2a55f0e1">
     <BiopaxRef>eac</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="2319.0790166269044" Y="889.9471073853327" GraphRef="dfb8c" RelX="-1.0" RelY="0.0" />
+      <Point X="2319.0790166269044" Y="889.9471073853327" GraphRef="e63e3" RelX="-1.0" RelY="0.0" />
       <Point X="2266.7858650306202" Y="825.1570727706496" GraphRef="c465c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -427,7 +427,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
   <Interaction GraphId="id6cf5cf5d">
     <BiopaxRef>eac</BiopaxRef>
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="2425.0790166269044" Y="889.9471073853327" GraphRef="dfb8c" RelX="1.0" RelY="0.0" />
+      <Point X="2425.0790166269044" Y="889.9471073853327" GraphRef="e63e3" RelX="1.0" RelY="0.0" />
       <Point X="2458.339802647958" Y="825.1570727706496" GraphRef="b7572" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -565,7 +565,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
       <Point X="1229.0404280164905" Y="1089.1461857751096" GraphRef="da842" RelX="1.0" RelY="0.0" />
       <Point X="1390.1300358034905" Y="1089.1461857751096" GraphRef="d4007" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.4" Shape="None" GraphId="bdb72" />
-      <Anchor Position="0.4" Shape="None" GraphId="ccb51" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -680,7 +680,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
     <BiopaxRef>ddf</BiopaxRef>
     <BiopaxRef>eac</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1182.9128823127098" Y="813.4313058332857" GraphRef="c336b" RelX="0.0" RelY="-1.0" />
+      <Point X="1182.9128823127098" Y="813.4313058332857" GraphRef="ff46c" RelX="0.0" RelY="-1.0" />
       <Point X="1204.3015109143755" Y="698.9201162504887" GraphRef="b8e79" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -709,10 +709,10 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <GraphicalLine GraphId="aa592">
+  <GraphicalLine GraphId="id30adcacb">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="574.8794094908353" Y="1117.2555304534217" GraphRef="d96f4" RelX="0.0" RelY="1.0" />
-      <Point X="453.8512432206561" Y="1197.9855395235002" GraphRef="a6e8e" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="453.8512432206561" Y="1197.9855395235002" GraphRef="ac607" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="d80a4">
@@ -777,7 +777,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
   <GraphicalLine GraphId="ba3e0">
     <Graphics ConnectorType="Elbow" ZOrder="32867" LineStyle="Broken" LineThickness="1.0">
       <Point X="1507.909631472409" Y="490.53030303030346" GraphRef="fc400" RelX="0.0" RelY="-1.0" />
-      <Point X="1507.909631472409" Y="454.05652982769004" GraphRef="de0cc" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="1507.909631472409" Y="454.05652982769004" GraphRef="da365" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="fd177">
@@ -800,8 +800,8 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
   </GraphicalLine>
   <GraphicalLine GraphId="b3ba7">
     <Graphics ZOrder="32871" LineStyle="Broken" LineThickness="1.0">
-      <Point X="2372.0790166269044" Y="922.9471073853326" GraphRef="dfb8c" RelX="0.0" RelY="1.0" />
-      <Point X="2372.0790166269053" Y="953.5094953190951" GraphRef="d31ca" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="2372.0790166269044" Y="922.9471073853326" GraphRef="e63e3" RelX="0.0" RelY="1.0" />
+      <Point X="2372.0790166269053" Y="953.5094953190951" GraphRef="e191f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="b54f6">
@@ -915,7 +915,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
   <Label TextLabel="Sulfation of&#xA;proteoglycan" GraphId="a01a9">
     <Graphics CenterX="1290.321229180702" CenterY="1060.6233259077217" Width="93.0" Height="32.5" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Proteoglycan core synthesized in&#xA;Rough Endoplasmic Reticulum" GraphId="a2815">
+  <Label TextLabel="Proteoglycan core synthesized in&#xA;rough endoplasmic reticulum" GraphId="a2815">
     <BiopaxRef>a16</BiopaxRef>
     <Graphics CenterX="752.1764135095816" CenterY="698.9201161167791" Width="218.07692307692332" Height="40.606508875739664" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
@@ -958,85 +958,85 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
   <Label TextLabel="n" GraphId="e47a5">
     <Graphics CenterX="2685.611253128825" CenterY="852.7272727272725" Width="24.09090909090895" Height="25.0" ZOrder="32837" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="OMIM:600972&#xA;Achondrogenesis, Type IB" GraphId="ee036" Href="https://omim.org/entry/600972" GroupRef="a6e8e">
+  <Label TextLabel="OMIM:600972&#xA;Achondrogenesis, type IB" GraphId="ee036" Href="https://omim.org/entry/600972" GroupRef="a6e8e">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="398.2793916480597" CenterY="1225.4855395235002" Width="206.28740629038566" Height="39.0" ZOrder="32838" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="398.2793916480597" CenterY="1225.4855395235002" Width="206.28740629038566" Height="39.0" ZOrder="32838" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:256050&#xA;Atelosteogenesis, Type II" GraphId="b04cc" Href="https://omim.org/entry/256050" GroupRef="a6e8e">
+  <Label TextLabel="OMIM:256050&#xA;Atelosteogenesis, type II" Href="https://omim.org/entry/256050" GroupRef="a6e8e">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="398.2793916480597" CenterY="1264.4855395235002" Width="206.28740629038566" Height="39.0" ZOrder="32839" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="398.2793916480597" CenterY="1264.4855395235002" Width="206.28740629038566" Height="39.0" ZOrder="32839" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:615777&#xA;Desbuquois Dysplasia 2" GraphId="a5cd6" Href="https://omim.org/entry/615777">
+  <Label TextLabel="OMIM:615777&#xA;Desbuquois dysplasia 2" GraphId="a5cd6" Href="https://omim.org/entry/615777">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1106.046914233057" CenterY="909.0515463142476" Width="152.63563045172205" Height="39.0" ZOrder="32840" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1106.046914233057" CenterY="909.0515463142476" Width="152.63563045172205" Height="39.0" ZOrder="32840" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:605822&#xA;Spondyloocular Syndrome" GraphId="ca91f" Href="https://omim.org/entry/605822">
+  <Label TextLabel="OMIM:605822&#xA;Spondyloocular syndrome" GraphId="ca91f" Href="https://omim.org/entry/605822">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1154.7516330878086" CenterY="977.4259633096734" Width="173.85807534150075" Height="39.0" ZOrder="32841" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1154.7516330878086" CenterY="977.4259633096734" Width="173.85807534150075" Height="39.0" ZOrder="32841" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:612847&#xA;Brachyolmia Type 4 With Mild &#xA;Epiphyseal And Metaphyseal Changes" GraphId="f8587" Href="https://omim.org/entry/612847">
+  <Label TextLabel="OMIM:612847&#xA;Brachyolmia type 4 with mild &#xA;epiphyseal and metaphyseal changes" GraphId="f8587" Href="https://omim.org/entry/612847">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="814.1986970255944" CenterY="1257.887001195354" Width="239.1882450244487" Height="52.20395448124782" ZOrder="32842" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="814.1986970255944" CenterY="1257.887001195354" Width="239.1882450244487" Height="52.20395448124782" ZOrder="32842" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:150230&#xA;Trichorhinophalangeal Syndrome, Type II" GraphId="ff366" Href="https://omim.org/entry/150230" GroupRef="d31ca">
+  <Label TextLabel="OMIM:150230&#xA;Trichorhinophalangeal syndrome, type II" Href="https://omim.org/entry/150230" GroupRef="d31ca">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="2372.079016626905" CenterY="1020.0094953190952" Width="240.27521283407833" Height="39.0" ZOrder="32843" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="2372.079016626905" CenterY="1020.0094953190952" Width="240.27521283407833" Height="39.0" ZOrder="32843" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:614078&#xA;Chondrodysplasia With Joint Dislocations, gPAPP Type" GraphId="d47bd" Href="https://omim.org/entry/614078">
+  <Label TextLabel="OMIM:614078&#xA;Chondrodysplasia with joint dislocations, gPAPP Type" GraphId="d47bd" Href="https://omim.org/entry/614078">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1720.9605076521632" CenterY="1238.3014778800016" Width="324.32392866453284" Height="39.0" ZOrder="32844" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1720.9605076521632" CenterY="1238.3014778800016" Width="324.32392866453284" Height="39.0" ZOrder="32844" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:222600&#xA;Diastrophic Dysplasia" GraphId="f7d4f" Href="https://omim.org/entry/222600" GroupRef="a6e8e">
+  <Label TextLabel="OMIM:222600&#xA;Diastrophic dysplasia" Href="https://omim.org/entry/222600" GroupRef="a6e8e">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="398.2793916480597" CenterY="1303.4855395235004" Width="206.28740629038566" Height="39.0" ZOrder="32845" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="398.2793916480597" CenterY="1303.4855395235004" Width="206.28740629038566" Height="39.0" ZOrder="32845" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:143095&#xA;Spondyloepiphyseal Dysplasia With &#xA;Congenital Joint Dislocations" GraphId="c64f7" Href="https://omim.org/entry/143095">
+  <Label TextLabel="OMIM:143095&#xA;Spondyloepiphyseal dysplasia with &#xA;congenital joint dislocations" GraphId="c64f7" Href="https://omim.org/entry/143095">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1219.0849292137993" CenterY="1238.3014778800016" Width="212.1116205609125" Height="51.245500757004535" ZOrder="32846" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1219.0849292137993" CenterY="1238.3014778800016" Width="212.1116205609125" Height="51.245500757004535" ZOrder="32846" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:130070&#xA;Ehlers-Danlos Syndrome, &#xA;Spondylodysplastic Type, 1" GraphId="d21ed" Href="https://omim.org/entry/130070">
+  <Label TextLabel="OMIM:130070&#xA;Ehlers-Danlos syndrome, &#xA;spondylodysplastic type, 1" GraphId="d21ed" Href="https://omim.org/entry/130070">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1341.125748473903" CenterY="886.6736006769554" Width="186.897714190327" Height="50.300093235267525" ZOrder="32847" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1341.125748473903" CenterY="886.6736006769554" Width="186.897714190327" Height="50.300093235267525" ZOrder="32847" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:605282&#xA;Temtamy Preaxial Brachydactyly Syndrome" GraphId="c6470" Href="https://omim.org/entry/605282">
+  <Label TextLabel="OMIM:605282&#xA;Temtamy preaxial brachydactyly syndrome" GraphId="c6470" Href="https://omim.org/entry/605282">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="2372.079016626905" CenterY="767.8538692196763" Width="266.5910023077623" Height="39.0" ZOrder="32848" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="2372.079016626905" CenterY="767.8538692196763" Width="266.5910023077623" Height="39.0" ZOrder="32848" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="OMIM:616615&#xA;CSGALNACT1 deficiency (joint dislocations &#xA;and mild skeletal dysplasia)" GraphId="fbac7" Href="https://omim.org/entry/616615">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="2028.4559712420205" CenterY="769.2723886758649" Width="256.5298371663321" Height="48.82364370090174" ZOrder="32849" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="2028.4559712420205" CenterY="769.2723886758649" Width="256.5298371663321" Height="48.82364370090174" ZOrder="32849" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:226900&#xA;Epiphyseal Dysplasia, Multiple, 4" GraphId="f2c05" Href="https://omim.org/entry/226900" GroupRef="a6e8e">
+  <Label TextLabel="OMIM:226900&#xA;Epiphyseal dysplasia, multiple, 4" Href="https://omim.org/entry/226900" GroupRef="a6e8e">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="398.2793916480596" CenterY="1342.4855395235006" Width="206.28740629038566" Height="39.0" ZOrder="32850" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="398.2793916480596" CenterY="1342.4855395235006" Width="206.28740629038566" Height="39.0" ZOrder="32850" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:133700&#xA;Exostoses, Multiple, Type I" GraphId="e4987" Href="https://omim.org/entry/133700" GroupRef="d31ca">
+  <Label TextLabel="OMIM:133700&#xA;Exostoses, multiple, type I" GraphId="e4987" Href="https://omim.org/entry/133700" GroupRef="d31ca">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="2372.079016626905" CenterY="981.0094953190952" Width="178.1699496761828" Height="39.0" ZOrder="32851" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="2372.079016626905" CenterY="981.0094953190952" Width="178.1699496761828" Height="39.0" ZOrder="32851" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:617719&#xA;Epiphyseal Dysplasia, Multiple, 7" GraphId="aae4a" Href="https://omim.org/entry/617719" GroupRef="de0cc">
+  <Label TextLabel="OMIM:617719&#xA;Epiphyseal dysplasia, multiple, 7" GraphId="aae4a" Href="https://omim.org/entry/617719" GroupRef="de0cc">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1507.909631472409" CenterY="426.55652982769004" Width="206.28740629038566" Height="39.0" ZOrder="32852" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1507.909631472409" CenterY="426.55652982769004" Width="206.28740629038566" Height="39.0" ZOrder="32852" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:271640&#xA;Spondyloepimetaphyseal Dysplasia &#xA;With Joint Laxity, Type 1, With &#xA;Or Without Fractures" GraphId="e446e" Href="https://omim.org/entry/271640">
+  <Label TextLabel="OMIM:271640&#xA;Spondyloepimetaphyseal dysplasia &#xA;with joint laxity, type 1, with &#xA;or without fractures" GraphId="e446e" Href="https://omim.org/entry/271640">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1451.088898736946" CenterY="977.4259633096732" Width="210.20109699341802" Height="68.33616537955669" ZOrder="32853" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1451.088898736946" CenterY="977.4259633096732" Width="210.20109699341802" Height="68.33616537955669" ZOrder="32853" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:251450&#xA;Desbuquois Dysplasia 1" GraphId="b0c9a" Href="https://omim.org/entry/251450" GroupRef="de0cc">
+  <Label TextLabel="OMIM:251450&#xA;Desbuquois dysplasia 1" Href="https://omim.org/entry/251450" GroupRef="de0cc">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1507.909631472409" CenterY="387.55652982769004" Width="206.28740629038566" Height="39.0" ZOrder="32854" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1507.909631472409" CenterY="387.55652982769004" Width="206.28740629038566" Height="39.0" ZOrder="32854" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:245600&#xA;Multiple Joint Dislocations, Short Stature, &#xA;And Craniofacial Dysmorphism With Or &#xA;Without Congenital Heart Defects" GraphId="e6216" Href="https://omim.org/entry/245600">
+  <Label TextLabel="OMIM:245600&#xA;Multiple joint dislocations, short stature, &#xA;and craniofacial dysmorphism with or &#xA;without congenital heart defects" GraphId="e6216" Href="https://omim.org/entry/245600">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1613.521852212097" CenterY="886.6736006769553" Width="252.72000835263242" Height="65.06055586456267" ZOrder="32855" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1613.521852212097" CenterY="886.6736006769553" Width="252.72000835263242" Height="65.06055586456267" ZOrder="32855" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:601776&#xA;Ehlers-Danlos Syndrome, &#xA;Musculocontractural Type, 1" GraphId="db286" Href="https://omim.org/entry/601776">
+  <Label TextLabel="OMIM:601776&#xA;Ehlers-Danlos syndrome, &#xA;musculocontractural type, 1" GraphId="db286" Href="https://omim.org/entry/601776">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1434.0833942891388" CenterY="1238.3014778800016" Width="195.31065602950474" Height="51.341111826471106" ZOrder="32856" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1434.0833942891388" CenterY="1238.3014778800016" Width="195.31065602950474" Height="51.341111826471106" ZOrder="32856" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:617425&#xA;Immunoskeletal Dysplasia With &#xA;Neurodevelopmental Abnormalities" GraphId="a0e75" Href="https://omim.org/entry/617425">
+  <Label TextLabel="OMIM:617425&#xA;Immunoskeletal dysplasia with &#xA;neurodevelopmental abnormalities" GraphId="a0e75" Href="https://omim.org/entry/617425">
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="2028.4559712420207" CenterY="958.653367866468" Width="210.9903371135929" Height="54.63715204261507" ZOrder="32857" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="2028.4559712420207" CenterY="958.653367866468" Width="210.9903371135929" Height="54.63715204261507" ZOrder="32857" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Shape GraphId="a97fa">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Golgi Apparatus" />
@@ -1045,7 +1045,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
   <Shape GraphId="adef8">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Golgi Apparatus" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="1975.2436281078164" CenterY="858.9850188803882" Width="1920.2819745535976" Height="950.8467500895435" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Golgi Apparatus" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="1975.2436281078164" CenterY="858.9850188803882" Width="1920.2819745535976" Height="950.8467500895435" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="c638c">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Endoplasmic Reticulum" />
@@ -1059,7 +1059,7 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
   <Shape TextLabel="GlcUA-Gal-Gal-Xyl-protein" GraphId="e01a2">
     <Graphics CenterX="1908.4018174799469" CenterY="551.2182531925883" Width="163.2272727272728" Height="30.500000000000046" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
   </Shape>
-  <Shape TextLabel="PG Core Protein" GraphId="ed0cd">
+  <Shape TextLabel="PG core protein" GraphId="ed0cd">
     <Graphics CenterX="1117.6540766925384" CenterY="698.9201161167794" Width="108.16462572892792" Height="35.602283033506296" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="GlcUA-Gal-Gal-Xyl-protein" GraphId="c1750">
@@ -1068,24 +1068,115 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
   <Shape TextLabel="GlcUA-Gal-Gal-Xyl-protein" GraphId="e3ea2">
     <Graphics CenterX="1908.4018174799467" CenterY="825.1570724726262" Width="163.2272727272728" Height="30.500000000000046" ZOrder="32790" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="a6e8e" GraphId="a6e8e" Style="Group" />
-  <Group GroupId="de0cc" GraphId="de0cc" Style="Group" />
-  <Group GroupId="d31ca" GraphId="d31ca" Style="Group" />
-  <Group GroupId="dfb8c" GraphId="dfb8c" Style="Group" />
-  <Group GroupId="c336b" GraphId="c336b" Style="Group" />
+  <Group GroupId="a6e8e" GraphId="ac607" Style="Group" />
+  <Group GroupId="de0cc" GraphId="da365" Style="Group" />
+  <Group GroupId="d31ca" GraphId="e191f" Style="Group" />
+  <Group GroupId="dfb8c" GraphId="e63e3" Style="Group" />
+  <Group GroupId="c336b" GraphId="ff46c" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12716890</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atelosteogenesis</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050648</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desbuquois dysplasia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060462</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e79">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31286677</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning of a chondroitin polymerizing factor that cooperates with chondroitin synthase for chondroitin polymerization.</bp:TITLE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone and connective tissue disorders caused by defects in glycosaminoglycan biosynthesis: a panoramic view.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FEBS J</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paganini C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Costantini R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Superti-Furga A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rossi A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a48">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26327396</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycosaminoglycans: Sorting determinants in intracellular protein traffic.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Biochem Cell Biol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihov D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiess M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1978318</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diastrophic dysplasia gene maps to the distal long arm of chromosome 5.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1990</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hästbacka J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaitila I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sistonen P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de la Chapelle A</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trichorhinophalangeal syndrome type I</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14743</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11514575</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning and expression of a human chondroitin synthase.</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kitagawa H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izumikawa T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uyama T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugahara K</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d18">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26308067</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Determinants of Glycosaminoglycan (GAG)Structure.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomolecules</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prydz K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c74">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11788602</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning and expression of human chondroitin N-acetylgalactosaminyltransferase: the key enzyme for chain initiation and elongation of chondroitin/dermatan sulfate on the protein linkage region tetrasaccharide shared by heparin/heparan sulfate.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uyama T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kitagawa H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamura Ji J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugahara K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achondrogenesis type IB</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080055</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a00">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17253960</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involvement of chondroitin sulfate synthase-3 (chondroitin synthase-2) in chondroitin polymerization through its interaction with chondroitin synthase-1 or chondroitin-polymerizing factor.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem J</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izumikawa T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uyama T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okuura Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugahara K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kitagawa H</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple epiphyseal dysplasia 4</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0070300</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad6">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12446672</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1109,59 +1200,36 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimata K</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narimatsu H</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a48">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26327396</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b94">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18316376</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycosaminoglycans: Sorting determinants in intracellular protein traffic.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Biochem Cell Biol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mihov D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiess M</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec2">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11514575</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning and expression of a human chondroitin synthase.</bp:TITLE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of chondroitin sulfate glucuronyltransferase as chondroitin synthase-3 involved in chondroitin polymerization: chondroitin polymerization is achieved by multiple enzyme complexes consisting of chondroitin synthase family members.</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</bp:YEAR>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izumikawa T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Koike T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiozawa S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugahara K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamura J</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kitagawa H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uyama T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26582078</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutations in Biosynthetic Enzymes for the Protein Linker Region of Chondroitin/Dermatan/Heparan Sulfate Cause Skeletal and Skin Dysplasias.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomed Res Int</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mizumoto S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamada S</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugahara K</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac7">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1978318</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a16">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25105124</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diastrophic dysplasia gene maps to the distal long arm of chromosome 5.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1990</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hästbacka J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaitila I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sistonen P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de la Chapelle A</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d18">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26308067</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Determinants of Glycosaminoglycan (GAG)Structure.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomolecules</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prydz K</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e79">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31286677</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone and connective tissue disorders caused by defects in glycosaminoglycan biosynthesis: a panoramic view.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FEBS J</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paganini C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Costantini R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Superti-Furga A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rossi A</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolism of cartilage proteoglycans inhealth and disease.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomed Res Int</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vynios DH</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eac">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25126564</bp:ID>
@@ -1173,42 +1241,11 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamada S</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugahara K</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c74">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11788602</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning and expression of human chondroitin N-acetylgalactosaminyltransferase: the key enzyme for chain initiation and elongation of chondroitin/dermatan sulfate on the protein linkage region tetrasaccharide shared by heparin/heparan sulfate.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uyama T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kitagawa H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamura Ji J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugahara K</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad3">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16492677</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning and characterization of a novel 3'-phosphoadenosine 5'-phosphosulfate transporter, PAPST2.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kamiyama S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sasaki N</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goda E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ui-Tei K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saigo K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narimatsu H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jigami Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kannagi R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irimura T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nishihara S</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a16">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25105124</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolism of cartilage proteoglycans inhealth and disease.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomed Res Int</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vynios DH</bp:AUTHORS>
-    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hereditary multiple exostoses</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:206</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc7">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18695242</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1223,41 +1260,27 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irving RP</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">York JD</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddf">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26582078</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12716890</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutations in Biosynthetic Enzymes for the Protein Linker Region of Chondroitin/Dermatan/Heparan Sulfate Cause Skeletal and Skin Dysplasias.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomed Res Int</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mizumoto S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamada S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugahara K</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a00">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17253960</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involvement of chondroitin sulfate synthase-3 (chondroitin synthase-2) in chondroitin polymerization through its interaction with chondroitin synthase-1 or chondroitin-polymerizing factor.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem J</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning of a chondroitin polymerizing factor that cooperates with chondroitin synthase for chondroitin polymerization.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kitagawa H</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izumikawa T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uyama T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okuura Y</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugahara K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kitagawa H</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b94">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18316376</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of chondroitin sulfate glucuronyltransferase as chondroitin synthase-3 involved in chondroitin polymerization: chondroitin polymerization is achieved by multiple enzyme complexes consisting of chondroitin synthase family members.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izumikawa T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Koike T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiozawa S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugahara K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamura J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kitagawa H</bp:AUTHORS>
-    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diastrophic dysplasia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14687</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brachyolmia</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050690</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d04">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12716889</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1277,6 +1300,33 @@ For further details, see [https://www.ncbi.nlm.nih.gov/pubmed/31286677].</Commen
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watanabe M</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narimatsu H</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jigami Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nishihara S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple epiphyseal dysplasia 7</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0070302</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16492677</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning and characterization of a novel 3'-phosphoadenosine 5'-phosphosulfate transporter, PAPST2.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16492677</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning and characterization of a novel 3'-phosphoadenosine 5'-phosphosulfate transporter, PAPST2.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kamiyama S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sasaki N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goda E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ui-Tei K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saigo K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narimatsu H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jigami Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kannagi R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irimura T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nishihara S</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>

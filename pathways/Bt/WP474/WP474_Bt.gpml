@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Endochondral ossification" Data-Source="WikiPathways" Version="WP474_Bt" Last-Modified="20210517113145" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Endochondral ossification" Data-Source="WikiPathways" Version="WP474_Bt" Last-Modified="20240224004647" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">Endochondral ossification is the process by which the embryonic cartilaginous model of most bones contributes to longitudinal growth and is gradually replaced by bone. During endochondral ossification, chondrocytes proliferate, undergo hypertrophy and die; the cartilage extracellular matrix they construct is then invaded by blood vessels, osteoclasts, bone marrow cells and osteoblasts, the last of which deposit bone on remnants of cartilage matrix. The sequential changes in chondrocyte behaviour are tightly regulated by both systemic factors and locally secreted factors, which act on receptors to effect intracellular signalling and activation of chondrocyte-selective transcription factors. Systemic factors that regulate the behaviour of chondrocytes in growth cartilage include growth hormone and thyroid hormone, and the local secreted factors include Indian hedgehog, parathyroid hormone-related peptide, fibroblast growth factors and components of the cartilage extracellular matrix. Transcription factors that play critical roles in regulation of chondrocyte gene expression under the control of these extracellular factors include Runx2, Sox9 and MEF2C. The invasion of cartilage matrix by the ossification front is dependent on its resorption by members of the matrix metalloproteinase family, as well as the presence of blood vessels and bone-resorbing osteoclast (Mackie et al.)
 
 Thyroid hormone and especially triiodothyronine induce morphological hypertrophy of chondrocytes, through binding to thyroid hormone receptors. Further, triiodothyronine increases the total collagen production in chondrocytes, as also terminal differentiation, but triiodothyronine also induces cell death through non-apoptotic modes of physiological death. Triiodothyronine acts by altering intracellular gene expression after receptor binding, and is crucial for growth, as receptor deficiencies lead to dwarfism and growth retardation. Thyroid hormone inhibits the PTHR1 gene, which encodes for a g-protein coupled receptor for parathyroid hormone (PTH) and PTH-like hormones. PTH receptors activate adenylyl cyclase and a phosphatidylinositol-calcium second messenger system. They control the levels of calcium in the blood and thus, ossification as they inhibit hypertrophy upon activation (Mackie, Randau, https://rarediseases.org/rare-diseases/jansen-type-metaphyseal-chondrodysplasia/ ).
@@ -7,8 +7,9 @@ Oxygen acts upon RUNX2 and HDAC4 in the ossification process. HDAC4 is a class I
 Cyclic adenosine monophosphate (cAMP) act upon protein kinase A (PKA), which phosphorylates proteins if activated. In this case it leads to the inhibition of Sox9 (https://www.nature.com/articles/nm.3314). Sox9 induces cell proliferation and inhibits hypertrophy and is regulating the transcription of the anti-mÃ¼llerian hormone.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP474 CPTAC Assay Portal]</Comment>
+  <Comment></Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP474.gpml (WP474_r117098) with a 95.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP474.gpml (WP474_r128904) with a 95.0% conversion rate.</Comment>
   <BiopaxRef>e1e</BiopaxRef>
   <BiopaxRef>fee</BiopaxRef>
   <BiopaxRef>bfe</BiopaxRef>
@@ -341,7 +342,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="Carminerin" GraphId="f5e" Type="GeneProduct">
     <Comment>Taken as human homologue of mouse Cst10</Comment>
-    <Comment>PMID: 13679380</Comment>
+    <Comment>PMID: 13679380 </Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:1473</Comment>
     <Graphics CenterX="784.0" CenterY="240.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000027420" />
@@ -384,7 +385,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="a003f">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="847.0" Y="683.0" GraphRef="e99" RelX="-0.5" RelY="-1.0" />
-      <Point X="655.5" Y="462.0" GraphRef="b7a" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="655.5" Y="462.0" GraphRef="b7a" RelX="0.5" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -411,7 +412,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="a622c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1065.0" Y="465.0" GraphRef="ec282" RelX="-0.5" RelY="1.0" />
+      <Point X="1065.0" Y="465.0" GraphRef="a522c" RelX="-0.5" RelY="1.0" />
       <Point X="987.1713497798667" Y="519.2182603342542" GraphRef="c98e8" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -426,7 +427,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="a6c10">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="222.0" Y="485.0" GraphRef="dc3" RelX="0.0" RelY="-1.0" />
-      <Point X="564.0" Y="414.7958860759494" GraphRef="b7a" RelX="-1.0" RelY="0.5" ArrowHead="mim-inhibition" />
+      <Point X="564.0" Y="414.7958860759494" GraphRef="b7a" RelX="-1.0" RelY="0.5" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -490,7 +491,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="af5d4">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="426.0" Y="369.0" GraphRef="c68ba" RelX="-1.0" RelY="0.0" />
-      <Point X="397.26582278481015" Y="369.3101265822785" GraphRef="d5f" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="397.26582278481015" Y="369.3101265822785" GraphRef="d5f" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -560,7 +561,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="b7d43">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="486.0" Y="379.0" GraphRef="c68ba" RelX="0.5" RelY="1.0" />
-      <Point X="504.8607594936709" Y="527.3544303797468" GraphRef="a59" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="504.8607594936709" Y="527.3544303797468" GraphRef="a59" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -574,7 +575,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="b946e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="242.0" Y="712.0" GraphRef="c6f46" RelX="1.0" RelY="0.0" />
-      <Point X="731.0" Y="749.0" GraphRef="fba0c" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="731.0" Y="749.0" GraphRef="fba0c" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -630,7 +631,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="be40d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="886.0" Y="749.0" GraphRef="efb39" RelX="-1.0" RelY="0.0" />
+      <Point X="886.0" Y="749.0" GraphRef="b6514" RelX="-1.0" RelY="0.0" />
       <Point X="826.0" Y="749.0" GraphRef="fba0c" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -695,7 +696,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="cc48b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="176.0" Y="595.5696202531643" GraphRef="bc9e9" RelX="1.0" RelY="0.0" />
-      <Point X="294.9240506329114" Y="562.873417721519" GraphRef="fb5" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="294.9240506329114" Y="562.873417721519" GraphRef="fb5" RelX="-0.5" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -716,7 +717,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="cdeae">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="506.0" Y="319.0" GraphRef="c91" RelX="1.0" RelY="0.0" />
-      <Point X="564.0" Y="320.3876582278481" GraphRef="b7a" RelX="-1.0" RelY="-0.5" ArrowHead="mim-inhibition" />
+      <Point X="564.0" Y="320.3876582278481" GraphRef="b7a" RelX="-1.0" RelY="-0.5" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -744,20 +745,20 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="d1a11">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="411.0" Y="219.0" GraphRef="dcd11" RelX="0.0" RelY="1.0" />
-      <Point X="335.76582278481015" Y="299.3101265822785" GraphRef="d5f" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="335.76582278481015" Y="299.3101265822785" GraphRef="d5f" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d28eb">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="607.0" Y="577.0" GraphRef="c83" RelX="-1.0" RelY="0.0" />
-      <Point X="498.0" Y="585.0" GraphRef="d15" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="498.0" Y="585.0" GraphRef="d15" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d6258">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1041.0" Y="437.0" GraphRef="ec282" RelX="-1.0" RelY="0.0" />
+      <Point X="1041.0" Y="437.0" GraphRef="a522c" RelX="-1.0" RelY="0.0" />
       <Point X="987.8506374070598" Y="394.9509823898066" GraphRef="d6145" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -765,7 +766,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="d6d85">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="550.1265822784811" Y="147.82278481012654" GraphRef="f8442" RelX="1.0" RelY="0.0" />
-      <Point X="603.9462025316454" Y="168.97468354430376" GraphRef="bed" RelX="0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="603.9462025316454" Y="168.97468354430376" GraphRef="bed" RelX="0.5" RelY="-1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -808,7 +809,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="262.0" Y="495.0" GraphRef="dc3" RelX="1.0" RelY="0.0" />
       <Point X="390.0" Y="556.0" />
-      <Point X="463.0" Y="627.0" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="463.0" Y="627.0" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -822,7 +823,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="e241c">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="446.0" Y="379.0" GraphRef="c68ba" RelX="-0.5" RelY="1.0" />
-      <Point X="314.9240506329114" Y="542.873417721519" GraphRef="fb5" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="314.9240506329114" Y="542.873417721519" GraphRef="fb5" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -864,14 +865,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="e79de">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="304.0" Y="661.0" GraphRef="f22e4" RelX="1.0" RelY="0.0" />
-      <Point X="463.0" Y="627.0" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="463.0" Y="627.0" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e9be1">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="458.0" Y="575.0" GraphRef="d15" RelX="0.0" RelY="-1.0" />
-      <Point X="304.0" Y="614.0" GraphRef="fb3" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="304.0" Y="614.0" GraphRef="fb3" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -906,7 +907,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="eea28">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="334.9240506329114" Y="542.873417721519" GraphRef="fb5" RelX="0.5" RelY="-1.0" />
-      <Point X="564.0" Y="414.7958860759494" GraphRef="b7a" RelX="-1.0" RelY="0.5" ArrowHead="mim-inhibition" />
+      <Point X="564.0" Y="414.7958860759494" GraphRef="b7a" RelX="-1.0" RelY="0.5" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -920,7 +921,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="f05e8">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="242.0" Y="732.0" GraphRef="fb8bf" RelX="1.0" RelY="0.0" />
-      <Point X="731.0" Y="749.0" GraphRef="fba0c" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="731.0" Y="749.0" GraphRef="fba0c" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -956,7 +957,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="f154e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="764.0" Y="193.0" GraphRef="c89" RelX="-1.0" RelY="0.0" />
-      <Point X="725.0" Y="172.40506329113924" GraphRef="e4d" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="725.0" Y="172.40506329113924" GraphRef="e4d" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -970,14 +971,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="f2b53">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="784.0" Y="230.0" GraphRef="f5e" RelX="0.0" RelY="-1.0" />
-      <Point X="784.0" Y="203.0" GraphRef="c89" RelX="-0.5" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="784.0" Y="203.0" GraphRef="c89" RelX="-0.5" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f2d82">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="418.0" Y="585.0" GraphRef="d15" RelX="-1.0" RelY="0.0" />
-      <Point X="335.76582278481015" Y="439.3101265822785" GraphRef="d5f" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="335.76582278481015" Y="439.3101265822785" GraphRef="d5f" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -991,7 +992,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="f5201">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="686.0" Y="414.7958860759494" GraphRef="b7a" RelX="1.0" RelY="0.5" />
-      <Point X="773.0" Y="446.0" GraphRef="b1c58" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="773.0" Y="446.0" GraphRef="b1c58" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1019,13 +1020,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="f6713">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="643.0" Y="707.0" GraphRef="fa835" RelX="0.0" RelY="-1.0" />
-      <Point X="523.0" Y="637.0" GraphRef="dcd" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="523.0" Y="637.0" GraphRef="dcd" RelX="0.5" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f6950">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1034.0" Y="329.0" GraphRef="fb73f" RelX="-1.0" RelY="0.0" />
+      <Point X="1034.0" Y="329.0" GraphRef="eb451" RelX="-1.0" RelY="0.0" />
       <Point X="987.8506374070598" Y="394.9509823898066" GraphRef="d6145" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1048,7 +1049,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="faea2">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="667.0" Y="637.0" GraphRef="cf8" RelX="1.0" RelY="0.0" />
-      <Point X="696.0" Y="636.0" GraphRef="bd4" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="696.0" Y="636.0" GraphRef="bd4" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1070,7 +1071,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="fc455">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="114.0" Y="546.0" GraphRef="b68" RelX="1.0" RelY="0.0" />
-      <Point X="463.0" Y="627.0" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="463.0" Y="627.0" GraphRef="dcd" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1085,7 +1086,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="fe1b2">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="466.0" Y="402.0" GraphRef="b2d" RelX="0.0" RelY="-1.0" />
-      <Point X="466.0" Y="379.0" GraphRef="c68ba" RelX="0.0" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="466.0" Y="379.0" GraphRef="c68ba" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1143,19 +1144,19 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="Chondrocyte proliferation" GraphId="c6f">
     <Graphics CenterX="164.0" CenterY="59.0" Width="220.0" Height="22.5" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
   </Label>
-  <Label TextLabel="Cathepsins&#xA;and Calpains" GraphId="c8400">
+  <Label TextLabel="Cathepsins&#xA;and calpains" GraphId="c8400">
     <Graphics CenterX="1119.0" CenterY="509.0" Width="78.0" Height="26.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="666666" />
   </Label>
-  <Label TextLabel="integrins" GraphId="d3b0f">
+  <Label TextLabel="Integrins" GraphId="d3b0f">
     <Graphics CenterX="886.0" CenterY="505.0" Width="70.0" Height="18.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="666666" />
   </Label>
   <Label TextLabel="Proliferation" GraphId="d5f">
     <Graphics CenterX="335.76582278481015" CenterY="369.3101265822785" Width="123.0" Height="140.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="008000" />
   </Label>
-  <Label TextLabel="Vascular invastion" GraphId="e31d0">
+  <Label TextLabel="Vascular invasion" GraphId="e31d0">
     <Graphics CenterX="1030.5" CenterY="183.5" Width="103.0" Height="19.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="339900" />
   </Label>
-  <Label TextLabel="Mineralisation" GraphId="e4d">
+  <Label TextLabel="Mineralization" GraphId="e4d">
     <Graphics CenterX="725.0" CenterY="162.70253164556962" Width="80.0" Height="19.405063291139232" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="008000" />
   </Label>
   <Label TextLabel="Chondrocyte death" GraphId="e5d">
@@ -1203,41 +1204,42 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="fc863">
     <Graphics CenterX="1118.0" CenterY="58.99999974568685" Width="74.0" Height="44.03333333333333" ZOrder="16384" FillColor="cccc00" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="ec282" GraphId="ec282" Style="Group" />
-  <Group GroupId="efb39" GraphId="efb39" Style="Group" />
-  <Group GroupId="f843e" GraphId="f843e" />
-  <Group GroupId="c2c7c" GraphId="c2c7c" />
-  <Group GroupId="ffa49" GraphId="ffa49" Style="Group" />
-  <Group GroupId="a615c" GraphId="a615c" />
-  <Group GroupId="fb73f" GraphId="fb73f" Style="Group" />
-  <Group GroupId="c0f4c" GraphId="c0f4c" />
+  <Group GroupId="ec282" GraphId="a522c" Style="Group" />
+  <Group GroupId="efb39" GraphId="b6514" Style="Group" />
+  <Group GroupId="f843e" GraphId="cd3fe" />
+  <Group GroupId="c2c7c" GraphId="d9936" />
+  <Group GroupId="ffa49" GraphId="df77c" Style="Group" />
+  <Group GroupId="a615c" GraphId="e4385" />
+  <Group GroupId="fb73f" GraphId="eb451" Style="Group" />
+  <Group GroupId="c0f4c" GraphId="f3845" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteochondroclast</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000093</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fee">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18374667</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17659995</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A microarray approach for comparative expression profiling of the discrete maturation zones of mouse growth plate cartilage.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endochondral ossification: how cartilage is converted into bone in the developing skeleton.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Biochem Cell Biol</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belluoccio D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bernardo BC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rowley L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bateman JF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mackie EJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmed YA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tatarczuch L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen KS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirams M</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteoclast</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000092</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondrocyte</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000138</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfe">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23977373</bp:ID>
@@ -1254,23 +1256,22 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ito K</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stoddart MJ</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondrocyte</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000138</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1e">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17659995</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fee">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18374667</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endochondral ossification: how cartilage is converted into bone in the developing skeleton.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Biochem Cell Biol</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A microarray approach for comparative expression profiling of the discrete maturation zones of mouse growth plate cartilage.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mackie EJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmed YA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tatarczuch L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen KS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirams M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belluoccio D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bernardo BC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rowley L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bateman JF</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteochondroclast</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000093</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
