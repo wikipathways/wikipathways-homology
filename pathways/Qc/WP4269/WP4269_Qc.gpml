@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Ethanol metabolism production of ROS by CYP2E1" Data-Source="WikiPathways" Version="WP4269_Qc" Last-Modified="20210522122948" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Ethanol metabolism production of ROS by CYP2E1" Data-Source="WikiPathways" Version="WP4269_Qc" Last-Modified="20240315164044" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">Metabolism of Ethanol resulting in production of ROS by CYP2E1. Also includes a list of other CYP2E1 substrates and their metabolite outcomes. This pathway is also available for rat and mouse.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4269.gpml (WP4269_r117715) with a 85.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4269.gpml (WP4269_r129196) with a 85.0% conversion rate.</Comment>
   <BiopaxRef>e53</BiopaxRef>
   <Graphics BoardWidth="1132.8396962662787" BoardHeight="718.3395596273775" />
   <DataNode TextLabel="Staurosporine" GraphId="a17b6" Type="Metabolite" GroupRef="c2a25">
@@ -225,14 +225,14 @@
   </Interaction>
   <Interaction GraphId="id913a690c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="589.1905946241245" Y="164.19336713475258" GraphRef="f499d" RelX="-1.0" RelY="0.0" />
+      <Point X="589.1905946241245" Y="164.19336713475258" GraphRef="cf8c1" RelX="-1.0" RelY="0.0" />
       <Point X="492.8503380659195" Y="164.45530733551124" GraphRef="c3f3c" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idbbf60a39">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="589.2074835616803" Y="408.24749087737763" GraphRef="c2a25" RelX="-1.0" RelY="0.0" />
+      <Point X="589.2074835616803" Y="408.24749087737763" GraphRef="ec3d0" RelX="-1.0" RelY="0.0" />
       <Point X="492.57636670813235" Y="408.77312212737746" GraphRef="dc4e0" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -246,7 +246,7 @@
   </Interaction>
   <Interaction GraphId="iddf9c1449">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="333.08542663054845" Y="476.6778658773775" GraphRef="f3dd3" RelX="0.0" RelY="1.0" />
+      <Point X="333.08542663054845" Y="476.6778658773775" GraphRef="e10d9" RelX="0.0" RelY="1.0" />
       <Point X="333.08542663054845" Y="515.3927346273775" GraphRef="fb70a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.4" Shape="None" GraphId="b0086" />
     </Graphics>
@@ -262,7 +262,7 @@
   <Interaction GraphId="idf0a0abbd">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="333.08542663054845" Y="540.3927346273775" GraphRef="fb70a" RelX="0.0" RelY="1.0" />
-      <Point X="333.88987359198563" Y="588.8391192753134" GraphRef="bb715" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="333.88987359198563" Y="588.8391192753134" GraphRef="d9a1e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -277,7 +277,7 @@
   <Interaction GraphId="idfcaf8cd8">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="437.66286670813247" Y="292.9960625" GraphRef="fdc7e" RelX="-1.0" RelY="0.0" />
-      <Point X="333.08542663054845" Y="412.5832471273775" GraphRef="f3dd3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="333.08542663054845" Y="412.5832471273775" GraphRef="e10d9" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -322,12 +322,17 @@
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="400.49980070957065" CenterY="622.3169654742718" Width="507.4105302441027" Height="132.04518830621146" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="f499d" GraphId="f499d" Style="Group" />
-  <Group GroupId="bb715" GraphId="bb715" Style="Group" />
-  <Group GroupId="f3dd3" GraphId="f3dd3" Style="Group" />
-  <Group GroupId="c2a25" GraphId="c2a25" Style="Group" />
+  <Group GroupId="f499d" GraphId="cf8c1" Style="Group" />
+  <Group GroupId="bb715" GraphId="d9a1e" Style="Group" />
+  <Group GroupId="f3dd3" GraphId="e10d9" Style="Group" />
+  <Group GroupId="c2a25" GraphId="ec3d0" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethanol oxidation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002654</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e53">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23519123</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>

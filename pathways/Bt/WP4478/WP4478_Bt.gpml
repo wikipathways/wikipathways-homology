@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="LTF danger signal response pathway" Data-Source="WikiPathways" Version="WP4478_Bt" Last-Modified="20220226034000" Organism="Bos taurus">
-  <Comment Source="WikiPathways-description">Lactoferrin (LTF) activates NF-kB via danger signal receptors TLR2/4 and CD14. LTF may also activate NF-kB via addiotnal receptors RAGE and TREM1.</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="LTF danger signal response pathway" Data-Source="WikiPathways" Version="WP4478_Bt" Last-Modified="20240316013715" Organism="Bos taurus">
+  <Comment Source="WikiPathways-description">Lactoferrin (LTF) activates NF-kB via danger signal receptors TLR2/4 and CD14. LTF may also activate NF-kB via additional receptors RAGE and TREM1.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4478.gpml (WP4478_r121699) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4478.gpml (WP4478_r129212) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>aea</BiopaxRef>
   <Graphics BoardWidth="918.0" BoardHeight="872.0" />
-  <DataNode TextLabel="IL1A" GraphId="db414" Type="GeneProduct">
+  <DataNode TextLabel="IL1A" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:3552</Comment>
     <Graphics CenterX="558.2280701754383" CenterY="751.6842105263161" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000010349" />
   </DataNode>
-  <DataNode TextLabel="IL1B" GraphId="aa350" Type="GeneProduct">
+  <DataNode TextLabel="IL1B" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:3553</Comment>
     <Graphics CenterX="558.2280701754383" CenterY="771.6842105263161" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000001321" />
   </DataNode>
-  <DataNode TextLabel="IL6" GraphId="a4e1c" Type="GeneProduct">
+  <DataNode TextLabel="IL6" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:3569</Comment>
     <Graphics CenterX="651.0" CenterY="751.6842105263161" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000014921" />
   </DataNode>
-  <DataNode TextLabel="CXCL8" GraphId="f5e52" Type="GeneProduct">
+  <DataNode TextLabel="CXCL8" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:3576</Comment>
     <Graphics CenterX="651.0" CenterY="771.6842105263161" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000019716" />
   </DataNode>
-  <DataNode TextLabel="TNF" GraphId="ef8dc" Type="GeneProduct">
+  <DataNode TextLabel="TNF" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:7124</Comment>
     <Graphics CenterX="744.9429824561397" CenterY="751.6842105263161" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000025471" />
   </DataNode>
-  <DataNode TextLabel="IFNAG" GraphId="e6555" Type="GeneProduct">
+  <DataNode TextLabel="IFNAG" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:3439</Comment>
     <Graphics CenterX="651.0" CenterY="803.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000046443" />
   </DataNode>
-  <DataNode TextLabel="IF1DA6" GraphId="d03f7" Type="GeneProduct">
+  <DataNode TextLabel="IF1DA6" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = L:3456</Comment>
     <Graphics CenterX="651.0" CenterY="823.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000054945" />
@@ -306,6 +306,11 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zimecki M</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Actor JK</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

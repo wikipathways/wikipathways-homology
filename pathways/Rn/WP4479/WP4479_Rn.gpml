@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Supression of HMGB1 mediated inflammation by THBD" Data-Source="WikiPathways" Version="WP4479_Rn" Last-Modified="20220226034230" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Suppression of HMGB1-mediated inflammation by THBD" Data-Source="WikiPathways" Version="WP4479_Rn" Last-Modified="20240316012654" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">THBD inhibition of HMGB1 mediated pro-inflammatory pathway via proteolytic cleavage of HMGB1.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4479.gpml (WP4479_r121700) with a 86.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4479.gpml (WP4479_r129206) with a 86.0% conversion rate.</Comment>
   <BiopaxRef>d44</BiopaxRef>
   <BiopaxRef>edd</BiopaxRef>
   <Graphics BoardWidth="779.5238095238096" BoardHeight="905.8227024747919" />
-  <DataNode TextLabel="Chuk" GraphId="ce275" Type="GeneProduct" GroupRef="bb95f">
+  <DataNode TextLabel="Chuk" Type="GeneProduct" GroupRef="bb95f">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:1147</Comment>
     <Graphics CenterX="443.8709381663107" CenterY="405.27822248947814" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000022485" />
   </DataNode>
-  <DataNode TextLabel="Ikbkb" GraphId="c10e8" Type="GeneProduct" GroupRef="bb95f">
+  <DataNode TextLabel="Ikbkb" Type="GeneProduct" GroupRef="bb95f">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:3551</Comment>
     <Graphics CenterX="443.8709381663107" CenterY="385.27822248947814" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000019073" />
   </DataNode>
-  <DataNode TextLabel="Ikbkg" GraphId="a60c7" Type="GeneProduct" GroupRef="bb95f">
+  <DataNode TextLabel="Ikbkg" Type="GeneProduct" GroupRef="bb95f">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:8517</Comment>
     <Graphics CenterX="443.8709381663107" CenterY="365.27822248947814" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000060936" />
   </DataNode>
-  <DataNode TextLabel="IkBA" GraphId="a3c3f" Type="GeneProduct" GroupRef="c51dc">
+  <DataNode TextLabel="IkBA" Type="GeneProduct" GroupRef="c51dc">
     <Comment Source="HomologyMapper">No homologues found for original id L:4792</Comment>
     <Graphics CenterX="442.53760483297737" CenterY="487.22761194029994" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Rela" GraphId="b81de" Type="GeneProduct" GroupRef="c51dc">
+  <DataNode TextLabel="Rela" Type="GeneProduct" GroupRef="c51dc">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:5970</Comment>
     <Graphics CenterX="442.53760483297737" CenterY="527.2276119402999" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000030888" />
@@ -71,7 +71,7 @@
     <Graphics CenterX="364.83955223880633" CenterY="641.4060945273642" Width="80.0" Height="20.0" ZOrder="32774" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Rela" GraphId="b837f" Type="GeneProduct">
+  <DataNode TextLabel="Rela" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = L:5970</Comment>
     <Graphics CenterX="559.8733884150682" CenterY="654.0132658137842" Width="80.0" Height="20.0" ZOrder="32777" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000030888" />
@@ -91,7 +91,7 @@
   <Interaction GraphId="id2e3f1cf4">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="443.8709381663107" Y="301.0146865912015" GraphRef="f026f" RelX="0.0" RelY="1.0" />
-      <Point X="443.8709381663107" Y="343.27822248947814" GraphRef="bb95f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="443.8709381663107" Y="343.27822248947814" GraphRef="bdd92" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -104,7 +104,7 @@
   </Interaction>
   <Interaction GraphId="id72f8083f">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="442.53760483297737" Y="549.2276119402999" GraphRef="c51dc" RelX="0.0" RelY="1.0" />
+      <Point X="442.53760483297737" Y="549.2276119402999" GraphRef="c7770" RelX="0.0" RelY="1.0" />
       <Point X="403.68857853589185" Y="577.3333333333334" />
       <Point X="364.83955223880633" Y="631.4060945273642" GraphRef="d904b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -126,8 +126,8 @@
   </Interaction>
   <Interaction GraphId="iddd935b8b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="443.8709381663107" Y="427.27822248947814" GraphRef="bb95f" RelX="0.0" RelY="1.0" />
-      <Point X="442.53760483297737" Y="465.2276119402999" GraphRef="c51dc" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="443.8709381663107" Y="427.27822248947814" GraphRef="bdd92" RelX="0.0" RelY="1.0" />
+      <Point X="442.53760483297737" Y="465.2276119402999" GraphRef="c7770" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -154,7 +154,7 @@
   </Interaction>
   <Interaction GraphId="ide89c7fe1">
     <Graphics ZOrder="32779" LineThickness="1.0">
-      <Point X="468.53760483297737" Y="549.2276119402999" GraphRef="c51dc" RelX="0.5" RelY="1.0" />
+      <Point X="468.53760483297737" Y="549.2276119402999" GraphRef="c7770" RelX="0.5" RelY="1.0" />
       <Point X="559.8733884150682" Y="624.0132658137842" GraphRef="fb0cd" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -196,18 +196,15 @@
   <Shape GraphId="fec66">
     <Graphics CenterX="394.0802238805972" CenterY="628.3734452736327" Width="21.891791044776078" Height="22.21455223880588" ZOrder="32775" FontSize="12" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="bb95f" GraphId="bb95f" Style="Complex" />
-  <Group GroupId="c51dc" GraphId="c51dc" Style="Complex" />
+  <Group GroupId="bb95f" GraphId="bdd92" Style="Complex" />
+  <Group GroupId="c51dc" GraphId="c7770" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edd">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17072321</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introduction to NF-kappaB: players, pathways, perspectives.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogene</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gilmore TD</bp:AUTHORS>
-    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d44">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22449172</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -218,6 +215,14 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuo CH</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shi GY</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu HL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17072321</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introduction to NF-kappaB: players, pathways, perspectives.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogene</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gilmore TD</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>
