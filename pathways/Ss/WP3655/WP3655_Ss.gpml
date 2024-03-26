@@ -1,53 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hypothetical craniofacial development pathway" Data-Source="WikiPathways" Version="WP3655_Ss" Last-Modified="20210522125249" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hypothetical craniofacial development pathway" Data-Source="WikiPathways" Version="WP3655_Ss" Last-Modified="20240325225641" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">Hypothetical pathway linking cranio-facial development pathway (IRF6, TP63, TFAP2A, and TGFB3) to Rho signaling pathway through ARHGAP29 regulation. Authors of literature suspect that a decrease of ARHGAP29 concentration would result in more active form, Rho-GTP, which would down-regulate cranio-facial development genes. An implication of this active Rho-GTP may be the formation of cleft lip. This pathway is based on figure 4 from Leslie et al.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3655.gpml (WP3655_r117757) with a 88.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3655.gpml (WP3655_r129299) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>b4a</BiopaxRef>
-  <Graphics BoardWidth="766.0" BoardHeight="339.75" />
+  <Graphics BoardWidth="741.0" BoardHeight="339.75" />
   <DataNode TextLabel="RHOA" GraphId="a4e9f" Type="GeneProduct" GroupRef="db5cc">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000067560</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:RHOA</Comment>
     <Graphics CenterX="225.0" CenterY="224.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000022080" />
   </DataNode>
   <DataNode TextLabel="ARHGAP29" GraphId="a8d97" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000137962</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:ARHGAP29</Comment>
     <Graphics CenterX="354.0" CenterY="172.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000006889" />
   </DataNode>
   <DataNode TextLabel="IRF6" GraphId="b1d3c" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000117595</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:IRF6</Comment>
     <Graphics CenterX="354.0" CenterY="127.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000015612" />
   </DataNode>
-  <DataNode TextLabel="GEF" GraphId="b2267" Type="GeneProduct">
-    <Comment Source="HomologyMapper">No homologues found for original id En:ENSG00000275340</Comment>
+  <DataNode TextLabel="ARHGEF2" GraphId="b2267" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:ARHGEF2</Comment>
     <Graphics CenterX="354.25" CenterY="299.75" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="" ID="" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000006502" />
   </DataNode>
-  <DataNode TextLabel="Cell Migration" GraphId="b3278" Type="Pathway">
+  <DataNode TextLabel="Cell Migration" GraphId="b3278" Type="Pathway" GroupRef="c8d05">
     <Comment>Identifier Not Found</Comment>
-    <Graphics CenterX="684.0" CenterY="234.5" Width="104.0" Height="13.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Graphics CenterX="651.0" CenterY="221.5" Width="104.0" Height="13.0" ZOrder="32768" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="TFAP2A" GraphId="b8de4" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000137203</Comment>
-    <Graphics CenterX="257.0" CenterY="75.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:TFAP2A</Comment>
+    <Graphics CenterX="302.0" CenterY="67.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000001036" />
   </DataNode>
   <DataNode TextLabel="TP63" GraphId="b9a7c" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000073282</Comment>
-    <Graphics CenterX="455.0" CenterY="73.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:TP63</Comment>
+    <Graphics CenterX="467.0" CenterY="69.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000025592" />
   </DataNode>
-  <DataNode TextLabel="WNT1" GraphId="c0888" Type="GeneProduct">
+  <DataNode TextLabel="WNT Signaling" GraphId="c0888" Type="Pathway">
     <Comment>WNT Not Specified</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000125084</Comment>
-    <Graphics CenterX="106.0" CenterY="184.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSSSCG00000000183" />
+    <Graphics CenterX="92.0" CenterY="203.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="14961e" />
+    <Xref Database="WikiPathways" ID="WP428" />
   </DataNode>
   <DataNode TextLabel="RHOA" GraphId="d0426" Type="GeneProduct" GroupRef="b71c2">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000067560</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:RHOA</Comment>
     <Graphics CenterX="481.0" CenterY="225.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000022080" />
   </DataNode>
@@ -56,13 +55,18 @@
     <Xref Database="HMDB" ID="HMDB0001440" />
   </DataNode>
   <DataNode TextLabel="TGFB3" GraphId="e8c22" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000119699</Comment>
-    <Graphics CenterX="160.0" CenterY="151.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = H:TGFB3</Comment>
+    <Graphics CenterX="226.0" CenterY="127.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000002385" />
   </DataNode>
   <DataNode TextLabel="GDP" GraphId="e98ab" Type="Metabolite" GroupRef="b71c2">
     <Graphics CenterX="481.0" CenterY="245.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="HMDB" ID="HMDB0000960" />
+  </DataNode>
+  <DataNode TextLabel="EMT" GraphId="a042f" Type="Pathway" GroupRef="c8d05">
+    <Comment>Identifier Not Found</Comment>
+    <Graphics CenterX="648.0" CenterY="248.5" Width="104.0" Height="13.0" ZOrder="32769" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Xref Database="" ID="" />
   </DataNode>
   <Interaction GraphId="id10b46316">
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -73,58 +77,58 @@
   </Interaction>
   <Interaction GraphId="id15b3d8a7">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="146.0" Y="184.0" GraphRef="c0888" RelX="1.0" RelY="0.0" />
+      <Point X="132.0" Y="203.0" GraphRef="c0888" RelX="1.0" RelY="0.0" />
       <Point X="185.0" Y="224.0" GraphRef="a4e9f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id2be573a9">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="533.0" Y="235.0" GraphRef="b71c2" RelX="1.0" RelY="0.0" />
-      <Point X="632.0" Y="234.5" GraphRef="b3278" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="533.0" Y="235.0" GraphRef="b236e" RelX="1.0" RelY="0.0" />
+      <Point X="588.0" Y="235.0" GraphRef="cdfe8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4c803e5e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="277.0" Y="218.0" GraphRef="db5cc" RelX="1.0" RelY="-0.5" />
-      <Point X="429.0" Y="219.0" GraphRef="b71c2" RelX="-1.0" RelY="-0.5" ArrowHead="mim-conversion" />
+      <Point X="277.0" Y="218.0" GraphRef="a1bd3" RelX="1.0" RelY="-0.5" />
+      <Point X="429.0" Y="219.0" GraphRef="b236e" RelX="-1.0" RelY="-0.5" ArrowHead="mim-conversion" />
       <Anchor Position="0.5066003029647262" Shape="None" GraphId="ad504" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id67bb1346">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="160.0" Y="161.0" GraphRef="e8c22" RelX="0.0" RelY="1.0" />
+      <Point X="226.0" Y="137.0" GraphRef="e8c22" RelX="0.0" RelY="1.0" />
       <Point X="225.0" Y="214.0" GraphRef="a4e9f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id69972f6c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="200.0" Y="151.0" GraphRef="e8c22" RelX="1.0" RelY="0.0" />
+      <Point X="266.0" Y="127.0" GraphRef="e8c22" RelX="1.0" RelY="0.0" />
       <Point X="314.0" Y="127.0" GraphRef="b1d3c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id6b85dc31">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="277.0" Y="85.0" GraphRef="b8de4" RelX="0.5" RelY="1.0" />
+      <Point X="302.0" Y="77.0" GraphRef="b8de4" RelX="0.0" RelY="1.0" />
       <Point X="334.0" Y="117.0" GraphRef="b1d3c" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id8c81ce6b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="435.0" Y="83.0" GraphRef="b9a7c" RelX="-0.5" RelY="1.0" />
+      <Point X="447.0" Y="79.0" GraphRef="b9a7c" RelX="-0.5" RelY="1.0" />
       <Point X="374.0" Y="117.0" GraphRef="b1d3c" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id93d15a46">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="429.0" Y="251.0" GraphRef="b71c2" RelX="-1.0" RelY="0.5" />
-      <Point X="277.0" Y="250.0" GraphRef="db5cc" RelX="1.0" RelY="0.5" ArrowHead="mim-conversion" />
+      <Point X="429.0" Y="251.0" GraphRef="b236e" RelX="-1.0" RelY="0.5" />
+      <Point X="277.0" Y="250.0" GraphRef="a1bd3" RelX="1.0" RelY="0.5" ArrowHead="mim-conversion" />
       <Anchor Position="0.4868210344081369" Shape="None" GraphId="dfa8e" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -139,7 +143,7 @@
   <Interaction GraphId="idb4368bec">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="394.0" Y="127.0" GraphRef="b1d3c" RelX="1.0" RelY="0.0" />
-      <Point X="475.0" Y="83.0" GraphRef="b9a7c" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
+      <Point X="487.0" Y="79.0" GraphRef="b9a7c" RelX="0.5" RelY="1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -150,8 +154,9 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Group GroupId="db5cc" GraphId="db5cc" Style="Complex" />
-  <Group GroupId="b71c2" GraphId="b71c2" Style="Complex" />
+  <Group GroupId="db5cc" GraphId="a1bd3" Style="Complex" />
+  <Group GroupId="b71c2" GraphId="b236e" Style="Complex" />
+  <Group GroupId="c8d05" GraphId="cdfe8" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -160,14 +165,14 @@
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cleft lip</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9296</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to development</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000650</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cleft lip</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9296</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4a">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23008150</bp:ID>
