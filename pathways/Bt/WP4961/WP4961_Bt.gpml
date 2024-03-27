@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="STING pathway in Kawasaki-like disease and COVID-19" Data-Source="WikiPathways" Version="WP4961_Bt" Last-Modified="20220717095011" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="STING pathway in Kawasaki-like disease and COVID-19" Data-Source="WikiPathways" Version="WP4961_Bt" Last-Modified="20240326140523" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">Triggering of the STING pathway by foreign DNA or damaged mitochondrial DNA can activate multiple downstream responses.  
-The STING pathway is relevant to Kawasaki-like disease in COVID-19.</Comment>
+The STING pathway is relevant to Kawasaki-like disease in COVID-19.
+
+</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4961.gpml (WP4961_r123345) with a 94.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4961.gpml (WP4961_r129327) with a 94.0% conversion rate.</Comment>
   <BiopaxRef>efd</BiopaxRef>
   <Graphics BoardWidth="716.0" BoardHeight="821.0" />
   <DataNode TextLabel="Cytokines" GraphId="b9d10" Type="GeneProduct">
@@ -151,13 +153,13 @@ The STING pathway is relevant to Kawasaki-like disease in COVID-19.</Comment>
     <Graphics CenterX="320.34917891097666" CenterY="542.7865168539327" Width="60.0" Height="20.0" ZOrder="33511" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000013705" />
   </DataNode>
-  <DataNode TextLabel="RELA" GraphId="be6b1" Type="GeneProduct" GroupRef="bd763">
+  <DataNode TextLabel="RELA" Type="GeneProduct" GroupRef="bd763">
     <Comment Source="OCR">RelA</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000173039</Comment>
     <Graphics CenterX="284.1015557476228" CenterY="697.1581676750218" Width="60.0" Height="20.0" ZOrder="33518" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000013895" />
   </DataNode>
-  <DataNode TextLabel="REL" GraphId="e1e74" Type="GeneProduct" GroupRef="bd763">
+  <DataNode TextLabel="REL" Type="GeneProduct" GroupRef="bd763">
     <Comment Source="OCR">c-Rel</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000162924</Comment>
     <Graphics CenterX="284.1015557476228" CenterY="717.1581676750218" Width="60.0" Height="20.0" ZOrder="33519" FontSize="12" Valign="Middle" />
@@ -256,7 +258,7 @@ The STING pathway is relevant to Kawasaki-like disease in COVID-19.</Comment>
   </Interaction>
   <Interaction GraphId="id9ea5ec2d">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="158.5" Y="321.1162790697674" GraphRef="e9b41" RelX="-1.0" RelY="0.0" />
+      <Point X="158.5" Y="321.1162790697674" GraphRef="fb896" RelX="-1.0" RelY="0.0" />
       <Point X="91.59427158415667" Y="396.89147286821697" GraphRef="f0259" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -278,7 +280,7 @@ The STING pathway is relevant to Kawasaki-like disease in COVID-19.</Comment>
   <Interaction GraphId="idcfcc5c05">
     <Graphics ZOrder="12288" LineThickness="1.0" Color="ff0033">
       <Point X="200.59170013386858" Y="118.5" GraphRef="f7129" RelX="0.0" RelY="1.0" />
-      <Point X="200.5" Y="289.1162790697674" GraphRef="e9b41" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="200.5" Y="289.1162790697674" GraphRef="fb896" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -313,7 +315,7 @@ The STING pathway is relevant to Kawasaki-like disease in COVID-19.</Comment>
   <Interaction GraphId="e393d">
     <Graphics ZOrder="33398" LineThickness="1.0">
       <Point X="457.63953488372204" Y="322.66666666666674" GraphRef="c14f2" RelX="-1.0" RelY="0.0" />
-      <Point X="242.5" Y="321.1162790697674" GraphRef="e9b41" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="242.5" Y="321.1162790697674" GraphRef="fb896" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -333,8 +335,8 @@ The STING pathway is relevant to Kawasaki-like disease in COVID-19.</Comment>
   </Interaction>
   <Interaction GraphId="bc321">
     <Graphics ZOrder="33481" LineThickness="1.0">
-      <Point X="200.5" Y="353.1162790697674" GraphRef="e9b41" RelX="0.0" RelY="1.0" />
-      <Point X="201.5" Y="431.0" GraphRef="e7828" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="200.5" Y="353.1162790697674" GraphRef="fb896" RelX="0.0" RelY="1.0" />
+      <Point X="201.5" Y="431.0" GraphRef="fef8c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -375,43 +377,43 @@ The STING pathway is relevant to Kawasaki-like disease in COVID-19.</Comment>
   </Interaction>
   <Interaction GraphId="a2391">
     <Graphics ZOrder="33499" LineThickness="1.0">
-      <Point X="243.5" Y="473.0" GraphRef="e7828" RelX="1.0" RelY="0.0" />
+      <Point X="243.5" Y="473.0" GraphRef="fef8c" RelX="1.0" RelY="0.0" />
       <Point X="313.53284356093326" Y="473.0" GraphRef="b8b8f" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b3b9f">
     <Graphics ZOrder="33500" LineThickness="1.0">
-      <Point X="313.53284356093326" Y="604.5687121866897" GraphRef="f1085" RelX="0.0" RelY="1.0" />
-      <Point X="314.21132238547955" Y="675.1581676750218" GraphRef="bd763" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="313.53284356093326" Y="604.5687121866897" GraphRef="e7a9d" RelX="0.0" RelY="1.0" />
+      <Point X="314.21132238547955" Y="675.1581676750218" GraphRef="c329d" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d99fa">
     <Graphics ZOrder="33501" LineThickness="1.0">
-      <Point X="241.42307692307668" Y="552.6776145203112" GraphRef="f1085" RelX="-1.0" RelY="0.0" />
-      <Point X="215.75885911840965" Y="553.3586862575628" GraphRef="dc7db" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="241.42307692307668" Y="552.6776145203112" GraphRef="e7a9d" RelX="-1.0" RelY="0.0" />
+      <Point X="215.75885911840965" Y="553.3586862575628" GraphRef="d1991" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f375a">
     <Graphics ZOrder="33502" LineThickness="1.0">
-      <Point X="173.75885911840965" Y="585.3586862575628" GraphRef="dc7db" RelX="0.0" RelY="1.0" />
+      <Point X="173.75885911840965" Y="585.3586862575628" GraphRef="d1991" RelX="0.0" RelY="1.0" />
       <Point X="173.5851339671558" Y="608.6949006050122" GraphRef="b2dd0" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="cb0f5">
     <Graphics ZOrder="33503" LineThickness="1.0">
-      <Point X="313.53284356093326" Y="444.5687121866897" GraphRef="d31ff" RelX="0.0" RelY="1.0" />
-      <Point X="313.53284356093326" Y="500.78651685393265" GraphRef="f1085" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="313.53284356093326" Y="444.5687121866897" GraphRef="c72d7" RelX="0.0" RelY="1.0" />
+      <Point X="313.53284356093326" Y="500.78651685393265" GraphRef="e7a9d" RelX="0.0" RelY="-1.0" ArrowHead="mim-modification" />
       <Anchor Position="0.5057345796691465" Shape="None" GraphId="b8b8f" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <GraphicalLine GraphId="fc9fd">
     <Graphics ZOrder="33504" LineThickness="1.0">
-      <Point X="386.3210890233363" Y="707.1581676750218" GraphRef="bd763" RelX="1.0" RelY="0.0" />
+      <Point X="386.3210890233363" Y="707.1581676750218" GraphRef="c329d" RelX="1.0" RelY="0.0" />
       <Point X="454.0" Y="707.0" GraphRef="b9d10" RelX="-1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
     </Graphics>
   </GraphicalLine>
@@ -430,22 +432,38 @@ The STING pathway is relevant to Kawasaki-like disease in COVID-19.</Comment>
   <Shape TextLabel="Nucleus" GraphId="b921d">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="349.5" CenterY="704.5" Width="611.0" Height="123.0" ZOrder="33505" FontWeight="Bold" FontSize="16" Valign="Bottom" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="349.5" CenterY="704.5" Width="611.0" Height="123.0" ZOrder="33505" FontWeight="Bold" FontSize="16" Valign="Bottom" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="b2dd0">
     <Graphics CenterX="173.5851339671558" CenterY="618.6949006050122" Width="20.0" Height="20.0" ZOrder="33506" FontSize="12" Valign="Middle" ShapeType="mim-degradation" Rotation="0.0" />
   </Shape>
-  <Group GroupId="bd763" GraphId="bd763" Style="Complex" />
-  <Group GroupId="d31ff" GraphId="d31ff" Style="Complex" />
-  <Group GroupId="dc7db" GraphId="dc7db" Style="Complex" />
-  <Group GroupId="f1085" GraphId="f1085" Style="Complex" />
-  <Group GroupId="e9b41" GraphId="e9b41" Style="Complex" />
-  <Group GroupId="e7828" GraphId="e7828" Style="Complex" />
+  <Group GroupId="feec1" GraphId="a8bc3" Style="Complex" />
+  <Group GroupId="bd763" GraphId="c329d" Style="Complex" />
+  <Group GroupId="d31ff" GraphId="c72d7" Style="Complex" />
+  <Group GroupId="dc7db" GraphId="d1991" Style="Complex" />
+  <Group GroupId="f1085" GraphId="e7a9d" Style="Complex" />
+  <Group GroupId="e9b41" GraphId="fb896" Style="Complex" />
+  <Group GroupId="e7828" GraphId="fef8c" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pattern recognition receptor mediated signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000925</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kawasaki disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13378</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID-19</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080600</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efd">
@@ -458,16 +476,6 @@ The STING pathway is relevant to Kawasaki-like disease in COVID-19.</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drouet L</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lioté F</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID-19</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080600</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kawasaki disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13378</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
