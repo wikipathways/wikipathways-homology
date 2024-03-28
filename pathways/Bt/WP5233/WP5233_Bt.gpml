@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Arsenic metabolism and reactive oxygen species generation" Data-Source="WikiPathways" Version="WP5233_Bt" Last-Modified="20220804125357" Organism="Bos taurus">
-  <Comment Source="WikiPathways-description">This pathway represents arsenic metabolism and ROS production.</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Arsenic metabolism and reactive oxygen species generation" Data-Source="WikiPathways" Version="WP5233_Bt" Last-Modified="20240327090603" Organism="Bos taurus">
+  <Comment Source="WikiPathways-description">Arsenic induced ROS formation may lead to carcinogenic effects. </Comment>
+  <Comment Source="WikiPathways-description">This pathway represents arsenic metabolism and ROS production. </Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5233.gpml (WP5233_r123583) with a 91.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5233.gpml (WP5233_r129331) with a 91.0% conversion rate.</Comment>
   <Graphics BoardWidth="1851.4285714285713" BoardHeight="915.0931677018633" />
   <DataNode TextLabel="ROS" GraphId="a0111" Type="Metabolite">
     <Graphics CenterX="1613.6520825721584" CenterY="667.7475337961273" Width="65.71739130434806" Height="42.42546583850956" ZOrder="32768" FontSize="12" Valign="Middle" />
@@ -185,7 +186,7 @@
   <Interaction GraphId="id230648d9">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="935.3004201680673" Y="280.6995798319328" GraphRef="b595a" RelX="1.0" RelY="0.0" />
-      <Point X="1220.5128205128099" Y="413.9358974358978" GraphRef="ce140" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1220.5128205128099" Y="413.9358974358978" GraphRef="ce140" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -272,7 +273,7 @@
   <Interaction GraphId="id5a37aa3b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="937.0" Y="649.25" GraphRef="bc668" RelX="1.0" RelY="0.0" />
-      <Point X="1220.5128205128099" Y="362.1538461538453" GraphRef="e9e32" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1220.5128205128099" Y="362.1538461538453" GraphRef="e9e32" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -367,7 +368,7 @@
   <Interaction GraphId="idbd4e04fb">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="935.3004201680673" Y="280.6995798319328" GraphRef="b595a" RelX="1.0" RelY="0.0" />
-      <Point X="1220.5128205128099" Y="310.37179487179276" GraphRef="cdd24" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1220.5128205128099" Y="310.37179487179276" GraphRef="cdd24" RelX="-1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -429,13 +430,18 @@
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="1002.3283990973864" CenterY="472.7845206679824" Width="1638.2003446623698" Height="824.6172940677618" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="eecac" GraphId="eecac" Style="Group" />
+  <Group GroupId="eecac" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
