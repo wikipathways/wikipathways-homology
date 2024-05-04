@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Mitochondrial fatty acid synthesis and respiration" Data-Source="WikiPathways" Version="WP4318_Rn" Last-Modified="20240502072858" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Mitochondrial fatty acid synthesis and respiration" Data-Source="WikiPathways" Version="WP4318_Rn" Last-Modified="20240503074528" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">"The dynamics of mitochondrial fission and fusion. The localization, as well as some interaction and modification of the principal proteins involved in the two processes are shown. Once dephosphorylated, DRP1 is recruited to the outer membrane by FIS1 or by another, unknown, component. The oligomerization of DRP1 is followed by constriction of the membrane and mitochondrial fission. The pro-fusion proteins (MFNs on the outer membrane and OPA1 on the inner membrane) oligomerize to induce fusion of the membranes. Other additional components of the machinery are shown. BAX, BCL2-associated X protein; BNIP3, BCL2/E1B 19 kDa-interacting protein 3; CAMK1a, calcium/calmodulin-dependent protein kinase 1a; DRP1, dynamin-related protein 1; FIS1, fission protein 1; GDAP1, ganglioside-induced differentiation-associated protein 1; l-OPA1, long form of OPA1; MFN, mitofusin; MIB, mitofusin-binding protein; MTP18, mitochondrial protein 18 kDa; OPA1, optic atrophy 1; PKA, protein kinase A; PLD, phospholipase D; sÃ¢â‚¬â€˜OPA1: short form of OPA1." Luca Scorrano et al 2010</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4318.gpml (WP4318_r129494) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4318.gpml (WP4318_r129501) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>d99</BiopaxRef>
   <BiopaxRef>a4c</BiopaxRef>
   <Graphics BoardWidth="1475.0255754475686" BoardHeight="1020.9531114368654" />
@@ -53,7 +53,7 @@
   </DataNode>
   <DataNode TextLabel="Bnip3" GraphId="bb78b" Type="GeneProduct" GroupRef="b8c88">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000176171</Comment>
-    <Graphics CenterX="514.0649096546042" CenterY="762.5888598731489" Width="90.0" Height="25.0" ZOrder="32772" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="515.4035977402802" CenterY="765.2662360445009" Width="90.0" Height="25.0" ZOrder="32772" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000017243" />
   </DataNode>
   <DataNode TextLabel="Dnm1l" GraphId="a04cd" Type="GeneProduct" GroupRef="c74be">
@@ -73,7 +73,7 @@
   </DataNode>
   <DataNode TextLabel="AC095278.1" GraphId="b371c" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000087088</Comment>
-    <Graphics CenterX="1030.3077000426792" CenterY="525.3605906533596" Width="90.0" Height="25.0" ZOrder="32781" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="1028.9690119570032" CenterY="525.3605906533596" Width="90.0" Height="25.0" ZOrder="32781" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSRNOG00000020749" />
   </DataNode>
   <DataNode TextLabel="AC098008.1" GraphId="cb4aa" Type="GeneProduct">
@@ -177,6 +177,11 @@
   <Group GroupId="dde16" GraphId="ba41c" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondria fusion pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001999</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d99">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20226757</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -190,11 +195,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dieckmann CL</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kastaniotis AJ</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondria fission pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001998</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4c">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19028688</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -209,8 +209,8 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dieckmann CL</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondria fusion pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001999</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondria fission pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001998</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
