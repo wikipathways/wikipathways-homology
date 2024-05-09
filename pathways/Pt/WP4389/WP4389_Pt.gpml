@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Bile acids synthesis and enterohepatic circulation " Data-Source="WikiPathways" Version="WP4389_Pt" Last-Modified="20220729045906" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Bile acid synthesis and enterohepatic circulation " Data-Source="WikiPathways" Version="WP4389_Pt" Last-Modified="20240509012706" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Bile Acid Synthesis and Enterohepathic Circulation. 
 In hepatocytes, cholesterol is acquired through de novo synthesis as well as receptor-mediated endocytosis of cholesterol-rich lipoproteins. Cholesterol is eliminated through bile acid synthesis and secretion. The first (and rate-limiting) step in cholesterol conversion  to bile acids is catalyzed by CYP7A1. Bile acids are then secreted into the bile via ABCB11 and released into the small intestine. The majority of bile acids are re-absorbed into the enterocytes via ASBT and transported back to the liver via portal circulation via NTCP.  In the hepatocyte, bile acids activate FXR, which inhibits CYP7A1. In the small intestine, bile acids also activate FXR to induce FGF15, which subsequently binds and activates FGFR4, leading to inhibition of CYP7A1, partially via ERK signaling.
-Based on figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/29653253 Wang et al].</Comment>
+Based on figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/29653253 Wang et al].
+
+ </Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4389.gpml (WP4389_r123503) with a 92.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4389.gpml (WP4389_r129532) with a 92.0% conversion rate.</Comment>
   <BiopaxRef>b8e</BiopaxRef>
   <Graphics BoardWidth="824.4796238244518" BoardHeight="593.4796238244514" />
   <DataNode TextLabel="LDL" GraphId="a1845" Type="Protein">
@@ -132,7 +134,7 @@ Based on figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/29653253 Wang et al].<
   <Interaction GraphId="id32001859">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="233.0" Y="236.71786833855663" GraphRef="d8533" RelX="1.0" RelY="0.0" />
-      <Point X="276.0" Y="236.5" GraphRef="e0e57" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="276.0" Y="236.5" GraphRef="d118a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -207,7 +209,7 @@ Based on figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/29653253 Wang et al].<
   </Interaction>
   <Interaction GraphId="id9075c8dc">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="614.0509404388705" Y="155.5937826541277" GraphRef="d61c8" RelX="0.0" RelY="1.0" />
+      <Point X="614.0509404388705" Y="155.5937826541277" GraphRef="f8ca8" RelX="0.0" RelY="1.0" />
       <Point X="608.9996377306329" Y="125.43377066188866" GraphRef="f72d4" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -255,7 +257,7 @@ Based on figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/29653253 Wang et al].<
   </Interaction>
   <Interaction GraphId="idfec0e2d7">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="350.0" Y="236.5" GraphRef="e0e57" RelX="1.0" RelY="0.0" />
+      <Point X="350.0" Y="236.5" GraphRef="d118a" RelX="1.0" RelY="0.0" />
       <Point X="367.48902821316557" Y="236.73902821316628" GraphRef="ef30c" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -270,10 +272,15 @@ Based on figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/29653253 Wang et al].<
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="435.94514106583074" CenterY="508.4898119122257" Width="157.89028213166148" Height="109.97962382445144" ZOrder="16384" FontSize="12" Valign="Bottom" Align="Right" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="e0e57" GraphId="e0e57" Style="Group" />
-  <Group GroupId="d61c8" GraphId="d61c8" Style="Group" />
+  <Group GroupId="e0e57" GraphId="d118a" Style="Group" />
+  <Group GroupId="d61c8" GraphId="f8ca8" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000584</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8e">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29653253</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -284,6 +291,11 @@ Based on figure 1 in [https://www.ncbi.nlm.nih.gov/pubmed/29653253 Wang et al].<
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ding WX</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li T</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000182</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bile acid biosynthetic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000039</bp:ID>
