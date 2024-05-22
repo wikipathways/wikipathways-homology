@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL6 signaling pathway" Data-Source="WikiPathways" Version="WP364_Qc" Last-Modified="20230420063202" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="IL6 signaling" Data-Source="WikiPathways" Version="WP364_Qc" Last-Modified="20240522003919" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">IL-6 is a pleiotropic cytokine with important role in immune regulation, hematopoiesis, inflammation and oncogenesis. IL-6-type cytokines exert their action via the signal transducer gp130 that associates with IL6R in a cooperative manner to form a hexameric signal transducing complex, capable of activating the down stream mediators of this signaling pathway. This mechanism of signal transduction is shared by other members of the IL-6 type cytokines like IL-11, leukaemia inhibitory factor, oncostatin M, ciliary neurotrophic factor and cardiotrophin-1 that use gp130 as a common subunit of the signal transducing complex. IL-6 stimulation leads to the activation of JAK/STAT pathway. Both STAT1 and STAT3 are phosphorylated and are able to form homo- and heterodimers after activation leading to their nuclear localization and subsequent regulation of transcription of respective target genes. SHP-2 is one of the ubiquitous tyrosine phosphatases and IL-6 stimulation leads to the SHP2-dependent activation of MAPKs, it also links the Grb2-SOS complex and Gab1 to gp130. Phosphorylated Gab1 acts as an adapter and is involved in the indirect association of SHP-2 and PI-3 kinase. Downstream activation of Vav1, Rac-1 and MAP2K4 is necessary for the IL-6-mediated STAT3 phosphorylation and transactivation to accomplish its effects. STAT3 is also phosphorylated by PKCD and it causes inhibition of STAT3 DNA binding and transcriptional activity. PTPN11 and SOCS3 exert inhibitory function and thus lead to down regulation of the signaling cascade.
 
 Please access this pathway at [http://www.netpath.org/netslim/IL_6_pathway.html NetSlim] database.
@@ -9,7 +9,7 @@ Kandasamy, K., Mohan, S. S., Raju, R., Keerthikumar, S., Kumar, G. S. S., Venugo
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP364 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP364.gpml (WP364_r126289) with a 98.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP364.gpml (WP364_r129664) with a 98.0% conversion rate.</Comment>
   <BiopaxRef>d90</BiopaxRef>
   <Attribute Key="org.pathvisio.model.WindowHeight" Value="11190.0" />
   <Attribute Key="org.pathvisio.model.WindowWidth" Value="15480.0" />
@@ -1413,6 +1413,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Group GroupId="d10a9" GraphId="ff443" Style="Complex" />
   <InfoBox CenterX="15.0" CenterY="8.333333333333334" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-6 signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000516</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000512</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d90">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20067622</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1460,16 +1470,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonard WJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey A</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin mediated signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000512</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-6 signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000516</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
