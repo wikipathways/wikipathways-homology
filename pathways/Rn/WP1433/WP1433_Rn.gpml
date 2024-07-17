@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nucleotide-binding oligomerization domain (NOD) pathway" Data-Source="WikiPathways" Version="WP1433_Rn" Last-Modified="20230420042835" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nucleotide-binding oligomerization domain (NOD) pathway" Data-Source="WikiPathways" Version="WP1433_Rn" Last-Modified="20240716191715" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">The NOD (nucleotide-binding oligomerization domain) proteins NOD1 and NOD2 have important roles in innate immunity as sensors of microbial components derived from bacterial peptidoglycan. The importance of these molecules is underscored by the fact that mutations in the gene that encodes NOD2 occur in a subpopulation of patients with Crohn's disease, and NOD1 has also been shown to participate in host defence against infection with Helicobacter pylori.
 
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP1433 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP1433.gpml (WP1433_r126279) with a 87.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP1433.gpml (WP1433_r134208) with a 87.0% conversion rate.</Comment>
   <BiopaxRef>a0c</BiopaxRef>
   <Graphics BoardWidth="1144.0" BoardHeight="767.0" />
   <DataNode TextLabel="Casp1" GraphId="a0e05" Type="GeneProduct">
@@ -310,7 +310,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="b52ac">
     <Comment>downregulates</Comment>
-    <Comment>Type your comment here</Comment>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1016.975" Y="167.99999999999994" GraphRef="e4d99" RelX="-0.5" RelY="1.0" />
       <Point X="921.0" Y="192.0" GraphRef="cc2a9" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
@@ -346,7 +345,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b73b6">
-    <Comment>Type your comment here</Comment>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="457.0" Y="63.0" />
       <Point X="472.0" Y="93.0" GraphRef="f184c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
@@ -890,6 +888,11 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Shape>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOD-like receptor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000817</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0c">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16493424 </bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -901,11 +904,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kitani A</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watanabe T</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOD-like receptor signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000817</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

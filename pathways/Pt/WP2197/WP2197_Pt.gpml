@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Endothelin pathways" Data-Source="WikiPathways" Version="WP2197_Pt" Last-Modified="20210522122717" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Endothelin pathways" Data-Source="WikiPathways" Version="WP2197_Pt" Last-Modified="20240716192253" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">Endothelin-1 is a bicyclic 21 amino acid peptide, produced primarily in the endothelium. It is a potent stimulus of long-lasting and persistent vasoconstriction. It also has a role as a stimulus of inflammation, oxidative stress and cellular proliferation.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2197 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2197.gpml (WP2197_r117710) with a 82.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2197.gpml (WP2197_r134211) with a 81.0% conversion rate.</Comment>
   <Graphics BoardWidth="1789.9841124263874" BoardHeight="1777.2818239677451" />
   <DataNode TextLabel="RAMP1" GraphId="a6042" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000132329</Comment>
@@ -149,7 +149,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="CNN1" GraphId="c3a11" Type="GeneProduct">
     <Comment>Calponin; tonically inhibits the ATPase activity of myosin in smooth muscle</Comment>
-    <Comment>Type your comment here</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000130176</Comment>
     <Graphics CenterX="583.4430000000001" CenterY="1201.61475" Width="80.0" Height="20.0" ZOrder="32776" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000010511" />
@@ -165,7 +164,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSPTRG00000010256" />
   </DataNode>
   <DataNode TextLabel="MYL1" GraphId="a5e7a" Type="GeneProduct">
-    <Comment>myosine light chain</Comment>
+    <Comment>myosine light chain </Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000168530</Comment>
     <Graphics CenterX="412.29987499999976" CenterY="1144.46775" Width="80.0" Height="20.0" ZOrder="32782" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000012879" />
@@ -221,13 +220,12 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="648.6285510355345" CenterY="860.7801709799841" Width="80.0" Height="20.0" ZOrder="32804" FontSize="10" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="Pre-pro ET1" GraphId="b9f53" Type="RNA">
+  <DataNode TextLabel="Pre-pro ET1" GraphId="b9f53" Type="Rna">
     <Graphics CenterX="340.34174999999965" CenterY="136.59975000000006" Width="80.0" Height="20.0" ZOrder="32806" FontSize="10" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="CAD" GraphId="fb52e" Type="GeneProduct">
     <Comment>Calmodulin binding protein; tonically inhibits the ATPase activity of myosin in smoothe muscle; mediating factor for Ca2+ dependent inhibition of smooth muscle contraction</Comment>
-    <Comment>Type your comment here</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Pan troglodytes: Original ID = En:ENSG00000084774</Comment>
     <Graphics CenterX="681.8411250000007" CenterY="1201.61475" Width="80.00000000000004" Height="19.999999999999915" ZOrder="32808" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSPTRG00000011756" />
@@ -523,7 +521,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="779.9625955901214" Y="504.3815553695698" GraphRef="af7ab" RelX="0.0" RelY="-1.0" />
       <Point X="700.789614814452" Y="418.67167751775537" />
-      <Point X="621.6166340387825" Y="381.25550394771864" GraphRef="d0796" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
+      <Point X="621.6166340387825" Y="381.25550394771864" GraphRef="d0796" RelX="0.0" RelY="1.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -582,14 +580,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="779.9625955901214" Y="504.3815553695698" GraphRef="af7ab" RelX="0.0" RelY="-1.0" />
       <Point X="841.9415680016912" Y="454.35623625" />
-      <Point X="903.920540413261" Y="504.9783235277978" GraphRef="e6db6" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="903.920540413261" Y="504.9783235277978" GraphRef="e6db6" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id653af4fa">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="1396.8873946267788" Y="878.6804245497667" GraphRef="cb8aa" RelX="0.5" RelY="1.0" ArrowHead="mim-stimulation" />
-      <Point X="1591.476735872357" Y="967.3525469714957" GraphRef="a9e08" RelX="-1.0" RelY="-0.5" />
+      <Point X="1591.476735872357" Y="967.3525469714957" GraphRef="c2b49" RelX="-1.0" RelY="-0.5" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -677,7 +675,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id9c05f2be">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="877.9798479820665" Y="279.974090262657" GraphRef="c8483" RelX="0.0" RelY="1.0" />
-      <Point X="877.9798479820665" Y="376.1040902626571" GraphRef="dbfe0" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="877.9798479820665" Y="376.1040902626571" GraphRef="dbfe0" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
       <Anchor Position="0.7281116180339067" Shape="None" GraphId="fcd71" />
       <Anchor Position="0.3016734766972517" Shape="None" GraphId="a55f8" />
     </Graphics>
@@ -693,7 +691,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="idaa19d89b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="877.9798479820665" Y="349.96746010425653" GraphRef="fcd71" RelX="0.0" RelY="0.0" />
-      <Point X="811.9798479820665" Y="349.974090262657" GraphRef="e6a1f" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="811.9798479820665" Y="349.974090262657" GraphRef="e6a1f" RelX="1.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -780,7 +778,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
       <Point X="1336.8873946267788" Y="868.6804245497667" GraphRef="cb8aa" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
       <Point X="1202.1334355338379" Y="1002.9574677699704" />
-      <Point X="1534.926526564924" Y="1137.2345109901742" GraphRef="c2bb1" RelX="-1.0" RelY="-0.5" />
+      <Point X="1534.926526564924" Y="1137.2345109901742" GraphRef="ec60e" RelX="-1.0" RelY="-0.5" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -815,7 +813,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idec4acaef">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1375.739616260198" Y="777.5420526105811" GraphRef="ee21f" RelX="0.0" RelY="1.0" />
+      <Point X="1375.739616260198" Y="777.5420526105811" GraphRef="fb7e4" RelX="0.0" RelY="1.0" />
       <Point X="1376.8873946267788" Y="858.6804245497667" GraphRef="cb8aa" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -895,7 +893,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Curved" ZOrder="12298" LineThickness="1.0">
       <Point X="598.6428217725611" Y="655.6560414912341" GraphRef="ecdc6" RelX="0.0" RelY="1.0" />
       <Point X="569.7271676120155" Y="667.0" />
-      <Point X="540.8115134514699" Y="754.9830704539029" GraphRef="add66" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="540.8115134514699" Y="754.9830704539029" GraphRef="add66" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
       <Anchor Position="0.04452880813167338" Shape="None" GraphId="c92b8" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -946,7 +944,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics ConnectorType="Curved" ZOrder="12314" LineThickness="1.0">
       <Point X="598.6428217725611" Y="655.6560414912341" GraphRef="ecdc6" RelX="0.0" RelY="1.0" />
       <Point X="661.4089571866612" Y="689.1920437499999" />
-      <Point X="724.1750926007612" Y="642.616075976814" GraphRef="ea673" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
+      <Point X="724.1750926007612" Y="642.616075976814" GraphRef="ea673" RelX="0.0" RelY="1.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -981,14 +979,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id23cf8a26">
     <Graphics ZOrder="12324" LineThickness="1.0">
       <Point X="340.0807499999997" Y="273.36225000000053" GraphRef="fd30a" RelX="0.0" RelY="1.0" />
-      <Point X="341.5004858799885" Y="343.11117315963435" GraphRef="f2e4b" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="341.5004858799885" Y="343.11117315963435" GraphRef="f2e4b" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
       <Anchor Position="0.4169643575559022" Shape="None" GraphId="de775" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id7f770b72">
     <Comment>Inhibition by phosphorylation</Comment>
-    <Comment>Type your comment here</Comment>
     <Graphics ZOrder="12326" LineThickness="1.0">
       <Point X="815.806500000004" Y="786.2558750000002" GraphRef="f91ef" RelX="-1.0" RelY="0.0" />
       <Point X="583.4430000000001" Y="1191.61475" GraphRef="c3a11" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
@@ -1011,7 +1008,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id3fcb98c6">
     <Comment>stimulation by phosphorylation</Comment>
-    <Comment>Type your comment here</Comment>
     <Graphics ZOrder="12332" LineThickness="1.0">
       <Point X="355.0" Y="1037.0" GraphRef="c798b" RelX="0.0" RelY="1.0" />
       <Point X="412.29987499999976" Y="1134.46775" GraphRef="a5e7a" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
@@ -1035,7 +1031,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id16ba81ba">
     <Graphics ZOrder="12340" LineThickness="1.0">
       <Point X="341.5004858799885" Y="363.11117315963435" GraphRef="f2e4b" RelX="0.0" RelY="1.0" />
-      <Point X="341.50048587998856" Y="434.5957636793027" GraphRef="dc311" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="341.50048587998856" Y="434.5957636793027" GraphRef="dc311" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
       <Anchor Position="0.4707168790265618" Shape="None" GraphId="a4430" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1093,7 +1089,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idc790f257">
     <Comment>Inhibition by phosphorylation</Comment>
-    <Comment>Type your comment here</Comment>
     <Graphics ZOrder="12358" LineThickness="1.0">
       <Point X="835.8065000000039" Y="1034.498125000002" GraphRef="f6b3e" RelX="-0.5" RelY="1.0" />
       <Point X="681.8411250000007" Y="1191.61475" GraphRef="fb52e" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
@@ -1302,19 +1297,54 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
     <Graphics CenterX="1309.2239149180812" CenterY="1676.2569783782053" Width="94.53546676886708" Height="52.87775861518321" ZOrder="32897" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b14fe" GraphId="b14fe" Style="Group" />
-  <Group GroupId="d0edd" GraphId="d0edd" Style="Group" />
-  <Group GroupId="e1eb3" GraphId="e1eb3" Style="Group" />
-  <Group GroupId="e7d54" GraphId="e7d54" Style="Group" />
-  <Group GroupId="a9e08" GraphId="a9e08" Style="Group" />
-  <Group GroupId="c2bb1" GraphId="c2bb1" Style="Group" />
-  <Group GroupId="ee21f" GraphId="ee21f" Style="Group" />
+  <Group GroupId="b14fe" GraphId="a856b" Style="Group" />
+  <Group GroupId="d0edd" GraphId="bffb7" Style="Group" />
+  <Group GroupId="e1eb3" GraphId="c0f4f" Style="Group" />
+  <Group GroupId="e7d54" GraphId="c18cd" Style="Group" />
+  <Group GroupId="a9e08" GraphId="c2b49" Style="Group" />
+  <Group GroupId="c2bb1" GraphId="ec60e" Style="Group" />
+  <Group GroupId="ee21f" GraphId="fb7e4" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G protein mediated signaling pathway via Galphai family</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000228</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000506</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G protein mediated signaling pathway via Galphaq family</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000229</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G protein mediated signaling pathway via Galphas family</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000227</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypertension</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10763</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel endothelial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000071</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benign essential hypertension</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10913</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smooth muscle cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000192</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium/calmodulin dependent signaling pathway</bp:TERM>
@@ -1325,41 +1355,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ras superfamily mediated signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000006</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel endothelial cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000071</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benign essential hypertension</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10913</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G protein mediated signaling pathway via Galphaq family</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000229</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G protein mediated signaling pathway via Galphai family</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000228</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypertension</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10763</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelin signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000506</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smooth muscle cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000192</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
