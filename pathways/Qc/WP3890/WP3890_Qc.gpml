@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nanomaterial-induced inflammasome activation" Data-Source="WikiPathways" Version="WP3890_Qc" Last-Modified="20221103084114" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nanomaterial-induced inflammasome activation" Data-Source="WikiPathways" Version="WP3890_Qc" Last-Modified="20240720125102" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">This is a schematic diagram illustrating putative pathways for NAMP (nanomaterial-associated molecular patters)-induced NLRP3 inflammasome activation. Pathogen-associated molecular patterns (PAMPs) eg. lipopolysaccharides (LPS) are recognized by Toll-like receptors (TLRs) on the cell membrane, which leads to NF-κB activation and upregulation of pro-interleukin (IL)-1β and NLRP3 expression. High aspect radio nanomaterials (i.e. long multiwalled carbon nanotubes) are thought to trigger “frustrated phagocytosis” in macrophages, leading to NADPH oxidase (NOX1) activation, reactive oxygen species (ROS) generation and inflammasome activation. Smaller nanomaterials (i.e. short carbon nanotubes or silver nanoparticles of 28 nm), on the other hand, could be phagocytosed and once inside the cell induce lysosomal damage leading to release of cathepsins which cause mitochondrial damage and ROS production. In both cases, interaction of phagocytes with NAMPs induces an overproduction of ROS which results in assembly of NLRP3, ASC (apoptosis-associated speck-like protein containing a CARD), and pro-caspase-1 into the multimeric inflammasome complex, resulting in activation of caspase-1, and release of mature IL-1β, a key pro-inflammatory mediator.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3890.gpml (WP3890_r124504) with a 90.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3890.gpml (WP3890_r134328) with a 90.0% conversion rate.</Comment>
   <BiopaxRef>f72</BiopaxRef>
   <BiopaxRef>d00</BiopaxRef>
   <Graphics BoardWidth="697.824074074075" BoardHeight="585.5555555555559" />
-  <DataNode TextLabel="IL1B" GraphId="ad754" Type="RNA">
+  <DataNode TextLabel="IL1B" GraphId="ad754" Type="Rna">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Equus caballus: Original ID = En:ENSG00000125538</Comment>
     <Graphics CenterX="177.39066303168147" CenterY="478.96623830350353" Width="55.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="6600cc" />
-    <Xref Database="Ensembl" ID="ENSG00000125538" />
+    <Xref Database="Ensembl" ID="ENSECAG00000029565" />
   </DataNode>
   <DataNode TextLabel="NLRP3" GraphId="b120d" Type="Protein" GroupRef="d1033">
     <Graphics CenterX="422.7042809677049" CenterY="360.9030042116348" Width="55.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -95,7 +96,7 @@
   <Interaction GraphId="id5fed56b9">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="96.54187551560065" Y="331.96082402475975" GraphRef="c947b" RelX="1.0" RelY="0.0" />
-      <Point X="379.3381674833031" Y="385.9030042116349" GraphRef="d1033" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="379.3381674833031" Y="385.9030042116349" GraphRef="e6b97" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -166,14 +167,14 @@
   <Interaction GraphId="iddb8a1656">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="423.2834231331607" Y="300.1590378550444" GraphRef="d9043" RelX="0.0" RelY="1.0" />
-      <Point X="422.7042809677049" Y="336.40300421163477" GraphRef="d1033" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="422.7042809677049" Y="336.40300421163477" GraphRef="e6b97" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idedb77a59">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="562.0013101314536" Y="201.51376621131058" GraphRef="e7d9a" RelX="0.0" RelY="1.0" />
-      <Point X="466.0703944521067" Y="361.1530042116348" GraphRef="d1033" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="466.0703944521067" Y="361.1530042116348" GraphRef="e6b97" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -207,7 +208,7 @@
   <Label TextLabel="Nucleus" GraphId="c9548">
     <Graphics CenterX="155.09259259259306" CenterY="515.046296296297" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" Color="666666" />
   </Label>
-  <Label TextLabel="Nanomaterial-Associated Molecular Patterns " GraphId="fec77">
+  <Label TextLabel="Nanomaterial-associated molecular patterns " GraphId="fec77">
     <Graphics CenterX="330.5124189471361" CenterY="68.79699383403755" Width="324.8664688427301" Height="31.95518120582507" ZOrder="28672" FillColor="ffffff" FontSize="14" Valign="Middle" />
   </Label>
   <Shape GraphId="a5af2">
@@ -226,17 +227,36 @@
   </Shape>
   <Shape TextLabel="Lysosome" GraphId="fdfa9">
     <Comment>Lysosome</Comment>
-    <Comment>Type your comment here</Comment>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
     <Graphics CenterX="153.1916127522744" CenterY="197.91675585641525" Width="85.0" Height="65.0" ZOrder="16384" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="999999" Rotation="6.248645535122259" />
   </Shape>
-  <Group GroupId="d1033" GraphId="d1033" Style="Complex" />
+  <Group GroupId="d1033" GraphId="e6b97" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomaterial response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001435</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">innate immune response pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000234</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xenobiotic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001229</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000235</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d00">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25770769</bp:ID>
@@ -247,11 +267,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Farrera C</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fadeel B</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000235</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f72">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23751779</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -263,21 +278,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El-Sayed R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fadeel B</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xenobiotic metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001229</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanomaterial response pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001435</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

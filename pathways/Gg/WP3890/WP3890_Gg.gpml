@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nanomaterial-induced inflammasome activation" Data-Source="WikiPathways" Version="WP3890_Gg" Organism="Gallus gallus">
-  <Comment Source="WikiPathways-description">This is a schematic diagram illustrating putative pathways for NAMP (nanomaterial-associated molecular patters)-induced NLRP3 inflammasome activation. Pathogen-associated molecular patterns (PAMPs) eg. lipopolysaccharides (LPS) are recognized by Toll-like receptors (TLRs) on the cell membrane, which leads to NF-κB activation and upregulation of pro-interleukin (IL)-1β and NLRP3 expression. High aspect radio nanomaterials (i.e. long multiwalled carbon nanotubes) are thought to trigger “frustrated phagocytosis” in macrophages, leading to NADPH oxidase activation, reactive oxygen species (ROS) generation and inflammasome activation. Smaller nanomaterials (i.e. short carbon nanotubes or silver nanoparticles of 28 nm), on the other hand, could be phagocytosed and once inside the cell induce lysosomal damage leading to release of cathepsins which cause mitochondrial damage and ROS production. In both cases, interaction of phagocytes with NAMPs induces an overproduction of ROS which results in assembly of NLRP3, ASC (apoptosis-associated speck-like protein containing a CARD), and pro-caspase-1 into the multimeric inflammasome complex, resulting in activation of caspase-1, and release of mature IL-1β, a key pro-inflammatory mediator.</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Nanomaterial-induced inflammasome activation" Data-Source="WikiPathways" Version="WP3890_Gg" Last-Modified="20240720125102" Organism="Gallus gallus">
+  <Comment Source="WikiPathways-description">This is a schematic diagram illustrating putative pathways for NAMP (nanomaterial-associated molecular patters)-induced NLRP3 inflammasome activation. Pathogen-associated molecular patterns (PAMPs) eg. lipopolysaccharides (LPS) are recognized by Toll-like receptors (TLRs) on the cell membrane, which leads to NF-κB activation and upregulation of pro-interleukin (IL)-1β and NLRP3 expression. High aspect radio nanomaterials (i.e. long multiwalled carbon nanotubes) are thought to trigger “frustrated phagocytosis” in macrophages, leading to NADPH oxidase (NOX1) activation, reactive oxygen species (ROS) generation and inflammasome activation. Smaller nanomaterials (i.e. short carbon nanotubes or silver nanoparticles of 28 nm), on the other hand, could be phagocytosed and once inside the cell induce lysosomal damage leading to release of cathepsins which cause mitochondrial damage and ROS production. In both cases, interaction of phagocytes with NAMPs induces an overproduction of ROS which results in assembly of NLRP3, ASC (apoptosis-associated speck-like protein containing a CARD), and pro-caspase-1 into the multimeric inflammasome complex, resulting in activation of caspase-1, and release of mature IL-1β, a key pro-inflammatory mediator.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3890.gpml (WP3890_r116457) with a 81.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3890.gpml (WP3890_r134328) with a 81.0% conversion rate.</Comment>
   <BiopaxRef>f72</BiopaxRef>
   <BiopaxRef>d00</BiopaxRef>
   <Graphics BoardWidth="697.824074074075" BoardHeight="585.5555555555559" />
@@ -208,7 +208,7 @@
   <Label TextLabel="Nucleus" GraphId="c9548">
     <Graphics CenterX="155.09259259259306" CenterY="515.046296296297" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" Color="666666" />
   </Label>
-  <Label TextLabel="Nanomaterial-Associated Molecular Patterns " GraphId="fec77">
+  <Label TextLabel="Nanomaterial-associated molecular patterns " GraphId="fec77">
     <Graphics CenterX="330.5124189471361" CenterY="68.79699383403755" Width="324.8664688427301" Height="31.95518120582507" ZOrder="28672" FillColor="ffffff" FontSize="14" Valign="Middle" />
   </Label>
   <Shape GraphId="a5af2">
@@ -227,7 +227,6 @@
   </Shape>
   <Shape TextLabel="Lysosome" GraphId="fdfa9">
     <Comment>Lysosome</Comment>
-    <Comment>Type your comment here</Comment>
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
     <Graphics CenterX="153.1916127522744" CenterY="197.91675585641525" Width="85.0" Height="65.0" ZOrder="16384" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="999999" Rotation="6.248645535122259" />
   </Shape>
@@ -245,6 +244,11 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El-Sayed R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fadeel B</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d00">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25770769</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -255,9 +259,9 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fadeel B</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000235</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">innate immune response pathway</bp:TERM>
@@ -273,11 +277,6 @@
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xenobiotic metabolic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001229</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000235</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
