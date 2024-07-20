@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Effect of omega-3 PUFA on Huntington's disease pathways" Data-Source="WikiPathways" Version="WP5470_Bt" Last-Modified="20240718050900" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Effect of omega-3 PUFA on Huntington's disease pathways" Data-Source="WikiPathways" Version="WP5470_Bt" Last-Modified="20240719062924" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">This ERK pathway is implicated in Huntington's disease. The ligands BDNF, EGF, and Glu bind to their respective receptors (TrkB, EGFR, mGluR) and start a signal transduction pathway starting with RAS and RAF1, which leads to the stimulation of MEK then ERK. ERK promotes function of MSK1 (a downstream kinase), ElK1 and CREB (transcription factors), and caspases 3/7 (apoptotic molecules). These downstream targets are implicated in producing the effects of Huntington's disease at the cellular level. This pathway is based on Figure 1 from Bodai et al.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3853 CPTAC Assay Portal]</Comment>
   <Comment Source="WikiPathways-description">These are pathways connected to both the wildtype huntingtin (HTT) gene and the mutated huntingtin (mHTT) gene related to neurodegeneration, apoptosis, cholesterol and GABA synthesis and its relation to Omega-3 polyunsaturated fatty acids. </Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5470.gpml (WP5470_r134261) with a 97.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5470.gpml (WP5470_r134264) with a 97.0% conversion rate.</Comment>
   <BiopaxRef>a02</BiopaxRef>
   <Graphics BoardWidth="2329.6894409937886" BoardHeight="1700.0736606611679" />
   <DataNode TextLabel="GABRA2" Type="GeneProduct" GroupRef="adedc">
@@ -89,8 +89,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Xref Database="Ensembl" ID="ENSBTAG00000018747" />
   </DataNode>
   <DataNode TextLabel="PRKAB1" Type="GeneProduct" GroupRef="eb78b">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000111725</Comment>
     <Graphics CenterX="1158.558967799258" CenterY="1114.5575278244164" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
-    <Xref Database="" ID="" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000005940" />
   </DataNode>
   <DataNode TextLabel="PRKAB2" Type="GeneProduct" GroupRef="eb78b">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000131791</Comment>
