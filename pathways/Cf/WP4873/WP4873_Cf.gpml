@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Peroxiredoxin 2 induced ovarian failure" Data-Source="WikiPathways" Version="WP4873_Cf" Last-Modified="20200502151013" Organism="Canis familiaris">
-  <Comment Source="WikiPathways-description">This pathway summarizes the influence of reactive oxygen species on ovarian aging, ovarian failure and therefore female infertility.</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Peroxiredoxin 2 induced ovarian failure" Data-Source="WikiPathways" Version="WP4873_Cf" Last-Modified="20240721054317" Organism="Canis familiaris">
+  <Comment Source="WikiPathways-description">This pathway summarizes the influence of reactive oxygen species on ovarian aging, ovarian failure and therefore female infertility. </Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4835_109250.gpml] with a 62.0% conversion rate.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4873.gpml (WP4873_r110299) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4873.gpml (WP4873_r134354) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>dc3</BiopaxRef>
   <Graphics BoardWidth="1198.8504638671875" BoardHeight="611.5" />
   <DataNode TextLabel="Cytochrome C" GraphId="a1f8e" Type="Metabolite">
@@ -50,7 +50,6 @@
   </DataNode>
   <DataNode TextLabel="STAR" GraphId="ea72e" Type="Protein">
     <Comment>Mitichondrial</Comment>
-    <Comment>Type your comment here</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = S:P51557</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000147465</Comment>
     <Graphics CenterX="199.37115097045898" CenterY="186.25" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
@@ -271,12 +270,7 @@
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian dysfunction</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1414</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-Jun N-terminal kinases MAPK signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000313</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc3">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29778464</bp:ID>
@@ -290,6 +284,11 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim JM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee DS</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-Jun N-terminal kinases MAPK signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000313</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

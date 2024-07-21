@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Galanin receptor pathway" Data-Source="WikiPathways" Version="WP4970_Ss" Last-Modified="20201120080826" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Galanin receptor pathway" Data-Source="WikiPathways" Version="WP4970_Ss" Last-Modified="20240721055105" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">Galanin, a 29-30 amino acid neuropeptide named to be so, as a glycine residue occupies the position at N-terminal and an alanine residue at C-terminal. Galanin is expressed in the central and peripheral nervous systems in mammalian species. The galanin family of peptides includes ‘GMAP’ (Gaalanin- Message associated peptide), ‘GALP’ (Galanin-like Peptide), and its splice variant ‘Alarin’ along with Galanin. There are three known G-protein coupled receptor subtypes of Galanin, namely, GALR1, GALR2, and GALR3. Galaninergic signaling is predominantly inhibitory which mainly involves MAPK, AKT, AC pathways Galanin peptides have a wide range of non-neuronal functions as well as classic neuromodulatory roles, therefore it is recommended to consider as regulatory peptides. Galanin in general is associated with several biological functions such as arousal and sleep regulation, nociception, learning, inflammation, feeding, and neuroendocrine regulation. It is also implicated in diseases like Alzheimer’s, depression, epilepsy, mood disorders, stress, anxiety, diabetes mellitus, and chronic pain.
 
 The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33136286/ Gopalakrishnan et al.]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4970.gpml (WP4970_r113773) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4970.gpml (WP4970_r134358) with a 92.0% conversion rate.</Comment>
   <BiopaxRef>e66</BiopaxRef>
   <Graphics BoardWidth="6757.848101265824" BoardHeight="2546.2337662337663" />
-  <DataNode TextLabel="KRT19" GraphId="ca5d9" Type="RNA" GroupRef="f2837">
+  <DataNode TextLabel="KRT19" GraphId="ca5d9" Type="Rna" GroupRef="f2837">
     <Comment>[Pubmed:28196718] have shown that M617 stimulates GALR1 and induces upregulation of KRT19 gene in Male Sprague- Dawley rats.</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id L:3880</Comment>
     <BiopaxRef>a25</BiopaxRef>
     <Graphics CenterX="1751.2234910277325" CenterY="1687.799192485146" Width="96.24796084828736" Height="56.701778161844985" ZOrder="-20" FillColor="Transparent" FontWeight="Bold" FontStyle="Italic" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="660066" />
-    <Xref Database="Entrez Gene" ID="3880" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="SLC2A4" GraphId="be028" Type="Protein" GroupRef="ef24f">
     <Comment>[Pubmed:27127795] have shown that  M617 stimulates GalR1 and induces upregulation of  SLC2A4 in total cell membrane and plasma membrane fractions of Male Wistar Rats adipocytes.</Comment>
@@ -26,7 +27,6 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </DataNode>
   <DataNode TextLabel="CRP" GraphId="ae89f" Type="Protein" GroupRef="ef24f">
     <Comment>[Pubmed:27127795] have shown that  M617 stimulates GalR1 and induces downregulation of plasma CRP in  Male Wistar Rats adipocytes.</Comment>
-    <Comment>Type your comment here</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:1401</Comment>
     <BiopaxRef>df7</BiopaxRef>
     <Graphics CenterX="790.8015579970536" CenterY="1837.2271832067408" Width="109.195652173913" Height="37.76708074534163" ZOrder="-16" FillColor="Transparent" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="009900" />
@@ -42,10 +42,10 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Xref Database="Ensembl" ID="ENSSSCG00000002383" />
   </DataNode>
   <DataNode TextLabel="INS" GraphId="cdda1" Type="Protein" GroupRef="b4a4f">
-    <Comment>[Pubmed:27041232] have shown that M617 stimulates GALR1 and induces downregulation of INS in diabetic rats.</Comment>
+    <Comment>[Pubmed:27041232] have shown that M617 stimulates GALR1 and induces downregulation of INS in diabetic rats. </Comment>
     <Comment>[Pubmed:27410235] have shown that M617 stimulates GALR1 and induces downregulation of INS in blood of diabetic rats.</Comment>
     <Comment>[Pubmed:25690510] have shown that NAX-5055 stimulates GALR1 and induces downregulation of INS in CF-1 mice.</Comment>
-    <Comment>[Pubmed:25449850] have shown that M617 stimulates GALR1 and induces downregulation of INS in cardiac muscle of diabetic and normal Male Wistar rats.</Comment>
+    <Comment> [Pubmed:25449850] have shown that M617 stimulates GALR1 and induces downregulation of INS in cardiac muscle of diabetic and normal Male Wistar rats. </Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:3630</Comment>
     <BiopaxRef>cb4</BiopaxRef>
     <BiopaxRef>efc</BiopaxRef>
@@ -54,11 +54,12 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="1173.5562092736586" CenterY="1446.7839853132011" Width="90.64675052410877" Height="34.04297693920353" ZOrder="32772" FillColor="Transparent" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="660066" />
     <Xref Database="Ensembl" ID="ENSSSCG00000033740" />
   </DataNode>
-  <DataNode TextLabel="UCP1" GraphId="eeb32" Type="RNA">
+  <DataNode TextLabel="UCP1" GraphId="eeb32" Type="Rna">
     <Comment>[Pubmed: 20183829] have shown that GAL stimulates GALR3 and induces downregulation of UCP1 in epididymal and subcutaneous fat tissues of high fat diet fed mouse.</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id L:7350</Comment>
     <BiopaxRef>e2f</BiopaxRef>
     <Graphics CenterX="5894.613641505058" CenterY="1596.9327147211764" Width="106.06844547563742" Height="48.738120853505684" ZOrder="32774" FillColor="Transparent" FontWeight="Bold" FontStyle="Italic" FontSize="22" Valign="Middle" LineThickness="2.0" Color="009900" />
-    <Xref Database="Entrez Gene" ID="7350" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="YAP1" GraphId="ea2f2" Type="Protein" GroupRef="f2837">
     <Comment>[Pubmed:28196718] have shown that GAL or M617 stimulates GALR1 and induces upregulation of YAP1 in Male Sprague-Dawley rats</Comment>
@@ -74,17 +75,19 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="2065.6474820143894" CenterY="1821.9424460431658" Width="127.69784172661929" Height="64.74820143884803" ZOrder="32780" FillColor="Transparent" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="660066" />
     <Xref Database="Ensembl" ID="ENSSSCG00000040461" />
   </DataNode>
-  <DataNode TextLabel="PRKCD" GraphId="a21cc" Type="RNA">
+  <DataNode TextLabel="PRKCD" GraphId="a21cc" Type="Rna">
     <Comment>[Pubmed: 20183829] have shown that GAL stimulates GALR2 and induces upregulation of PRKCD in epididymal and subcutaneous fat tissues of high fat diet fed mouse.</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:5580</Comment>
     <BiopaxRef>e2f</BiopaxRef>
     <Graphics CenterX="2936.773851378723" CenterY="1678.532402446513" Width="85.42366412213772" Height="70.8827933602491" ZOrder="32782" FillColor="Transparent" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="660066" />
-    <Xref Database="Entrez Gene" ID="5580" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000023503" />
   </DataNode>
-  <DataNode TextLabel="PPARG" GraphId="aa50d" Type="RNA" GroupRef="cdf7b">
+  <DataNode TextLabel="PPARG" GraphId="aa50d" Type="Rna" GroupRef="cdf7b">
     <Comment>[Pubmed: 20183829] have shown that GAL stimulates GALR1 and GALR2 and induces upregulation of PPARG in epididymal and subcutaneous fat tissues of high fat diet fed mouse.</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:5468</Comment>
     <BiopaxRef>e2f</BiopaxRef>
     <Graphics CenterX="2426.6002575370753" CenterY="1997.7360169000356" Width="91.4090909090919" Height="46.94232182798767" ZOrder="32784" FillColor="Transparent" FontWeight="Bold" FontStyle="Italic" FontSize="22" Valign="Middle" LineThickness="2.0" Color="660066" />
-    <Xref Database="Entrez Gene" ID="5468" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000011579" />
   </DataNode>
   <DataNode TextLabel="Go alpha 2" GraphId="eeaf8">
     <Graphics CenterX="1173.2456140350876" CenterY="968.556701769446" Width="149.12280701754383" Height="42.37656143362903" ZOrder="32786" FontWeight="Bold" FontSize="22" Valign="Middle" />
@@ -113,17 +116,17 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </DataNode>
   <DataNode TextLabel="ADIPOQ" GraphId="b9bfe" Type="Protein" GroupRef="ef24f">
     <Comment>[Pubmed:27127795] have shown that  M617 stimulates GALR1 and induces upregulation of ADIPOQ in Male Wistar Rat adipocytes.</Comment>
-    <Comment>Type your comment here</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:9370</Comment>
     <BiopaxRef>df7</BiopaxRef>
     <Graphics CenterX="708.435915929464" CenterY="1561.8608519422814" Width="109.195652173913" Height="37.76708074534163" ZOrder="32794" FillColor="Transparent" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="660066" />
     <Xref Database="Ensembl" ID="ENSSSCG00000039103" />
   </DataNode>
-  <DataNode TextLabel="PPARGC1A" GraphId="f8a63" Type="RNA">
+  <DataNode TextLabel="PPARGC1A" GraphId="f8a63" Type="Rna">
     <Comment>[Pubmed: 20183829] have shown that GAL stimlates GALR3 and induces downregulation of PPARGC1A in epididymal and subcutaneous fat tissues in high fat diest fed mouse.</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:10891</Comment>
     <BiopaxRef>e2f</BiopaxRef>
     <Graphics CenterX="5781.912625471613" CenterY="1533.182368468748" Width="143.37070548868218" Height="51.55283894409654" ZOrder="32796" FillColor="Transparent" FontWeight="Bold" FontStyle="Italic" FontSize="22" Valign="Middle" LineThickness="2.0" Color="009900" />
-    <Xref Database="Entrez Gene" ID="10891" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000029275" />
   </DataNode>
   <DataNode TextLabel="BCL2L11" GraphId="ac680" Type="Protein" GroupRef="d885b">
     <Comment>[Pubmed:24168112] have shown that  GAL stimulates GALR2  and induces upregulation of BCL211 in HEp-2 cell line.</Comment>
@@ -133,7 +136,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Xref Database="Ensembl" ID="ENSSSCG00000022322" />
   </DataNode>
   <DataNode TextLabel="Increase in plasmacorticosteronelevels" GraphId="b1e66" Type="Metabolite" GroupRef="fdad2">
-    <Comment>[Pubmed: 17982695] have shown that GAL stimulates GALR1 and induces the upregulation of cortisol in human adrenocortical cells.</Comment>
+    <Comment>[Pubmed: 17982695] have shown that GAL stimulates GALR1 and induces the upregulation of cortisol in human adrenocortical cells. </Comment>
     <Comment>[Pubmed: 17143559] have shown that GAL stimulates GALR1 and GALR2 and induces the upregulation of corticosterone in  rat adrenal zona fasciculatoreticularis cells in an adenylyl cyclase and PKA dependent manner.</Comment>
     <BiopaxRef>cea</BiopaxRef>
     <BiopaxRef>c33</BiopaxRef>
@@ -189,11 +192,12 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="334.54745481530045" CenterY="1342.6722869090981" Width="145.08043508394178" Height="38.05502704004506" ZOrder="32816" FontWeight="Bold" FontSize="16" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="TFAP2A" GraphId="fdbc0" Type="RNA" GroupRef="cdf7b">
+  <DataNode TextLabel="TFAP2A" GraphId="fdbc0" Type="Rna" GroupRef="cdf7b">
     <Comment>[Pubmed: 20183829] have shown that GAL stimulates GALR1 and GALR2 and induces upregulation of TFAP2A in epididymal and subcutaneous fat tissues of high fat diet fed mouse.</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:7020</Comment>
     <BiopaxRef>e2f</BiopaxRef>
     <Graphics CenterX="2513.440253464816" CenterY="1962.479608482871" Width="91.4090909090919" Height="48.939641109298876" ZOrder="38726" FillColor="Transparent" FontWeight="Bold" FontStyle="Italic" FontSize="22" Valign="Middle" LineThickness="2.0" Color="660066" />
-    <Xref Database="Entrez Gene" ID="7020" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000001036" />
   </DataNode>
   <DataNode TextLabel="CDKN1B" GraphId="fb2f0" Type="Protein" GroupRef="e1fcf">
     <Comment>[Pubmed: 19276245] have shown that GAL stimulates GALR2 and induces upregulation of CDNK1B in serum starved UM-SCC-1-GALR2 cells with mutant p53 gene.</Comment>
@@ -243,11 +247,12 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="4772.856424618126" CenterY="1849.3887970453818" Width="102.21614484658808" Height="46.784536086751245" ZOrder="39148" FillColor="Transparent" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="660066" />
     <Xref Database="Ensembl" ID="ENSSSCG00000023915" />
   </DataNode>
-  <DataNode TextLabel="PPARG" GraphId="e4076" Type="RNA">
+  <DataNode TextLabel="PPARG" GraphId="e4076" Type="Rna">
     <Comment>[Pubmed: 20183829] have shown that GAL stimulates GALR1 and GALR2 and induces upregulation of PPARG in epididymal and subcutaneous fat tissues of high fat diet fed mouse.</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:5468</Comment>
     <BiopaxRef>e2f</BiopaxRef>
     <Graphics CenterX="4773.385923139088" CenterY="1614.1323172440418" Width="91.4090909090919" Height="49.84187438765649" ZOrder="39160" FillColor="Transparent" FontWeight="Bold" FontStyle="Italic" FontSize="22" Valign="Middle" LineThickness="2.0" Color="660066" />
-    <Xref Database="Entrez Gene" ID="5468" />
+    <Xref Database="Ensembl" ID="ENSSSCG00000011579" />
   </DataNode>
   <DataNode TextLabel="CDKN1B" GraphId="a33c7" Type="Protein" GroupRef="e5dde">
     <Comment>[Pubmed: 19276245] have shown that GAL stimulates GALR2 and induces upregulation of CDNK1B in serum starved UM-SCC-1-GALR2 cells with mutant p53 gene.</Comment>
@@ -280,9 +285,9 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="idb3380e97" GroupRef="f6238">
     <Graphics ConnectorType="Elbow" ZOrder="12300" LineStyle="Broken" LineThickness="5.0">
-      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="b33e7" RelX="0.0" RelY="1.0" />
+      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="fb597" RelX="0.0" RelY="1.0" />
       <Point X="1079.6236539388478" Y="872.9874776386405" />
-      <Point X="334.54745481530045" Y="1323.6447733890755" GraphRef="a5a17" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="334.54745481530045" Y="1323.6447733890755" GraphRef="a5a17" RelX="0.0" RelY="-1.0" ArrowHead="mim-modification" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -352,7 +357,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="ide6b31adb" GroupRef="d885b">
     <Graphics ConnectorType="Elbow" ZOrder="12338" LineStyle="Broken" LineThickness="5.0" Color="00cccc">
-      <Point X="3857.007575757575" Y="786.0017921146954" GraphRef="ca2d4" RelX="0.0" RelY="1.0" />
+      <Point X="3857.007575757575" Y="786.0017921146954" GraphRef="a725f" RelX="0.0" RelY="1.0" />
       <Point X="4154.018037618363" Y="956.8345323741006" />
       <Point X="4451.028499479153" Y="1136.322453171104" GraphRef="e8612" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -361,7 +366,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   <Interaction GraphId="id7cfbb0f7" GroupRef="e5dde">
     <Graphics ZOrder="12344" LineThickness="5.0">
       <Point X="1823.8171514116157" Y="1294.8126435593817" GraphRef="dd377" RelX="0.0" RelY="1.0" />
-      <Point X="1825.2460270242373" Y="1539.7626289222096" GraphRef="d2de3" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="1825.2460270242373" Y="1539.7626289222096" GraphRef="d2de3" RelX="0.0" RelY="-1.0" ArrowHead="mim-necessary-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -381,7 +386,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="idd10e5cee" GroupRef="a60a3">
     <Graphics ConnectorType="Elbow" ZOrder="12350" LineStyle="Broken" LineThickness="5.0">
-      <Point X="3917.352272727272" Y="786.0017921146954" GraphRef="ca2d4" RelX="0.5" RelY="1.0" />
+      <Point X="3917.352272727272" Y="786.0017921146954" GraphRef="a725f" RelX="0.5" RelY="1.0" />
       <Point X="4586.311927982921" Y="924.5562130177516" />
       <Point X="5255.271583238568" Y="1076.6028703701998" GraphRef="bcac2" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
     </Graphics>
@@ -396,7 +401,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="idd8af63de">
     <Graphics ConnectorType="Elbow" ZOrder="12354" LineThickness="5.0" Color="339900">
-      <Point X="3857.007575757575" Y="786.0017921146954" GraphRef="ca2d4" RelX="0.0" RelY="1.0" />
+      <Point X="3857.007575757575" Y="786.0017921146954" GraphRef="a725f" RelX="0.0" RelY="1.0" />
       <Point X="3742.1479590333906" Y="984.9699398797595" />
       <Point X="3627.288342309206" Y="1073.8814595493702" GraphRef="a4476" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
@@ -446,7 +451,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="idc60b0c05" GroupRef="ef24f">
     <Graphics ConnectorType="Elbow" ZOrder="12388" LineStyle="Broken" LineThickness="5.0" Color="0033cc">
-      <Point X="1763.4479446654489" Y="791.6002219288681" GraphRef="b33e7" RelX="-0.5" RelY="1.0" />
+      <Point X="1763.4479446654489" Y="791.6002219288681" GraphRef="fb597" RelX="-0.5" RelY="1.0" />
       <Point X="1110.3847457903973" Y="1013.3982947624849" />
       <Point X="457.3215469153459" Y="1187.9518072289156" GraphRef="d7eeb" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -491,7 +496,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics ConnectorType="Elbow" ZOrder="12400" LineStyle="Broken" LineThickness="5.0">
       <Point X="1824.6998530623955" Y="783.6002219288682" GraphRef="ed53b" RelX="0.0" RelY="1.0" />
       <Point X="1307.7507055297247" Y="877.1084337349398" />
-      <Point X="790.8015579970536" Y="1818.3436428340701" GraphRef="ae89f" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="790.8015579970536" Y="1818.3436428340701" GraphRef="ae89f" RelX="0.0" RelY="-1.0" ArrowHead="mim-necessary-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -518,7 +523,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="a4bf2" GroupRef="de7ad">
     <Graphics ConnectorType="Elbow" ZOrder="16420" LineThickness="5.0" Color="339900">
-      <Point X="3857.007575757575" Y="786.0017921146954" GraphRef="ca2d4" RelX="0.0" RelY="1.0" />
+      <Point X="3857.007575757575" Y="786.0017921146954" GraphRef="a725f" RelX="0.0" RelY="1.0" />
       <Point X="4096.329160430996" Y="985.4545454545454" />
       <Point X="4335.650745104418" Y="1078.42404881371" GraphRef="f5d55" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
@@ -689,7 +694,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="a4668" GroupRef="fdad2">
     <Graphics ConnectorType="Elbow" ZOrder="38742" LineStyle="Broken" LineThickness="5.0" Color="33ffff">
-      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="b33e7" RelX="0.0" RelY="1.0" />
+      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="fb597" RelX="0.0" RelY="1.0" />
       <Point X="1594.8321361159515" Y="890.3775883069428" />
       <Point X="1364.9644191695077" Y="1375.4527965666634" GraphRef="aa167" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -733,7 +738,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="db3b6" GroupRef="ef24f">
     <Graphics ConnectorType="Elbow" ZOrder="38776" LineStyle="Broken" LineThickness="5.0" Color="0033cc">
-      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="b33e7" RelX="0.0" RelY="1.0" />
+      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="fb597" RelX="0.0" RelY="1.0" />
       <Point X="1200.2389753459865" Y="850.6024096385543" />
       <Point X="575.7780976295774" Y="1272.668851841088" GraphRef="c6e42" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -875,7 +880,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   <Interaction GraphId="c28cf">
     <Graphics ConnectorType="Elbow" ZOrder="38910" LineStyle="Broken" LineThickness="5.0">
       <Point X="5727.786464565112" Y="771.7882760523917" GraphRef="bcac4" RelX="0.5" RelY="1.0" />
-      <Point X="5894.613641505058" Y="1572.5636542944235" GraphRef="eeb32" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="5894.613641505058" Y="1572.5636542944235" GraphRef="eeb32" RelX="0.0" RelY="-1.0" ArrowHead="mim-necessary-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -890,13 +895,13 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics ConnectorType="Elbow" ZOrder="38918" LineThickness="5.0" Color="339900">
       <Point X="3857.007575757575" Y="778.0017921146953" GraphRef="a3bfe" RelX="0.0" RelY="1.0" />
       <Point X="3967.8469555806505" Y="984.5454545454545" />
-      <Point X="4078.686335403726" Y="1070.1431270787389" GraphRef="e1fcf" RelX="-0.5" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="4078.686335403726" Y="1070.1431270787389" GraphRef="a02f4" RelX="-0.5" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f0879">
     <Graphics ConnectorType="Elbow" ZOrder="38926" LineStyle="Broken" LineThickness="5.0">
-      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="b33e7" RelX="0.0" RelY="1.0" />
+      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="fb597" RelX="0.0" RelY="1.0" />
       <Point X="1425.7823723320532" Y="850.3118503118502" />
       <Point X="1026.864891601711" Y="1162.27587718136" GraphRef="c8768" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -1039,7 +1044,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="f2d0b" GroupRef="a69e3">
     <Graphics ConnectorType="Elbow" ZOrder="39022" LineStyle="Broken" LineThickness="5.0" Color="0033cc">
-      <Point X="3917.352272727272" Y="786.0017921146954" GraphRef="ca2d4" RelX="0.5" RelY="1.0" />
+      <Point X="3917.352272727272" Y="786.0017921146954" GraphRef="a725f" RelX="0.5" RelY="1.0" />
       <Point X="4529.655046859725" Y="924.5562130177516" />
       <Point X="5141.957820992179" Y="1584.809593649929" GraphRef="b8ed3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -1047,7 +1052,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="fd55d" GroupRef="a69e3">
     <Graphics ConnectorType="Elbow" ZOrder="39026" LineStyle="Broken" LineThickness="5.0" Color="0033cc">
-      <Point X="3917.352272727272" Y="786.0017921146954" GraphRef="ca2d4" RelX="0.5" RelY="1.0" />
+      <Point X="3917.352272727272" Y="786.0017921146954" GraphRef="a725f" RelX="0.5" RelY="1.0" />
       <Point X="4478.342368779542" Y="926.03550295858" />
       <Point X="5039.332464831811" Y="1405.4002971982848" GraphRef="a09a8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -1090,7 +1095,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="cec5e" GroupRef="ec43a">
     <Graphics ConnectorType="Elbow" ZOrder="39136" LineStyle="Broken" LineThickness="5.0" Color="0033cc">
-      <Point X="3917.352272727272" Y="786.0017921146954" GraphRef="ca2d4" RelX="0.5" RelY="1.0" />
+      <Point X="3917.352272727272" Y="786.0017921146954" GraphRef="a725f" RelX="0.5" RelY="1.0" />
       <Point X="4282.100250587882" Y="926.2589928057553" />
       <Point X="4646.848228448492" Y="1115.3807538405952" GraphRef="de9c4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -1105,7 +1110,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="d9798">
     <Graphics ConnectorType="Elbow" ZOrder="39150" LineStyle="Broken" LineThickness="5.0" Color="0033cc">
-      <Point X="3917.352272727272" Y="786.0017921146954" GraphRef="ca2d4" RelX="0.5" RelY="1.0" />
+      <Point X="3917.352272727272" Y="786.0017921146954" GraphRef="a725f" RelX="0.5" RelY="1.0" />
       <Point X="4344.919490516098" Y="924.4604316546762" />
       <Point X="4772.486708304924" Y="1253.5378333480796" GraphRef="b5a3b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -1120,7 +1125,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="b76f5">
     <Graphics ConnectorType="Elbow" ZOrder="39169" LineStyle="Broken" LineThickness="5.0">
-      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="b33e7" RelX="0.0" RelY="1.0" />
+      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="fb597" RelX="0.0" RelY="1.0" />
       <Point X="1685.6912013027575" Y="895.1965065502184" />
       <Point X="1546.6825495431194" Y="1198.0221557105401" GraphRef="e3274" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
@@ -1130,7 +1135,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics ConnectorType="Elbow" ZOrder="39171" LineStyle="Broken" LineThickness="5.0">
       <Point X="1824.6998530623955" Y="783.6002219288682" GraphRef="ed53b" RelX="0.0" RelY="1.0" />
       <Point X="1351.912156741234" Y="877.1084337349398" />
-      <Point X="879.1244604200725" Y="1579.6407710214532" GraphRef="a2009" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="879.1244604200725" Y="1579.6407710214532" GraphRef="d763b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1157,7 +1162,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="a135a" GroupRef="e196b">
     <Graphics ConnectorType="Elbow" ZOrder="39183" LineStyle="Broken" LineThickness="5.0" Color="ff0099">
-      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="b33e7" RelX="0.0" RelY="1.0" />
+      <Point X="1824.6998530623955" Y="791.6002219288681" GraphRef="fb597" RelX="0.0" RelY="1.0" />
       <Point X="2612.3458152552116" Y="1941.0792463753905" GraphRef="fda54" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1185,7 +1190,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Interaction>
   <Interaction GraphId="b918f">
     <Graphics ConnectorType="Elbow" ZOrder="39199" LineStyle="Broken" LineThickness="5.0" Color="ff0033">
-      <Point X="3796.662878787878" Y="786.0017921146954" GraphRef="ca2d4" RelX="-0.5" RelY="1.0" />
+      <Point X="3796.662878787878" Y="786.0017921146954" GraphRef="a725f" RelX="-0.5" RelY="1.0" />
       <Point X="3552.8345449840012" Y="962.882096069869" />
       <Point X="3309.0062111801244" Y="1264.3358517079637" GraphRef="d73ca" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
@@ -1208,7 +1213,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   <Interaction GraphId="e801f" GroupRef="e1fcf">
     <Graphics ZOrder="39205" LineStyle="Broken" LineThickness="5.0">
       <Point X="4075.2128684923564" Y="1389.0416435631928" GraphRef="f03b1" RelX="0.0" RelY="1.0" />
-      <Point X="4080.3350446996774" Y="1781.6024205236315" GraphRef="c9b1c" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="4080.3350446996774" Y="1781.6024205236315" GraphRef="c9b1c" RelX="0.0" RelY="-1.0" ArrowHead="mim-necessary-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1244,7 +1249,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics ConnectorType="Elbow" ZOrder="39215" LineStyle="Broken" LineThickness="5.0">
       <Point X="5727.786464565112" Y="771.7882760523917" GraphRef="bcac4" RelX="0.5" RelY="1.0" />
       <Point X="5754.849545018362" Y="862.4260355029587" />
-      <Point X="5781.912625471613" Y="1507.4059489966999" GraphRef="f8a63" RelX="0.0" RelY="-1.0" ArrowHead="mim-stimulation" />
+      <Point X="5781.912625471613" Y="1507.4059489966999" GraphRef="f8a63" RelX="0.0" RelY="-1.0" ArrowHead="mim-necessary-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1478,7 +1483,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Shape>
   <Shape GraphId="b6949" GroupRef="d00eb">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Extracellular region" />
-    <Graphics CenterX="4641.14699060239" CenterY="677.9434315933104" Width="171.0915188317304" Height="316.32553317491653" ZOrder="16394" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineStyle="Broken" LineThickness="2.5" Color="ff00ff" Rotation="0.0" />
+    <Graphics CenterX="4641.14699060239" CenterY="677.9434315933104" Width="171.0915188317304" Height="316.32553317491653" ZOrder="16394" FontSize="22" Valign="Middle" ShapeType="Oval" LineStyle="Broken" LineThickness="2.5" Color="ff00ff" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;         Nucleus&#xA;" GraphId="d5fbe">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
@@ -1486,15 +1491,16 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="5793.609687960587" CenterY="1565.027512525644" Width="409.0315642885157" Height="208.90733086022033" ZOrder="16396" FontWeight="Bold" FontSize="20" Valign="Middle" ShapeType="Oval" LineThickness="2.0" Color="666666" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="IP accumulation" GraphId="ef324" GroupRef="dca84">
-    <Comment>[Pubmed: 27592409] have shown that GAL stimulates GALR2 and induces an increase in inositol phosphate in a Gq dependent manner Chinese Hamster Ovary KI cells.</Comment>
+    <Comment>[Pubmed: 27592409] have shown that GAL stimulates GALR2 and induces an increase in inositol phosphate in a Gq dependent manner Chinese Hamster Ovary KI cells. </Comment>
     <Comment>[Pubmed: 21226711] have shown that galanin stimulates GALR2 and induces an increase in IP3 in rat microglial cells.</Comment>
     <BiopaxRef>c8b</BiopaxRef>
     <BiopaxRef>d22</BiopaxRef>
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="3627.0701478972155" CenterY="1358.9098428409159" Width="138.93249607535301" Height="58.0539568345322" ZOrder="16398" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Endoplasmic reticulum" GraphId="a169e" GroupRef="dca84">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Endoplasmic Reticulum" />
-    <Graphics CenterX="3605.8623023313435" CenterY="1613.2434872599315" Width="109.07822903404852" Height="207.24840368796538" ZOrder="16400" FontSize="20" Valign="Middle" ShapeType="Endoplasmic Reticulum" LineThickness="2.5" Color="666666" Rotation="4.723313701462126" />
+    <Graphics CenterX="3605.8623023313435" CenterY="1613.2434872599315" Width="109.07822903404852" Height="207.24840368796538" ZOrder="16400" FontSize="20" Valign="Middle" ShapeType="Sarcoplasmic Reticulum" LineThickness="2.5" Color="666666" Rotation="4.723313701462126" />
   </Shape>
   <Shape GraphId="ebfea">
     <Graphics CenterX="5670.370790546466" CenterY="577.1437508447384" Width="77.5" Height="64.5" ZOrder="16404" FontSize="22" Valign="Middle" ShapeType="Arc" LineThickness="3.0" Rotation="0.0" />
@@ -1503,8 +1509,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="1823.641530203536" CenterY="598.2036728108387" Width="77.5" Height="64.5" ZOrder="16408" FontSize="22" Valign="Middle" ShapeType="Arc" LineThickness="3.0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="e7bf0" GroupRef="b33e7">
-    <Comment>Type your comment here</Comment>
-    <Comment>Type your comment here</Comment>
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="1822.641530203536" CenterY="590.7036728108388" Width="67.5" Height="63.5" ZOrder="16410" FontSize="22" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="ff3366" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="GALR2" GraphId="a3bfe" GroupRef="ca2d4">
@@ -1513,19 +1518,18 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Shape>
   <Shape TextLabel="GNAQ" GraphId="a4476" GroupRef="dca84">
     <Comment>[Pubmed:10980593] have shown that GAL stimulates GALR2 and induces activation of GNAQ in H69 and COS-7 cell lines.</Comment>
-    <Comment>Type your comment here</Comment>
     <BiopaxRef>c5c</BiopaxRef>
     <Graphics CenterX="3627.288342309206" CenterY="1095.1314595493702" Width="92.5" Height="42.5" ZOrder="16416" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="GNAI1&#xA;" GraphId="eb906">
-    <Comment>[Pubmed:10980593] have shown that GAL stimulates GALR2 and induces activation of GNAI1 in H69 and COS-7 cell lines.</Comment>
-    <Comment>Type your comment here</Comment>
+    <Comment>[Pubmed:10980593] have shown that GAL stimulates GALR2 and induces activation of GNAI1 in H69 and COS-7 cell lines.
+</Comment>
     <BiopaxRef>c5c</BiopaxRef>
     <Graphics CenterX="1824.664604122256" CenterY="966.3964992135741" Width="92.5" Height="42.5" ZOrder="16418" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="GNA12&#xA;" GraphId="f5d55" GroupRef="de7ad">
-    <Comment>[Pubmed:10980593] have shown that GAL stimulates GALR2 and induces activation of GNA12 in H69 and COS-7 cell lines.</Comment>
-    <Comment>Type your comment here</Comment>
+    <Comment>[Pubmed:10980593] have shown that GAL stimulates GALR2 and induces activation of GNA12 in H69 and COS-7 cell lines.
+</Comment>
     <BiopaxRef>c5c</BiopaxRef>
     <Graphics CenterX="4335.650745104418" CenterY="1099.67404881371" Width="92.5" Height="42.5" ZOrder="16422" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
@@ -1533,12 +1537,14 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="4451.028499479153" CenterY="1183.8592748765307" Width="101.27519379844972" Height="95.07364341085292" ZOrder="16426" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="MAPK1" GraphId="cbd5f" GroupRef="d885b">
-    <Comment>[Pubmed: 24168112] have shown that GAL stimulates GALR2 receptor and induces dephosphorylation of MAPK1 in HEp-2 and KB cell lines.</Comment>
+    <Comment>[Pubmed: 24168112] have shown that GAL stimulates GALR2 receptor and induces dephosphorylation of MAPK1 in HEp-2 and KB cell lines.
+</Comment>
     <BiopaxRef>bd1</BiopaxRef>
     <Graphics CenterX="4450.976173897757" CenterY="1159.7637850950011" Width="92.26356589147252" Height="42.5" ZOrder="16428" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="MAPK3" GraphId="ee14a" GroupRef="d885b">
-    <Comment>[Pubmed: 24168112] have shown that GAL stimulates GALR2 receptor and induces dephosphorylation of MAPK3 in HEp-2 and KB cell lines.</Comment>
+    <Comment>[Pubmed: 24168112] have shown that GAL stimulates GALR2 receptor and induces dephosphorylation of MAPK3 in HEp-2 and KB cell lines.
+</Comment>
     <BiopaxRef>bd1</BiopaxRef>
     <Graphics CenterX="4451.555631262095" CenterY="1206.298499730037" Width="92.5" Height="39.91597731647402" ZOrder="16430" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
@@ -1551,7 +1557,8 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="4509.534063518106" CenterY="1246.927667614921" Width="51.35440817505586" Height="26.856589147286627" ZOrder="16434" FontWeight="Bold" FontSize="16" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="MAPK14" GraphId="de22b" GroupRef="b1f55">
-    <Comment>[Pubmed:24568968]have shown that GAL stimulates GALR2 and induces phosphorylation of MAPK14 at Thr 180 and Tyr 182 in UM-SCC-1 and UM-SCC-81B SSCHN cell lines and pcDNA control cells.</Comment>
+    <Comment>[Pubmed:24568968]have shown that GAL stimulates GALR2 and induces phosphorylation of MAPK14 at Thr 180 and Tyr 182 in UM-SCC-1 and UM-SCC-81B SSCHN cell lines and pcDNA control cells.
+</Comment>
     <BiopaxRef>af8</BiopaxRef>
     <Graphics CenterX="3044.2573907891738" CenterY="1372.1085233627932" Width="92.5" Height="42.5" ZOrder="16436" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
@@ -1573,6 +1580,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="3090.355678682619" CenterY="1590.8992210371841" Width="49.109625763505974" Height="26.856589147286627" ZOrder="16450" FontWeight="Bold" FontSize="16" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Induces angiogenesis " GraphId="d30fa" GroupRef="b1f55">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="3129.6583850931675" CenterY="2067.814061258051" Width="349.37888198757724" Height="59.41472868217024" ZOrder="16454" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="TERF2IP&#xA;" GraphId="bcac2" GroupRef="a60a3">
@@ -1600,7 +1608,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="5398.518928919456" CenterY="1346.8651391159112" Width="92.5" Height="42.5" ZOrder="16466" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="CREB1" GraphId="c7672" GroupRef="ab62a">
-    <Comment>[Pubmed: 20183829] have shown that GAL stimulates GALR2 and induces phosphorylation of CREB1 on Ser at 133 in epididymal and subcutaneous fat tissues.</Comment>
+    <Comment>[Pubmed: 20183829] have shown that GAL stimulates GALR2 and induces phosphorylation of CREB1 on Ser at 133 in epididymal and subcutaneous fat tissues. </Comment>
     <BiopaxRef>e2f</BiopaxRef>
     <Graphics CenterX="5668.644972661751" CenterY="1350.25551371705" Width="92.5" Height="41.420118343195206" ZOrder="16476" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
@@ -1618,35 +1626,35 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="501.36189407913963" CenterY="1517.4286563087812" Width="53.17683295973313" Height="26.856589147286627" ZOrder="16482" FontWeight="Bold" FontSize="16" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Induces adipogenesis and adipocyte differentiation" GraphId="feeb2">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="5792.2886677729375" CenterY="1876.4831663427644" Width="344.5841575891702" Height="59.41472868217024" ZOrder="16486" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="RPS6KA1" GraphId="f2be5" GroupRef="f2837">
-    <Comment>[Pubmed:28196718] have shown that GAL(1-29) or M617 stimulates GALR1 receptor and induces phosphorylation of RPS6KA1 in total liver extracts of Sprague Dawley rats and mouse cholangiocyte cell lines.</Comment>
+    <Comment>[Pubmed:28196718] have shown that GAL(1-29) or M617 stimulates GALR1 receptor and induces phosphorylation of RPS6KA1 in total liver extracts of Sprague Dawley rats and mouse cholangiocyte cell lines. </Comment>
     <BiopaxRef>a25</BiopaxRef>
     <Graphics CenterX="1649.2616033755276" CenterY="1484.2235648643054" Width="108.64978902953575" Height="42.5" ZOrder="16488" FillColor="ffffff" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Oval" LineThickness="2.0" Color="006666" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Proliferation of cholangiocytes" GraphId="e8a3b" GroupRef="f2837">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="1700.8145970233327" CenterY="2250.8489281794414" Width="204.0776322807533" Height="59.41472868217024" ZOrder="16492" FillColor="ffffff" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="CASP3&#xA;" GraphId="bfcf2" GroupRef="a04b5">
     <Comment>[Pubmed:10980593] have shown that GAL stimulates GALR2 and induces activation of GNA12 in H69 and COS-7 cell lines.</Comment>
-    <Comment>Type your comment here</Comment>
     <BiopaxRef>d9a</BiopaxRef>
     <Graphics CenterX="3276.3162975870723" CenterY="1607.941609639557" Width="80.96969158052048" Height="42.5" ZOrder="16496" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="CASP8" GraphId="dc84c" GroupRef="ca0e8">
     <Comment>[Pubmed:28203483] have shown that GAL stimulates GALR1 and induces CASP3 inhibition in MCAO Mice.</Comment>
-    <Comment>Type your comment here</Comment>
     <BiopaxRef>cdf</BiopaxRef>
     <Graphics CenterX="1080.6481019260182" CenterY="1648.5196207285594" Width="92.5" Height="42.5" ZOrder="16500" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="CASP12" GraphId="d90b0" GroupRef="ca0e8">
     <Comment>[Pubmed:28203483] have shown that GAL stimulates GALR1 and induces CASP3 inhibition in MCAO Mice.</Comment>
-    <Comment>Type your comment here</Comment>
     <BiopaxRef>cdf</BiopaxRef>
     <Graphics CenterX="969.5213413626366" CenterY="1481.5083104426017" Width="92.5" Height="42.5" ZOrder="16502" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel=" Induces apoptosis,&#xA;Inbihits cell growth" GraphId="cfb0e" GroupRef="ca0e8">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="1023.5531628532974" CenterY="2077.3556848436683" Width="227.4562584118438" Height="59.41472868217024" ZOrder="16506" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape GraphId="dd377" GroupRef="e5dde">
@@ -1664,15 +1672,17 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Shape>
   <Shape TextLabel="CCND1" GraphId="d2de3" GroupRef="e5dde">
     <Comment>[Pubmed:25017118] have shown that GAL stimulates GALR2 and induces the downregulation of CCND1 in UM-SCC-1 cell lines.</Comment>
-    <Comment>[Pubmed: 19276245] have shown that  GAL stimulates GALR2 and induces downregulation of serum starved CCND1 in UM-SCC-1-GALR2 with mutant p53 gene.</Comment>
+    <Comment>[Pubmed: 19276245] have shown that  GAL stimulates GALR2 and induces downregulation of serum starved CCND1 in UM-SCC-1-GALR2 with mutant p53 gene. </Comment>
     <BiopaxRef>bfe</BiopaxRef>
     <BiopaxRef>d9a</BiopaxRef>
     <Graphics CenterX="1825.2460270242373" CenterY="1561.0126289222096" Width="92.5" Height="42.5" ZOrder="16514" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="009900" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Inhibits proliferation" GraphId="e74f2" GroupRef="e5dde">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="1948.741007194245" CenterY="2179.4669935470974" Width="232.01438848920844" Height="59.41472868217024" ZOrder="16518" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Regulates glucosehomeostasis" GraphId="bf559" GroupRef="b4a4f">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="1249.3259833169768" CenterY="2258.308770863335" Width="272.2977540364378" Height="51.68301606906139" ZOrder="16524" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel=" RHOA" GraphId="f7b5e" GroupRef="de7ad">
@@ -1692,14 +1702,17 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="509.09286137750405" CenterY="1242.7968170707923" Width="46.74934218005684" Height="26.856589147286627" ZOrder="16534" FontWeight="Bold" FontSize="16" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Ameliorate insulin resistance" GraphId="fabbb" GroupRef="ef24f">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="787.7697841726618" CenterY="2259.304865094266" Width="338.1294964028778" Height="59.41472868217024" ZOrder="32820" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Ca2+ efflux&#xA;" GraphId="fd87f" GroupRef="dca84">
     <Comment>[Pubmed:24602615] have shown that AR-M1896 stimulates GALR2 and induces an increase in intracellular Ca2+ which activates KCNMA1 in HEK293 cell line</Comment>
     <BiopaxRef>b06</BiopaxRef>
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="3590.9281515806556" CenterY="1559.9211849988992" Width="119.59798994974898" Height="40.66001571240719" ZOrder="32832" FontWeight="Bold" FontSize="20" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="PLC" GraphId="e274d" GroupRef="dca84">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="3625.7673767902584" CenterY="1206.2728231162246" Width="86.44268379975429" Height="33.627333829644385" ZOrder="32834" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="GALR2" GraphId="c939a" GroupRef="d00eb">
@@ -1711,7 +1724,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="4642.030662547183" CenterY="605.176902866413" Width="92.5" Height="42.5" ZOrder="32838" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" LineThickness="3.0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="GALR2" GraphId="e68b7" GroupRef="d00eb">
-    <Comment>[Pubmed: 15885774] have shown that GAL stimulates GALR2 and induces the transport of GALR2 from plasma membrane to the cytoplasm in PC12 cells.</Comment>
+    <Comment>[Pubmed: 15885774] have shown that GAL stimulates GALR2 and induces the transport of GALR2 from plasma membrane to the cytoplasm in PC12 cells. </Comment>
     <Comment>[Pubmed:15471987] have shown that GAL stimulates GALR2 and induces the transport of GALR2 from plasma membrane to the cytoplasm in PC12 cells.</Comment>
     <BiopaxRef>d0c</BiopaxRef>
     <BiopaxRef>f61</BiopaxRef>
@@ -1748,15 +1761,19 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="2411.5124622441726" CenterY="1675.8550181725127" Width="92.5" Height="39.03100775193566" ZOrder="38722" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape GraphId="f12d9" GroupRef="ca2d4">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="3852.8850625373134" CenterY="575.0637159607544" Width="67.5" Height="63.5" ZOrder="38730" FontSize="22" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="ff3366" Rotation="0.0" />
   </Shape>
   <Shape GraphId="e45a0">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="5670.71347983641" CenterY="571.4814412481583" Width="67.5" Height="63.5" ZOrder="38732" FontSize="22" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="ff3366" Rotation="0.0" />
   </Shape>
   <Shape TextLabel=" Induces cell proliferation" GraphId="eed21" GroupRef="a60a3">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="5253.7345550410955" CenterY="1694.97830194712" Width="176.7594108019637" Height="51.68301606906139" ZOrder="38750" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Induces cell survival" GraphId="f82b7" GroupRef="a60a3">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="5401.600600615816" CenterY="1859.222298639267" Width="171.8494271685766" Height="75.94878243531268" ZOrder="38754" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Y204" GraphId="b5691" GroupRef="a60a3">
@@ -1781,7 +1798,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Shape>
   <Shape GraphId="e5a91" GroupRef="ef24f">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Extracellular region" />
-    <Graphics CenterX="311.916957463962" CenterY="1719.4763691375194" Width="182.32668521111728" Height="385.5695808333097" ZOrder="38774" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineStyle="Broken" LineThickness="2.5" Color="ff00ff" Rotation="4.71238898038469" />
+    <Graphics CenterX="311.916957463962" CenterY="1719.4763691375194" Width="182.32668521111728" Height="385.5695808333097" ZOrder="38774" FontSize="22" Valign="Middle" ShapeType="Oval" LineStyle="Broken" LineThickness="2.5" Color="ff00ff" Rotation="4.71238898038469" />
   </Shape>
   <Shape TextLabel="AKT1" GraphId="c6e42" GroupRef="ef24f">
     <BiopaxRef>edd</BiopaxRef>
@@ -1821,12 +1838,14 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="3394.637361644706" CenterY="1394.9244188573543" Width="51.61238562707388" Height="26.856589147286627" ZOrder="38802" FontWeight="Bold" FontSize="16" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Modulates morphological changes in cholinergicneurons&#xA;" GraphId="a3155" GroupRef="b4aea">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="3450.081833060561" CenterY="1874.8912752988244" Width="186.57937806873738" Height="155.29109915685308" ZOrder="38806" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="PI3K/AKT pathway" GraphId="d73ca" GroupRef="a04b5">
     <Graphics CenterX="3309.006211180124" CenterY="1286.3249821427462" Width="121.11801242236052" Height="43.97826086956519" ZOrder="38808" FillColor="ffffff" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="None" Rotation="0.0" />
   </Shape>
   <Shape TextLabel=" Induces apoptosis" GraphId="bbcbb" GroupRef="a04b5">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="3303.5714285714284" CenterY="2182.9257232685595" Width="122.67080745341583" Height="78.24793234486896" ZOrder="38810" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Y204" GraphId="ef6a6" GroupRef="e5dde">
@@ -1847,7 +1866,6 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Shape>
   <Shape TextLabel="GNAI1&#xA;" GraphId="f2c9d" GroupRef="e1fcf">
     <Comment>[Pubmed:10980593] have shown that GAL stimulates GALR2 and induces activation of GNAI1 in H69 and COS-7 cell lines.</Comment>
-    <Comment>Type your comment here</Comment>
     <BiopaxRef>c5c</BiopaxRef>
     <Graphics CenterX="4076.626021087458" CenterY="1099.393127078739" Width="92.5" Height="42.5" ZOrder="38836" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
@@ -1872,6 +1890,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="4080.335044699677" CenterY="1807.726676100325" Width="92.5" Height="52.248511153387035" ZOrder="38844" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Color="009900" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Inhibits cell proliferation" GraphId="ffe0f" GroupRef="e1fcf">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="4171.583850931676" CenterY="2293.2256228069796" Width="355.5900621118009" Height="59.41472868217024" ZOrder="38848" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Y204" GraphId="de63d" GroupRef="e1fcf">
@@ -1891,6 +1910,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="4029.0570173593064" CenterY="1279.4967751313889" Width="48.92821880251447" Height="26.856589147286627" ZOrder="38860" FontWeight="Bold" FontSize="16" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Role in neuro-&#xA;transmitter release and cellular excitability " GraphId="a403d" GroupRef="dca84">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="3697.092235539343" CenterY="2069.0428106012055" Width="243.56435643564348" Height="114.5249193547496" ZOrder="38872" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Cl-" GraphId="ee321" GroupRef="f6238">
@@ -1903,9 +1923,11 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="82.30712004527527" CenterY="1329.2687006230574" Width="44.02641764956993" Height="44.02788715360585" ZOrder="38880" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
   <Shape TextLabel=" Induces apoptosis,&#xA;Inbihits cell growth" GraphId="eeca3" GroupRef="d885b">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="4449.993653109213" CenterY="1969.7013474558876" Width="238.95253682487683" Height="59.41472868217024" ZOrder="38882" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Stress and pain modulation" GraphId="f5c95" GroupRef="fdad2">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="1462.2302158273378" CenterY="2014.584217183375" Width="352.5179856115108" Height="51.68301606906139" ZOrder="38890" FillColor="ffffff" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="PKA dependent" GraphId="d6ef9" GroupRef="fdad2">
@@ -1918,7 +1940,6 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Shape>
   <Shape TextLabel="GNAI1&#xA;" GraphId="e6ff9">
     <Comment>[Pubmed:10980593] have shown that GAL stimulates GALR2 and induces activation of GNAI1 in H69 and COS-7 cell lines.</Comment>
-    <Comment>Type your comment here</Comment>
     <BiopaxRef>c5c</BiopaxRef>
     <Graphics CenterX="5668.916192194068" CenterY="933.7770639418909" Width="92.5" Height="42.5" ZOrder="38906" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
@@ -1946,6 +1967,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="3821.5031315240085" CenterY="1102.0814816345935" Width="189.97912317327763" Height="79.33194154488504" ZOrder="38946" FillColor="ffffff" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="None" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Paracrine regulation of glucocorticoiudsecretagogue" GraphId="f8327" GroupRef="d2014">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="3889.4902978750374" CenterY="2212.0780033335677" Width="275.9745837260268" Height="94.48392685149936" ZOrder="38948" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="PKA dependent" GraphId="cccdd" GroupRef="f9e28">
@@ -1955,6 +1977,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="2170.9438905558272" CenterY="1111.3909411768655" Width="179.29683843901614" Height="42.69530226715102" ZOrder="38974" FillColor="ffffff" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="None" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Paracrine regulation of glucocorticoiudsecretagogue" GraphId="c3ac2" GroupRef="f9e28">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="2234.0670932306907" CenterY="2056.32965798032" Width="241.1184908079449" Height="94.48392685149936" ZOrder="38976" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape GraphId="d4635" GroupRef="b40a1">
@@ -1979,11 +2002,12 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="1647.0955529025714" CenterY="1911.507340497407" Width="181.21405438522982" Height="94.5392601743746" ZOrder="38998" FontWeight="Bold" FontSize="20" Valign="Middle" Align="Left" ShapeType="Oval" LineThickness="2.0" Color="666666" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="CREB1" GraphId="a21fa" GroupRef="f2837">
-    <Comment>[Pubmed:28196718] have shown that GAL or M617 stimulates GALR1 and induces increased CREB DNA binding to the YAP1 promoter in mouse cholangiocytes cell line</Comment>
+    <Comment>[Pubmed:28196718] have shown that GAL or M617 stimulates GALR1 and induces increased CREB DNA binding to the YAP1 promoter in mouse cholangiocytes cell line </Comment>
     <BiopaxRef>a25</BiopaxRef>
     <Graphics CenterX="1649.2502095702087" CenterY="1900.3095705872054" Width="76.98143179864486" Height="30.84909189690176" ZOrder="39000" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Anti-depressive activity" GraphId="f29b3" GroupRef="b40a1">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="2749.1488307126697" CenterY="1502.421265840593" Width="208.33333333333388" Height="59.41472868217024" ZOrder="39004" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Y204" GraphId="c516e">
@@ -2017,9 +2041,11 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="5141.957820992179" CenterY="1604.3250975258968" Width="92.5" Height="39.03100775193566" ZOrder="39018" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Role in nociceptionand neurondevelopment" GraphId="f6308" GroupRef="a69e3">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="5089.497041420119" CenterY="2186.5700689974988" Width="211.5384615384617" Height="120.94270224168947" ZOrder="39024" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape TextLabel=" Induces adipogenesis&#xA;" GraphId="ccc5e">
+    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="None" />
     <Graphics CenterX="2473.446893787575" CenterY="2191.8865283773416" Width="175.35070140280635" Height="56.33748385449597" ZOrder="39036" FontWeight="Bold" FontSize="25" Valign="Middle" ShapeType="None" Color="cc0000" Rotation="0.0" />
   </Shape>
   <Shape GraphId="c05e3">
@@ -2043,7 +2069,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
     <Graphics CenterX="3446.902070060225" CenterY="1093.3589523958458" Width="140.66496163682817" Height="43.97826086956519" ZOrder="39124" FillColor="ffffff" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="None" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="TBC1D4" GraphId="bb8e1">
-    <Comment>[Pubmed:29183756] have shown that M1145 stimulates GALR2 and induces phosphorylation of TBC1D4 at Thr 642 in skeletal muscles of high fat diest fed obese mice.</Comment>
+    <Comment> [Pubmed:29183756] have shown that M1145 stimulates GALR2 and induces phosphorylation of TBC1D4 at Thr 642 in skeletal muscles of high fat diest fed obese mice. </Comment>
     <BiopaxRef>ccf</BiopaxRef>
     <Graphics CenterX="4940.656559091131" CenterY="1697.615209478986" Width="92.5" Height="42.5" ZOrder="39130" FontWeight="Bold" FontSize="22" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
@@ -2095,7 +2121,7 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   </Shape>
   <Shape GraphId="f8210" GroupRef="e196b">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Extracellular region" />
-    <Graphics CenterX="2637.6054817198406" CenterY="1783.1866152816638" Width="97.79880233996724" Height="180.81473682357617" ZOrder="39193" FontSize="22" Valign="Middle" ShapeType="RoundedRectangle" LineStyle="Broken" LineThickness="2.5" Color="ff00ff" Rotation="0.0" />
+    <Graphics CenterX="2637.6054817198406" CenterY="1783.1866152816638" Width="97.79880233996724" Height="180.81473682357617" ZOrder="39193" FontSize="22" Valign="Middle" ShapeType="Oval" LineStyle="Broken" LineThickness="2.5" Color="ff00ff" Rotation="0.0" />
   </Shape>
   <Shape GraphId="f2246" GroupRef="d2f5a">
     <Graphics CenterX="6244.414806840133" CenterY="1967.6704153843593" Width="27.681818181819775" Height="25.04545454545446" ZOrder="39218" FillColor="00cc00" FontSize="12" Valign="Middle" ShapeType="Triangle" Color="00cc00" Rotation="0.0" />
@@ -2124,60 +2150,159 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
   <Shape GraphId="e1063" GroupRef="e193c">
     <Graphics CenterX="6219.371405478204" CenterY="2383.182782955275" Width="27.681818181819775" Height="25.04545454545446" ZOrder="39245" FillColor="ff00ff" FontSize="12" Valign="Middle" ShapeType="Triangle" Color="ff00ff" Rotation="3.163462195375691" />
   </Shape>
-  <Group GroupId="d2f5a" GraphId="d2f5a" Style="Group" />
-  <Group GroupId="d7a58" GraphId="d7a58" Style="Group" />
-  <Group GroupId="f0ba0" GraphId="f0ba0" Style="Group" />
-  <Group GroupId="d082d" GraphId="d082d" Style="Group" />
-  <Group GroupId="afdbd" GraphId="afdbd" Style="Group" />
-  <Group GroupId="c4263" GraphId="c4263" Style="Group" />
-  <Group GroupId="a379f" GraphId="a379f" Style="Group" />
-  <Group GroupId="b84a9" GraphId="b84a9" Style="Group" />
-  <Group GroupId="e193c" GraphId="e193c" Style="Group" />
-  <Group GroupId="a04b5" GraphId="a04b5" Style="Group" />
-  <Group GroupId="e5dde" GraphId="e5dde" Style="Group" />
-  <Group GroupId="ef24f" GraphId="ef24f" Style="Group" />
-  <Group GroupId="fdad2" GraphId="fdad2" Style="Group" />
-  <Group GroupId="b4aea" GraphId="b4aea" Style="Group" />
-  <Group GroupId="d00eb" GraphId="d00eb" Style="Group" />
-  <Group GroupId="b40a1" GraphId="b40a1" Style="Group" />
-  <Group GroupId="b1f55" GraphId="b1f55" Style="Group" />
-  <Group GroupId="a69e3" GraphId="a69e3" Style="Group" />
-  <Group GroupId="e1fcf" GraphId="e1fcf" Style="Group" />
-  <Group GroupId="ca2d4" GraphId="ca2d4" Style="Group" />
-  <Group GroupId="dca84" GraphId="dca84" Style="Group" />
-  <Group GroupId="d885b" GraphId="d885b" Style="Group" />
-  <Group GroupId="cdf7b" GraphId="cdf7b" Style="Group" />
-  <Group GroupId="e196b" GraphId="e196b" Style="Group" />
-  <Group GroupId="f9e28" GraphId="f9e28" Style="Group" />
-  <Group GroupId="bd62c" GraphId="bd62c" Style="Group" />
-  <Group GroupId="f2837" GraphId="f2837" Style="Group" />
-  <Group GroupId="b4a4f" GraphId="b4a4f" Style="Group" />
-  <Group GroupId="de7ad" GraphId="de7ad" Style="Group" />
-  <Group GroupId="a2009" GraphId="a2009" Style="Group" />
-  <Group GroupId="ec43a" GraphId="ec43a" Style="Group" />
-  <Group GroupId="d2014" GraphId="d2014" Style="Group" />
-  <Group GroupId="f6238" GraphId="f6238" Style="Group" />
-  <Group GroupId="ca0e8" GraphId="ca0e8" Style="Group" />
-  <Group GroupId="ab62a" GraphId="ab62a" Style="Group" />
-  <Group GroupId="a60a3" GraphId="a60a3" Style="Group" />
-  <Group GroupId="b33e7" GraphId="b33e7" Style="Group" />
+  <Group GroupId="a8b96" Style="Group" />
+  <Group GroupId="d2f5a" Style="Group" />
+  <Group GroupId="d7a58" Style="Group" />
+  <Group GroupId="f0ba0" Style="Group" />
+  <Group GroupId="d082d" Style="Group" />
+  <Group GroupId="afdbd" Style="Group" />
+  <Group GroupId="c4263" Style="Group" />
+  <Group GroupId="a379f" Style="Group" />
+  <Group GroupId="b84a9" Style="Group" />
+  <Group GroupId="e193c" Style="Group" />
+  <Group GroupId="a04b5" Style="Group" />
+  <Group GroupId="e5dde" Style="Group" />
+  <Group GroupId="e6f3b" Style="Group" />
+  <Group GroupId="ef24f" Style="Group" />
+  <Group GroupId="c1b2e" Style="Group" />
+  <Group GroupId="fdad2" Style="Group" />
+  <Group GroupId="d2379" Style="Group" />
+  <Group GroupId="e7542" Style="Group" />
+  <Group GroupId="b4aea" Style="Group" />
+  <Group GroupId="b24d0" Style="Group" />
+  <Group GroupId="b08a2" Style="Group" />
+  <Group GroupId="d00eb" Style="Group" />
+  <Group GroupId="f4b33" Style="Group" />
+  <Group GroupId="b40a1" Style="Group" />
+  <Group GroupId="b1f55" Style="Group" />
+  <Group GroupId="a69e3" Style="Group" />
+  <Group GroupId="eb7b5" Style="Group" />
+  <Group GroupId="ebaaa" Style="Group" />
+  <Group GroupId="af65e" Style="Group" />
+  <Group GroupId="a85fd" Style="Group" />
+  <Group GroupId="ce62c" Style="Group" />
+  <Group GroupId="a4d23" Style="Group" />
+  <Group GroupId="f1a15" Style="Group" />
+  <Group GroupId="e1fcf" GraphId="a02f4" Style="Group" />
+  <Group GroupId="ea2e5" GraphId="a4bb7" Style="Group" />
+  <Group GroupId="ca2d4" GraphId="a725f" Style="Group" />
+  <Group GroupId="c7409" GraphId="a9380" Style="Group" />
+  <Group GroupId="dca84" GraphId="ac09f" Style="Group" />
+  <Group GroupId="d885b" GraphId="b0c85" Style="Group" />
+  <Group GroupId="cdf7b" GraphId="b4642" Style="Group" />
+  <Group GroupId="e196b" GraphId="b4709" Style="Group" />
+  <Group GroupId="f9e28" GraphId="b5d5b" Style="Group" />
+  <Group GroupId="bd62c" GraphId="b83f2" Style="Group" />
+  <Group GroupId="df2a5" GraphId="b976e" Style="Group" />
+  <Group GroupId="f2837" GraphId="b978d" Style="Group" />
+  <Group GroupId="b4a4f" GraphId="bd719" Style="Group" />
+  <Group GroupId="ed3c2" GraphId="c30ad" Style="Group" />
+  <Group GroupId="de7ad" GraphId="ce510" Style="Group" />
+  <Group GroupId="a2009" GraphId="d763b" Style="Group" />
+  <Group GroupId="ec43a" GraphId="d82f4" Style="Group" />
+  <Group GroupId="d2014" GraphId="db84c" Style="Group" />
+  <Group GroupId="f6238" GraphId="dfc19" Style="Group" />
+  <Group GroupId="ca0e8" GraphId="e0130" Style="Group" />
+  <Group GroupId="ab62a" GraphId="e09e0" Style="Group" />
+  <Group GroupId="bc3d6" GraphId="e163a" Style="Group" />
+  <Group GroupId="e64e3" GraphId="ec377" Style="Group" />
+  <Group GroupId="a3e42" GraphId="f678d" Style="Group" />
+  <Group GroupId="a60a3" GraphId="f85b1" Style="Group" />
+  <Group GroupId="b33e7" GraphId="fb597" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df7">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27127795</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c33">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1782695</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central Administration of Galanin Receptor 1 Agonist Boosted Insulin Sensitivity in Adipose Cells of Diabetic Rats.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Diabetes Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang Z</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fang P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">He B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guo L</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[San-jie cream in the treatment and prevention of muscular lumps through intramuscular injections].</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhonghua Hu Li Za Zhi</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li L</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b9c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23897649</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABAergic terminals are a source of galanin to modulate cholinergic neuron development in the neonatal forebrain.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cereb Cortex</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keimpema E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zheng K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barde SS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berghuis P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dobszay MB</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schnell R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mulder J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luiten PG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu ZD</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Runesson J</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langel Ü</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shi M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bo P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hökfelt T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harkany T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c91">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16819983</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin and galanin-like peptide modulate neurite outgrowth via protein kinase C-mediated activation of extracellular signal-related kinase.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eur J Neurosci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawes JJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narasimhaiah R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Picciotto MR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c8b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27592409</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ala&lt;sup&gt;5&lt;/sup&gt;-galanin (2-11) is a GAL&lt;sub&gt;2&lt;/sub&gt;R specific galanin analogue.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropeptides</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Webling K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Runesson J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lang A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saar I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kofler B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langel Ü</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f53">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22076657</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G-protein-coupled receptor-mediated MAPK and PI3-kinase signaling is maintained in Chinese hamster ovary cells after γ-irradiation.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biomol Screen</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osmond RI</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin-Harris MH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crouch MF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Park J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morreale E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dupriez VJ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d22">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21226711</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional importance of inositol-1,4,5-triphosphate-induced intracellular Ca2+ mobilization in galanin-induced microglial migration.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurochem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ifuku M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okuno Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamakawa Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izumi K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seifert S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kettenmann H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noda M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15885774</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constitutive and ligand-induced internalization of EGFP-tagged galanin R2 and Rl receptors in PC12 cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropeptides</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xia S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kjaer S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zheng K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hu PS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hökfelt T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu ZQ</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a14">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17076662</bp:ID>
@@ -2191,57 +2316,74 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pope RJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wynick D</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e04">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25449850</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b75">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27359210</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central injection of GalR1 agonist M617 facilitates GLUT4 expression in cardiac muscle of type 2 diabetic rats.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exp Gerontol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fang P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shi M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang Z</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bo P</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin Activates G Protein Gated Inwardly Rectifying Potassium Channels and Suppresses Kisspeptin-10 Activation of GnRH Neurons.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrinology</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constantin S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wray S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a97">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9928160</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f41">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21345369</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin causes Cl- secretion in the human colon. Potential significance of inflammation-associated NF-kappa B activation on galanin-1 receptor expression and function.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ann N Y Acad Sci</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benya RV</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matkowskyj KA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danilkovich A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hecht G</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rap1 mediates galanin receptor 2-induced proliferation and survival in squamous cell carcinoma.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Signal</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banerjee R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Henson BS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russo N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tsodikov A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D'Silva NJ</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a65">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25405608</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous system disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:863</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25017118</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role of supraspinal galanin in behavioural hyperalgesia in the rat.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLoS One</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin receptor 2 utilizes distinct signaling pathways to suppress cell proliferation and induce apoptosis in HNSCC.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Med Rep</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amorim D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David-Pereira A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marques P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puga S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rebelo P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Costa P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertovaara A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almeida A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinto-Ribeiro F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kanazawa T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misawa K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misawa Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maruta M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uehara T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kawada K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagatomo T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ichimura K</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cea">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17143559</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17263796</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin enhances corticosterone secretion from dispersed rat adrenocortical cells through the activation of GAL-R1 and GAL-R2 receptors coupled to the adenylate cyclase-dependent signaling cascade.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Mol Med</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation of the galanin receptor 2 (GalR2) protects the hippocampus from neuronal damage.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurochem</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreis PG</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malendowicz LK</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rebuffat P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinazzi R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ziolkowska A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nussdorfer GG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elliott-Hunt CR</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pope RJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanderplank P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wynick D</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19276245</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin receptor subtype 2 suppresses cell proliferation and induces apoptosis in p53 mutant head and neck cancer cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clin Cancer Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kanazawa T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kommareddi PK</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iwashita T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kumar B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misawa K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misawa Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jang I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nair TS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iino Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carey TE</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cdf">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28203483</bp:ID>
@@ -2260,102 +2402,30 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li J</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu ZD</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfe">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25017118</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cea">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17143559</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin receptor 2 utilizes distinct signaling pathways to suppress cell proliferation and induce apoptosis in HNSCC.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Med Rep</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin enhances corticosterone secretion from dispersed rat adrenocortical cells through the activation of GAL-R1 and GAL-R2 receptors coupled to the adenylate cyclase-dependent signaling cascade.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Mol Med</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreis PG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malendowicz LK</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rebuffat P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinazzi R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ziolkowska A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nussdorfer GG</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fbd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24726665</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin promotes neuronal differentiation from neural progenitor cells in vitro and contributes to the generation of new olfactory neurons in the adult mouse brain.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exp Neurol</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kanazawa T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misawa K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misawa Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maruta M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uehara T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kawada K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagatomo T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ichimura K</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ccf">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29183756</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activiated galanin receptor 2 attenuates insulin resistance in skeletal muscle of obese mice.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peptides</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fang P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yu M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheng Z</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shi M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang Z</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bo P</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c91">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16819983</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin and galanin-like peptide modulate neurite outgrowth via protein kinase C-mediated activation of extracellular signal-related kinase.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eur J Neurosci</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawes JJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narasimhaiah R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Picciotto MR</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b77">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25152404</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferential activation by galanin 1-15 fragment of the GalR1 protomer of a GalR1-GalR2 heteroreceptor complex.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Biophys Res Commun</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borroto-Escuela DO</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narvaez M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Di Palma M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calvo F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rodriguez D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Millon C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carlsson J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agnati LF</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garriga P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Díaz-Cabiale Z</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuxe K</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b06">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24602615</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation of galanin receptor 2 stimulates large conductance Ca(2+)-dependent K(+) (BK) channels through the IP3 pathway in human embryonic kidney (HEK293) cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Biophys Res Commun</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan NC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bai YF</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hökfelt T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu ZQ</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a96">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18272487</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin decreases proliferation of PC12 cells and induces apoptosis via its subtype 2 receptor (GalR2).</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofighi R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joseph B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xia S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu ZQ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamberger B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hökfelt T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceccatelli S</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c8b">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27592409</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ala&lt;sup&gt;5&lt;/sup&gt;-galanin (2-11) is a GAL&lt;sub&gt;2&lt;/sub&gt;R specific galanin analogue.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropeptides</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Webling K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Runesson J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lang A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saar I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kofler B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langel Ü</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cordero-Llana O</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rinaldi F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brennan PA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wynick D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caldwell MA</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f61">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15471987</bp:ID>
@@ -2375,15 +2445,29 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hökfelt T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu ZQ</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d71">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19272414</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e04">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25449850</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bidirectional regulation of stress responses by galanin in mice: involvement of galanin receptor subtype 1.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuroscience</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitsukawa K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bartfai T</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central injection of GalR1 agonist M617 facilitates GLUT4 expression in cardiac muscle of type 2 diabetic rats.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exp Gerontol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fang P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shi M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang Z</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bo P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15934937</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GalR1, but not GalR2 or GalR3, levels are regulated by galanin signaling in the locus coeruleus through a cyclic AMP-dependent mechanism.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurochem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawes JJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brunzell DH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wynick D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zachariou V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Picciotto MR</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd1">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24168112</bp:ID>
@@ -2404,37 +2488,194 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ichimura K</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ozawa K</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9a">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19276245</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e84">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27410235</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin receptor subtype 2 suppresses cell proliferation and induces apoptosis in p53 mutant head and neck cancer cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clin Cancer Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activated central galanin type 1 receptor alleviated insulin resistance in diabetic rat muscle.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurosci Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chang X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheng X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yao Q</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Su B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheng C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qu S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a65">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25405608</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role of supraspinal galanin in behavioural hyperalgesia in the rat.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLoS One</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amorim D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David-Pereira A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marques P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puga S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rebelo P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Costa P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertovaara A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almeida A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinto-Ribeiro F</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a96">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18272487</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin decreases proliferation of PC12 cells and induces apoptosis via its subtype 2 receptor (GalR2).</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofighi R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joseph B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xia S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu ZQ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamberger B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hökfelt T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceccatelli S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27127795</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central Administration of Galanin Receptor 1 Agonist Boosted Insulin Sensitivity in Adipose Cells of Diabetic Rats.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Diabetes Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang Z</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fang P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">He B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guo L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Runesson J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langel Ü</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shi M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bo P</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20183829</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diet-induced obesity regulates the galanin-mediated signaling cascade in the adipose tissue of mice.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Nutr Food Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Park T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25690510</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of glucose and insulin release following acute and repeated treatment with the synthetic galanin analog NAX-5055.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropeptides</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flynn SP</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White HS</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b06">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24602615</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation of galanin receptor 2 stimulates large conductance Ca(2+)-dependent K(+) (BK) channels through the IP3 pathway in human embryonic kidney (HEK293) cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan NC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bai YF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yang Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hökfelt T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu ZQ</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17384686</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin and galanin receptor type 1 suppress proliferation in squamous carcinoma cells: activation of the extracellular signal regulated kinase pathway and induction of cyclin-dependent kinase inhibitors.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogene</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kanazawa T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kommareddi PK</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iwashita T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kumar B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kommareddi P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nair T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misawa K</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misawa Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jang I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nair TS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iino Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ueda Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tono T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carey TE</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a94">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22308501</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b77">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25152404</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Go2 G protein mediates galanin inhibitory effects on insulin release from pancreatic β cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tang G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Park S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bajpayee NS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vi D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagaoka Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birnbaumer L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiang M</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferential activation by galanin 1-15 fragment of the GalR1 protomer of a GalR1-GalR2 heteroreceptor complex.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Biophys Res Commun</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borroto-Escuela DO</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narvaez M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Di Palma M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calvo F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rodriguez D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Millon C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carlsson J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agnati LF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garriga P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Díaz-Cabiale Z</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuxe K</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a97">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9928160</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin causes Cl- secretion in the human colon. Potential significance of inflammation-associated NF-kappa B activation on galanin-1 receptor expression and function.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ann N Y Acad Sci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benya RV</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matkowskyj KA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danilkovich A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hecht G</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a25">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28196718</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Neuropeptide Galanin Is Up-Regulated during Cholestasis and Contributes to Cholangiocyte Proliferation.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Am J Pathol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McMillin M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frampton G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grant S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DeMorrow S</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d11">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15885916</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of galanin receptor 1 and galanin receptor 2 activation in synaptic plasticity associated with 3',5'-cyclic AMP response element-binding protein phosphorylation in the dentate gyrus: studies with a galanin receptor 2 agonist and galanin receptor 1 knockout mice.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuroscience</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Badie-Mahdavi H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behrens MM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bartfai T</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c89">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17637475</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anxiolytic-like activity of the non-selective galanin receptor agonist, galnon.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropeptides</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rajarao SJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Platt B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sukoff SJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lin Q</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bender CN</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nieuwenhuijsen BW</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ring RH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schechter LE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosenzweig-Lipson S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beyer CE</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d71">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19272414</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bidirectional regulation of stress responses by galanin in mice: involvement of galanin receptor subtype 1.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuroscience</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitsukawa K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bartfai T</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af8">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24568968</bp:ID>
@@ -2455,87 +2696,21 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kirkwood KL</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D'Silva NJ</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous system disease</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:863</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edd">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17384686</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ccf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29183756</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galanin and galanin receptor type 1 suppress proliferation in squamous carcinoma cells: activation of the extracellular signal regulated kinase pathway and induction of cyclin-dependent kinase inhibitors.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogene</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kanazawa T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iwashita T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kommareddi P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nair T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misawa K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misawa Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ueda Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tono T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carey TE</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activiated galanin receptor 2 attenuates insulin resistance in skeletal muscle of obese mice.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peptides</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fang P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yu M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheng Z</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shi M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang Z</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bo P</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d22">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21226711</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional importance of inositol-1,4,5-triphosphate-induced intracellular Ca2+ mobilization in galanin-induced microglial migration.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurochem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ifuku M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okuno Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamakawa Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izumi K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seifert S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kettenmann H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noda M</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efc">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25690510</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of glucose and insulin release following acute and repeated treatment with the synthetic galanin analog NAX-5055.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropeptides</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flynn SP</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White HS</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a25">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28196718</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Neuropeptide Galanin Is Up-Regulated during Cholestasis and Contributes to Cholangiocyte Proliferation.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Am J Pathol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McMillin M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frampton G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grant S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DeMorrow S</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f41">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21345369</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rap1 mediates galanin receptor 2-induced proliferation and survival in squamous cell carcinoma.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Signal</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banerjee R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Henson BS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russo N</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tsodikov A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D'Silva NJ</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20183829</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diet-induced obesity regulates the galanin-mediated signaling cascade in the adipose tissue of mice.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mol Nutr Food Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Park T</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5c">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10980593</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -2549,19 +2724,20 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schultz G</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gudermann T</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15885774</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a94">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22308501</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constitutive and ligand-induced internalization of EGFP-tagged galanin R2 and Rl receptors in PC12 cells.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropeptides</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xia S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kjaer S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zheng K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hu PS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hökfelt T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu ZQ</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Go2 G protein mediates galanin inhibitory effects on insulin release from pancreatic β cells.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tang G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Park S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bajpayee NS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vi D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagaoka Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birnbaumer L</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiang M</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e66">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33136286</bp:ID>
@@ -2593,49 +2769,6 @@ The creation of this pathway is described in [https://pubmed.ncbi.nlm.nih.gov/33
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu Y</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bo P</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang Z</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c33">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1782695</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[San-jie cream in the treatment and prevention of muscular lumps through intramuscular injections].</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhonghua Hu Li Za Zhi</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li L</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b9c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23897649</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABAergic terminals are a source of galanin to modulate cholinergic neuron development in the neonatal forebrain.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cereb Cortex</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keimpema E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zheng K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barde SS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berghuis P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dobszay MB</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schnell R</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mulder J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luiten PG</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu ZD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Runesson J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langel Ü</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hökfelt T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harkany T</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e84">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27410235</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activated central galanin type 1 receptor alleviated insulin resistance in diabetic rat muscle.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Neurosci Res</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu L</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chang X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheng X</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yao Q</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Su B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheng C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qu S</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>

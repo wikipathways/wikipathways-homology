@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Airway smooth muscle cell contraction" Data-Source="WikiPathways" Version="WP4962_Bt" Last-Modified="20220309094558" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Airway smooth muscle cell contraction" Data-Source="WikiPathways" Version="WP4962_Bt" Last-Modified="20240721054806" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">Signal transduction pathways involved in airway smooth muscle cell contraction. 
 
 Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext figure 1 from Belaia et al.].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4962.gpml (WP4962_r122013) with a 91.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4962.gpml (WP4962_r134357) with a 91.0% conversion rate.</Comment>
   <BiopaxRef>de3</BiopaxRef>
   <Graphics BoardWidth="1021.0" BoardHeight="694.0" />
   <DataNode TextLabel="MYLK" GraphId="a29ce" Type="GeneProduct" GroupRef="dddaf">
@@ -60,6 +60,7 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
     <Xref Database="ChEBI" ID="CHEBI:18035" />
   </DataNode>
   <DataNode TextLabel="ITPR3" GraphId="dc55b" Type="GeneProduct">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000096433</Comment>
     <Graphics CenterX="704.0" CenterY="351.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000013245" />
@@ -150,7 +151,6 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
   </DataNode>
   <DataNode TextLabel="PPP1CB" GraphId="ff550" Type="Protein">
     <Comment>Myosin light chain phosphatase</Comment>
-    <Comment>Type your comment here</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000213639</Comment>
     <Graphics CenterX="451.5" CenterY="608.0" Width="73.0" Height="25.0" ZOrder="32781" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000012447" />
@@ -191,12 +191,12 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
     <Graphics CenterX="193.5" CenterY="610.0" Width="67.0" Height="25.0" ZOrder="32793" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000005847" />
   </DataNode>
-  <State GraphRef="add6b" TextLabel="P" GraphId="f5b10">
-    <Graphics RelX="1.0" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
   <State GraphRef="fe039" TextLabel="P" GraphId="a3d4b">
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="add6b" TextLabel="P" GraphId="f5b10">
+    <Graphics RelX="1.0" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d4674" TextLabel="P" GraphId="e160f">
@@ -218,7 +218,7 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
   <Interaction GraphId="id1cb5122b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="193.5" Y="530.0" GraphRef="de2e2" RelX="0.0" RelY="0.0" />
-      <Point X="295.0" Y="529.5" GraphRef="bbc4b" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="295.0" Y="529.5" GraphRef="a897b" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -245,8 +245,8 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
   </Interaction>
   <Interaction GraphId="id46f9e57a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="193.5" Y="432.5" GraphRef="d5d44" RelX="0.0" RelY="1.0" />
-      <Point X="193.5" Y="564.5" GraphRef="f9d04" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
+      <Point X="193.5" Y="432.5" GraphRef="a77cf" RelX="0.0" RelY="1.0" />
+      <Point X="193.5" Y="564.5" GraphRef="bb301" RelX="0.0" RelY="-1.0" ArrowHead="mim-binding" />
       <Anchor Position="0.7386363636363636" Shape="None" GraphId="de2e2" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -283,8 +283,8 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
   </Interaction>
   <Interaction GraphId="id721e6e82">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="214.25" Y="367.25" GraphRef="d5d44" RelX="0.5" RelY="-1.0" />
-      <Point X="214.25" Y="227.5" GraphRef="ea6e1" RelX="0.5" RelY="1.0" ArrowHead="mim-conversion" />
+      <Point X="214.25" Y="367.25" GraphRef="a77cf" RelX="0.5" RelY="-1.0" />
+      <Point X="214.25" Y="227.5" GraphRef="a6b41" RelX="0.5" RelY="1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.22448979591836735" Shape="None" GraphId="c6976" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -306,8 +306,8 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
   </Interaction>
   <Interaction GraphId="id81434ab2">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="172.75" Y="227.5" GraphRef="ea6e1" RelX="-0.5" RelY="1.0" />
-      <Point X="172.75" Y="367.25" GraphRef="d5d44" RelX="-0.5" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="172.75" Y="227.5" GraphRef="a6b41" RelX="-0.5" RelY="1.0" />
+      <Point X="172.75" Y="367.25" GraphRef="a77cf" RelX="-0.5" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.4" Shape="None" GraphId="efafa" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -350,7 +350,7 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
   </Interaction>
   <Interaction GraphId="ida5e9e99b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="737.0003662109375" Y="122.0" GraphRef="c9923" RelX="-1.0" RelY="0.0" />
+      <Point X="737.0003662109375" Y="122.0" GraphRef="b7bd8" RelX="-1.0" RelY="0.0" />
       <Point X="701.0003662109375" Y="122.9" GraphRef="c9663" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -371,7 +371,7 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
   </Interaction>
   <Interaction GraphId="idc23064d5">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="336.5" Y="562.5" GraphRef="bbc4b" RelX="0.0" RelY="1.0" />
+      <Point X="336.5" Y="562.5" GraphRef="a897b" RelX="0.0" RelY="1.0" />
       <Point X="451.5" Y="573.0" GraphRef="c1fae" RelX="0.0" RelY="0.0" ArrowHead="mim-stimulation" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -438,7 +438,7 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
   <Interaction GraphId="id418c9d8f">
     <Graphics ZOrder="32789" LineThickness="1.0">
       <Point X="441.0" Y="170.0" GraphRef="ce011" RelX="1.0" RelY="0.0" />
-      <Point X="485.0" Y="142.0" GraphRef="c0863" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="485.0" Y="142.0" GraphRef="c0863" RelX="-1.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -449,7 +449,7 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
     <Graphics CenterX="254.5" CenterY="491.0" Width="131.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="GEFs" GraphId="ba758">
-    <Comment>guanine nucleotide exchange factors</Comment>
+    <Comment>guanine nucleotide exchange factors </Comment>
     <Graphics CenterX="298.0" CenterY="251.0" Width="54.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Beta agonists" GraphId="bddcc">
@@ -479,31 +479,22 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Sarcoplasmic Reticulum" />
     <Graphics CenterX="747.25" CenterY="307.25" Width="273.5" Height="147.5" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Sarcoplasmic Reticulum" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="ea6e1" GraphId="ea6e1" Style="Group" />
-  <Group GroupId="d5d44" GraphId="d5d44" Style="Group" />
-  <Group GroupId="bbc4b" GraphId="bbc4b" Style="Group" />
-  <Group GroupId="e6c8b" GraphId="e6c8b" Style="Group" />
-  <Group GroupId="c9923" GraphId="c9923" Style="Group" TextLabel="Ca2+ channels" />
-  <Group GroupId="f9d04" GraphId="f9d04" Style="Group" />
-  <Group GroupId="dddaf" GraphId="dddaf" Style="Group" />
+  <Group GroupId="ea6e1" GraphId="a6b41" Style="Group" />
+  <Group GroupId="d5d44" GraphId="a77cf" Style="Group" />
+  <Group GroupId="bbc4b" GraphId="a897b" Style="Group" />
+  <Group GroupId="e6c8b" GraphId="b090f" Style="Group" />
+  <Group GroupId="c9923" GraphId="b7bd8" Style="Group" TextLabel="Ca2+ channels" />
+  <Group GroupId="f9d04" GraphId="bb301" Style="Group" />
+  <Group GroupId="dddaf" GraphId="c9327" Style="Group" />
+  <Group GroupId="afd69" GraphId="e5cc3" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allergic asthma</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9415</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchial smooth muscle cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0002598</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18579364</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18579364</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular mechanisms underlying airway smooth muscle contraction and proliferation: implications for asthma.</bp:TITLE>
@@ -520,6 +511,21 @@ Based on [https://www.resmedjournal.com/article/S0954-6111(08)00096-6/fulltext f
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maselli R</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marsico SA</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchial smooth muscle cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0002598</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allergic asthma</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9415</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
