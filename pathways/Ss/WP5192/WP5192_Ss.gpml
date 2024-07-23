@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Modulation of PI3K-Akt-mTOR signaling by bioactive sphingolipids" Data-Source="WikiPathways" Version="WP5192_Ss" Last-Modified="20240221045432" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Modulation of PI3K-Akt-mTOR signaling by bioactive sphingolipids" Data-Source="WikiPathways" Version="WP5192_Ss" Last-Modified="20240722053058" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">Modulation of the PI3K-Akt-mTOR signaling by bioactive sphinoglipids</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5192.gpml (WP5192_r128742) with a 81.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5192.gpml (WP5192_r134496) with a 81.0% conversion rate.</Comment>
   <BiopaxRef>caf</BiopaxRef>
   <Graphics BoardWidth="1079.6987851662448" BoardHeight="1023.5" />
   <DataNode TextLabel="ROS" GraphId="a3d98" Type="Metabolite">
@@ -255,7 +255,6 @@
   </Interaction>
   <Interaction GraphId="id58e44d34">
     <Comment>Depending on the cell model used, this interaction has been found to either activate or inhibit </Comment>
-    <Comment>Type your comment here</Comment>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="776.966740967346" Y="131.43209718670082" GraphRef="a3d98" RelX="0.5" RelY="1.0" />
       <Point X="776.966740967346" Y="172.43762204857921" GraphRef="fc3a2" RelX="0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
@@ -665,11 +664,6 @@
   <Group GroupId="f299e" GraphId="cda34" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">senile degeneration of brain</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14524</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="caf">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30140974</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -681,6 +675,11 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lukiw WJ</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strosznajder RP</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">senile degeneration of brain</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14524</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

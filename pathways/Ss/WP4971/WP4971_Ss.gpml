@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Phosphoinositides metabolism" Data-Source="WikiPathways" Version="WP4971_Ss" Last-Modified="20220310235550" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Phosphoinositides metabolism" Data-Source="WikiPathways" Version="WP4971_Ss" Last-Modified="20240723012333" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">Phosphatidylinositols are a family of lipids under the phosphatidylglyceride class. This pathway specifies several metabolic conversions between PIP, PIP2, PIP3 and other metabolites. Phosphorylation sites on the individual metabolites are drawn as states, with the location added as a number.
 
-The main interactions within this pathway are based on Figure 1 of [https://doi.org/10.1038/nmeth867 Rusten et al], annotated with biochemical interaction database [https://www.rhea-db.org/ Rhea], and diseases (depicted in pink) with corresponding [https://www.omim.org/ OMIM-identifiers.]. Dashed lines depict proposed interactions which have not been characterised (yet)</Comment>
+The main interactions within this pathway are based on Figure 1 of [https://doi.org/10.1038/nmeth867 Rusten et al], annotated with biochemical interaction database [https://www.rhea-db.org/ Rhea], and diseases (depicted in pink) with corresponding [https://www.omim.org/ OMIM-identifiers.]. Dashed lines depict proposed interactions which have not been characterized (yet).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4971.gpml (WP4971_r122106) with a 84.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4971.gpml (WP4971_r134602) with a 84.0% conversion rate.</Comment>
   <BiopaxRef>c9f</BiopaxRef>
   <Graphics BoardWidth="1971.9468852222822" BoardHeight="748.7384122509876" />
   <DataNode TextLabel="PI-3 kinase III" GraphId="c377a" Type="Protein" GroupRef="fa70c">
@@ -150,16 +150,19 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
     <Xref Database="Ensembl" ID="ENSSSCG00000013490" />
   </DataNode>
   <DataNode TextLabel="PIP4K2A" GraphId="d2ce4" Type="Protein" GroupRef="e9176">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:P48426</Comment>
     <Graphics CenterX="760.5653781690331" CenterY="43.94953301775395" Width="86.28770062386583" Height="25.758379563861347" ZOrder="32779" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000011079" />
   </DataNode>
   <DataNode TextLabel="PIP4K2C" GraphId="c0fb3" Type="Protein" GroupRef="e9176">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:Q8TBX8</Comment>
     <Graphics CenterX="674.2776775451674" CenterY="69.70791258161526" Width="86.28770062386583" Height="25.758379563861347" ZOrder="32780" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000000436" />
   </DataNode>
   <DataNode TextLabel="PIP4K2B" GraphId="bc33d" Type="Protein" GroupRef="e9176">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:P78356</Comment>
     <Graphics CenterX="760.565378169033" CenterY="69.70791258161526" Width="86.28770062386583" Height="25.758379563861347" ZOrder="32781" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000033291" />
@@ -325,17 +328,17 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </DataNode>
   <DataNode TextLabel="4-phosphatase" GraphId="a39d8" Type="Protein" GroupRef="f8397">
     <Comment>From [https://www.qmul.ac.uk/sbcs/iubmb/enzyme/EC3/1/3/78.html and https://enzyme.expasy.org/EC/3.1.3.78] :"Two pathways exist in mammalian cells to degrade 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate [PtdIns(4,5)P2] [2]. One is catalysed by this enzyme... The enzyme from human is specific for PtdIns(4,5)P2 as substrate, as it cannot use PtdIns(3,4,5)P3, PtdIns(3,4)P2, PtdIns(3,5)P2, PtdIns5P, PtdIns4P or PtdIns3P [2].In humans, the enzyme is localized to late endosomal/lysosomal membranes [2]." [2]: [PMID: 16365287]</Comment>
-    <Graphics CenterX="776.8668138760095" CenterY="647.887694348024" Width="101.08654504281765" Height="25.14028716118553" ZOrder="32846" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="773.0" CenterY="647.887694348024" Width="101.08654504281765" Height="25.14028716118553" ZOrder="32846" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="PIP4P1" GraphId="d0a81" Type="Protein" GroupRef="f8397">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:Q86T03</Comment>
-    <Graphics CenterX="776.8668138760183" CenterY="673.0279815092098" Width="101.0865450428176" Height="25.140287161185512" ZOrder="32847" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="773.0" CenterY="673.0279815092098" Width="101.0865450428176" Height="25.140287161185512" ZOrder="32847" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000038172" />
   </DataNode>
   <DataNode TextLabel="PIP4P2" GraphId="d2933" Type="Protein" GroupRef="f8397">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:Q8N4L2</Comment>
-    <Graphics CenterX="776.8668138760183" CenterY="698.1682686703949" Width="101.0865450428176" Height="25.140287161185512" ZOrder="32848" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="773.0" CenterY="698.1682686703949" Width="101.0865450428176" Height="25.140287161185512" ZOrder="32848" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000006121" />
   </DataNode>
   <DataNode TextLabel="PIP-4 kinase" GraphId="e958d" Type="Protein" GroupRef="a91af">
@@ -344,16 +347,19 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="PIP4K2A" GraphId="a8754" Type="Protein" GroupRef="a91af">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:P48426</Comment>
     <Graphics CenterX="837.3199394073847" CenterY="424.10405499970216" Width="86.28770062386583" Height="25.758379563861347" ZOrder="32850" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000011079" />
   </DataNode>
   <DataNode TextLabel="PIP4K2C" GraphId="a1ff2" Type="Protein" GroupRef="a91af">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:Q8TBX8</Comment>
     <Graphics CenterX="837.3199394073848" CenterY="449.8624345635635" Width="86.28770062386583" Height="25.758379563861347" ZOrder="32851" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000000436" />
   </DataNode>
   <DataNode TextLabel="PIP4K2B" GraphId="e4e59" Type="Protein" GroupRef="a91af">
+    <Comment></Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = S:P78356</Comment>
     <Graphics CenterX="837.3199394073847" CenterY="475.6208141274248" Width="86.28770062386583" Height="25.758379563861347" ZOrder="32852" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSSSCG00000033291" />
@@ -484,16 +490,16 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
     <Graphics CenterX="429.18374532805086" CenterY="198.6868189281978" Width="90.0" Height="25.0" ZOrder="32885" FontSize="12" Valign="Middle" Color="999900" />
     <Xref Database="Ensembl" ID="ENSSSCG00000012742" />
   </DataNode>
+  <State GraphRef="f6b50" TextLabel="P1" GraphId="ba89c">
+    <Graphics RelX="-0.4487233413252298" RelY="-1.0" Width="20.0" Height="20.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
   <State GraphRef="a87e2" TextLabel="P5" GraphId="c7d9b">
     <Graphics RelX="1.0" RelY="1.0" Width="20.0" Height="20.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="a87e2" TextLabel="P1" GraphId="deede">
     <Graphics RelX="-0.4127105585652423" RelY="-0.9999999999999971" Width="20.0" Height="20.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="f6b50" TextLabel="P1" GraphId="ba89c">
-    <Graphics RelX="-0.4487233413252298" RelY="-1.0" Width="20.0" Height="20.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="f6b50" TextLabel="P4" GraphId="e3424">
@@ -579,7 +585,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   <Interaction GraphId="id1329b9e0">
     <BiopaxRef>a01</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="714.3458054726567" Y="188.9578347880161" GraphRef="c9ac5" RelX="0.0" RelY="-1.0" />
+      <Point X="714.3458054726567" Y="188.9578347880161" GraphRef="da968" RelX="0.0" RelY="-1.0" />
       <Point X="716.0310108941258" Y="125.66654874068736" GraphRef="bdbe8" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -618,7 +624,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="id35bfcae2">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="1461.383126833021" Y="57.6571719705627" GraphRef="fdefd" RelX="-1.0" RelY="-0.5" />
+      <Point X="1461.383126833021" Y="57.6571719705627" GraphRef="d1094" RelX="-1.0" RelY="-0.5" />
       <Point X="1454.4535966316787" Y="43.54720070389607" />
       <Point X="1249.4293858152912" Y="29.437229437229437" />
       <Point X="1044.4051749989037" Y="81.57175232818572" GraphRef="dde6b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
@@ -628,7 +634,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   <Interaction GraphId="id36ffbc3f">
     <BiopaxRef>a6d</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="717.4215278571002" Y="90.58710236354594" GraphRef="e9176" RelX="0.0" RelY="1.0" />
+      <Point X="717.4215278571002" Y="90.58710236354594" GraphRef="f4855" RelX="0.0" RelY="1.0" />
       <Point X="721.1660657486916" Y="116.61110485207676" GraphRef="f26b1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -641,7 +647,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id44a279d0">
-    <Comment>The addition of a third phosphate to obtain PtdIns(4,5)P2 can be performed by two enzymes, which either add the phosphate at the D4 or D5 position in the inositol ring. This last phosphorylation step is depending on where the second phosphphate is located (D5 or D4 repectively). Rephrased from [PMID: 9367159]: "The type I enzyme PIP-4-kinase phosphorylates PtdIns-4-P at the D-5 position (of the inositol ring).The type II enzyme however ( abundant in some tissues), phosphorylates PtdIns-5-P at the D-4 position, and thus should be considered as a 4-OH kinase, or PIP(4)K."</Comment>
+    <Comment>The addition of a third phosphate to obtain PtdIns(4,5)P2 can be performed by two enzymes, which either add the phosphate at the D4 or D5 position in the inositol ring. This last phosphorylation step is depending on where the second phosphphate is located (D5 or D4 repectively). Rephrased from [PMID: 9367159]: "The type I enzyme PIP-4-kinase phosphorylates PtdIns-4-P at the D-5 position (of the inositol ring).The type II enzyme however ( abundant in some tissues), phosphorylates PtdIns-5-P at the D-4 position, and thus should be considered as a 4-OH kinase, or PIP(4)K." </Comment>
     <BiopaxRef>a6d</BiopaxRef>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="550.6802551640344" Y="116.61110485207678" GraphRef="a87e2" RelX="1.0" RelY="-0.5" />
@@ -674,7 +680,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="id563f655a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="837.3199394073847" Y="377.4664856539101" GraphRef="a91af" RelX="0.0" RelY="-1.0" />
+      <Point X="837.3199394073847" Y="377.4664856539101" GraphRef="f9450" RelX="0.0" RelY="-1.0" />
       <Point X="837.2103718214491" Y="356.95120915958813" GraphRef="aa2e3" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -688,7 +694,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="id5eb0532e">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="534.1593622270391" Y="405.7678098924084" GraphRef="e98cd" RelX="-1.0" RelY="0.0" />
+      <Point X="534.1593622270391" Y="405.7678098924084" GraphRef="d9ede" RelX="-1.0" RelY="0.0" />
       <Point X="496.22955650060794" Y="478.50751242003537" GraphRef="b6429" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -703,7 +709,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="id6c3340b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1078.2789057950301" Y="383.9613659552448" GraphRef="c9b19" RelX="-1.0" RelY="0.0" />
+      <Point X="1078.2789057950301" Y="383.9613659552448" GraphRef="dea4a" RelX="-1.0" RelY="0.0" />
       <Point X="1045.8071879767715" Y="454.32365107773364" GraphRef="deff4" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -726,7 +732,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="id798f0010">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="688.1850384659347" Y="451.8845119573615" GraphRef="b4bb6" RelX="-1.0" RelY="0.5" />
+      <Point X="688.1850384659347" Y="451.8845119573615" GraphRef="cf038" RelX="-1.0" RelY="0.5" />
       <Point X="563.5208711433756" Y="465.19601218869843" />
       <Point X="496.22955650060794" Y="478.50751242003537" GraphRef="b6429" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
@@ -734,7 +740,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="id7ccaa0ad">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="837.3199394073847" Y="496.50000390935554" GraphRef="a91af" RelX="0.0" RelY="1.0" />
+      <Point X="837.3199394073847" Y="496.50000390935554" GraphRef="f9450" RelX="0.0" RelY="1.0" />
       <Point X="836.3612238297176" Y="595.8545920106467" GraphRef="c3a63" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -764,14 +770,14 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="id8e1e9e6b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="334.69702365761646" Y="212.46764084228016" GraphRef="ad3fc" RelX="0.0" RelY="-1.0" />
+      <Point X="334.69702365761646" Y="212.46764084228016" GraphRef="d51c9" RelX="0.0" RelY="-1.0" />
       <Point X="342.87391799624464" Y="171.24207118381742" GraphRef="a19f6" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id949592bc">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="714.3458054726567" Y="280.3786962715732" GraphRef="c9ac5" RelX="0.0" RelY="1.0" />
+      <Point X="714.3458054726567" Y="280.3786962715732" GraphRef="da968" RelX="0.0" RelY="1.0" />
       <Point X="711.9295553815756" Y="338.84032138236694" GraphRef="e0980" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -794,7 +800,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="id9da4df60">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1254.510337843648" Y="357.027923313947" GraphRef="abe76" RelX="0.0" RelY="1.0" />
+      <Point X="1254.510337843648" Y="357.027923313947" GraphRef="a6f36" RelX="0.0" RelY="1.0" />
       <Point X="1215.412417400602" Y="468.75963757091733" GraphRef="fc9c9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -808,7 +814,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="idb4f9a2fd">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1271.5768516527808" Y="163.24083457271576" GraphRef="ae369" RelX="-1.0" RelY="0.0" />
+      <Point X="1271.5768516527808" Y="163.24083457271576" GraphRef="f7393" RelX="-1.0" RelY="0.0" />
       <Point X="1126.8133349916116" Y="163.59052588811883" GraphRef="a2fc1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -845,7 +851,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="idcd7f92b3">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="950.064973007799" Y="232.81610942698376" GraphRef="cf919" RelX="1.0" RelY="0.0" />
+      <Point X="950.064973007799" Y="232.81610942698376" GraphRef="b8d3e" RelX="1.0" RelY="0.0" />
       <Point X="982.0065342895809" Y="236.49005514077194" GraphRef="a6804" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -866,7 +872,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="iddb6948f0">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="776.8668138760139" Y="627.3175507674312" GraphRef="f8397" RelX="0.0" RelY="-1.0" />
+      <Point X="773.0" Y="627.3175507674312" GraphRef="c6a79" RelX="0.0" RelY="-1.0" />
       <Point X="773.2512376269466" Y="604.9100358992573" GraphRef="ea7d8" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -882,7 +888,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   </Interaction>
   <Interaction GraphId="ide21e0126">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="467.1797822783058" Y="281.96764084228016" GraphRef="ad3fc" RelX="1.0" RelY="0.0" />
+      <Point X="467.1797822783058" Y="281.96764084228016" GraphRef="d51c9" RelX="1.0" RelY="0.0" />
       <Point X="469.0042071688947" Y="449.5599187542316" GraphRef="a54c9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -959,7 +965,7 @@ The main interactions within this pathway are based on Figure 1 of [https://doi.
   <Interaction GraphId="a591b">
     <Graphics ZOrder="32880" LineThickness="1.0">
       <Point X="523.4549058323212" Y="528.7427294327906" GraphRef="d59c9" RelX="0.0" RelY="0.0" />
-      <Point X="552.2809749492214" Y="563.1482735274215" GraphRef="a7921" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="552.2809749492214" Y="563.1482735274215" GraphRef="f3636" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1071,11 +1077,11 @@ Node border in yellow; additional proteins from [https://en.wikipedia.org/wiki/M
   <Label TextLabel="DAG" GraphId="cb0cf">
     <Graphics CenterX="465.3997407087292" CenterY="78.94446845289538" Width="47.59291270527227" Height="17.68582541054451" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" Color="ff6666" />
   </Label>
-  <Label TextLabel="Beta isotypes:" GraphId="f7d4d" GroupRef="fdefd">
+  <Label TextLabel="Beta isotypes" GraphId="f7d4d" GroupRef="fdefd">
     <Graphics CenterX="1527.4535966316787" CenterY="64.64448793215936" Width="116.14093959731551" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Oculocerebrorenal &#xA;syndrome of Lowe" GraphId="fffc2" Href="https://www.omim.org/entry/309000">
-    <Graphics CenterX="1111.8178621659658" CenterY="293.32805907172974" Width="127.98171589310846" Height="29.377637130801638" ZOrder="28672" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1111.8178621659658" CenterY="293.32805907172974" Width="127.98171589310846" Height="29.377637130801638" ZOrder="28672" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="DAG" GraphId="db56d">
     <Graphics CenterX="922.2450302506478" CenterY="78.94446845289538" Width="47.59291270527227" Height="17.68582541054451" ZOrder="32782" FillColor="ffffff" FontSize="12" Valign="Middle" Color="ff6666" />
@@ -1098,92 +1104,52 @@ Node border in yellow; additional proteins from [https://en.wikipedia.org/wiki/M
   <Label TextLabel="DAG" GraphId="b5566">
     <Graphics CenterX="1423.3457359458184" CenterY="218.17871015547777" Width="47.59291270527227" Height="17.68582541054451" ZOrder="32812" FillColor="ffffff" FontSize="12" Valign="Middle" Color="ff6666" />
   </Label>
-  <Label TextLabel="Gamma isotypes:" GraphId="b263e" GroupRef="fdefd">
+  <Label TextLabel="Gamma isotypes" GraphId="b263e" GroupRef="fdefd">
     <Graphics CenterX="1643.5945362289942" CenterY="64.64448793215936" Width="116.14093959731551" Height="25.0" ZOrder="32823" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Epsilon isotype:" GraphId="d2b18" GroupRef="fdefd">
+  <Label TextLabel="Epsilon isotype" GraphId="d2b18" GroupRef="fdefd">
     <Graphics CenterX="1643.5945362289947" CenterY="139.64448793215905" Width="116.14093959731551" Height="24.999999999999993" ZOrder="32825" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Delta isotypes:" GraphId="d96c7" GroupRef="fdefd">
+  <Label TextLabel="Delta isotypes" GraphId="d96c7" GroupRef="fdefd">
     <Graphics CenterX="1759.7354758263093" CenterY="64.64448793215936" Width="116.14093959731551" Height="25.0" ZOrder="32827" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Eta isotypes:" GraphId="bf80b" GroupRef="fdefd">
+  <Label TextLabel="Eta isotypes" GraphId="bf80b" GroupRef="fdefd">
     <Graphics CenterX="1875.8764154236244" CenterY="64.64448793215936" Width="116.14093959731551" Height="25.0" ZOrder="32831" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Zeta isotype:" GraphId="b4512" GroupRef="fdefd">
+  <Label TextLabel="Zeta isotype" GraphId="b4512" GroupRef="fdefd">
     <Graphics CenterX="1875.8764154236244" CenterY="139.64448793215934" Width="116.14093959731551" Height="24.999999999999993" ZOrder="32832" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="myotubular &#xA;myopathy" GraphId="a7eae" Href="https://omim.org/entry/310400">
+  <Label TextLabel="Myotubular &#xA;myopathy" GraphId="a7eae" Href="https://omim.org/entry/310400">
     <BiopaxRef>b03</BiopaxRef>
-    <Graphics CenterX="263.0215658696703" CenterY="568.3743553680259" Width="127.98171589310846" Height="29.377637130801638" ZOrder="32886" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="263.0215658696703" CenterY="568.3743553680259" Width="127.98171589310846" Height="29.377637130801638" ZOrder="32886" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Charcot-Marie-Tooth &#xA;type 4B syndrome" GraphId="a6058" Href="https://omim.org/entry/601382">
     <BiopaxRef>c41</BiopaxRef>
-    <Graphics CenterX="104.86122831692458" CenterY="412.27314814814815" Width="142.59282700421954" Height="34.249999999999886" ZOrder="32888" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="104.86122831692458" CenterY="412.27314814814815" Width="142.59282700421954" Height="34.249999999999886" ZOrder="32888" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Francois-Neetens fleck &#xA;corneal dystrophy" GraphId="baa62" Href="https://omim.org/entry/121850">
     <BiopaxRef>bac</BiopaxRef>
-    <Graphics CenterX="183.55250820440858" CenterY="496.19842944210023" Width="156.456868260669" Height="29.377637130801638" ZOrder="32890" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="183.55250820440858" CenterY="496.19842944210023" Width="156.456868260669" Height="29.377637130801638" ZOrder="32890" FillColor="ffdddd" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Group GroupId="abe76" GraphId="abe76" Style="Group" />
-  <Group GroupId="cf919" GraphId="cf919" Style="Group" />
-  <Group GroupId="f8397" GraphId="f8397" Style="Group" />
-  <Group GroupId="b4bb6" GraphId="b4bb6" Style="Group" />
-  <Group GroupId="fa70c" GraphId="fa70c" Style="Complex">
+  <Group GroupId="abe76" GraphId="a6f36" Style="Group" />
+  <Group GroupId="c7121" GraphId="b3d27" Style="Complex" />
+  <Group GroupId="cf919" GraphId="b8d3e" Style="Group" />
+  <Group GroupId="f8397" GraphId="c6a79" Style="Group" />
+  <Group GroupId="b4bb6" GraphId="cf038" Style="Group" />
+  <Group GroupId="fa70c" GraphId="d01f4" Style="Complex">
     <Comment>More details on the complex (known for yeast) can be found on the COmplex portal: https://www.ebi.ac.uk/complexportal/complex/CPX-1881</Comment>
   </Group>
-  <Group GroupId="fdefd" GraphId="fdefd" Style="Group" />
-  <Group GroupId="ad3fc" GraphId="ad3fc" Style="Group" />
-  <Group GroupId="e98cd" GraphId="e98cd" Style="Group" />
-  <Group GroupId="c9ac5" GraphId="c9ac5" Style="Group" />
-  <Group GroupId="c9b19" GraphId="c9b19" Style="Group" />
-  <Group GroupId="a7921" GraphId="a7921" Style="Group" />
-  <Group GroupId="e9176" GraphId="e9176" Style="Group" />
-  <Group GroupId="ae369" GraphId="ae369" Style="Group" />
-  <Group GroupId="a91af" GraphId="a91af" Style="Group" />
+  <Group GroupId="fdefd" GraphId="d1094" Style="Group" />
+  <Group GroupId="ad3fc" GraphId="d51c9" Style="Group" />
+  <Group GroupId="e98cd" GraphId="d9ede" Style="Group" />
+  <Group GroupId="c9ac5" GraphId="da968" Style="Group" />
+  <Group GroupId="c9b19" GraphId="dea4a" Style="Group" />
+  <Group GroupId="a7921" GraphId="f3636" Style="Group" />
+  <Group GroupId="e9176" GraphId="f4855" Style="Group" />
+  <Group GroupId="ae369" GraphId="f7393" Style="Group" />
+  <Group GroupId="a91af" GraphId="f9450" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16554828</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analyzing phosphoinositides and their interacting proteins.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Methods</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rusten TE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stenmark H</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centronuclear myopathy</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14717</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c41">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10802647</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charcot-Marie-Tooth type 4B is caused by mutations in the gene encoding myotubularin-related protein-2.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Genet</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolino A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muglia M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conforti FL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LeGuern E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salih MA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgiou DM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christodoulou K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hausmanowa-Petrusewicz I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandich P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schenone A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gambardella A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bono F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quattrone A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Devoto M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monaco AP</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oculocerebrorenal syndrome</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1056</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbb">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18215151</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1192,43 +1158,10 @@ Node border in yellow; additional proteins from [https://en.wikipedia.org/wiki/M
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Backer JM</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10716940</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure, function, and biology of SHIP proteins.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genes Dev</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rohrschneider LR</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuller JF</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolf I</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liu Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucas DM</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b03">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8640223</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene mutated in X-linked myotubular myopathy definesa new putative tyrosine phosphatase family conserved in yeast.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Genet</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laporte J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hu LJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kretz C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandel JL</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kioschis P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coy JF</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klauck SM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poustka A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dahl N</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charcot-Marie-Tooth disease type 4B1</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0110191</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fleck corneal dystrophy</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060448</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a01">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29056325</bp:ID>
@@ -1263,6 +1196,24 @@ Node border in yellow; additional proteins from [https://en.wikipedia.org/wiki/M
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawkins PT</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephens LR</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31035587</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphatidylinositol 5 Phosphate (PI5P): From Behind the Scenes to the Front (Nuclear) Stage.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Mol Sci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poli A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zaurito AE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdul-Hamid S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiume R</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faenza I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Divecha N</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">centronuclear myopathy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14717</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6d">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9367159</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1275,10 +1226,79 @@ Node border in yellow; additional proteins from [https://en.wikipedia.org/wiki/M
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantley LC</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphatidylinositol metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002417</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fleck corneal dystrophy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060448</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b64">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16365287</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16365287</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The identification and characterization of two phosphatidylinositol-4,5-bisphosphate 4-phosphatases.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ungewickell A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hugge C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kisseleva M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chang SC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zou J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feng Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galyov EE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wilson M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Majerus PW</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oculocerebrorenal syndrome</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1056</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c41">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10802647</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charcot-Marie-Tooth type 4B is caused by mutations in the gene encoding myotubularin-related protein-2.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Genet</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolino A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muglia M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conforti FL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LeGuern E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salih MA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgiou DM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christodoulou K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hausmanowa-Petrusewicz I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandich P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schenone A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gambardella A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bono F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quattrone A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Devoto M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monaco AP</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10716940</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure, function, and biology of SHIP proteins.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genes Dev</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rohrschneider LR</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuller JF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolf I</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liu Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucas DM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16554828</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analyzing phosphoinositides and their interacting proteins.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Methods</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rusten TE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stenmark H</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bac">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15902656</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1299,22 +1319,27 @@ Node border in yellow; additional proteins from [https://en.wikipedia.org/wiki/M
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hejtmancik JF</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schorderet DF</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b64">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16365287</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b03">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8640223</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The identification and characterization of two phosphatidylinositol-4,5-bisphosphate 4-phosphatases.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Natl Acad Sci U S A</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ungewickell A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hugge C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kisseleva M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chang SC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zou J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feng Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galyov EE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wilson M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Majerus PW</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene mutated in X-linked myotubular myopathy definesa new putative tyrosine phosphatase family conserved in yeast.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Genet</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laporte J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hu LJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kretz C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandel JL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kioschis P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coy JF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klauck SM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poustka A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dahl N</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphatidylinositol metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002417</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
