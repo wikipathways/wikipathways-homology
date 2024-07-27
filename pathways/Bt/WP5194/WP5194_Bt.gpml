@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis of ceramides and 1-deoxyceramides" Data-Source="WikiPathways" Version="WP5194_Bt" Last-Modified="20220314140453" Organism="Bos taurus">
-  <Comment Source="WikiPathways-description">Synthesis of ceramides and 1-deoxyceramides from serine and alanine, respectively, including the synthesis of complex glycosphingolipids in humans. Multiple more complex sphingolipid synthesis reactions were added to improve pathway versatility. 1-deoxyceramide synthesis shows a lot of similarities with ceramide synthesis but does not come close in terms of documentation, hence this comprehensive figure.</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis of ceramides and 1-deoxyceramides" Data-Source="WikiPathways" Version="WP5194_Bt" Last-Modified="20240726121441" Organism="Bos taurus">
+  <Comment Source="WikiPathways-description">Synthesis of ceramides and 1-deoxyceramides from serine and alanine, respectively, including the synthesis of complex glycosphingolipids in humans. Multiple complex sphingolipid synthesis reactions were added to improve pathway versatility. 1-Deoxyceramide synthesis shows many similarities with ceramide synthesis but has much less documentation, hence this comprehensive figure. </Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5194.gpml (WP5194_r122165) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5194.gpml (WP5194_r134708) with a 96.0% conversion rate.</Comment>
   <Graphics BoardWidth="1460.2453703703686" BoardHeight="1139.6938775510205" />
-  <DataNode TextLabel="alanine" GraphId="a302a" Type="Metabolite">
+  <DataNode TextLabel="Alanine" GraphId="a302a" Type="Metabolite">
     <Graphics CenterX="1349.055555555554" CenterY="167.98148148148144" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16449" />
   </DataNode>
@@ -12,15 +12,15 @@
     <Graphics CenterX="1114.4300831443672" CenterY="945.0616024187494" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="ceramide" GraphId="a932a" Type="Metabolite">
+  <DataNode TextLabel="Ceramide" GraphId="a932a" Type="Metabolite">
     <Graphics CenterX="873.824074074074" CenterY="620.2962962962965" Width="171.25925925925907" Height="25.000000000000025" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:52639" />
   </DataNode>
-  <DataNode TextLabel="sphingosine-1-phosphate" GraphId="aa224" Type="Metabolite">
+  <DataNode TextLabel="Sphingosine-1-phosphate" GraphId="aa224" Type="Metabolite">
     <Graphics CenterX="873.824074074074" CenterY="893.617724867727" Width="171.25925925925912" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:37550" />
   </DataNode>
-  <DataNode TextLabel="3-ketosphinganine" GraphId="ab92b" Type="Metabolite">
+  <DataNode TextLabel="3-Ketosphinganine" GraphId="ab92b" Type="Metabolite">
     <Graphics CenterX="873.824074074074" CenterY="285.2962962962963" Width="171.25925925925907" Height="24.99999999999999" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17862" />
   </DataNode>
@@ -33,7 +33,7 @@
     <Graphics CenterX="1025.4629629629621" CenterY="423.935185185185" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000003434" />
   </DataNode>
-  <DataNode TextLabel="serine" GraphId="aed5d" Type="Metabolite">
+  <DataNode TextLabel="Serine" GraphId="aed5d" Type="Metabolite">
     <Graphics CenterX="873.824074074074" CenterY="170.29629629629628" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17822" />
   </DataNode>
@@ -56,7 +56,7 @@
     <Graphics CenterX="636.8446036996212" CenterY="451.05455510637455" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000016073" />
   </DataNode>
-  <DataNode TextLabel="Sphingolipid metabolism overview (Homo sapiens)" GraphId="bb5cb" Type="Pathway">
+  <DataNode TextLabel="Sphingolipid metabolism overview" GraphId="bb5cb" Type="Pathway">
     <Graphics CenterX="1014.0306122448977" CenterY="574.6173469387752" Width="489.7959183673472" Height="988.520408163266" ZOrder="32768" FillColor="Transparent" FontWeight="Bold" FontSize="12" Valign="Bottom" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4725" />
   </DataNode>
@@ -125,7 +125,7 @@
     <Graphics CenterX="1025.4629629629617" CenterY="398.1481481481477" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000037729" />
   </DataNode>
-  <DataNode TextLabel="ganglioside GM4" GraphId="d3075" Type="Metabolite">
+  <DataNode TextLabel="Ganglioside GM4" GraphId="d3075" Type="Metabolite">
     <Graphics CenterX="279.00462962963127" CenterY="969.5462962962936" Width="101.7129629629625" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:27499" />
   </DataNode>
@@ -154,7 +154,7 @@
     <Graphics CenterX="360.08582108108806" CenterY="470.57097063987976" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000011748" />
   </DataNode>
-  <DataNode TextLabel="sulphatide" GraphId="deacc" Type="Metabolite">
+  <DataNode TextLabel="Sulphatide" GraphId="deacc" Type="Metabolite">
     <Graphics CenterX="139.60185185185208" CenterY="969.5462962962935" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:18318" />
   </DataNode>
@@ -174,11 +174,11 @@
     <Graphics CenterX="172.38425925925932" CenterY="903.2962962962933" Width="127.17592592592608" Height="25.000000000000025" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:18390" />
   </DataNode>
-  <DataNode TextLabel="lactosylceramide" GraphId="e3b2d" Type="Metabolite">
+  <DataNode TextLabel="Lactosylceramide" GraphId="e3b2d" Type="Metabolite">
     <Graphics CenterX="515.74074074074" CenterY="320.3148148148149" Width="103.24074074074082" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:134507" />
   </DataNode>
-  <DataNode TextLabel="globoside Gb3Cer" GraphId="e7eb4" Type="Metabolite">
+  <DataNode TextLabel="Globoside Gb3Cer" GraphId="e7eb4" Type="Metabolite">
     <Graphics CenterX="343.06999571236" CenterY="320.82528890522326" Width="130.5844358691654" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:88154" />
   </DataNode>
@@ -192,7 +192,7 @@
     <Graphics CenterX="1114.430083144367" CenterY="822.9858276644013" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="ChEBI" ID="CHEBI:37550" />
   </DataNode>
-  <DataNode TextLabel="sphingomyelins" GraphId="eedb1" Type="Metabolite">
+  <DataNode TextLabel="Sphingomyelin" GraphId="eedb1" Type="Metabolite">
     <Graphics CenterX="172.38425925925932" CenterY="572.9632794315812" Width="127.17592592592608" Height="25.000000000000025" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:62490" />
   </DataNode>
@@ -210,7 +210,7 @@
     <Graphics CenterX="1114.430083144367" CenterY="567.1388888888891" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000005353" />
   </DataNode>
-  <DataNode TextLabel="isogloboside iGb3Cer" GraphId="fd1cc" Type="Metabolite">
+  <DataNode TextLabel="Isogloboside iGb3Cer" GraphId="fd1cc" Type="Metabolite">
     <Graphics CenterX="455.0462962962958" CenterY="139.3148148148149" Width="141.5740740740741" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:140817" />
   </DataNode>
@@ -290,11 +290,11 @@
     <Graphics CenterX="1114.4300831443672" CenterY="737.9909297052161" Width="90.0" Height="25.0" ZOrder="32809" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000011257" />
   </DataNode>
-  <DataNode TextLabel="Sphingolipid pathway (Homo sapiens)" GraphId="e80b9" Type="Pathway">
+  <DataNode TextLabel="Sphingolipid pathway" GraphId="e80b9" Type="Pathway">
     <Graphics CenterX="672.1938775510204" CenterY="589.9234693877552" Width="1183.673469387755" Height="1039.5408163265306" ZOrder="32810" FillColor="Transparent" FontWeight="Bold" FontSize="12" Valign="Bottom" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP1422" />
   </DataNode>
-  <DataNode TextLabel="Serine metabolism (Homo sapiens)" GraphId="ba9f4" Type="Pathway">
+  <DataNode TextLabel="Serine metabolism" GraphId="ba9f4" Type="Pathway">
     <Graphics CenterX="1017.2193877551019" CenterY="394.030612244898" Width="470.6632653061224" Height="507.8571428571428" ZOrder="32811" FillColor="Transparent" FontWeight="Bold" FontSize="12" Valign="Bottom" Align="Right" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4688" />
   </DataNode>
@@ -368,7 +368,7 @@
   <Interaction GraphId="id359eea8d">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="172.3842592592593" Y="915.7962962962933" GraphRef="e3a24" RelX="0.0" RelY="1.0" />
-      <Point X="139.60185185185208" Y="957.0462962962935" GraphRef="deacc" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="139.60185185185208" Y="957.0462962962935" GraphRef="deacc" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
       <Anchor Position="0.4" Shape="None" GraphId="cdc4f" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -434,7 +434,7 @@
   <Interaction GraphId="id76fae8da">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="922.656613756612" Y="944.4120559334865" GraphRef="a0152" RelX="0.0" RelY="0.0" />
-      <Point X="841.0086923658334" Y="1001.8535525321258" GraphRef="ad823" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="841.0086923658334" Y="1001.8535525321258" GraphRef="ad823" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -485,7 +485,7 @@
   <Interaction GraphId="ida5415888">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="873.824074074074" Y="906.117724867727" GraphRef="aa224" RelX="0.0" RelY="1.0" />
-      <Point X="995.9054232804192" Y="1001.8535525321258" GraphRef="bedec" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="995.9054232804192" Y="1001.8535525321258" GraphRef="bedec" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
       <Anchor Position="0.4" Shape="None" GraphId="a0152" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -737,7 +737,7 @@
   <Interaction GraphId="bbec8">
     <Graphics ZOrder="32801" LineThickness="1.0">
       <Point X="159.2712962962964" Y="932.2962962962933" GraphRef="cdc4f" RelX="0.0" RelY="0.0" />
-      <Point X="279.00462962963127" Y="957.0462962962936" GraphRef="d3075" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="279.00462962963127" Y="957.0462962962936" GraphRef="d3075" RelX="0.0" RelY="-1.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -753,6 +753,11 @@
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lacto-series glycosphingolipid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001062</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ceramide signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000961</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
@@ -760,9 +765,39 @@
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal cell</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000548</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29602400</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29602400</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting Glucosylceramide Synthesis in theTreatment of Rare and Common Renal Disease.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semin Nephrol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29602400</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting Glucosylceramide Synthesis in theTreatment of Rare and Common Renal Disease.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semin Nephrol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29602400</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting Glucosylceramide Synthesis in theTreatment of Rare and Common Renal Disease.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semin Nephrol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29602400</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting Glucosylceramide Synthesis in theTreatment of Rare and Common Renal Disease.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semin Nephrol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29602400</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting Glucosylceramide Synthesis in theTreatment of Rare and Common Renal Disease.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semin Nephrol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29602400</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting Glucosylceramide Synthesis in theTreatment of Rare and Common Renal Disease.</bp:TITLE>
@@ -771,6 +806,16 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shayman JA</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="caf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33673027</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convergence: Lactosylceramide-Centric Signaling Pathways Induce Inflammation, Oxidative Stress, and Other Phenotypic Outcomes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Mol Sci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33673027</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convergence: Lactosylceramide-Centric Signaling Pathways Induce Inflammation, Oxidative Stress, and Other Phenotypic Outcomes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Mol Sci</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021</bp:YEAR>
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33673027</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convergence: Lactosylceramide-Centric Signaling Pathways Induce Inflammation, Oxidative Stress, and Other Phenotypic Outcomes.</bp:TITLE>
@@ -786,15 +831,15 @@
       <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-Deoxyceramides - Key players in lipotoxicity and progression to type 2 diabetes?</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acta Physiol (Oxf)</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33630410</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-Deoxyceramides - Key players in lipotoxicity and progression to type 2 diabetes?</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acta Physiol (Oxf)</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sen P</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyötyläinen T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orešič M</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lacto-series glycosphingolipid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001062</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid biosynthetic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000162</bp:ID>

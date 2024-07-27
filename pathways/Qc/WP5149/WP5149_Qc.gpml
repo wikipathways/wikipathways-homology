@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Lipid metabolism in senescent cells" Data-Source="WikiPathways" Version="WP5149_Qc" Last-Modified="20211129203514" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Lipid metabolism in senescent cells" Data-Source="WikiPathways" Version="WP5149_Qc" Last-Modified="20240726122959" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">Description of the affected lipid metabolism in senecent cells.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5149.gpml (WP5149_r120374) with a 95.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5149.gpml (WP5149_r134714) with a 95.0% conversion rate.</Comment>
   <BiopaxRef>c0a</BiopaxRef>
   <Graphics BoardWidth="1122.4276169265033" BoardHeight="602.6405090137858" />
   <DataNode TextLabel="HRAS" GraphId="a4296" Type="GeneProduct">
@@ -32,7 +32,7 @@
     <Graphics CenterX="410.93769883351035" CenterY="255.56733828207865" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSECAG00000017181" />
   </DataNode>
-  <DataNode TextLabel="PUFAs" GraphId="d503b" Type="Metabolite">
+  <DataNode TextLabel="PUFA" GraphId="d503b" Type="Metabolite">
     <Graphics CenterX="211.6402116402114" CenterY="94.75709475709473" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:26208" />
   </DataNode>
@@ -60,7 +60,7 @@
     <Graphics CenterX="148.21235418875938" CenterY="485.6839872746524" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSECAG00000008126" />
   </DataNode>
-  <DataNode TextLabel="Free PUFAs" GraphId="ce93b" Type="Metabolite">
+  <DataNode TextLabel="Free PUFA" GraphId="ce93b" Type="Metabolite">
     <Graphics CenterX="211.5392015392014" CenterY="193.00106044538762" Width="90.0" Height="25.0" ZOrder="32774" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:26208" />
   </DataNode>
@@ -238,11 +238,11 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <GraphicalLine GraphId="b3e22">
+  <GraphicalLine GraphId="idf4820f07">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineStyle="Broken" LineThickness="1.0" Color="999999">
       <Point X="345.9293051710863" Y="136.16823144476234" GraphRef="a5c62" RelX="1.0" RelY="0.0" />
       <Point X="497.7728285077951" Y="114.10809781447284" />
-      <Point X="697.2388820085027" Y="92.04796418418336" GraphRef="b4082" RelX="-1.0" RelY="0.0" />
+      <Point X="697.2388820085027" Y="92.04796418418336" GraphRef="f182f" RelX="-1.0" RelY="0.0" />
     </Graphics>
   </GraphicalLine>
   <Label TextLabel="Subset PLA2 isozymes" GraphId="cbf27">
@@ -251,7 +251,7 @@
   <Label TextLabel="Plasma membrane" GraphId="e5e92">
     <Graphics CenterX="321.61452810180333" CenterY="79.5334040296925" Width="138.31919406150598" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" Color="999999" />
   </Label>
-  <Label TextLabel="SASP&#xA;Senescence-Associated &#xA;Secretory Phenotype" GraphId="e7624">
+  <Label TextLabel="SASP&#xA;Senescence-associated &#xA;secretory phenotype" GraphId="e7624">
     <Graphics CenterX="589.111876988335" CenterY="148.3099151643665" Width="171.72322375397744" Height="70.29427359490987" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" Color="ff6600" />
   </Label>
   <Label TextLabel="Cytosol" GraphId="f5ce2">
@@ -291,7 +291,7 @@
   <Shape GraphId="b2e69">
     <Graphics CenterX="109.45658970658964" CenterY="155.6326358826358" Width="8.677008177008172" Height="15.411014911015002" ZOrder="32773" FontSize="12" Valign="Middle" ShapeType="Oval" Color="999900" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b4082" GraphId="b4082" />
+  <Group GroupId="b4082" GraphId="f182f" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
