@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Vitamin A1 and A5/X pathways" Data-Source="WikiPathways" Version="WP5397_Gg" Last-Modified="20240721233953" Organism="Gallus gallus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Vitamin A1 and A5/X pathways" Data-Source="WikiPathways" Version="WP5397_Gg" Last-Modified="20240731083242" Organism="Gallus gallus">
   <Comment Source="WikiPathways-description">Vitamin A5/X pathway which shows how our food results in precursors from which Vitamin A5/X (9CBC, 9CDHBC, 9CDHROL-ES and 9CDKHROL) is metabolized which is converted into Vitamin A5/X acid (9CDHRA) which binds to RXR.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5397.gpml (WP5397_r134437) with a 83.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5397.gpml (WP5397_r135005) with a 83.0% conversion rate.</Comment>
   <BiopaxRef>cc4</BiopaxRef>
   <Graphics BoardWidth="870.9999999999998" BoardHeight="535.0" />
   <DataNode TextLabel="ATBC" GraphId="b8ab7" Type="Metabolite">
@@ -30,7 +30,7 @@
   </DataNode>
   <DataNode TextLabel="Diet" GraphId="ef2bd">
     <Graphics CenterX="472.2857142857142" CenterY="60.57142857142869" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
-    <Xref Database="" ID="" />
+    <Xref Database="Wikidata" ID="Q474191" />
   </DataNode>
   <DataNode TextLabel="9CDHROL" GraphId="dc2c8" Type="Metabolite">
     <Graphics CenterX="654.4999999999998" CenterY="233.5714285714283" Width="101.0" Height="25.0" ZOrder="32769" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -309,11 +309,6 @@
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin A and metabolites signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001116</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic pathway of cofactors, vitamins, nutrients</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000135</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
@@ -332,6 +327,11 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Lera AR</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rühl R</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin A and metabolites signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001116</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aab">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26030625</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -351,11 +351,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Lera AR</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krężel W</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinol metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000141</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac9">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1002/cmdc.201600105</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:DB>
@@ -366,6 +361,11 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krezel, W.</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruehl, R.</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinol metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000141</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
