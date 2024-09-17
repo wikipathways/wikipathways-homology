@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Statin inhibition of cholesterol production" Data-Source="WikiPathways" Version="WP430_Ss" Last-Modified="20240811021941" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Statin inhibition of cholesterol production" Data-Source="WikiPathways" Version="WP430_Ss" Last-Modified="20240916045916" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">Statins inhibit endogenous cholesterol production by competitive inhibition of HMG-CoA reductase (HMGCR), the enzyme that catalyzes conversion of HMG-CoA to mevalonate, an early rate-limiting step in cholesterol synthesis. This pathway delineates genes involved in statin pharmacogenomics, including genes involved in mediating the effects of statins on plasma lipoprotein metabolism. 
 
 Sources: [https://www.pharmgkb.org/pathway/PA2031 PharmGKB] and [http://en.wikipedia.org/wiki/Statin Wikipedia]
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP430 CPTAC Assay Portal].</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP430.gpml (WP430_r135277) with a 84.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP430.gpml (WP430_r135479) with a 84.0% conversion rate.</Comment>
   <BiopaxRef>c3a</BiopaxRef>
   <Graphics BoardWidth="837.6224677716384" BoardHeight="705.7912447684621" />
   <DataNode TextLabel="Cholesterol" GraphId="a2188" Type="Metabolite">
@@ -29,7 +29,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </DataNode>
   <DataNode TextLabel="Acyl-CoA" GraphId="a47e8" Type="Metabolite">
     <Graphics CenterX="524.625" CenterY="105.75" Width="53.75" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="HMDB" ID="HMDB0003419" />
+    <Xref Database="ChEBI" ID="CHEBI:17984" />
   </DataNode>
   <DataNode TextLabel="ABCG8" GraphId="a658e" Type="GeneProduct" GroupRef="ef7f2">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = L:64241</Comment>
