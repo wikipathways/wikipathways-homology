@@ -1,16 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cytoplasmic ribosomal proteins" Data-Source="WikiPathways" Version="WP477_Dr" Last-Modified="20210516141329" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Cytoplasmic ribosomal proteins" Data-Source="WikiPathways" Version="WP477_Dr" Last-Modified="20241221075504" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">The contents of this pathway represents the ribosomal proteins involved in translation.
 
 Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP477 CPTAC Assay Portal]</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP477.gpml (WP477_r117044) with a 88.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP477.gpml (WP477_r136165) with a 87.0% conversion rate.</Comment>
+  <BiopaxRef>ee5</BiopaxRef>
   <Graphics BoardWidth="725.3333333333334" BoardHeight="733.3333333333335" />
-  <DataNode TextLabel="RPL37A" GraphId="adc" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6168</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL37A | ribosomal protein L37a" />
-    <Graphics CenterX="156.66666666666666" CenterY="491.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000115271" />
+  <DataNode TextLabel="Large (60S) Subunit" GraphId="f1259" Type="Complex" GroupRef="a3f67">
+    <Graphics CenterX="101.85622845888724" CenterY="120.23535204332842" Width="156.33333333333334" Height="19.0" ZOrder="28672" FontWeight="Bold" FontSize="12" Valign="Middle" />
+    <Xref Database="Complex Portal" ID="CPX-5183" />
+  </DataNode>
+  <DataNode TextLabel="Small (40S) Subunit" GraphId="fd0ea" Type="GeneProduct" GroupRef="ff345">
+    <Graphics CenterX="595.150172328902" CenterY="120.23535204332842" Width="154.33333333333334" Height="19.0" ZOrder="28672" FontWeight="Bold" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="rpl34" GraphId="a09" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6164</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL34 | ribosomal protein L34" />
+    <Graphics CenterX="156.66666666666666" CenterY="391.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000029500" />
+  </DataNode>
+  <DataNode TextLabel="rpl4" GraphId="a12" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">also known as L1e.  No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6124</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL4 | ribosomal protein L4" />
+    <Graphics CenterX="43.333333333333336" CenterY="191.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000041182" />
+  </DataNode>
+  <DataNode TextLabel="rps14" GraphId="a79" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S11</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6208</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS14 | ribosomal protein S14" />
+    <Graphics CenterX="533.3333333333334" CenterY="451.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000036629" />
+  </DataNode>
+  <DataNode TextLabel="rpl15" GraphId="a93" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6138</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL15 | ribosomal protein L15" />
+    <Graphics CenterX="43.333333333333336" CenterY="471.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000009285" />
+  </DataNode>
+  <DataNode TextLabel="rpl35a" GraphId="a96" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6165</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL35A | ribosomal protein L35a" />
+    <Graphics CenterX="156.66666666666666" CenterY="431.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000088030" />
+  </DataNode>
+  <DataNode TextLabel="rps13" GraphId="aa2" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S15</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6207</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS13 | ribosomal protein S13" />
+    <Graphics CenterX="533.3333333333334" CenterY="431.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000036298" />
+  </DataNode>
+  <DataNode TextLabel="RPL7A" GraphId="aa3" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">No homologues found for original id L:6130</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL7A | ribosomal protein L7a" />
+    <Graphics CenterX="43.333333333333336" CenterY="271.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="rps9" GraphId="ab2" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S4</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6203</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS9 | ribosomal protein S9" />
+    <Graphics CenterX="533.3333333333334" CenterY="351.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000011405" />
+  </DataNode>
+  <DataNode TextLabel="rps4x" GraphId="ac3" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6192</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS4Y1 | ribosomal protein S4 Y-linked 1" />
+    <Graphics CenterX="533.3333333333334" CenterY="251.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000014690" />
   </DataNode>
   <DataNode TextLabel="rpl10a" GraphId="ac5" Type="GeneProduct" GroupRef="a3f67">
     <Comment Source="GenMAPP remarks">E. coli L1</Comment>
@@ -19,12 +81,79 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="43.333333333333336" CenterY="351.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000042905" />
   </DataNode>
+  <DataNode TextLabel="RPL32" GraphId="ad8" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">Also known as S22e.</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id L:6161</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL32 | ribosomal protein L32" />
+    <Graphics CenterX="156.66666666666666" CenterY="371.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="RPL37A" GraphId="adc" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6168</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL37A | ribosomal protein L37a" />
+    <Graphics CenterX="156.66666666666666" CenterY="491.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000115271" />
+  </DataNode>
+  <DataNode TextLabel="rps10" GraphId="ae1" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6204</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS10 | ribosomal protein S10" />
+    <Graphics CenterX="533.3333333333334" CenterY="371.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000034897" />
+  </DataNode>
+  <DataNode TextLabel="faua" GraphId="ae9" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:2197</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FAU | Finkel-Biskis-Reilly murine sarcoma virus..." />
+    <Graphics CenterX="653.3333333333334" CenterY="471.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000099022" />
+  </DataNode>
+  <DataNode TextLabel="rpl21" GraphId="afa" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6144</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL21 | ribosomal protein L21" />
+    <Graphics CenterX="43.333333333333336" CenterY="571.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000010516" />
+  </DataNode>
+  <DataNode TextLabel="rpl17" GraphId="b0a" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L22</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6139</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL17 | ribosomal protein L17" />
+    <Graphics CenterX="43.333333333333336" CenterY="491.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000057556" />
+  </DataNode>
+  <DataNode TextLabel="rpl29" GraphId="b24" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6159</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL29 | ribosomal protein L29" />
+    <Graphics CenterX="156.66666666666666" CenterY="311.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000077717" />
+  </DataNode>
   <DataNode TextLabel="rpl8" GraphId="b2a" Type="GeneProduct" GroupRef="a3f67">
     <Comment Source="GenMAPP remarks">E. coli L2</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6132</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL8 | ribosomal protein L8" />
     <Graphics CenterX="43.333333333333336" CenterY="291.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000014867" />
+  </DataNode>
+  <DataNode TextLabel="rpl7" GraphId="b2c" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L30</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6129</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL7 | ribosomal protein L7" />
+    <Graphics CenterX="43.333333333333336" CenterY="251.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000007320" />
+  </DataNode>
+  <DataNode TextLabel="rps3a" GraphId="b39" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6189</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS3A | ribosomal protein S3A" />
+    <Graphics CenterX="533.3333333333334" CenterY="211.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000035692" />
+  </DataNode>
+  <DataNode TextLabel="rpsa" GraphId="b42" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S2</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:3921</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPSA | ribosomal protein SA" />
+    <Graphics CenterX="533.3333333333334" CenterY="151.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000019181" />
   </DataNode>
   <DataNode TextLabel="rpl3" GraphId="b46" Type="GeneProduct" GroupRef="a3f67">
     <Comment Source="GenMAPP remarks">E. coli L3</Comment>
@@ -33,11 +162,252 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="43.333333333333336" CenterY="151.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000003599" />
   </DataNode>
-  <DataNode TextLabel="RPL3L" GraphId="fe2" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">No homologues found for original id L:6123</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL3L | ribosomal protein L3-like" />
-    <Graphics CenterX="43.333333333333336" CenterY="171.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+  <DataNode TextLabel="rps7" GraphId="b8f" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6201</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS7 | ribosomal protein S7" />
+    <Graphics CenterX="533.3333333333334" CenterY="311.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000042566" />
+  </DataNode>
+  <DataNode TextLabel="rps23" GraphId="b91" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S12</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6228</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS23 | ribosomal protein S23" />
+    <Graphics CenterX="653.3333333333334" CenterY="311.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000021838" />
+  </DataNode>
+  <DataNode TextLabel="rpl23a" GraphId="b98" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L23</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6147</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL23A | ribosomal protein L23a" />
+    <Graphics CenterX="156.66666666666666" CenterY="191.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000006316" />
+  </DataNode>
+  <DataNode TextLabel="rpl23" GraphId="ba2" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L14</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:9349</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL23 | ribosomal protein L23" />
+    <Graphics CenterX="156.66666666666666" CenterY="171.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000053457" />
+  </DataNode>
+  <DataNode TextLabel="rpl11" GraphId="bc5" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L5</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6135</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL11 | ribosomal protein L11" />
+    <Graphics CenterX="43.333333333333336" CenterY="371.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000043509" />
+  </DataNode>
+  <DataNode TextLabel="rpl38" GraphId="be2" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6169</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL38 | ribosomal protein L38" />
+    <Graphics CenterX="156.66666666666666" CenterY="511.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000006413" />
+  </DataNode>
+  <DataNode TextLabel="rpl18a" GraphId="bf1" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6142</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL18A | ribosomal protein L18a" />
+    <Graphics CenterX="43.333333333333336" CenterY="531.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000025073" />
+  </DataNode>
+  <DataNode TextLabel="rps26l" GraphId="bff" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6231</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS26 | ribosomal protein S26" />
+    <Graphics CenterX="653.3333333333334" CenterY="371.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000030408" />
+  </DataNode>
+  <DataNode TextLabel="rps15" GraphId="c0e" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S19</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6209</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS15 | ribosomal protein S15" />
+    <Graphics CenterX="653.3333333333334" CenterY="151.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000070849" />
+  </DataNode>
+  <DataNode TextLabel="rps25" GraphId="c27" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6230</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS25 | ribosomal protein S25" />
+    <Graphics CenterX="653.3333333333334" CenterY="351.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000041811" />
+  </DataNode>
+  <DataNode TextLabel="rpl19" GraphId="c34" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6143</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL19 | ribosomal protein L19" />
+    <Graphics CenterX="43.333333333333336" CenterY="551.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000013307" />
+  </DataNode>
+  <DataNode TextLabel="rpl13" GraphId="c39" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6137</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL13 | ribosomal protein L13" />
+    <Graphics CenterX="43.333333333333336" CenterY="411.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000099380" />
+  </DataNode>
+  <DataNode TextLabel="rpl6" GraphId="c5c" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6128</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL6 | ribosomal protein L6" />
+    <Graphics CenterX="43.333333333333336" CenterY="231.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000058451" />
+  </DataNode>
+  <DataNode TextLabel="rps27.1" GraphId="c5f" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6232</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS27 | ribosomal protein S27 (metallopanstimul..." />
+    <Graphics CenterX="653.3333333333334" CenterY="391.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000023298" />
+  </DataNode>
+  <DataNode TextLabel="rps15a" GraphId="c67" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S8</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6210</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS15A | ribosomal protein S15a" />
+    <Graphics CenterX="653.3333333333334" CenterY="171.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000010160" />
+  </DataNode>
+  <DataNode TextLabel="rpl14" GraphId="c74" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:9045</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL14 | ribosomal protein L14" />
+    <Graphics CenterX="43.333333333333336" CenterY="451.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000103433" />
+  </DataNode>
+  <DataNode TextLabel="rps6kal" GraphId="c8e" Type="GeneProduct" GroupRef="a01c1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:27330</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KA6 | ribosomal protein S6 kinase 90kDa p..." />
+    <Graphics CenterX="373.3333333333333" CenterY="344.6666666666667" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000037574" />
+  </DataNode>
+  <DataNode TextLabel="rps3" GraphId="c9c" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S3</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6188</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS3 | ribosomal protein S3" />
+    <Graphics CenterX="533.3333333333334" CenterY="191.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000103007" />
+  </DataNode>
+  <DataNode TextLabel="rpl22" GraphId="c9f" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6146</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL22 | ribosomal protein L22" />
+    <Graphics CenterX="156.66666666666666" CenterY="151.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000070437" />
+  </DataNode>
+  <DataNode TextLabel="rps6ka2" GraphId="cb5" Type="GeneProduct" GroupRef="a01c1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6196</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KA2 | ribosomal protein S6 kinase 90kDa p..." />
+    <Graphics CenterX="373.3333333333333" CenterY="304.6666666666667" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000028469" />
+  </DataNode>
+  <DataNode TextLabel="rps16" GraphId="cc0" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S9</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6217</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS16 | ribosomal protein S16" />
+    <Graphics CenterX="653.3333333333334" CenterY="191.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000045487" />
+  </DataNode>
+  <DataNode TextLabel="rps2" GraphId="cdd" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S5</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6187</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS2 | ribosomal protein S2" />
+    <Graphics CenterX="533.3333333333334" CenterY="171.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000077291" />
+  </DataNode>
+  <DataNode TextLabel="rps6ka1" GraphId="cdf" Type="GeneProduct" GroupRef="a01c1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6195</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KA1 | ribosomal protein S6 kinase 90kDa p..." />
+    <Graphics CenterX="373.3333333333333" CenterY="284.6666666666667" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000033437" />
+  </DataNode>
+  <DataNode TextLabel="rpl24" GraphId="ce9" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6152</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL24 | ribosomal protein L24" />
+    <Graphics CenterX="156.66666666666666" CenterY="211.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000099104" />
+  </DataNode>
+  <DataNode TextLabel="rpl35" GraphId="d58" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L29</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:11224</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL35 | ribosomal protein L35" />
+    <Graphics CenterX="156.66666666666666" CenterY="411.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000018334" />
+  </DataNode>
+  <DataNode TextLabel="RPL36A" GraphId="d68" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">No homologues found for original id L:6173</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL36A | ribosomal protein L36a" />
+    <Graphics CenterX="156.66666666666666" CenterY="591.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="rps6ka3a" GraphId="d70" Type="GeneProduct" GroupRef="a01c1">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6197</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KA3 | ribosomal protein S6 kinase 90kDa p..." />
+    <Graphics CenterX="373.3333333333333" CenterY="324.6666666666667" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000035556" />
+  </DataNode>
+  <DataNode TextLabel="rpl37" GraphId="d85" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6167</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL37 | ribosomal protein L37" />
+    <Graphics CenterX="156.66666666666666" CenterY="471.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000034291" />
+  </DataNode>
+  <DataNode TextLabel="rps8b" GraphId="dab" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6202</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS8 | ribosomal protein S8" />
+    <Graphics CenterX="533.3333333333334" CenterY="331.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000057368" />
+  </DataNode>
+  <DataNode TextLabel="rps6" GraphId="db8" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6194</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6 | ribosomal protein S6" />
+    <Graphics CenterX="533.3333333333334" CenterY="291.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000019778" />
+  </DataNode>
+  <DataNode TextLabel="rpl36" GraphId="dbc" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:25873</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL36 | ribosomal protein L36" />
+    <Graphics CenterX="156.66666666666666" CenterY="451.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000100588" />
+  </DataNode>
+  <DataNode TextLabel="rpl5a" GraphId="ddc" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L18</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6125</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL5 | ribosomal protein L5" />
+    <Graphics CenterX="43.333333333333336" CenterY="211.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000020197" />
+  </DataNode>
+  <DataNode TextLabel="rps21" GraphId="de3" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6227</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS21 | ribosomal protein S21" />
+    <Graphics CenterX="653.3333333333334" CenterY="291.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000025850" />
+  </DataNode>
+  <DataNode TextLabel="rpl18" GraphId="e05" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6141</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL18 | ribosomal protein L18" />
+    <Graphics CenterX="43.333333333333336" CenterY="511.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000029533" />
+  </DataNode>
+  <DataNode TextLabel="uba52" GraphId="e14" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7311</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="UBA52 | ubiquitin A-52 residue ribosomal protei..." />
+    <Graphics CenterX="156.66666666666666" CenterY="551.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000041435" />
+  </DataNode>
+  <DataNode TextLabel="RPL41" GraphId="e30" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">No homologues found for original id L:6171</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL41 | ribosomal protein L41" />
+    <Graphics CenterX="156.66666666666666" CenterY="571.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="rpl27" GraphId="e48" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6155</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL27 | ribosomal protein L27" />
+    <Graphics CenterX="156.66666666666666" CenterY="251.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000015128" />
+  </DataNode>
+  <DataNode TextLabel="rps28" GraphId="e51" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6234</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS28 | ribosomal protein S28" />
+    <Graphics CenterX="653.3333333333334" CenterY="431.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000035860" />
   </DataNode>
   <DataNode TextLabel="rpl9" GraphId="e61" Type="GeneProduct" GroupRef="a3f67">
     <Comment Source="GenMAPP remarks">E. coli L6</Comment>
@@ -46,6 +416,100 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="43.333333333333336" CenterY="311.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000037350" />
   </DataNode>
+  <DataNode TextLabel="mrpl19" GraphId="e68" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L19</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:9801</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="MRPL19 | mitochondrial ribosomal protein L19" />
+    <Graphics CenterX="103.33333333333333" CenterY="681.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000011885" />
+  </DataNode>
+  <DataNode TextLabel="rps29" GraphId="e6a" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S14</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6235</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS29 | ribosomal protein S29" />
+    <Graphics CenterX="653.3333333333334" CenterY="451.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000041232" />
+  </DataNode>
+  <DataNode TextLabel="rpl28" GraphId="e93" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6158</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL28 | ribosomal protein L28" />
+    <Graphics CenterX="156.66666666666666" CenterY="291.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000005791" />
+  </DataNode>
+  <DataNode TextLabel="rps12" GraphId="eae" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6206</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS12 | ribosomal protein S12" />
+    <Graphics CenterX="533.3333333333334" CenterY="411.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000036875" />
+  </DataNode>
+  <DataNode TextLabel="rps18" GraphId="ed0" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S13</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6222</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS18 | ribosomal protein S18" />
+    <Graphics CenterX="653.3333333333334" CenterY="231.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000100392" />
+  </DataNode>
+  <DataNode TextLabel="rps24" GraphId="f16" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">Also known as L33e.  No E. coli homologue.</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6229</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS24 | ribosomal protein S24" />
+    <Graphics CenterX="653.3333333333334" CenterY="331.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000039347" />
+  </DataNode>
+  <DataNode TextLabel="rps19" GraphId="f1f" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6223</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS19 | ribosomal protein S19" />
+    <Graphics CenterX="653.3333333333334" CenterY="251.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000030602" />
+  </DataNode>
+  <DataNode TextLabel="rpl31" GraphId="f25" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6160</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL31 | ribosomal protein L31" />
+    <Graphics CenterX="156.66666666666666" CenterY="351.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000053365" />
+  </DataNode>
+  <DataNode TextLabel="rpl30" GraphId="f2a" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">Also known as L25e.</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6156</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL30 | ribosomal protein L30" />
+    <Graphics CenterX="156.66666666666666" CenterY="331.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000035871" />
+  </DataNode>
+  <DataNode TextLabel="rpl39" GraphId="f39" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6170</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL39 | ribosomal protein L39" />
+    <Graphics CenterX="156.66666666666666" CenterY="531.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000036316" />
+  </DataNode>
+  <DataNode TextLabel="rpl26" GraphId="f6b" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L24</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6154</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL26 | ribosomal protein L26" />
+    <Graphics CenterX="156.66666666666666" CenterY="231.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000102317" />
+  </DataNode>
+  <DataNode TextLabel="rplp0" GraphId="f6c" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L10.</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6175</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPLP0 | ribosomal protein large P0" />
+    <Graphics CenterX="103.33333333333333" CenterY="621.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000051783" />
+  </DataNode>
+  <DataNode TextLabel="rpl10" GraphId="f76" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6134</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL10 | ribosomal protein L10" />
+    <Graphics CenterX="43.333333333333336" CenterY="331.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000025581" />
+  </DataNode>
+  <DataNode TextLabel="rps4x" GraphId="f7a" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6191</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS4X | ribosomal protein S4 X-linked" />
+    <Graphics CenterX="533.3333333333334" CenterY="231.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000014690" />
+  </DataNode>
   <DataNode TextLabel="rpl12" GraphId="f81" Type="GeneProduct" GroupRef="a3f67">
     <Comment Source="GenMAPP remarks">Also known as L16e.  E. coli L11.</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6136</Comment>
@@ -53,12 +517,40 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="43.333333333333336" CenterY="391.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000006691" />
   </DataNode>
-  <DataNode TextLabel="rplp2l" GraphId="fe8" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L7/L12</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6181</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPLP2 | ribosomal protein large P2" />
-    <Graphics CenterX="103.33333333333333" CenterY="661.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000011201" />
+  <DataNode TextLabel="RPS20" GraphId="f82" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S10</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id L:6224</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS20 | ribosomal protein S20" />
+    <Graphics CenterX="653.3333333333334" CenterY="271.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="rps5" GraphId="f91" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">E. coli S7</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6193</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS5 | ribosomal protein S5" />
+    <Graphics CenterX="533.3333333333334" CenterY="271.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000043453" />
+  </DataNode>
+  <DataNode TextLabel="RPS27A" GraphId="f94" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id L:6233</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS27A | ribosomal protein S27a" />
+    <Graphics CenterX="653.3333333333334" CenterY="411.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="RPS17" GraphId="fa9" Type="GeneProduct" GroupRef="ff345">
+    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6218</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS17 | ribosomal protein S17" />
+    <Graphics CenterX="653.3333333333334" CenterY="211.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000046157" />
+  </DataNode>
+  <DataNode TextLabel="RPL27A" GraphId="fb9" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L15</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id L:6157</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL27A | ribosomal protein L27a" />
+    <Graphics CenterX="156.66666666666666" CenterY="271.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="rplp1" GraphId="fca" Type="GeneProduct" GroupRef="a3f67">
     <Comment Source="GenMAPP remarks">E. coli L7/L12</Comment>
@@ -74,296 +566,18 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="43.333333333333336" CenterY="431.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000044093" />
   </DataNode>
-  <DataNode TextLabel="rpl23" GraphId="ba2" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L14</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:9349</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL23 | ribosomal protein L23" />
-    <Graphics CenterX="156.66666666666666" CenterY="171.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000053457" />
-  </DataNode>
-  <DataNode TextLabel="RPL27A" GraphId="fb9" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L15</Comment>
-    <Comment Source="HomologyMapper">No homologues found for original id L:6157</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL27A | ribosomal protein L27a" />
-    <Graphics CenterX="156.66666666666666" CenterY="271.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+  <DataNode TextLabel="RPL3L" GraphId="fe2" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="HomologyMapper">No homologues found for original id L:6123</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL3L | ribosomal protein L3-like" />
+    <Graphics CenterX="43.333333333333336" CenterY="171.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="mrpl19" GraphId="e68" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L19</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:9801</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="MRPL19 | mitochondrial ribosomal protein L19" />
-    <Graphics CenterX="103.33333333333333" CenterY="681.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000011885" />
-  </DataNode>
-  <DataNode TextLabel="rpl17" GraphId="b0a" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L22</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6139</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL17 | ribosomal protein L17" />
-    <Graphics CenterX="43.333333333333336" CenterY="491.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000057556" />
-  </DataNode>
-  <DataNode TextLabel="rpl23a" GraphId="b98" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L23</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6147</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL23A | ribosomal protein L23a" />
-    <Graphics CenterX="156.66666666666666" CenterY="191.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000006316" />
-  </DataNode>
-  <DataNode TextLabel="rpl26" GraphId="f6b" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L24</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6154</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL26 | ribosomal protein L26" />
-    <Graphics CenterX="156.66666666666666" CenterY="231.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000102317" />
-  </DataNode>
-  <DataNode TextLabel="rpl35" GraphId="d58" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L29</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:11224</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL35 | ribosomal protein L35" />
-    <Graphics CenterX="156.66666666666666" CenterY="411.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000018334" />
-  </DataNode>
-  <DataNode TextLabel="rpl7" GraphId="b2c" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L30</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6129</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL7 | ribosomal protein L7" />
-    <Graphics CenterX="43.333333333333336" CenterY="251.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000007320" />
-  </DataNode>
-  <DataNode TextLabel="rpl4" GraphId="a12" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">also known as L1e.  No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6124</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL4 | ribosomal protein L4" />
-    <Graphics CenterX="43.333333333333336" CenterY="191.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000041182" />
-  </DataNode>
-  <DataNode TextLabel="rpl6" GraphId="c5c" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6128</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL6 | ribosomal protein L6" />
-    <Graphics CenterX="43.333333333333336" CenterY="231.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000058451" />
-  </DataNode>
-  <DataNode TextLabel="RPL7A" GraphId="aa3" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">No homologues found for original id L:6130</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL7A | ribosomal protein L7a" />
-    <Graphics CenterX="43.333333333333336" CenterY="271.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="" ID="" />
-  </DataNode>
-  <DataNode TextLabel="rpl13" GraphId="c39" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6137</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL13 | ribosomal protein L13" />
-    <Graphics CenterX="43.333333333333336" CenterY="411.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000099380" />
-  </DataNode>
-  <DataNode TextLabel="rpl14" GraphId="c74" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:9045</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL14 | ribosomal protein L14" />
-    <Graphics CenterX="43.333333333333336" CenterY="451.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000103433" />
-  </DataNode>
-  <DataNode TextLabel="rpl15" GraphId="a93" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6138</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL15 | ribosomal protein L15" />
-    <Graphics CenterX="43.333333333333336" CenterY="471.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000009285" />
-  </DataNode>
-  <DataNode TextLabel="rpl18a" GraphId="bf1" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6142</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL18A | ribosomal protein L18a" />
-    <Graphics CenterX="43.333333333333336" CenterY="531.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000025073" />
-  </DataNode>
-  <DataNode TextLabel="rpl18" GraphId="e05" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6141</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL18 | ribosomal protein L18" />
-    <Graphics CenterX="43.333333333333336" CenterY="511.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000029533" />
-  </DataNode>
-  <DataNode TextLabel="rpl19" GraphId="c34" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6143</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL19 | ribosomal protein L19" />
-    <Graphics CenterX="43.333333333333336" CenterY="551.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000013307" />
-  </DataNode>
-  <DataNode TextLabel="rpl21" GraphId="afa" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6144</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL21 | ribosomal protein L21" />
-    <Graphics CenterX="43.333333333333336" CenterY="571.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000010516" />
-  </DataNode>
-  <DataNode TextLabel="rpl22" GraphId="c9f" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6146</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL22 | ribosomal protein L22" />
-    <Graphics CenterX="156.66666666666666" CenterY="151.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000070437" />
-  </DataNode>
-  <DataNode TextLabel="rpl24" GraphId="ce9" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6152</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL24 | ribosomal protein L24" />
-    <Graphics CenterX="156.66666666666666" CenterY="211.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000099104" />
-  </DataNode>
-  <DataNode TextLabel="rpl27" GraphId="e48" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6155</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL27 | ribosomal protein L27" />
-    <Graphics CenterX="156.66666666666666" CenterY="251.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000015128" />
-  </DataNode>
-  <DataNode TextLabel="rpl28" GraphId="e93" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6158</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL28 | ribosomal protein L28" />
-    <Graphics CenterX="156.66666666666666" CenterY="291.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000005791" />
-  </DataNode>
-  <DataNode TextLabel="rpl29" GraphId="b24" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6159</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL29 | ribosomal protein L29" />
-    <Graphics CenterX="156.66666666666666" CenterY="311.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000077717" />
-  </DataNode>
-  <DataNode TextLabel="rpl31" GraphId="f25" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6160</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL31 | ribosomal protein L31" />
-    <Graphics CenterX="156.66666666666666" CenterY="351.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000053365" />
-  </DataNode>
-  <DataNode TextLabel="RPL32" GraphId="ad8" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">Also known as S22e.</Comment>
-    <Comment Source="HomologyMapper">No homologues found for original id L:6161</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL32 | ribosomal protein L32" />
-    <Graphics CenterX="156.66666666666666" CenterY="371.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="" ID="" />
-  </DataNode>
-  <DataNode TextLabel="rpl34" GraphId="a09" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6164</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL34 | ribosomal protein L34" />
-    <Graphics CenterX="156.66666666666666" CenterY="391.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000029500" />
-  </DataNode>
-  <DataNode TextLabel="rpl35a" GraphId="a96" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6165</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL35A | ribosomal protein L35a" />
-    <Graphics CenterX="156.66666666666666" CenterY="431.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000088030" />
-  </DataNode>
-  <DataNode TextLabel="rpl36" GraphId="dbc" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:25873</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL36 | ribosomal protein L36" />
-    <Graphics CenterX="156.66666666666666" CenterY="451.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000100588" />
-  </DataNode>
-  <DataNode TextLabel="rpl37" GraphId="d85" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6167</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL37 | ribosomal protein L37" />
-    <Graphics CenterX="156.66666666666666" CenterY="471.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000034291" />
-  </DataNode>
-  <DataNode TextLabel="rpl38" GraphId="be2" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6169</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL38 | ribosomal protein L38" />
-    <Graphics CenterX="156.66666666666666" CenterY="511.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000006413" />
-  </DataNode>
-  <DataNode TextLabel="rpl39" GraphId="f39" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6170</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL39 | ribosomal protein L39" />
-    <Graphics CenterX="156.66666666666666" CenterY="531.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000036316" />
-  </DataNode>
-  <DataNode TextLabel="uba52" GraphId="e14" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:7311</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="UBA52 | ubiquitin A-52 residue ribosomal protei..." />
-    <Graphics CenterX="156.66666666666666" CenterY="551.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000041435" />
-  </DataNode>
-  <DataNode TextLabel="RPL41" GraphId="e30" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">No homologues found for original id L:6171</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL41 | ribosomal protein L41" />
-    <Graphics CenterX="156.66666666666666" CenterY="571.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="" ID="" />
-  </DataNode>
-  <DataNode TextLabel="RPL36A" GraphId="d68" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">No homologues found for original id L:6173</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL36A | ribosomal protein L36a" />
-    <Graphics CenterX="156.66666666666666" CenterY="591.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="" ID="" />
-  </DataNode>
-  <DataNode TextLabel="rpsa" GraphId="b42" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S2</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:3921</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPSA | ribosomal protein SA" />
-    <Graphics CenterX="533.3333333333334" CenterY="151.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000019181" />
-  </DataNode>
-  <DataNode TextLabel="rps3" GraphId="c9c" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S3</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6188</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS3 | ribosomal protein S3" />
-    <Graphics CenterX="533.3333333333334" CenterY="191.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000103007" />
-  </DataNode>
-  <DataNode TextLabel="rps9" GraphId="ab2" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S4</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6203</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS9 | ribosomal protein S9" />
-    <Graphics CenterX="533.3333333333334" CenterY="351.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000011405" />
-  </DataNode>
-  <DataNode TextLabel="rps5" GraphId="f91" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S7</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6193</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS5 | ribosomal protein S5" />
-    <Graphics CenterX="533.3333333333334" CenterY="271.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000043453" />
-  </DataNode>
-  <DataNode TextLabel="rps15a" GraphId="c67" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S8</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6210</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS15A | ribosomal protein S15a" />
-    <Graphics CenterX="653.3333333333334" CenterY="171.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000010160" />
-  </DataNode>
-  <DataNode TextLabel="rps16" GraphId="cc0" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S9</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6217</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS16 | ribosomal protein S16" />
-    <Graphics CenterX="653.3333333333334" CenterY="191.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000045487" />
-  </DataNode>
-  <DataNode TextLabel="RPS20" GraphId="f82" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S10</Comment>
-    <Comment Source="HomologyMapper">No homologues found for original id L:6224</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS20 | ribosomal protein S20" />
-    <Graphics CenterX="653.3333333333334" CenterY="271.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="" ID="" />
-  </DataNode>
-  <DataNode TextLabel="rps14" GraphId="a79" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S11</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6208</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS14 | ribosomal protein S14" />
-    <Graphics CenterX="533.3333333333334" CenterY="451.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000036629" />
-  </DataNode>
-  <DataNode TextLabel="rps23" GraphId="b91" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S12</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6228</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS23 | ribosomal protein S23" />
-    <Graphics CenterX="653.3333333333334" CenterY="311.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000021838" />
-  </DataNode>
-  <DataNode TextLabel="rps29" GraphId="e6a" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S14</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6235</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS29 | ribosomal protein S29" />
-    <Graphics CenterX="653.3333333333334" CenterY="451.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000041232" />
-  </DataNode>
-  <DataNode TextLabel="rps13" GraphId="aa2" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S15</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6207</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS13 | ribosomal protein S13" />
-    <Graphics CenterX="533.3333333333334" CenterY="431.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000036298" />
+  <DataNode TextLabel="rplp2l" GraphId="fe8" Type="GeneProduct" GroupRef="a3f67">
+    <Comment Source="GenMAPP remarks">E. coli L7/L12</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6181</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPLP2 | ribosomal protein large P2" />
+    <Graphics CenterX="103.33333333333333" CenterY="661.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSDARG00000011201" />
   </DataNode>
   <DataNode TextLabel="si:dkey-159f12.2" GraphId="feb" Type="GeneProduct" GroupRef="ff345">
     <Comment Source="GenMAPP remarks">E. coli S17</Comment>
@@ -372,221 +586,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="533.3333333333334" CenterY="391.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000093606" />
   </DataNode>
-  <DataNode TextLabel="rps15" GraphId="c0e" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S19</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6209</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS15 | ribosomal protein S15" />
-    <Graphics CenterX="653.3333333333334" CenterY="151.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000070849" />
-  </DataNode>
-  <DataNode TextLabel="rps3a" GraphId="b39" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6189</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS3A | ribosomal protein S3A" />
-    <Graphics CenterX="533.3333333333334" CenterY="211.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000035692" />
-  </DataNode>
-  <DataNode TextLabel="rps4x" GraphId="f7a" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6191</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS4X | ribosomal protein S4 X-linked" />
-    <Graphics CenterX="533.3333333333334" CenterY="231.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000014690" />
-  </DataNode>
-  <DataNode TextLabel="rps4x" GraphId="ac3" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6192</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS4Y1 | ribosomal protein S4 Y-linked 1" />
-    <Graphics CenterX="533.3333333333334" CenterY="251.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000014690" />
-  </DataNode>
-  <DataNode TextLabel="rps6" GraphId="db8" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6194</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6 | ribosomal protein S6" />
-    <Graphics CenterX="533.3333333333334" CenterY="291.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000019778" />
-  </DataNode>
-  <DataNode TextLabel="rps7" GraphId="b8f" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6201</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS7 | ribosomal protein S7" />
-    <Graphics CenterX="533.3333333333334" CenterY="311.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000042566" />
-  </DataNode>
-  <DataNode TextLabel="rps8b" GraphId="dab" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6202</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS8 | ribosomal protein S8" />
-    <Graphics CenterX="533.3333333333334" CenterY="331.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000057368" />
-  </DataNode>
-  <DataNode TextLabel="rps10" GraphId="ae1" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6204</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS10 | ribosomal protein S10" />
-    <Graphics CenterX="533.3333333333334" CenterY="371.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000034897" />
-  </DataNode>
-  <DataNode TextLabel="rps12" GraphId="eae" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6206</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS12 | ribosomal protein S12" />
-    <Graphics CenterX="533.3333333333334" CenterY="411.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000036875" />
-  </DataNode>
-  <DataNode TextLabel="RPS17" GraphId="fa9" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6218</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS17 | ribosomal protein S17" />
-    <Graphics CenterX="653.3333333333334" CenterY="211.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000046157" />
-  </DataNode>
-  <DataNode TextLabel="rps19" GraphId="f1f" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6223</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS19 | ribosomal protein S19" />
-    <Graphics CenterX="653.3333333333334" CenterY="251.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000030602" />
-  </DataNode>
-  <DataNode TextLabel="rps21" GraphId="de3" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6227</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS21 | ribosomal protein S21" />
-    <Graphics CenterX="653.3333333333334" CenterY="291.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000025850" />
-  </DataNode>
-  <DataNode TextLabel="rps24" GraphId="f16" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">Also known as L33e.  No E. coli homologue.</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6229</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS24 | ribosomal protein S24" />
-    <Graphics CenterX="653.3333333333334" CenterY="331.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000039347" />
-  </DataNode>
-  <DataNode TextLabel="rps25" GraphId="c27" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6230</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS25 | ribosomal protein S25" />
-    <Graphics CenterX="653.3333333333334" CenterY="351.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000041811" />
-  </DataNode>
-  <DataNode TextLabel="rps26l" GraphId="bff" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6231</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS26 | ribosomal protein S26" />
-    <Graphics CenterX="653.3333333333334" CenterY="371.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000030408" />
-  </DataNode>
-  <DataNode TextLabel="rps27.1" GraphId="c5f" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6232</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS27 | ribosomal protein S27 (metallopanstimul..." />
-    <Graphics CenterX="653.3333333333334" CenterY="391.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000023298" />
-  </DataNode>
-  <DataNode TextLabel="RPS27A" GraphId="f94" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">No homologues found for original id L:6233</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS27A | ribosomal protein S27a" />
-    <Graphics CenterX="653.3333333333334" CenterY="411.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+  <DataNode TextLabel="RPS6KB2" GraphId="ff0" Type="GeneProduct" GroupRef="a01c1">
+    <Comment Source="HomologyMapper">No homologues found for original id L:6199</Comment>
+    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KB2 | ribosomal protein S6 kinase 70kDa p..." />
+    <Graphics CenterX="373.3333333333333" CenterY="264.6666666666667" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="" ID="" />
-  </DataNode>
-  <DataNode TextLabel="rps28" GraphId="e51" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6234</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS28 | ribosomal protein S28" />
-    <Graphics CenterX="653.3333333333334" CenterY="431.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000035860" />
-  </DataNode>
-  <DataNode TextLabel="faua" GraphId="ae9" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">No E. coli homologue</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:2197</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="FAU | Finkel-Biskis-Reilly murine sarcoma virus..." />
-    <Graphics CenterX="653.3333333333334" CenterY="471.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000099022" />
-  </DataNode>
-  <DataNode TextLabel="rplp0" GraphId="f6c" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L10.</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6175</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPLP0 | ribosomal protein large P0" />
-    <Graphics CenterX="103.33333333333333" CenterY="621.3333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000051783" />
-  </DataNode>
-  <DataNode TextLabel="rps6ka2" GraphId="cb5" Type="GeneProduct" GroupRef="a01c1">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6196</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KA2 | ribosomal protein S6 kinase 90kDa p..." />
-    <Graphics CenterX="373.3333333333333" CenterY="304.6666666666667" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000028469" />
-  </DataNode>
-  <DataNode TextLabel="rps6ka1" GraphId="cdf" Type="GeneProduct" GroupRef="a01c1">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6195</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KA1 | ribosomal protein S6 kinase 90kDa p..." />
-    <Graphics CenterX="373.3333333333333" CenterY="284.6666666666667" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000033437" />
-  </DataNode>
-  <DataNode TextLabel="rps6ka3a" GraphId="d70" Type="GeneProduct" GroupRef="a01c1">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6197</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KA3 | ribosomal protein S6 kinase 90kDa p..." />
-    <Graphics CenterX="373.3333333333333" CenterY="324.6666666666667" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000035556" />
-  </DataNode>
-  <DataNode TextLabel="rps6kal" GraphId="c8e" Type="GeneProduct" GroupRef="a01c1">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:27330</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KA6 | ribosomal protein S6 kinase 90kDa p..." />
-    <Graphics CenterX="373.3333333333333" CenterY="344.6666666666667" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000037574" />
-  </DataNode>
-  <DataNode TextLabel="rpl11" GraphId="bc5" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L5</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6135</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL11 | ribosomal protein L11" />
-    <Graphics CenterX="43.333333333333336" CenterY="371.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000043509" />
-  </DataNode>
-  <DataNode TextLabel="rpl5a" GraphId="ddc" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">E. coli L18</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6125</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL5 | ribosomal protein L5" />
-    <Graphics CenterX="43.333333333333336" CenterY="211.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000020197" />
   </DataNode>
   <DataNode TextLabel="RPS6KB1" GraphId="ff3" Type="GeneProduct" GroupRef="a01c1">
     <Comment Source="HomologyMapper">No homologues found for original id L:6198</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KB1 | ribosomal protein S6 kinase 70kDa p..." />
     <Graphics CenterX="373.3333333333333" CenterY="244.66666666666666" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="" ID="" />
-  </DataNode>
-  <DataNode TextLabel="rpl10" GraphId="f76" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6134</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL10 | ribosomal protein L10" />
-    <Graphics CenterX="43.333333333333336" CenterY="331.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000025581" />
-  </DataNode>
-  <DataNode TextLabel="rpl30" GraphId="f2a" Type="GeneProduct" GroupRef="a3f67">
-    <Comment Source="GenMAPP remarks">Also known as L25e.</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6156</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPL30 | ribosomal protein L30" />
-    <Graphics CenterX="156.66666666666666" CenterY="331.3333333333333" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000035871" />
-  </DataNode>
-  <DataNode TextLabel="rps2" GraphId="cdd" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S5</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6187</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS2 | ribosomal protein S2" />
-    <Graphics CenterX="533.3333333333334" CenterY="171.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000077291" />
-  </DataNode>
-  <DataNode TextLabel="rps18" GraphId="ed0" Type="GeneProduct" GroupRef="ff345">
-    <Comment Source="GenMAPP remarks">E. coli S13</Comment>
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = L:6222</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS18 | ribosomal protein S18" />
-    <Graphics CenterX="653.3333333333334" CenterY="231.33333333333334" Width="60.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSDARG00000100392" />
-  </DataNode>
-  <DataNode TextLabel="RPS6KB2" GraphId="ff0" Type="GeneProduct" GroupRef="a01c1">
-    <Comment Source="HomologyMapper">No homologues found for original id L:6199</Comment>
-    <Attribute Key="org.pathvisio.model.BackpageHead" Value="RPS6KB2 | ribosomal protein S6 kinase 70kDa p..." />
-    <Graphics CenterX="373.3333333333333" CenterY="264.6666666666667" Width="66.66666666666667" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="" ID="" />
   </DataNode>
   <Interaction GraphId="b86bd" GroupRef="a01c1">
@@ -596,15 +605,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Label TextLabel="Large (60S) Subunit" GraphId="fb5" GroupRef="a3f67">
-    <Graphics CenterX="103.33333333333333" CenterY="124.66666666666667" Width="156.33333333333334" Height="19.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
-  </Label>
-  <Label TextLabel="Small (40S) Subunit" GraphId="db7" GroupRef="ff345">
-    <Graphics CenterX="583.3333333333334" CenterY="124.66666666666667" Width="154.33333333333334" Height="19.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
-  </Label>
-  <Group GroupId="ff345" GraphId="ff345" Style="Complex" />
-  <Group GroupId="a01c1" GraphId="a01c1" Style="Complex" />
-  <Group GroupId="a3f67" GraphId="a3f67" Style="Complex" />
+  <Group GroupId="ff345" GraphId="c6783" Style="Complex" />
+  <Group GroupId="a3f67" GraphId="f54f3" Style="Complex" />
+  <Group GroupId="a01c1" GraphId="f820f" Style="Complex" />
   <InfoBox CenterX="459.3666666666667" CenterY="584.6333333333333" />
   <Legend CenterX="229.13333333333333" CenterY="450.53333333333336" />
   <Biopax>
@@ -613,6 +616,24 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001066</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11875025</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The human ribosomal protein genes: sequencing and comparative analysis of 73 genes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome Res</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yoshihama M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uechi T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asakawa S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kawasaki K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kato S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Higa S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maeda N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minoshima S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanaka T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shimizu N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kenmochi N</bp:AUTHORS>
+    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 
