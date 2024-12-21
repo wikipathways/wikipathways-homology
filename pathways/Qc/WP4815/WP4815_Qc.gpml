@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glycosaminoglycan degradation" Data-Source="WikiPathways" Version="WP4815_Qc" Last-Modified="20200502070702" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glycosaminoglycan degradation" Data-Source="WikiPathways" Version="WP4815_Qc" Last-Modified="20241220155004" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">Taken from KEGG: Glycosaminoglycan degradation - Homo sapiens (human) [https://www.genome.jp/kegg-bin/show_pathway?hsa00531].
 
 Some genes such as NAGZ could not be found, these have been left on the diagram as unannotated GeneProducts.
 
 Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4815.gpml (WP4815_r110276) with a 91.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4815.gpml (WP4815_r136161) with a 91.0% conversion rate.</Comment>
+  <BiopaxRef>e3b</BiopaxRef>
   <Graphics BoardWidth="2590.7426065360237" BoardHeight="2889.080250835497" />
   <DataNode TextLabel="Dermatan sulfate" GraphId="a1df4" Type="Metabolite">
     <Graphics CenterX="812.9100773926176" CenterY="196.04216178668568" Width="113.81143878462905" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
@@ -405,7 +406,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id1012ead6">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1009.5209053768413" Y="2099.8565259007037" GraphRef="ee58e" RelX="-1.0" RelY="0.0" />
-      <Point X="969.1476605561693" Y="2099.789313253247" GraphRef="c6a43" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="969.1476605561693" Y="2099.789313253247" GraphRef="c6a43" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -459,7 +460,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="id1ae9ba2a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="2274.3294171154953" Y="541.246571005231" GraphRef="aa6a4" RelX="-1.0" RelY="0.0" />
+      <Point X="2274.3294171154953" Y="541.246571005231" GraphRef="db49d" RelX="-1.0" RelY="0.0" />
       <Point X="2205.1642450061395" Y="541.0154052391733" GraphRef="badff" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -523,7 +524,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id2a45656">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="697.5242305758851" Y="1104.3907314350702" GraphRef="aad05" RelX="0.0" RelY="-1.0" />
-      <Point X="697.9312315272127" Y="1040.445658957207" GraphRef="d72c3" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="697.9312315272127" Y="1040.445658957207" GraphRef="d72c3" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -544,7 +545,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="id3204670b">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="2014.360562451945" Y="603.2149954821566" GraphRef="ed3ff" RelX="1.0" RelY="0.0" />
+      <Point X="2014.360562451945" Y="603.2149954821566" GraphRef="cda58" RelX="1.0" RelY="0.0" />
       <Point X="2085.3144493211535" Y="603.3704519472186" GraphRef="d6c4e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -559,7 +560,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id339267ce">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="603.2908049206924" Y="2101.3664398447077" GraphRef="fb5c6" RelX="1.0" RelY="0.0" />
-      <Point X="673.578530887303" Y="2099.789313253247" GraphRef="f0344" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="673.578530887303" Y="2099.789313253247" GraphRef="f0344" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -573,21 +574,21 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id3877da9d">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="423.5517841309503" Y="1697.696378536994" GraphRef="df4da" RelX="1.0" RelY="0.0" />
-      <Point X="479.6819676094637" Y="1697.1550148011177" GraphRef="aad6f" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="479.6819676094637" Y="1697.1550148011177" GraphRef="aad6f" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id41d2df86">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1012.2455227675382" Y="2665.0130770442233" GraphRef="c8750" RelX="0.0" RelY="-1.0" />
-      <Point X="1012.0459302740758" Y="2618.2316296292834" GraphRef="e9944" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1012.2455227675382" Y="2665.0130770442233" GraphRef="c8d0f" RelX="0.0" RelY="-1.0" />
+      <Point X="1012.0459302740758" Y="2618.2316296292834" GraphRef="e9944" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id41e5df5b">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="712.9195706932232" Y="1697.2324856311038" GraphRef="ab26b" RelX="-1.0" RelY="0.0" />
-      <Point X="640.4870106636507" Y="1697.1550148011179" GraphRef="ba026" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="640.4870106636507" Y="1697.1550148011179" GraphRef="ba026" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -610,14 +611,14 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id4ebaed92">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="539.3740228957308" Y="1420.5748421678159" GraphRef="ea754" RelX="0.0" RelY="-1.0" />
-      <Point X="538.9837894736004" Y="1377.8785938831659" GraphRef="f99d6" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="538.9837894736004" Y="1377.8785938831659" GraphRef="f99d6" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4f7861e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1043.031837176652" Y="2210.674504439817" GraphRef="b07c8" RelX="0.0" RelY="-1.0" />
-      <Point X="1043.9018545450301" Y="2162.0329177881595" GraphRef="b41fc" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="1043.9018545450301" Y="2162.0329177881595" GraphRef="b41fc" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -654,7 +655,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id5d4c63ad">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="603.2908049206924" Y="2101.3664398447077" GraphRef="fb5c6" RelX="1.0" RelY="0.0" />
-      <Point X="628.077095159032" Y="2101.092064261879" GraphRef="c5231" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="628.077095159032" Y="2101.092064261879" GraphRef="c5231" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -676,14 +677,14 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id6c3d6888">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="714.5046016100464" Y="1792.3225479929938" GraphRef="d61b5" RelX="0.0" RelY="-1.0" />
-      <Point X="715.3817473142592" Y="1741.1709685748958" GraphRef="f84e6" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="715.3817473142592" Y="1741.1709685748958" GraphRef="f84e6" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id6cec9ca7">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="839.3006768285023" Y="2670.5419030564376" GraphRef="d6945" RelX="0.0" RelY="-1.0" />
-      <Point X="838.1970669482744" Y="2618.2318166051114" GraphRef="a3ab3" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="838.1970669482744" Y="2618.2318166051114" GraphRef="a3ab3" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -697,21 +698,21 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id6fc93c93">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="454.3015878968973" Y="2099.451945844405" GraphRef="b01ec" RelX="1.0" RelY="0.0" />
-      <Point X="487.5557161621372" Y="2099.789313253247" GraphRef="eb85a" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="487.5557161621372" Y="2099.789313253247" GraphRef="eb85a" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id72b436c8">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="537.0852790065403" Y="1104.3907314350702" GraphRef="b21a3" RelX="0.0" RelY="-1.0" />
-      <Point X="537.1497387882738" Y="1040.4456589572067" GraphRef="d2a37" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="537.1497387882738" Y="1040.4456589572067" GraphRef="d2a37" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id7301bc8e">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="400.4132361438227" Y="2556.6613049455514" GraphRef="bbff0" RelX="1.0" RelY="0.0" />
-      <Point X="439.89467828615375" Y="2557.032915871749" GraphRef="fa7b2" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="439.89467828615375" Y="2557.032915871749" GraphRef="fa7b2" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -795,14 +796,14 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id93c75f54">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="699.0439955610568" Y="1420.5748421678159" GraphRef="c523e" RelX="0.0" RelY="-1.0" />
-      <Point X="698.462498338904" Y="1377.8785938831656" GraphRef="eb4b5" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="698.462498338904" Y="1377.8785938831656" GraphRef="eb4b5" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id94fbe496">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="561.854343426188" Y="2204.250478348523" GraphRef="ded2c" RelX="0.0" RelY="-1.0" />
-      <Point X="561.9378618717445" Y="2162.0329177881595" GraphRef="e77d4" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="561.9378618717445" Y="2162.0329177881595" GraphRef="e77d4" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -816,7 +817,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="id9b95a913">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="553.4151545255411" Y="1792.3225479929938" GraphRef="c69e1" RelX="0.0" RelY="-1.0" />
-      <Point X="553.0039848311385" Y="1741.170968574896" GraphRef="ebea4" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="553.0039848311385" Y="1741.170968574896" GraphRef="ebea4" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -830,7 +831,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="id9cbf80ea">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1446.582097751616" Y="233.3148596361342" GraphRef="df1c4" RelX="-1.0" RelY="0.0" />
+      <Point X="1446.582097751616" Y="233.3148596361342" GraphRef="f50ef" RelX="-1.0" RelY="0.0" />
       <Point X="1337.2330367074524" Y="233.20501615551694" GraphRef="bdb92" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -838,28 +839,28 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="ida3f18b9f">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="649.5008057280006" Y="2573.218019166218" GraphRef="aaf6c" RelX="-1.0" RelY="0.0" />
-      <Point X="606.4219886140837" Y="2573.2658827828695" GraphRef="b6fe7" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="606.4219886140837" Y="2573.2658827828695" GraphRef="b6fe7" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ida5a7ba29">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="973.9202447245991" Y="2573.7398415906914" GraphRef="c7ff9" RelX="-1.0" RelY="0.0" />
-      <Point X="930.5147892798188" Y="2573.2658827828695" GraphRef="c47cd" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="930.5147892798188" Y="2573.2658827828695" GraphRef="c47cd" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ida8f0adf">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="855.3836346447804" Y="1104.3907314350702" GraphRef="ff00f" RelX="0.0" RelY="-1.0" />
-      <Point X="855.481383502896" Y="1040.445658957207" GraphRef="fd6fb" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="855.481383502896" Y="1040.445658957207" GraphRef="fd6fb" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ida9876c39">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="419.79588238665053" Y="1335.786463490529" GraphRef="dde4b" RelX="1.0" RelY="0.0" />
-      <Point X="466.50741827485734" Y="1334.6059411638953" GraphRef="b9238" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="466.50741827485734" Y="1334.6059411638953" GraphRef="b9238" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -896,7 +897,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   </Interaction>
   <Interaction GraphId="idb58335cd">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="239.99329450465765" Y="238.09382873015056" GraphRef="eeef0" RelX="-1.0" RelY="0.0" />
+      <Point X="239.99329450465765" Y="238.09382873015056" GraphRef="e3d90" RelX="-1.0" RelY="0.0" />
       <Point X="181.00367083272883" Y="237.0799073794332" GraphRef="f8b64" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -950,14 +951,14 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="818.9912946777586" Y="2066.6269102299725" GraphRef="b3336" RelX="0.0" RelY="1.0" />
       <Point X="818.9912946777587" Y="2149.5329177881595" GraphRef="abff9" RelX="0.0" RelY="-1.0" />
-      <Anchor Position="0.4" Shape="None" GraphId="bdf9c" />
+      <Anchor Position="0.4" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc12715b9">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1212.0054235479222" Y="2197.3517065275887" GraphRef="ebf4a" RelX="0.0" RelY="-1.0" />
-      <Point X="1211.9984026389636" Y="2162.03275160234" GraphRef="bc776" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="1212.0054235479222" Y="2197.3517065275887" GraphRef="b1913" RelX="0.0" RelY="-1.0" />
+      <Point X="1211.9984026389636" Y="2162.03275160234" GraphRef="bc776" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -996,21 +997,21 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="idd3931859">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="727.1181912444787" Y="2204.591352131239" GraphRef="d5590" RelX="0.0" RelY="-1.0" />
-      <Point X="727.2031661327967" Y="2162.0329177881595" GraphRef="ab7a1" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="727.2031661327967" Y="2162.0329177881595" GraphRef="ab7a1" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idd4958a78">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="840.5084849830123" Y="1334.6438905614202" GraphRef="d8897" RelX="-1.0" RelY="0.0" />
-      <Point X="785.8587264396875" Y="1334.6059411638953" GraphRef="d6f7f" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="785.8587264396875" Y="1334.6059411638953" GraphRef="d6f7f" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idd54a3450">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="887.9651146591681" Y="2206.6544106918127" GraphRef="ed81c" RelX="0.0" RelY="-1.0" />
-      <Point X="888.0538410291229" Y="2162.0329177881595" GraphRef="c7c4c" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="888.0538410291229" Y="2162.0329177881595" GraphRef="c7c4c" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1025,7 +1026,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="idd6194f97">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="507.5080404684775" Y="2669.0369213029985" GraphRef="aac0b" RelX="0.0" RelY="-1.0" />
-      <Point X="507.4446220034973" Y="2618.2318166051114" GraphRef="faf21" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="507.4446220034973" Y="2618.2318166051114" GraphRef="faf21" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1169,14 +1170,14 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Interaction GraphId="idf90f2b67">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="878.8854637434954" Y="1792.3225479929938" GraphRef="d03dd" RelX="0.0" RelY="-1.0" />
-      <Point X="877.751057397417" Y="1741.1709685748956" GraphRef="f6ae6" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Point X="877.751057397417" Y="1741.1709685748956" GraphRef="f6ae6" RelX="0.0" RelY="0.0" ArrowHead="mim-cleavage" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idf9ccc480">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="699.9434121186176" Y="2667.3186810484144" GraphRef="e8791" RelX="0.0" RelY="-1.0" />
-      <Point X="700.079885087068" Y="2618.2318166051114" GraphRef="c7cef" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="699.9434121186176" Y="2667.3186810484144" GraphRef="cf3b7" RelX="0.0" RelY="-1.0" />
+      <Point X="700.079885087068" Y="2618.2318166051114" GraphRef="c7cef" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1287,7 +1288,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <GraphicalLine GraphId="ec315">
     <Graphics ZOrder="32908" LineStyle="Broken" LineThickness="1.0">
       <Point X="2256.843921551232" Y="421.0865188703621" GraphRef="e9869" RelX="1.0" RelY="0.0" />
-      <Point X="2338.455200245638" Y="419.19743235604085" GraphRef="bc81a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="2338.455200245638" Y="419.19743235604085" GraphRef="dba58" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="e5549">
@@ -1409,13 +1410,13 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <GraphicalLine GraphId="aad73">
     <Graphics ZOrder="32928" LineStyle="Broken" LineThickness="1.0">
       <Point X="507.5080404684775" Y="2694.0369213029985" GraphRef="aac0b" RelX="0.0" RelY="1.0" />
-      <Point X="506.8067861925367" Y="2765.0802508354964" GraphRef="aa0e9" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="506.8067861925367" Y="2765.0802508354964" GraphRef="e3b65" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="fc075">
     <Graphics ZOrder="32929" LineStyle="Broken" LineThickness="1.0">
       <Point X="839.3006768285023" Y="2695.5419030564376" GraphRef="d6945" RelX="0.0" RelY="1.0" />
-      <Point X="839.3006768285024" Y="2765.080250835497" GraphRef="b0111" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="839.3006768285024" Y="2765.080250835497" GraphRef="bec0c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="f8be5">
@@ -1552,7 +1553,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="374.7958823866505" CenterY="1495.9471825933474" Width="206.28740629038566" Height="39.0" ZOrder="32862" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:230500&#xA;Gm1-Gangliosidosis, Type I" GraphId="d4582" Href="https://omim.org/entry/230500" GroupRef="aa0e9">
+  <Label TextLabel="OMIM:230500&#xA;Gm1-Gangliosidosis, Type I" Href="https://omim.org/entry/230500" GroupRef="aa0e9">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="506.8067861925367" CenterY="2831.5802508354964" Width="206.28740629038566" Height="39.0" ZOrder="32863" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1568,7 +1569,7 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="905.6828594678168" CenterY="1637.3810841404504" Width="206.28740629038566" Height="39.0" ZOrder="32866" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="OMIM:230500&#xA;Gm1-Gangliosidosis, Type I" GraphId="f414b" Href="https://omim.org/entry/230500" GroupRef="b0111">
+  <Label TextLabel="OMIM:230500&#xA;Gm1-Gangliosidosis, Type I" Href="https://omim.org/entry/230500" GroupRef="b0111">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="839.3006768285024" CenterY="2831.580250835497" Width="206.28740629038566" Height="39.0" ZOrder="32867" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
@@ -1692,26 +1693,35 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
     <Comment>DISEASE</Comment>
     <Graphics CenterX="277.17492371508825" CenterY="2792.580250835497" Width="206.28740629038566" Height="39.0" ZOrder="32897" FillColor="ffcece" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Group GroupId="ebf4a" GraphId="ebf4a" Style="Group" />
-  <Group GroupId="b0111" GraphId="b0111" Style="Group" />
-  <Group GroupId="c8750" GraphId="c8750" Style="Group" />
-  <Group GroupId="ed3ff" GraphId="ed3ff" Style="Group" />
-  <Group GroupId="e8791" GraphId="e8791" Style="Group" />
-  <Group GroupId="aa6a4" GraphId="aa6a4" Style="Group" />
-  <Group GroupId="bc81a" GraphId="bc81a" Style="Group" />
-  <Group GroupId="aa0e9" GraphId="aa0e9" Style="Group" />
-  <Group GroupId="eeef0" GraphId="eeef0" Style="Group" />
-  <Group GroupId="df1c4" GraphId="df1c4" Style="Group" />
+  <Group GroupId="ebf4a" GraphId="b1913" Style="Group" />
+  <Group GroupId="b0111" GraphId="bec0c" Style="Group" />
+  <Group GroupId="c8750" GraphId="c8d0f" Style="Group" />
+  <Group GroupId="ed3ff" GraphId="cda58" Style="Group" />
+  <Group GroupId="f355d" GraphId="cf069" Style="Group" />
+  <Group GroupId="e8791" GraphId="cf3b7" Style="Group" />
+  <Group GroupId="aa6a4" GraphId="db49d" Style="Group" />
+  <Group GroupId="bc81a" GraphId="dba58" Style="Group" />
+  <Group GroupId="aa0e9" GraphId="e3b65" Style="Group" />
+  <Group GroupId="eeef0" GraphId="e3d90" Style="Group" />
+  <Group GroupId="df1c4" GraphId="f50ef" Style="Group" />
+  <Group GroupId="d518a" GraphId="f6373" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycosaminoglycan degradation pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001154</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hsa00531</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Pathway</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycosaminoglycan degradation - Homo sapiens (human)</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycosaminoglycan degradation pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001154</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
