@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Allograft rejection" Data-Source="WikiPathways" Version="WP2328_Mm" Last-Modified="20220111085819" Organism="Mus musculus">
-  <Comment Source="WikiPathways-description">This pathway illustrates molecular interactions involved in the fundamental adaptive immune response for allograft destruction. This pathway was adapted in large part from [http://www.genome.jp/kegg/pathway/hsa/hsa05330.html KEGG]. In the initial step of this diagram, antigen presenting cells (APC's), either those from the donor (direct pathway) or from the recipient (indirect pathway) activate naive t cells leading to both CD8+ and CD4+ T cell maturation. CD8+ stimulated T cells lead to apoptosis of the allograft donor cells whereas CD4+ T cells differentiate into TH1, TH2, T17, and Treg cells. Activated TH1 produces TNFA and NO and damages donor graft cells by cytotoxicity. TH2 cell activates B cells. Activated B cells lead to plasma cell formation followed by IgG antibodies and the complement cascade pathway in acute antibody-mediated rejection (AMR) and chronic AMR with C3 being the therapeutic target. Exogenous treatment with YCF inhibits C3, thus preventing AMR. Eculizumab binds to C5 which prevent C5a production and the membrane attack complex.  C3a and C35 act as potent chemotactic factors, promoting the infiltration of pro-inflammatory cells. Belatacept inhibits CD80/86 binding to CD28. Corticosteroids inhibit pro-inflammatory cytokines. Corticosteroids contribute to immune suppression such as CTLA4 which inhibits T-cell activation.
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Allograft rejection" Data-Source="WikiPathways" Version="WP2328_Mm" Last-Modified="20250225171211" Organism="Mus musculus">
+  <Comment Source="WikiPathways-description">This pathway illustrates molecular interactions involved in the fundamental adaptive immune response for allograft destruction. This pathway was adapted in large part from [KEGG](http://www.genome.jp/kegg/pathway/hsa/hsa05330.html). In the initial step of this diagram, antigen presenting cells (APC's), either those from the donor (direct pathway) or from the recipient (indirect pathway) activate naive t cells leading to both CD8+ and CD4+ T cell maturation. CD8+ stimulated T cells lead to apoptosis of the allograft donor cells whereas CD4+ T cells differentiate into TH1, TH2, T17, and Treg cells. Activated TH1 produces TNFA and NO and damages donor graft cells by cytotoxicity. TH2 cell activates B cells. Activated B cells lead to plasma cell formation followed by IgG antibodies and the complement cascade pathway in acute antibody-mediated rejection (AMR) and chronic AMR with C3 being the therapeutic target. Exogenous treatment with YCF inhibits C3, thus preventing AMR. Eculizumab binds to C5 which prevent C5a production and the membrane attack complex.  C3a and C35 act as potent chemotactic factors, promoting the infiltration of pro-inflammatory cells. Belatacept inhibits CD80/86 binding to CD28. Corticosteroids inhibit pro-inflammatory cytokines. Corticosteroids contribute to immune suppression such as CTLA4 which inhibits T-cell activation.
 
-
-Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2328 CPTAC Assay Portal]</Comment>
+Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP2328)</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2328.gpml (WP2328_r120805) with a 82.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2328.gpml (WP2328_r136877) with a 82.0% conversion rate.</Comment>
   <BiopaxRef>f48</BiopaxRef>
   <BiopaxRef>bde</BiopaxRef>
   <BiopaxRef>d87</BiopaxRef>
@@ -812,7 +811,7 @@ T-cell receptor beta chain V region</Comment>
   <Interaction GraphId="b6dde">
     <Graphics ZOrder="33480" LineThickness="1.0">
       <Point X="2159.4258051252486" Y="779.3889335239211" GraphRef="d45f4" RelX="1.0" RelY="0.0" />
-      <Point X="2193.8832281770906" Y="778.3919387919884" GraphRef="e0882" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="2193.8832281770906" Y="778.3919387919884" GraphRef="e0882" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -826,7 +825,7 @@ T-cell receptor beta chain V region</Comment>
   <Interaction GraphId="f2830">
     <Graphics ZOrder="33482" LineThickness="1.0">
       <Point X="2062.5064502865384" Y="692.2492997198876" GraphRef="c9567" RelX="0.0" RelY="1.0" />
-      <Point X="2063.0064502865384" Y="719.5826330532211" GraphRef="ce71f" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="2063.0064502865384" Y="719.5826330532211" GraphRef="ce71f" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -889,7 +888,7 @@ T-cell receptor beta chain V region</Comment>
   <Interaction GraphId="a3118">
     <Graphics ZOrder="33491" LineThickness="1.0">
       <Point X="2209.296772867184" Y="829.8084395048339" GraphRef="a4d4d" RelX="1.0" RelY="0.0" />
-      <Point X="2228.749241059003" Y="830.399845291027" GraphRef="ab1e4" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="2228.749241059003" Y="830.399845291027" GraphRef="fa711" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -905,7 +904,7 @@ T-cell receptor beta chain V region</Comment>
   <Interaction GraphId="cd80e">
     <Graphics ConnectorType="Curved" ZOrder="33493" LineThickness="1.0">
       <Point X="184.27988226131146" Y="420.1487045203973" GraphRef="ae1df" RelX="1.0" RelY="-0.5" />
-      <Point X="238.58567181982758" Y="570.1472323464144" GraphRef="c7e9d" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="238.58567181982758" Y="570.1472323464144" GraphRef="abdad" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -920,14 +919,14 @@ T-cell receptor beta chain V region</Comment>
   <Interaction GraphId="b5bf3">
     <Graphics ZOrder="33495" LineThickness="1.0">
       <Point X="1994.0064502865382" Y="700.5826330532211" GraphRef="da48e" RelX="0.0" RelY="1.0" />
-      <Point X="1994.5064502865382" Y="731.5826330532211" GraphRef="fa35e" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="1994.5064502865382" Y="731.5826330532211" GraphRef="fa35e" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="fa02f">
     <Graphics ZOrder="33496" LineThickness="1.0">
       <Point X="543.2767584097855" Y="510.40829986613136" GraphRef="dec52" RelX="0.0" RelY="1.0" />
-      <Point X="552.1574552186272" Y="528.804485196515" GraphRef="f401e" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="552.1574552186272" Y="528.804485196515" GraphRef="f401e" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -940,21 +939,21 @@ T-cell receptor beta chain V region</Comment>
   </Interaction>
   <Interaction GraphId="b6047">
     <Graphics ZOrder="33498" LineThickness="1.0">
-      <Point X="1130.076478297737" Y="496.5259469249545" GraphRef="c8501" RelX="-1.0" RelY="0.0" />
-      <Point X="1094.0764782977367" Y="496.78431372548994" GraphRef="ea7a5" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1130.076478297737" Y="496.5259469249545" GraphRef="b2818" RelX="-1.0" RelY="0.0" />
+      <Point X="1094.0764782977367" Y="496.78431372548994" GraphRef="ea7a5" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ab864">
     <Graphics ZOrder="33499" LineThickness="1.0">
       <Point X="2316.006450286539" Y="711.5826330532211" GraphRef="c5833" RelX="-1.0" RelY="0.0" />
-      <Point X="2289.0064502865393" Y="711.5826330532211" GraphRef="f7455" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="2289.0064502865393" Y="711.5826330532211" GraphRef="f7455" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="aa8d7">
     <Graphics ZOrder="33500" LineThickness="1.0">
-      <Point X="2295.944118564572" Y="812.4226073502897" GraphRef="ab1e4" RelX="0.5" RelY="-1.0" />
+      <Point X="2295.944118564572" Y="812.4226073502897" GraphRef="fa711" RelX="0.5" RelY="-1.0" />
       <Point X="2325.998046925196" Y="774.7331932773108" GraphRef="a9183" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -976,7 +975,7 @@ T-cell receptor beta chain V region</Comment>
   <Interaction GraphId="cf3b8">
     <Graphics ZOrder="33503" LineThickness="1.0">
       <Point X="1173.09598209173" Y="654.116110931662" GraphRef="e809e" RelX="0.0" RelY="0.0" />
-      <Point X="1148.076478297737" Y="602.7843137254899" GraphRef="f54e1" RelX="-1.0" RelY="0.0" />
+      <Point X="1148.076478297737" Y="602.7843137254899" GraphRef="ea141" RelX="-1.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1007,7 +1006,7 @@ T-cell receptor beta chain V region</Comment>
   <Interaction GraphId="e8a9c">
     <Graphics ZOrder="33507" LineThickness="1.0">
       <Point X="560.0781737940205" Y="549.5994397759099" GraphRef="df691" RelX="0.0" RelY="-1.0" />
-      <Point X="552.1574552186272" Y="528.804485196515" GraphRef="f401e" RelX="0.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="552.1574552186272" Y="528.804485196515" GraphRef="f401e" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1076,7 +1075,7 @@ T-cell receptor beta chain V region</Comment>
   </Interaction>
   <Interaction GraphId="bc584">
     <Graphics ZOrder="33517" LineThickness="1.0">
-      <Point X="1692.5764782977371" Y="690.5" GraphRef="e5896" RelX="1.0" RelY="0.0" />
+      <Point X="1692.5764782977371" Y="690.5" GraphRef="c8a26" RelX="1.0" RelY="0.0" />
       <Point X="1737.2715228404554" Y="709.6130415434493" GraphRef="a6a55" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1105,8 +1104,8 @@ T-cell receptor beta chain V region</Comment>
   </Interaction>
   <Interaction GraphId="eea33">
     <Graphics ZOrder="33521" LineThickness="1.0">
-      <Point X="1086.0023798411496" Y="291.25964846360864" GraphRef="ae66d" RelX="-1.0" RelY="0.0" />
-      <Point X="1046.0764782977362" Y="291.78431372548994" GraphRef="f4a5b" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="1086.0023798411496" Y="291.25964846360864" GraphRef="da1f5" RelX="-1.0" RelY="0.0" />
+      <Point X="1046.0764782977362" Y="291.78431372548994" GraphRef="f4a5b" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1178,8 +1177,8 @@ T-cell receptor beta chain V region</Comment>
   </Interaction>
   <Interaction GraphId="b309a">
     <Graphics ZOrder="33531" LineThickness="1.0">
-      <Point X="886.076478297742" Y="764.0259469249545" GraphRef="bb47e" RelX="-1.0" RelY="0.0" />
-      <Point X="861.0764782977426" Y="763.7843137254899" GraphRef="b0660" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="886.076478297742" Y="764.0259469249545" GraphRef="b27eb" RelX="-1.0" RelY="0.0" />
+      <Point X="861.0764782977426" Y="763.7843137254899" GraphRef="eb173" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1208,7 +1207,7 @@ T-cell receptor beta chain V region</Comment>
     <Comment Source="KeggConverter">PPrel;35;36</Comment>
     <Comment Source="KeggConverter">activation; --&gt;</Comment>
     <Graphics ZOrder="33541" LineStyle="Broken" LineThickness="1.0">
-      <Point X="351.11009174311914" Y="209.0" GraphRef="ab966" RelX="1.0" RelY="0.0" />
+      <Point X="351.11009174311914" Y="209.0" GraphRef="c1dd6" RelX="1.0" RelY="0.0" />
       <Point X="931.0764782977393" Y="197.78431372549034" GraphRef="e6bf8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1222,7 +1221,7 @@ T-cell receptor beta chain V region</Comment>
   </Interaction>
   <Interaction GraphId="a15f9">
     <Graphics ZOrder="33543" LineThickness="1.0">
-      <Point X="324.9722264416756" Y="570.1472323464144" GraphRef="c7e9d" RelX="1.0" RelY="0.5" />
+      <Point X="324.9722264416756" Y="570.1472323464144" GraphRef="abdad" RelX="1.0" RelY="0.5" />
       <Point X="409.3784804657512" Y="570.2619835144642" GraphRef="a686f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1231,7 +1230,7 @@ T-cell receptor beta chain V region</Comment>
     <Comment Source="KeggConverter">PPrel;32;33</Comment>
     <Comment Source="KeggConverter">activation; --&gt;</Comment>
     <Graphics ZOrder="33544" LineStyle="Broken" LineThickness="1.0">
-      <Point X="404.11009174311914" Y="145.0" GraphRef="f0603" RelX="1.0" RelY="0.0" />
+      <Point X="404.11009174311914" Y="145.0" GraphRef="ae0ef" RelX="1.0" RelY="0.0" />
       <Point X="939.0764782977392" Y="160.31643043193282" GraphRef="b2e10" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1249,8 +1248,8 @@ T-cell receptor beta chain V region</Comment>
     <Comment Source="KeggConverter">PPrel;20;19</Comment>
     <Comment Source="KeggConverter">activation; --&gt;</Comment>
     <Graphics ZOrder="33546" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1292.076478297737" Y="105.78431372549029" GraphRef="a1b46" RelX="-1.0" RelY="0.0" />
-      <Point X="1256.076478297737" Y="149.7843137254903" GraphRef="d91d2" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="1292.076478297737" Y="105.78431372549029" GraphRef="bb74a" RelX="-1.0" RelY="0.0" />
+      <Point X="1256.076478297737" Y="149.7843137254903" GraphRef="a25d2" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1270,8 +1269,8 @@ T-cell receptor beta chain V region</Comment>
   </Interaction>
   <Interaction GraphId="eb9d7">
     <Graphics ZOrder="33549" LineThickness="1.0">
-      <Point X="320.9722264416756" Y="363.74597184221204" GraphRef="d15e7" RelX="1.0" RelY="0.0" />
-      <Point X="391.7471145667163" Y="349.35090653935396" GraphRef="fe0bd" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="320.9722264416756" Y="363.74597184221204" GraphRef="d9c7f" RelX="1.0" RelY="0.0" />
+      <Point X="391.7471145667163" Y="349.35090653935396" GraphRef="b3685" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1303,7 +1302,7 @@ T-cell receptor beta chain V region</Comment>
     <Comment Source="KeggConverter">PPrel;10;11</Comment>
     <Comment Source="KeggConverter">activation; --&gt;</Comment>
     <Graphics ZOrder="33553" LineStyle="Broken" LineThickness="1.0">
-      <Point X="514.305713100813" Y="456.2619835144643" GraphRef="b124c" RelX="1.0" RelY="-0.5" />
+      <Point X="514.305713100813" Y="456.2619835144643" GraphRef="bd1d6" RelX="1.0" RelY="-0.5" />
       <Point X="573.1100917431189" Y="456.5321167064425" GraphRef="c3f11" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -1994,7 +1993,7 @@ T-cell receptor beta chain V region</Comment>
   </Shape>
   <Shape GraphId="f14fc">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Graphics CenterX="638.1246710688272" CenterY="862.6785573667214" Width="124.09638554216917" Height="113.78848728246294" ZOrder="33692" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="638.1246710688272" CenterY="862.6785573667214" Width="124.09638554216917" Height="113.78848728246294" ZOrder="33692" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="f4229">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
@@ -2134,15 +2133,15 @@ T-cell receptor beta chain V region</Comment>
   </Shape>
   <Shape GraphId="daff8">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Graphics CenterX="566.5764782977426" CenterY="972.1785573667214" Width="57.0" Height="54.78848728246294" ZOrder="33805" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="566.5764782977426" CenterY="972.1785573667214" Width="57.0" Height="54.78848728246294" ZOrder="33805" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="a8efa">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Graphics CenterX="637.5764782977426" CenterY="1001.1785573667214" Width="57.0" Height="54.78848728246294" ZOrder="33807" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="637.5764782977426" CenterY="1001.1785573667214" Width="57.0" Height="54.78848728246294" ZOrder="33807" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="bf9b6">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Graphics CenterX="707.5764782977426" CenterY="974.1785573667214" Width="57.0" Height="54.78848728246294" ZOrder="33809" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="707.5764782977426" CenterY="974.1785573667214" Width="57.0" Height="54.78848728246294" ZOrder="33809" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape GraphId="d716d">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Nucleus" />
@@ -2267,54 +2266,31 @@ T-cell receptor beta chain V region</Comment>
   <Shape GraphId="eb896" GroupRef="c7e9d">
     <Graphics CenterX="301.9722264416756" CenterY="513.4896693212004" Width="30.0" Height="30.0" ZOrder="33922" FillColor="cc3300" FontSize="10" Valign="Middle" ShapeType="Rectangle" Color="cc3300" Rotation="0.0" />
   </Shape>
-  <Group GroupId="bb47e" GraphId="bb47e" Style="Group" />
-  <Group GroupId="b124c" GraphId="b124c" Style="Group" />
-  <Group GroupId="fe0bd" GraphId="fe0bd" Style="Group" />
-  <Group GroupId="a7f50" GraphId="a7f50" Style="Group" />
-  <Group GroupId="b69db" GraphId="b69db" TextLabel="hsa:3592 hsa:3593" />
-  <Group GroupId="c21be" GraphId="c21be" Style="Group" />
-  <Group GroupId="f54e1" GraphId="f54e1" Style="Group" />
-  <Group GroupId="ab1e4" GraphId="ab1e4" Style="Group" />
-  <Group GroupId="e5896" GraphId="e5896" Style="Group" />
-  <Group GroupId="ae66d" GraphId="ae66d" Style="Group" />
-  <Group GroupId="c8501" GraphId="c8501" Style="Group" />
-  <Group GroupId="d91d2" GraphId="d91d2" TextLabel="ko:K10784 ko:K10785" />
-  <Group GroupId="d15e7" GraphId="d15e7" Style="Group" />
-  <Group GroupId="ab966" GraphId="ab966" TextLabel="hsa:941 hsa:942" />
-  <Group GroupId="b2bf6" GraphId="b2bf6" Style="Group" />
-  <Group GroupId="a1b46" GraphId="a1b46" TextLabel="hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614" />
-  <Group GroupId="f0603" GraphId="f0603" TextLabel="hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614" />
-  <Group GroupId="c7e9d" GraphId="c7e9d" Style="Group" />
-  <Group GroupId="b0660" GraphId="b0660" Style="Group" />
+  <Group GroupId="d91d2" GraphId="a25d2" TextLabel="ko:K10784 ko:K10785" />
+  <Group GroupId="c7e9d" GraphId="abdad" Style="Group" />
+  <Group GroupId="f0603" GraphId="ae0ef" TextLabel="hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614" />
+  <Group GroupId="bb47e" GraphId="b27eb" Style="Group" />
+  <Group GroupId="c8501" GraphId="b2818" Style="Group" />
+  <Group GroupId="fe0bd" GraphId="b3685" Style="Group" />
+  <Group GroupId="da852" GraphId="b7870" Style="Group" />
+  <Group GroupId="a1b46" GraphId="bb74a" TextLabel="hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614" />
+  <Group GroupId="b124c" GraphId="bd1d6" Style="Group" />
+  <Group GroupId="ab966" GraphId="c1dd6" TextLabel="hsa:941 hsa:942" />
+  <Group GroupId="e5896" GraphId="c8a26" Style="Group" />
+  <Group GroupId="c7667" GraphId="d1705" Style="Group" />
+  <Group GroupId="a7f50" GraphId="d4ff7" Style="Group" />
+  <Group GroupId="b69db" GraphId="d762f" TextLabel="hsa:3592 hsa:3593" />
+  <Group GroupId="d15e7" GraphId="d9c7f" Style="Group" />
+  <Group GroupId="ae66d" GraphId="da1f5" Style="Group" />
+  <Group GroupId="b2bf6" GraphId="db7ab" Style="Group" />
+  <Group GroupId="c21be" GraphId="ddac7" Style="Group" />
+  <Group GroupId="f54e1" GraphId="ea141" Style="Group" />
+  <Group GroupId="b0660" GraphId="eb173" Style="Group" />
+  <Group GroupId="c4700" GraphId="f8a13" Style="Group" />
+  <Group GroupId="ab1e4" GraphId="fa711" Style="Group" />
+  <Group GroupId="d4e34" GraphId="fc178" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f48">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20925547</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rejection of the kidney allograft.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N Engl J Med</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nankivell BJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexander SI</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adaptive immune response pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000235</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fac">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19857756</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balancing efficacy and toxicity of kidney transplant immunosuppression.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transplant Proc</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naesens M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lerut E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarwal M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Damme B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanrenterghem Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuypers DR</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4e">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18547992</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -2334,67 +2310,6 @@ T-cell receptor beta chain V region</Comment>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001025</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb2">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22790079</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of non-HLA antibodies in organ transplantation.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curr Opin Organ Transplant</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dragun D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe A</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catar R</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f22">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23437201</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Significance and suppression of redundant IL17 responses in acute allograft rejection by bioinformatics based drug repositioning of fenofibrate.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLoS One</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roedder S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimura N</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okamura H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsieh SC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gong Y</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarwal MM</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d87">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22678861</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transplant immunology for non-immunologist.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mt Sinai J Med</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heeger PS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dinavahi R</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e98">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23026942</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of complement in antibody-mediated rejection in kidney transplantation.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Nephrol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stegall MD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chedid MF</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornell LD</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbe">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12581329</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased expression of cytotoxic effector molecules: different interpretations for steroid-based and steroid-free immunosuppression.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediatr Transplant</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Satterwhite T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chua MS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsieh SC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chang S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scandling J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salvatierra O</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarwal MM</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bde">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22302197</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -2410,6 +2325,94 @@ T-cell receptor beta chain V region</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dai H</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsieh SC</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarwal MM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22790079</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of non-HLA antibodies in organ transplantation.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curr Opin Organ Transplant</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dragun D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catar R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e98">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23026942 </bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of complement in antibody-mediated rejection in kidney transplantation.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Rev Nephrol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stegall MD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chedid MF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornell LD</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adaptive immune response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000235</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d87">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22678861</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transplant immunology for non-immunologist.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mt Sinai J Med</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heeger PS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dinavahi R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fac">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19857756</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balancing efficacy and toxicity of kidney transplant immunosuppression.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transplant Proc</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naesens M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lerut E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarwal M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Van Damme B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanrenterghem Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuypers DR</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12581329</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased expression of cytotoxic effector molecules: different interpretations for steroid-based and steroid-free immunosuppression.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediatr Transplant</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Satterwhite T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chua MS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsieh SC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chang S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scandling J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salvatierra O</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarwal MM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f22">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23437201</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Significance and suppression of redundant IL17 responses in acute allograft rejection by bioinformatics based drug repositioning of fenofibrate.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLoS One</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roedder S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimura N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okamura H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsieh SC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gong Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarwal MM</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f48">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20925547 </bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rejection of the kidney allograft.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N Engl J Med</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nankivell BJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexander SI</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>
