@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Microglia pathogen phagocytosis pathway" Data-Source="WikiPathways" Version="WP3937_Mm" Last-Modified="20220108203440" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Microglia pathogen phagocytosis pathway" Data-Source="WikiPathways" Version="WP3937_Mm" Last-Modified="20250227225145" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">Pathogens are recognized by complement C1q or immunoglobulin (IgG) that bind to microglia complement receptors (e.g., ITGAM/ITGB2) or Fc-receptors (e.g., FCGR1) that signal via the immunoreceptor tyrosine-based activation motif (ITAM)-containing adaptor molecules TYROBP or FCER1G, respectively. Alternatively, pathogens are directly recognized by classical innate immune receptors (e.g., TREM2) that require the interaction with TYROBP for further signaling.
 
-Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3937 CPTAC Assay Portal]</Comment>
+Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3937).</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway "Microglia Pathogen Phagocytosis Pathway", WP3626 revision 87399, with a 94.0% conversion rate.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3937.gpml (WP3937_r120792) with a 94.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3937.gpml (WP3937_r137099) with a 94.0% conversion rate.</Comment>
   <BiopaxRef>f4f</BiopaxRef>
   <Graphics BoardWidth="1112.0" BoardHeight="665.0" />
   <DataNode TextLabel="Oxygen" GraphId="a3593" Type="Metabolite">
@@ -322,28 +322,28 @@ Proteins on this pathway have targeted assays available via the [https://assays.
     <Graphics CenterX="139.0" CenterY="384.0" Width="57.0" Height="20.0" ZOrder="32821" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000028698" />
   </DataNode>
-  <State GraphRef="a6dc7" TextLabel="P" GraphId="d0b59">
-    <Graphics RelX="-0.8888888888888888" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+  <State GraphRef="d8a3d" TextLabel="P" GraphId="a20af">
+    <Graphics RelX="0.9" RelY="0.9" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="c8356" TextLabel="P" GraphId="aa773">
     <Graphics RelX="-0.9285714285714286" RelY="0.9" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="c8356" TextLabel="P" GraphId="eb2e5">
-    <Graphics RelX="0.8571428571428571" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+  <State GraphRef="d8a3d" TextLabel="P" GraphId="d02a0">
+    <Graphics RelX="-0.8" RelY="0.7" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="a6dc7" TextLabel="P" GraphId="d0b59">
+    <Graphics RelX="-0.8888888888888888" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="d1d6d" TextLabel="P" GraphId="d4765">
     <Graphics RelX="1.0" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
-  <State GraphRef="d8a3d" TextLabel="P" GraphId="a20af">
-    <Graphics RelX="0.9" RelY="0.9" Width="15.0" Height="15.0" ShapeType="Oval" />
-    <Xref Database="" ID="" />
-  </State>
-  <State GraphRef="d8a3d" TextLabel="P" GraphId="d02a0">
-    <Graphics RelX="-0.8" RelY="0.7" Width="15.0" Height="15.0" ShapeType="Oval" />
+  <State GraphRef="c8356" TextLabel="P" GraphId="eb2e5">
+    <Graphics RelX="0.8571428571428571" RelY="1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ef07b" TextLabel="P" GraphId="f3a56">
@@ -379,7 +379,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id36f09836">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="476.5" Y="102.0" GraphRef="d0c19" RelX="0.0" RelY="1.0" />
-      <Point X="475.0" Y="155.0" GraphRef="f3006" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="475.0" Y="155.0" GraphRef="dd9ca" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -392,7 +392,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id796f91e3">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="358.0" Y="60.0" GraphRef="f05af" RelX="1.0" RelY="0.0" />
+      <Point X="358.0" Y="60.0" GraphRef="b60aa" RelX="1.0" RelY="0.0" />
       <Point X="407.0" Y="81.0" GraphRef="d0c19" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -414,8 +414,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id8cae9316">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="753.75" Y="282.0" GraphRef="b1008" RelX="0.5" RelY="1.0" />
-      <Point X="753.5" Y="323.0" GraphRef="d3138" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="753.75" Y="282.0" GraphRef="e6e67" RelX="0.5" RelY="1.0" />
+      <Point X="753.5" Y="323.0" GraphRef="a08b0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
       <Anchor Position="0.4" Shape="None" GraphId="e8a30" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -429,7 +429,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id9f056740">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="879.0" Y="237.0" GraphRef="ca49c" RelX="0.0" RelY="-1.0" />
+      <Point X="879.0" Y="237.0" GraphRef="e256f" RelX="0.0" RelY="-1.0" />
       <Point X="880.0" Y="134.0" GraphRef="a3593" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -452,35 +452,35 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idafd0ccf9">
     <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
-      <Point X="736.0" Y="475.0" GraphRef="c50e8" RelX="0.0" RelY="-1.0" />
-      <Point X="879.0" Y="369.0" GraphRef="ca49c" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
+      <Point X="736.0" Y="475.0" GraphRef="e4d51" RelX="0.0" RelY="-1.0" />
+      <Point X="879.0" Y="369.0" GraphRef="e256f" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idb9cce549">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="388.0" Y="268.0" GraphRef="be6a8" RelX="1.0" RelY="0.0" />
-      <Point X="440.25" Y="251.0" GraphRef="ea93c" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="440.25" Y="251.0" GraphRef="bd25a" RelX="-0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc05a1160">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="857.0" Y="124.0" GraphRef="a3593" RelX="-1.0" RelY="0.0" />
-      <Point X="546.0" Y="81.0" GraphRef="d0c19" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="546.0" Y="81.0" GraphRef="d0c19" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idc1d58013">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="784.0" Y="364.0" GraphRef="d3138" RelX="1.0" RelY="0.0" />
-      <Point X="808.0" Y="336.0" GraphRef="ca49c" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="784.0" Y="364.0" GraphRef="a08b0" RelX="1.0" RelY="0.0" />
+      <Point X="808.0" Y="336.0" GraphRef="e256f" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idcd2541a5">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="753.5" Y="405.0" GraphRef="d3138" RelX="0.0" RelY="1.0" />
+      <Point X="753.5" Y="405.0" GraphRef="a08b0" RelX="0.0" RelY="1.0" />
       <Point X="685.5" Y="452.0" GraphRef="e2518" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -532,7 +532,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="b8758">
     <Graphics ConnectorType="Elbow" ZOrder="32803" LineThickness="1.0">
       <Point X="405.0" Y="309.0" GraphRef="aad71" RelX="1.0" RelY="0.0" />
-      <Point X="476.5" Y="251.0" GraphRef="ea93c" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="476.5" Y="251.0" GraphRef="bd25a" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -546,14 +546,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="b2e95">
     <Graphics ConnectorType="Curved" ZOrder="32806" LineThickness="1.0">
       <Point X="878.5" Y="449.0" GraphRef="b1743" RelX="0.0" RelY="-1.0" />
-      <Point X="879.0" Y="369.0" GraphRef="ca49c" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
+      <Point X="879.0" Y="369.0" GraphRef="e256f" RelX="0.0" RelY="1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="f4f05">
     <Graphics ZOrder="32807" LineStyle="Broken" LineThickness="1.0">
       <Point X="511.25" Y="102.0" GraphRef="d0c19" RelX="0.5" RelY="1.0" />
-      <Point X="542.5" Y="175.0" GraphRef="f82bd" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="542.5" Y="175.0" GraphRef="c8b89" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -581,7 +581,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Label>
   <Shape GraphId="fdfaf">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Graphics CenterX="658.0" CenterY="407.5" Width="848.0" Height="455.0" ZOrder="-2" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+    <Graphics CenterX="658.0" CenterY="407.5" Width="848.0" Height="455.0" ZOrder="-2" FontSize="10" Valign="Middle" ShapeType="Oval" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
   <Shape TextLabel="Vesicle" GraphId="a357b">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Vesicle" />
@@ -593,19 +593,50 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="ee897">
     <Graphics CenterX="138.0" CenterY="290.0" Width="86.0" Height="242.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Rectangle" LineThickness="2.0" Color="009999" Rotation="0.0" />
   </Shape>
-  <Group GroupId="d3138" GraphId="d3138" Style="Group" />
-  <Group GroupId="f05af" GraphId="f05af" Style="Group" />
-  <Group GroupId="ea93c" GraphId="ea93c" Style="Group" />
-  <Group GroupId="f82bd" GraphId="f82bd" Style="Group" />
-  <Group GroupId="b1453" GraphId="b1453" Style="Group" />
-  <Group GroupId="c9cd3" GraphId="c9cd3" Style="Group" />
-  <Group GroupId="f3006" GraphId="f3006" Style="Group" />
-  <Group GroupId="ca49c" GraphId="ca49c" Style="Group" />
-  <Group GroupId="c50e8" GraphId="c50e8" Style="Group" />
-  <Group GroupId="b1008" GraphId="b1008" Style="Group" />
-  <Group GroupId="bbc2b" GraphId="bbc2b" Style="Group" />
+  <Group GroupId="d3138" GraphId="a08b0" Style="Group" />
+  <Group GroupId="f05af" GraphId="b60aa" Style="Group" />
+  <Group GroupId="ea93c" GraphId="bd25a" Style="Group" />
+  <Group GroupId="f82bd" GraphId="c8b89" Style="Group" />
+  <Group GroupId="b1453" GraphId="ca62c" Style="Group" />
+  <Group GroupId="c9cd3" GraphId="ccf7a" Style="Group" />
+  <Group GroupId="f3006" GraphId="dd9ca" Style="Group" />
+  <Group GroupId="ca49c" GraphId="e256f" Style="Group" />
+  <Group GroupId="c50e8" GraphId="e4d51" Style="Group" />
+  <Group GroupId="b1008" GraphId="e6e67" Style="Group" />
+  <Group GroupId="bbc2b" GraphId="ef2c4" Style="Group" />
+  <Group GroupId="c6c93" GraphId="fc2fa" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alzheimer disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000015</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microglial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000129</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alzheimer disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000015</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">innate immune response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000234</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microglial cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000129</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">innate immune response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000234</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23622250</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -643,21 +674,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhu J</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emilsson V</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alzheimer disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000015</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">innate immune response pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000234</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microglial cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000129</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Methylation pathways" Data-Source="WikiPathways" Version="WP704_Pt" Last-Modified="20210522140416" Organism="Pan troglodytes">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Methylation pathways" Data-Source="WikiPathways" Version="WP704_Pt" Last-Modified="20250227231819" Organism="Pan troglodytes">
   <Comment Source="WikiPathways-description">This pathway describes the addition of methyl groups to small molecules. SAM, S-Adenosyl methionine, is utilized as a methyl donor and SAH is produced. This process is important in drug metabolism.
 
-Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP704 CPTAC Assay Portal]</Comment>
+Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP704).
+</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP704.gpml (WP704_r117787) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP704.gpml (WP704_r137145) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>d0f</BiopaxRef>
   <BiopaxRef>d67</BiopaxRef>
   <Graphics BoardWidth="907.0" BoardHeight="442.0" />
@@ -127,7 +128,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="ba6a0">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="234.0" Y="156.0" GraphRef="c2177" RelX="0.0" RelY="1.0" />
+      <Point X="234.0" Y="156.0" GraphRef="b0b51" RelX="0.0" RelY="1.0" />
       <Point X="234.78503688092727" Y="226.0" GraphRef="f8165" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -157,7 +158,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="d0992">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="567.0" Y="250.0" GraphRef="e66ac" RelX="0.0" RelY="1.0" />
+      <Point X="567.0" Y="250.0" GraphRef="d938f" RelX="0.0" RelY="1.0" />
       <Point X="567.0" Y="269.0" GraphRef="de1cb" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -232,11 +233,20 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="d020e">
     <Graphics CenterX="218.0" CenterY="152.5" Width="268.0" Height="189.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Rectangle" Color="999999" Rotation="0.0" />
   </Shape>
-  <Group GroupId="f40a7" GraphId="f40a7" Style="Group" />
-  <Group GroupId="c2177" GraphId="c2177" Style="Complex" />
-  <Group GroupId="e66ac" GraphId="e66ac" Style="Complex" />
+  <Group GroupId="f40a7" GraphId="a7847" Style="Group" />
+  <Group GroupId="c2177" GraphId="b0b51" Style="Complex" />
+  <Group GroupId="e66ac" GraphId="d938f" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19035562</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The biochemistry of drug metabolism--an introduction: part 4. reactions of conjugation and their enzymes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chem Biodivers</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Testa B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kramer SD</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d67">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16807786</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -255,15 +265,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0f">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19035562</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The biochemistry of drug metabolism--an introduction: part 4. reactions of conjugation and their enzymes.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chem Biodivers</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Testa B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kramer SD</bp:AUTHORS>
-    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 
