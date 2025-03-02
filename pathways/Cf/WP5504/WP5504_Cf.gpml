@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Disorders of mitochondrial homeostatis, dynamics, protein import, and quality control" Data-Source="WikiPathways" Version="WP5504_Cf" Last-Modified="20250116004525" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Disorders of mitochondrial homeostatis, dynamics, protein import, and quality control" Data-Source="WikiPathways" Version="WP5504_Cf" Last-Modified="20250301154224" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">This pathway lists several genes involved in mechanisms involved in disorders of mitochondrial homeostatis, dynamics, protein import, and quality control. This pathway was inspired by Figure 46.1 of Edition 5, Chapter 46 of the book of Blau (ISBN 9783030677268). Genes linked to a disease in this book chapter are depicted in red.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5504.gpml (WP5504_r136253) with a 93.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5504.gpml (WP5504_r137298) with a 93.0% conversion rate.</Comment>
   <BiopaxRef>ce4</BiopaxRef>
   <Graphics BoardWidth="1914.4191794838353" BoardHeight="1135.445116681073" />
   <DataNode TextLabel="UBXN1" GraphId="c7909" Type="Protein" GroupRef="fb48e">
@@ -23,7 +23,7 @@
   <DataNode TextLabel="arginine" GraphId="a57b7" Type="Metabolite">
     <BiopaxRef>de4</BiopaxRef>
     <Graphics CenterX="852.6300984528837" CenterY="754.0225035161747" Width="90.0" Height="25.0" ZOrder="33106" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29016" />
+    <Xref Database="ChEBI" ID="CHEBI:16467" />
   </DataNode>
   <DataNode TextLabel="NADPH" GraphId="f2175" Type="Metabolite">
     <Comment>cofactor to PYCR3</Comment>
@@ -57,12 +57,12 @@
     <Comment>AKA P5C</Comment>
     <BiopaxRef>de4</BiopaxRef>
     <Graphics CenterX="710.42194092827" CenterY="773.7130801687765" Width="90.0" Height="35.00351617440231" ZOrder="33112" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:15893" />
+    <Xref Database="ChEBI" ID="CHEBI:17388" />
   </DataNode>
   <DataNode TextLabel="Proline" GraphId="efa26" Type="Metabolite">
     <BiopaxRef>de4</BiopaxRef>
     <Graphics CenterX="519.142053445851" CenterY="773.7130801687763" Width="90.00000000000001" Height="35.003516174402314" ZOrder="33113" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:26271" />
+    <Xref Database="ChEBI" ID="CHEBI:60039" />
   </DataNode>
   <DataNode TextLabel="UFD1" GraphId="d7de2" Type="Protein" GroupRef="c3110">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:Q92890</Comment>
@@ -316,6 +316,7 @@
   <DataNode TextLabel="COQ5" GraphId="a89d1" Type="Protein">
     <Comment>"Given that we identified COQ5 as part of the interactome of RTN4IP1-TurboID, it will be intriguing to further investigate whether RTN4IP1 can assist this reaction of COQ5." DOI: https://doi.org/10.1038/s41589-023-01452-w</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:Q5HYK3</Comment>
+    <BiopaxRef>fa7</BiopaxRef>
     <Graphics CenterX="145.0255102040819" CenterY="785.3061224489807" Width="90.0" Height="25.0" ZOrder="33200" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845029853" />
   </DataNode>
@@ -330,12 +331,12 @@
   </DataNode>
   <DataNode TextLabel="Proline" GraphId="f334b" Type="Metabolite">
     <Graphics CenterX="519.142053445851" CenterY="844.1912798874818" Width="90.00000000000001" Height="35.003516174402314" ZOrder="33204" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:26271" />
+    <Xref Database="ChEBI" ID="CHEBI:60039" />
   </DataNode>
   <DataNode TextLabel="pyrroline-5-&#xA;carboxylate" GraphId="b723b" Type="Metabolite">
     <Comment>AKA P5C</Comment>
     <Graphics CenterX="710.42194092827" CenterY="844.1912798874816" Width="90.0" Height="35.00351617440231" ZOrder="33205" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:15893" />
+    <Xref Database="ChEBI" ID="CHEBI:17388" />
   </DataNode>
   <DataNode TextLabel="ornithine" GraphId="c5430" Type="Metabolite">
     <BiopaxRef>de4</BiopaxRef>
@@ -1784,40 +1785,17 @@
   <Group GroupId="fb48e" GraphId="e425a" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce4">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9783642403361</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physician's Guidee to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases'</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9783642403361</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c66">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38891822</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physician's Guidee to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases'</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Springer-Verlag Berlin Heidelberg Ed.4</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blau, Nenad</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duran, Marinus</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibson, K. Michael</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dionisi-Vici, Carlo</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001669</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de4">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39075050</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deubiquitinase USP9x regulates the proline biosynthesis pathway in non-small cell lung cancer.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Death Discov</bp:SOURCE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valosin-Containing Protein (VCP): A Review of Its Diverse Molecular Functions and Clinical Phenotypes.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Mol Sci</bp:SOURCE>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Becirovic T</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lindskog C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norberg E</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vakifahmetoglu-Norberg H</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaminskyy VO</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kochetkova E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pontifex CS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zaman M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fanganiello RD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shutt TE</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pfeffer G</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
@@ -1846,6 +1824,58 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dennerlein S</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rehling P</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001669</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9783642403361</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physician's Guidee to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases'</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9783642403361</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physician's Guidee to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases'</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Springer-Verlag Berlin Heidelberg Ed.4</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blau, Nenad</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duran, Marinus</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibson, K. Michael</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dionisi-Vici, Carlo</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1038/s41589-023-01452-w</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 37884807</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 37884807</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrial matrix RTN4IP1/OPA10 is an oxidoreductase for coenzyme Q synthesis</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nat Chem Biol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024</bp:YEAR>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39075050</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deubiquitinase USP9x regulates the proline biosynthesis pathway in non-small cell lung cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Death Discov</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Becirovic T</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lindskog C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norberg E</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vakifahmetoglu-Norberg H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaminskyy VO</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kochetkova E</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f20">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37884807</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1870,18 +1900,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim JS</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suh JM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhee HW</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c66">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38891822</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valosin-Containing Protein (VCP): A Review of Its Diverse Molecular Functions and Clinical Phenotypes.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int J Mol Sci</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pontifex CS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zaman M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fanganiello RD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shutt TE</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pfeffer G</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>
