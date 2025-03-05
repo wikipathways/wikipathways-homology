@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="BMP2-WNT4-FOXO1 pathway in primary endometrial stromal cell differentiation" Data-Source="WikiPathways" Version="WP3876_Dr" Last-Modified="20220723062639" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="BMP2-WNT4-FOXO1 pathway in primary endometrial stromal cell differentiation" Data-Source="WikiPathways" Version="WP3876_Dr" Last-Modified="20250304073854" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">This pathway is based on figure 6 from Li et al. BMP2 is activated by cAMP which promotes WNT4 expression in Human Primary Endometrial Stromal Cells (HPESCs) through SMAD1/5/8. WNT4 then induces FOXO1 function through B-Catenin which indirectly stimulates HPESC differentiation. DKKs and SFRPs are activated by BMP2 inhibit WNT4 and stop downstream signaling.
 
-Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3876 CPTAC Assay Portal]</Comment>
+Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3876)</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3876.gpml (WP3876_r123398) with a 84.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3876.gpml (WP3876_r137554) with a 84.0% conversion rate.</Comment>
   <BiopaxRef>cca</BiopaxRef>
   <Graphics BoardWidth="554.0" BoardHeight="661.0" />
   <DataNode TextLabel="sfrp1b" GraphId="a2b4c" Type="GeneProduct" GroupRef="f2314">
@@ -85,7 +85,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="id31764bc">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="241.0" Y="153.0" GraphRef="c9490" RelX="-1.0" RelY="0.0" />
-      <Point X="160.0" Y="269.0" GraphRef="f2314" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="160.0" Y="269.0" GraphRef="f5dd0" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -123,13 +123,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="ida0b80476">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="279.0" Y="421.0" GraphRef="fcdcc" RelX="0.0" RelY="1.0" />
-      <Point X="279.0" Y="459.0" GraphRef="feddc" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="279.0" Y="459.0" GraphRef="db853" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idab2a5fb3">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="334.0" Y="223.5" GraphRef="f7e74" RelX="-1.0" RelY="0.0" />
+      <Point X="334.0" Y="223.5" GraphRef="d4900" RelX="-1.0" RelY="0.0" />
       <Point X="281.0" Y="223.8" GraphRef="eb10b" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -144,14 +144,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="idc4a3f46a">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
-      <Point X="184.0" Y="297.0" GraphRef="f2314" RelX="1.0" RelY="0.0" />
+      <Point X="184.0" Y="297.0" GraphRef="f5dd0" RelX="1.0" RelY="0.0" />
       <Point X="261.0" Y="315.0" GraphRef="f59b2" RelX="-0.5" RelY="-1.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="ideb8cad55">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="279.0" Y="576.0" GraphRef="feddc" RelX="0.0" RelY="1.0" />
+      <Point X="279.0" Y="576.0" GraphRef="db853" RelX="0.0" RelY="1.0" />
       <Point X="279.0" Y="611.0" GraphRef="dc2f1" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -162,15 +162,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="SMAD-mediated signaling" GraphId="bf74e" GroupRef="f7e74">
     <Graphics CenterX="429.0" CenterY="192.0" Width="174.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
   </Label>
-  <Group GroupId="f7e74" GraphId="f7e74" Style="Group" />
-  <Group GroupId="feddc" GraphId="feddc" Style="Group" />
-  <Group GroupId="f2314" GraphId="f2314" Style="Group" />
+  <Group GroupId="f7e74" GraphId="d4900" Style="Group" />
+  <Group GroupId="feddc" GraphId="db853" Style="Group" />
+  <Group GroupId="f2314" GraphId="f5dd0" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000008</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stromal cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000499</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cca">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23142810</bp:ID>
@@ -189,9 +189,9 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bagchi IC</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stromal cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000499</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000008</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
