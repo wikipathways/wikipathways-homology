@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NAD metabolism, sirtuins and aging" Data-Source="WikiPathways" Version="WP3630_Ss" Last-Modified="20240211142727" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="NAD metabolism, sirtuins and aging" Data-Source="WikiPathways" Version="WP3630_Ss" Last-Modified="20250308010011" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">A model for DNA damage, inflammation, NAD+, and aging.
-Two key events, the activation of PARP by DNA damage and the decreased NAMPT expression associated with inflammation, lead to decreased SIRT1 and SIRT3 activity in the nucleus and mitochondria, respectively. Decreased SIRT1 activity is associated with further PARP activation and increased DNA damage. Decreased SIRT1 also leads to NF-kB activation and decreased FOXO3a activity, two factors that lead to increased inflammation. These contribute to the establishment of two parallel feed-forward self reinforcing loops that further accelerate the aging process. This process is initiated earlier and faster in patients with DNA damage repair defects (such as CS, XPA, and AT). Mitochondrial function is diminished as a result of decreased SIRT3 activity, leading to mitochondrial protein hyperacetylation, whereas decreased SIRT1 is associated with decreased TFAM (necessary for mitochondrial DNA replication and transcription) and decreased PGC-1a (necessary for mitochondrial biogenesis). Possible therapeutic interventions to restore NAD+ levels are illustrated for each of the key enzymes (red arrows). Based on fig 4 from http://science.sciencemag.org/content/350/6265/1208.long.
+Two key events, the activation of PARP by DNA damage and the decreased NAMPT expression associated with inflammation, lead to decreased SIRT1 and SIRT3 activity in the nucleus and mitochondria, respectively. Decreased SIRT1 activity is associated with further PARP activation and increased DNA damage. Decreased SIRT1 also leads to NF-kB activation and decreased FOXO3a activity, two factors that lead to increased inflammation. These contribute to the establishment of two parallel feed-forward self reinforcing loops that further accelerate the aging process. This process is initiated earlier and faster in patients with DNA damage repair defects (such as CS, XPA, and AT). Mitochondrial function is diminished as a result of decreased SIRT3 activity, leading to mitochondrial protein hyperacetylation, whereas decreased SIRT1 is associated with decreased TFAM (necessary for mitochondrial DNA replication and transcription) and decreased PGC-1a (necessary for mitochondrial biogenesis). Possible therapeutic interventions to restore NAD+ levels are illustrated for each of the key enzymes (red arrows). Based on fig 4 from [Verdin](http://science.sciencemag.org/content/350/6265/1208.long).
 
-Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3630 CPTAC Assay Portal]</Comment>
+Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3630).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3630.gpml (WP3630_r128523) with a 92.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3630.gpml (WP3630_r137771) with a 92.0% conversion rate.</Comment>
   <BiopaxRef>f2f</BiopaxRef>
   <Graphics BoardWidth="897.6583755746797" BoardHeight="537.0" />
   <DataNode TextLabel="PARP1" GraphId="a1e1d" Type="GeneProduct">
@@ -366,6 +366,11 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Group GroupId="b6348" GraphId="bdc90" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sirtuin mediated pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002584</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26785480</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -374,23 +379,6 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verdin E</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a72">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16628003</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Control of AIF-mediated cell death by the functional interplay of SIRT1 and PARP-1 in response to DNA damage.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Cycle</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolthur-Seetharam U</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dantzer F</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McBurney MW</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Murcia G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sassone-Corsi P</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sirtuin mediated pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002584</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c17">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19470756</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -416,6 +404,18 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a72">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16628003</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Control of AIF-mediated cell death by the functional interplay of SIRT1 and PARP-1 in response to DNA damage.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Cycle</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolthur-Seetharam U</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dantzer F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McBurney MW</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Murcia G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sassone-Corsi P</bp:AUTHORS>
+    </bp:PublicationXref>
   </Biopax>
 </Pathway>
 
