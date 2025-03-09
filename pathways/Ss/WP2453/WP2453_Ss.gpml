@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCA cycle and deficiency of pyruvate dehydrogenase complex (PDHc)" Data-Source="WikiPathways" Version="WP2453_Ss" Last-Modified="20220703085812" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCA cycle and deficiency of pyruvate dehydrogenase complex (PDHc)" Data-Source="WikiPathways" Version="WP2453_Ss" Last-Modified="20250308063741" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">When transported into the inner mitochondrial matrix, pyruvate encounters two principal metabolizing enzymes: pyruvate carboxylase, PC (a gluconeogenic enzyme) and pyruvate dehydrogenase (PDH), the first enzyme of the PDH complex (PDHc). With a high cell-energy charge, co-enzyme A (CoA) is highly acylated, principally as acetyl-CoA, and able to obligately activate pyruvate carboxylase, directing pyruvate toward gluconeogenesis. When the energy charge is low, CoA is not acylated, therefore, pyruvate carboxylase is inactive, and pyruvate is preferentially metabolized via the PDHc and the TCA cycle to CO2 and H2O. The acetyl-CoA produced by the PDHc enters the TCA cycle and the reduced electron carriers (NADH and FADH2) that are generated during the oxidative reactions can then be used to drive ATP synthesis via oxidative phosphorylation.
-Description source: [https://themedicalbiochemistrypage.org/tca-cycle.php The Medical Biochemistryp Page]
+Description source: [The Medical Biochemistryp Page](https://themedicalbiochemistrypage.org/tca-cycle.php).
 
-Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2453 CPTAC Assay Portal].</Comment>
+Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP2453).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2453.gpml (WP2453_r123103) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2453.gpml (WP2453_r137810) with a 100.0% conversion rate.</Comment>
   <Graphics BoardWidth="1263.58955223881" BoardHeight="516.7357602702156" />
   <DataNode TextLabel="DLST" GraphId="a08d7" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Sus scrofa: Original ID = En:ENSG00000119689</Comment>
@@ -282,7 +282,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="id3dcfb0d">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="569.3208955223894" Y="186.71641791044775" GraphRef="ea133" RelX="-1.0" RelY="0.0" />
+      <Point X="569.3208955223894" Y="186.71641791044775" GraphRef="ebc0a" RelX="-1.0" RelY="0.0" />
       <Point X="541.8208955223895" Y="194.0" GraphRef="e85f1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -426,7 +426,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <Point X="720.8208955223895" Y="396.71641791044783" GraphRef="ce186" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
       <Point X="813.820895522389" Y="396.71641791044783" GraphRef="f693e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
       <Anchor Position="0.5223880597014926" Shape="None" GraphId="b50c8" />
-      <Anchor Position="0.5180548868560295" Shape="None" GraphId="e2441" />
+      <Anchor Position="0.5180548868560295" Shape="None" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -567,13 +567,13 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Label TextLabel="Pyruvate Dehydrogenase Complex" GraphId="ca660" GroupRef="b4fd7">
     <Graphics CenterX="116.7078189300411" CenterY="399.99999999999983" Width="169.21810699588474" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="10" Valign="Middle" Color="009933" />
   </Label>
-  <Group GroupId="b4fd7" GraphId="b4fd7" Style="Complex" />
-  <Group GroupId="ea133" GraphId="ea133" Style="Group" />
+  <Group GroupId="b4fd7" GraphId="b24f0" Style="Complex" />
+  <Group GroupId="ea133" GraphId="ebc0a" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">citric acid cycle pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000026</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -582,8 +582,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">citric acid cycle pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000026</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
