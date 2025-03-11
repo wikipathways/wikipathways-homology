@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Leptin and adiponectin" Data-Source="WikiPathways" Version="WP3934_Mm" Last-Modified="20190917142341" Organism="Mus musculus">
-  <Comment Source="WikiPathways-description">Proposed mechanism by which leptin and adiponectin stimulate fatty acid oxidation. Adapted from fig 1 in [http://www.ncbi.nlm.nih.gov/pubmed/16497175 Dyck et al.].
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Leptin and adiponectin" Data-Source="WikiPathways" Version="WP3934_Mm" Last-Modified="20250310205402" Organism="Mus musculus">
+  <Comment Source="WikiPathways-description">Proposed mechanism by which leptin and adiponectin stimulate fatty acid oxidation. Adapted from fig 1 in [Dyck et al.](http://www.ncbi.nlm.nih.gov/pubmed/16497175).
 
 
-Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3934 CPTAC Assay Portal]</Comment>
+Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3934).</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway "Leptin and adiponectin", WP683 revision 71946, with a 100.0% conversion rate.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3934.gpml (WP3934_r107151) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3934.gpml (WP3934_r137956) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>e92</BiopaxRef>
   <Graphics BoardWidth="761.0" BoardHeight="703.0" />
   <DataNode TextLabel="Adipor1" GraphId="b383b" Type="GeneProduct">
@@ -95,15 +95,15 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="a609c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="529.0" Y="372.0" GraphRef="bd2d8" RelX="0.0" RelY="1.0" />
-      <Point X="529.0" Y="410.0" GraphRef="d931c" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+      <Point X="529.0" Y="372.0" GraphRef="e8407" RelX="0.0" RelY="1.0" />
+      <Point X="529.0" Y="410.0" GraphRef="d931c" RelX="0.0" RelY="-1.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="b5dcd">
     <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
       <Point X="624.0" Y="480.0" GraphRef="fe4e5" RelX="0.0" RelY="1.0" />
-      <Point X="546.0" Y="586.0" GraphRef="e683e" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="546.0" Y="586.0" GraphRef="e683e" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -118,7 +118,7 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="c4106">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="314.0" Y="214.0" GraphRef="e4d8f" RelX="0.0" RelY="1.0" />
-      <Point X="477.0" Y="330.0" GraphRef="bd2d8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="477.0" Y="330.0" GraphRef="e8407" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -132,14 +132,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Interaction GraphId="ce400">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="528.0" Y="214.0" GraphRef="c7cbc" RelX="0.0" RelY="1.0" />
-      <Point X="529.0" Y="288.0" GraphRef="bd2d8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="529.0" Y="288.0" GraphRef="e8407" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="d844c">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="415.0" Y="214.0" GraphRef="b383b" RelX="0.0" RelY="1.0" />
-      <Point X="503.0" Y="288.0" GraphRef="bd2d8" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="503.0" Y="288.0" GraphRef="e8407" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -191,12 +191,12 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="e03a8">
     <Graphics CenterX="375.98333333333335" CenterY="438.5" Width="710.0333333333333" Height="469.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Rectangle" Rotation="0.0" />
   </Shape>
-  <Group GroupId="bd2d8" GraphId="bd2d8" Style="Complex" />
+  <Group GroupId="bd2d8" GraphId="e8407" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adiponectin signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000563</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leptin system pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000363</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e92">
@@ -210,14 +210,29 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bruce CR</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adiponectin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000563</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucose metabolism disease</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:4194</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adiponectin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000563</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leptin system pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000363</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucose metabolism disease</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:4194</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

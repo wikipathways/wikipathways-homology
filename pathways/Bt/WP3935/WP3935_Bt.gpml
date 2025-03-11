@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Leptin-insulin signaling overlap" Data-Source="WikiPathways" Version="WP3935_Bt" Last-Modified="20210527142449" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Leptin-insulin signaling overlap" Data-Source="WikiPathways" Version="WP3935_Bt" Last-Modified="20250310205333" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">Overlap of cellular insulin and leptin signaling.
 
-Proteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3935 CPTAC Assay Portal]</Comment>
+Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3935).</Comment>
   <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway "Leptin Insulin Overlap", WP578 revision, with a 95.0% conversion rate.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3935.gpml (WP3935_r118425) with a 82.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3935.gpml (WP3935_r137955) with a 82.0% conversion rate.</Comment>
   <Graphics BoardWidth="815.2631578947369" BoardHeight="374.8037220122128" />
   <DataNode TextLabel="JAK2" GraphId="a74bd" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:16452</Comment>
@@ -187,8 +187,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="bcc85">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="664.0526315789468" Y="153.55263157894737" GraphRef="b1cd7" RelX="-1.0" RelY="0.0" />
-      <Point X="623.0" Y="153.0" GraphRef="b00c7" RelX="1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="664.0526315789468" Y="153.55263157894737" GraphRef="ce781" RelX="-1.0" RelY="0.0" />
+      <Point X="623.0" Y="153.0" GraphRef="c1fbc" RelX="1.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -222,8 +222,8 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   </Interaction>
   <Interaction GraphId="fb38c">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="588.0" Y="181.0" GraphRef="b00c7" RelX="0.0" RelY="1.0" />
-      <Point X="587.5340681362729" Y="257.5811401809142" GraphRef="cf7a0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="588.0" Y="181.0" GraphRef="c1fbc" RelX="0.0" RelY="1.0" />
+      <Point X="587.5340681362729" Y="257.5811401809142" GraphRef="cb1d2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -281,11 +281,14 @@ Proteins on this pathway have targeted assays available via the [https://assays.
   <Shape GraphId="f98e8">
     <Graphics CenterX="450.5" CenterY="235.98333333333332" Width="39.0" Height="30.033333333333335" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="Oval" Rotation="0.0" />
   </Shape>
-  <Group GroupId="b00c7" GraphId="b00c7">
+  <Group GroupId="b00c7" GraphId="c1fbc">
     <BiopaxRef>fea</BiopaxRef>
   </Group>
-  <Group GroupId="cf7a0" GraphId="cf7a0" />
-  <Group GroupId="b1cd7" GraphId="b1cd7" />
+  <Group GroupId="cf7a0" GraphId="cb1d2" />
+  <Group GroupId="b1cd7" GraphId="ce781" />
+  <Group GroupId="ec8ca" GraphId="ece44">
+    <BiopaxRef>fea</BiopaxRef>
+  </Group>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -304,6 +307,16 @@ Proteins on this pathway have targeted assays available via the [https://assays.
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bates SH</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myers MG Jr</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leptin system pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000363</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000143</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000143</bp:ID>

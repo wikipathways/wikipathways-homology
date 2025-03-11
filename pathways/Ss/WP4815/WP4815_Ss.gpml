@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glycosaminoglycan degradation" Data-Source="WikiPathways" Version="WP4815_Ss" Last-Modified="20241221075902" Organism="Sus scrofa">
-  <Comment Source="WikiPathways-description">Taken from KEGG: Glycosaminoglycan degradation - Homo sapiens (human) [https://www.genome.jp/kegg-bin/show_pathway?hsa00531].
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glycosaminoglycan degradation" Data-Source="WikiPathways" Version="WP4815_Ss" Last-Modified="20250310172608" Organism="Sus scrofa">
+  <Comment Source="WikiPathways-description">Taken from KEGG: [Glycosaminoglycan degradation - Homo sapiens (human)](https://www.genome.jp/kegg-bin/show_pathway?hsa00531).
 
 Some genes such as NAGZ could not be found, these have been left on the diagram as unannotated GeneProducts.
 
 Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutation in the respective gene.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4815.gpml (WP4815_r136166) with a 93.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4815.gpml (WP4815_r137903) with a 93.0% conversion rate.</Comment>
   <BiopaxRef>e3b</BiopaxRef>
   <BiopaxRef>ea7</BiopaxRef>
   <Graphics BoardWidth="2590.7426065360237" BoardHeight="2889.080250835497" />
@@ -1708,18 +1708,6 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
   <Group GroupId="d518a" GraphId="f6373" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3b">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hsa00531</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Pathway</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycosaminoglycan degradation - Homo sapiens (human)</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycosaminoglycan degradation pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001154</bp:ID>
@@ -1733,6 +1721,18 @@ Linked with a dotted arrow to the GeneProduct nodes are diseases caused by mutat
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghiselli G</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maccarana M</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000002</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hsa00531</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG Pathway</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycosaminoglycan degradation - Homo sapiens (human)</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:YEAR>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>
