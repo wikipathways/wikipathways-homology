@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="AKT signaling and ARTD family members" Data-Source="WikiPathways" Version="WP5531_Mm" Last-Modified="20250408031305" Organism="Mus musculus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="AKT signaling and ARTD family members" Data-Source="WikiPathways" Version="WP5531_Mm" Last-Modified="20250419072737" Organism="Mus musculus">
   <Comment Source="WikiPathways-description">There are only a few conflicting findings regarding the regulation of ARTD family members by AKT signaling. In one type of astrocyte, seizure induction increased both PARP1 levels and enzymatic activity, whereas in another type, seizures resulted in a decrease in PARP1 and its activity. In both scenarios, inhibiting AKT signaling reduced PARP1 protein levels and activity. This suggests that AKT may play a role in promoting PARP1 expression and signaling.
 
 Inspired by figure 5 in [Boehi et al. (2021)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8560908/#Sec22).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5531.gpml (WP5531_r138452) with a 90.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5531.gpml (WP5531_r138572) with a 94.0% conversion rate.</Comment>
   <BiopaxRef>c0a</BiopaxRef>
   <Graphics BoardWidth="927.0" BoardHeight="769.0" />
   <DataNode TextLabel="Adaptor" GraphId="c3499" Type="GeneProduct">
@@ -26,9 +26,10 @@ Inspired by figure 5 in [Boehi et al. (2021)](https://pmc.ncbi.nlm.nih.gov/artic
     <Graphics CenterX="637.0" CenterY="174.0" Width="60.0" Height="20.0" ZOrder="32774" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000006494" />
   </DataNode>
-  <DataNode TextLabel="LKB1" GraphId="e4f83" Type="GeneProduct">
+  <DataNode TextLabel="Stk11" GraphId="e4f83" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:6794</Comment>
     <Graphics CenterX="672.0" CenterY="250.0" Width="60.0" Height="20.0" ZOrder="32776" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000003068" />
   </DataNode>
   <DataNode TextLabel="AMPK" GraphId="d5938" Type="GeneProduct">
     <Graphics CenterX="773.0" CenterY="251.0" Width="60.0" Height="20.0" ZOrder="32778" FontSize="12" Valign="Middle" />
@@ -70,7 +71,7 @@ Inspired by figure 5 in [Boehi et al. (2021)](https://pmc.ncbi.nlm.nih.gov/artic
   </DataNode>
   <DataNode TextLabel="ATP" GraphId="f6cfb" Type="Metabolite">
     <Graphics CenterX="829.0" CenterY="602.0" Width="60.0" Height="20.0" ZOrder="32794" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="ChEBI" ID="15422" />
   </DataNode>
   <DataNode TextLabel="Tsc2" GraphId="df921" Type="GeneProduct" GroupRef="b570f">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000103197</Comment>
@@ -82,9 +83,10 @@ Inspired by figure 5 in [Boehi et al. (2021)](https://pmc.ncbi.nlm.nih.gov/artic
     <Graphics CenterX="532.0" CenterY="520.0" Width="60.0" Height="20.0" ZOrder="32798" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSMUSG00000026496" />
   </DataNode>
-  <DataNode TextLabel="SIRT1" GraphId="f6b94" Type="GeneProduct">
-    <Graphics CenterX="691.0" CenterY="571.0" Width="60.0" Height="20.0" ZOrder="32800" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="" />
+  <DataNode TextLabel="Sirt1" GraphId="f6b94" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = L:23411</Comment>
+    <Graphics CenterX="692.1025358324146" CenterY="572.1025358324146" Width="60.0" Height="20.0" ZOrder="32800" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSMUSG00000020063" />
   </DataNode>
   <DataNode TextLabel="Parp1" GraphId="fc0aa" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Mus musculus: Original ID = En:ENSG00000143799</Comment>
@@ -298,7 +300,7 @@ Inspired by figure 5 in [Boehi et al. (2021)](https://pmc.ncbi.nlm.nih.gov/artic
   </DataNode>
   <Interaction GraphId="id305f352">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="691.0" Y="581.0" GraphRef="f6b94" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="692.1025358324146" Y="582.1025358324146" GraphRef="f6b94" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
       <Point X="691.0" Y="629.0" GraphRef="fc0aa" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -410,7 +412,7 @@ Inspired by figure 5 in [Boehi et al. (2021)](https://pmc.ncbi.nlm.nih.gov/artic
   </Interaction>
   <Interaction GraphId="f1d00">
     <Graphics ZOrder="33896" LineThickness="1.0">
-      <Point X="691.0" Y="561.0" GraphRef="f6b94" RelX="0.0" RelY="-1.0" />
+      <Point X="692.1025358324146" Y="562.1025358324146" GraphRef="f6b94" RelX="0.0" RelY="-1.0" />
       <Point X="691.0" Y="409.0" GraphRef="e7016" RelX="0.5" RelY="1.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -560,6 +562,11 @@ Inspired by figure 5 in [Boehi et al. (2021)](https://pmc.ncbi.nlm.nih.gov/artic
   <Group GroupId="be90f" GraphId="f30be" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0a">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34725336</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -570,11 +577,6 @@ Inspired by figure 5 in [Boehi et al. (2021)](https://pmc.ncbi.nlm.nih.gov/artic
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manetsch P</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hottiger MO</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
