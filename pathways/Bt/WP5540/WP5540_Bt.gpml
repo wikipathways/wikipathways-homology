@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Multiple sclerosis mechanism and therapies" Data-Source="WikiPathways" Version="WP5540_Bt" Last-Modified="20250510210426" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Multiple sclerosis mechanism and therapies" Data-Source="WikiPathways" Version="WP5540_Bt" Last-Modified="20250518070513" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">This diagram shows the immunopathogenesis of multiple sclerosis (MS) and therapeutic targets.  Available therapies for MS act through a range of mechanisms, including pleiotropic effects, immune cell depletion, inhibition of proliferation, and blockade of cell migration.  These intervene at various stages of the inflammatory process. 
 
 Treatments exert their effects across the peripheral immune system, the blood–brain barrier, and within the central nervous system (CNS) itself.
 
 Inspired by Figure 1 in [Bierhansl et al. (2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9169033/).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5540.gpml (WP5540_r139009) with a 93.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5540.gpml (WP5540_r139067) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>e35</BiopaxRef>
   <Graphics BoardWidth="1143.0" BoardHeight="667.0000000000007" />
   <DataNode TextLabel="Cladribine" GraphId="c04ef" Type="Metabolite" GroupRef="b40ce">
@@ -177,8 +177,9 @@ Inspired by Figure 1 in [Bierhansl et al. (2022)](https://pmc.ncbi.nlm.nih.gov/a
     <Xref Database="Ensembl" ID="ENSBTAG00000019250" />
   </DataNode>
   <DataNode TextLabel="ITGA4" GraphId="b46a8" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000115232</Comment>
     <Graphics CenterX="631.0" CenterY="279.0" Width="50.0" Height="20.0" ZOrder="32980" FontSize="12" Valign="Middle" />
-    <Xref Database="" ID="ENSG00000115232" />
+    <Xref Database="Ensembl" ID="ENSBTAG00000009256" />
   </DataNode>
   <Interaction GraphId="id320f31a0">
     <Graphics ZOrder="12288" LineThickness="1.0">
