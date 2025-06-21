@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="KCNQ2-related epilepsies" Data-Source="WikiPathways" Version="WP5360_Cf" Last-Modified="20250620091747" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="KCNQ2-related epilepsies" Data-Source="WikiPathways" Version="WP5360_Dr" Last-Modified="20250620091747" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">KCNQ gene mutations are a common source for genetically caused epilepsies. KCNQ genes code for Kv7 subunits, which are required for Kv7 channels in the brain. These channels, also known as the M channels, are required for an outward potassium flow, known as the M current. Mutations in KCNQ genes and genes associated with Kv7 channel function can result in the impairment of this potassium flow. This leads to a constant state of depolarization in the neuron cells, which leads to increased excitabilty and a constant firing of action potentials, resulting in types of epilepsy. </Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5360.gpml (WP5360_r139508) with a 95.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5360.gpml (WP5360_r139508) with a 82.0% conversion rate.</Comment>
   <Graphics BoardWidth="1379.0" BoardHeight="668.7900932216161" />
   <DataNode TextLabel="Serine&#xA;residues" GraphId="e84f2" Type="Metabolite">
     <Graphics CenterX="886.2954185671013" CenterY="440.36056267191026" Width="70.0" Height="35.0" ZOrder="32918" FontSize="12" Valign="Middle" />
@@ -12,183 +12,183 @@
     <Graphics CenterX="823.4087317607164" CenterY="363.1998952849702" Width="43.19608828001069" Height="20.0" ZOrder="32920" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17489" />
   </DataNode>
-  <DataNode TextLabel="KCNQ3" GraphId="b19d8" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000184156</Comment>
+  <DataNode TextLabel="kcnq3" GraphId="b19d8" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000184156</Comment>
     <Graphics CenterX="265.1537521618011" CenterY="355.874689758591" Width="60.0" Height="20.0" ZOrder="32921" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007700" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060085" />
   </DataNode>
   <DataNode TextLabel="PIP2" GraphId="b0417" Type="Metabolite" GroupRef="cf920">
     <Graphics CenterX="609.7769527593688" CenterY="75.1125185582454" Width="35.0" Height="20.0" ZOrder="32922" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:18348" />
   </DataNode>
-  <DataNode TextLabel="KCNQ2" GraphId="c77cc" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43526</Comment>
+  <DataNode TextLabel="kcnq2a" GraphId="c77cc" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43526</Comment>
     <Graphics CenterX="168.07846134984584" CenterY="253.3166538296594" Width="60.0" Height="20.0" ZOrder="32923" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845021011" />
+    <Xref Database="Ensembl" ID="ENSDARG00000075307" />
   </DataNode>
-  <DataNode TextLabel="KCNQ2" GraphId="b2df1" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000075043</Comment>
+  <DataNode TextLabel="kcnq2a" GraphId="b2df1" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000075043</Comment>
     <BiopaxRef>a25</BiopaxRef>
     <BiopaxRef>ff1</BiopaxRef>
     <Graphics CenterX="170.4166689347332" CenterY="355.874689758591" Width="60.0" Height="20.0" ZOrder="32924" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845021011" />
+    <Xref Database="Ensembl" ID="ENSDARG00000075307" />
   </DataNode>
-  <DataNode TextLabel="KCNQ3" GraphId="c4749" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43525</Comment>
+  <DataNode TextLabel="kcnq3" GraphId="c4749" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43525</Comment>
     <Graphics CenterX="265.2597020034468" CenterY="281.5886038191313" Width="60.0" Height="20.0" ZOrder="32925" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007700" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060085" />
   </DataNode>
   <DataNode TextLabel="ACh" GraphId="d3481" Type="Metabolite">
     <Graphics CenterX="1224.801429460647" CenterY="18.01584254752865" Width="40.0" Height="20.0" ZOrder="32926" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15355" />
   </DataNode>
-  <DataNode TextLabel="KCNQ3" GraphId="d16ca" Type="Protein" GroupRef="cf920">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43525</Comment>
+  <DataNode TextLabel="kcnq3" GraphId="d16ca" Type="Protein" GroupRef="cf920">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43525</Comment>
     <Graphics CenterX="565.0461022405409" CenterY="83.0311011850983" Width="55.305970149253426" Height="20.0" ZOrder="32927" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007700" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060085" />
   </DataNode>
-  <DataNode TextLabel="KCNQ2" GraphId="e61cb" Type="Protein" GroupRef="cf920">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43526</Comment>
+  <DataNode TextLabel="kcnq2a" GraphId="e61cb" Type="Protein" GroupRef="cf920">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43526</Comment>
     <Graphics CenterX="494.41775306162884" CenterY="83.31459297420801" Width="55.305970149253426" Height="20.0" ZOrder="32928" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845021011" />
+    <Xref Database="Ensembl" ID="ENSDARG00000075307" />
   </DataNode>
-  <DataNode TextLabel="KCNQ2" GraphId="f51d9" Type="Protein" GroupRef="cf920">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43526</Comment>
+  <DataNode TextLabel="kcnq2a" GraphId="f51d9" Type="Protein" GroupRef="cf920">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43526</Comment>
     <Graphics CenterX="565.0461022405409" CenterY="63.031101185098294" Width="55.305970149253426" Height="20.0" ZOrder="32929" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845021011" />
+    <Xref Database="Ensembl" ID="ENSDARG00000075307" />
   </DataNode>
-  <DataNode TextLabel="KCNQ3" GraphId="c096e" Type="Protein" GroupRef="cf920">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43525</Comment>
+  <DataNode TextLabel="kcnq3" GraphId="c096e" Type="Protein" GroupRef="cf920">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43525</Comment>
     <Graphics CenterX="494.41775306162884" CenterY="63.31459297420801" Width="55.305970149253426" Height="20.0" ZOrder="32930" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007700" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060085" />
   </DataNode>
   <DataNode TextLabel="K⁺" GraphId="a6656" Type="Metabolite">
     <Graphics CenterX="990.7070855163668" CenterY="270.73154861452826" Width="31.71428571428629" Height="20.0" ZOrder="32932" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29103" />
   </DataNode>
   <DataNode TextLabel="AKAP5" GraphId="c1d19" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:P24588</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id S:P24588</Comment>
     <Graphics CenterX="738.6576922149013" CenterY="497.0871182750095" Width="60.0" Height="20.0" ZOrder="32933" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845002054" />
+    <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="BACE1" GraphId="e32f8" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:P56817</Comment>
+  <DataNode TextLabel="bace1" GraphId="e32f8" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:P56817</Comment>
     <BiopaxRef>ea6</BiopaxRef>
     <Graphics CenterX="422.88445979054006" CenterY="293.999690306988" Width="55.305970149253426" Height="20.0" ZOrder="32934" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845003800" />
+    <Xref Database="Ensembl" ID="ENSDARG00000101716" />
   </DataNode>
-  <DataNode TextLabel="KCNQ3" GraphId="c6d23" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43525</Comment>
+  <DataNode TextLabel="kcnq3" GraphId="c6d23" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43525</Comment>
     <Graphics CenterX="480.5356364000078" CenterY="228.16992595280567" Width="55.305970149253426" Height="20.0" ZOrder="32935" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007700" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060085" />
   </DataNode>
-  <DataNode TextLabel="PRKACA" GraphId="cb537" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000072062</Comment>
+  <DataNode TextLabel="prkacba" GraphId="cb537" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000072062</Comment>
     <Graphics CenterX="723.787354585166" CenterY="362.9872846164884" Width="55.305970149253426" Height="20.0" ZOrder="32936" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845024723" />
+    <Xref Database="Ensembl" ID="ENSDARG00000001782" />
   </DataNode>
-  <DataNode TextLabel="PLCG2" GraphId="aad28" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:P16885</Comment>
+  <DataNode TextLabel="plcg2" GraphId="aad28" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:P16885</Comment>
     <BiopaxRef>c01</BiopaxRef>
     <Graphics CenterX="1169.4778179570205" CenterY="104.50544324429157" Width="55.305970149253426" Height="20.0" ZOrder="32937" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845017949" />
+    <Xref Database="Ensembl" ID="ENSDARG00000068763" />
   </DataNode>
-  <DataNode TextLabel="PRKCA" GraphId="d2849" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:P17252</Comment>
+  <DataNode TextLabel="prkcaa" GraphId="d2849" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:P17252</Comment>
     <Graphics CenterX="830.1462684746332" CenterY="497.0871182750095" Width="55.305970149253426" Height="20.0" ZOrder="32938" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845027678" />
+    <Xref Database="Ensembl" ID="ENSDARG00000115657" />
   </DataNode>
-  <DataNode TextLabel="SCN1B" GraphId="da9cd" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000105711</Comment>
+  <DataNode TextLabel="scn1bb" GraphId="da9cd" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000105711</Comment>
     <BiopaxRef>e38</BiopaxRef>
     <Graphics CenterX="217.14322967336352" CenterY="435.0883333154985" Width="60.0" Height="20.0" ZOrder="32939" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845003824" />
+    <Xref Database="Ensembl" ID="ENSDARG00000105003" />
   </DataNode>
-  <DataNode TextLabel="PPP1R10" GraphId="ca15e" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:Q96QC0</Comment>
+  <DataNode TextLabel="ppp1r10" GraphId="ca15e" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:Q96QC0</Comment>
     <Graphics CenterX="688.2309068369445" CenterY="322.651271878801" Width="55.305970149253426" Height="20.0" ZOrder="32940" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007180" />
+    <Xref Database="Ensembl" ID="ENSDARG00000032651" />
   </DataNode>
-  <DataNode TextLabel="STX1A" GraphId="e3b34" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:Q16623</Comment>
+  <DataNode TextLabel="stx1a" GraphId="e3b34" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:Q16623</Comment>
     <BiopaxRef>b02</BiopaxRef>
     <Graphics CenterX="1041.3199207667326" CenterY="179.93504195092424" Width="55.305970149253426" Height="20.0" ZOrder="32941" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845003270" />
+    <Xref Database="Ensembl" ID="ENSDARG00000058994" />
   </DataNode>
-  <DataNode TextLabel="CSNK2A1" GraphId="e4283" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:P68400</Comment>
+  <DataNode TextLabel="CK2&#xA;" GraphId="e4283" Type="Protein">
+    <Comment Source="HomologyMapper">No homologues found for original id S:P68400</Comment>
     <Graphics CenterX="651.595332649556" CenterY="362.2682973044007" Width="55.305970149253426" Height="20.0" ZOrder="32943" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845015947" />
+    <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="PPP3CC" GraphId="f80d7" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:P48454</Comment>
+  <DataNode TextLabel="ppp3ccb" GraphId="f80d7" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:P48454</Comment>
     <Graphics CenterX="937.0118841910371" CenterY="497.0871182750095" Width="55.305970149253426" Height="20.0" ZOrder="32944" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845022916" />
+    <Xref Database="Ensembl" ID="ENSDARG00000057456" />
   </DataNode>
   <DataNode TextLabel="PIP2" GraphId="bdc74" Type="Metabolite">
     <BiopaxRef>ec0</BiopaxRef>
     <Graphics CenterX="332.9865403937474" CenterY="71.31276644310992" Width="35.0" Height="20.0" ZOrder="32945" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:18348" />
   </DataNode>
-  <DataNode TextLabel="ANK3" GraphId="d7b92" Type="Protein" GroupRef="cf920">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:Q12955</Comment>
+  <DataNode TextLabel="ank3b" GraphId="d7b92" Type="Protein" GroupRef="cf920">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:Q12955</Comment>
     <Graphics CenterX="439.5198567190149" CenterY="67.5045852327381" Width="55.305970149253426" Height="20.0" ZOrder="32946" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845002592" />
+    <Xref Database="Ensembl" ID="ENSDARG00000077582" />
   </DataNode>
   <DataNode TextLabel="PIP2" GraphId="ae3bf" Type="Metabolite" GroupRef="cfdfc">
     <Graphics CenterX="1073.27155329184" CenterY="76.6214832219836" Width="35.0" Height="20.0" ZOrder="32947" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:18348" />
   </DataNode>
-  <DataNode TextLabel="KCNQ3" GraphId="f5908" Type="Protein" GroupRef="cfdfc">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43525</Comment>
+  <DataNode TextLabel="kcnq3" GraphId="f5908" Type="Protein" GroupRef="cfdfc">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43525</Comment>
     <Graphics CenterX="1028.5407027730755" CenterY="84.54006584883695" Width="55.305970149253426" Height="20.0" ZOrder="32948" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007700" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060085" />
   </DataNode>
-  <DataNode TextLabel="KCNQ2" GraphId="e2eeb" Type="Protein" GroupRef="cfdfc">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43526</Comment>
+  <DataNode TextLabel="kcnq2a" GraphId="e2eeb" Type="Protein" GroupRef="cfdfc">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43526</Comment>
     <Graphics CenterX="953.9123535941626" CenterY="84.82355763794652" Width="55.305970149253426" Height="20.0" ZOrder="32949" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845021011" />
+    <Xref Database="Ensembl" ID="ENSDARG00000075307" />
   </DataNode>
-  <DataNode TextLabel="KCNQ2" GraphId="c98e3" Type="Protein" GroupRef="cfdfc">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43526</Comment>
+  <DataNode TextLabel="kcnq2a" GraphId="c98e3" Type="Protein" GroupRef="cfdfc">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43526</Comment>
     <Graphics CenterX="1028.5407027730755" CenterY="64.54006584883695" Width="55.305970149253426" Height="20.0" ZOrder="32950" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845021011" />
+    <Xref Database="Ensembl" ID="ENSDARG00000075307" />
   </DataNode>
-  <DataNode TextLabel="KCNQ3" GraphId="d3c5e" Type="Protein" GroupRef="cfdfc">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43525</Comment>
+  <DataNode TextLabel="kcnq3" GraphId="d3c5e" Type="Protein" GroupRef="cfdfc">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43525</Comment>
     <Graphics CenterX="953.9123535941626" CenterY="64.82355763794652" Width="55.305970149253426" Height="20.0" ZOrder="32952" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007700" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060085" />
   </DataNode>
-  <DataNode TextLabel="ANK3" GraphId="e44e7" Type="Protein" GroupRef="cfdfc">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:Q12955</Comment>
+  <DataNode TextLabel="ank3b" GraphId="e44e7" Type="Protein" GroupRef="cfdfc">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:Q12955</Comment>
     <Graphics CenterX="898.6723044504763" CenterY="70.28783465922712" Width="55.305970149253426" Height="20.0" ZOrder="32953" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845002592" />
+    <Xref Database="Ensembl" ID="ENSDARG00000077582" />
   </DataNode>
-  <DataNode TextLabel="ANK3" GraphId="be31f" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:Q12955</Comment>
+  <DataNode TextLabel="ank3b" GraphId="be31f" Type="Protein">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:Q12955</Comment>
     <BiopaxRef>b02</BiopaxRef>
     <Graphics CenterX="144.2458959396206" CenterY="195.83183138492296" Width="55.305970149253426" Height="20.0" ZOrder="32954" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845002592" />
+    <Xref Database="Ensembl" ID="ENSDARG00000077582" />
   </DataNode>
-  <DataNode TextLabel="KCNQ2" GraphId="be107" Type="Protein" GroupRef="ad155">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43526</Comment>
+  <DataNode TextLabel="kcnq2a" GraphId="be107" Type="Protein" GroupRef="ad155">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43526</Comment>
     <Graphics CenterX="237.1970670577909" CenterY="185.89537700042592" Width="55.305970149253426" Height="20.0" ZOrder="32955" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845021011" />
+    <Xref Database="Ensembl" ID="ENSDARG00000075307" />
   </DataNode>
-  <DataNode TextLabel="KCNQ3" GraphId="b65c5" Type="Protein" GroupRef="ad155">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43525</Comment>
+  <DataNode TextLabel="kcnq3" GraphId="b65c5" Type="Protein" GroupRef="ad155">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43525</Comment>
     <Graphics CenterX="237.1970670577909" CenterY="205.89537700042592" Width="55.305970149253426" Height="20.0" ZOrder="32956" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007700" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060085" />
   </DataNode>
-  <DataNode TextLabel="KCNQ2" GraphId="a2a4c" Type="Protein" GroupRef="ad155">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43526</Comment>
+  <DataNode TextLabel="kcnq2a" GraphId="a2a4c" Type="Protein" GroupRef="ad155">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43526</Comment>
     <Graphics CenterX="292.5030372070443" CenterY="185.89537700042592" Width="55.305970149253426" Height="20.0" ZOrder="32957" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845021011" />
+    <Xref Database="Ensembl" ID="ENSDARG00000075307" />
   </DataNode>
-  <DataNode TextLabel="KCNQ3" GraphId="a6470" Type="Protein" GroupRef="ad155">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:O43525</Comment>
+  <DataNode TextLabel="kcnq3" GraphId="a6470" Type="Protein" GroupRef="ad155">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = S:O43525</Comment>
     <Graphics CenterX="292.5030372070443" CenterY="205.89537700042592" Width="55.305970149253426" Height="20.0" ZOrder="32958" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007700" />
+    <Xref Database="Ensembl" ID="ENSDARG00000060085" />
   </DataNode>
   <DataNode TextLabel="Serine&#xA;residues" GraphId="a5fb9" Type="Protein">
     <Graphics CenterX="781.6863831871099" CenterY="440.36056267191026" Width="70.0" Height="35.0" ZOrder="32959" FontSize="12" Valign="Middle" />
@@ -199,32 +199,32 @@
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="CALM1" GraphId="cfd36" Type="Protein">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:P0DP23</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id S:P0DP23</Comment>
     <BiopaxRef>b02</BiopaxRef>
     <Graphics CenterX="265.47894582070705" CenterY="124.13880934959496" Width="55.305970149253426" Height="20.0" ZOrder="32961" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845013089" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="CALM1" GraphId="a9013" Type="Protein" GroupRef="cf920">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:P0DP23</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id S:P0DP23</Comment>
     <BiopaxRef>b02</BiopaxRef>
     <Graphics CenterX="450.0076682177893" CenterY="123.47006774747922" Width="55.305970149253426" Height="20.0" ZOrder="32962" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845013089" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="CALM1" GraphId="aba98" Type="Protein" GroupRef="cfdfc">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = S:P0DP23</Comment>
+    <Comment Source="HomologyMapper">No homologues found for original id S:P0DP23</Comment>
     <BiopaxRef>b02</BiopaxRef>
     <Graphics CenterX="917.7631513833935" CenterY="122.7659960491317" Width="55.305970149253426" Height="20.0" ZOrder="32963" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845013089" />
+    <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="GABA" GraphId="fa3f6" Type="Metabolite">
     <BiopaxRef>d7a</BiopaxRef>
     <Graphics CenterX="1124.3088938641406" CenterY="166.77913034247513" Width="50.0" Height="20.0" ZOrder="32965" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16865" />
   </DataNode>
-  <DataNode TextLabel="ITPR1" GraphId="a44f8" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000150995</Comment>
+  <DataNode TextLabel="itpr1a" GraphId="a44f8" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000150995</Comment>
     <Graphics CenterX="422.1055855933448" CenterY="537.7298629673465" Width="55.305970149253426" Height="20.0" ZOrder="32966" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845011583" />
+    <Xref Database="Ensembl" ID="ENSDARG00000014655" />
   </DataNode>
   <DataNode TextLabel="IP3" GraphId="eef34" Type="Metabolite">
     <BiopaxRef>d7a</BiopaxRef>
@@ -236,36 +236,36 @@
     <Graphics CenterX="512.5697233366227" CenterY="507.8656913655625" Width="40.0" Height="20.0" ZOrder="32968" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29108" />
   </DataNode>
-  <DataNode TextLabel="AGTR1" GraphId="e68d3" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000144891</Comment>
+  <DataNode TextLabel="agtr1b" GraphId="e68d3" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000144891</Comment>
     <BiopaxRef>c01</BiopaxRef>
     <Graphics CenterX="1296.494774585362" CenterY="74.45858560055154" Width="55.305970149253426" Height="20.0" ZOrder="32970" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845022234" />
+    <Xref Database="Ensembl" ID="ENSDARG00000045443" />
   </DataNode>
-  <DataNode TextLabel="CHRM1" GraphId="d8eab" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000168539</Comment>
+  <DataNode TextLabel="chrm1a" GraphId="d8eab" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000168539</Comment>
     <BiopaxRef>c01</BiopaxRef>
     <BiopaxRef>ec0</BiopaxRef>
     <Graphics CenterX="1224.2240010798218" CenterY="74.45858560055154" Width="55.305970149253426" Height="20.0" ZOrder="32971" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845007309" />
+    <Xref Database="Ensembl" ID="ENSDARG00000037292" />
   </DataNode>
   <DataNode TextLabel="Ang II" GraphId="d35ca" Type="Metabolite">
     <Graphics CenterX="1295.8795210818216" CenterY="18.01584254752865" Width="50.0" Height="20.0" ZOrder="32972" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:2719" />
   </DataNode>
   <DataNode TextLabel="BDKRB2" GraphId="f4755" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000168398</Comment>
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000168398</Comment>
     <BiopaxRef>c01</BiopaxRef>
     <BiopaxRef>eb8</BiopaxRef>
     <Graphics CenterX="483.6267906550495" CenterY="628.7900932216161" Width="55.305970149253426" Height="20.0" ZOrder="32973" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845003553" />
+    <Xref Database="Ensembl" ID="ENSDARG00000043664" />
   </DataNode>
-  <DataNode TextLabel="P2RY1" GraphId="fd779" Type="GeneProduct">
-    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = En:ENSG00000169860</Comment>
+  <DataNode TextLabel="p2ry1" GraphId="fd779" Type="GeneProduct">
+    <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000169860</Comment>
     <BiopaxRef>c01</BiopaxRef>
     <BiopaxRef>eb8</BiopaxRef>
     <Graphics CenterX="361.9980027762666" CenterY="627.4264568579791" Width="55.305970149253426" Height="20.0" ZOrder="32975" FontSize="12" Valign="Middle" />
-    <Xref Database="Ensembl" ID="ENSCAFG00845027994" />
+    <Xref Database="Ensembl" ID="ENSDARG00000105281" />
   </DataNode>
   <State GraphRef="e84f2" TextLabel="" GraphId="e821c">
     <Graphics RelX="1.0" RelY="-1.0" Width="15.0" Height="15.0" ShapeType="Oval" />
@@ -699,6 +699,44 @@
   <Group GroupId="cf920" GraphId="c945e" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31904125</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dravet syndrome as part of the clinical and genetic spectrum of sodium channel epilepsies and encephalopathies.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsia</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mei D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cetica V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marini C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guerrini R</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000540</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32503841</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium channel Î²1 subunits are post-translationally modified by tyrosine phosphorylation, S-palmitoylation, and regulated intramembrane proteolysis.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouza AA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe JM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edokobi N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinsky AM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Offord J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calhoun JD</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lopez-FlorÃ¡n M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lopez-Santiago LF</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jenkins PM</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isom LL</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e38">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23090990</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -718,22 +756,14 @@
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1826</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea6">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32503841</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c01">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26687932</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium channel Î²1 subunits are post-translationally modified by tyrosine phosphorylation, S-palmitoylation, and regulated intramembrane proteolysis.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouza AA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe JM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edokobi N</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinsky AM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Offord J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calhoun JD</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lopez-FlorÃ¡n M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lopez-Santiago LF</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jenkins PM</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isom LL</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KCNQ potassium channels in sensory system and neural circuits.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acta Pharmacol Sin</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang JJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li Y</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7a">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35629827</bp:ID>
@@ -745,15 +775,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">William M</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malavia M</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chu XP</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c01">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26687932</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KCNQ potassium channels in sensory system and neural circuits.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acta Pharmacol Sin</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang JJ</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li Y</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb8">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17699673</bp:ID>
@@ -779,27 +800,6 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lopes CM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jin T</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logothetis DE</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000540</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb7">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31904125</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dravet syndrome as part of the clinical and genetic spectrum of sodium channel epilepsies and encephalopathies.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epilepsia</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mei D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cetica V</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marini C</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guerrini R</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>
