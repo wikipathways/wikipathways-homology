@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Sphingolipid metabolism: integrated pathway" Data-Source="WikiPathways" Version="WP4726_Cf" Last-Modified="20250613193432" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Sphingolipid metabolism: integrated pathway" Data-Source="WikiPathways" Version="WP4726_Cf" Last-Modified="20250627055204" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">This pathway is inspired by the [Lipidmaps&gt;Sphingolipids pathway (all chain lengths)](https://lipidmaps.org/pathway/pathways_maps). Sphingolipids are a class of lipids, which act as signal transduction and cell recognition molecules.
 
 This pathway shows all different tail lengths and their conversions into specific products. All products are annotated with lipid-specific identifiers (if available). The general overview pathway can be found [here](https://www.wikipathways.org/index.php/Pathway:WP4344).</Comment>
@@ -7,7 +7,7 @@ This pathway shows all different tail lengths and their conversions into specifi
   <Comment Source="HomologyMapper">This pathway was inferred from Mus musculus pathway [WP4690_107209.gpml] with a 95.0% conversion rate.</Comment>
   <Comment Source="WikiPathways-description">New PW, homology converted</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4726.gpml (WP4726_r139398) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4726.gpml (WP4726_r139652) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>f6b</BiopaxRef>
   <Graphics BoardWidth="2037.649949454143" BoardHeight="1055.4527808526036" />
   <DataNode TextLabel="ATP" GraphId="d1d97" Type="Metabolite">
@@ -117,7 +117,7 @@ This pathway shows all different tail lengths and their conversions into specifi
     <Graphics CenterX="1892.7439312049723" CenterY="163.80135484977964" Width="151.00000000000003" Height="34.50000000000001" ZOrder="32993" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="PubChem-compound" ID="1015" />
   </DataNode>
-  <DataNode TextLabel="H2O" GraphId="dd604" Type="Metabolite">
+  <DataNode TextLabel="H₂O" GraphId="dd604" Type="Metabolite">
     <Graphics CenterX="1350.991240427962" CenterY="141.6941028548902" Width="54.4736842105263" Height="25.0" ZOrder="32994" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15377" />
   </DataNode>
@@ -1966,14 +1966,34 @@ This pathway shows all different tail lengths and their conversions into specifi
   <Group GroupId="ec55e" GraphId="fe195" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f88">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16100120</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12011104</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LASS5 is a bona fide dihydroceramide synthase that selectively utilizes palmitoyl-CoA as acyl donor.</bp:TITLE>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De novo sphingolipid biosynthesis: a necessary, but dangerous, pathway.</bp:TITLE>
       <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lahiri S</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futerman AH</bp:AUTHORS>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merrill AH Jr</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000454</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d60">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26853464</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceramide Synthase 5 Is Essential to Maintain C16:0-Ceramide Pools and Contributes to the Development of Diet-induced Obesity.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gosejacob D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jäger PS</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vom Dorp K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frejno M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carstensen AC</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Köhnke M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Degen J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dörmann P</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoch M</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f6b">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20923771</bp:ID>
@@ -2010,6 +2030,15 @@ This pathway shows all different tail lengths and their conversions into specifi
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fahy E</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subramaniam S</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f88">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16100120</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LASS5 is a bona fide dihydroceramide synthase that selectively utilizes palmitoyl-CoA as acyl donor.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lahiri S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futerman AH</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b39">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11756451</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -2023,45 +2052,6 @@ This pathway shows all different tail lengths and their conversions into specifi
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandala SM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiegel S</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d60">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26853464</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceramide Synthase 5 Is Essential to Maintain C16:0-Ceramide Pools and Contributes to the Development of Diet-induced Obesity.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gosejacob D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jäger PS</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vom Dorp K</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frejno M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carstensen AC</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Köhnke M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Degen J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dörmann P</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoch M</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingomyelin metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000745</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12011104</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De novo sphingolipid biosynthesis: a necessary, but dangerous, pathway.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merrill AH Jr</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000454</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000197</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4a">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15823095</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -2073,8 +2063,8 @@ This pathway shows all different tail lengths and their conversions into specifi
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Igarashi Y</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000162</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingomyelin metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000745</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6d">
@@ -2091,6 +2081,16 @@ This pathway shows all different tail lengths and their conversions into specifi
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolesnick RN</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futerman AH</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000197</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
