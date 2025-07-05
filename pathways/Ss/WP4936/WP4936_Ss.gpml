@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Perturbations to host-cell autophagy, induced by SARS-CoV-2 proteins" Data-Source="WikiPathways" Version="WP4936_Ss" Last-Modified="20240412091305" Organism="Sus scrofa">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Perturbations to host-cell autophagy, induced by SARS-CoV-2 proteins" Data-Source="WikiPathways" Version="WP4936_Ss" Last-Modified="20250704133729" Organism="Sus scrofa">
   <Comment Source="WikiPathways-description">Overview of perturbations to host-cell autophagy, induced by distinct proteins of SARS-CoV-2, derived from the network diffusion model and overlaid with the changes in protein levels, ubiquitination and phosphorylation induced by SARS-CoV-2 infection.</Comment>
-  <Comment Source="WikiPathways-description">Overview of
-perturbations to host-cell autophagy, induced by distinct proteins of SARS-CoV-2, derived from the
-network diffusion model and overlaid with the changes in protein levels, ubiquitination and
-phosphorylation induced by SARS-CoV-2 infection.</Comment>
-  <Comment Source="WikiPathways-description">Overview of perturbations to host-cell autophagy, induced by distinct proteins of SARS-CoV-2, derived from the network diffusion model and overlaid with the changes in protein levels, ubiquitination and phosphorylation induced by SARS-CoV-2 infection</Comment>
-  <Comment Source="WikiPathways-description">Overview of perturbations to host-cell autophagy, induced by distinct proteins of SARS-CoV-2, derived from the network diffusion model and overlaid with the changes in protein levels, ubiquitination and phosphorylation induced by SARS-CoV-2 infection</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4936.gpml (WP4936_r129410) with a 84.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4936.gpml (WP4936_r139767) with a 84.0% conversion rate.</Comment>
   <Graphics BoardWidth="1740.4490398818316" BoardHeight="929.0" />
   <DataNode TextLabel="Phagophore" GraphId="a1420" Type="CellularComponent" GroupRef="d49cf">
     <Graphics CenterX="279.8153131445549" CenterY="573.1626767171144" Width="90.0" Height="25.0" ZOrder="28672" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" />
@@ -916,6 +910,11 @@ phosphorylation induced by SARS-CoV-2 infection.</Comment>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID-19</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080600</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered autophagy pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001562</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
@@ -933,11 +932,6 @@ phosphorylation induced by SARS-CoV-2 infection.</Comment>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexey Stukalov, Virginie Girault, Vincent Grass, Valter Bergant, Ozge Karayel, Christian Urban, Darya A. Haas, Yiqi Huang, Lila Oubraham, Anqi Wang, Sabri M. Hamad, Antonio Piras, Maria Tanzer, Fynn M. Hansen, Thomas Enghleitner, Maria Reinecke, Teresa M. Lavacca, Rosina Ehmann, Roman Wölfel, Jörg Jores, Bernhard Kuster, Ulrike Protzer, Roland Rad, John Ziebuhr, Volker Thiel, Pietro Scaturro, Matthias Mann, Andreas Pichlmair</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID-19</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0080600</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
