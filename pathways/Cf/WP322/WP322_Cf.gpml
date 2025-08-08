@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Osteoblast signaling" Data-Source="WikiPathways" Version="WP322_Cf" Last-Modified="20250307045314" Organism="Canis familiaris">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Osteoblast signaling" Data-Source="WikiPathways" Version="WP322_Cf" Last-Modified="20250807080653" Organism="Canis familiaris">
   <Comment Source="WikiPathways-description">Osteoblasts are specialized, terminally differentiated cell of mesenchymal origin. They create dense, crosslinked collagen and also specialized proteins, including osteocalcin and osteopontin. This pathway illustrates various signaling pathways in osteoblasts relevant to collagen and protein production.
 
 Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP322)</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP322.gpml (WP322_r137683) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP322.gpml (WP322_r140211) with a 96.0% conversion rate.</Comment>
   <Graphics BoardWidth="1029.6867469879526" BoardHeight="742.0" />
   <DataNode TextLabel="PTH" GraphId="a1d" Type="Protein">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Canis familiaris: Original ID = L:5741</Comment>
@@ -83,7 +83,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <Graphics CenterX="551.1927710843374" CenterY="450.18072289156623" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845012504" />
   </DataNode>
-  <DataNode TextLabel="Na+" GraphId="d0189" Type="Metabolite">
+  <DataNode TextLabel="Na⁺" GraphId="d0189" Type="Metabolite">
     <Graphics CenterX="342.14859437751005" CenterY="495.8032128514062" Width="23.702811244979898" Height="22.39357429718757" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Oval" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29101" />
   </DataNode>
@@ -119,7 +119,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <Graphics CenterX="863.9979919678726" CenterY="118.27309236947798" Width="124.00401606425476" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSCAFG00845020842" />
   </DataNode>
-  <DataNode TextLabel="Na+" GraphId="edb" Type="Metabolite">
+  <DataNode TextLabel="Na⁺" GraphId="edb" Type="Metabolite">
     <Graphics CenterX="240.0" CenterY="495.8032128514062" Width="22.0" Height="22.39357429718757" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Oval" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29101" />
   </DataNode>
@@ -342,13 +342,13 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to development</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000650</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to development</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000650</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
