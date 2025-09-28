@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="HIF1A and PPARG in hypertrophic cardiomyopathy" Data-Source="WikiPathways" Version="WP2456_Qc" Last-Modified="20250308063827" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="HIF1A and PPARG in hypertrophic cardiomyopathy" Data-Source="WikiPathways" Version="WP2456_Qc" Last-Modified="20250927191949" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">The genes hypoxia-inducible factor 1A and peroxisome proliferator activated receptor gamma play a role in regulating glycolysis, triacylglyceride synthesis, and ultimately hypertrophic cardiomyopathy.
 
 This diagram is derived from Figure 6D in [PMID:19490906](https://pubmed.ncbi.nlm.nih.gov/19490906/):
@@ -8,7 +8,7 @@ This diagram is derived from Figure 6D in [PMID:19490906](https://pubmed.ncbi.nl
 
 This pathway is part the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP2456).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2456.gpml (WP2456_r137811) with a 81.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP2456.gpml (WP2456_r140643) with a 81.0% conversion rate.</Comment>
   <BiopaxRef>b8b</BiopaxRef>
   <Graphics BoardWidth="811.0" BoardHeight="587.0" />
   <DataNode TextLabel="Triacylglyceride synthesis" GraphId="bf143" Type="Pathway">
@@ -130,7 +130,7 @@ This pathway is part the [CPTAC Assay Portal](https://assays.cancer.gov/availabl
     <Graphics CenterX="627.0" CenterY="244.0" Width="40.0" Height="20.0" ZOrder="32796" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15846" />
   </DataNode>
-  <DataNode TextLabel="H+" GraphId="e09f0" Type="Metabolite" GroupRef="bbd8f">
+  <DataNode TextLabel="H⁺" GraphId="e09f0" Type="Metabolite" GroupRef="bbd8f">
     <Graphics CenterX="666.0" CenterY="217.0" Width="20.0" Height="20.0" ZOrder="32797" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:49637" />
   </DataNode>
@@ -146,7 +146,7 @@ This pathway is part the [CPTAC Assay Portal](https://assays.cancer.gov/availabl
     <Graphics CenterX="629.0" CenterY="330.0" Width="40.0" Height="20.0" ZOrder="32802" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15846" />
   </DataNode>
-  <DataNode TextLabel="H+" GraphId="f0e26" Type="Metabolite" GroupRef="d960d">
+  <DataNode TextLabel="H⁺" GraphId="f0e26" Type="Metabolite" GroupRef="d960d">
     <Graphics CenterX="666.0" CenterY="299.0" Width="20.0" Height="20.0" ZOrder="32803" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:49637" />
   </DataNode>
@@ -174,7 +174,7 @@ This pathway is part the [CPTAC Assay Portal](https://assays.cancer.gov/availabl
     <Graphics CenterX="97.0" CenterY="247.0" Width="40.0" Height="20.0" ZOrder="32811" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16908" />
   </DataNode>
-  <DataNode TextLabel="H+" GraphId="c7f25" Type="Metabolite" GroupRef="ec6d8">
+  <DataNode TextLabel="H⁺" GraphId="c7f25" Type="Metabolite" GroupRef="ec6d8">
     <Graphics CenterX="134.0" CenterY="247.0" Width="20.0" Height="20.0" ZOrder="32812" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:49637" />
   </DataNode>
@@ -182,7 +182,7 @@ This pathway is part the [CPTAC Assay Portal](https://assays.cancer.gov/availabl
     <Graphics CenterX="97.0" CenterY="295.0" Width="40.0" Height="20.0" ZOrder="32813" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16908" />
   </DataNode>
-  <DataNode TextLabel="H+" GraphId="c5c86" Type="Metabolite" GroupRef="fc22b">
+  <DataNode TextLabel="H⁺" GraphId="c5c86" Type="Metabolite" GroupRef="fc22b">
     <Graphics CenterX="134.0" CenterY="295.0" Width="20.0" Height="20.0" ZOrder="32814" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:49637" />
   </DataNode>
@@ -453,9 +453,24 @@ This pathway is part the [CPTAC Assay Portal](https://assays.cancer.gov/availabl
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycolysis/gluconeogenesis pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000025</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000010</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypertrophic cardiomyopathy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11984</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac muscle cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000746</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8b">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19490906</bp:ID>
@@ -479,23 +494,8 @@ This pathway is part the [CPTAC Assay Portal](https://assays.cancer.gov/availabl
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krek W</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac muscle cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000746</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypertrophic cardiomyopathy</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11984</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycolysis/gluconeogenesis pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000025</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000010</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000004</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
