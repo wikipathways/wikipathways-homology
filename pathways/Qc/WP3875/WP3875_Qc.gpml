@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ATR signaling" Data-Source="WikiPathways" Version="WP3875_Qc" Last-Modified="20250502003020" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="ATR signaling" Data-Source="WikiPathways" Version="WP3875_Qc" Last-Modified="20251029233522" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">This pathway is modeled after Figure 1 in the article " ATR signalling: more than meeting at the fork" (See Bibliography). This pathway details the ATR signaling which commences when there is a gap in the single strand DNA. It details the usage of several independent checkpoint proteins which then cause TOPBP1 dependent activation of the phosphorylation and kinase of a large number of substrates including CHK1 to commence regulation of cellular response to DNA damage and replication stress. 
 
 Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3875)</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3875.gpml (WP3875_r138764) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3875.gpml (WP3875_r140852) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>a78</BiopaxRef>
   <Graphics BoardWidth="747.2717086834735" BoardHeight="705.1540616246488" />
   <DataNode TextLabel="ATRIP" GraphId="e216e" Type="GeneProduct" GroupRef="dc741">
@@ -133,7 +133,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <Xref Database="Ensembl" ID="ENSECAG00000023886" />
   </DataNode>
   <State GraphRef="a592f" TextLabel="P" GraphId="a93cb">
-    <Graphics RelX="1.0" RelY="-0.7" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Graphics RelX="1.0" RelY="-0.6666666666666685" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ae025" TextLabel="P" GraphId="b0312">
@@ -141,7 +141,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="e040b" TextLabel="P" GraphId="b9d75">
-    <Graphics RelX="0.9666666666666667" RelY="-0.8" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Graphics RelX="0.9666666666666667" RelY="-0.6666666666666685" Width="15.0" Height="15.0" ShapeType="Oval" />
     <Xref Database="" ID="" />
   </State>
   <State GraphRef="ae025" TextLabel="P" GraphId="d21c8">
@@ -303,6 +303,16 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
   <Group GroupId="d775f" GraphId="e6ae7" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA replication pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000098</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA damage response pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001360</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a78">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21615334</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -312,16 +322,6 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nam EA</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cortez D</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA damage response pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001360</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA replication pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000098</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 
