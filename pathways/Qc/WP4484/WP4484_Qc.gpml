@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Control of immune tolerance by vasoactive intestinal peptide" Data-Source="WikiPathways" Version="WP4484_Qc" Last-Modified="20251103124425" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Control of immune tolerance by vasoactive intestinal peptide" Data-Source="WikiPathways" Version="WP4484_Qc" Last-Modified="20251106171019" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">Control of immune tolerance by VIP controls immune homeostasis. 
 Vasoactive intestinal peptide (VIP) is released from nerve terminals (nervous source) and blood (endocrine source), or produced by T helper 2 (Th2) cells or macrophages (immune source) in response to antigenic and inflammatory stimulation. VIP induces immune tolerance and inhibits the autoimmune response through different non-excluding mechanisms. First, it induces the generation and differentiation of Th2 cells functions and decrease Th1 cell functions through direct actions on differentiating T cells, or indirectly by regulating antigen presenting cell (APC) functions. As a consequence, the inflammatory and autoimmune responses are impaired, and the anti-helminthic and atopic responses are increased, because the infiltration and activation of neutrophils and macrophages by interferon-γ (IFNγ) and the production of complement-activating IgG2 antibodies are avoided. Second, VIP impairs the co-stimulatory activity of APCs on effector T cells, inhibiting subsequent clonal expansion. This avoids the inflammatory response and its cytotoxic effect against the target tissue. Third, VIP induces the generation of regulatory T cells that suppress the activation of autoreactive T cells by producing interleukin-10 (IL-10) and transforming growth factor-β (TGFβ). This effect contributes to the maintenance of an anti-inflammatory state and restores immune tolerance. </Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4484.gpml (WP4484_r141124) with a 88.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4484.gpml (WP4484_r141199) with a 88.0% conversion rate.</Comment>
   <BiopaxRef>e03</BiopaxRef>
   <Graphics BoardWidth="1342.0" BoardHeight="747.2619047619053" />
   <DataNode TextLabel="FAS" Type="GeneProduct">
@@ -104,7 +104,7 @@ Vasoactive intestinal peptide (VIP) is released from nerve terminals (nervous so
   <Interaction GraphId="id1f12f338">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="661.1706848144531" Y="98.0" GraphRef="db9f1" RelX="0.0" RelY="1.0" />
-      <Point X="661.0" Y="170.0" ArrowHead="Arrow" />
+      <Point X="662.3728813559321" Y="189.0" GraphRef="d0c7b" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -119,13 +119,14 @@ Vasoactive intestinal peptide (VIP) is released from nerve terminals (nervous so
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="633.0" Y="189.0" GraphRef="f080c" RelX="1.0" RelY="0.0" />
       <Point X="685.0" Y="189.0" GraphRef="b220e" RelX="-1.0" RelY="0.0" />
+      <Anchor Position="0.5648631029986947" Shape="None" GraphId="d0c7b" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id4978c0c6">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="632.625" Y="529.0" GraphRef="f9e23" RelX="-0.5" RelY="1.0" />
-      <Point X="626.6666666666666" Y="657.1428571428571" ArrowHead="Arrow" />
+      <Point X="621.8365914786966" Y="666.2389724310777" GraphRef="db973" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -139,7 +140,7 @@ Vasoactive intestinal peptide (VIP) is released from nerve terminals (nervous so
   <Interaction GraphId="id67b249d6">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="347.875" Y="529.0" GraphRef="ea870" RelX="0.5" RelY="1.0" />
-      <Point X="355.23809523809524" Y="659.047619047619" ArrowHead="TBar" />
+      <Point X="360.96516290726817" Y="666.2389724310777" GraphRef="a69ae" RelX="0.0" RelY="0.0" ArrowHead="TBar" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -147,6 +148,7 @@ Vasoactive intestinal peptide (VIP) is released from nerve terminals (nervous so
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="644.0" Y="244.0" GraphRef="a9a88" RelX="1.0" RelY="0.0" />
       <Point X="685.0" Y="244.0" GraphRef="f80af" RelX="-1.0" RelY="0.0" />
+      <Anchor Position="0.4713817879661769" Shape="None" GraphId="c7029" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -168,6 +170,7 @@ Vasoactive intestinal peptide (VIP) is released from nerve terminals (nervous so
     <Graphics ZOrder="32788" LineThickness="1.0">
       <Point X="592.5847953216373" Y="648.8903508771926" GraphRef="d969a" RelX="1.0" RelY="0.0" />
       <Point X="665.7142857142854" Y="692.2619047619053" GraphRef="f5aa0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="db973" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -175,6 +178,7 @@ Vasoactive intestinal peptide (VIP) is released from nerve terminals (nervous so
     <Graphics ZOrder="32789" LineThickness="1.0">
       <Point X="392.08479532163733" Y="648.8903508771926" GraphRef="d969a" RelX="-1.0" RelY="0.0" />
       <Point X="314.2857142857144" Y="692.2619047619053" GraphRef="dc704" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="a69ae" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -189,6 +193,13 @@ Vasoactive intestinal peptide (VIP) is released from nerve terminals (nervous so
     <Graphics ZOrder="32791" LineThickness="1.0">
       <Point X="774.625" Y="284.0" GraphRef="c9671" RelX="-0.5" RelY="1.0" />
       <Point X="347.875" Y="400.5" GraphRef="ea870" RelX="0.5" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e8c4d">
+    <Graphics ZOrder="32792" LineThickness="1.0">
+      <Point X="661.1706848144531" Y="98.0" GraphRef="db9f1" RelX="0.0" RelY="1.0" />
+      <Point X="663.3266533066133" Y="244.0" GraphRef="c7029" RelX="0.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -302,13 +313,38 @@ Vasoactive intestinal peptide (VIP) is released from nerve terminals (nervous so
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to immunity</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000818</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-helper 2 cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000546</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-helper 1 cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000545</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000084</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000236</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory T cell</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000815</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">professional antigen presenting cell</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000145</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000235</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e03">
@@ -322,38 +358,13 @@ Vasoactive intestinal peptide (VIP) is released from nerve terminals (nervous so
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delgado M</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000084</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-helper 1 cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000545</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">professional antigen presenting cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000145</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000236</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000235</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-helper 2 cell</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000546</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homeostasis pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000355</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway pertinent to immunity</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000818</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
