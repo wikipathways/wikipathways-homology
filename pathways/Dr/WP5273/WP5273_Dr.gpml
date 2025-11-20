@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Effect of intestinal microbiome on anticoagulant response of vitamin K antagonists" Data-Source="WikiPathways" Version="WP5273_Dr" Last-Modified="20220909105156" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Effect of intestinal microbiome on anticoagulant response of vitamin K antagonists" Data-Source="WikiPathways" Version="WP5273_Dr" Last-Modified="20251120024648" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">A hypothetical pathway showing the interactions of metabolites produced by the intestinal microbiome, which can affects the anticoagulant response of vitamin K antagonists (VKAs).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5273.gpml (WP5273_r123985) with a 87.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5273.gpml (WP5273_r141612) with a 87.0% conversion rate.</Comment>
   <BiopaxRef>e5f</BiopaxRef>
   <Graphics BoardWidth="913.6413133146343" BoardHeight="607.1924131295707" />
   <DataNode TextLabel="nr1i2" GraphId="b05db" Type="Protein">
@@ -160,7 +160,7 @@
   <Interaction GraphId="id93834066">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="363.46764730096123" Y="382.8787706109535" GraphRef="b3d4a" RelX="-1.0" RelY="0.0" />
-      <Point X="285.02361988481573" Y="398.3694292521622" GraphRef="a6b35" RelX="1.0" RelY="-0.5" />
+      <Point X="285.02361988481573" Y="398.3694292521622" GraphRef="b9ee5" RelX="1.0" RelY="-0.5" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -284,6 +284,9 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Label TextLabel="Intestine" GraphId="a935d">
+    <Graphics CenterX="216.0" CenterY="80.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" Color="888888" />
+  </Label>
   <Label TextLabel="VKA" GraphId="b3d4a">
     <Comment>AKA vitamin K antagonist VKA, anticoagulant, "group of substances that reduce blood clotting by reducing the action of vitamin K. The term "vitamin K antagonist" is technically a misnomer, as the drugs do not directly antagonise the action of vitamin K in the pharmacological sense, but rather the recycling of vitamin K." Source: [https://en.wikipedia.org/wiki/Vitamin_K_antagonist]</Comment>
     <Graphics CenterX="395.44632028674323" CenterY="382.8787706109535" Width="63.957345971563996" Height="21.978672985781714" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
@@ -298,28 +301,31 @@
     <Comment>AKA vitamin K antagonist VKA, anticoagulant, "group of substances that reduce blood clotting by reducing the action of vitamin K. The term "vitamin K antagonist" is technically a misnomer, as the drugs do not directly antagonise the action of vitamin K in the pharmacological sense, but rather the recycling of vitamin K." Source: [https://en.wikipedia.org/wiki/Vitamin_K_antagonist]</Comment>
     <Graphics CenterX="478.64537241944504" CenterY="566.2030766366798" Width="134.52606635071194" Height="21.978672985781714" ZOrder="32803" FillColor="ffffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
   </Label>
-  <Shape TextLabel="&#xA;    Intestine" GraphId="c39ae">
+  <Label TextLabel="Liver" GraphId="f7b22">
+    <Graphics CenterX="462.0" CenterY="433.0" Width="90.0" Height="25.0" ZOrder="32805" FillColor="ffffff" FontWeight="Bold" FontSize="14" Valign="Middle" Color="888888" />
+  </Label>
+  <Shape GraphId="c39ae">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="522.8897459165152" CenterY="140.2177445966012" Width="721.5031347962382" Height="168.99529780564262" ZOrder="16384" FontWeight="Bold" FontSize="16" Align="Left" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Shape TextLabel="&#xA;  Liver" GraphId="fbe31">
+  <Shape GraphId="fbe31">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
     <Graphics CenterX="532.3674441865401" CenterY="458.33695174996444" Width="241.02911306702794" Height="99.90455850735316" ZOrder="16384" FontSize="12" Align="Left" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
   </Shape>
-  <Group GroupId="a6b35" GraphId="a6b35" Style="Group" />
+  <Group GroupId="a6b35" GraphId="b9ee5" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000182</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin K deficiency bleeding</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11249</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</bp:Ontology>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin K antagonist drug pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002325</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5f">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35510250</bp:ID>
@@ -341,19 +347,19 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xi Li</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin K antagonist drug pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002325</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin and vitamin metabolites signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001012</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin K deficiency bleeding</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11249</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gut absorptive cell</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000677</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Ontology</bp:Ontology>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>

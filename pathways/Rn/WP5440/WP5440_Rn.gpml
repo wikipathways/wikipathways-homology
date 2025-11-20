@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="EPAC1 and PKA reduction of retinal inflammation" Data-Source="WikiPathways" Version="WP5440_Rn" Last-Modified="20240203181332" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="EPAC1 and PKA reduction of retinal inflammation" Data-Source="WikiPathways" Version="WP5440_Rn" Last-Modified="20251120014804" Organism="Rattus norvegicus">
   <Comment></Comment>
   <Comment Source="WikiPathways-description">Liu et al. (2022) note: "PKA and Epac1 regulated Nek7/NLRP3 signaling proteins. The schematic depicts the signaling pathway of PKA and Epac1 inhibition of Nek7 and NLRP3 signaling proteins to reduce retinal inflammation."
 
 This pathway diagram was derived from https://pfocr.wikipathways.org/figures/PMC8762717__iovs-63-1-14-f009.html.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5440.gpml (WP5440_r128375) with a 83.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP5440.gpml (WP5440_r141591) with a 83.0% conversion rate.</Comment>
   <BiopaxRef>ad5</BiopaxRef>
   <Graphics BoardWidth="543.0" BoardHeight="482.0" />
   <DataNode TextLabel="Nek7" GraphId="afe1d" Type="GeneProduct">
@@ -147,11 +147,6 @@ This pathway diagram was derived from https://pfocr.wikipathways.org/figures/PMC
   <Group GroupId="bd091" GraphId="ce797" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetic retinopathy</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8947</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad5">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35006270</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -166,6 +161,11 @@ This pathway diagram was derived from https://pfocr.wikipathways.org/figures/PMC
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein kinase A (PKA) signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000543</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetic retinopathy</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8947</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
