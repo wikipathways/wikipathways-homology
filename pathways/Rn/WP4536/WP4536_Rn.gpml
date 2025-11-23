@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Genes related to primary cilium development (based on CRISPR)" Data-Source="WikiPathways" Version="WP4536_Rn" Last-Modified="20250310174916" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Genes related to primary cilium development (based on CRISPR)" Data-Source="WikiPathways" Version="WP4536_Rn" Last-Modified="20251123002333" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">The primary cilium is related Hedgehog signaling, embryonic and [brain development](https://www.ncbi.nlm.nih.gov/pubmed/29030052). When it is dysregulated, it leads to [ciliopathies](https://www.ncbi.nlm.nih.gov/pubmed/21210154). 
 The genes in this pathway are related to several ciliary structures, which have been discovered with genome-wide CRISPR-mediated gene disruption.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4536.gpml (WP4536_r137922) with a 96.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4536.gpml (WP4536_r141763) with a 96.0% conversion rate.</Comment>
   <BiopaxRef>a38</BiopaxRef>
   <BiopaxRef>aef</BiopaxRef>
   <BiopaxRef>b8a</BiopaxRef>
@@ -747,7 +747,7 @@ The genes in this pathway are related to several ciliary structures, which have 
   </GraphicalLine>
   <GraphicalLine GraphId="de9bc">
     <Graphics ZOrder="33193" LineStyle="Broken" LineThickness="1.0">
-      <Point X="411.56784191757043" Y="748.4817354143311" GraphRef="a080b" RelX="1.0" RelY="0.0" />
+      <Point X="411.5678419175705" Y="748.4817354143311" GraphRef="a080b" RelX="1.0" RelY="0.0" />
       <Point X="522.1476510067114" Y="697.9865771812081" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
@@ -1195,15 +1195,11 @@ The genes in this pathway are related to several ciliary structures, which have 
   <Group GroupId="b58b1" GraphId="fb956" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aef">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29030052</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary Cilia in Brain Development and Diseases.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Am J Pathol</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Youn YH</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Han YG</bp:AUTHORS>
-    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transport pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000103</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8a">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21210154</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1212,6 +1208,15 @@ The genes in this pathway are related to several ciliary structures, which have 
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waters AM</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beales PL</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aef">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29030052</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary Cilia in Brain Development and Diseases.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Am J Pathol</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Youn YH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Han YG</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a38">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29459677</bp:ID>
@@ -1232,11 +1237,6 @@ The genes in this pathway are related to several ciliary structures, which have 
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen JK</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nachury MV</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transport pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000103</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
   </Biopax>
 </Pathway>
 

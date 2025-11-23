@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Factors and pathways affecting insulin-like growth factor (IGF1)-Akt signaling" Data-Source="WikiPathways" Version="WP3850_Bt" Last-Modified="20250301085856" Organism="Bos taurus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Factors and pathways affecting insulin-like growth factor (IGF1)-Akt signaling" Data-Source="WikiPathways" Version="WP3850_Bt" Last-Modified="20251122134406" Organism="Bos taurus">
   <Comment Source="WikiPathways-description">The signaling pathway that involves insulin-like growth factor 1 (IGF1), and a variety of other components that affect the pathway, plays an important role in the regulation of skeletal muscle growth. The kinase Akt, or protein kinase B (PKB), is a central component in the pathway and is involved in both muscle synthesis, through mammalian target of rapmycin (mTOR) and glycogen synthase kinase 3B (GSK3B), and muscle degradation, through the transcription factors of the FoxO family. The pathway also involves several feedback loops such as the negative feedback of S6K, phosphorylated by mTORC1, which  inhibits IRS, or the positive feedback of mTORC2, which is necessary to maximize the activation of Akt. A variety of other factors and pathways also influence the IGF1-Akt signaling pathway at various points.
 
 Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3850)</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3850.gpml (WP3850_r137217) with a 86.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3850.gpml (WP3850_r141685) with a 86.0% conversion rate.</Comment>
   <BiopaxRef>a03</BiopaxRef>
   <Graphics BoardWidth="1093.0252100840337" BoardHeight="802.8571428571427" />
   <DataNode TextLabel="GSK3B" GraphId="a169c" Type="GeneProduct">
@@ -35,8 +35,9 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <Xref Database="Ensembl" ID="ENSBTAG00000008664" />
   </DataNode>
   <DataNode TextLabel="WASL" GraphId="a8bb6" Type="GeneProduct">
+    <Comment>"N-WASP" originally</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000106299</Comment>
-    <Graphics CenterX="824.5798319327731" CenterY="256.7226890756307" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="824.5798319327731" CenterY="256.7226890756307" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000004643" />
   </DataNode>
   <DataNode TextLabel="mTORC1 complex" GraphId="aa4e9" Type="Complex" GroupRef="b3356">
@@ -94,6 +95,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <Xref Database="Complex Portal" ID="CPX-4402" />
   </DataNode>
   <DataNode TextLabel="ITGB1" GraphId="c7546" Type="GeneProduct">
+    <Comment>"Integrin B1" originally</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000150093</Comment>
     <Graphics CenterX="175.0555555555555" CenterY="127.77933395580456" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000015910" />
@@ -121,6 +123,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <Xref Database="Ensembl" ID="ENSBTAG00000005763" />
   </DataNode>
   <DataNode TextLabel="TNFRSF1A" GraphId="cc7e6" Type="GeneProduct">
+    <Comment>"TNFrec" originally</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000067182</Comment>
     <Graphics CenterX="791.3753501400583" CenterY="662.9794584500452" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000004211" />
@@ -143,6 +146,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <Xref Database="Ensembl" ID="ENSBTAG00000017490" />
   </DataNode>
   <DataNode TextLabel="TNFRSF1A" GraphId="d3cde" Type="GeneProduct">
+    <Comment>"TNFrec" originally</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000067182</Comment>
     <Graphics CenterX="702.0555555555555" CenterY="90.27513227513224" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000004211" />
@@ -188,6 +192,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <Xref Database="" ID="" />
   </DataNode>
   <DataNode TextLabel="IGF1R" GraphId="f5259" Type="GeneProduct">
+    <Comment>"IGF1rec" originally</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000140443</Comment>
     <Graphics CenterX="546.0555555555555" CenterY="90.27513227513224" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000021527" />
@@ -226,6 +231,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <Xref Database="Ensembl" ID="ENSBTAG00000054218" />
   </DataNode>
   <DataNode TextLabel="ACVR2B" GraphId="fca28" Type="GeneProduct">
+    <Comment>"ActRIIB" originally</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Bos taurus: Original ID = En:ENSG00000114739</Comment>
     <Graphics CenterX="175.0555555555555" CenterY="237.98941798941823" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSBTAG00000018105" />
@@ -602,6 +608,9 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Label TextLabel="Myostatin" GraphId="bcb5c">
+    <Graphics CenterX="60.0" CenterY="213.0" Width="70.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
+  </Label>
   <Label TextLabel="Skeletal muscle cell" GraphId="d1d5b">
     <Graphics CenterX="968.3057111733601" CenterY="110.7695300342348" Width="170.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="16" Valign="Middle" Color="666666" />
   </Label>
@@ -618,18 +627,23 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell of skeletal muscle</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000188</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin-like growth factor signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000238</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000168</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a03">
@@ -642,8 +656,8 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammucari C</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000003</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin-like growth factor signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000238</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -654,11 +668,6 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin-like growth factor signaling pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000238</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth factor signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000168</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>

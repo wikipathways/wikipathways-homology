@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Ganglio sphingolipid metabolism" Data-Source="WikiPathways" Version="WP1423_Rn" Last-Modified="20221030201045" Organism="Rattus norvegicus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Ganglio sphingolipid metabolism" Data-Source="WikiPathways" Version="WP1423_Rn" Last-Modified="20251122230750" Organism="Rattus norvegicus">
   <Comment Source="WikiPathways-description">Sphingolipids are metabolites used to make cell-cell and cell-substratum interactions possible. This pathway describes how they are synthesized.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP1423.gpml (WP1423_r124472) with a 100.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP1423.gpml (WP1423_r141744) with a 100.0% conversion rate.</Comment>
   <BiopaxRef>ad1</BiopaxRef>
   <Graphics BoardWidth="1200.2127332347038" BoardHeight="647.9730660186312" />
   <DataNode TextLabel="Fuc-GM1" GraphId="a0976" Type="Metabolite">
@@ -106,6 +106,7 @@
     <Xref Database="Ensembl" ID="ENSRNOG00000004839" />
   </DataNode>
   <DataNode TextLabel="Slc33a1" GraphId="ac2f6" Type="GeneProduct">
+    <Comment>"O-AcetylT" originally</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000169359</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="Slc33A1" />
     <Graphics CenterX="1136.8793999013703" CenterY="112.2861217841286" Width="66.66666666666667" Height="23.333333333333332" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -277,7 +278,7 @@
     <Xref Database="HMDB" ID="HMDB0004938" />
   </DataNode>
   <DataNode TextLabel="St3gal5" GraphId="d4372" Type="GeneProduct">
-    <Comment Source="GenMAPP remarks">2.4.99.9</Comment>
+    <Comment Source="GenMAPP remarks">2.4.99.9, "GM3 Synthase" originally</Comment>
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Rattus norvegicus: Original ID = En:ENSG00000115525</Comment>
     <Attribute Key="org.pathvisio.model.BackpageHead" Value="GM3 Synthase" />
     <Graphics CenterX="346.90730554559167" CenterY="114.34693679376258" Width="80.0" Height="23.333333333333332" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -411,7 +412,7 @@
   </DataNode>
   <Interaction GraphId="id1042acb4">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="757.5507998919768" Y="366.6174924889732" GraphRef="bf69f" RelX="1.0" RelY="0.0" />
+      <Point X="757.5507998919768" Y="366.6174924889732" GraphRef="abba5" RelX="1.0" RelY="0.0" />
       <Point X="786.4320980153907" Y="366.4563993519643" GraphRef="d453f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -456,7 +457,7 @@
   </Interaction>
   <Interaction GraphId="id3374fd42">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="1044.306191408337" Y="375.6848529944873" GraphRef="d7951" RelX="1.0" RelY="0.0" />
+      <Point X="1044.306191408337" Y="375.6848529944873" GraphRef="d1cb5" RelX="1.0" RelY="0.0" />
       <Point X="1069.4320980153905" Y="376.2610953538569" GraphRef="bba51" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -685,7 +686,7 @@
   </Interaction>
   <Interaction GraphId="id80e731bb">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="498.0357212037988" Y="365.516544279501" GraphRef="dc095" RelX="1.0" RelY="0.0" />
+      <Point X="498.0357212037988" Y="365.516544279501" GraphRef="f3a83" RelX="1.0" RelY="0.0" />
       <Point X="528.0987646820575" Y="365.08192921708957" GraphRef="d3e38" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -707,7 +708,7 @@
   </Interaction>
   <Interaction GraphId="id95d0939f">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="575.4994893197372" Y="467.65422543892095" GraphRef="db6ef" RelX="-1.0" RelY="0.0" />
+      <Point X="575.4994893197372" Y="467.65422543892095" GraphRef="a20b6" RelX="-1.0" RelY="0.0" />
       <Point X="528.0987646820575" Y="466.9897326852976" GraphRef="e4eb7" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -781,7 +782,7 @@
   </Interaction>
   <Interaction GraphId="idc0311568">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="244.79114504494083" Y="366.1082775328049" GraphRef="fb2b8" RelX="-1.0" RelY="0.0" />
+      <Point X="244.79114504494083" Y="366.1082775328049" GraphRef="e1f01" RelX="-1.0" RelY="0.0" />
       <Point X="218.4320980153909" Y="366.2379985812514" GraphRef="fefde" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -866,7 +867,7 @@
   </Interaction>
   <Interaction GraphId="ided3dda06">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="903.9986640205689" Y="123.81991675202192" GraphRef="b5944" RelX="0.0" RelY="1.0" />
+      <Point X="903.9986640205689" Y="123.81991675202192" GraphRef="e309e" RelX="0.0" RelY="1.0" />
       <Point X="903.9015585163539" Y="152.123066018631" GraphRef="f60f3" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -923,17 +924,22 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Group GroupId="db6ef" GraphId="db6ef" Style="Group" />
-  <Group GroupId="bf69f" GraphId="bf69f" Style="Group" />
-  <Group GroupId="d7951" GraphId="d7951" Style="Group" />
-  <Group GroupId="fb2b8" GraphId="fb2b8" Style="Group" />
-  <Group GroupId="b5944" GraphId="b5944" Style="Group" />
-  <Group GroupId="dc095" GraphId="dc095" Style="Group" />
+  <Group GroupId="db6ef" GraphId="a20b6" Style="Group" />
+  <Group GroupId="bf69f" GraphId="abba5" Style="Group" />
+  <Group GroupId="d7951" GraphId="d1cb5" Style="Group" />
+  <Group GroupId="fb2b8" GraphId="e1f01" Style="Group" />
+  <Group GroupId="b5944" GraphId="e309e" Style="Group" />
+  <Group GroupId="dc095" GraphId="f3a83" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ganglioside metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000164</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid biosynthetic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000162</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000197</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad1">
@@ -945,13 +951,8 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merrill AH Jr</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000197</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sphingolipid biosynthetic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000162</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ganglioside metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000164</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
