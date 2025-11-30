@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hepatitis C and hepatocellular carcinoma" Data-Source="WikiPathways" Version="WP3646_Dr" Last-Modified="20250227232415" Organism="Danio rerio">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hepatitis C and hepatocellular carcinoma" Data-Source="WikiPathways" Version="WP3646_Dr" Last-Modified="20251129131108" Organism="Danio rerio">
   <Comment Source="WikiPathways-description">Pathway model based on hub miRNAs and their putative targets from network analysis.
 * From a set of differentially expressed genes in both chronic HCV (hepatitis C virus) and HCC (hepatocellular carcinoma) samples, a protein-protein network was constructed using [STRING](http://string-db.org/) and [GeneMANIA](http://genemania.org/).
 * After topological analysis and network visualization in Cytoscape, the top hub genes were identified.
@@ -9,7 +9,7 @@ Based on Figure 4 from Poortahmasebi et al, How Hepatitis C Virus Leads to Hepat
 
 Proteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3646).</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3646.gpml (WP3646_r137152) with a 88.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP3646.gpml (WP3646_r142011) with a 88.0% conversion rate.</Comment>
   <BiopaxRef>a34</BiopaxRef>
   <Graphics BoardWidth="1150.7983193277314" BoardHeight="862.8571428571429" />
   <DataNode TextLabel="birc2" GraphId="a0439" Type="GeneProduct">
@@ -216,7 +216,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
   </DataNode>
   <DataNode TextLabel="casp9" GraphId="e2ab8" Type="GeneProduct">
     <Comment Source="HomologyMapper">Homology Mapping from Homo sapiens to Danio rerio: Original ID = En:ENSG00000132906</Comment>
-    <Graphics CenterX="779.8949579831931" CenterY="38.65546218487394" Width="57.857142857143025" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Graphics CenterX="781.8949579831931" CenterY="38.65546218487394" Width="57.857142857143025" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Ensembl" ID="ENSDARG00000004325" />
   </DataNode>
   <DataNode TextLabel="ccnd1" GraphId="e49a0" Type="GeneProduct" GroupRef="f4c0f">
@@ -887,7 +887,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
   <Interaction GraphId="idda1a7aee">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="678.6554621848741" Y="38.65546218487388" GraphRef="b9f62" RelX="1.0" RelY="0.0" />
-      <Point X="750.9663865546215" Y="38.65546218487394" GraphRef="e2ab8" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
+      <Point X="752.9663865546215" Y="38.65546218487394" GraphRef="e2ab8" RelX="-1.0" RelY="0.0" ArrowHead="mim-inhibition" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -935,7 +935,7 @@ Proteins on this pathway have targeted assays available via the [CPTAC Assay Por
   </Interaction>
   <Interaction GraphId="idedc9148a">
     <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="808.8235294117646" Y="38.65546218487394" GraphRef="e2ab8" RelX="1.0" RelY="0.0" />
+      <Point X="810.8235294117646" Y="38.65546218487394" GraphRef="e2ab8" RelX="1.0" RelY="0.0" />
       <Point X="873.8655462184871" Y="38.65546218487394" GraphRef="efcb3" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
