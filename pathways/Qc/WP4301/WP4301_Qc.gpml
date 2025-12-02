@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inhibition of exosome biogenesis and secretion by manumycin A in CRPC cells" Data-Source="WikiPathways" Version="WP4301_Qc" Last-Modified="20250501010604" Organism="Equus caballus">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Inhibition of exosome biogenesis and secretion by manumycin A in CRPC cells" Data-Source="WikiPathways" Version="WP4301_Qc" Last-Modified="20251201120039" Organism="Equus caballus">
   <Comment Source="WikiPathways-description">Schematic representation of inhibition of exosome biogenesis and secretion by the antibiotic Manumycin A (MA) in castration-resistant prostate cancer cells (CRPC) cells. The inhibition of Ras/Raf/ERK1/2 pathway by MA leads to transcriptional down-regulation of hnRNP H1. A decrease in hnRNP H1 transcripts leads to inhibition of exosome biogenesis and secretion by suppressing ALIX and RAB27A. 
 Description from Datta et al.</Comment>
   <Comment Source="ECO">ECO:0007481 - biological system reconstruction evidence based on orthology evidence used in automatic assertion</Comment>
-  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4301.gpml (WP4301_r138745) with a 92.0% conversion rate.</Comment>
+  <Comment Source="HomologyMapper">This pathway was inferred from Homo sapiens pathway WP4301.gpml (WP4301_r142102) with a 92.0% conversion rate.</Comment>
   <BiopaxRef>fef</BiopaxRef>
   <Graphics BoardWidth="1225.0" BoardHeight="897.0833333333334" />
   <DataNode TextLabel="Manumycin A" GraphId="c96d2" Type="Metabolite">
@@ -450,6 +450,11 @@ Description from Datta et al.</Comment>
   <Group GroupId="b26f5" GraphId="feab5" Style="Group" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ras family mediated signaling pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000158</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fef">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28844715</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -476,11 +481,6 @@ Description from Datta et al.</Comment>
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplastic cell</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0001063</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ras family mediated signaling pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000158</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate cancer</bp:TERM>
